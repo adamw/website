@@ -7,8 +7,8 @@ import net.ruippeixotog.scalascraper.dsl.DSL.Parse.*
 import org.warski.website.model.{Talk, Uri, Video}
 import org.warski.website.persistence.{CommitDataFiles, PersistentModel}
 
-import java.time.{Instant, LocalDate, YearMonth, ZoneOffset}
 import java.time.format.DateTimeFormatter
+import java.time.{Instant, YearMonth, ZoneOffset}
 import java.util.UUID
 import scala.io.StdIn
 
@@ -32,8 +32,11 @@ def addTalk(): Unit =
   println("Slides url: ")
   val slidesUrl = noneIfEmpty(StdIn.readLine().trim).map(Uri(_))
 
-  println("Video tags: ")
-  val tags = readTags()
+  val tags = video match
+    case Some(v) => v.tags
+    case None =>
+      println("Talk tags: ")
+      readTags()
 
   val talk = Talk(UUID.randomUUID(), talkTitle, Uri(conferenceUrl), None, monthYear, tags, cityCountry, slidesUrl, video.map(_.id))
   PersistentModel.talks.add(talk)
@@ -41,7 +44,7 @@ def addTalk(): Unit =
 
 @main def test =
   println(parseMMYYtoInstant("11/23"))
-  //println(addVideo(Uri("https://www.youtube.com/watch?v=Ia0J0yfxTCA")))
+  // println(addVideo(Uri("https://www.youtube.com/watch?v=Ia0J0yfxTCA")))
 
 def addVideo(url: Uri): Video =
   val browser = JsoupBrowser()
@@ -60,7 +63,7 @@ def addVideo(url: Uri): Video =
   video
 
 private def noneIfEmpty(s: String): Option[String] = if s.isEmpty then None else Some(s)
-private def readTags(): List[String] = StdIn.readLine().split(",").map(_.trim.toLowerCase).toList
+private def readTags(): List[String] = StdIn.readLine().split(",").map(_.trim.toLowerCase).toList.filterNot(_.isEmpty)
 private def parseMMYYtoInstant(dateString: String) =
   val formatter = DateTimeFormatter.ofPattern("MM/yy")
   val date = YearMonth.parse(dateString, formatter).atDay(1)
