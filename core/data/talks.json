@@ -148,5 +148,18 @@
     ],
     "where": "Kraków, Poland",
     "video": "6b6af030-be8e-4df7-8ac4-f496743fa1b4"
+  },
+  {
+    "id": "eb541fc9-11b7-41e6-9c11-f5fd18e6cef3",
+    "title": "Direct style Scala – panel dyskusyjny",
+    "url": "https://www.meetup.com/pl-PL/krakow-scala-user-group/",
+    "created": "2023-04-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "ox",
+      "functional programming",
+      "effects"
+    ],
+    "where": "Kraków, Poland"
   }
 ]
