@@ -18,4 +18,4 @@ case class Talk(
     video: Option[UUID]
 ) extends ActivityMetaData(id, title, url, coverImage, created, tags)
 object Talk:
-  given JsonValueCodec[Talk] = JsonCodecMaker.make
+  given JsonValueCodec[Vector[Talk]] = JsonCodecMaker.make
