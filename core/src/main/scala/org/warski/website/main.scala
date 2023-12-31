@@ -7,7 +7,7 @@ import net.ruippeixotog.scalascraper.dsl.DSL.Parse.*
 import org.warski.website.model.{Talk, Uri, Video}
 import org.warski.website.persistence.{CommitDataFiles, PersistentModel}
 
-import java.time.{Instant, LocalDate, ZoneOffset}
+import java.time.{Instant, LocalDate, YearMonth, ZoneOffset}
 import java.time.format.DateTimeFormatter
 import java.util.UUID
 import scala.io.StdIn
@@ -39,7 +39,9 @@ def addTalk(): Unit =
   PersistentModel.talks.add(talk)
   CommitDataFiles.run(s"Adding talk $talkTitle ($conferenceName)")
 
-@main def test = println(addVideo(Uri("https://www.youtube.com/watch?v=Ia0J0yfxTCA")))
+@main def test =
+  println(parseMMYYtoInstant("11/23"))
+  //println(addVideo(Uri("https://www.youtube.com/watch?v=Ia0J0yfxTCA")))
 
 def addVideo(url: Uri): Video =
   val browser = JsoupBrowser()
@@ -61,7 +63,7 @@ private def noneIfEmpty(s: String): Option[String] = if s.isEmpty then None else
 private def readTags(): List[String] = StdIn.readLine().split(",").map(_.trim.toLowerCase).toList
 private def parseMMYYtoInstant(dateString: String) =
   val formatter = DateTimeFormatter.ofPattern("MM/yy")
-  val date = LocalDate.parse(dateString, formatter).withDayOfMonth(1)
+  val date = YearMonth.parse(dateString, formatter).atDay(1)
   val dateTime = date.atStartOfDay
   val zonedDateTime = dateTime.atZone(ZoneOffset.UTC)
   zonedDateTime.toInstant
