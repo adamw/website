@@ -1,9 +1,17 @@
 [
   {
-    "id": "d26d357a-c51a-4e88-b4e1-ee5310396ec7",
+    "id": "e0b300b8-4c3b-4556-8291-cd60991d0bde",
     "title": "Building a concurrency library on top of Loom by Adam Warski | Scala Matters Meet-up",
     "url": "https://www.youtube.com/watch?v=Ia0J0yfxTCA",
     "coverImage": "https://i.ytimg.com/vi/Ia0J0yfxTCA/maxresdefault.jpg",
-    "created": "2023-12-07T07:42:12Z"
+    "created": "2023-12-07T07:42:12Z",
+    "tags": [
+      "scala",
+      "loom",
+      "concurrency",
+      "structural concurrency",
+      "effects",
+      "java"
+    ]
   }
 ]
