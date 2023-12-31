@@ -44,5 +44,20 @@
       "functional programming",
       "effects"
     ]
+  },
+  {
+    "id": "3addefe6-4afc-46ce-9909-7a93cd8936eb",
+    "title": "???",
+    "url": "https://replay23.devoxx.pl/app/detail/session-detail/128181",
+    "created": "2023-12-31T11:27:58.892787Z",
+    "tags": [
+      "scala",
+      "loom",
+      "concurrency",
+      "structural concurrency",
+      "effects",
+      "java",
+      "ox"
+    ]
   }
 ]
