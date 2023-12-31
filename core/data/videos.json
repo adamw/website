@@ -35,7 +35,7 @@
   },
   {
     "id": "b657fa3b-b569-4df2-8b11-723bc0d55294",
-    "title": "Unison: program differently by Adam Warski | Lambda Days 2023",
+    "title": "Unison: program differently by Adam Warski",
     "url": "https://www.youtube.com/watch?v=Z-fUqrvmxgo&list=PLvL2NEhYV4ZstyXdGr45y-nZv_t5vyHQO&index=20",
     "coverImage": "https://i.ytimg.com/vi/Z-fUqrvmxgo/hqdefault.jpg",
     "created": "2023-06-16T15:11:36Z",
@@ -43,21 +43,6 @@
       "unison",
       "functional programming",
       "effects"
-    ]
-  },
-  {
-    "id": "3addefe6-4afc-46ce-9909-7a93cd8936eb",
-    "title": "???",
-    "url": "https://replay23.devoxx.pl/app/detail/session-detail/128181",
-    "created": "2023-12-31T11:27:58.892787Z",
-    "tags": [
-      "scala",
-      "loom",
-      "concurrency",
-      "structural concurrency",
-      "effects",
-      "java",
-      "ox"
     ]
   }
 ]
