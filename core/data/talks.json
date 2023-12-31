@@ -161,5 +161,21 @@
       "effects"
     ],
     "where": "Kraków, Poland"
+  },
+  {
+    "id": "58630ec0-bba3-43c8-8790-480d4f5db785",
+    "title": "Oxes, Tapirs and Sttps",
+    "url": "https://www.scalar-conf.com",
+    "created": "2023-04-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "ox",
+      "effects",
+      "loom",
+      "tapir",
+      "http"
+    ],
+    "where": "Warszawa, Poland",
+    "video": "50aa35e1-041f-46cd-93aa-52b9636ff5b2"
   }
 ]

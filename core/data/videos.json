@@ -77,5 +77,20 @@
       "cats-effect",
       "loom"
     ]
+  },
+  {
+    "id": "50aa35e1-041f-46cd-93aa-52b9636ff5b2",
+    "title": "Adam Warski OXES, TAPIRS AND STTPS  Scalar Conference 2023",
+    "url": "https://www.youtube.com/watch?v=5tPIvamY3g8",
+    "coverImage": "https://i.ytimg.com/vi/5tPIvamY3g8/maxresdefault.jpg",
+    "created": "2023-04-11T10:56:07Z",
+    "tags": [
+      "scala",
+      "ox",
+      "effects",
+      "loom",
+      "tapir",
+      "http"
+    ]
   }
 ]
