@@ -44,5 +44,25 @@
       "java"
     ],
     "where": "Cluj-Napoca, Romania"
+  },
+  {
+    "id": "01d5c0b0-57cf-45ac-83d6-f53f8b973f7e",
+    "title": "Concurrency in Scala and on the JVM",
+    "url": "https://scaladays.org",
+    "created": "2023-09-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "java",
+      "unison",
+      "concurrency",
+      "zio",
+      "cats-effect",
+      "effects",
+      "loom",
+      "ox"
+    ],
+    "where": "Madrid, Spain",
+    "slides": "http://www.warski.org/blog/wp-content/uploads/2023/09/concurrency-in-scala-and-on-the-jvm.pdf",
+    "video": "e285c8bb-5a23-40f3-a4d9-4626f1df9a37"
   }
 ]
