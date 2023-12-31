@@ -12,7 +12,9 @@ import java.time.format.DateTimeFormatter
 import java.util.UUID
 import scala.io.StdIn
 
-@main def addTalk(url: String): Unit =
+@main def addTalks(): Unit = while (true) addTalk()
+
+def addTalk(): Unit =
   println("Conference name: ")
   val conferenceName = StdIn.readLine().trim
   println("Conference url: ")
