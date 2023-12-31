@@ -47,18 +47,24 @@ def addTalk(): Unit =
   // println(addVideo(Uri("https://www.youtube.com/watch?v=Ia0J0yfxTCA")))
 
 def addVideo(url: Uri): Video =
-  val browser = JsoupBrowser()
-  val doc = browser.get(url.toString)
+  val video = if url.toString.contains("youtube") then
+    val browser = JsoupBrowser()
+    val doc = browser.get(url.toString)
 
-  val title = (doc >> attr("content")("meta[name=title]")).trim
-  val coverImage = noneIfEmpty((doc >> attr("content")("meta[property=og:image]")).trim)
-  val created = Instant.ofEpochMilli(
-    (doc >> extractor("meta[itemprop=datePublished]", attr("content"), asDateTime("yyyy-MM-dd'T'HH:mm:ssZ"))).toInstant.getMillis
-  )
-  println("Video tags: ")
-  val tags = readTags()
+    val title = (doc >> attr("content")("meta[name=title]")).trim
+    val coverImage = noneIfEmpty((doc >> attr("content")("meta[property=og:image]")).trim)
+    val created = Instant.ofEpochMilli(
+      (doc >> extractor("meta[itemprop=datePublished]", attr("content"), asDateTime("yyyy-MM-dd'T'HH:mm:ssZ"))).toInstant.getMillis
+    )
+    println("Video tags: ")
+    val tags = readTags()
 
-  val video = Video(UUID.randomUUID(), title, url, coverImage.map(Uri(_)), created, tags)
+    Video(UUID.randomUUID(), title, url, coverImage.map(Uri(_)), created, tags)
+  else
+    println("Video tags: ")
+    val tags = readTags()
+    Video(UUID.randomUUID(), "???", url, None, Instant.now(), tags)
+
   PersistentModel.videos.add(video)
   video
 
