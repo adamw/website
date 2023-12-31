@@ -112,5 +112,23 @@
       "openapi"
     ],
     "where": "Vilnius, Lithuania"
+  },
+  {
+    "id": "74fcf42c-37f2-487a-a463-cc5eaa795e7b",
+    "title": "Effects: To Be Or Not To Be?",
+    "url": "https://www.jug.ch",
+    "created": "2023-05-01T00:00:00Z",
+    "tags": [
+      "effects",
+      "scala",
+      "java",
+      "unison",
+      "functional programming",
+      "zio",
+      "cats-effect",
+      "loom"
+    ],
+    "where": "Zurich, Switzerland",
+    "slides": "http://www.warski.org/blog/wp-content/uploads/2023/08/Effects-to-be-or-not-to-be.pdf"
   }
 ]
