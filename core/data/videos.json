@@ -60,5 +60,22 @@
       "java",
       "ox"
     ]
+  },
+  {
+    "id": "6b6af030-be8e-4df7-8ac4-f496743fa1b4",
+    "title": "GeeCON 2023: Adam Warski - Effects: to be or not to be?",
+    "url": "https://www.youtube.com/watch?v=Buh5eOUSh4Y",
+    "coverImage": "https://i.ytimg.com/vi/Buh5eOUSh4Y/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGCAgKyh_MA8=&rs=AOn4CLDPtcnvFe6ElOnex6SRU34bzdk3dw",
+    "created": "2023-10-10T09:53:54Z",
+    "tags": [
+      "effects",
+      "scala",
+      "java",
+      "unison",
+      "functional programming",
+      "zio",
+      "cats-effect",
+      "loom"
+    ]
   }
 ]
