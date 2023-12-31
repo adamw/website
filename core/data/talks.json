@@ -29,5 +29,20 @@
       "java"
     ],
     "where": "Online"
+  },
+  {
+    "id": "d2495234-2025-42a2-b2f8-8808f1c3b9a2",
+    "title": "Building a concurrency library on top of Loom",
+    "url": "https://www.devtalks.ro",
+    "created": "2023-09-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "loom",
+      "concurrency",
+      "structural concurrency",
+      "effects",
+      "java"
+    ],
+    "where": "Cluj-Napoca, Romania"
   }
 ]
