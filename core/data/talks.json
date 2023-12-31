@@ -14,5 +14,20 @@
     ],
     "where": "Paris, France",
     "video": "e0b300b8-4c3b-4556-8291-cd60991d0bde"
+  },
+  {
+    "id": "32379977-ba5c-4d75-84f7-8f30a2ce7743",
+    "title": "Building a concurrency library on top of Loom",
+    "url": "https://nescalas.github.io",
+    "created": "2023-10-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "loom",
+      "concurrency",
+      "structural concurrency",
+      "effects",
+      "java"
+    ],
+    "where": "Online"
   }
 ]
