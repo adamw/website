@@ -32,5 +32,17 @@
       "loom",
       "ox"
     ]
+  },
+  {
+    "id": "b657fa3b-b569-4df2-8b11-723bc0d55294",
+    "title": "Unison: program differently by Adam Warski | Lambda Days 2023",
+    "url": "https://www.youtube.com/watch?v=Z-fUqrvmxgo&list=PLvL2NEhYV4ZstyXdGr45y-nZv_t5vyHQO&index=20",
+    "coverImage": "https://i.ytimg.com/vi/Z-fUqrvmxgo/hqdefault.jpg",
+    "created": "2023-06-16T15:11:36Z",
+    "tags": [
+      "unison",
+      "functional programming",
+      "effects"
+    ]
   }
 ]

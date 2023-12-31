@@ -67,5 +67,18 @@
     "where": "Madrid, Spain",
     "slides": "http://www.warski.org/blog/wp-content/uploads/2023/09/concurrency-in-scala-and-on-the-jvm.pdf",
     "video": "e285c8bb-5a23-40f3-a4d9-4626f1df9a37"
+  },
+  {
+    "id": "e81cd2f2-022f-4e5f-b085-0276afe6973f",
+    "title": "Unison: program differently",
+    "url": "https://www.lambdadays.org/lambdadays2023",
+    "created": "2023-06-01T00:00:00Z",
+    "tags": [
+      "unison",
+      "functional programming",
+      "effects"
+    ],
+    "where": "Kraków, Poland",
+    "video": "b657fa3b-b569-4df2-8b11-723bc0d55294"
   }
 ]
