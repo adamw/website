@@ -97,5 +97,20 @@
     ],
     "where": "Kraków, Poland",
     "video": "f4f8247b-1484-4f35-aa47-102a752b59be"
+  },
+  {
+    "id": "6a8c832d-584b-4d1f-b466-532b585e5a79",
+    "title": "Essence of an HTTP framework",
+    "url": "https://devdays.lt",
+    "created": "2023-05-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "tapir",
+      "http",
+      "framework",
+      "functional pogramming",
+      "openapi"
+    ],
+    "where": "Vilnius, Lithuania"
   }
 ]
