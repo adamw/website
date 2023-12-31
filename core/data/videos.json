@@ -1,7 +1,7 @@
 [
   {
     "id": "e0b300b8-4c3b-4556-8291-cd60991d0bde",
-    "title": "Building a concurrency library on top of Loom by Adam Warski | Scala Matters Meet-up",
+    "title": "Building a concurrency library on top of Loom",
     "url": "https://www.youtube.com/watch?v=Ia0J0yfxTCA",
     "coverImage": "https://i.ytimg.com/vi/Ia0J0yfxTCA/maxresdefault.jpg",
     "created": "2023-12-07T07:42:12Z",
@@ -11,12 +11,13 @@
       "concurrency",
       "structural concurrency",
       "effects",
-      "java"
+      "java",
+      "ox"
     ]
   },
   {
     "id": "e285c8bb-5a23-40f3-a4d9-4626f1df9a37",
-    "title": "Adam Warski - Concurrency in Scala and on the JVM",
+    "title": "Concurrency in Scala and on the JVM",
     "url": "https://www.youtube.com/watch?v=6RYn6mgq77s",
     "coverImage": "https://i.ytimg.com/vi/6RYn6mgq77s/maxresdefault.jpg",
     "created": "2023-10-19T07:14:26Z",
