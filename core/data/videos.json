@@ -44,5 +44,21 @@
       "functional programming",
       "effects"
     ]
+  },
+  {
+    "id": "f4f8247b-1484-4f35-aa47-102a752b59be",
+    "title": "Building a concurrency library on top of Loom",
+    "url": "https://www.youtube.com/watch?v=F6zLLzXw2T4",
+    "coverImage": "https://i.ytimg.com/vi/F6zLLzXw2T4/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEQgWShlMA8=&rs=AOn4CLCqfMoipBMs5QwbF9zXSldEXKTEyg",
+    "created": "2023-06-09T09:23:55Z",
+    "tags": [
+      "scala",
+      "loom",
+      "concurrency",
+      "structural concurrency",
+      "effects",
+      "java",
+      "ox"
+    ]
   }
 ]

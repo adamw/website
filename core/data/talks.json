@@ -80,5 +80,22 @@
     ],
     "where": "Kraków, Poland",
     "video": "b657fa3b-b569-4df2-8b11-723bc0d55294"
+  },
+  {
+    "id": "1001dd01-47c3-4142-be9e-121ef8a98ac4",
+    "title": "Building a concurrency library on top of Loom",
+    "url": "https://devoxx.pl",
+    "created": "2023-05-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "loom",
+      "concurrency",
+      "structural concurrency",
+      "effects",
+      "java",
+      "ox"
+    ],
+    "where": "Kraków, Poland",
+    "video": "f4f8247b-1484-4f35-aa47-102a752b59be"
   }
 ]
