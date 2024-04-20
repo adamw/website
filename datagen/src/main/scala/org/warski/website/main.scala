@@ -38,7 +38,8 @@ def addTalk(): Unit =
       println("Talk tags: ")
       readTags()
 
-  val talk = Talk(UUID.randomUUID(), talkTitle, Uri(conferenceUrl), None, monthYear, tags, cityCountry, slidesUrl, video.map(_.id))
+  val talk =
+    Talk(UUID.randomUUID(), talkTitle, Uri(conferenceUrl), None, monthYear, tags, cityCountry, conferenceName, slidesUrl, video.map(_.id))
   PersistentModel.talks.add(talk)
   CommitDataFiles.run(s"Adding talk $talkTitle ($conferenceName)")
 

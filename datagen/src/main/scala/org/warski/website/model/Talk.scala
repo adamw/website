@@ -11,11 +11,13 @@ case class Talk(
     title: String,
     url: Uri,
     coverImage: Option[Uri],
-    created: Instant,
+    when: Instant,
     tags: List[String],
     where: String,
+    conference: String,
     slides: Option[Uri],
     video: Option[UUID]
-) extends ActivityMetaData(id, title, url, coverImage, created, tags)
+) extends ActivityMetaData(id, title, url, coverImage, when, tags)
+
 object Talk:
   given JsonValueCodec[Vector[Talk]] = JsonCodecMaker.make

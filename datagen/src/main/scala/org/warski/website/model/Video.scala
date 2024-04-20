@@ -6,7 +6,8 @@ import com.github.plokhotnyuk.jsoniter_scala.macros.JsonCodecMaker
 import java.time.Instant
 import java.util.UUID
 
-case class Video(id: UUID, title: String, url: Uri, coverImage: Option[Uri], created: Instant, tags: List[String])
-    extends ActivityMetaData(id, title, url, coverImage, created, tags)
+case class Video(id: UUID, title: String, url: Uri, coverImage: Option[Uri], when: Instant, tags: List[String])
+    extends ActivityMetaData(id, title, url, coverImage, when, tags)
+
 object Video:
   given JsonValueCodec[Vector[Video]] = JsonCodecMaker.make

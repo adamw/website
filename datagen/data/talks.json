@@ -3,7 +3,7 @@
     "id": "1003d375-775a-4e60-b11b-2e68a9e16c81",
     "title": "Building a concurrency library on top of Loom",
     "url": "https://www.umatr.io/scala-matters",
-    "created": "2023-11-01T00:00:00Z",
+    "when": "2023-11-01T00:00:00Z",
     "tags": [
       "scala",
       "loom",
@@ -14,13 +14,14 @@
       "ox"
     ],
     "where": "Paris, France",
+    "conference": "Scala Matters",
     "video": "e0b300b8-4c3b-4556-8291-cd60991d0bde"
   },
   {
     "id": "32379977-ba5c-4d75-84f7-8f30a2ce7743",
     "title": "Building a concurrency library on top of Loom",
     "url": "https://nescalas.github.io",
-    "created": "2023-10-01T00:00:00Z",
+    "when": "2023-10-01T00:00:00Z",
     "tags": [
       "scala",
       "loom",
@@ -30,13 +31,14 @@
       "java",
       "ox"
     ],
-    "where": "Online"
+    "where": "Online",
+    "conference": "NEScala"
   },
   {
     "id": "d2495234-2025-42a2-b2f8-8808f1c3b9a2",
     "title": "Building a concurrency library on top of Loom",
     "url": "https://www.devtalks.ro",
-    "created": "2023-09-01T00:00:00Z",
+    "when": "2023-09-01T00:00:00Z",
     "tags": [
       "scala",
       "loom",
@@ -46,13 +48,14 @@
       "java",
       "ox"
     ],
-    "where": "Cluj-Napoca, Romania"
+    "where": "Cluj-Napoca, Romania",
+    "conference": "DevTalks"
   },
   {
     "id": "01d5c0b0-57cf-45ac-83d6-f53f8b973f7e",
     "title": "Concurrency in Scala and on the JVM",
     "url": "https://scaladays.org",
-    "created": "2023-09-01T00:00:00Z",
+    "when": "2023-09-01T00:00:00Z",
     "tags": [
       "scala",
       "java",
@@ -65,6 +68,7 @@
       "ox"
     ],
     "where": "Madrid, Spain",
+    "conference": "ScalaDays",
     "slides": "http://www.warski.org/blog/wp-content/uploads/2023/09/concurrency-in-scala-and-on-the-jvm.pdf",
     "video": "e285c8bb-5a23-40f3-a4d9-4626f1df9a37"
   },
@@ -72,20 +76,21 @@
     "id": "e81cd2f2-022f-4e5f-b085-0276afe6973f",
     "title": "Unison: program differently",
     "url": "https://www.lambdadays.org/lambdadays2023",
-    "created": "2023-06-01T00:00:00Z",
+    "when": "2023-06-01T00:00:00Z",
     "tags": [
       "unison",
       "functional programming",
       "effects"
     ],
     "where": "Kraków, Poland",
+    "conference": "LambdaDays",
     "video": "b657fa3b-b569-4df2-8b11-723bc0d55294"
   },
   {
     "id": "1001dd01-47c3-4142-be9e-121ef8a98ac4",
     "title": "Building a concurrency library on top of Loom",
     "url": "https://devoxx.pl",
-    "created": "2023-05-01T00:00:00Z",
+    "when": "2023-05-01T00:00:00Z",
     "tags": [
       "scala",
       "loom",
@@ -96,13 +101,14 @@
       "ox"
     ],
     "where": "Kraków, Poland",
+    "conference": "Devoxx Poland",
     "video": "f4f8247b-1484-4f35-aa47-102a752b59be"
   },
   {
     "id": "6a8c832d-584b-4d1f-b466-532b585e5a79",
     "title": "Essence of an HTTP framework",
     "url": "https://devdays.lt",
-    "created": "2023-05-01T00:00:00Z",
+    "when": "2023-05-01T00:00:00Z",
     "tags": [
       "scala",
       "tapir",
@@ -111,13 +117,14 @@
       "functional pogramming",
       "openapi"
     ],
-    "where": "Vilnius, Lithuania"
+    "where": "Vilnius, Lithuania",
+    "conference": "DevDays"
   },
   {
     "id": "74fcf42c-37f2-487a-a463-cc5eaa795e7b",
     "title": "Effects: To Be Or Not To Be?",
     "url": "https://www.jug.ch",
-    "created": "2023-05-01T00:00:00Z",
+    "when": "2023-05-01T00:00:00Z",
     "tags": [
       "effects",
       "scala",
@@ -129,13 +136,14 @@
       "loom"
     ],
     "where": "Zurich, Switzerland",
+    "conference": "Jug Switzerland",
     "slides": "http://www.warski.org/blog/wp-content/uploads/2023/08/Effects-to-be-or-not-to-be.pdf"
   },
   {
     "id": "ad26f1ec-12e6-45d6-aa86-050eb06f5737",
     "title": "Effects: To Be Or Not To Be?",
     "url": "https://geecon.org",
-    "created": "2023-04-01T00:00:00Z",
+    "when": "2023-04-01T00:00:00Z",
     "tags": [
       "effects",
       "scala",
@@ -147,26 +155,28 @@
       "loom"
     ],
     "where": "Kraków, Poland",
+    "conference": "GeeCON",
     "video": "6b6af030-be8e-4df7-8ac4-f496743fa1b4"
   },
   {
     "id": "eb541fc9-11b7-41e6-9c11-f5fd18e6cef3",
     "title": "Direct style Scala – panel dyskusyjny",
     "url": "https://www.meetup.com/pl-PL/krakow-scala-user-group/",
-    "created": "2023-04-01T00:00:00Z",
+    "when": "2023-04-01T00:00:00Z",
     "tags": [
       "scala",
       "ox",
       "functional programming",
       "effects"
     ],
-    "where": "Kraków, Poland"
+    "where": "Kraków, Poland",
+    "conference": "KSUG"
   },
   {
     "id": "58630ec0-bba3-43c8-8790-480d4f5db785",
     "title": "Oxes, Tapirs and Sttps",
     "url": "https://www.scalar-conf.com",
-    "created": "2023-04-01T00:00:00Z",
+    "when": "2023-04-01T00:00:00Z",
     "tags": [
       "scala",
       "ox",
@@ -176,6 +186,7 @@
       "http"
     ],
     "where": "Warszawa, Poland",
+    "conference": "Scalar",
     "video": "50aa35e1-041f-46cd-93aa-52b9636ff5b2"
   }
 ]

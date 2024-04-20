@@ -4,7 +4,7 @@
     "title": "Building a concurrency library on top of Loom",
     "url": "https://www.youtube.com/watch?v=Ia0J0yfxTCA",
     "coverImage": "https://i.ytimg.com/vi/Ia0J0yfxTCA/maxresdefault.jpg",
-    "created": "2023-12-07T07:42:12Z",
+    "when": "2023-12-07T07:42:12Z",
     "tags": [
       "scala",
       "loom",
@@ -20,7 +20,7 @@
     "title": "Concurrency in Scala and on the JVM",
     "url": "https://www.youtube.com/watch?v=6RYn6mgq77s",
     "coverImage": "https://i.ytimg.com/vi/6RYn6mgq77s/maxresdefault.jpg",
-    "created": "2023-10-19T07:14:26Z",
+    "when": "2023-10-19T07:14:26Z",
     "tags": [
       "scala",
       "java",
@@ -38,7 +38,7 @@
     "title": "Unison: program differently by Adam Warski",
     "url": "https://www.youtube.com/watch?v=Z-fUqrvmxgo&list=PLvL2NEhYV4ZstyXdGr45y-nZv_t5vyHQO&index=20",
     "coverImage": "https://i.ytimg.com/vi/Z-fUqrvmxgo/hqdefault.jpg",
-    "created": "2023-06-16T15:11:36Z",
+    "when": "2023-06-16T15:11:36Z",
     "tags": [
       "unison",
       "functional programming",
@@ -50,7 +50,7 @@
     "title": "Building a concurrency library on top of Loom",
     "url": "https://www.youtube.com/watch?v=F6zLLzXw2T4",
     "coverImage": "https://i.ytimg.com/vi/F6zLLzXw2T4/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEQgWShlMA8=&rs=AOn4CLCqfMoipBMs5QwbF9zXSldEXKTEyg",
-    "created": "2023-06-09T09:23:55Z",
+    "when": "2023-06-09T09:23:55Z",
     "tags": [
       "scala",
       "loom",
@@ -66,7 +66,7 @@
     "title": "GeeCON 2023: Adam Warski - Effects: to be or not to be?",
     "url": "https://www.youtube.com/watch?v=Buh5eOUSh4Y",
     "coverImage": "https://i.ytimg.com/vi/Buh5eOUSh4Y/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGCAgKyh_MA8=&rs=AOn4CLDPtcnvFe6ElOnex6SRU34bzdk3dw",
-    "created": "2023-10-10T09:53:54Z",
+    "when": "2023-10-10T09:53:54Z",
     "tags": [
       "effects",
       "scala",
@@ -83,7 +83,7 @@
     "title": "Adam Warski OXES, TAPIRS AND STTPS  Scalar Conference 2023",
     "url": "https://www.youtube.com/watch?v=5tPIvamY3g8",
     "coverImage": "https://i.ytimg.com/vi/5tPIvamY3g8/maxresdefault.jpg",
-    "created": "2023-04-11T10:56:07Z",
+    "when": "2023-04-11T10:56:07Z",
     "tags": [
       "scala",
       "ox",
