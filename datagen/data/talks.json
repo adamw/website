@@ -259,5 +259,17 @@
     ],
     "where": "Warsaw, Poland",
     "conference": "Bolt Warsaw Tech Exchange"
+  },
+  {
+    "id": "8bcb636c-f94a-4e95-a6ab-6a54156f1184",
+    "title": "Exposing an HTTP API using Scala3 (workshop)",
+    "url": "https://www.scale.bythebay.io",
+    "when": "2021-10-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "tapir"
+    ],
+    "where": "Online",
+    "conference": "Scale By The Bay"
   }
 ]
