@@ -354,5 +354,18 @@
     ],
     "where": "Online",
     "conference": "Geekle Worldwide Software Architecture Summit"
+  },
+  {
+    "id": "dfca19aa-304c-4942-b483-325823964953",
+    "title": "Your HTTP endpoints are data, as well!",
+    "when": "2020-12-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "tapir",
+      "functional programming"
+    ],
+    "where": "Online",
+    "conference": "JLove",
+    "video": "666e6189-a268-4038-b0a4-2bb52062a089"
   }
 ]
