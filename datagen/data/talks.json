@@ -341,5 +341,18 @@
     "where": "Online",
     "conference": "Scala in the City",
     "video": "d3472706-ec27-4f9d-9027-44e16f58302a"
+  },
+  {
+    "id": "035ba7fd-bbfa-4ffe-83fd-4627b734b613",
+    "title": "Delivering: from Kafka to WebSockets",
+    "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://events.geekle.us/wsas/&ved=2ahUKEwjAzoa50NGFAxUbGRAIHZ0MBnsQFnoECBUQAQ&usg=AOvVaw1hCNb7F9-g4m3ersfh1o5O",
+    "when": "2021-01-01T00:00:00Z",
+    "tags": [
+      "kafka",
+      "web sockets",
+      "streaming"
+    ],
+    "where": "Online",
+    "conference": "Geekle Worldwide Software Architecture Summit"
   }
 ]
