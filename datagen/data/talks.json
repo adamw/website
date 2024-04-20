@@ -367,5 +367,20 @@
     "where": "Online",
     "conference": "JLove",
     "video": "666e6189-a268-4038-b0a4-2bb52062a089"
+  },
+  {
+    "id": "3b81644c-3428-48c3-8224-310fa65b31f8",
+    "title": "Metaprogramming in Scala 3 by example",
+    "url": "https://www.functionalscala.com",
+    "when": "2020-12-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "scala3",
+      "macros",
+      "metaprogramming"
+    ],
+    "where": "Online",
+    "conference": "FunctionalScala",
+    "video": "b39905a1-bd3a-4d71-bf55-6991cdb00967"
   }
 ]
