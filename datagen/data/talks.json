@@ -450,5 +450,20 @@
     "where": "Online",
     "conference": "FP in the City",
     "video": "4ff1a392-ab8e-4aed-ab62-6555bcaea3b0"
+  },
+  {
+    "id": "b5ead662-f2e2-40dd-98fd-88676723c50a",
+    "title": "Projekt Loom, a może lepszy Future?",
+    "url": "https://www.meetup.com/pl-PL/wroclawjug/",
+    "when": "2020-09-01T00:00:00Z",
+    "tags": [
+      "loom",
+      "java21",
+      "virtual threads",
+      "reactive programming",
+      "concurrency"
+    ],
+    "where": "Online",
+    "conference": "WroJUG"
   }
 ]
