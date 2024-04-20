@@ -438,5 +438,17 @@
     ],
     "where": "Online",
     "conference": "LambdaConf"
+  },
+  {
+    "id": "e03112fe-9cdb-4f22-8974-3105339ca9fe",
+    "title": "Scala 3 panel",
+    "when": "2020-09-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "scala3"
+    ],
+    "where": "Online",
+    "conference": "FP in the City",
+    "video": "4ff1a392-ab8e-4aed-ab62-6555bcaea3b0"
   }
 ]

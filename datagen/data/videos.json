@@ -232,5 +232,16 @@
       "kotlin",
       "java"
     ]
+  },
+  {
+    "id": "4ff1a392-ab8e-4aed-ab62-6555bcaea3b0",
+    "title": "Scala 3 Panel Discussion",
+    "url": "https://www.youtube.com/watch?v=vqHQSWn-HgE&feature=youtu.be",
+    "coverImage": "https://i.ytimg.com/vi/vqHQSWn-HgE/hqdefault.jpg",
+    "when": "2020-10-15T09:42:25Z",
+    "tags": [
+      "scala",
+      "scala3"
+    ]
   }
 ]
