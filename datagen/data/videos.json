@@ -120,5 +120,17 @@
       "softwaremill",
       "personal"
     ]
+  },
+  {
+    "id": "bd1220f3-303d-4934-8180-4594665958e0",
+    "title": "Scala 3 Metaprogramming by Example by Adam Warski",
+    "url": "https://www.youtube.com/watch?v=gimw7xlRGWU",
+    "coverImage": "https://i.ytimg.com/vi/gimw7xlRGWU/maxresdefault.jpg",
+    "when": "2021-07-16T08:07:54Z",
+    "tags": [
+      "scala",
+      "macros",
+      "metaprogramming"
+    ]
   }
 ]

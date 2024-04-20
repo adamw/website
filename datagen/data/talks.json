@@ -271,5 +271,19 @@
     ],
     "where": "Online",
     "conference": "Scale By The Bay"
+  },
+  {
+    "id": "39824e9f-fe75-491a-a5a5-bdf1a73d0c8d",
+    "title": "Scala 3 Metaprogramming by Example",
+    "url": "https://devdays.lt",
+    "when": "2021-06-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "macros",
+      "metaprogramming"
+    ],
+    "where": "Online",
+    "conference": "DevDaysEurope",
+    "video": "bd1220f3-303d-4934-8180-4594665958e0"
   }
 ]
