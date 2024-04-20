@@ -584,5 +584,18 @@
     ],
     "where": "Gdańsk, Poland",
     "conference": "TricityJUG"
+  },
+  {
+    "id": "a5abf524-83be-4aed-9b5c-7f6b1418bd04",
+    "title": "FP + relational databases = ?",
+    "url": "https://www.meetup.com/pl-PL/rzeszow-java-user-group/",
+    "when": "2019-12-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "functional programming",
+      "rdbms"
+    ],
+    "where": "Rzeszów, Poland",
+    "conference": "RzeszówJUG"
   }
 ]
