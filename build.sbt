@@ -26,4 +26,3 @@ lazy val datagen: Project = (project in file("datagen"))
       scalaTest
     )
   )
-  .enablePlugins(SbtTwirl)
