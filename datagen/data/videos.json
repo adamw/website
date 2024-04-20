@@ -329,5 +329,17 @@
       "functional programming",
       "api design"
     ]
+  },
+  {
+    "id": "7c81366a-1181-41ac-ac11-36004ee0c6c9",
+    "title": "Concurrent programming in 2019: Akka, Monix or ZIO? - Adam Warski",
+    "url": "https://www.youtube.com/watch?v=TqJg4AuxEIQ",
+    "coverImage": "https://i.ytimg.com/vi/TqJg4AuxEIQ/maxresdefault.jpg",
+    "when": "2019-07-11T09:04:36Z",
+    "tags": [
+      "scala",
+      "functional programming",
+      "concurrency"
+    ]
   }
 ]

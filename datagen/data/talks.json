@@ -651,5 +651,19 @@
     "where": "Penrith, UK",
     "conference": "scala.world",
     "video": "e88c085a-ffa5-4fc4-b65c-0fade92a4a2d"
+  },
+  {
+    "id": "832086b7-665b-40b1-b975-fabccc220e1d",
+    "title": "Concurrent programming in 2019: Akka, Monix or ZIO?",
+    "url": "https://scaladays.org",
+    "when": "2019-06-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "functional programming",
+      "concurrency"
+    ],
+    "where": "Lausanne, Switzerland",
+    "conference": "ScalaDays",
+    "video": "7c81366a-1181-41ac-ac11-36004ee0c6c9"
   }
 ]
