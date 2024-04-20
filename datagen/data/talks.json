@@ -400,5 +400,18 @@
     "where": "Online",
     "conference": "ScaleByTheBay",
     "video": "1295a3f2-a404-4597-8bed-70edbf31914a"
+  },
+  {
+    "id": "19375228-373b-4dbd-b00d-012696b67f0e",
+    "title": "Definicja API HTTP: to też dane",
+    "url": "https://tech.3camp.pl",
+    "when": "2020-10-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "tapir",
+      "functional programming"
+    ],
+    "where": "Online",
+    "conference": "TECH3Camp"
   }
 ]
