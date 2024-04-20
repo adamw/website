@@ -496,5 +496,16 @@
     "where": "Online",
     "conference": "Scala in the City",
     "video": "5a47c78a-974e-4e85-8096-7a5e87966024"
+  },
+  {
+    "id": "827a904d-42e8-4b99-b2b3-0d37939e4d75",
+    "title": "FP + relational databases = ?",
+    "when": "2020-05-01T00:00:00Z",
+    "tags": [
+      "functional programming",
+      "scala"
+    ],
+    "where": "Online",
+    "conference": "London Scala Talks"
   }
 ]
