@@ -610,5 +610,20 @@
     ],
     "where": "Kraków, Poland",
     "conference": "PolishJug"
+  },
+  {
+    "id": "3af9e23c-b7bd-4405-afd7-f041e62be20f",
+    "title": "Designing programmer-friendly APIs, a tapir case study",
+    "url": "https://scalaconf.ru/2019/",
+    "when": "2019-11-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "tapir",
+      "functional programming",
+      "api design"
+    ],
+    "where": "Moscow, Russia",
+    "conference": "ScalaConf",
+    "video": "7355bd5f-4202-4fce-af73-20a2c7aa8866"
   }
 ]
