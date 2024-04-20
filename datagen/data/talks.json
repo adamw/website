@@ -426,5 +426,17 @@
     "where": "Online",
     "conference": "JVM Wars 2020",
     "video": "1ac101b7-673b-42d1-ab99-1f920bc237e5"
+  },
+  {
+    "id": "57c49f1f-2a5e-40c3-b187-f9c85c1321d5",
+    "title": "Functional Scala CRUD",
+    "url": "https://www.lambdaconf.us",
+    "when": "2020-10-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "functional programming"
+    ],
+    "where": "Online",
+    "conference": "LambdaConf"
   }
 ]
