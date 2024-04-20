@@ -207,5 +207,18 @@
     "where": "London, UK",
     "conference": "Functional Scala",
     "video": "f8d55a13-e3d3-4336-bb2e-1c17bc681d7e"
+  },
+  {
+    "id": "8f6f5a0f-ca3d-4ff9-a633-128c4c7e66b9",
+    "title": "Never say never",
+    "url": "https://sphere.it/event-series/buginnings-in-it/",
+    "when": "2022-11-01T00:00:00Z",
+    "tags": [
+      "softwaremill",
+      "personal"
+    ],
+    "where": "Kraków, Poland",
+    "conference": "BUGinnings",
+    "video": "5fbdfc93-65df-4d80-a2d6-4f17ea85e5a1"
   }
 ]

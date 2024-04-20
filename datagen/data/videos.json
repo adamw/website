@@ -109,5 +109,16 @@
       "cats-effect",
       "loom"
     ]
+  },
+  {
+    "id": "5fbdfc93-65df-4d80-a2d6-4f17ea85e5a1",
+    "title": "Never say never by Adam Warski",
+    "url": "https://www.youtube.com/watch?v=H1T1T6Qf8PI&t=2s",
+    "coverImage": "https://i.ytimg.com/vi/H1T1T6Qf8PI/maxresdefault.jpg",
+    "when": "2022-12-13T15:16:34Z",
+    "tags": [
+      "softwaremill",
+      "personal"
+    ]
   }
 ]
