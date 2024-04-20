@@ -665,5 +665,18 @@
     "where": "Lausanne, Switzerland",
     "conference": "ScalaDays",
     "video": "7c81366a-1181-41ac-ac11-36004ee0c6c9"
+  },
+  {
+    "id": "e1c4ca43-77fd-4503-b0e8-e78be490db14",
+    "title": "From annotations to code: describing HTTP endpoints with tapir",
+    "url": "https://www.geecon.org",
+    "when": "2019-05-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "tapir"
+    ],
+    "where": "Kraków, Poland",
+    "conference": "GeeCON",
+    "video": "abfae6b3-9722-4d28-99ba-dc7a3ce10caf"
   }
 ]

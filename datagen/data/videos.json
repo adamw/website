@@ -341,5 +341,16 @@
       "functional programming",
       "concurrency"
     ]
+  },
+  {
+    "id": "abfae6b3-9722-4d28-99ba-dc7a3ce10caf",
+    "title": "GeeCON 2019: Adam Warski - From annotations to code: describing HTTP endpoints with Tapir",
+    "url": "https://www.youtube.com/watch?v=kpMqZRxvMpg",
+    "coverImage": "https://i.ytimg.com/vi/kpMqZRxvMpg/maxresdefault.jpg",
+    "when": "2019-07-24T16:01:42Z",
+    "tags": [
+      "scala",
+      "tapir"
+    ]
   }
 ]
