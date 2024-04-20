@@ -482,5 +482,19 @@
     "where": "Online",
     "conference": "Geekle Java Summit",
     "video": "798c8da2-5d4d-478f-800d-8c03ea137044"
+  },
+  {
+    "id": "869c17e8-6221-45f7-ad7a-6c774b855398",
+    "title": "Happy eyeballs live-coding using ZIO",
+    "url": "https://www.youtube.com/c/ScalaintheCity/videos",
+    "when": "2020-07-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "zio",
+      "functional programming"
+    ],
+    "where": "Online",
+    "conference": "Scala in the City",
+    "video": "5a47c78a-974e-4e85-8096-7a5e87966024"
   }
 ]

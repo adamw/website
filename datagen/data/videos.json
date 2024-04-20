@@ -258,5 +258,16 @@
       "scala",
       "reactive programming"
     ]
+  },
+  {
+    "id": "5a47c78a-974e-4e85-8096-7a5e87966024",
+    "title": "???",
+    "url": "https://www.signifytechnology.com/blog/2020/07/happy-eyeballs-live-coding-using-zio-by-adam-warski-at-scala-in-the-city",
+    "when": "2024-04-20T20:34:53.405553Z",
+    "tags": [
+      "scala",
+      "zio",
+      "functional programming"
+    ]
   }
 ]
