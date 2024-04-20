@@ -204,5 +204,21 @@
       "macros",
       "metaprogramming"
     ]
+  },
+  {
+    "id": "1295a3f2-a404-4597-8bed-70edbf31914a",
+    "title": "Scale By The Bay 2020: Adam Warski, Project Loom? Better Futures? What’s next for JVM concurrent...",
+    "url": "https://www.youtube.com/watch?v=q3qJH2QuqUA",
+    "coverImage": "https://i.ytimg.com/vi/q3qJH2QuqUA/maxresdefault.jpg",
+    "when": "2020-12-16T22:25:37Z",
+    "tags": [
+      "loom",
+      "virtual threads",
+      "java21",
+      "concurrency",
+      "jvm",
+      "scala",
+      "functional programming"
+    ]
   }
 ]

@@ -382,5 +382,23 @@
     "where": "Online",
     "conference": "FunctionalScala",
     "video": "b39905a1-bd3a-4d71-bf55-6991cdb00967"
+  },
+  {
+    "id": "634926ac-eb4f-46d3-9024-7b511354575b",
+    "title": "Project Loom? Better Futures? What’s next for JVM concurrent programming",
+    "url": "https://www.scale.bythebay.io",
+    "when": "2020-11-01T00:00:00Z",
+    "tags": [
+      "loom",
+      "virtual threads",
+      "java21",
+      "concurrency",
+      "jvm",
+      "scala",
+      "functional programming"
+    ],
+    "where": "Online",
+    "conference": "ScaleByTheBay",
+    "video": "1295a3f2-a404-4597-8bed-70edbf31914a"
   }
 ]
