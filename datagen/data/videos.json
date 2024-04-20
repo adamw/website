@@ -132,5 +132,17 @@
       "macros",
       "metaprogramming"
     ]
+  },
+  {
+    "id": "6bffdd8a-2dd8-45d8-87d3-b707976cc0e1",
+    "title": "Functional WebSockets - Adam Warski",
+    "url": "https://www.youtube.com/watch?v=rR7CK5xDn40",
+    "coverImage": "https://i.ytimg.com/vi/rR7CK5xDn40/maxresdefault.jpg",
+    "when": "2021-11-19T17:25:00Z",
+    "tags": [
+      "scala",
+      "tapir",
+      "web sockets"
+    ]
   }
 ]

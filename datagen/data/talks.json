@@ -285,5 +285,19 @@
     "where": "Online",
     "conference": "DevDaysEurope",
     "video": "bd1220f3-303d-4934-8180-4594665958e0"
+  },
+  {
+    "id": "b6558141-23f6-4448-bbb0-827e059780c2",
+    "title": "Functional WebSockets",
+    "url": "http://www.scalacon.org",
+    "when": "2021-05-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "tapir",
+      "web sockets"
+    ],
+    "where": "Online",
+    "conference": "ScalaCon",
+    "video": "6bffdd8a-2dd8-45d8-87d3-b707976cc0e1"
   }
 ]
