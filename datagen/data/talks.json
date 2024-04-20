@@ -636,5 +636,20 @@
     ],
     "where": "Poznań, Poland",
     "conference": "JUGtoberfest"
+  },
+  {
+    "id": "85682dc0-cb02-4bc1-af4e-99d9e7f8562e",
+    "title": "Designing programmer-friendly APIs, a tapir case study",
+    "url": "http://scala.world",
+    "when": "2019-09-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "tapir",
+      "functional programming",
+      "api design"
+    ],
+    "where": "Penrith, UK",
+    "conference": "scala.world",
+    "video": "e88c085a-ffa5-4fc4-b65c-0fade92a4a2d"
   }
 ]

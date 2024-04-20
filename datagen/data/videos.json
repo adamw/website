@@ -317,5 +317,17 @@
       "functional programming",
       "api design"
     ]
+  },
+  {
+    "id": "e88c085a-ffa5-4fc4-b65c-0fade92a4a2d",
+    "title": "???",
+    "url": "https://youtu.be/I3loMuHnYqw",
+    "when": "2024-04-20T20:42:43.483754Z",
+    "tags": [
+      "scala",
+      "tapir",
+      "functional programming",
+      "api design"
+    ]
   }
 ]
