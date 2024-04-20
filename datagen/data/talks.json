@@ -188,5 +188,24 @@
     "where": "Warszawa, Poland",
     "conference": "Scalar",
     "video": "50aa35e1-041f-46cd-93aa-52b9636ff5b2"
+  },
+  {
+    "id": "fe7537a6-8d78-484b-b80d-ccd7f4984dd6",
+    "title": "Effects: To Be Or Not To Be?",
+    "url": "https://www.functionalscala.com",
+    "when": "2022-12-01T00:00:00Z",
+    "tags": [
+      "effects",
+      "scala",
+      "java",
+      "unison",
+      "functional programming",
+      "zio",
+      "cats-effect",
+      "loom"
+    ],
+    "where": "London, UK",
+    "conference": "Functional Scala",
+    "video": "f8d55a13-e3d3-4336-bb2e-1c17bc681d7e"
   }
 ]

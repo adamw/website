@@ -92,5 +92,22 @@
       "tapir",
       "http"
     ]
+  },
+  {
+    "id": "f8d55a13-e3d3-4336-bb2e-1c17bc681d7e",
+    "title": "Effects: To Be Or Not To Be? By Adam Warski",
+    "url": "https://www.youtube.com/watch?v=sDnNjtkoUVs",
+    "coverImage": "https://i.ytimg.com/vi/sDnNjtkoUVs/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFMgSihlMA8=&rs=AOn4CLBm6XO_qxrEiSSXau4CahxlmepUaw",
+    "when": "2023-01-31T14:36:54Z",
+    "tags": [
+      "effects",
+      "scala",
+      "java",
+      "unison",
+      "functional programming",
+      "zio",
+      "cats-effect",
+      "loom"
+    ]
   }
 ]
