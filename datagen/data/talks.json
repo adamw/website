@@ -597,5 +597,18 @@
     ],
     "where": "Rzeszów, Poland",
     "conference": "RzeszówJUG"
+  },
+  {
+    "id": "aabc5db9-42c2-41ff-a89e-d31e532f7070",
+    "title": "FP + relational databases = ?",
+    "url": "https://www.java.pl",
+    "when": "2019-12-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "functional programming",
+      "rdbms"
+    ],
+    "where": "Kraków, Poland",
+    "conference": "PolishJug"
   }
 ]
