@@ -520,5 +520,18 @@
     "where": "Online",
     "conference": "Scalar",
     "video": "0ec9aa16-7873-48af-a6ca-ab63f575a55f"
+  },
+  {
+    "id": "2d34dc0c-ae1a-4f6d-9227-2f2211fd9ea8",
+    "title": "Endpointy HTTP to też dane!",
+    "url": "https://www.meetup.com/dev-ldz/",
+    "when": "2020-04-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "tapir",
+      "functional programming"
+    ],
+    "where": "Online",
+    "conference": "Dev@LDZ"
   }
 ]
