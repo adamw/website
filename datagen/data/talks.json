@@ -313,5 +313,19 @@
     "where": "Online",
     "conference": "Kafka Summit Europe",
     "video": "0464a863-d459-4771-91ee-e5661ef4f96a"
+  },
+  {
+    "id": "5fb1b007-b4cf-4a72-9eea-b215d8c4bb4e",
+    "title": "Your HTTP endpoints are data, as well!",
+    "url": "https://www.jfokus.se/articles/brownbag21",
+    "when": "2021-03-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "tapir",
+      "functional programming"
+    ],
+    "where": "Online",
+    "conference": "JFokus Brown Bag lunch",
+    "video": "313c99c4-d1ff-4f9c-a84f-3b45192fdd84"
   }
 ]

@@ -155,5 +155,17 @@
       "web sockets",
       "streaming"
     ]
+  },
+  {
+    "id": "313c99c4-d1ff-4f9c-a84f-3b45192fdd84",
+    "title": "Your HTTP endpoints are data, as well - Adam Warski (Jfokus Brown Bag series)",
+    "url": "https://www.youtube.com/watch?v=Zv_0s0VgAvU",
+    "coverImage": "https://i.ytimg.com/vi/Zv_0s0VgAvU/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AH-DoACuAiKAgwIABABGGUgZShlMA8=&rs=AOn4CLDz7p_XTuWXdS_B7_cofkVdbooaeQ",
+    "when": "2021-05-31T08:00:58Z",
+    "tags": [
+      "scala",
+      "tapir",
+      "functional programming"
+    ]
   }
 ]
