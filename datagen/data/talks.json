@@ -299,5 +299,19 @@
     "where": "Online",
     "conference": "ScalaCon",
     "video": "6bffdd8a-2dd8-45d8-87d3-b707976cc0e1"
+  },
+  {
+    "id": "fc83d594-2a79-4fb4-b0d0-456ad511cde8",
+    "title": "Delivering: from Kafka to WebSockets",
+    "url": "https://www.kafka-summit.org",
+    "when": "2021-05-01T00:00:00Z",
+    "tags": [
+      "kafka",
+      "web sockets",
+      "streaming"
+    ],
+    "where": "Online",
+    "conference": "Kafka Summit Europe",
+    "video": "0464a863-d459-4771-91ee-e5661ef4f96a"
   }
 ]

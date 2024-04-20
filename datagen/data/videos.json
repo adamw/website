@@ -144,5 +144,16 @@
       "tapir",
       "web sockets"
     ]
+  },
+  {
+    "id": "0464a863-d459-4771-91ee-e5661ef4f96a",
+    "title": "???",
+    "url": "https://www.confluent.io/events/kafka-summit-europe-2021/delivering-from-kafka-to-websockets/",
+    "when": "2024-04-20T20:25:22.811160Z",
+    "tags": [
+      "kafka",
+      "web sockets",
+      "streaming"
+    ]
   }
 ]
