@@ -625,5 +625,16 @@
     "where": "Moscow, Russia",
     "conference": "ScalaConf",
     "video": "7355bd5f-4202-4fce-af73-20a2c7aa8866"
+  },
+  {
+    "id": "aed27390-c60a-474e-84fc-219a5e22de41",
+    "title": "CRUD, ale funkcyjnie w Scali",
+    "when": "2019-10-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "functional programming"
+    ],
+    "where": "Poznań, Poland",
+    "conference": "JUGtoberfest"
   }
 ]
