@@ -547,5 +547,16 @@
     "where": "Online",
     "conference": "ScalaLove",
     "video": "b747485c-bf99-431d-8e60-0cc9a72aa34d"
+  },
+  {
+    "id": "392b886e-17ce-4685-a2bf-8da3a67cbfd4",
+    "title": "A functional Scala stack for 2020",
+    "when": "2020-01-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "functional programming"
+    ],
+    "where": "Minsk, Belarus",
+    "conference": "F(by)"
   }
 ]
