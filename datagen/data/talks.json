@@ -246,5 +246,18 @@
     "where": "Online",
     "conference": "SE Radio",
     "audio": "https://www.se-radio.net/2022/11/episode-537-adam-warski-on-scala-and-tapir/"
+  },
+  {
+    "id": "99b76c15-e30e-4167-a45d-e7dc8c304315",
+    "title": "Delivering: from Kafka to web sockets",
+    "url": "https://bolt.eu/en/blog/event-recap-warsaw-tech-exchange/",
+    "when": "2022-04-01T00:00:00Z",
+    "tags": [
+      "kafka",
+      "web sockets",
+      "streaming"
+    ],
+    "where": "Warsaw, Poland",
+    "conference": "Bolt Warsaw Tech Exchange"
   }
 ]
