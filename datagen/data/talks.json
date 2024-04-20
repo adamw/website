@@ -244,6 +244,7 @@
       "tapir"
     ],
     "where": "Online",
-    "conference": "SE Radio"
+    "conference": "SE Radio",
+    "audio": "https://www.se-radio.net/2022/11/episode-537-adam-warski-on-scala-and-tapir/"
   }
 ]

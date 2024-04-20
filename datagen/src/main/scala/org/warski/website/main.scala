@@ -18,7 +18,7 @@ def addTalk(): Unit =
   println("Conference name: ")
   val conferenceName = StdIn.readLine().trim
   println("Conference url: ")
-  val conferenceUrl = StdIn.readLine().trim
+  val conferenceUrl = noneIfEmpty(StdIn.readLine().trim)
   println("Talk title: ")
   val talkTitle = StdIn.readLine().trim
   println("mm/yy: ")
@@ -39,7 +39,19 @@ def addTalk(): Unit =
       readTags()
 
   val talk =
-    Talk(UUID.randomUUID(), talkTitle, Uri(conferenceUrl), None, monthYear, tags, cityCountry, conferenceName, slidesUrl, video.map(_.id))
+    Talk(
+      UUID.randomUUID(),
+      talkTitle,
+      conferenceUrl.map(Uri(_)),
+      None,
+      monthYear,
+      tags,
+      cityCountry,
+      conferenceName,
+      slidesUrl,
+      video.map(_.id),
+      None
+    )
   PersistentModel.talks.add(talk)
   CommitDataFiles.run(s"Adding talk $talkTitle ($conferenceName)")
 
