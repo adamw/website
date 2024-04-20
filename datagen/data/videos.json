@@ -243,5 +243,20 @@
       "scala",
       "scala3"
     ]
+  },
+  {
+    "id": "798c8da2-5d4d-478f-800d-8c03ea137044",
+    "title": "Project Loom? Better Futures? What’s next for JVM concurrent programming",
+    "url": "https://www.youtube.com/watch?v=_fFzyY_7UmA&feature=youtu.be",
+    "coverImage": "https://i.ytimg.com/vi/_fFzyY_7UmA/maxresdefault.jpg",
+    "when": "2020-08-12T12:59:56Z",
+    "tags": [
+      "loom",
+      "java21",
+      "virtual threads",
+      "concurrency",
+      "scala",
+      "reactive programming"
+    ]
   }
 ]

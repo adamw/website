@@ -465,5 +465,22 @@
     ],
     "where": "Online",
     "conference": "WroJUG"
+  },
+  {
+    "id": "bdff4f41-81e6-4e98-b674-8ff31d28ffba",
+    "title": "Project Loom? Better Futures? What’s next for JVM concurrent programming",
+    "url": "https://geekle.us",
+    "when": "2020-08-01T00:00:00Z",
+    "tags": [
+      "loom",
+      "java21",
+      "virtual threads",
+      "concurrency",
+      "scala",
+      "reactive programming"
+    ],
+    "where": "Online",
+    "conference": "Geekle Java Summit",
+    "video": "798c8da2-5d4d-478f-800d-8c03ea137044"
   }
 ]
