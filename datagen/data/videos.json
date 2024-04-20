@@ -269,5 +269,16 @@
       "zio",
       "functional programming"
     ]
+  },
+  {
+    "id": "0ec9aa16-7873-48af-a6ca-ab63f575a55f",
+    "title": "A FUNCTIONAL SCALA STACK FOR 2020 - Adam Warski | Scalar 2020",
+    "url": "https://www.youtube.com/watch?v=DGlkap5kzGU&feature=youtu.be",
+    "coverImage": "https://i.ytimg.com/vi/DGlkap5kzGU/maxresdefault.jpg",
+    "when": "2020-06-05T10:59:40Z",
+    "tags": [
+      "scala",
+      "functional programming"
+    ]
   }
 ]

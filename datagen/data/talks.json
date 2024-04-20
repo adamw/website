@@ -507,5 +507,18 @@
     ],
     "where": "Online",
     "conference": "London Scala Talks"
+  },
+  {
+    "id": "b169509d-da59-4e06-bbfd-c755e02d7d11",
+    "title": "A functional Scala stack for 2020",
+    "url": "https://www.scalar-conf.com",
+    "when": "2020-05-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "functional programming"
+    ],
+    "where": "Online",
+    "conference": "Scalar",
+    "video": "0ec9aa16-7873-48af-a6ca-ab63f575a55f"
   }
 ]
