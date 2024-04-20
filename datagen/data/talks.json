@@ -327,5 +327,19 @@
     "where": "Online",
     "conference": "JFokus Brown Bag lunch",
     "video": "313c99c4-d1ff-4f9c-a84f-3b45192fdd84"
+  },
+  {
+    "id": "333761b8-a84e-4ceb-a944-49e27bbc45ce",
+    "title": "Context is King",
+    "url": "https://www.youtube.com/c/ScalaintheCity/videos",
+    "when": "2021-03-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "functional programming",
+      "scala3"
+    ],
+    "where": "Online",
+    "conference": "Scala in the City",
+    "video": "d3472706-ec27-4f9d-9027-44e16f58302a"
   }
 ]

@@ -167,5 +167,17 @@
       "tapir",
       "functional programming"
     ]
+  },
+  {
+    "id": "d3472706-ec27-4f9d-9027-44e16f58302a",
+    "title": "Context is King by Adam Warski",
+    "url": "https://www.youtube.com/watch?v=mhUjQgOsFyk",
+    "coverImage": "https://i.ytimg.com/vi/mhUjQgOsFyk/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGHIgZigRMA8=&rs=AOn4CLA-VAkeVDLnIZACTO9GE2PYME67eA",
+    "when": "2021-04-01T12:51:44Z",
+    "tags": [
+      "scala",
+      "functional programming",
+      "scala3"
+    ]
   }
 ]
