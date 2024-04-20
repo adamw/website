@@ -413,5 +413,18 @@
     ],
     "where": "Online",
     "conference": "TECH3Camp"
+  },
+  {
+    "id": "ddcc7aa1-9036-4de8-b841-1f0a13558ac7",
+    "title": "JVM Wars",
+    "when": "2020-10-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "kotlin",
+      "java"
+    ],
+    "where": "Online",
+    "conference": "JVM Wars 2020",
+    "video": "1ac101b7-673b-42d1-ab99-1f920bc237e5"
   }
 ]

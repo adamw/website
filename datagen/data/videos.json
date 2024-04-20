@@ -220,5 +220,17 @@
       "scala",
       "functional programming"
     ]
+  },
+  {
+    "id": "1ac101b7-673b-42d1-ab99-1f920bc237e5",
+    "title": "JVM WARS 2020 - Java | Scala | Kotlin | Clojure",
+    "url": "https://www.youtube.com/watch?v=N1h6aYnUXPg&feature=emb_logo",
+    "coverImage": "https://i.ytimg.com/vi/N1h6aYnUXPg/hqdefault.jpg",
+    "when": "2020-10-15T08:58:11Z",
+    "tags": [
+      "scala",
+      "kotlin",
+      "java"
+    ]
   }
 ]
