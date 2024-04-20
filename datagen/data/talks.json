@@ -233,5 +233,17 @@
     "where": "Warsaw, Poland",
     "conference": "Confluent Lunch and Learn",
     "slides": "http://www.warski.org/blog/wp-content/uploads/2023/08/Delivering-from-Kafka-to-WebSockets.pdf"
+  },
+  {
+    "id": "67d85764-5b48-41e5-8098-57f0b8070f10",
+    "title": "Adam Warski on Scala and Tapir",
+    "url": "https://se-radio.net/2022/11/episode-537-adam-warski-on-scala-and-tapir/",
+    "when": "2022-10-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "tapir"
+    ],
+    "where": "Online",
+    "conference": "SE Radio"
   }
 ]
