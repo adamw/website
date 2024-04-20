@@ -292,5 +292,17 @@
       "tapir",
       "functional programming"
     ]
+  },
+  {
+    "id": "5c7826c8-4b8c-4f7b-952e-cd0e5beab960",
+    "title": "[Bydgoszcz JUG #33]  Adam Warski - FP + relational databases = ?",
+    "url": "https://www.youtube.com/watch?v=MyenxpTd6MY&feature=youtu.be",
+    "coverImage": "https://i.ytimg.com/vi/MyenxpTd6MY/maxresdefault.jpg",
+    "when": "2020-02-06T08:00:05Z",
+    "tags": [
+      "scala",
+      "functional programming",
+      "rdbms"
+    ]
   }
 ]

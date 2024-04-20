@@ -558,5 +558,19 @@
     ],
     "where": "Minsk, Belarus",
     "conference": "F(by)"
+  },
+  {
+    "id": "c6ef4444-535b-490a-a17f-aba411319897",
+    "title": "FP + relational databases = ?",
+    "url": "http://bydgoszcz.jug.pl",
+    "when": "2020-01-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "functional programming",
+      "rdbms"
+    ],
+    "where": "Bydgoszcz, Poland",
+    "conference": "BydgoszczJUG",
+    "video": "5c7826c8-4b8c-4f7b-952e-cd0e5beab960"
   }
 ]
