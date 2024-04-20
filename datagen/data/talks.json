@@ -572,5 +572,17 @@
     "where": "Bydgoszcz, Poland",
     "conference": "BydgoszczJUG",
     "video": "5c7826c8-4b8c-4f7b-952e-cd0e5beab960"
+  },
+  {
+    "id": "5059f70c-aa45-4fb4-bedf-d3fa8c66e5d0",
+    "title": "FP + relational databases = ?",
+    "when": "2019-12-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "functional programming",
+      "rdbms"
+    ],
+    "where": "Gdańsk, Poland",
+    "conference": "TricityJUG"
   }
 ]
