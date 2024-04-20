@@ -533,5 +533,19 @@
     ],
     "where": "Online",
     "conference": "Dev@LDZ"
+  },
+  {
+    "id": "4abede4b-bcf7-48ed-86cb-220db7b39bba",
+    "title": "Your HTTP endpoints are data, as well!",
+    "url": "https://scala.love",
+    "when": "2020-04-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "tapir",
+      "functional programming"
+    ],
+    "where": "Online",
+    "conference": "ScalaLove",
+    "video": "b747485c-bf99-431d-8e60-0cc9a72aa34d"
   }
 ]

@@ -280,5 +280,17 @@
       "scala",
       "functional programming"
     ]
+  },
+  {
+    "id": "b747485c-bf99-431d-8e60-0cc9a72aa34d",
+    "title": "Adam Warski –  Your HTTP endpoints are data, as well!",
+    "url": "https://www.youtube.com/watch?v=yuQNgZgSFIc&feature=youtu.be",
+    "coverImage": "https://i.ytimg.com/vi/yuQNgZgSFIc/maxresdefault.jpg",
+    "when": "2020-05-31T18:06:24Z",
+    "tags": [
+      "scala",
+      "tapir",
+      "functional programming"
+    ]
   }
 ]
