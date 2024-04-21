@@ -1857,5 +1857,18 @@
     ],
     "where": "Warsaw, Poland",
     "conference": "Scalar"
+  },
+  {
+    "id": "13cb2567-a42d-4c55-8668-d4fe7d9a7c38",
+    "title": "The unique features that make Scala, Scala",
+    "url": "https://sfi.pl/",
+    "when": "2024-04-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "functional programming"
+    ],
+    "where": "Cracow, Poland",
+    "conference": "Studencki Festiwal Informatyczny",
+    "slides": "https://adamw.github.io/unique-scala-pres/"
   }
 ]
