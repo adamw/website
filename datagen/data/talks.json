@@ -1715,5 +1715,17 @@
     ],
     "where": "Zurich, Switzerland",
     "conference": "Jazoon"
+  },
+  {
+    "id": "dd82d9ff-7675-4767-b937-15fd6e435bc6",
+    "title": "Create your own Envers",
+    "url": "http://warszawa.jug.pl",
+    "when": "2009-02-01T00:00:00Z",
+    "tags": [
+      "java",
+      "rdbms"
+    ],
+    "where": "Warsaw, Poland",
+    "conference": "Warsaw JUG"
   }
 ]
