@@ -1633,5 +1633,17 @@
     ],
     "where": "Niece, France",
     "conference": "Riviera JUG"
+  },
+  {
+    "id": "54c24b8a-a55a-4086-93e6-7730b0bb0338",
+    "title": "Torquebox&CDI – how we built JBison",
+    "url": "https://rivierajug.org/",
+    "when": "2011-05-01T00:00:00Z",
+    "tags": [
+      "java",
+      "web"
+    ],
+    "where": "Niece, France",
+    "conference": "Riviera JUG"
   }
 ]
