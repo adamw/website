@@ -1558,5 +1558,15 @@
     "where": "Berlin, Germany",
     "conference": "MongoDB Days Berlin",
     "slides": "http://www.warski.org/blog/wp-content/uploads/2023/08/Event-streaming-with-MongoDB.pdf"
+  },
+  {
+    "id": "1fdf9a3c-3fad-40d1-8c21-e3a43294b75a",
+    "title": "Modules, modules, modules … how to implement modularity?",
+    "when": "2012-01-01T00:00:00Z",
+    "tags": [
+      "modularity"
+    ],
+    "where": "Warsaw, Poland",
+    "conference": "Architect-wannabe meetup"
   }
 ]
