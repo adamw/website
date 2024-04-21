@@ -847,5 +847,19 @@
     ],
     "where": "London, UK",
     "conference": "Apache Kafka London Meetup"
+  },
+  {
+    "id": "4fc87ce7-fb22-4389-a2a1-360c6203f222",
+    "title": "sttp: The Scala HTTP client you always wanted",
+    "url": "https://www.meetup.com/london-scala/",
+    "when": "2017-09-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "sttp",
+      "http"
+    ],
+    "where": "London, UK",
+    "conference": "Scala London Meetup",
+    "video": "4792c19a-7010-491d-9ce9-0b51c2c3f101"
   }
 ]

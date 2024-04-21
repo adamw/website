@@ -441,5 +441,16 @@
       "scala",
       "functional programming"
     ]
+  },
+  {
+    "id": "4792c19a-7010-491d-9ce9-0b51c2c3f101",
+    "title": "???",
+    "url": "https://skillsmatter.com/skillscasts/10851-sttp-the-scala-http-client-that-you-always-wanted",
+    "when": "2024-04-21T08:41:51.511951Z",
+    "tags": [
+      "scala",
+      "sttp",
+      "http"
+    ]
   }
 ]
