@@ -1668,5 +1668,17 @@
     ],
     "where": "Poznań, Poland",
     "conference": "Poznan JUG"
+  },
+  {
+    "id": "e24ce26d-b6ce-4bc5-8cab-01d41fa863d3",
+    "title": "Torquebox&CDI – how we built JBison",
+    "url": "http://warszawa.jug.pl",
+    "when": "2011-03-01T00:00:00Z",
+    "tags": [
+      "java",
+      "web"
+    ],
+    "where": "Warsaw, Poland",
+    "conference": "Warsaw JUG"
   }
 ]
