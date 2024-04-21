@@ -1568,5 +1568,15 @@
     ],
     "where": "Warsaw, Poland",
     "conference": "Architect-wannabe meetup"
+  },
+  {
+    "id": "7c78cbe9-fce5-4662-b127-49514d86aac5",
+    "title": "Cloud applications with AWS",
+    "when": "2011-06-01T00:00:00Z",
+    "tags": [
+      "cloud"
+    ],
+    "where": "Warsaw, Poland",
+    "conference": "SoftDevCon"
   }
 ]
