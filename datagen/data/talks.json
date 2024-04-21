@@ -1645,5 +1645,16 @@
     ],
     "where": "Nice, France",
     "conference": "Riviera JUG"
+  },
+  {
+    "id": "80c797f6-b23c-43b0-b103-3ae36d02c1a7",
+    "title": "Torquebox&CDI – how we built JBison",
+    "when": "2011-06-01T00:00:00Z",
+    "tags": [
+      "java",
+      "web"
+    ],
+    "where": "Szczecin, Poland",
+    "conference": "Java4People"
   }
 ]
