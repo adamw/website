@@ -1089,5 +1089,17 @@
     "where": "Minsk, Belarus",
     "conference": "JetConf",
     "video": "6ffacd87-7fe5-4a53-a504-e5df7a902fa9"
+  },
+  {
+    "id": "5c5eabf5-c3b0-4374-adb0-6d2104da3448",
+    "title": "Supler: complex forms, not so complex",
+    "url": "https://devoxx.pl",
+    "when": "2015-06-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "web"
+    ],
+    "where": "Kraków, Poland",
+    "conference": "Devoxx Poland"
   }
 ]
