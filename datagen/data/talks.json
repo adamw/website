@@ -1242,5 +1242,18 @@
     ],
     "where": "Rzeszów, Poland",
     "conference": "SoftwareTalks"
+  },
+  {
+    "id": "d3b89874-3387-4c7d-92ff-16b69da33b37",
+    "title": "Implementing the reactive manifesto with Akka",
+    "url": "https://chamberconf.pl",
+    "when": "2015-01-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "akka",
+      "reactive programming"
+    ],
+    "where": "Moszna, Poland",
+    "conference": "Chamberconf"
   }
 ]
