@@ -1680,5 +1680,17 @@
     ],
     "where": "Warsaw, Poland",
     "conference": "Warsaw JUG"
+  },
+  {
+    "id": "c0ef3b63-ba3c-4f38-8b70-3aa19d00ad51",
+    "title": "Static analysis using JSR308 annotations",
+    "url": "https://www.geecon.org",
+    "when": "2010-05-01T00:00:00Z",
+    "tags": [
+      "java",
+      "static analysis"
+    ],
+    "where": "Poznań, Poland",
+    "conference": "GeeCON"
   }
 ]
