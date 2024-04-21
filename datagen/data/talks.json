@@ -1334,5 +1334,17 @@
     ],
     "where": "San Francisco, USA",
     "conference": "JavaOne"
+  },
+  {
+    "id": "51122d93-1adf-419e-aa61-ba71d6561a18",
+    "title": "Scala macros: what are they, how do they work & who uses them",
+    "url": "https://www.oracle.com/javaone/",
+    "when": "2014-09-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "metaprogramming"
+    ],
+    "where": "",
+    "conference": "JavaOne"
   }
 ]
