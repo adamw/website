@@ -1788,5 +1788,18 @@
     ],
     "where": "Kielce, Poland",
     "conference": "KJUG"
+  },
+  {
+    "id": "d0756bdd-5612-45cd-b5e4-cb5554803724",
+    "title": "W kierunku blokujących strumieni",
+    "url": "https://www.meetup.com/pl-PL/java-user-group-lodz/",
+    "when": "2024-02-01T00:00:00Z",
+    "tags": [
+      "java",
+      "java21",
+      "streaming"
+    ],
+    "where": "Łódź, Poland",
+    "conference": "Łódź JUG"
   }
 ]
