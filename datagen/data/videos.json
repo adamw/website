@@ -476,5 +476,16 @@
       "dependency injection",
       "functional programming"
     ]
+  },
+  {
+    "id": "e1842beb-9b4d-4ef5-a1ba-e26841634ac0",
+    "title": "The Origins of Free - Adam Warski (Lambda Days 2017)",
+    "url": "https://www.youtube.com/watch?v=KdqvwM-U1qI&feature=youtu.be",
+    "coverImage": "https://i.ytimg.com/vi/KdqvwM-U1qI/maxresdefault.jpg",
+    "when": "2017-03-23T14:02:44Z",
+    "tags": [
+      "functional programming",
+      "category theory"
+    ]
   }
 ]
