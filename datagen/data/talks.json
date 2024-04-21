@@ -1692,5 +1692,17 @@
     ],
     "where": "Poznań, Poland",
     "conference": "GeeCON"
+  },
+  {
+    "id": "28a6ca73-c2cc-437b-9bad-72fa1c04b35b",
+    "title": "Static analysis with annotations: FindBugs and JSR308",
+    "url": "https://confitura.pl",
+    "when": "2009-06-01T00:00:00Z",
+    "tags": [
+      "java",
+      "static analysis"
+    ],
+    "where": "Warsaw, Poland",
+    "conference": "Javarsovia"
   }
 ]
