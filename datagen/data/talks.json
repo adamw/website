@@ -1322,5 +1322,17 @@
     ],
     "where": "San Francisco, USA",
     "conference": "JavaOne"
+  },
+  {
+    "id": "daa17f6d-7048-4be5-ae74-c388b75101cd",
+    "title": "Recommendation systems: an introduction using Apache Mahout",
+    "url": "https://www.oracle.com/javaone/",
+    "when": "2014-09-01T00:00:00Z",
+    "tags": [
+      "big data",
+      "machine learning"
+    ],
+    "where": "San Francisco, USA",
+    "conference": "JavaOne"
   }
 ]
