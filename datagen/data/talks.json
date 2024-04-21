@@ -974,5 +974,17 @@
     ],
     "where": "Warsaw, Poland",
     "conference": "Wolvessummit"
+  },
+  {
+    "id": "2441da44-269a-48f2-847a-a306d2fe2bb8",
+    "title": "Open-source big data landscape and possible applications",
+    "url": "https://itsworldcongress.com",
+    "when": "2016-10-01T00:00:00Z",
+    "tags": [
+      "big data",
+      "streaming"
+    ],
+    "where": "Melbourne, Australia",
+    "conference": "ITS World Congress"
   }
 ]
