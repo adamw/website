@@ -1704,5 +1704,16 @@
     ],
     "where": "Warsaw, Poland",
     "conference": "Javarsovia"
+  },
+  {
+    "id": "c4b11c4a-235e-43d9-8fe0-8e6642fa3538",
+    "title": "Envers – Easy Entity Auditing",
+    "when": "2009-06-01T00:00:00Z",
+    "tags": [
+      "java",
+      "rdbms"
+    ],
+    "where": "Zurich, Switzerland",
+    "conference": "Jazoon"
   }
 ]
