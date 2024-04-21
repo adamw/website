@@ -1311,5 +1311,16 @@
     ],
     "where": "Zurich, Switzerland",
     "conference": "Jazoon"
+  },
+  {
+    "id": "fe893df9-6344-43d5-8f65-9ef56b2c9dbc",
+    "title": "Keep it simple with Scala",
+    "url": "https://www.oracle.com/javaone/",
+    "when": "2014-09-01T00:00:00Z",
+    "tags": [
+      "scala"
+    ],
+    "where": "San Francisco, USA",
+    "conference": "JavaOne"
   }
 ]
