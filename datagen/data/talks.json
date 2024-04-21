@@ -785,5 +785,16 @@
     ],
     "where": "Austin, USA",
     "conference": "Austin Scala Enthusiasts Meetup"
+  },
+  {
+    "id": "2d922726-2a21-4e94-a656-d9d92cb316ae",
+    "title": "Free Monad or Tagless Final? How Not to Commit to a Monad Too Early",
+    "when": "2017-12-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "functional programming"
+    ],
+    "where": "London, UK",
+    "conference": "Scala eXchange"
   }
 ]
