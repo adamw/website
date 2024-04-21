@@ -535,5 +535,16 @@
       "akka",
       "functional programming"
     ]
+  },
+  {
+    "id": "f001eb3d-4d9e-416d-b7b2-ed5f732f4c97",
+    "title": "Supler: complex web forms, not so complex",
+    "url": "https://www.youtube.com/watch?v=ex9H_pHdFZ4&list=PL8NC5lCgGs6N5_mHAx9LjOO1NBEADQ4cP",
+    "coverImage": "https://i.ytimg.com/vi/ex9H_pHdFZ4/hqdefault.jpg",
+    "when": "2015-05-07T16:12:05Z",
+    "tags": [
+      "scala",
+      "web"
+    ]
   }
 ]

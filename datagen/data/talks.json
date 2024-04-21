@@ -1188,5 +1188,18 @@
     ],
     "where": "Prague, Czech Republic",
     "conference": "Technology Hour Meetup"
+  },
+  {
+    "id": "eae3574f-d9b9-4681-819c-774df6265fa6",
+    "title": "Supler: complex forms, not so complex",
+    "url": "https://www.scalar-conf.com",
+    "when": "2015-04-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "web"
+    ],
+    "where": "Warsaw, Poland",
+    "conference": "Scalar",
+    "video": "f001eb3d-4d9e-416d-b7b2-ed5f732f4c97"
   }
 ]
