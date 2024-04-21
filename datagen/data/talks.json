@@ -921,5 +921,19 @@
     "where": "Boulder, USA",
     "conference": "LambdaConf",
     "video": "698d8711-7551-4aac-aac6-9e2b37dde927"
+  },
+  {
+    "id": "94ee9e72-6fef-478a-bbab-716b7b79bb9d",
+    "title": "Readers vs Constructors: Dependency Injection showdown",
+    "url": "https://scaladays.org",
+    "when": "2017-04-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "dependency injection",
+      "functional programming"
+    ],
+    "where": "Chicago, USA",
+    "conference": "ScalaDays",
+    "video": "20a2ae0a-0bb8-488a-9575-c2fe62309267"
   }
 ]

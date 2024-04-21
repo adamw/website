@@ -464,5 +464,17 @@
       "functional programming",
       "category theory"
     ]
+  },
+  {
+    "id": "20a2ae0a-0bb8-488a-9575-c2fe62309267",
+    "title": "Readers vs  Constructors: Dependency Injection showdown by Adam Warski",
+    "url": "https://www.youtube.com/watch?v=AkOFubm-9L8&index=17&list=PLLMLOC3WM2r5Ei2mnSHCD-ZD04AXovttL",
+    "coverImage": "https://i.ytimg.com/vi/AkOFubm-9L8/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGHIgPihDMA8=&rs=AOn4CLCNyFr6TXkulq7PBbz_BcXqrEbi7A",
+    "when": "2017-06-07T11:30:22Z",
+    "tags": [
+      "scala",
+      "dependency injection",
+      "functional programming"
+    ]
   }
 ]
