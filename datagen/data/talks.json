@@ -1139,5 +1139,17 @@
     ],
     "where": "London, UK",
     "conference": "London Java Community meetup"
+  },
+  {
+    "id": "d866a693-bbb0-49c3-87e7-195820da6895",
+    "title": "Supler: complex forms, not so complex",
+    "url": "https://www.meetup.com/londonjavacommunity/",
+    "when": "2015-04-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "web"
+    ],
+    "where": "London, UK",
+    "conference": "London Java Community meetup"
   }
 ]
