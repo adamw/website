@@ -717,5 +717,19 @@
     "where": "New York, USA",
     "conference": "Scala Days",
     "video": "b83b52c0-734e-4c98-93ae-9eae2bc1b7de"
+  },
+  {
+    "id": "63e79d0a-1f44-4a16-8f63-06f55aa56463",
+    "title": "sttp: The Scala HTTP client you always wanted",
+    "url": "https://scaladays.org",
+    "when": "2018-05-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "sttp",
+      "http"
+    ],
+    "where": "Berlin, Germany",
+    "conference": "Scala Days",
+    "video": "51646e6b-84bc-4f21-a33e-9392eb102975"
   }
 ]
