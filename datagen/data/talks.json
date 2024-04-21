@@ -1519,5 +1519,19 @@
     "where": "Antwerp, Belgium",
     "conference": "Devoxx",
     "slides": "http://www.warski.org/blog/wp-content/uploads/2023/08/ElasticMq.pdf"
+  },
+  {
+    "id": "f5c5e41d-e621-43ba-9cc0-d6c88dadd872",
+    "title": "Recommendation systems: an introduction using Apache Mahout",
+    "url": "http://warszawa.jug.pl",
+    "when": "2013-11-01T00:00:00Z",
+    "tags": [
+      "big data",
+      "machine learning"
+    ],
+    "where": "Warsaw, Poland",
+    "conference": "Warsaw JUG",
+    "slides": "http://www.warski.org/blog/wp-content/uploads/2023/08/Recommendation-systems.pdf",
+    "video": "172c13ba-fcb7-4f38-b70b-7f1dc56e3b6d"
   }
 ]

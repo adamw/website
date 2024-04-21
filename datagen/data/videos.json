@@ -578,5 +578,16 @@
       "scala",
       "dependency injection"
     ]
+  },
+  {
+    "id": "172c13ba-fcb7-4f38-b70b-7f1dc56e3b6d",
+    "title": "WJUG #123 - Polecane dla Ciebie: rekomendacje i Mahout - Adam Warski",
+    "url": "https://www.youtube.com/watch?v=qS11WowjihE",
+    "coverImage": "https://i.ytimg.com/vi/qS11WowjihE/maxresdefault.jpg",
+    "when": "2013-11-08T19:49:54Z",
+    "tags": [
+      "big data",
+      "machine learning"
+    ]
   }
 ]
