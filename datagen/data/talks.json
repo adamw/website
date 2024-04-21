@@ -1727,5 +1727,17 @@
     ],
     "where": "Warsaw, Poland",
     "conference": "Warsaw JUG"
+  },
+  {
+    "id": "2699054c-4f77-4669-8076-ae3f36b27fde",
+    "title": "Envers – Easy Entity Versioning/Auditing",
+    "url": "https://devoxx.be",
+    "when": "2008-10-01T00:00:00Z",
+    "tags": [
+      "java",
+      "rdbms"
+    ],
+    "where": "Antwerp, Belgium",
+    "conference": "Devoxx"
   }
 ]
