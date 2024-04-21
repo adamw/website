@@ -1383,5 +1383,17 @@
     ],
     "where": "Boston, USA",
     "conference": "Boston Scala Meetup"
+  },
+  {
+    "id": "183e8c66-c165-4114-b9ac-fed335607155",
+    "title": "The no-framework Scala Dependency Injection framework",
+    "url": "https://www.meetup.com/ny-scala/",
+    "when": "2014-09-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "dependency injection"
+    ],
+    "where": "New York, USA",
+    "conference": "New York Scala Meetup,"
   }
 ]
