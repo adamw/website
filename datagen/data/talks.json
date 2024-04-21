@@ -1419,5 +1419,16 @@
     ],
     "where": "Warsaw, Poland",
     "conference": "Enterprise Search Warsaw Meetup"
+  },
+  {
+    "id": "aafc1fbd-69b8-47be-8caf-cd57eadb06be",
+    "title": "Keep it simple with Scala",
+    "url": "https://www.geecon.org",
+    "when": "2014-05-01T00:00:00Z",
+    "tags": [
+      "scala"
+    ],
+    "where": "Cracow, Poland",
+    "conference": "Geecon"
   }
 ]
