@@ -568,5 +568,15 @@
       "scala",
       "dependency injection"
     ]
+  },
+  {
+    "id": "5cae14f2-642a-4bb7-898f-cb3f95ddb13c",
+    "title": "???",
+    "url": "http://www.infoq.com/presentations/scala-di-framework",
+    "when": "2024-04-21T15:23:47.239426Z",
+    "tags": [
+      "scala",
+      "dependency injection"
+    ]
   }
 ]

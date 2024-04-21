@@ -1479,5 +1479,19 @@
     "where": "Stockholm, Sweden",
     "conference": "JFokus",
     "slides": "http://www.warski.org/blog/wp-content/uploads/2023/08/Scala-macros.pdf"
+  },
+  {
+    "id": "89a25ee7-f9c8-484c-abf5-3df4d366532c",
+    "title": "The no-framework Scala Dependency Injection framework",
+    "url": "https://www.buildstuff.events",
+    "when": "2013-12-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "dependency injection"
+    ],
+    "where": "Vilnius, Lithuania",
+    "conference": "BuildStuff",
+    "slides": "http://www.warski.org/blog/wp-content/uploads/2023/08/The-no-framework-Scala-DI-framework.pdf",
+    "video": "5cae14f2-642a-4bb7-898f-cb3f95ddb13c"
   }
 ]
