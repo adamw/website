@@ -1113,5 +1113,18 @@
     ],
     "where": "Łódź, Poland",
     "conference": "Łódź JUG"
+  },
+  {
+    "id": "1df5ef7b-ad0f-49b0-a5ab-cd0565a883b9",
+    "title": "Implementing the reactive manifesto with Akka",
+    "url": "https://www.geecon.org",
+    "when": "2015-05-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "akka",
+      "reactive programming"
+    ],
+    "where": "Kraków, Poland",
+    "conference": "Geecon"
   }
 ]
