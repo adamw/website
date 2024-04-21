@@ -50,6 +50,7 @@ def addTalk(): Unit =
       conferenceName,
       slidesUrl,
       video.map(_.id),
+      None,
       None
     )
   PersistentModel.talks.add(talk)

@@ -17,7 +17,8 @@ case class Talk(
     conference: String,
     slides: Option[Uri],
     video: Option[UUID],
-    audio: Option[Uri]
+    audio: Option[Uri],
+    paper: Option[Uri]
 ) extends ActivityMetaData(id, title, url, coverImage, when, tags)
 
 object Talk:
