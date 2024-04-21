@@ -1621,5 +1621,17 @@
     ],
     "where": "Warsaw, Poland",
     "conference": "Confitura"
+  },
+  {
+    "id": "ace4389a-b26c-4743-9eaa-c960b1862475",
+    "title": "Envers – Easy Entity Auditing",
+    "url": "https://rivierajug.org/",
+    "when": "2011-05-01T00:00:00Z",
+    "tags": [
+      "java",
+      "rdbms"
+    ],
+    "where": "Niece, France",
+    "conference": "Riviera JUG"
   }
 ]
