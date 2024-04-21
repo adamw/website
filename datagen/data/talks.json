@@ -1215,5 +1215,19 @@
     "where": "Kraków, Poland",
     "conference": "Lambda Days",
     "video": "cd14773d-b3b8-40ba-bccc-5aff0597fb55"
+  },
+  {
+    "id": "939749bb-b551-483b-988f-b6aa7c9183ac",
+    "title": "Evaluating persistent, replicated message queues",
+    "url": "https://events.voxxeddays.com/#/",
+    "when": "2015-02-01T00:00:00Z",
+    "tags": [
+      "message queue",
+      "kafka",
+      "streaming"
+    ],
+    "where": "Vienna, Austria",
+    "conference": "Voxxed Days Vienna",
+    "slides": "http://www.warski.org/blog/wp-content/uploads/2023/08/Evaluating-replicated-message-queues.pdf"
   }
 ]
