@@ -703,5 +703,19 @@
     "where": "Poznań, Poland",
     "conference": "JUGtoberfest",
     "video": "fba40e0e-31f5-4983-a1c3-3eb59e05eb78"
+  },
+  {
+    "id": "989af9f2-01be-498a-9569-9d05915b64d7",
+    "title": "sttp: The Scala HTTP client you always wanted",
+    "url": "https://scaladays.org",
+    "when": "2018-06-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "sttp",
+      "http"
+    ],
+    "where": "New York, USA",
+    "conference": "Scala Days",
+    "video": "b83b52c0-734e-4c98-93ae-9eae2bc1b7de"
   }
 ]

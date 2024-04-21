@@ -374,5 +374,16 @@
       "java",
       "annotations"
     ]
+  },
+  {
+    "id": "b83b52c0-734e-4c98-93ae-9eae2bc1b7de",
+    "title": "???",
+    "url": "https://slideslive.com/38908888/sttp-the-scala-http-client-that-you-always-wanted",
+    "when": "2024-04-21T08:34:17.645494Z",
+    "tags": [
+      "scala",
+      "sttp",
+      "http"
+    ]
   }
 ]
