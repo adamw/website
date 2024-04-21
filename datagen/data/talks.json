@@ -1175,5 +1175,18 @@
     ],
     "where": "Warszawa, Poland",
     "conference": "4Developers"
+  },
+  {
+    "id": "bd6cc030-056f-4380-b80f-fdfae1f88a14",
+    "title": "Implementing the reactive manifesto with Akka",
+    "url": "https://www.meetup.com/ysoft-th/",
+    "when": "2015-04-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "akka",
+      "reactive programming"
+    ],
+    "where": "Prague, Czech Republic",
+    "conference": "Technology Hour Meetup"
   }
 ]
