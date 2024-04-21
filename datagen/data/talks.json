@@ -1817,5 +1817,19 @@
     "conference": "Scala.IO",
     "slides": "https://adamw.github.io/unwrapping-io/",
     "video": "7c67fbd0-12e8-4ffa-910a-93c4f3c34c83"
+  },
+  {
+    "id": "78ba20b8-0358-4bdb-b1dd-e80076aef513",
+    "title": "W kierunku blokujących strumieni",
+    "url": "https://wroclaw.jug.pl",
+    "when": "2024-03-01T00:00:00Z",
+    "tags": [
+      "java",
+      "java21",
+      "streaming"
+    ],
+    "where": "Wrocław, Poland",
+    "conference": "Wrocław JUG",
+    "video": "316b9c38-6b1e-4056-88c5-b8aeda2b8c1a"
   }
 ]

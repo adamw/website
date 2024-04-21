@@ -612,5 +612,17 @@
       "scala3",
       "concurrency"
     ]
+  },
+  {
+    "id": "316b9c38-6b1e-4056-88c5-b8aeda2b8c1a",
+    "title": "216. W kierunku blokujących strumieni - Adam Warski",
+    "url": "https://www.youtube.com/watch?v=xQjcJCRI7h4",
+    "coverImage": "https://i.ytimg.com/vi/xQjcJCRI7h4/maxresdefault.jpg",
+    "when": "2024-03-14T17:00:44Z",
+    "tags": [
+      "java",
+      "java21",
+      "streaming"
+    ]
   }
 ]
