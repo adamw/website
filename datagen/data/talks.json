@@ -1588,5 +1588,16 @@
     ],
     "where": "Szczecin, Poland",
     "conference": "DevCrowd"
+  },
+  {
+    "id": "aa23c4c8-71ed-4568-918a-ca768632ae39",
+    "title": "Torquebox&CDI – how we built JBison",
+    "when": "2011-05-01T00:00:00Z",
+    "tags": [
+      "java",
+      "web"
+    ],
+    "where": "Ljubljana, Slovenia",
+    "conference": "OpenBlend"
   }
 ]
