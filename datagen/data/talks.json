@@ -1578,5 +1578,15 @@
     ],
     "where": "Warsaw, Poland",
     "conference": "SoftDevCon"
+  },
+  {
+    "id": "7aa162d9-dcda-486d-b267-db9a0a8f414d",
+    "title": "Cloud applications with AWS",
+    "when": "2012-06-01T00:00:00Z",
+    "tags": [
+      "cloud"
+    ],
+    "where": "Szczecin, Poland",
+    "conference": "DevCrowd"
   }
 ]
