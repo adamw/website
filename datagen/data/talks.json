@@ -1288,5 +1288,17 @@
     ],
     "where": "Gdańsk, Poland",
     "conference": "Tricity Scala User Group"
+  },
+  {
+    "id": "e3ef5131-2cf2-495c-acf7-b30b168abda0",
+    "title": "The no-framework Scala Dependency Injection framework",
+    "url": "http://scala.io",
+    "when": "2014-10-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "dependency injection"
+    ],
+    "where": "Paris, France",
+    "conference": "Scala.IO"
   }
 ]
