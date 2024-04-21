@@ -1101,5 +1101,17 @@
     ],
     "where": "Kraków, Poland",
     "conference": "Devoxx Poland"
+  },
+  {
+    "id": "78f4f6d2-355f-4836-8598-5ff0c1cd91b5",
+    "title": "The no-framework Scala Dependency Injection framework",
+    "url": "https://www.meetup.com/pl-PL/java-user-group-lodz/",
+    "when": "2015-05-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "dependency injection"
+    ],
+    "where": "Łódź, Poland",
+    "conference": "Łódź JUG"
   }
 ]
