@@ -1751,5 +1751,17 @@
     ],
     "where": "Cracow, Poland",
     "conference": "Java Developers’ Day"
+  },
+  {
+    "id": "361b85f0-b97b-45ea-b843-034cc1de5e52",
+    "title": "Time will tell",
+    "url": "https://www.herbstcampus.de",
+    "when": "2008-09-01T00:00:00Z",
+    "tags": [
+      "java",
+      "rdbms"
+    ],
+    "where": "Nurnberg, Germany",
+    "conference": "Herbstcampus"
   }
 ]
