@@ -1022,5 +1022,18 @@
     ],
     "where": "Santa Clara, USA",
     "conference": "Corporate event"
+  },
+  {
+    "id": "62813c21-65e6-4e0c-ab82-6c5484a60ac5",
+    "title": "Transactional event sourcing using Slick (audit log for free!)",
+    "url": "https://www.meetup.com/scala-bay/",
+    "when": "2016-08-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "rdbms",
+      "event sourcing"
+    ],
+    "where": "Sunnyvale, USA",
+    "conference": "Scala Bay Meetup"
   }
 ]
