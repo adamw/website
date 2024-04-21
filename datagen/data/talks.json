@@ -1831,5 +1831,17 @@
     "where": "Wrocław, Poland",
     "conference": "Wrocław JUG",
     "video": "316b9c38-6b1e-4056-88c5-b8aeda2b8c1a"
+  },
+  {
+    "id": "4da3c421-d499-486a-a0d7-2850a772d0fa",
+    "title": "Egzotyka w tech. Czy da się budować biznes?",
+    "url": "https://www.youtube.com/channel/UCbJBXu1lsdAqhGe92XU9L6Q/videos",
+    "when": "2024-03-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "softwaremill"
+    ],
+    "where": "Online",
+    "conference": "CTO Morning Coffee"
   }
 ]
