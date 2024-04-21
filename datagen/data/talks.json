@@ -1407,5 +1407,17 @@
     ],
     "where": "Berlin, Germany",
     "conference": "ScalaDays"
+  },
+  {
+    "id": "81059d6d-1368-4e99-aa93-7741c4029483",
+    "title": "Recommendation systems: an introduction using Apache Mahout",
+    "url": "https://www.slideshare.net/eswm",
+    "when": "2014-05-01T00:00:00Z",
+    "tags": [
+      "big data",
+      "machine learning"
+    ],
+    "where": "Warsaw, Poland",
+    "conference": "Enterprise Search Warsaw Meetup"
   }
 ]
