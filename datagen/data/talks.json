@@ -1371,5 +1371,17 @@
     "where": "Palo Alto, USA",
     "conference": "Bay Area Scala Meetup",
     "video": "3d37faee-6228-4dc8-8a40-04fd608a1347"
+  },
+  {
+    "id": "61c8ff80-6882-4d67-a133-ecb5f59d3750",
+    "title": "The no-framework Scala Dependency Injection framework",
+    "url": "https://www.meetup.com/boston-scala/",
+    "when": "2014-09-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "dependency injection"
+    ],
+    "where": "Boston, USA",
+    "conference": "Boston Scala Meetup"
   }
 ]
