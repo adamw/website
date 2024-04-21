@@ -1151,5 +1151,17 @@
     ],
     "where": "London, UK",
     "conference": "London Java Community meetup"
+  },
+  {
+    "id": "c4b25f59-501b-4d89-82db-dcffebc1a9a3",
+    "title": "Suple(r): Aplikacje Hardkorowo!",
+    "url": "http://warszawa.jug.pl",
+    "when": "2015-05-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "web"
+    ],
+    "where": "Warszawa, Poland",
+    "conference": "Warsaw JUG"
   }
 ]
