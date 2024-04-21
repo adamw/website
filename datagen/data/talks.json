@@ -872,5 +872,16 @@
     ],
     "where": "Seattle, USA",
     "conference": "Private meetup"
+  },
+  {
+    "id": "fb12ba61-3ed3-4a21-85e7-6276a7dc2e78",
+    "title": "Readers vs Constructors: Dependency Injection showdown",
+    "when": "2017-06-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "dependency injection"
+    ],
+    "where": "Seattle, USA",
+    "conference": "Private meetup"
   }
 ]
