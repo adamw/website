@@ -999,5 +999,16 @@
     ],
     "where": "Melbourne, Australia",
     "conference": "Melbourne Scala Meetup Group"
+  },
+  {
+    "id": "bd66871b-0928-4231-b100-6864bc2791e4",
+    "title": "Comparing and contrasting Java, Scala and Kotlin",
+    "when": "2016-09-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "java"
+    ],
+    "where": "Warsaw, Poland",
+    "conference": "Polyglot Tech Warsaw"
   }
 ]
