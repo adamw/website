@@ -1201,5 +1201,19 @@
     "where": "Warsaw, Poland",
     "conference": "Scalar",
     "video": "f001eb3d-4d9e-416d-b7b2-ed5f732f4c97"
+  },
+  {
+    "id": "22d1e006-5319-49f0-b6d7-5fbb0419abcb",
+    "title": "Implementing the reactive manifesto with Akka",
+    "url": "https://www.lambdadays.org/",
+    "when": "2015-02-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "akka",
+      "reactive programming"
+    ],
+    "where": "Kraków, Poland",
+    "conference": "Lambda Days",
+    "video": "cd14773d-b3b8-40ba-bccc-5aff0597fb55"
   }
 ]
