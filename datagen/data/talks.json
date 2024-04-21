@@ -1076,5 +1076,18 @@
     ],
     "where": "London, UK",
     "conference": "Scala eXchange"
+  },
+  {
+    "id": "b1cd0d79-03f2-4611-bbfc-c0e410a0380c",
+    "title": "Reactive? Functional? Or: Akka- & Scalaz- streams side-by-side?",
+    "when": "2015-09-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "akka",
+      "functional programming"
+    ],
+    "where": "Minsk, Belarus",
+    "conference": "JetConf",
+    "video": "6ffacd87-7fe5-4a53-a504-e5df7a902fa9"
   }
 ]

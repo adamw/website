@@ -523,5 +523,17 @@
       "rdbms",
       "event sourcing"
     ]
+  },
+  {
+    "id": "6ffacd87-7fe5-4a53-a504-e5df7a902fa9",
+    "title": "Adam Warski - Streams: reactive? functional? Or: akka- & scalaz- streams side-by-side?",
+    "url": "https://www.youtube.com/watch?v=pXj5Q8KsXX0&feature=em-share_video_user",
+    "coverImage": "https://i.ytimg.com/vi/pXj5Q8KsXX0/maxresdefault.jpg",
+    "when": "2016-02-24T11:04:02Z",
+    "tags": [
+      "scala",
+      "akka",
+      "functional programming"
+    ]
   }
 ]
