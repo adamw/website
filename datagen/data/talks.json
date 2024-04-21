@@ -1844,5 +1844,18 @@
     "where": "Online",
     "conference": "CTO Morning Coffee",
     "audio": "https://twitter.com/CTOMorning/status/1764920026723672127"
+  },
+  {
+    "id": "1af522ae-6401-4018-a2de-a125d0b88e44",
+    "title": "Direct Style Scala Stack – an experiment",
+    "url": "https://www.scalar-conf.com",
+    "when": "2024-03-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "scala3",
+      "concurrency"
+    ],
+    "where": "Warsaw, Poland",
+    "conference": "Scalar"
   }
 ]
