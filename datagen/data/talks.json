@@ -895,5 +895,17 @@
     ],
     "where": "San Francisco, USA",
     "conference": "SF Scala"
+  },
+  {
+    "id": "74a6bb54-f7b8-499c-aadd-bd573509f147",
+    "title": "Relational DBs & Scala: comparing libraries",
+    "url": "https://www.google.com/search?client=safari&rls=en&q=Scala+Bay+meetup&ie=UTF-8&oe=UTF-8",
+    "when": "2017-05-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "rdbms"
+    ],
+    "where": "Bay Area, USA",
+    "conference": "Scala Bay"
   }
 ]
