@@ -809,5 +809,18 @@
     ],
     "where": "Milan, Italy",
     "conference": "Milan Scala Meetup"
+  },
+  {
+    "id": "37dd6990-5dc3-46e4-a8e0-b6d4ed0c926a",
+    "title": "Kafka as a Message Queue",
+    "url": "https://devoxx.be",
+    "when": "2017-11-01T00:00:00Z",
+    "tags": [
+      "kafka",
+      "message queue"
+    ],
+    "where": "Antwerp, Belgium",
+    "conference": "Devoxx",
+    "video": "2cffec83-555e-4e06-a62d-570092270ce8"
   }
 ]

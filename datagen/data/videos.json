@@ -419,5 +419,16 @@
       "sttp",
       "http"
     ]
+  },
+  {
+    "id": "2cffec83-555e-4e06-a62d-570092270ce8",
+    "title": "Kafka as a Message Queue: can you do it, and should you do it? by Adam Warski",
+    "url": "https://www.youtube.com/watch?v=-As92HV0O4E",
+    "coverImage": "https://i.ytimg.com/vi/-As92HV0O4E/maxresdefault.jpg",
+    "when": "2017-11-09T11:08:27Z",
+    "tags": [
+      "kafka",
+      "message queue"
+    ]
   }
 ]
