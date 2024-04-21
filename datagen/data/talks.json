@@ -1255,5 +1255,16 @@
     ],
     "where": "Moszna, Poland",
     "conference": "Chamberconf"
+  },
+  {
+    "id": "00080486-59b9-4931-8b7c-e53c23f58886",
+    "title": "The no-framework Scala Dependency Injection framework",
+    "when": "2014-12-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "dependency injection"
+    ],
+    "where": "London, UK",
+    "conference": "Scala eXchange"
   }
 ]
