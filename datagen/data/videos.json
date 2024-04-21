@@ -557,5 +557,16 @@
       "akka",
       "reactive programming"
     ]
+  },
+  {
+    "id": "3d37faee-6228-4dc8-8a40-04fd608a1347",
+    "title": "SF Scala, Adam Warski: Framework-less Scala Dependency Injection framework",
+    "url": "https://www.youtube.com/watch?v=n8a0A-m1w_c",
+    "coverImage": "https://i.ytimg.com/vi/n8a0A-m1w_c/maxresdefault.jpg",
+    "when": "2014-09-24T23:14:09Z",
+    "tags": [
+      "scala",
+      "dependency injection"
+    ]
   }
 ]
