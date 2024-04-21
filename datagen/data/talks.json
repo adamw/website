@@ -1126,5 +1126,18 @@
     ],
     "where": "Kraków, Poland",
     "conference": "Geecon"
+  },
+  {
+    "id": "e0686520-2284-4585-8ae7-6a57df378a1f",
+    "title": "Implementing the reactive manifesto with Akka",
+    "url": "https://www.meetup.com/londonjavacommunity/",
+    "when": "2015-05-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "akka",
+      "reactive programming"
+    ],
+    "where": "London, UK",
+    "conference": "London Java Community meetup"
   }
 ]
