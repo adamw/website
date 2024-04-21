@@ -1466,5 +1466,18 @@
     ],
     "where": "Gent, Belgium",
     "conference": "BeScala meetup"
+  },
+  {
+    "id": "541a1e13-bd68-49c2-9416-025d8551c0a9",
+    "title": "Scala macros: what are they, how do they work & who uses them",
+    "url": "https://www.jfokus.se",
+    "when": "2014-02-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "metaprogramming"
+    ],
+    "where": "Stockholm, Sweden",
+    "conference": "JFokus",
+    "slides": "http://www.warski.org/blog/wp-content/uploads/2023/08/Scala-macros.pdf"
   }
 ]
