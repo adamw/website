@@ -691,5 +691,17 @@
     "where": "London, UK",
     "conference": "ScalaInTheCity",
     "video": "c8f61f60-d482-458c-8af5-d3b659c8dbfe"
+  },
+  {
+    "id": "aa910c86-1227-4898-9d71-6b15536768cc",
+    "title": "Co z nami zrobiły @dnotacje?",
+    "when": "2018-10-01T00:00:00Z",
+    "tags": [
+      "java",
+      "annotations"
+    ],
+    "where": "Poznań, Poland",
+    "conference": "JUGtoberfest",
+    "video": "fba40e0e-31f5-4983-a1c3-3eb59e05eb78"
   }
 ]

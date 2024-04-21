@@ -363,5 +363,16 @@
       "scala",
       "tapir"
     ]
+  },
+  {
+    "id": "fba40e0e-31f5-4983-a1c3-3eb59e05eb78",
+    "title": "JUGtoberFest 2018: Adam Warski - Co zrobiły z nami @adnotacje",
+    "url": "https://www.youtube.com/watch?v=FOb8X-hVKAU",
+    "coverImage": "https://i.ytimg.com/vi/FOb8X-hVKAU/maxresdefault.jpg",
+    "when": "2018-10-26T17:35:53Z",
+    "tags": [
+      "java",
+      "annotations"
+    ]
   }
 ]
