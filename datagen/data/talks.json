@@ -1010,5 +1010,17 @@
     ],
     "where": "Warsaw, Poland",
     "conference": "Polyglot Tech Warsaw"
+  },
+  {
+    "id": "bb0946a3-04a7-43b5-8e1d-54545dd63c8f",
+    "title": "Reactive? Functional? Or: Akka- & Scalaz- streams side-by-side?",
+    "when": "2016-08-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "akka",
+      "functional programming"
+    ],
+    "where": "Santa Clara, USA",
+    "conference": "Corporate event"
   }
 ]
