@@ -82,7 +82,7 @@
       "functional programming",
       "effects"
     ],
-    "where": "Kraków, Poland",
+    "where": "Cracow, Poland",
     "conference": "LambdaDays",
     "video": "b657fa3b-b569-4df2-8b11-723bc0d55294"
   },
@@ -100,7 +100,7 @@
       "java",
       "ox"
     ],
-    "where": "Kraków, Poland",
+    "where": "Cracow, Poland",
     "conference": "Devoxx Poland",
     "video": "f4f8247b-1484-4f35-aa47-102a752b59be"
   },
@@ -154,7 +154,7 @@
       "cats-effect",
       "loom"
     ],
-    "where": "Kraków, Poland",
+    "where": "Cracow, Poland",
     "conference": "GeeCON",
     "video": "6b6af030-be8e-4df7-8ac4-f496743fa1b4"
   },
@@ -169,7 +169,7 @@
       "functional programming",
       "effects"
     ],
-    "where": "Kraków, Poland",
+    "where": "Cracow, Poland",
     "conference": "KSUG"
   },
   {
@@ -217,7 +217,7 @@
       "softwaremill",
       "personal"
     ],
-    "where": "Kraków, Poland",
+    "where": "Cracow, Poland",
     "conference": "BUGinnings",
     "video": "5fbdfc93-65df-4d80-a2d6-4f17ea85e5a1"
   },
@@ -608,7 +608,7 @@
       "functional programming",
       "rdbms"
     ],
-    "where": "Kraków, Poland",
+    "where": "Cracow, Poland",
     "conference": "PolishJug"
   },
   {
@@ -675,7 +675,7 @@
       "scala",
       "tapir"
     ],
-    "where": "Kraków, Poland",
+    "where": "Cracow, Poland",
     "conference": "GeeCON",
     "video": "abfae6b3-9722-4d28-99ba-dc7a3ce10caf"
   },
@@ -741,7 +741,7 @@
       "java",
       "annotations"
     ],
-    "where": "Kraków, Poland",
+    "where": "Cracow, Poland",
     "conference": "GeeCON",
     "slides": "http://www.warski.org/blog/wp-content/uploads/2023/08/What-have-the-annotations-done-to-us.pdf",
     "video": "91b0caf3-bbb1-41b2-90f5-56fc9e2d4183"
@@ -756,7 +756,7 @@
       "sttp",
       "http"
     ],
-    "where": "Kraków, Poland",
+    "where": "Cracow, Poland",
     "conference": "KSUG",
     "video": "98eb145e-dbc0-4456-b7c2-a64ffbae4699"
   },
@@ -945,7 +945,7 @@
       "functional programming",
       "category theory"
     ],
-    "where": "Kraków, Poland",
+    "where": "Cracow, Poland",
     "conference": "LambdaDays",
     "slides": "http://www.warski.org/blog/wp-content/uploads/2023/08/Origins-of-free.pdf",
     "video": "e1842beb-9b4d-4ef5-a1ba-e26841634ac0"
@@ -1099,7 +1099,7 @@
       "scala",
       "web"
     ],
-    "where": "Kraków, Poland",
+    "where": "Cracow, Poland",
     "conference": "Devoxx Poland"
   },
   {
@@ -1124,7 +1124,7 @@
       "akka",
       "reactive programming"
     ],
-    "where": "Kraków, Poland",
+    "where": "Cracow, Poland",
     "conference": "Geecon"
   },
   {
@@ -1212,7 +1212,7 @@
       "akka",
       "reactive programming"
     ],
-    "where": "Kraków, Poland",
+    "where": "Cracow, Poland",
     "conference": "Lambda Days",
     "video": "cd14773d-b3b8-40ba-bccc-5aff0597fb55"
   },
@@ -1394,6 +1394,6 @@
       "dependency injection"
     ],
     "where": "New York, USA",
-    "conference": "New York Scala Meetup,"
+    "conference": "New York Scala Meetup"
   }
 ]
