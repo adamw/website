@@ -1870,5 +1870,19 @@
     "where": "Cracow, Poland",
     "conference": "Studencki Festiwal Informatyczny",
     "slides": "https://adamw.github.io/unique-scala-pres/"
+  },
+  {
+    "id": "7758e33f-cc67-4851-ad96-5fb46865d14c",
+    "title": "Virtual-thread friendly go-like channels for Java",
+    "url": "https://qconferences.com",
+    "when": "2024-04-01T00:00:00Z",
+    "tags": [
+      "java",
+      "java21",
+      "concurrency"
+    ],
+    "where": "London, UK",
+    "conference": "QCon",
+    "slides": "https://adamw.github.io/jox-short-pres/"
   }
 ]
