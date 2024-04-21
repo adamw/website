@@ -1506,5 +1506,18 @@
     "where": "Antwerp, Belgium",
     "conference": "Devoxx",
     "slides": "http://www.warski.org/blog/wp-content/uploads/2023/08/The-ideal-module-system.pdf"
+  },
+  {
+    "id": "e64895b0-d4f9-4ee0-b367-fa028ee78f86",
+    "title": "ElasticMQ: a fully asynchronous, Akka-based SQS server",
+    "url": "https://devoxx.be",
+    "when": "2013-11-01T00:00:00Z",
+    "tags": [
+      "akka",
+      "message queue"
+    ],
+    "where": "Antwerp, Belgium",
+    "conference": "Devoxx",
+    "slides": "http://www.warski.org/blog/wp-content/uploads/2023/08/ElasticMq.pdf"
   }
 ]
