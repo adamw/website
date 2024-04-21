@@ -407,5 +407,17 @@
       "java",
       "annotations"
     ]
+  },
+  {
+    "id": "98eb145e-dbc0-4456-b7c2-a64ffbae4699",
+    "title": "KSUG: sttp: the Scala HTTP client that you always wanted! by Adam Warski",
+    "url": "https://www.youtube.com/watch?v=bwKCdhUy_KY",
+    "coverImage": "https://i.ytimg.com/vi/bwKCdhUy_KY/maxresdefault.jpg",
+    "when": "2018-05-28T08:59:36Z",
+    "tags": [
+      "scala",
+      "sttp",
+      "http"
+    ]
   }
 ]
