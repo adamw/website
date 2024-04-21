@@ -962,5 +962,17 @@
     "where": "Ljubljana, Slovenia",
     "conference": "BeeScala",
     "video": "00b3aeb5-9ed9-4a7c-ad38-fae3ea44c65f"
+  },
+  {
+    "id": "517eaa80-64ad-48b0-8a8f-59e332803b6c",
+    "title": "Windowing data in big data streams by example: Kafka, Spark, Flink & Akka",
+    "when": "2016-10-01T00:00:00Z",
+    "tags": [
+      "kafka",
+      "akka",
+      "streaming"
+    ],
+    "where": "Warsaw, Poland",
+    "conference": "Wolvessummit"
   }
 ]
