@@ -1493,5 +1493,18 @@
     "conference": "BuildStuff",
     "slides": "http://www.warski.org/blog/wp-content/uploads/2023/08/The-no-framework-Scala-DI-framework.pdf",
     "video": "5cae14f2-642a-4bb7-898f-cb3f95ddb13c"
+  },
+  {
+    "id": "5ba64864-d51e-4461-a165-bc4c8da7337e",
+    "title": "The ideal module system and the harsh reality",
+    "url": "https://devoxx.be",
+    "when": "2013-11-01T00:00:00Z",
+    "tags": [
+      "java",
+      "modularity"
+    ],
+    "where": "Antwerp, Belgium",
+    "conference": "Devoxx",
+    "slides": "http://www.warski.org/blog/wp-content/uploads/2023/08/The-ideal-module-system.pdf"
   }
 ]
