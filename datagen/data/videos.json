@@ -352,5 +352,16 @@
       "scala",
       "tapir"
     ]
+  },
+  {
+    "id": "c8f61f60-d482-458c-8af5-d3b659c8dbfe",
+    "title": "Adam Warski - Descriptions, APIs and Tapirs",
+    "url": "https://www.youtube.com/watch?v=TARW95QDdew",
+    "coverImage": "https://i.ytimg.com/vi/TARW95QDdew/maxresdefault.jpg",
+    "when": "2019-04-29T13:46:54Z",
+    "tags": [
+      "scala",
+      "tapir"
+    ]
   }
 ]

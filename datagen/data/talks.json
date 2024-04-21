@@ -678,5 +678,18 @@
     "where": "Kraków, Poland",
     "conference": "GeeCON",
     "video": "abfae6b3-9722-4d28-99ba-dc7a3ce10caf"
+  },
+  {
+    "id": "20f747d7-004e-4b77-a74d-8fec9867c7ba",
+    "title": "tapir: typed API descriptions",
+    "url": "https://www.youtube.com/c/ScalaintheCity/videos",
+    "when": "2019-04-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "tapir"
+    ],
+    "where": "London, UK",
+    "conference": "ScalaInTheCity",
+    "video": "c8f61f60-d482-458c-8af5-d3b659c8dbfe"
   }
 ]
