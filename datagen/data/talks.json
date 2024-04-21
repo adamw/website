@@ -1533,5 +1533,18 @@
     "conference": "Warsaw JUG",
     "slides": "http://www.warski.org/blog/wp-content/uploads/2023/08/Recommendation-systems.pdf",
     "video": "172c13ba-fcb7-4f38-b70b-7f1dc56e3b6d"
+  },
+  {
+    "id": "de22bd82-63d7-4563-822c-ac67a2d67dd8",
+    "title": "Scala macros: what are they, how do they work & who uses them",
+    "url": "https://javazone.no",
+    "when": "2013-09-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "metaprogramming"
+    ],
+    "where": "Oslo, Norway",
+    "conference": "JavaZone",
+    "video": "0c301804-afec-443c-8c5a-ffea50cc1113"
   }
 ]
