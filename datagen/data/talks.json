@@ -1346,5 +1346,17 @@
     ],
     "where": "San Francisco, USA",
     "conference": "JavaOne"
+  },
+  {
+    "id": "fb2ce6fc-e0e5-45ac-a363-3b7f9d397e1c",
+    "title": "Simple, fast & agile REST with Spray.io",
+    "url": "https://www.meetup.com/sf-scala/",
+    "when": "2014-09-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "http"
+    ],
+    "where": "San Francisco, USA",
+    "conference": "SF-Scala Meetup"
   }
 ]
