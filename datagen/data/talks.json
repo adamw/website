@@ -1454,5 +1454,17 @@
     ],
     "where": "Warsaw, Poland",
     "conference": "Scalar"
+  },
+  {
+    "id": "c40cdbf5-772b-4396-a2a0-cb0abac55d74",
+    "title": "Scala macros: scary or useful?",
+    "url": "https://www.meetup.com/bescala/",
+    "when": "2014-02-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "metaprogramming"
+    ],
+    "where": "Gent, Belgium",
+    "conference": "BeScala meetup"
   }
 ]
