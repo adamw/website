@@ -185,7 +185,7 @@
       "tapir",
       "http"
     ],
-    "where": "Warszawa, Poland",
+    "where": "Warsaw, Poland",
     "conference": "Scalar",
     "video": "50aa35e1-041f-46cd-93aa-52b9636ff5b2"
   },
@@ -1161,7 +1161,7 @@
       "scala",
       "web"
     ],
-    "where": "Warszawa, Poland",
+    "where": "Warsaw, Poland",
     "conference": "Warsaw JUG"
   },
   {
@@ -1173,7 +1173,7 @@
       "scala",
       "web"
     ],
-    "where": "Warszawa, Poland",
+    "where": "Warsaw, Poland",
     "conference": "4Developers"
   },
   {
@@ -1344,7 +1344,7 @@
       "scala",
       "metaprogramming"
     ],
-    "where": "",
+    "where": "San Francisco, USA",
     "conference": "JavaOne"
   }
 ]
