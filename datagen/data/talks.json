@@ -883,5 +883,17 @@
     ],
     "where": "Seattle, USA",
     "conference": "Private meetup"
+  },
+  {
+    "id": "9a560fb6-1be7-48f2-8f8f-1e2521faf737",
+    "title": "Relational DBs & Scala: comparing libraries",
+    "url": "https://www.meetup.com/sf-scala/",
+    "when": "2017-05-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "rdbms"
+    ],
+    "where": "San Francisco, USA",
+    "conference": "SF Scala"
   }
 ]
