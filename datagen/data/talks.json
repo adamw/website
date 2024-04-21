@@ -1430,5 +1430,17 @@
     ],
     "where": "Cracow, Poland",
     "conference": "Geecon"
+  },
+  {
+    "id": "954e98fe-d1dd-48e3-aee5-f7537e8dcb7b",
+    "title": "Simple, fast & agile REST with Spray.io",
+    "url": "https://www.meetup.com/ysoft-th/",
+    "when": "2014-04-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "http"
+    ],
+    "where": "Prague, Czech Republic",
+    "conference": "Technology Hour"
   }
 ]
