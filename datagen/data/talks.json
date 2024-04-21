@@ -1763,5 +1763,17 @@
     ],
     "where": "Nurnberg, Germany",
     "conference": "Herbstcampus"
+  },
+  {
+    "id": "b1596aa4-aa40-4d0a-b0b7-63278d6e9e57",
+    "title": "Limits and colimits in various categories of institutions",
+    "url": "https://www.ii.uib.no/calco07/calcojnr.html",
+    "when": "2007-06-01T00:00:00Z",
+    "tags": [
+      "category theory"
+    ],
+    "where": "Bergen, Norway",
+    "conference": "CALCO-jnr",
+    "slides": "http://www.warski.org/blog/wp-content/uploads/2023/08/pres.pdf"
   }
 ]
