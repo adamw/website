@@ -1229,5 +1229,18 @@
     "where": "Vienna, Austria",
     "conference": "Voxxed Days Vienna",
     "slides": "http://www.warski.org/blog/wp-content/uploads/2023/08/Evaluating-replicated-message-queues.pdf"
+  },
+  {
+    "id": "ea0c401c-55a2-4be8-a231-10b4460b0ee0",
+    "title": "Evaluating persistent, replicated message queues",
+    "url": "https://softwaretalks.pl",
+    "when": "2015-01-01T00:00:00Z",
+    "tags": [
+      "message queue",
+      "kafka",
+      "streaming"
+    ],
+    "where": "Rzeszów, Poland",
+    "conference": "SoftwareTalks"
   }
 ]
