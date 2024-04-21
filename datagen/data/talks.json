@@ -1266,5 +1266,16 @@
     ],
     "where": "London, UK",
     "conference": "Scala eXchange"
+  },
+  {
+    "id": "573317ef-9249-4716-bdf9-fa90e96ff501",
+    "title": "Framework-less Scala Dependency Injection framework",
+    "when": "2014-11-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "dependency injection"
+    ],
+    "where": "Minsk, Belarus",
+    "conference": "F(by)"
   }
 ]
