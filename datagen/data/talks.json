@@ -986,5 +986,18 @@
     ],
     "where": "Melbourne, Australia",
     "conference": "ITS World Congress"
+  },
+  {
+    "id": "e777e1c5-1ff8-4f80-b217-60442c78cec3",
+    "title": "Transactional event sourcing using Slick (audit log for free!)",
+    "url": "https://www.meetup.com/melbourne-scala-user-group/",
+    "when": "2016-10-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "rdbms",
+      "event sourcing"
+    ],
+    "where": "Melbourne, Australia",
+    "conference": "Melbourne Scala Meetup Group"
   }
 ]
