@@ -1064,5 +1064,17 @@
     "where": "New York, USA",
     "conference": "ScalaDays",
     "video": "69709d8f-d0a8-4fda-9fc9-1e5585d01c78"
+  },
+  {
+    "id": "af43850e-5eda-4efa-925d-a991712f91a1",
+    "title": "Reactive? Functional? Or: Akka- & Scalaz- streams side-by-side?",
+    "when": "2015-12-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "akka",
+      "functional programming"
+    ],
+    "where": "London, UK",
+    "conference": "Scala eXchange"
   }
 ]
