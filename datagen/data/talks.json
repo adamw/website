@@ -1610,5 +1610,16 @@
     ],
     "where": "Warsaw, Poland",
     "conference": "Confitura"
+  },
+  {
+    "id": "7bc62920-c89d-4f06-8720-dbed84443a33",
+    "title": "Cloud applications with AWS",
+    "url": "https://confitura.pl",
+    "when": "2011-06-01T00:00:00Z",
+    "tags": [
+      "cloud"
+    ],
+    "where": "Warsaw, Poland",
+    "conference": "Confitura"
   }
 ]
