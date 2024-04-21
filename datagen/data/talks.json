@@ -1300,5 +1300,16 @@
     ],
     "where": "Paris, France",
     "conference": "Scala.IO"
+  },
+  {
+    "id": "89842125-6628-4db2-8e5b-d6f55406decf",
+    "title": "The no-framework Scala Dependency Injection framework",
+    "when": "2014-10-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "dependency injection"
+    ],
+    "where": "Zurich, Switzerland",
+    "conference": "Jazoon"
   }
 ]
