@@ -511,5 +511,17 @@
       "rdbms",
       "event sourcing"
     ]
+  },
+  {
+    "id": "69709d8f-d0a8-4fda-9fc9-1e5585d01c78",
+    "title": "Transactional Event Sourcing using Slick audit log for free - by Adam Warski",
+    "url": "https://www.youtube.com/watch?v=RGqr1cXjS5o",
+    "coverImage": "https://i.ytimg.com/vi/RGqr1cXjS5o/maxresdefault.jpg",
+    "when": "2016-06-17T07:46:10Z",
+    "tags": [
+      "scala",
+      "rdbms",
+      "event sourcing"
+    ]
   }
 ]

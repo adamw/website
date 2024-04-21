@@ -1050,5 +1050,19 @@
     "conference": "ScalaDays",
     "slides": "http://www.warski.org/blog/wp-content/uploads/2023/08/Slick-eventsourcing.pdf",
     "video": "d3557371-9bef-41d2-8c32-d9e0bb8877f5"
+  },
+  {
+    "id": "9548fcb1-c142-4664-909e-b828b40d587d",
+    "title": "Transactional event sourcing using Slick (audit log for free!)",
+    "url": "https://scaladays.org",
+    "when": "2016-05-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "rdbms",
+      "event sourcing"
+    ],
+    "where": "New York, USA",
+    "conference": "ScalaDays",
+    "video": "69709d8f-d0a8-4fda-9fc9-1e5585d01c78"
   }
 ]
