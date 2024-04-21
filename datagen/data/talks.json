@@ -1656,5 +1656,17 @@
     ],
     "where": "Szczecin, Poland",
     "conference": "Java4People"
+  },
+  {
+    "id": "f5370fd0-8dff-4195-95d5-73d0d06929c8",
+    "title": "Torquebox&CDI – how we built JBison",
+    "url": "https://www.meetup.com/pl-PL/poznan-java-user-group/",
+    "when": "2011-04-01T00:00:00Z",
+    "tags": [
+      "java",
+      "web"
+    ],
+    "where": "Poznań, Poland",
+    "conference": "Poznan JUG"
   }
 ]
