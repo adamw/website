@@ -949,5 +949,18 @@
     "conference": "LambdaDays",
     "slides": "http://www.warski.org/blog/wp-content/uploads/2023/08/Origins-of-free.pdf",
     "video": "e1842beb-9b4d-4ef5-a1ba-e26841634ac0"
+  },
+  {
+    "id": "be58364d-777b-4876-8d51-2983077fe381",
+    "title": "Web & mobile session management using akka-http",
+    "when": "2016-11-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "http",
+      "akka"
+    ],
+    "where": "Ljubljana, Slovenia",
+    "conference": "BeeScala",
+    "video": "00b3aeb5-9ed9-4a7c-ad38-fae3ea44c65f"
   }
 ]

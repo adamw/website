@@ -487,5 +487,17 @@
       "functional programming",
       "category theory"
     ]
+  },
+  {
+    "id": "00b3aeb5-9ed9-4a7c-ad38-fae3ea44c65f",
+    "title": "BeeScala 2016: Adam Warski - Web & mobile session management using akka-http",
+    "url": "https://www.youtube.com/watch?v=4XirKUsnytY&feature=youtu.be&a",
+    "coverImage": "https://i.ytimg.com/vi/4XirKUsnytY/maxresdefault.jpg",
+    "when": "2016-12-06T20:28:49Z",
+    "tags": [
+      "scala",
+      "http",
+      "akka"
+    ]
   }
 ]
