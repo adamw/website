@@ -1599,5 +1599,16 @@
     ],
     "where": "Ljubljana, Slovenia",
     "conference": "OpenBlend"
+  },
+  {
+    "id": "26f11de6-346e-4d74-9366-a3241f012fda",
+    "title": "Bean manipulation: CDI Portable Extensions",
+    "url": "https://confitura.pl",
+    "when": "2011-06-01T00:00:00Z",
+    "tags": [
+      "java"
+    ],
+    "where": "Warsaw, Poland",
+    "conference": "Confitura"
   }
 ]
