@@ -1163,5 +1163,17 @@
     ],
     "where": "Warszawa, Poland",
     "conference": "Warsaw JUG"
+  },
+  {
+    "id": "dd30e439-eb35-43b0-a1c7-ab8236fa367c",
+    "title": "Supler: complex forms, not so complex",
+    "url": "https://4developers.org.pl",
+    "when": "2015-04-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "web"
+    ],
+    "where": "Warszawa, Poland",
+    "conference": "4Developers"
   }
 ]
