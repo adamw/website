@@ -861,5 +861,16 @@
     "where": "London, UK",
     "conference": "Scala London Meetup",
     "video": "4792c19a-7010-491d-9ce9-0b51c2c3f101"
+  },
+  {
+    "id": "12921bf4-5dc4-456e-9d02-74dc96021589",
+    "title": "Relational DBs & Scala: comparing libraries",
+    "when": "2017-06-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "rdbms"
+    ],
+    "where": "Seattle, USA",
+    "conference": "Private meetup"
   }
 ]
