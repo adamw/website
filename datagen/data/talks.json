@@ -1395,5 +1395,17 @@
     ],
     "where": "New York, USA",
     "conference": "New York Scala Meetup"
+  },
+  {
+    "id": "79edc682-9ac6-4be0-9623-22989accd570",
+    "title": "The no-framework Scala Dependency Injection framework",
+    "url": "https://scaladays.org",
+    "when": "2014-06-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "dependency injection"
+    ],
+    "where": "Berlin, Germany",
+    "conference": "ScalaDays"
   }
 ]
