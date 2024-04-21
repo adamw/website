@@ -796,5 +796,18 @@
     ],
     "where": "London, UK",
     "conference": "Scala eXchange"
+  },
+  {
+    "id": "46d46755-17dc-49a5-98fb-2f23840f9cca",
+    "title": "sttp: The Scala HTTP client you always wanted",
+    "url": "https://www.meetup.com/milano-scala-group/events/",
+    "when": "2017-11-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "sttp",
+      "http"
+    ],
+    "where": "Milan, Italy",
+    "conference": "Milan Scala Meetup"
   }
 ]
