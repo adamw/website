@@ -907,5 +907,19 @@
     ],
     "where": "Bay Area, USA",
     "conference": "Scala Bay"
+  },
+  {
+    "id": "1facdc89-137a-46a9-a0ab-2235384c96fe",
+    "title": "Origins of Free",
+    "url": "https://www.lambdaconf.us",
+    "when": "2017-05-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "functional programming",
+      "category theory"
+    ],
+    "where": "Boulder, USA",
+    "conference": "LambdaConf",
+    "video": "698d8711-7551-4aac-aac6-9e2b37dde927"
   }
 ]

@@ -452,5 +452,17 @@
       "sttp",
       "http"
     ]
+  },
+  {
+    "id": "698d8711-7551-4aac-aac6-9e2b37dde927",
+    "title": "Adam Warski - The Origins of Free - λC 2017",
+    "url": "https://www.youtube.com/watch?v=OfkfPOYXRoU",
+    "coverImage": "https://i.ytimg.com/vi/OfkfPOYXRoU/maxresdefault.jpg",
+    "when": "2017-10-14T16:06:43Z",
+    "tags": [
+      "scala",
+      "functional programming",
+      "category theory"
+    ]
   }
 ]
