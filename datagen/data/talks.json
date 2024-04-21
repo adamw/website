@@ -1801,5 +1801,21 @@
     ],
     "where": "Łódź, Poland",
     "conference": "Łódź JUG"
+  },
+  {
+    "id": "696c3d6d-dd12-4aae-b1f9-14de908ada46",
+    "title": "Unwrapping IO: is it a path that you want to follow?",
+    "url": "http://scala.io",
+    "when": "2024-02-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "functional programming",
+      "scala3",
+      "concurrency"
+    ],
+    "where": "Nantes, France",
+    "conference": "Scala.IO",
+    "slides": "https://adamw.github.io/unwrapping-io/",
+    "video": "7c67fbd0-12e8-4ffa-910a-93c4f3c34c83"
   }
 ]

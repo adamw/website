@@ -599,5 +599,18 @@
       "scala",
       "metaprogramming"
     ]
+  },
+  {
+    "id": "7c67fbd0-12e8-4ffa-910a-93c4f3c34c83",
+    "title": "Unwrapping IO: is it a path that you want to follow?  by Adam WARSKI",
+    "url": "https://www.youtube.com/watch?v=qR_Od7qbacs",
+    "coverImage": "https://i.ytimg.com/vi/qR_Od7qbacs/maxresdefault.jpg",
+    "when": "2024-03-13T23:12:50Z",
+    "tags": [
+      "scala",
+      "functional programming",
+      "scala3",
+      "concurrency"
+    ]
   }
 ]
