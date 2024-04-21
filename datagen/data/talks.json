@@ -1277,5 +1277,16 @@
     ],
     "where": "Minsk, Belarus",
     "conference": "F(by)"
+  },
+  {
+    "id": "9f85a38f-0d82-4b04-aac6-46da862634ed",
+    "title": "Simple, fast & agile REST with Spray.io",
+    "when": "2014-11-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "http"
+    ],
+    "where": "Gdańsk, Poland",
+    "conference": "Tricity Scala User Group"
   }
 ]
