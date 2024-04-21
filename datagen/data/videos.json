@@ -430,5 +430,16 @@
       "kafka",
       "message queue"
     ]
+  },
+  {
+    "id": "2c940185-671b-4d5f-913c-d072e70f440d",
+    "title": "Free monad or tagless final? How not to commit to a monad too early - Adam Warski",
+    "url": "https://www.youtube.com/watch?v=IhVdU4Xiz2U&list=PLjkHSzY9VuL9UI2oYMc4HKKu_Dl9TOnPL&index=54",
+    "coverImage": "https://i.ytimg.com/vi/IhVdU4Xiz2U/maxresdefault.jpg",
+    "when": "2017-12-18T07:30:01Z",
+    "tags": [
+      "scala",
+      "functional programming"
+    ]
   }
 ]

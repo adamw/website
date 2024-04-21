@@ -822,5 +822,18 @@
     "where": "Antwerp, Belgium",
     "conference": "Devoxx",
     "video": "2cffec83-555e-4e06-a62d-570092270ce8"
+  },
+  {
+    "id": "dd025d59-7e80-491e-9400-eaa746274db8",
+    "title": "Free monad or tagless final? How not to commit to a monad too early",
+    "url": "http://scala.io",
+    "when": "2017-11-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "functional programming"
+    ],
+    "where": "Lyon, France",
+    "conference": "Scala.IO",
+    "video": "2c940185-671b-4d5f-913c-d072e70f440d"
   }
 ]
