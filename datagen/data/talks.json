@@ -1442,5 +1442,17 @@
     ],
     "where": "Prague, Czech Republic",
     "conference": "Technology Hour"
+  },
+  {
+    "id": "1b704681-1a91-4a2b-a6af-9e3a210f7b53",
+    "title": "Simple, fast & agile REST with Spray.io",
+    "url": "https://www.scalar-conf.com",
+    "when": "2014-04-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "http"
+    ],
+    "where": "Warsaw, Poland",
+    "conference": "Scalar"
   }
 ]
