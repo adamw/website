@@ -1035,5 +1035,20 @@
     ],
     "where": "Sunnyvale, USA",
     "conference": "Scala Bay Meetup"
+  },
+  {
+    "id": "33f92c2a-a453-441f-9eec-14ed9d88f706",
+    "title": "Transactional event sourcing using Slick (audit log for free!)",
+    "url": "https://scaladays.org",
+    "when": "2016-06-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "rdbms",
+      "event sourcing"
+    ],
+    "where": "Berlin, Germany",
+    "conference": "ScalaDays",
+    "slides": "http://www.warski.org/blog/wp-content/uploads/2023/08/Slick-eventsourcing.pdf",
+    "video": "d3557371-9bef-41d2-8c32-d9e0bb8877f5"
   }
 ]

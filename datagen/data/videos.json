@@ -499,5 +499,17 @@
       "http",
       "akka"
     ]
+  },
+  {
+    "id": "d3557371-9bef-41d2-8c32-d9e0bb8877f5",
+    "title": "Transactional Event Sourcing Using Slick (Audit Log for Free!) by Adam Warski",
+    "url": "https://www.youtube.com/watch?v=zxgWuO1LEF0&list=PLLMLOC3WM2r7kLKJPHKnyJgdiBGWaKlJf&index=43",
+    "coverImage": "https://i.ytimg.com/vi/zxgWuO1LEF0/maxresdefault.jpg",
+    "when": "2016-07-22T13:55:13Z",
+    "tags": [
+      "scala",
+      "rdbms",
+      "event sourcing"
+    ]
   }
 ]
