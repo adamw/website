@@ -731,5 +731,19 @@
     "where": "Berlin, Germany",
     "conference": "Scala Days",
     "video": "51646e6b-84bc-4f21-a33e-9392eb102975"
+  },
+  {
+    "id": "7874a52c-f58d-494a-90a1-58a3261e8870",
+    "title": "What have the annotations done to us?",
+    "url": "https://www.geecon.org",
+    "when": "2018-05-01T00:00:00Z",
+    "tags": [
+      "java",
+      "annotations"
+    ],
+    "where": "Kraków, Poland",
+    "conference": "GeeCON",
+    "slides": "http://www.warski.org/blog/wp-content/uploads/2023/08/What-have-the-annotations-done-to-us.pdf",
+    "video": "91b0caf3-bbb1-41b2-90f5-56fc9e2d4183"
   }
 ]

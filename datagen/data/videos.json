@@ -396,5 +396,16 @@
       "sttp",
       "http"
     ]
+  },
+  {
+    "id": "91b0caf3-bbb1-41b2-90f5-56fc9e2d4183",
+    "title": "GeeCON 2018: Adam Warski - What have the annotations done to us?",
+    "url": "https://www.youtube.com/watch?v=nlzgJBuZSaA",
+    "coverImage": "https://i.ytimg.com/vi/nlzgJBuZSaA/maxresdefault.jpg",
+    "when": "2018-07-23T07:26:09Z",
+    "tags": [
+      "java",
+      "annotations"
+    ]
   }
 ]
