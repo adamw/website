@@ -835,5 +835,17 @@
     "where": "Lyon, France",
     "conference": "Scala.IO",
     "video": "2c940185-671b-4d5f-913c-d072e70f440d"
+  },
+  {
+    "id": "f6da0b4d-5fd4-4e9b-b78e-5277dda0cd80",
+    "title": "Kafka as a Message Queue",
+    "url": "https://www.meetup.com/apache-kafka-london/",
+    "when": "2017-09-01T00:00:00Z",
+    "tags": [
+      "kafka",
+      "message queue"
+    ],
+    "where": "London, UK",
+    "conference": "Apache Kafka London Meetup"
   }
 ]
