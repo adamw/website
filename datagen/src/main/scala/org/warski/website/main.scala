@@ -60,7 +60,7 @@ def addTalk(): Unit =
   println(parseMMYYtoInstant("11/23"))
   // println(addVideo(Uri("https://www.youtube.com/watch?v=Ia0J0yfxTCA")))
 
-def addVideo(url: Uri): Video =
+def addVideo(url: Uri, useTags: Option[List[String]] = None): Video =
   val video = if url.toString.contains("youtube") then
     val browser = JsoupBrowser()
     val doc = browser.get(url.toString)
@@ -70,17 +70,32 @@ def addVideo(url: Uri): Video =
     val created = Instant.ofEpochMilli(
       (doc >> extractor("meta[itemprop=datePublished]", attr("content"), asDateTime("yyyy-MM-dd'T'HH:mm:ssZ"))).toInstant.getMillis
     )
-    println("Video tags: ")
-    val tags = readTags()
+    val tags = useTags.getOrElse {
+      println("Video tags: ")
+      readTags()
+    }
 
     Video(UUID.randomUUID(), title, url, coverImage.map(Uri(_)), created, tags)
   else
-    println("Video tags: ")
-    val tags = readTags()
+    val tags = useTags.getOrElse {
+      println("Video tags: ")
+      readTags()
+    }
     Video(UUID.randomUUID(), "???", url, None, Instant.now(), tags)
 
   PersistentModel.videos.add(video)
   video
+
+@main def addVideoToTalk() =
+  val talks = PersistentModel.talks.read().sortBy(_.when)
+  for (i <- 1 to talks.length) println(s"$i: ${talks(i - 1).title} (${talks(i - 1).conference})")
+  println()
+  println("Talk number: ")
+  val talk = talks(StdIn.readLine().toInt - 1)
+  println("Video url: ")
+  val videoUrl = StdIn.readLine().trim
+  val video = addVideo(Uri(videoUrl), Some(talk.tags))
+  PersistentModel.talks.update(talk.copy(video = Some(video.id)))
 
 private def noneIfEmpty(s: String): Option[String] = if s.isEmpty then None else Some(s)
 private def readTags(): List[String] = StdIn.readLine().split(",").map(_.trim.toLowerCase).toList.filterNot(_.isEmpty)

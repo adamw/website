@@ -1,11 +1,11 @@
 package org.warski.website.persistence
 
-import com.github.plokhotnyuk.jsoniter_scala.core.{JsonValueCodec, WriterConfig, readFromStream, writeToStream}
-import org.warski.website.model.{Talk, Video}
+import com.github.plokhotnyuk.jsoniter_scala.core.{readFromStream, writeToStream, JsonValueCodec, WriterConfig}
+import org.warski.website.model.{ActivityMetaData, Talk, Video}
 
 import scala.util.Using
 
-case class PersistentModel[T](dataFile: String, codec: JsonValueCodec[Vector[T]]):
+case class PersistentModel[T <: ActivityMetaData](dataFile: String, codec: JsonValueCodec[Vector[T]]):
   given JsonValueCodec[Vector[T]] = codec
   def read(): Vector[T] =
     Using.resource(DataFiles.read(dataFile))(is => readFromStream[Vector[T]](is))
@@ -17,6 +17,11 @@ case class PersistentModel[T](dataFile: String, codec: JsonValueCodec[Vector[T]]
     println("Adding " + t)
     val ts = read()
     write(ts :+ t)
+
+  def update(t: T): Unit =
+    println("Updating " + t)
+    val ts = read()
+    write(ts.map(tt => if tt.id == t.id then t else tt))
 
 object PersistentModel:
   val videos: PersistentModel[Video] = PersistentModel[Video]("videos.json", summon)
