@@ -624,5 +624,17 @@
       "java21",
       "streaming"
     ]
+  },
+  {
+    "id": "8bd89992-6138-4f12-a4fa-f35d53d7083e",
+    "title": "Adam Warski DIRECT STYLE SCALA STACK AN EXPERIMENT - Scalar Conference 2024",
+    "url": "https://www.youtube.com/watch?v=C3j4AsFcxmM",
+    "coverImage": "https://i.ytimg.com/vi/C3j4AsFcxmM/maxresdefault.jpg",
+    "when": "2024-04-24T15:00:10Z",
+    "tags": [
+      "scala",
+      "scala3",
+      "concurrency"
+    ]
   }
 ]

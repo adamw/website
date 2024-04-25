@@ -96,6 +96,7 @@ def addVideo(url: Uri, useTags: Option[List[String]] = None): Video =
   val videoUrl = StdIn.readLine().trim
   val video = addVideo(Uri(videoUrl), Some(talk.tags))
   PersistentModel.talks.update(talk.copy(video = Some(video.id)))
+  CommitDataFiles.run(s"Adding video to ${talk.title}")
 
 private def noneIfEmpty(s: String): Option[String] = if s.isEmpty then None else Some(s)
 private def readTags(): List[String] = StdIn.readLine().split(",").map(_.trim.toLowerCase).toList.filterNot(_.isEmpty)
