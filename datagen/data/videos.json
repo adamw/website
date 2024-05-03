@@ -309,7 +309,7 @@
     "id": "e88c085a-ffa5-4fc4-b65c-0fade92a4a2d",
     "title": "Designing Programmer-Friendly APIs",
     "url": "https://www.youtube.com/watch?v=I3loMuHnYqw",
-    "when": "2024-04-20T20:42:43.483754Z",
+    "when": "2019-10-01T12:00:00Z",
     "tags": [
       "scala",
       "tapir",
@@ -377,7 +377,7 @@
     "id": "51646e6b-84bc-4f21-a33e-9392eb102975",
     "title": "sttp: the Scala HTTP client that you always wanted!",
     "url": "https://slideslive.com/38908165/sttp-the-scala-http-client-that-you-always-wanted",
-    "when": "2028-05-17T12:00:00Z",
+    "when": "2018-05-17T12:00:00Z",
     "tags": [
       "scala",
       "sttp",

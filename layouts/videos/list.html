@@ -1,31 +1,46 @@
 {{ define "main" }}
+
+{{ $videos := getJSON "datagen/data/videos.json" }}
+{{ $videos := sort $videos "when" "desc" }}
+
+{{ $uniqueTags := slice }}
+{{ range $videos }}
+  {{ $videoTags := .tags }}
+  {{ $uniqueTags = union $uniqueTags $videoTags }}
+{{ end }}
+{{ $uniqueTags := sort $uniqueTags }}
+{{ $uniqueTags := union (slice "all") $uniqueTags }}
+
+{{ $firstVideo := index $videos 0 }}
+{{ $videos := after 1 $videos }}
+
 <section>
   <div class="container mx-auto">
     <div class="py-16">
-      <h6 class="text-lg text-[#0A39AA] mb-3">{{ .Title }}</h6>
-      <h1 class="text-4xl md:text-5xl font-bold text-[#101828] mb-6">
-        {{ .Params.subtitle }}
-      </h1>
-      <p class="text-xl text-[#475467]">{{ .Params.description }}</p>
+      <h6 class="text-lg text-[#0A39AA] mb-3">Videos</h6>
+      <h1 class="text-4xl md:text-5xl font-bold text-[#101828] mb-6">Featured</h1>
     </div>
 
+    <div class="py-16">
+      <h1 class="text-4xl md:text-5xl font-bold text-[#101828] mb-6">All videos</h1>
+    </div>
     <div class="tab" data-tab-group="tab-group-name">
       <ul class="hidden md:flex tab-nav flex-wrap" data-tab-nav>
-        {{ range $index, $element := .Params.categories }}
+        {{ range $index, $element := $uniqueTags }}
         <li class="tab-nav-item text-base font-semibold" data-tab="{{add 0 $index}}" tabindex="0">
           {{ $element }}
         </li>
         {{ end }}
       </ul>
       <div class="tab-content hidden" data-tab-content>
-        {{ range $index, $element := .Params.categories }}
+        {{ range $index, $element := $uniqueTags }}
         <div class="tab-content-panel" data-tab-panel="{{$index}}">
           {{ $element }}
         </div>
         {{ end }}
       </div>
       <select class="block md:hidden tab-nav w-full rounded-md border-0 px-3 py-2 text-[#344054] shadow-sm ring-1 ring-inset ring-[#D0D5DD] placeholder:text-[#667085] focus:ring-2 focus:ring-inset focus:ring-[#475467] focus-visible:outline-none" data-tab-nav>
-        {{ range $index, $element := .Params.categories }}
+        {{ range $index, $element := $uniqueTags }}
         <option class="tab-nav-item text-base font-semibold" data-tab="{{add 0 $index}}" tabindex="0">
           {{ $element }}
         </option>
@@ -35,16 +50,15 @@
       <div class="">
         <div class="content-top mt-16 mb-12">
           <div class="main-article grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
-            {{ with .Params.main_video }}
+            {{ with $firstVideo }}
             <div>
               {{ partial "youtube-lite.html" (dict "Id" "6RYn6mgq77s" "Class" "mx-auto" "Width" "100%" "Height" "350px" "Style" "" "Attr" "") }}
             </div>
             <div>
-              <h6 class="text-sm font-semibold text-[#072671]">{{.publication}} • {{.date | time.Format ":date_medium"}}</h6>
+              <h6 class="text-sm font-semibold text-[#072671]">{{time.Format "2 Jan 2006" .when}}</h6>
               <a class="flex justify-between items-center my-2" href="{{.link}}">
                 <h4 class="text-2xl font-semibold text-[#101828]">{{.title}}</h4>
               </a>
-              <p class="text-base text-[#475467] mb-4">{{.description}}</p>
               <div class="flex flex-wrap items-center">
               {{ range .tags }}
                 {{ partial "badge.html" (dict "Type" .) }}
@@ -56,8 +70,7 @@
         </div>
         <div class="content-main">
           <div class="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-8 mb-24">
-            {{ $videos := getJSON "datagen/data/videos.json" }}
-            {{ range sort $videos "when" "desc" }}
+            {{ range $videos }}
             <div>
               {{ partial "youtube-lite.html" (dict "Id" "6RYn6mgq77s" "Class" "mx-auto" "Width" "100%" "Height" "240px" "Style" "" "Attr" "") }}
               <h6 class="text-sm font-semibold text-[#072671]">{{time.Format "2 Jan 2006" .when}}</h6>
