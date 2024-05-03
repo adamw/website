@@ -1,0 +1,34 @@
+{{ with .Params.hide_footer }}
+<!-- No footer here! -->
+{{ else }}
+  <div class="container mx-auto py-16">
+    <h4 class="text-2xl font-semibold text-white text-center mb-16">{{ site.Params.name }}</h4>
+
+    <div class="flex justify-center">
+      {{ with site.Menus.footer }}
+        <div class="menu flex justify-center flex-wrap sm:block gap-y-3">
+          {{ range . }}
+            {{ if $.IsMenuCurrent .Menu . }}
+              <a class="text-base font-semibold text-[#D0D5DD] px-4 hover:text-[#98A1B2] active:text-[#0A39AA]" aria-current="page" href="{{ .URL }}">{{ .Name }}</a>
+            {{ else }}
+              <a class="text-base font-semibold text-[#D0D5DD] px-4 hover:text-[#98A1B2] active:text-[#0A39AA]" href="{{ .URL }}">{{ .Name }}</a>
+            {{ end }} 
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+
+  <div class="container mx-auto">
+    <hr class="border-[#182230]">
+    <div class="grid sm:flex justify-center sm:justify-between gap-4 sm:gap-0 items-center py-8">
+      <p class="order-2 sm:order-1 text-base text-[#D0D5DD] m-0">&copy; {{ now.Year }}. All rights reserved.</p>
+
+      <div class="order-1 sm:order-2">
+        {{ range site.Params.social }}
+          <a class="ml-4" href="{{.link | safeURL}}"><i class="text-lg text-[#98A1B2] {{ .icon }}"></i></a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+{{ end }}

@@ -23,3 +23,20 @@ project/plugins/project/
 .bloop/
 metals.sbt
 .vscode
+
+# Hugo
+Thumbs.db
+.DS_Store
+.dist
+.tmp
+.sass-cache
+npm-debug.log
+node_modules
+builds
+package-lock.json
+public
+.hugo_build.lock
+jsconfig.json
+hugo_stats.json
+go.sum
+resources/_gen
