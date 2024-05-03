@@ -4,7 +4,7 @@ description: Hello, I’m Adam, Software Developer
 profile_image: images/profile.jpg
 job:
   title: Chief R&D Officer
-  description: Board member, SoftwareMill
+  description: SoftwareMill
   company_image: "images/softwaremill.png"
   company_link: "https://softwaremill.com"
 main_interest:

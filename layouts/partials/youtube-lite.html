@@ -10,6 +10,5 @@
   style="margin-bottom: 8px; {{ with $width }} width:{{ .| safeCSS }};
   {{ end }}{{ with $height }} height:{{ .| safeCSS }};
   {{ end }}{{ with $style }}{{ .| safeCSS }}{{ end }}">
-    <iframe src="https://www.youtube.com/embed/{{$videoid}}"
-          style="width: 100%; height: 100%; border-radius: 12px;"></iframe>
+    <youtube-lite videoid="{{ $videoid }}" {{ with $attr }}{{ . | safeHTMLAttr }}{{ end }}></youtube-lite>
 </div>

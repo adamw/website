@@ -1,9 +1,8 @@
 baseURL = 'https://warski.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Adam Warski: programming articles & videos"
 author = "Adam Warski"
 name = "Adam Warski"
-
 
 [params]
   google_fonts = [
@@ -19,7 +18,7 @@ name = "Adam Warski"
 [[params.plugins.js]]
   link = "plugins/youtube-lite.js"
 [[params.plugins.js]]
-link = "plugins/lazy-loader.js"
+  link = "plugins/lazy-loader.js"
 
 # Menus
 [menus]
