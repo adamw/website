@@ -76,13 +76,13 @@ def addVideo(url: Uri, useTags: Option[List[String]] = None): Video =
       readTags()
     }
 
-    Video(UUID.randomUUID(), title, url, coverImage.map(Uri(_)), created, tags)
+    Video(UUID.randomUUID(), title, url, coverImage.map(Uri(_)), created, tags, ytIdFromUrl(url.toString))
   else
     val tags = useTags.getOrElse {
       println("Video tags:")
       readTags()
     }
-    Video(UUID.randomUUID(), "???", url, None, Instant.now(), tags)
+    Video(UUID.randomUUID(), "???", url, None, Instant.now(), tags, None)
 
   PersistentModel.videos.add(video)
   video
@@ -195,3 +195,8 @@ private def parseMMYYtoInstant(dateString: String) =
   val dateTime = date.atStartOfDay
   val zonedDateTime = dateTime.atZone(ZoneOffset.UTC)
   zonedDateTime.toInstant
+private def ytIdFromUrl(url: String): Option[String] =
+  val urlPattern = ".*[?&]v=([^&]+).*".r
+  url match
+    case urlPattern(value) => Some(value)
+    case _                 => None

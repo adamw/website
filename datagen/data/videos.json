@@ -12,7 +12,8 @@
       "effects",
       "java",
       "ox"
-    ]
+    ],
+    "youtube": "Ia0J0yfxTCA"
   },
   {
     "id": "e285c8bb-5a23-40f3-a4d9-4626f1df9a37",
@@ -30,7 +31,8 @@
       "effects",
       "loom",
       "ox"
-    ]
+    ],
+    "youtube": "6RYn6mgq77s"
   },
   {
     "id": "b657fa3b-b569-4df2-8b11-723bc0d55294",
@@ -42,7 +44,8 @@
       "unison",
       "functional programming",
       "effects"
-    ]
+    ],
+    "youtube": "Z-fUqrvmxgo"
   },
   {
     "id": "f4f8247b-1484-4f35-aa47-102a752b59be",
@@ -57,7 +60,8 @@
       "effects",
       "java",
       "ox"
-    ]
+    ],
+    "youtube": "F6zLLzXw2T4"
   },
   {
     "id": "6b6af030-be8e-4df7-8ac4-f496743fa1b4",
@@ -74,7 +78,8 @@
       "zio",
       "cats-effect",
       "loom"
-    ]
+    ],
+    "youtube": "Buh5eOUSh4Y"
   },
   {
     "id": "50aa35e1-041f-46cd-93aa-52b9636ff5b2",
@@ -89,7 +94,8 @@
       "loom",
       "tapir",
       "http"
-    ]
+    ],
+    "youtube": "5tPIvamY3g8"
   },
   {
     "id": "f8d55a13-e3d3-4336-bb2e-1c17bc681d7e",
@@ -106,7 +112,8 @@
       "zio",
       "cats-effect",
       "loom"
-    ]
+    ],
+    "youtube": "sDnNjtkoUVs"
   },
   {
     "id": "5fbdfc93-65df-4d80-a2d6-4f17ea85e5a1",
@@ -117,7 +124,8 @@
     "tags": [
       "softwaremill",
       "personal"
-    ]
+    ],
+    "youtube": "H1T1T6Qf8PI"
   },
   {
     "id": "bd1220f3-303d-4934-8180-4594665958e0",
@@ -129,7 +137,8 @@
       "scala",
       "macros",
       "metaprogramming"
-    ]
+    ],
+    "youtube": "gimw7xlRGWU"
   },
   {
     "id": "6bffdd8a-2dd8-45d8-87d3-b707976cc0e1",
@@ -141,7 +150,8 @@
       "scala",
       "tapir",
       "web sockets"
-    ]
+    ],
+    "youtube": "rR7CK5xDn40"
   },
   {
     "id": "0464a863-d459-4771-91ee-e5661ef4f96a",
@@ -164,7 +174,8 @@
       "scala",
       "tapir",
       "functional programming"
-    ]
+    ],
+    "youtube": "Zv_0s0VgAvU"
   },
   {
     "id": "d3472706-ec27-4f9d-9027-44e16f58302a",
@@ -176,7 +187,8 @@
       "scala",
       "functional programming",
       "scala3"
-    ]
+    ],
+    "youtube": "mhUjQgOsFyk"
   },
   {
     "id": "666e6189-a268-4038-b0a4-2bb52062a089",
@@ -188,7 +200,8 @@
       "scala",
       "tapir",
       "functional programming"
-    ]
+    ],
+    "youtube": "ozF4YPhZl2E"
   },
   {
     "id": "b39905a1-bd3a-4d71-bf55-6991cdb00967",
@@ -201,7 +214,8 @@
       "scala3",
       "macros",
       "metaprogramming"
-    ]
+    ],
+    "youtube": "leIB5tvDY64"
   },
   {
     "id": "1295a3f2-a404-4597-8bed-70edbf31914a",
@@ -217,7 +231,8 @@
       "jvm",
       "scala",
       "functional programming"
-    ]
+    ],
+    "youtube": "q3qJH2QuqUA"
   },
   {
     "id": "1ac101b7-673b-42d1-ab99-1f920bc237e5",
@@ -229,7 +244,8 @@
       "scala",
       "kotlin",
       "java"
-    ]
+    ],
+    "youtube": "N1h6aYnUXPg"
   },
   {
     "id": "4ff1a392-ab8e-4aed-ab62-6555bcaea3b0",
@@ -240,7 +256,8 @@
     "tags": [
       "scala",
       "scala3"
-    ]
+    ],
+    "youtube": "vqHQSWn-HgE"
   },
   {
     "id": "798c8da2-5d4d-478f-800d-8c03ea137044",
@@ -255,7 +272,8 @@
       "concurrency",
       "scala",
       "reactive programming"
-    ]
+    ],
+    "youtube": "_fFzyY_7UmA"
   },
   {
     "id": "0ec9aa16-7873-48af-a6ca-ab63f575a55f",
@@ -266,7 +284,8 @@
     "tags": [
       "scala",
       "functional programming"
-    ]
+    ],
+    "youtube": "DGlkap5kzGU"
   },
   {
     "id": "b747485c-bf99-431d-8e60-0cc9a72aa34d",
@@ -278,7 +297,8 @@
       "scala",
       "tapir",
       "functional programming"
-    ]
+    ],
+    "youtube": "yuQNgZgSFIc"
   },
   {
     "id": "5c7826c8-4b8c-4f7b-952e-cd0e5beab960",
@@ -290,7 +310,8 @@
       "scala",
       "functional programming",
       "rdbms"
-    ]
+    ],
+    "youtube": "MyenxpTd6MY"
   },
   {
     "id": "7355bd5f-4202-4fce-af73-20a2c7aa8866",
@@ -303,7 +324,8 @@
       "tapir",
       "functional programming",
       "api design"
-    ]
+    ],
+    "youtube": "fXtZ3qY3ad4"
   },
   {
     "id": "e88c085a-ffa5-4fc4-b65c-0fade92a4a2d",
@@ -315,7 +337,8 @@
       "tapir",
       "functional programming",
       "api design"
-    ]
+    ],
+    "youtube": "I3loMuHnYqw"
   },
   {
     "id": "7c81366a-1181-41ac-ac11-36004ee0c6c9",
@@ -327,7 +350,8 @@
       "scala",
       "functional programming",
       "concurrency"
-    ]
+    ],
+    "youtube": "TqJg4AuxEIQ"
   },
   {
     "id": "abfae6b3-9722-4d28-99ba-dc7a3ce10caf",
@@ -338,7 +362,8 @@
     "tags": [
       "scala",
       "tapir"
-    ]
+    ],
+    "youtube": "kpMqZRxvMpg"
   },
   {
     "id": "c8f61f60-d482-458c-8af5-d3b659c8dbfe",
@@ -349,7 +374,8 @@
     "tags": [
       "scala",
       "tapir"
-    ]
+    ],
+    "youtube": "TARW95QDdew"
   },
   {
     "id": "fba40e0e-31f5-4983-a1c3-3eb59e05eb78",
@@ -360,7 +386,8 @@
     "tags": [
       "java",
       "annotations"
-    ]
+    ],
+    "youtube": "FOb8X-hVKAU"
   },
   {
     "id": "b83b52c0-734e-4c98-93ae-9eae2bc1b7de",
@@ -393,7 +420,8 @@
     "tags": [
       "java",
       "annotations"
-    ]
+    ],
+    "youtube": "nlzgJBuZSaA"
   },
   {
     "id": "98eb145e-dbc0-4456-b7c2-a64ffbae4699",
@@ -405,7 +433,8 @@
       "scala",
       "sttp",
       "http"
-    ]
+    ],
+    "youtube": "bwKCdhUy_KY"
   },
   {
     "id": "2cffec83-555e-4e06-a62d-570092270ce8",
@@ -416,7 +445,8 @@
     "tags": [
       "kafka",
       "message queue"
-    ]
+    ],
+    "youtube": "-As92HV0O4E"
   },
   {
     "id": "2c940185-671b-4d5f-913c-d072e70f440d",
@@ -427,7 +457,8 @@
     "tags": [
       "scala",
       "functional programming"
-    ]
+    ],
+    "youtube": "IhVdU4Xiz2U"
   },
   {
     "id": "698d8711-7551-4aac-aac6-9e2b37dde927",
@@ -439,7 +470,8 @@
       "scala",
       "functional programming",
       "category theory"
-    ]
+    ],
+    "youtube": "OfkfPOYXRoU"
   },
   {
     "id": "20a2ae0a-0bb8-488a-9575-c2fe62309267",
@@ -451,7 +483,8 @@
       "scala",
       "dependency injection",
       "functional programming"
-    ]
+    ],
+    "youtube": "AkOFubm-9L8"
   },
   {
     "id": "e1842beb-9b4d-4ef5-a1ba-e26841634ac0",
@@ -462,7 +495,8 @@
     "tags": [
       "functional programming",
       "category theory"
-    ]
+    ],
+    "youtube": "KdqvwM-U1qI"
   },
   {
     "id": "00b3aeb5-9ed9-4a7c-ad38-fae3ea44c65f",
@@ -474,7 +508,8 @@
       "scala",
       "http",
       "akka"
-    ]
+    ],
+    "youtube": "4XirKUsnytY"
   },
   {
     "id": "d3557371-9bef-41d2-8c32-d9e0bb8877f5",
@@ -486,7 +521,8 @@
       "scala",
       "rdbms",
       "event sourcing"
-    ]
+    ],
+    "youtube": "zxgWuO1LEF0"
   },
   {
     "id": "69709d8f-d0a8-4fda-9fc9-1e5585d01c78",
@@ -498,7 +534,8 @@
       "scala",
       "rdbms",
       "event sourcing"
-    ]
+    ],
+    "youtube": "RGqr1cXjS5o"
   },
   {
     "id": "6ffacd87-7fe5-4a53-a504-e5df7a902fa9",
@@ -510,7 +547,8 @@
       "scala",
       "akka",
       "functional programming"
-    ]
+    ],
+    "youtube": "pXj5Q8KsXX0"
   },
   {
     "id": "f001eb3d-4d9e-416d-b7b2-ed5f732f4c97",
@@ -521,7 +559,8 @@
     "tags": [
       "scala",
       "web"
-    ]
+    ],
+    "youtube": "ex9H_pHdFZ4"
   },
   {
     "id": "cd14773d-b3b8-40ba-bccc-5aff0597fb55",
@@ -543,7 +582,8 @@
     "tags": [
       "scala",
       "dependency injection"
-    ]
+    ],
+    "youtube": "n8a0A-m1w_c"
   },
   {
     "id": "5cae14f2-642a-4bb7-898f-cb3f95ddb13c",
@@ -564,7 +604,8 @@
     "tags": [
       "big data",
       "machine learning"
-    ]
+    ],
+    "youtube": "qS11WowjihE"
   },
   {
     "id": "0c301804-afec-443c-8c5a-ffea50cc1113",
@@ -587,7 +628,8 @@
       "functional programming",
       "scala3",
       "concurrency"
-    ]
+    ],
+    "youtube": "qR_Od7qbacs"
   },
   {
     "id": "316b9c38-6b1e-4056-88c5-b8aeda2b8c1a",
@@ -599,7 +641,8 @@
       "java",
       "java21",
       "streaming"
-    ]
+    ],
+    "youtube": "xQjcJCRI7h4"
   },
   {
     "id": "8bd89992-6138-4f12-a4fa-f35d53d7083e",
@@ -611,6 +654,7 @@
       "scala",
       "scala3",
       "concurrency"
-    ]
+    ],
+    "youtube": "C3j4AsFcxmM"
   }
 ]
