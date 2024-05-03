@@ -11,7 +11,7 @@ import org.warski.website.persistence.{CommitDataFiles, PersistentModel}
 import java.time.format.DateTimeFormatter
 import java.time.{Instant, LocalDate, YearMonth, ZoneOffset}
 import java.util.UUID
-import scala.io.StdIn
+import scala.io.{Source, StdIn}
 
 @main def addTalks(): Unit = while (true) addTalk()
 
@@ -99,17 +99,42 @@ def addVideo(url: Uri, useTags: Option[List[String]] = None): Video =
   PersistentModel.talks.update(talk.copy(video = Some(video.id)))
   CommitDataFiles.run(s"Adding video to ${talk.title}")
 
-@main def addBlog() =
+@main def addBlog(): Unit =
   println("Blog url:")
   val url = StdIn.readLine()
+  val bp = readBlog(url)
+  PersistentModel.blogs.add(bp)
+  CommitDataFiles.run(s"Adding blog ${bp.title}")
+
+@main def addBlogs(): Unit =
+  for (url <- Source.fromFile("/Users/adamw/projects/website/blogs.txt").getLines()) {
+    val allBlogs = PersistentModel.blogs.read()
+    if allBlogs.exists(_.url.toString == url) then println(s"Blog $url already exists")
+    else
+      val bp = readBlog(url)
+      PersistentModel.blogs.add(bp)
+      println()
+  }
+
+@main def simulateAddBlog(): Unit =
+  println(readBlog("https://softwaremill.com/go-like-selects-using-jox-channels-in-java/"))
+
+def readBlog(url: String): BlogPost =
+  println(s"Blog url: $url")
 
   val browser = JsoupBrowser()
   val doc = browser.get(url)
 
-  val title = (doc >> attr("content")("meta[property=og:title]")).trim
+  val title = (doc >?> attr("content")("meta[property=og:title]"))
+    .orElse(doc >?> attr("content")("meta[name=title]"))
+    .getOrElse(doc >> text("title"))
+    .trim
   println(s"Title: $title")
 
-  val coverImage = noneIfEmpty((doc >> attr("content")("meta[property=og:image]")).trim).map(Uri(_))
+  val coverImage = (doc >?> attr("content")("meta[property=og:image]"))
+    .orElse(doc >?> attr("src")("img"))
+    .map(_.trim)
+    .map(Uri(_))
   println(s"Cover image: $coverImage")
 
   // SML blog
@@ -141,14 +166,21 @@ def addVideo(url: Uri, useTags: Option[List[String]] = None): Video =
       .map(_ >> allText("div"))
 
     if tags.isEmpty then
-      println("Tags:")
-      tags = readTags()
+      // SML blog, v2
+      tags = anchors
+        .filter(_.attr("href").contains("/blog/?tag="))
+        .map(_ >> text)
+
+      if tags.isEmpty then
+        println("Tags:")
+        tags = readTags()
+      else println(s"Tags: $tags")
     else println(s"Tags: $tags")
   else println(s"Tags: $tags")
 
-  val bp = BlogPost(UUID.randomUUID(), title, Uri(url), coverImage, when, tags)
-  PersistentModel.blogs.add(bp)
-  // CommitDataFiles.run(s"Adding blog $talkTitle ($conferenceName)")
+  tags = tags.map(_.toLowerCase)
+
+  BlogPost(UUID.randomUUID(), title, Uri(url), coverImage, when, tags)
 
 private def noneIfEmpty(s: String): Option[String] = if s.isEmpty then None else Some(s)
 private def readTags(): List[String] = StdIn.readLine().split(",").map(_.trim.toLowerCase).toList.filterNot(_.isEmpty)

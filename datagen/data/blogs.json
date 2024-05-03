@@ -1,1 +1,1960 @@
-[]
+[
+  {
+    "id": "eada7148-4623-4650-8708-3ae3e8d4ab1b",
+    "title": "Safe direct-style Scala: Ox 0.1.0 released | SoftwareMill",
+    "url": "https://softwaremill.com/safe-direct-style-scala-ox-0-1-0-released/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/148.safe-direct-style-scala-ox-0-1-0-released/hbkmgbdazlmjnhp.jpg?g-3298ba4c",
+    "when": "2024-04-24T12:00:00Z",
+    "tags": [
+      "ox",
+      "virtual threads",
+      "functional programming",
+      "scala",
+      "resiliency",
+      "concurrency"
+    ]
+  },
+  {
+    "id": "36306d83-6165-4a6f-b521-1e8bc4566c39",
+    "title": "Handling errors in direct-style Scala | SoftwareMill",
+    "url": "https://softwaremill.com/handling-errors-in-direct-style-scala/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/131.handling-errors-in-direct-style-scala/fp6vujc95wigvso.jpg?g-3298ba4c",
+    "when": "2024-03-12T12:00:00Z",
+    "tags": [
+      "error handling",
+      "ox",
+      "virtual threads",
+      "structured concurrency",
+      "concurrency",
+      "exceptions"
+    ]
+  },
+  {
+    "id": "1cb2a763-a92e-4712-a00f-b57e56e6ac01",
+    "title": "Jox 0.1: virtual-thread friendly channels for Java | SoftwareMill",
+    "url": "https://softwaremill.com/jox-0-1-virtual-thread-friendly-channels-for-java/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/121.jox-0-1-virtual-thread-friendly-channels-for-java/0gl78u6uv5l2in4.jpg?g-3298ba4c",
+    "when": "2024-02-23T12:00:00Z",
+    "tags": [
+      "go",
+      "channels",
+      "ox",
+      "virtual threads",
+      "java",
+      "project loom",
+      "kotlin",
+      "jox",
+      "performance",
+      "concurrency"
+    ]
+  },
+  {
+    "id": "19bc9691-8aa0-4056-927a-e21c4ce30b6a",
+    "title": "Self-documenting code is a myth",
+    "url": "https://softwaremill.com/self-documenting-code-is-a-myth/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/114.self-documenting-code-is-a-myth/afjwevpfo5smrhg.jpg?g-3298ba4c",
+    "when": "2024-02-07T12:00:00Z",
+    "tags": [
+      "git",
+      "github",
+      "clean code",
+      "documentation",
+      "pull request"
+    ]
+  },
+  {
+    "id": "cc4939c1-6d46-4924-ad87-cc2f2088c70d",
+    "title": "Adam Warski - My Scala Story | SoftwareMill",
+    "url": "https://softwaremill.com/adam-warski-my-scala-story/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/111.adam-warski-my-scala-story/bir46tozqfukgkm.jpg?g-3298ba4c",
+    "when": "2024-02-02T12:00:00Z",
+    "tags": [
+      "scala",
+      "myscalastory",
+      "20yearsofscala",
+      "scalaversary",
+      "functionalprogramming",
+      "adam warski"
+    ]
+  },
+  {
+    "id": "4fc4baab-01cd-4318-92f8-7120d7fa49fc",
+    "title": "Go-like selects using jox channels in Java",
+    "url": "https://softwaremill.com/go-like-selects-using-jox-channels-in-java/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/105.go-like-selects-using-jox-channels-in-java/fihjzmhyktjd3yl.jpg?g-3298ba4c",
+    "when": "2024-01-10T12:00:00Z",
+    "tags": [
+      "channels",
+      "ox",
+      "virtual threads",
+      "java",
+      "kotlin",
+      "jox",
+      "performance",
+      "concurrency"
+    ]
+  },
+  {
+    "id": "0eb07e11-3263-445c-ad40-2ed158a96fda",
+    "title": "Announcing jox: Fast and Scalable Channels in Java",
+    "url": "https://softwaremill.com/announcing-jox-fast-and-scalable-channels-in-java/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/102.announcing-jox-fast-and-scalable-channels-in-java/c5mxdpsgilwq2q6.jpg?g-3298ba4c",
+    "when": "2023-12-19T12:00:00Z",
+    "tags": [
+      "jox",
+      "java",
+      "java channels",
+      "kotlin"
+    ]
+  },
+  {
+    "id": "ceee6e05-d26d-4206-b365-93188c731329",
+    "title": "Limits of Loom's performance | SoftwareMill",
+    "url": "https://softwaremill.com/limits-of-looms-performance/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/92.limits-of-looms-performance/0acj5pvwtbdyfjm.jpg?g-3298ba4c",
+    "when": "2023-10-25T12:00:00Z",
+    "tags": [
+      "java",
+      "performance",
+      "project loom",
+      "go",
+      "channels",
+      "virtual threads",
+      "kotlin",
+      "uncoverjava"
+    ]
+  },
+  {
+    "id": "7fd052e7-39d7-4265-a505-368b91d6c3cc",
+    "title": "Supervision, Kafka and Java 21: what’s new in Ox",
+    "url": "https://softwaremill.com/supervision-kafka-and-java-21-whats-new-in-ox/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/79.supervision-kafka-and-java-21-whats-new-in-ox/rdrykqgj4j2f3wn.jpg?g-3298ba4c",
+    "when": "2023-08-30T12:00:00Z",
+    "tags": [
+      "java",
+      "scala",
+      "kafka",
+      "project loom",
+      "cocurrency",
+      "go",
+      "channels",
+      "ox",
+      "streaming",
+      "structured concurrency",
+      "supervision"
+    ]
+  },
+  {
+    "id": "a75d25ce-c7cc-4922-9ed1-cf081ae1867b",
+    "title": "Principles of developing applications in Scala | SoftwareMill",
+    "url": "https://softwaremill.com/principles-of-developing-applications-in-scala/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/77.principles-of-developing-applications-in-scala/o6mixcpn8sktr1u.jpg?g-3298ba4c",
+    "when": "2023-08-16T12:00:00Z",
+    "tags": [
+      "java",
+      "scala",
+      "functional programming",
+      "concurrency",
+      "immutability"
+    ]
+  },
+  {
+    "id": "2af98b52-3074-4e8c-ad79-4b297f3921ab",
+    "title": "Go-like channels in Scala: receive, send, and default clauses",
+    "url": "https://softwaremill.com/go-like-channels-in-scala-receive-send-and-default-clauses/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/72.go-like-channels-in-scala-receive-send-and-default-clauses/ne4acdz2whi7myu.jpg?g-3298ba4c",
+    "when": "2023-07-21T12:00:00Z",
+    "tags": [
+      "scala",
+      "project loom",
+      "concurrency",
+      "go",
+      "channels"
+    ]
+  },
+  {
+    "id": "ab4d9714-10dd-4ee4-a299-082e2a3afac8",
+    "title": "What is blocking in Loom?",
+    "url": "https://softwaremill.com/what-is-blocking-in-loom/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/69.what-is-blocking-in-loom/bkn236gfkywqejv.jpg?g-3298ba4c",
+    "when": "2023-07-10T12:00:00Z",
+    "tags": [
+      "java",
+      "project loom",
+      "concurrency",
+      "jvm",
+      "multithreading",
+      "virtual threads"
+    ]
+  },
+  {
+    "id": "2bc11893-e7b4-40fe-909d-121675a2112f",
+    "title": "Two types of futures",
+    "url": "https://softwaremill.com/two-types-of-futures/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/66.two-types-of-futures/two types of futures.jpg?g-3298ba4c",
+    "when": "2023-06-22T12:00:00Z",
+    "tags": [
+      "java",
+      "scala",
+      "functional programming",
+      "concurrency",
+      "asynchronous",
+      "ox"
+    ]
+  },
+  {
+    "id": "faa0016d-bbb7-4f28-9771-38403b410e4e",
+    "title": "Go-like channels using project Loom and Scala | SoftwareMill",
+    "url": "https://softwaremill.com/go-like-channels-using-project-loom-and-scala/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/44.go-like-channels-using-project-loom-and-scala/6ptq3wvyfwpi5j8.jpg?g-3298ba4c",
+    "when": "2023-04-03T12:00:00Z",
+    "tags": [
+      "scala",
+      "project loom",
+      "csp",
+      "concurrency",
+      "jvm",
+      "go",
+      "channels",
+      "ox",
+      "streaming"
+    ]
+  },
+  {
+    "id": "b75d1dd3-e19e-4ab0-8069-4b3f34920a75",
+    "title": "Cancelling HTTP requests on the JVM | SoftwareMill",
+    "url": "https://softwaremill.com/cancelling-http-requests-on-the-jvm/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/36.cancelling-http-requests-on-the-jvm/kgyisij31xltc8q.jpg?g-3298ba4c",
+    "when": "2023-03-06T12:00:00Z",
+    "tags": [
+      "java",
+      "scala",
+      "http",
+      "asynchronous",
+      "jvm"
+    ]
+  },
+  {
+    "id": "4edf2d41-44ea-412d-b597-5a122d63e48e",
+    "title": "Prototype Loom-based concurrency API for Scala | SoftwareMill",
+    "url": "https://softwaremill.com/prototype-loom-based-concurrency-api-for-scala/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/27.prototype-loom-based-concurrency-api-for-scala/gqcnd5kixfllejo.jpg?g-3298ba4c",
+    "when": "2023-02-03T12:00:00Z",
+    "tags": [
+      "java",
+      "scala",
+      "api",
+      "project loom",
+      "concurrency"
+    ]
+  },
+  {
+    "id": "668a5c9b-05e1-4ffd-af0c-e5e7fc165527",
+    "title": "Trying out Unison, part 4: from the edge to the cloud",
+    "url": "https://softwaremill.com/trying-out-unison-part-4-from-the-edge-to-the-cloud/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/22.trying-out-unison-part-4-from-the-edge-to-the-cloud/lekg1qzfojgkxhn.jpg?g-3298ba4c",
+    "when": "2023-01-05T12:00:00Z",
+    "tags": [
+      "cloud",
+      "functionalprogramming",
+      "functional programming",
+      "fp",
+      "unison",
+      "distributed systems",
+      "clustering",
+      "spark",
+      "edge computing"
+    ]
+  },
+  {
+    "id": "6c3a0173-cf4d-421c-97b0-4da2abb40a06",
+    "title": "The architecture of Mastodon | SoftwareMill",
+    "url": "https://softwaremill.com/the-architecture-of-mastodon/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/the-architecture-of-mastodon/mastodon.jpg?g-3298ba4c",
+    "when": "2022-11-21T12:00:00Z",
+    "tags": [
+      "Architecture",
+      "Distributed Systems",
+      "scaling",
+      "mastodon",
+      "twitter",
+      "social media",
+      "PostgreSQL",
+      "ruby on rails"
+    ]
+  },
+  {
+    "id": "d6b4d2a5-dd09-4a73-aa27-9daf374cf95e",
+    "title": "Protecting state using virtual threads | SoftwareMill",
+    "url": "https://softwaremill.com/protecting-state-using-virtual-threads/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/protecting-state-using-virtual-threads/protecting-state-using-threads.jpg?g-3298ba4c",
+    "when": "2022-10-27T12:00:00Z",
+    "tags": [
+      "Java",
+      "Akka",
+      "Project Loom",
+      "Concurrency",
+      "Actor model",
+      "virtual threads",
+      "actors"
+    ]
+  },
+  {
+    "id": "0a74b329-4ee2-452f-88ac-ca6d89e5c4f0",
+    "title": "Trying out Unison, part 3: effects through abilities | SoftwareMill",
+    "url": "https://softwaremill.com/trying-out-unison-part-3-effects-through-abilities/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/trying-out-unison-part-3-effects-through-abilities/unison-effects.jpg?g-3298ba4c",
+    "when": "2022-10-19T12:00:00Z",
+    "tags": [
+      "Functional Programming",
+      "FP",
+      "Unison",
+      "effect systems"
+    ]
+  },
+  {
+    "id": "f7c55fd2-7fe0-4724-98b2-82bb2ef5ac2a",
+    "title": "Trying out Unison, part 2: organising code | SoftwareMill",
+    "url": "https://softwaremill.com/trying-out-unison-part-2-organising-code/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/trying-out-unison-part-2-organising-code/unison2.jpg?g-3298ba4c",
+    "when": "2022-10-06T12:00:00Z",
+    "tags": [
+      "Functional Programming",
+      "Unison",
+      "Dependencies"
+    ]
+  },
+  {
+    "id": "7a58d5de-552d-492b-99bf-562ea6c7009f",
+    "title": "A tapir looms in the distance | SoftwareMill",
+    "url": "https://softwaremill.com/a-tapir-looms-in-the-distance/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/a-tapir-looms-in-the-distance/tapir-loom.png?g-3298ba4c",
+    "when": "2022-09-30T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Project Loom",
+      "Concurrency",
+      "Multithreading",
+      "Tapir",
+      "Http",
+      "sttp"
+    ]
+  },
+  {
+    "id": "088c4d2a-7c34-4094-abef-8af8b0f5636c",
+    "title": "Migrating from Akka HTTP to tapir",
+    "url": "https://softwaremill.com/migrating-from-akka-http-to-tapir/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/migrating-from-akka-http-to-tapir/blogpost-migrating-akka-http-to-tapir.png?g-3298ba4c",
+    "when": "2022-09-21T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Akka",
+      "Tapir",
+      "Http",
+      "Scala 3",
+      "Open Api",
+      "Migration"
+    ]
+  },
+  {
+    "id": "e04b52a7-f295-41bc-99c9-c8bfc5e5b5a0",
+    "title": "Trying out Unison, part 1: code as hashes",
+    "url": "https://softwaremill.com/trying-out-unison-part-1-code-as-hashes/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/trying-out-unison-part-1-code-as-hashes/blogpost-unison-part1.png?g-3298ba4c",
+    "when": "2022-09-05T12:00:00Z",
+    "tags": [
+      "Functional Programming",
+      "Unison",
+      "Distributed Systems",
+      "Programming Languages"
+    ]
+  },
+  {
+    "id": "79105f5f-0803-477e-a2d9-fca81028c979",
+    "title": "Implementing Raft using Project Loom",
+    "url": "https://softwaremill.com/implementing-raft-using-project-loom/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/implementing-raft-using-project-loom/blogpost-implementing-raft-using-project-loom.png?g-3298ba4c",
+    "when": "2022-08-30T12:00:00Z",
+    "tags": [
+      "Java",
+      "Scala",
+      "Project Loom",
+      "Distributed Systems",
+      "Zio",
+      "Distributed Consensus",
+      "raft"
+    ]
+  },
+  {
+    "id": "de71adaf-e598-4278-b8ba-8a149d892f8a",
+    "title": "Implementing Raft using a functional effect system",
+    "url": "https://softwaremill.com/implementing-raft-using-a-functional-effect-system/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/implementing-raft-using-a-functional-effect-system/blogpost-raft.png?g-3298ba4c",
+    "when": "2022-08-18T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Functional Programming",
+      "Distributed Systems",
+      "Zio",
+      "Distributed Consensus",
+      "raft",
+      "effect systems"
+    ]
+  },
+  {
+    "id": "70f2a069-66f7-4fbc-bdf8-09ee8c10f792",
+    "title": "The future of effects in Scala?",
+    "url": "https://softwaremill.com/the-future-of-effects-in-scala/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/the-future-of-effects-in-scala/blogpost-effects-scala.png?g-3298ba4c",
+    "when": "2022-07-28T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Akka",
+      "Functional Programming",
+      "Concurrency",
+      "Asynchronous",
+      "Zio",
+      "Kotlin",
+      "coroutines",
+      "cats-effect"
+    ]
+  },
+  {
+    "id": "af0e8bca-cec7-4587-a9f7-eccd6b8cab38",
+    "title": "Functional programming for kids?",
+    "url": "https://softwaremill.com/functional-programming-for-kids/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/functional-programming-for-kids/fp-for-kids.png?g-3298ba4c",
+    "when": "2022-06-21T12:00:00Z",
+    "tags": [
+      "Functional Programming",
+      "scratch",
+      "logo",
+      "shelly",
+      "kids",
+      "education"
+    ]
+  },
+  {
+    "id": "cb9f84f0-cf4f-49bd-bedb-a42de2efa875",
+    "title": "Tapir 1.0 released",
+    "url": "https://softwaremill.com/tapir-1-0-released/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/tapir-1-0-released/exk3pozrzjkgxus.jpeg?g-3298ba4c",
+    "when": "2022-06-14T12:00:00Z",
+    "tags": [
+      "Scala",
+      "API",
+      "Functional Programming",
+      "Open Source",
+      "Tapir",
+      "Swagger",
+      "Open Api",
+      "Web frameworks"
+    ]
+  },
+  {
+    "id": "13acdd8d-08d1-4c49-85c2-a82b090862ba",
+    "title": "Structuring ZIO 2 applications",
+    "url": "https://softwaremill.com/structuring-zio-2-applications/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/structuring-zio-2-applications/vh2frcxqijgedvt.jpeg?g-3298ba4c",
+    "when": "2022-06-07T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Functional Programming",
+      "Zio",
+      "Macwire",
+      "Dependency Injection"
+    ]
+  },
+  {
+    "id": "1bff2018-9f50-44e7-985b-012beab4487d",
+    "title": "Bootzooka 2022: cats-effect 3, autowire & tapir",
+    "url": "https://softwaremill.com/bootzooka-2022-cats-effect-3-autowire-and-tapir/",
+    "coverImage": "/user/webp/user/themes/softwaremill/assets/img/post-image/0NeDEuFbGMsAOzc.webp",
+    "when": "2022-04-08T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Cats Effect",
+      "Tapir",
+      "Bootzooka",
+      "Autowire"
+    ]
+  },
+  {
+    "id": "520db3aa-f072-4068-88f1-d6d9244962d5",
+    "title": "Fancy strings in Scala 3",
+    "url": "https://softwaremill.com/fancy-strings-in-scala-3/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/fancy-strings-in-scala-3/blogpost-fancy-strings-Scala3.png?g-3298ba4c",
+    "when": "2022-03-30T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Functional Programming",
+      "Type Safety",
+      "Scala 3",
+      "Functional programming"
+    ]
+  },
+  {
+    "id": "a83664b5-47d5-42b0-b892-999de40b75c7",
+    "title": "Three tools to improve your Scala workflow",
+    "url": "https://softwaremill.com/three-tools-to-improve-your-scala-workflow/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/three-tools-to-improve-your-scala-workflow/blogpost-tools-scala-workflow.png?g-3298ba4c",
+    "when": "2022-03-21T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Tooling",
+      "Scala Steward",
+      "mdoc",
+      "scalafmt"
+    ]
+  },
+  {
+    "id": "76c4ef28-9a4f-4483-9b3c-575b240411f9",
+    "title": "ZIO environment: episode 3",
+    "url": "https://softwaremill.com/zio-environment-episode-3/",
+    "coverImage": "/user/webp/user/themes/softwaremill/assets/img/post-image/3WN6Yk0qIcHyKQU.webp",
+    "when": "2021-12-16T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Dependency Injection",
+      "Zio",
+      "Macwire",
+      "Reader monad"
+    ]
+  },
+  {
+    "id": "b2b159fe-5cd5-4bfa-a332-7a0091015953",
+    "title": "Security improvements in tapir 0.19",
+    "url": "https://softwaremill.com/security-improvements-in-tapir-0-19/",
+    "coverImage": "/user/pages/blog/security-improvements-in-tapir-0-19/blogpost-tapir-security.png?g-3298ba4c",
+    "when": "2021-11-22T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Functional Programming",
+      "Tapir",
+      "Security"
+    ]
+  },
+  {
+    "id": "22d32bfa-0966-47cc-9bdd-6d109c42784f",
+    "title": "Fast number parsing in Scala",
+    "url": "https://softwaremill.com/fast-number-parsing-in-scala/",
+    "coverImage": "/user/webp/user/themes/softwaremill/assets/img/post-image/QajOl0zrcoBKWtZ.webp",
+    "when": "2021-09-29T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Performance",
+      "parsing",
+      "jmh"
+    ]
+  },
+  {
+    "id": "3980c4cc-5ee0-4c7c-bf36-eed6ae5c7256",
+    "title": "First look at Akka Serverless",
+    "url": "https://softwaremill.com/first-look-at-akka-serverless/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/first-look-at-akka-serverless/akka-serverless-demo.jpeg?g-3298ba4c",
+    "when": "2021-08-18T12:00:00Z",
+    "tags": [
+      "Java",
+      "Cloud",
+      "Cluster",
+      "Serverless",
+      "akka",
+      "Google Cloud Platform",
+      "Persistence",
+      "sharding"
+    ]
+  },
+  {
+    "id": "385cbcef-02ce-403b-a1a7-8ef12c179034",
+    "title": "Evaluating persistent, replicated message queues (2020 edition)",
+    "url": "https://softwaremill.com/mqperf/",
+    "coverImage": "/user/pages/blog/mqperf/evaluating-message-queues.png?g-3298ba4c",
+    "when": "2021-07-26T12:00:00Z",
+    "tags": [
+      "Kafka",
+      "Performance",
+      "PostgreSQL",
+      "mongodb",
+      "Redis",
+      "Pulsar",
+      "Message Queue",
+      "Messaging",
+      "Clustering",
+      "Event Streaming",
+      "NATS",
+      "SQS",
+      "EventStore",
+      "RocketMQ",
+      "Split-brain",
+      "RabbitMQ",
+      "ActiveMQ",
+      "RedPanda",
+      "mqperf"
+    ]
+  },
+  {
+    "id": "a286d9a3-091f-46b1-b859-810f776dc799",
+    "title": "Implementing event sourcing using a relational database | SoftwareMill",
+    "url": "https://softwaremill.com/implementing-event-sourcing-using-a-relational-database/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/implementing-event-sourcing-using-a-relational-database/elephant-2380009_1920.jpg?g-3298ba4c",
+    "when": "2021-06-10T12:00:00Z",
+    "tags": [
+      "akka",
+      "sql",
+      "rdbms",
+      "event sourcing",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "id": "03aa0c72-e72b-42e2-bb2e-650f8b4c1d2c",
+    "title": "Scala 3 macros tips & tricks | SoftwareMill Blog",
+    "url": "https://softwaremill.com/scala-3-macros-tips-and-tricks/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/scala-3-macros-tips-and-tricks/macro.jpg?g-3298ba4c",
+    "when": "2021-05-24T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Functional Programming",
+      "Macros",
+      "Scala 3"
+    ]
+  },
+  {
+    "id": "033aeeb9-e639-4dec-8459-e312460c2b6f",
+    "title": "Context is King",
+    "url": "https://blog.softwaremill.com/context-is-king-20f533474cb3/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*WSbOXQz5AyRPCFVjZNHVqw.jpeg",
+    "when": "2021-04-08T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Functional Programming",
+      "Dependency Injection",
+      "Programming",
+      "Database"
+    ]
+  },
+  {
+    "id": "00398812-62c5-4aa1-beb8-af4c0a87639c",
+    "title": "Shelly: under the hood",
+    "url": "https://blog.softwaremill.com/shelly-under-the-hood-747e940c9ca4/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*Mu_-EYHqCP8VQdB3JgCZ1Q.png",
+    "when": "2021-03-22T12:00:00Z",
+    "tags": [
+      "Programming",
+      "Learn To Code",
+      "Turtle Graphics",
+      "JavaScript",
+      "Scala"
+    ]
+  },
+  {
+    "id": "6d5ebff3-13b0-48fb-a6d1-b8e08c96cc67",
+    "title": "Tapir serverless: a proof of concept",
+    "url": "https://blog.softwaremill.com/tapir-serverless-a-proof-of-concept-6b8c9de4d396/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*VqcRGS7xRtxttAkagny_GQ.png",
+    "when": "2021-03-08T12:00:00Z",
+    "tags": [
+      "Serverless",
+      "Scala",
+      "AWS",
+      "Yaml",
+      "Lambda"
+    ]
+  },
+  {
+    "id": "98bf729f-f20a-42dc-83ea-3bb00650a25b",
+    "title": "Validation analysis paralysis",
+    "url": "https://blog.softwaremill.com/validation-analysis-paralysis-ca9bdef0a6d7/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*f5JaNRTsE4YvlQZSi8pLjQ.png",
+    "when": "2021-02-11T12:00:00Z",
+    "tags": [
+      "Validation",
+      "Programming",
+      "Java",
+      "Scala",
+      "Best Practices"
+    ]
+  },
+  {
+    "id": "0162b596-04c2-4d7d-a007-302cec5e3415",
+    "title": "sttp client 3 is here!",
+    "url": "https://blog.softwaremill.com/sttp-client-3-is-here-bb9ebe925931/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*D0IzZmi288dy4VM6lUleTw.png",
+    "when": "2021-01-13T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Sttp",
+      "Http Client",
+      "Functional Programming"
+    ]
+  },
+  {
+    "id": "d0299979-711e-4f26-aef1-1e76ca87963a",
+    "title": "Functional pancakes",
+    "url": "https://blog.softwaremill.com/functional-pancakes-cf70023f0dcb/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*_hKsM2P-h3hdGz7o2lM4Ng.jpeg",
+    "when": "2020-11-18T12:00:00Z",
+    "tags": [
+      "Functional Programming",
+      "Scala",
+      "Websocket",
+      "Tapir",
+      "Http4s"
+    ]
+  },
+  {
+    "id": "9e389533-d4e5-4b4c-8314-cfab76194009",
+    "title": "Designing tapir’s WebSockets support",
+    "url": "https://blog.softwaremill.com/designing-tapirs-websockets-support-ff1573166368/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*ZPHGMO147CDud8tHU4kNUg.png",
+    "when": "2020-10-26T12:00:00Z",
+    "tags": [
+      "Websocket",
+      "Asyncapi",
+      "Open Api",
+      "Functional Programming",
+      "Akka"
+    ]
+  },
+  {
+    "id": "4c28620f-82dc-48c8-b1bb-7c39bb0aec32",
+    "title": "Java 15 through the eyes of a Scala programmer",
+    "url": "https://blog.softwaremill.com/java-15-through-the-eyes-of-a-scala-programmer-edde1ea04492/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*b1vEl6J6TkeXOYwfc-5A6A.jpeg",
+    "when": "2020-10-06T12:00:00Z",
+    "tags": [
+      "Java",
+      "Scala",
+      "JVM",
+      "Functional Programming",
+      "Programming Languages"
+    ]
+  },
+  {
+    "id": "f80a50f7-642d-421b-9e35-6ad18c04e6a0",
+    "title": "Never write a UserService again",
+    "url": "https://blog.softwaremill.com/never-write-a-userservice-again-d771e10265d/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*-ArJr9fsub2cMX-gmPShrA.jpeg",
+    "when": "2020-09-23T12:00:00Z",
+    "tags": [
+      "Auth0",
+      "Security",
+      "Microservices",
+      "Oauth2",
+      "System Architecture"
+    ]
+  },
+  {
+    "id": "77a292f7-9ec3-445d-b964-e0d8f7129805",
+    "title": "What’s coming up in sttp client 3?",
+    "url": "https://blog.softwaremill.com/whats-coming-up-in-sttp-client-3-30d01ab42d1b/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*LyWTO7Ak3eZ4FAJPgN8uWg.jpeg",
+    "when": "2020-09-01T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Http",
+      "Http Client",
+      "Websocket"
+    ]
+  },
+  {
+    "id": "a5f41876-036f-4500-9c29-0dad9fa90dc9",
+    "title": "Structured concurrency and pure functions",
+    "url": "https://blog.softwaremill.com/structured-concurrency-and-pure-functions-92dd8ed1a9f2/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*ZFGe8Tmy6ZyxcHYKBHabaw.jpeg",
+    "when": "2020-08-17T12:00:00Z",
+    "tags": [
+      "Functional Programming",
+      "Kotlin",
+      "Java",
+      "Scala",
+      "Python"
+    ]
+  },
+  {
+    "id": "8b2b5ab0-e3b0-4953-be2c-bde0fdea0074",
+    "title": "Managing dependencies using ZIO",
+    "url": "https://blog.softwaremill.com/managing-dependencies-using-zio-8acc1539e276/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*4yWs-69drWkwL8mwTAJLWQ.png",
+    "when": "2020-06-08T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Zio",
+      "Dependency Injection",
+      "Functional Programming"
+    ]
+  },
+  {
+    "id": "97370d6d-f488-4222-b278-568c5353747c",
+    "title": "Scalar 2020 whiteboard voting",
+    "url": "https://blog.softwaremill.com/scalar-2020-whiteboard-voting-fe5ef8803262/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1176/1*4XaTrwne1yMQmdblNjbUmA.png",
+    "when": "2020-06-01T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Scalar",
+      "Functional Programming",
+      "Conferences",
+      "Programming"
+    ]
+  },
+  {
+    "id": "d61e3bac-2868-4fd4-bbd5-b7efe6d2da5b",
+    "title": "Defining the server logic for an endpoint: three approaches",
+    "url": "https://blog.softwaremill.com/defining-the-server-logic-for-an-endpoint-three-approaches-82b280954641/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*yhjaykmZKh0FZNuF0ZoWHg.png",
+    "when": "2020-05-28T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Tapir",
+      "Akka",
+      "Http",
+      "Functional Programming"
+    ]
+  },
+  {
+    "id": "29d4aa4d-cb23-4b33-86b6-91e02c801a00",
+    "title": "Starting with Scala 3 macros: a short tutorial",
+    "url": "https://blog.softwaremill.com/starting-with-scala-3-macros-a-short-tutorial-88e9d2b2584c/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*kjkI1pw8xYorhg1ifsPv3A.png",
+    "when": "2020-05-04T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Dotty",
+      "Metaprogramming",
+      "Macro",
+      "Programming"
+    ]
+  },
+  {
+    "id": "2de28041-ad77-4d8b-9e36-01a533de240e",
+    "title": "3 reasons to adopt Event Sourcing",
+    "url": "https://blog.softwaremill.com/3-reasons-to-adopt-event-sourcing-89cb855453f6/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*qNWeeXPeSqv2_u0W5q0fAQ.png",
+    "when": "2020-04-23T12:00:00Z",
+    "tags": [
+      "Event Sourcing",
+      "Performance",
+      "Audit",
+      "Ddd",
+      "Kafka"
+    ]
+  },
+  {
+    "id": "9335f133-fbaa-4eab-9754-7aa1f27b153d",
+    "title": "How to run a successful remote software development project | SoftwareMill Blog",
+    "url": "https://softwaremill.com/remote-software-development-project/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/remote-software-development-project/remote software project miroservices.png?g-3298ba4c",
+    "when": "2020-04-15T12:00:00Z",
+    "tags": [
+      "Remote Working",
+      "Software Development",
+      "Business",
+      "remote",
+      "Teamwork"
+    ]
+  },
+  {
+    "id": "5cb4f0cf-38dc-4c7f-8ad7-024b239d315e",
+    "title": "Tapir codecs get an update",
+    "url": "https://blog.softwaremill.com/tapir-codecs-get-an-update-c9801889cbf3/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*MZ7zWntofjJXXvUN-0l-KA.png",
+    "when": "2020-04-03T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Http",
+      "Functional Programming",
+      "Akka",
+      "Codec"
+    ]
+  },
+  {
+    "id": "6c1d7d72-962d-44bc-b469-0364a4ac948a",
+    "title": "Abstractions and serverless",
+    "url": "https://blog.softwaremill.com/abstractions-and-serverless-3dfaccaf85b6/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*x-0cu1JuWAwotHiMnHhWzQ.jpeg",
+    "when": "2020-03-19T12:00:00Z",
+    "tags": [
+      "Serverless",
+      "AWS",
+      "Kubernetes",
+      "Modularity",
+      "Abstraction"
+    ]
+  },
+  {
+    "id": "691919b1-6aea-451e-a1a3-4030eef4e3c6",
+    "title": "Happy eyeballs algorithm using ZIO",
+    "url": "https://blog.softwaremill.com/happy-eyeballs-algorithm-using-zio-120997ba5152/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*FhZ9Ur1h_oZ8ULRvayBpEg.png",
+    "when": "2020-02-04T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Python",
+      "Concurrency",
+      "Zio"
+    ]
+  },
+  {
+    "id": "c479ad4a-d13d-4c23-a31b-05eb71461d2d",
+    "title": "Will Project Loom obliterate Java Futures?",
+    "url": "https://blog.softwaremill.com/will-project-loom-obliterate-java-futures-fb1a28508232/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*afcokzcgJm8EIf8SKIKbjg.png",
+    "when": "2020-01-28T12:00:00Z",
+    "tags": [
+      "Java",
+      "Kotlin",
+      "Scala",
+      "Concurrency",
+      "JVM"
+    ]
+  },
+  {
+    "id": "b66802f7-fa92-44aa-91c9-e81480d02437",
+    "title": "Testing Doobie programs",
+    "url": "https://blog.softwaremill.com/testing-doobie-programs-425517c1c295/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*EkyBZB0YjQCYK8b4M4wtPg.jpeg",
+    "when": "2020-01-21T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Doobie",
+      "Relational Databases",
+      "Testing"
+    ]
+  },
+  {
+    "id": "a35c3a56-6cda-45ef-a7c8-947588b44cb3",
+    "title": "ZIO environment meets constructor-based dependency injection",
+    "url": "https://blog.softwaremill.com/zio-environment-meets-constructor-based-dependency-injection-6a13de6e000/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*nQN4Fxl3ZA_TN7BU4iT1IQ.png",
+    "when": "2020-01-06T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Zio",
+      "Dependency Injection",
+      "Functional Programming"
+    ]
+  },
+  {
+    "id": "bdeac180-8b04-49a2-8c6e-a3dab4d3f4bb",
+    "title": "Migrating to sttp client 2.x and tapir 0.12.x",
+    "url": "https://blog.softwaremill.com/migrating-to-sttp-client-2-x-and-tapir-0-12-x-7956e6c79c52/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*Dnw7awG9_-VEVu19cNmpJA.jpeg",
+    "when": "2019-11-22T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Http",
+      "Tapir",
+      "Sttp"
+    ]
+  },
+  {
+    "id": "d6ab288c-5cd7-4718-93a0-09c27308d878",
+    "title": "Working with HTTP in Polynote",
+    "url": "https://blog.softwaremill.com/working-with-http-in-polynote-d950dcfcd75f/",
+    "coverImage": "https://miro.medium.com/v2/da:true/resize:fit:1200/1*0WHbdY--LxJWHvoFmZdlkQ.gif",
+    "when": "2019-11-14T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Notebook",
+      "Spark",
+      "Http Request",
+      "Sttp"
+    ]
+  },
+  {
+    "id": "f30ee147-7718-43bd-9ad4-328447fec15c",
+    "title": "Websockets in Scala using sttp",
+    "url": "https://blog.softwaremill.com/websockets-in-scala-using-sttp-baefd207c5fb/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*Dai8QgdAwrznSgvI5UDveg.jpeg",
+    "when": "2019-10-18T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Websocket",
+      "Async Http Client",
+      "Akka",
+      "Okhttp"
+    ]
+  },
+  {
+    "id": "4cfef595-3a28-4d9c-bfd5-cf990a1d23de",
+    "title": "sttp2: an overview of proposed changes",
+    "url": "https://blog.softwaremill.com/sttp2-an-overview-of-proposed-changes-8de23c94684f/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*ZS0vPPk-ftu_6C9xWd_beQ.png",
+    "when": "2019-10-01T12:00:00Z",
+    "tags": [
+      "API",
+      "Sttp",
+      "Scala",
+      "Http",
+      "Open Source"
+    ]
+  },
+  {
+    "id": "690c96dd-e20f-4ec1-8925-46b6187419e9",
+    "title": "From @Transactional to type-safe, reasonable transactions",
+    "url": "https://blog.softwaremill.com/from-transactional-to-type-safe-reasonable-transactions-a5019906245e/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*BAhwYRFjkESgvaB2AlvsZA.png",
+    "when": "2019-09-23T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Java",
+      "Spring",
+      "Transactions",
+      "Relational Databases"
+    ]
+  },
+  {
+    "id": "0a604bbc-e0c8-4001-aba4-7c95a45398eb",
+    "title": "Bootzooka 2019: functional Scala and React",
+    "url": "https://blog.softwaremill.com/bootzooka-2019-functional-scala-and-react-3cf8c1a0f1c2/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*-JmZxZT1sILOgyqPQVk5Pg.png",
+    "when": "2019-08-21T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Functional Programming",
+      "Template",
+      "React",
+      "Open Source"
+    ]
+  },
+  {
+    "id": "ef7221ec-0824-4f0d-bda8-034790765b41",
+    "title": "Ethereum in practice: a durable medium for tender offers",
+    "url": "https://blog.softwaremill.com/ethereum-in-practice-a-durable-medium-for-tender-offers-5ca5aa81ab9f/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*86C5eg6PFIh3DKXFDfECjA.png",
+    "when": "2019-07-10T12:00:00Z",
+    "tags": [
+      "Ethereum",
+      "Durable Medium",
+      "Blockchain",
+      "Smart Contract",
+      "Tenders"
+    ]
+  },
+  {
+    "id": "6f1f5fce-61de-4806-b690-3890125f9e6a",
+    "title": "tAPIr’s Endpoint meets ZIO’s IO",
+    "url": "https://blog.softwaremill.com/tapirs-endpoint-meets-zio-s-io-3278099c5e10/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*cZWLRX2r5-QXzl8IoKPFvA.jpeg",
+    "when": "2019-07-01T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Functional Programming",
+      "Http",
+      "Zio"
+    ]
+  },
+  {
+    "id": "06e2d364-94be-46d4-8803-81314105e927",
+    "title": "Comparing Ethereum and the Libra blockchain",
+    "url": "https://blog.softwaremill.com/comparing-ethereum-and-the-libra-blockchain-64bec7dd70c0/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*UocrbJYmzA-V6CkouqfQuw.jpeg",
+    "when": "2019-06-24T12:00:00Z",
+    "tags": [
+      "Blockchain",
+      "Libra Blockchain",
+      "Ethereum Blockchain",
+      "Facebook"
+    ]
+  },
+  {
+    "id": "672dbd4d-c412-4b89-9008-149cfefeaedd",
+    "title": "Thread shifting in cats-effect and ZIO",
+    "url": "https://blog.softwaremill.com/thread-shifting-in-cats-effect-and-zio-9c184708067b/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*S7l5CTq5ww7CG1XH5I0a0w.jpeg",
+    "when": "2019-06-17T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Zio",
+      "Scalaz",
+      "Functional Programming",
+      "Cats"
+    ]
+  },
+  {
+    "id": "7bef18e8-81a0-407e-a0c0-7babc34ac581",
+    "title": "sttp, curl, request logging and functional programming",
+    "url": "https://blog.softwaremill.com/sttp-curl-request-logging-and-functional-programming-7d290ef3b9a0/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1016/1*RFVCz3ltX_O6oFnzfc65Ow.png",
+    "when": "2019-06-13T12:00:00Z",
+    "tags": [
+      "Functional Programming",
+      "Scala",
+      "Http",
+      "Curl"
+    ]
+  },
+  {
+    "id": "dec9a131-202c-4bcf-9428-0021689f1082",
+    "title": "Small & fast Docker images using GraalVM’s native-image",
+    "url": "https://blog.softwaremill.com/small-fast-docker-images-using-graalvms-native-image-99c0bc92e70b/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*9CnqScCEkVJlvOXXXzvwhg.jpeg",
+    "when": "2019-05-30T12:00:00Z",
+    "tags": [
+      "Docker",
+      "Java",
+      "Graalvm",
+      "Scala",
+      "Sbt"
+    ]
+  },
+  {
+    "id": "e20b38ea-e9c7-4ff5-8618-f05cdfbc4a04",
+    "title": "GraalVM installation and setup on macOS",
+    "url": "https://blog.softwaremill.com/graalvm-installation-and-setup-on-macos-294dd1d23ca2/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*M3qaHE1VzKkBXNhdndbyhQ.png",
+    "when": "2019-05-13T12:00:00Z",
+    "tags": [
+      "Programming",
+      "Java",
+      "Graalvm",
+      "Scala",
+      "JVM"
+    ]
+  },
+  {
+    "id": "d07da8e7-9a01-4c3b-af01-5f94bc7214de",
+    "title": "Three easy endpoints",
+    "url": "https://blog.softwaremill.com/three-easy-endpoints-a6cbd52b0a6e/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*l7hpNfeNroHXwiJ_N6A_8g.png",
+    "when": "2019-05-09T12:00:00Z",
+    "tags": [
+      "Java",
+      "Scala",
+      "Programming",
+      "Http",
+      "Functional Programming"
+    ]
+  },
+  {
+    "id": "d9e50b50-c060-4dcd-aa77-e3de3c6abeac",
+    "title": "Scalar 2019 whiteboard voting",
+    "url": "https://blog.softwaremill.com/scalar-2019-whiteboard-voting-40b31e4f7f7/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*s7qP_ofkhud--GmJ5ggcjQ.jpeg",
+    "when": "2019-04-10T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Conference",
+      "Akka",
+      "Functional Programming"
+    ]
+  },
+  {
+    "id": "7644f994-cb9e-4990-b46b-fc28a54910de",
+    "title": "Final Tagless seen alive",
+    "url": "https://blog.softwaremill.com/final-tagless-seen-alive-79a8d884691d/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*rlC5OMHZosED6-YJ3x46OA.png",
+    "when": "2019-03-05T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Functional Programming",
+      "Zio",
+      "Dependency Injection",
+      "Programming"
+    ]
+  },
+  {
+    "id": "2af69038-9a9d-427f-80ad-3f5783d7e3d2",
+    "title": "Describe, then interpret: HTTP endpoints using tapir.",
+    "url": "https://blog.softwaremill.com/describe-then-interpret-http-endpoints-using-tapir-ac139ba565b0/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*HQheXYXmueJWc0gZI4MaVQ.jpeg",
+    "when": "2019-02-25T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Swagger",
+      "Akka",
+      "Functional Programming",
+      "Open Api"
+    ]
+  },
+  {
+    "id": "1249a010-d6a3-43f8-aa0f-a2e609254844",
+    "title": "Correlation IDs in Scala using Monix",
+    "url": "https://blog.softwaremill.com/correlation-ids-in-scala-using-monix-3aa11783db81/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*Bkn0azYUh3uI96O_JYgmBA.png",
+    "when": "2018-11-26T12:00:00Z",
+    "tags": [
+      "Programming",
+      "Scala",
+      "Functional Programming",
+      "Monix",
+      "Distributed Systems"
+    ]
+  },
+  {
+    "id": "fda19124-bc61-4b9a-9f0a-3cf1eabd13a1",
+    "title": "What is Dependency Injection?",
+    "url": "https://blog.softwaremill.com/what-is-dependency-injection-8c9e7805502f/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*wP4vI8k0jiCRDrCswjOKJA.png",
+    "when": "2018-09-18T12:00:00Z",
+    "tags": [
+      "Dependency Injection",
+      "Java",
+      "Spring",
+      "Design Patterns"
+    ]
+  },
+  {
+    "id": "09b88fec-ad0d-4dc2-885e-2ddee1a96746",
+    "title": "Why Scala?",
+    "url": "https://blog.softwaremill.com/why-scala-a6ac8c98c541/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*ygv4NHtC9Jao-aZPSCMPYg.png",
+    "when": "2018-07-19T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Kotlin",
+      "Java",
+      "Programming",
+      "Programming Languages"
+    ]
+  },
+  {
+    "id": "aa418c53-477e-40f4-ac1e-fc174db81e10",
+    "title": "Supervision & error handling in ZIO, Akka and Monix (part 3) + series summary",
+    "url": "https://blog.softwaremill.com/supervision-error-handling-in-zio-akka-and-monix-part-3-series-summary-abe75f964c2a/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*AVlddrqI6KPGPh-JoBz-1g.png",
+    "when": "2018-07-11T12:00:00Z",
+    "tags": [
+      "Functional Programming",
+      "Scala",
+      "Akka",
+      "Programming",
+      "Concurrency"
+    ]
+  },
+  {
+    "id": "fc632a7d-eae1-4949-ac87-04d183fe2f29",
+    "title": "Akka vs ZIO vs Monix, part 2: communication",
+    "url": "https://blog.softwaremill.com/akka-vs-zio-vs-monix-part-2-communication-9ce7261aa08c/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*tJDDOOwUafY9WaVWbNThZw.png",
+    "when": "2018-06-19T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Akka",
+      "Scalaz",
+      "Monix",
+      "Functional Programming"
+    ]
+  },
+  {
+    "id": "cefbe8d3-0c1f-4c88-bd87-3f601358fc6b",
+    "title": "Scalaz 8 IO vs Akka (typed) actors vs Monix (part 1)",
+    "url": "https://blog.softwaremill.com/scalaz-8-io-vs-akka-typed-actors-vs-monix-part-1-5672657169e1/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*JlXdWI_z18lwrwdgWTOi0Q.jpeg",
+    "when": "2018-06-12T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Scalaz",
+      "Monix",
+      "Akka",
+      "Functional Programming"
+    ]
+  },
+  {
+    "id": "7eab10d4-11d9-4b58-a1e2-3f3c27b56c7c",
+    "title": "Scalar 2018 whiteboard voting results!",
+    "url": "https://blog.softwaremill.com/scalar-2018-whiteboard-voting-results-c6f50f8fb16d/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:768/1*tT1jBDLaeQhf7qFakb1FDw.jpeg",
+    "when": "2018-05-23T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Conference"
+    ]
+  },
+  {
+    "id": "48de8e69-8ea0-4184-8986-6254f3fe96aa",
+    "title": "Synchronous or asynchronous, and why wrestle with wrappers?",
+    "url": "https://blog.softwaremill.com/synchronous-or-asynchronous-and-why-wrestle-with-wrappers-2c5667eb7acf/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*_Bi5vv6sxelS7qEar-GUdQ.jpeg",
+    "when": "2018-04-11T12:00:00Z",
+    "tags": [
+      "Java",
+      "Kotlin",
+      "Scala",
+      "Asynchronous",
+      "Programming"
+    ]
+  },
+  {
+    "id": "7f7c75de-9b4b-4b9d-8a31-0e5d282ff00a",
+    "title": "Event sourcing using Kafka",
+    "url": "https://blog.softwaremill.com/event-sourcing-using-kafka-53dfd72ad45d/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*N0s_mXtMRj9rL_gdsv45zw.jpeg",
+    "when": "2018-03-05T12:00:00Z",
+    "tags": [
+      "Big Data",
+      "Kafka",
+      "Event Sourcing",
+      "Akka",
+      "Kafka Streams"
+    ]
+  },
+  {
+    "id": "07286028-ac8c-465f-ab93-808e4903d767",
+    "title": "Measuring response time in akka-http",
+    "url": "https://blog.softwaremill.com/measuring-response-time-in-akka-http-7b6312ec70cf/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*xPX0KhPP_WSkMyGA82H79w.jpeg",
+    "when": "2018-02-16T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Akka",
+      "Akka Http",
+      "Prometheus",
+      "Metrics"
+    ]
+  },
+  {
+    "id": "94de7dfe-1131-4f9e-a2b7-c8f09c22606b",
+    "title": "Don’t fear the main()",
+    "url": "https://blog.softwaremill.com/dont-fear-the-main-1b9612ea6467/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:500/1*Tl8SayEPtnhen7CBGZ2Q2w.jpeg",
+    "when": "2018-02-14T12:00:00Z",
+    "tags": [
+      "Java",
+      "Scala",
+      "Spring",
+      "Kotlin"
+    ]
+  },
+  {
+    "id": "550fcfbc-c413-45ea-8efb-6aa873feec28",
+    "title": "200 issues of Scala Times: a bunch of statistics",
+    "url": "https://blog.softwaremill.com/200-issues-of-scala-times-a-bunch-of-statistics-dfbd443a9145/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*Z3-0OB7Wig2MajYaVaIaMg.jpeg",
+    "when": "2018-02-08T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Newsletter",
+      "Functional Programming"
+    ]
+  },
+  {
+    "id": "98175262-1f77-4c99-8c05-0bd5bf723852",
+    "title": "Simple Scala Stack",
+    "url": "https://blog.softwaremill.com/simple-scala-stack-70fc786132b5/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:745/1*7csvYYyr28ib3VOR_KcxPA.jpeg",
+    "when": "2017-11-07T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Software Development",
+      "Simplicity",
+      "Open Source"
+    ]
+  },
+  {
+    "id": "3e62c28a-d5d8-4c1c-874d-41c336f19874",
+    "title": "sttp 1.0 released!",
+    "url": "https://blog.softwaremill.com/sttp-1-0-released-7d14106865a9/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*zM0TN_z0PE8PZF7xU8d3XA.jpeg",
+    "when": "2017-10-19T12:00:00Z",
+    "tags": [
+      "Scala",
+      "Reactive Programming",
+      "Akka",
+      "Okhttp"
+    ]
+  },
+  {
+    "id": "80d7176e-332c-4d3a-85df-d63d9d9a8d6a",
+    "title": "The case against annotations",
+    "url": "https://blog.softwaremill.com/the-case-against-annotations-4b2fb170ed67/",
+    "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*FThJePMMbOKtB2ZmVdV14g.jpeg",
+    "when": "2017-10-13T12:00:00Z",
+    "tags": [
+      "Java",
+      "Annotations",
+      "Spring",
+      "Software Development",
+      "Programming"
+    ]
+  },
+  {
+    "id": "d7a1959c-9e32-49ee-91e1-6fa0a12f2f07",
+    "title": "sttp streaming and the URI interpolator",
+    "url": "https://softwaremill.com/sttp-streaming-uri-interpolator/",
+    "when": "2017-08-03T12:00:00Z",
+    "tags": [
+      "scala",
+      "akka",
+      "http",
+      "library",
+      "sttp",
+      "scalaz",
+      "monix"
+    ]
+  },
+  {
+    "id": "35eb9db1-e38b-4c1f-9f70-4e1d8d6406e1",
+    "title": "What does Kafka's exactly-once processing really mean? | SoftwareMill",
+    "url": "https://softwaremill.com/what-kafka-exactly-once-really-means/",
+    "coverImage": "https://softwaremill.com/",
+    "when": "2017-07-27T12:00:00Z",
+    "tags": [
+      "kafka",
+      "messaging",
+      "distributed",
+      "exactly-once"
+    ]
+  },
+  {
+    "id": "bd426199-8332-4f0f-9a7a-fd8d6f58a54c",
+    "title": "Introducing sttp",
+    "url": "https://softwaremill.com/introducing-sttp-the-scala-http-client/",
+    "when": "2017-07-25T12:00:00Z",
+    "tags": [
+      "scala",
+      "akka",
+      "http",
+      "library",
+      "sttp",
+      "scalaz",
+      "monix"
+    ]
+  },
+  {
+    "id": "ab495a4a-69a4-4b31-80ba-f84a1a2fa720",
+    "title": "Evaluating persistent, replicated message queues (2017 edition)",
+    "url": "https://softwaremill.com/mqperf-2017/",
+    "coverImage": "/user/themes/softwaremill/assets/_old-website/uploads/2017/07/mqperf/queue01.png",
+    "when": "2017-07-18T12:00:00Z",
+    "tags": [
+      "kafka",
+      "messaging",
+      "sqs",
+      "benchmark",
+      "mq",
+      "activemq",
+      "rabbitmq",
+      "mongodb",
+      "kmq",
+      "artemis",
+      "evenstore"
+    ]
+  },
+  {
+    "id": "5e51ff32-2a8e-4e28-b8b7-37c1cb9ff4a9",
+    "title": "Amazon's SQS performance and latency",
+    "url": "https://softwaremill.com/amazon-sqs-performance-latency/",
+    "coverImage": "https://softwaremill.com/",
+    "when": "2017-07-06T12:00:00Z",
+    "tags": [
+      "aws",
+      "sqs",
+      "benchmark",
+      "performance",
+      "latency",
+      "mq"
+    ]
+  },
+  {
+    "id": "fb10a3bb-b18d-45ad-9f79-d2d7e4139dd3",
+    "title": "Kafka with selective acknowledgments (kmq) performance & latency benchmark | SofwtareMill",
+    "url": "https://softwaremill.com/kafka-with-selective-acknowledgments-performance/",
+    "coverImage": "https://softwaremill.com/",
+    "when": "2017-06-22T12:00:00Z",
+    "tags": [
+      "kafka",
+      "benchmark",
+      "performance",
+      "latency",
+      "grafana",
+      "kmq",
+      "prometheus"
+    ]
+  },
+  {
+    "id": "aa3e6cbf-8dd6-4c40-9d5a-7f8ed0329bdd",
+    "title": "Readers vs Constructors - Dependency Injection showdown",
+    "url": "https://softwaremill.com/readers-constructors-dependency-injection-showdown/",
+    "when": "2017-06-18T12:00:00Z",
+    "tags": [
+      "scala",
+      "presentations",
+      "dependency injection",
+      "functional programming",
+      "reader monad",
+      "guice"
+    ]
+  },
+  {
+    "id": "7a2362b0-be3c-4bc4-acbf-7ea837289e52",
+    "title": "Free and tagless compared - how not to commit to a monad too early",
+    "url": "https://softwaremill.com/free-tagless-compared-how-not-to-commit-to-monad-too-early/",
+    "when": "2017-05-08T12:00:00Z",
+    "tags": [
+      "scala",
+      "functional",
+      "monad",
+      "free",
+      "tagless"
+    ]
+  },
+  {
+    "id": "a2b2d877-7f97-4444-bb1d-3c85ec99c164",
+    "title": "Comparing Scala relational database access libraries",
+    "url": "https://softwaremill.com/comparing-scala-relational-database-access-libraries/",
+    "coverImage": "https://softwaremill.com/",
+    "when": "2017-04-18T12:00:00Z",
+    "tags": [
+      "scala",
+      "slick",
+      "sql",
+      "rdbms",
+      "doobie",
+      "quill",
+      "scalikejdbc"
+    ]
+  },
+  {
+    "id": "3c2ce768-8ffa-47fc-97f7-a4e599ae6bd0",
+    "title": "Race condition when caching using the get-compute-put pattern",
+    "url": "https://softwaremill.com/race-condition-cache-guava-caffeine/",
+    "when": "2017-03-29T12:00:00Z",
+    "tags": [
+      "java",
+      "cache",
+      "guava",
+      "caffeine"
+    ]
+  },
+  {
+    "id": "801c07e1-bb47-415e-ae6f-d1dcae272882",
+    "title": "Using Kafka as a message queue",
+    "url": "https://softwaremill.com/using-kafka-as-a-message-queue/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/using-kafka-as-a-message-queue/Kafka queue.png?g-3298ba4c",
+    "when": "2017-02-27T12:00:00Z",
+    "tags": [
+      "scala",
+      "java",
+      "kafka",
+      "sqs",
+      "mq",
+      "reactive"
+    ]
+  },
+  {
+    "id": "359fc64f-9f5a-48e6-8264-beaca1b96815",
+    "title": "Bring some color to your Scala compiler",
+    "url": "https://softwaremill.com/bring-some-color-to-scala-compiler/",
+    "when": "2017-01-31T12:00:00Z",
+    "tags": [
+      "scala",
+      "clippy",
+      "sbt",
+      "compiler"
+    ]
+  },
+  {
+    "id": "5b592a25-600a-43b8-9ae4-41924c9260de",
+    "title": "Reader & Constructor-based Dependency Injection - friend or foe?",
+    "url": "https://softwaremill.com/reader-monad-constructor-dependency-injection-friend-or-foe/",
+    "when": "2016-12-12T12:00:00Z",
+    "tags": [
+      "scala",
+      "scalaz",
+      "dependency injection",
+      "monad",
+      "functional programming",
+      "macwire"
+    ]
+  },
+  {
+    "id": "9df7522c-671e-4211-900d-1919aebee0c8",
+    "title": "Most popular keybind for push-to-talk",
+    "url": "https://softwaremill.com/most-popular-push-to-talk-keyboard-shortcut/",
+    "coverImage": "https://softwaremill.com/",
+    "when": "2016-12-08T12:00:00Z",
+    "tags": [
+      "marketing",
+      "remote",
+      "teamspeak"
+    ]
+  },
+  {
+    "id": "882b0ba1-a93b-4ce5-8444-f81cc6eb5ccb",
+    "title": "Open source big data landscape - paper presented at ITS World Congress 2016",
+    "url": "https://softwaremill.com/open-source-big-data-landscape-its-world-congress/",
+    "coverImage": "/user/themes/softwaremill/assets/_old-website/uploads/2016/12/its2016paper_cover.png",
+    "when": "2016-12-01T12:00:00Z",
+    "tags": [
+      "big data",
+      "flink",
+      "kafka",
+      "akka",
+      "spark",
+      "its",
+      "marketing"
+    ]
+  },
+  {
+    "id": "f76537b2-7ab7-423e-96cb-3c77797f2850",
+    "title": "Beautiful folds in Scala | SoftwareMill",
+    "url": "https://softwaremill.com/beautiful-folds-in-scala/",
+    "coverImage": "https://softwaremill.com/",
+    "when": "2016-11-14T12:00:00Z",
+    "tags": [
+      "scala",
+      "big data",
+      "haskell",
+      "functional programming",
+      "lens"
+    ]
+  },
+  {
+    "id": "fb9cd3ac-a0c9-4977-8515-8920cad5218d",
+    "title": "Windowing data in Big Data Streams - Spark, Flink, Kafka, Akka",
+    "url": "https://softwaremill.com/windowing-in-big-data-streams-spark-flink-kafka-akka/",
+    "coverImage": "/user/themes/softwaremill/assets/_old-website/uploads/2016/10/types-of-windows.png",
+    "when": "2016-10-26T12:00:00Z",
+    "tags": [
+      "akka",
+      "kafka",
+      "big data",
+      "spark",
+      "flink",
+      "streaming"
+    ]
+  },
+  {
+    "id": "fe4d5ac2-f155-48ad-8957-c10a275759f1",
+    "title": "Replacing Akka actors with Akka streams",
+    "url": "https://softwaremill.com/replacing-akka-actors-with-akka-streams/",
+    "when": "2016-08-31T12:00:00Z",
+    "tags": [
+      "scala",
+      "akka",
+      "reactive",
+      "actors",
+      "amazon"
+    ]
+  },
+  {
+    "id": "2415b074-0203-41a9-9986-4d84ccd2033b",
+    "title": "Windowing data in Akka Streams",
+    "url": "https://softwaremill.com/windowing-data-in-akka-streams/",
+    "coverImage": "/user/themes/softwaremill/assets/_old-website/uploads/2016/06/akkawindowing.png",
+    "when": "2016-08-08T12:00:00Z",
+    "tags": [
+      "scala",
+      "akka",
+      "kafka",
+      "reactive",
+      "spark",
+      "flink",
+      "bigdata"
+    ]
+  },
+  {
+    "id": "afee938f-8296-4ce9-b078-bd87e63db2bf",
+    "title": "Kafka Streams - how does it fit the stream processing landscape?",
+    "url": "https://softwaremill.com/kafka-streams-how-does-it-fit-stream-landscape/",
+    "when": "2016-06-01T12:00:00Z",
+    "tags": [
+      "kafka",
+      "reactive",
+      "spark",
+      "flink",
+      "bigdata"
+    ]
+  },
+  {
+    "id": "5023991d-4cc3-4c0c-bbea-e65790bd649b",
+    "title": "Transactional event sourcing using Slick (audit log for free!)",
+    "url": "https://softwaremill.com/transactional-event-sourcing-slick/",
+    "coverImage": "https://softwaremill.com/",
+    "when": "2016-05-20T12:00:00Z",
+    "tags": [
+      "scala",
+      "presentations",
+      "transactions",
+      "event sourcing",
+      "slick",
+      "rdbms"
+    ]
+  },
+  {
+    "id": "0feab8b5-4374-4e9d-b8f8-67c90409d2ba",
+    "title": "Securing REST response serialization with Scala implicits",
+    "url": "https://softwaremill.com/securing-rest-response-scala-implicits/",
+    "when": "2016-05-17T12:00:00Z",
+    "tags": [
+      "scala",
+      "bootzooka",
+      "security",
+      "json"
+    ]
+  },
+  {
+    "id": "ad81cef5-257f-4899-b770-967ada8808c3",
+    "title": "Scalar 2016 Scala Memes",
+    "url": "https://softwaremill.com/scala-mems/",
+    "coverImage": "https://pbs.twimg.com/media/CgJwYN9W4AAA97D.jpg:small",
+    "when": "2016-05-05T12:00:00Z",
+    "tags": [
+      "marketing",
+      "scala"
+    ]
+  },
+  {
+    "id": "9ad05146-5cbe-446b-baef-55deadde2ff9",
+    "title": "Approaches to data auditing and introducing Slick-Eventsourcing",
+    "url": "https://softwaremill.com/data-auditing-slick-eventsourcing/",
+    "coverImage": "https://softwaremill.com/",
+    "when": "2015-12-01T12:00:00Z",
+    "tags": [
+      "scala",
+      "slick",
+      "event sourcing",
+      "audit"
+    ]
+  },
+  {
+    "id": "bc774916-93f5-41d6-9283-91614d5312ca",
+    "title": "akka-http-session 0.2.0 - mobile (and web), JWT, optional cookies",
+    "url": "https://softwaremill.com/akka-http-session-0-2/",
+    "when": "2015-11-16T12:00:00Z",
+    "tags": [
+      "scala",
+      "akka",
+      "security",
+      "spray",
+      "jwt"
+    ]
+  },
+  {
+    "id": "ab117f90-3398-4794-9006-00d9d3645fe2",
+    "title": "Free monads - what? and why?",
+    "url": "https://softwaremill.com/free-monads/",
+    "coverImage": "/user/themes/softwaremill/assets/_old-website/uploads/2015/10/freemonad-1.png",
+    "when": "2015-10-06T12:00:00Z",
+    "tags": [
+      "scala",
+      "functional",
+      "monad",
+      "category theory"
+    ]
+  },
+  {
+    "id": "6d412f71-e472-4753-91cf-64a10960bdc8",
+    "title": "Entry-level, synchronous & transactional event sourcing",
+    "url": "https://softwaremill.com/entry-level-event-sourcing/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/entry-level-event-sourcing/SMLAcademy_banner4.jpg?g-3298ba4c",
+    "when": "2015-09-17T12:00:00Z",
+    "tags": [
+      "scala",
+      "slick",
+      "event sourcing",
+      "cqrs",
+      "database",
+      "design"
+    ]
+  },
+  {
+    "id": "2a94112d-73d3-4583-a732-2b41903e2940",
+    "title": "Bootzooka is now based on Akka HTTP",
+    "url": "https://softwaremill.com/bootzooka-akka-http-based/",
+    "when": "2015-08-28T12:00:00Z",
+    "tags": [
+      "scala",
+      "akka",
+      "bootzooka",
+      "akkahttp"
+    ]
+  },
+  {
+    "id": "3733de41-e76d-4dc7-ae98-58763973443b",
+    "title": "Client-side sessions for akka-http",
+    "url": "https://softwaremill.com/client-side-sessions-akka-http/",
+    "when": "2015-07-10T12:00:00Z",
+    "tags": [
+      "scala",
+      "akka",
+      "web",
+      "spray"
+    ]
+  },
+  {
+    "id": "6671c22b-ef7f-43a7-867c-923deb2b62b8",
+    "title": "Comparing akka-stream and scalaz-stream with code examples",
+    "url": "https://softwaremill.com/comparing-akka-stream-scalaz-stream/",
+    "when": "2015-05-28T12:00:00Z",
+    "tags": [
+      "scala",
+      "akka",
+      "scalaz",
+      "streaming"
+    ]
+  },
+  {
+    "id": "c85f24f4-8c28-405e-b777-85a91fd62bf9",
+    "title": "Evaluating persistent, replicated message queues (2015 edition)",
+    "url": "https://softwaremill.com/mqperf-2015/",
+    "coverImage": "/images/mqperf/mqperf_logos.jpg",
+    "when": "2015-05-04T12:00:00Z",
+    "tags": [
+      "kafka",
+      "messaging",
+      "sqs",
+      "mq",
+      "activemq",
+      "rabbitmq",
+      "mongodb",
+      "hornetq"
+    ]
+  },
+  {
+    "id": "b41ed6c8-d8ef-4e19-b70a-f81cc154936c",
+    "title": "Implementing the Reactive Manifesto with Akka",
+    "url": "https://softwaremill.com/implementing-reactive-manifesto/",
+    "when": "2015-02-27T12:00:00Z",
+    "tags": [
+      "scala",
+      "presentations",
+      "akka",
+      "reactive",
+      "cluster",
+      "streams",
+      "persistence"
+    ]
+  },
+  {
+    "id": "7e6ad6e0-1d53-412c-91e1-db8f6fc87342",
+    "title": "Scala type parameters riddle",
+    "url": "https://softwaremill.com/scala-riddle/",
+    "when": "2015-01-13T12:00:00Z",
+    "tags": [
+      "scala"
+    ]
+  },
+  {
+    "id": "f200ee5e-4a01-4848-84bf-8fe186cd7b1d",
+    "title": "Guide to Dependency Injection in Scala",
+    "url": "https://softwaremill.com/dependency-injection-scala-guide/",
+    "when": "2014-07-30T12:00:00Z",
+    "tags": [
+      "scala",
+      "dependency injection"
+    ]
+  },
+  {
+    "id": "8a224250-e045-4e44-abeb-e857ea113e7c",
+    "title": "Scaling Ruby to Scala? Yap.TV Case Study",
+    "url": "https://softwaremill.com/scaling-ruby-scala-yap-reactive-platform/",
+    "coverImage": "/user/themes/softwaremill/assets/_old-website/uploads/2014/06/casestudyyap.png",
+    "when": "2014-06-05T12:00:00Z",
+    "tags": [
+      "marketing",
+      "case study"
+    ]
+  },
+  {
+    "id": "17feef67-b750-492a-a609-c32a110f17ed",
+    "title": "Bootzooka update - fat-jar deployments",
+    "url": "https://softwaremill.com/bootzooka-update-fat-jar/",
+    "when": "2014-03-04T12:00:00Z",
+    "tags": [
+      "bootzooka"
+    ]
+  },
+  {
+    "id": "86f88ca6-9b72-4e12-a7e8-00a7b9ebf506",
+    "title": "Bootzooka update - PBKDF2 for user passwords, smaller footprint",
+    "url": "https://softwaremill.com/bootzooka-update-pbkdf2/",
+    "when": "2014-02-27T12:00:00Z",
+    "tags": [
+      "bootzooka"
+    ]
+  },
+  {
+    "id": "f3f07cfe-df69-405d-8f60-c131bb63655d",
+    "title": "Conway's Law and SoftwareMill?",
+    "url": "https://softwaremill.com/conways-law-and-softwaremill/",
+    "when": "2014-02-20T12:00:00Z",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "id": "2fd46dcd-206f-44c1-bd4d-53f5cb03e01c",
+    "title": "First SoftwareMill hackaton - iBeacons",
+    "url": "https://softwaremill.com/first-softwaremill-hackaton-ibeacons/",
+    "coverImage": "/user/themes/softwaremill/assets/_old-website/uploads/2014/02/hackaton.jpg",
+    "when": "2014-02-14T12:00:00Z",
+    "tags": [
+      "ibeacon",
+      "hackaton"
+    ]
+  },
+  {
+    "id": "da5ed2e2-5e1f-4858-b956-df11a023df6e",
+    "title": "SoftwareMill Partners with Typesafe to deliver Scala and Akka consulting",
+    "url": "https://softwaremill.com/softwaremill-partners-with-typesafe/",
+    "coverImage": "/user/themes/softwaremill/assets/_old-website/uploads/2013/12/typesafe.png",
+    "when": "2013-12-04T12:00:00Z",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "id": "54bf97c2-2637-4aa0-90d7-056b22928ee4",
+    "title": "SoftwareMill goes to Devoxx 2013",
+    "url": "https://softwaremill.com/softwaremill-goes-to-devoxx-2013/",
+    "when": "2013-11-05T12:00:00Z",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "id": "a0bbde4e-e9a2-4202-b395-44de2a43f900",
+    "title": "Monitor anything (with JBison)",
+    "url": "https://softwaremill.com/monitor-anything-with-jbison/",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2013/03/2013-02-28_2020.png",
+    "when": "2013-03-05T12:00:00Z",
+    "tags": [
+      "projects",
+      "jbison"
+    ]
+  },
+  {
+    "id": "995ef512-946d-4427-a8fd-c2e13cad5bdc",
+    "title": "Bootstrap Iteration 10: Angular usage improvements, Rogue",
+    "url": "https://softwaremill.com/bootstrap-iteration-10-angular-usage-improvements-rogue/",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2013/03/new-layout.gif",
+    "when": "2013-03-03T12:00:00Z",
+    "tags": [
+      "projects"
+    ]
+  },
+  {
+    "id": "79596a3c-d237-4a53-ac66-147662b5555f",
+    "title": "SoftwareMill a Confitura 2011 partner!",
+    "url": "https://softwaremill.com/softwaremill-a-confitura-2011-partner/",
+    "when": "2011-05-18T12:00:00Z",
+    "tags": [
+      "marketing",
+      "conferences"
+    ]
+  },
+  {
+    "id": "6512c049-644b-479f-9dd1-8f94eadab555",
+    "title": "Mobicents in production – Attikis from the inside",
+    "url": "https://softwaremill.com/mobicents-in-production-attikis/",
+    "when": "2011-04-11T12:00:00Z",
+    "tags": [
+      "marketing",
+      "projects"
+    ]
+  },
+  {
+    "id": "5c4a8161-423b-4910-b4f1-c70623f927a6",
+    "title": "References from Attikis",
+    "url": "https://softwaremill.com/references-from-attikis/",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2013/06/attikis_references.jpg",
+    "when": "2011-03-17T12:00:00Z",
+    "tags": [
+      "marketing",
+      "projects"
+    ]
+  }
+]
