@@ -9,7 +9,6 @@
       "scala",
       "loom",
       "concurrency",
-      "structural concurrency",
       "effects",
       "java",
       "ox"
@@ -35,7 +34,7 @@
   },
   {
     "id": "b657fa3b-b569-4df2-8b11-723bc0d55294",
-    "title": "Unison: program differently by Adam Warski",
+    "title": "Unison: program differently",
     "url": "https://www.youtube.com/watch?v=Z-fUqrvmxgo&list=PLvL2NEhYV4ZstyXdGr45y-nZv_t5vyHQO&index=20",
     "coverImage": "https://i.ytimg.com/vi/Z-fUqrvmxgo/hqdefault.jpg",
     "when": "2023-06-16T15:11:36Z",
@@ -55,7 +54,6 @@
       "scala",
       "loom",
       "concurrency",
-      "structural concurrency",
       "effects",
       "java",
       "ox"
@@ -63,7 +61,7 @@
   },
   {
     "id": "6b6af030-be8e-4df7-8ac4-f496743fa1b4",
-    "title": "GeeCON 2023: Adam Warski - Effects: to be or not to be?",
+    "title": "Effects: to be or not to be?",
     "url": "https://www.youtube.com/watch?v=Buh5eOUSh4Y",
     "coverImage": "https://i.ytimg.com/vi/Buh5eOUSh4Y/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGCAgKyh_MA8=&rs=AOn4CLDPtcnvFe6ElOnex6SRU34bzdk3dw",
     "when": "2023-10-10T09:53:54Z",
@@ -80,7 +78,7 @@
   },
   {
     "id": "50aa35e1-041f-46cd-93aa-52b9636ff5b2",
-    "title": "Adam Warski OXES, TAPIRS AND STTPS  Scalar Conference 2023",
+    "title": "Oxes, tapirs and sttps",
     "url": "https://www.youtube.com/watch?v=5tPIvamY3g8",
     "coverImage": "https://i.ytimg.com/vi/5tPIvamY3g8/maxresdefault.jpg",
     "when": "2023-04-11T10:56:07Z",
@@ -95,7 +93,7 @@
   },
   {
     "id": "f8d55a13-e3d3-4336-bb2e-1c17bc681d7e",
-    "title": "Effects: To Be Or Not To Be? By Adam Warski",
+    "title": "Effects: To Be Or Not To Be?",
     "url": "https://www.youtube.com/watch?v=sDnNjtkoUVs",
     "coverImage": "https://i.ytimg.com/vi/sDnNjtkoUVs/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFMgSihlMA8=&rs=AOn4CLBm6XO_qxrEiSSXau4CahxlmepUaw",
     "when": "2023-01-31T14:36:54Z",
@@ -112,7 +110,7 @@
   },
   {
     "id": "5fbdfc93-65df-4d80-a2d6-4f17ea85e5a1",
-    "title": "Never say never by Adam Warski",
+    "title": "Never say never",
     "url": "https://www.youtube.com/watch?v=H1T1T6Qf8PI&t=2s",
     "coverImage": "https://i.ytimg.com/vi/H1T1T6Qf8PI/maxresdefault.jpg",
     "when": "2022-12-13T15:16:34Z",
@@ -123,7 +121,7 @@
   },
   {
     "id": "bd1220f3-303d-4934-8180-4594665958e0",
-    "title": "Scala 3 Metaprogramming by Example by Adam Warski",
+    "title": "Scala 3 Metaprogramming by Example",
     "url": "https://www.youtube.com/watch?v=gimw7xlRGWU",
     "coverImage": "https://i.ytimg.com/vi/gimw7xlRGWU/maxresdefault.jpg",
     "when": "2021-07-16T08:07:54Z",
@@ -135,7 +133,7 @@
   },
   {
     "id": "6bffdd8a-2dd8-45d8-87d3-b707976cc0e1",
-    "title": "Functional WebSockets - Adam Warski",
+    "title": "Functional WebSockets",
     "url": "https://www.youtube.com/watch?v=rR7CK5xDn40",
     "coverImage": "https://i.ytimg.com/vi/rR7CK5xDn40/maxresdefault.jpg",
     "when": "2021-11-19T17:25:00Z",
@@ -147,9 +145,9 @@
   },
   {
     "id": "0464a863-d459-4771-91ee-e5661ef4f96a",
-    "title": "???",
+    "title": "Delivering: from Kafka to WebSockets",
     "url": "https://www.confluent.io/events/kafka-summit-europe-2021/delivering-from-kafka-to-websockets/",
-    "when": "2024-04-20T20:25:22.811160Z",
+    "when": "2021-05-12T12:00:00Z",
     "tags": [
       "kafka",
       "web sockets",
@@ -158,7 +156,7 @@
   },
   {
     "id": "313c99c4-d1ff-4f9c-a84f-3b45192fdd84",
-    "title": "Your HTTP endpoints are data, as well - Adam Warski (Jfokus Brown Bag series)",
+    "title": "Your HTTP endpoints are data, as well",
     "url": "https://www.youtube.com/watch?v=Zv_0s0VgAvU",
     "coverImage": "https://i.ytimg.com/vi/Zv_0s0VgAvU/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AH-DoACuAiKAgwIABABGGUgZShlMA8=&rs=AOn4CLDz7p_XTuWXdS_B7_cofkVdbooaeQ",
     "when": "2021-05-31T08:00:58Z",
@@ -170,7 +168,7 @@
   },
   {
     "id": "d3472706-ec27-4f9d-9027-44e16f58302a",
-    "title": "Context is King by Adam Warski",
+    "title": "Context is King",
     "url": "https://www.youtube.com/watch?v=mhUjQgOsFyk",
     "coverImage": "https://i.ytimg.com/vi/mhUjQgOsFyk/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGHIgZigRMA8=&rs=AOn4CLA-VAkeVDLnIZACTO9GE2PYME67eA",
     "when": "2021-04-01T12:51:44Z",
@@ -182,7 +180,7 @@
   },
   {
     "id": "666e6189-a268-4038-b0a4-2bb52062a089",
-    "title": "Adam Warski - Your HTTP endpoints are data, as well!",
+    "title": "Your HTTP endpoints are data, as well!",
     "url": "https://www.youtube.com/watch?v=ozF4YPhZl2E",
     "coverImage": "https://i.ytimg.com/vi/ozF4YPhZl2E/maxresdefault.jpg",
     "when": "2021-04-06T15:11:20Z",
@@ -194,7 +192,7 @@
   },
   {
     "id": "b39905a1-bd3a-4d71-bf55-6991cdb00967",
-    "title": "Scala 3 Metaprogramming by Example by Adam Warski",
+    "title": "Scala 3 Metaprogramming by Example",
     "url": "https://www.youtube.com/watch?v=leIB5tvDY64&feature=youtu.be",
     "coverImage": "https://i.ytimg.com/vi/leIB5tvDY64/maxresdefault.jpg",
     "when": "2021-01-07T11:33:08Z",
@@ -207,7 +205,7 @@
   },
   {
     "id": "1295a3f2-a404-4597-8bed-70edbf31914a",
-    "title": "Scale By The Bay 2020: Adam Warski, Project Loom? Better Futures? What’s next for JVM concurrent...",
+    "title": "Project Loom? Better Futures? What’s next for JVM concurrent...",
     "url": "https://www.youtube.com/watch?v=q3qJH2QuqUA",
     "coverImage": "https://i.ytimg.com/vi/q3qJH2QuqUA/maxresdefault.jpg",
     "when": "2020-12-16T22:25:37Z",
@@ -260,19 +258,8 @@
     ]
   },
   {
-    "id": "5a47c78a-974e-4e85-8096-7a5e87966024",
-    "title": "???",
-    "url": "https://www.signifytechnology.com/blog/2020/07/happy-eyeballs-live-coding-using-zio-by-adam-warski-at-scala-in-the-city",
-    "when": "2024-04-20T20:34:53.405553Z",
-    "tags": [
-      "scala",
-      "zio",
-      "functional programming"
-    ]
-  },
-  {
     "id": "0ec9aa16-7873-48af-a6ca-ab63f575a55f",
-    "title": "A FUNCTIONAL SCALA STACK FOR 2020 - Adam Warski | Scalar 2020",
+    "title": "A functional scala stack for 2020",
     "url": "https://www.youtube.com/watch?v=DGlkap5kzGU&feature=youtu.be",
     "coverImage": "https://i.ytimg.com/vi/DGlkap5kzGU/maxresdefault.jpg",
     "when": "2020-06-05T10:59:40Z",
@@ -283,7 +270,7 @@
   },
   {
     "id": "b747485c-bf99-431d-8e60-0cc9a72aa34d",
-    "title": "Adam Warski –  Your HTTP endpoints are data, as well!",
+    "title": "Your HTTP endpoints are data, as well!",
     "url": "https://www.youtube.com/watch?v=yuQNgZgSFIc&feature=youtu.be",
     "coverImage": "https://i.ytimg.com/vi/yuQNgZgSFIc/maxresdefault.jpg",
     "when": "2020-05-31T18:06:24Z",
@@ -295,7 +282,7 @@
   },
   {
     "id": "5c7826c8-4b8c-4f7b-952e-cd0e5beab960",
-    "title": "[Bydgoszcz JUG #33]  Adam Warski - FP + relational databases = ?",
+    "title": "FP + relational databases = ?",
     "url": "https://www.youtube.com/watch?v=MyenxpTd6MY&feature=youtu.be",
     "coverImage": "https://i.ytimg.com/vi/MyenxpTd6MY/maxresdefault.jpg",
     "when": "2020-02-06T08:00:05Z",
@@ -307,7 +294,7 @@
   },
   {
     "id": "7355bd5f-4202-4fce-af73-20a2c7aa8866",
-    "title": "Designing programmer-friendly APIs: a tapir case study / Adam Warski (SoftwareMill)",
+    "title": "Designing programmer-friendly APIs: a tapir case study",
     "url": "https://www.youtube.com/watch?v=fXtZ3qY3ad4&feature=youtu.be",
     "coverImage": "https://i.ytimg.com/vi/fXtZ3qY3ad4/maxresdefault.jpg",
     "when": "2020-04-14T17:37:31Z",
@@ -320,8 +307,8 @@
   },
   {
     "id": "e88c085a-ffa5-4fc4-b65c-0fade92a4a2d",
-    "title": "???",
-    "url": "https://youtu.be/I3loMuHnYqw",
+    "title": "Designing Programmer-Friendly APIs",
+    "url": "https://www.youtube.com/watch?v=I3loMuHnYqw",
     "when": "2024-04-20T20:42:43.483754Z",
     "tags": [
       "scala",
@@ -332,7 +319,7 @@
   },
   {
     "id": "7c81366a-1181-41ac-ac11-36004ee0c6c9",
-    "title": "Concurrent programming in 2019: Akka, Monix or ZIO? - Adam Warski",
+    "title": "Concurrent programming in 2019: Akka, Monix or ZIO?",
     "url": "https://www.youtube.com/watch?v=TqJg4AuxEIQ",
     "coverImage": "https://i.ytimg.com/vi/TqJg4AuxEIQ/maxresdefault.jpg",
     "when": "2019-07-11T09:04:36Z",
@@ -344,7 +331,7 @@
   },
   {
     "id": "abfae6b3-9722-4d28-99ba-dc7a3ce10caf",
-    "title": "GeeCON 2019: Adam Warski - From annotations to code: describing HTTP endpoints with Tapir",
+    "title": "From annotations to code: describing HTTP endpoints with Tapir",
     "url": "https://www.youtube.com/watch?v=kpMqZRxvMpg",
     "coverImage": "https://i.ytimg.com/vi/kpMqZRxvMpg/maxresdefault.jpg",
     "when": "2019-07-24T16:01:42Z",
@@ -355,7 +342,7 @@
   },
   {
     "id": "c8f61f60-d482-458c-8af5-d3b659c8dbfe",
-    "title": "Adam Warski - Descriptions, APIs and Tapirs",
+    "title": "Descriptions, APIs and Tapirs",
     "url": "https://www.youtube.com/watch?v=TARW95QDdew",
     "coverImage": "https://i.ytimg.com/vi/TARW95QDdew/maxresdefault.jpg",
     "when": "2019-04-29T13:46:54Z",
@@ -366,7 +353,7 @@
   },
   {
     "id": "fba40e0e-31f5-4983-a1c3-3eb59e05eb78",
-    "title": "JUGtoberFest 2018: Adam Warski - Co zrobiły z nami @adnotacje",
+    "title": "Co zrobiły z nami @adnotacje",
     "url": "https://www.youtube.com/watch?v=FOb8X-hVKAU",
     "coverImage": "https://i.ytimg.com/vi/FOb8X-hVKAU/maxresdefault.jpg",
     "when": "2018-10-26T17:35:53Z",
@@ -377,9 +364,9 @@
   },
   {
     "id": "b83b52c0-734e-4c98-93ae-9eae2bc1b7de",
-    "title": "???",
+    "title": "sttp: the Scala HTTP client that you always wanted!",
     "url": "https://slideslive.com/38908888/sttp-the-scala-http-client-that-you-always-wanted",
-    "when": "2024-04-21T08:34:17.645494Z",
+    "when": "2018-06-21T12:00:00Z",
     "tags": [
       "scala",
       "sttp",
@@ -388,9 +375,9 @@
   },
   {
     "id": "51646e6b-84bc-4f21-a33e-9392eb102975",
-    "title": "???",
+    "title": "sttp: the Scala HTTP client that you always wanted!",
     "url": "https://slideslive.com/38908165/sttp-the-scala-http-client-that-you-always-wanted",
-    "when": "2024-04-21T08:34:43.525111Z",
+    "when": "2028-05-17T12:00:00Z",
     "tags": [
       "scala",
       "sttp",
@@ -399,7 +386,7 @@
   },
   {
     "id": "91b0caf3-bbb1-41b2-90f5-56fc9e2d4183",
-    "title": "GeeCON 2018: Adam Warski - What have the annotations done to us?",
+    "title": "What have the annotations done to us?",
     "url": "https://www.youtube.com/watch?v=nlzgJBuZSaA",
     "coverImage": "https://i.ytimg.com/vi/nlzgJBuZSaA/maxresdefault.jpg",
     "when": "2018-07-23T07:26:09Z",
@@ -410,7 +397,7 @@
   },
   {
     "id": "98eb145e-dbc0-4456-b7c2-a64ffbae4699",
-    "title": "KSUG: sttp: the Scala HTTP client that you always wanted! by Adam Warski",
+    "title": "KSUG: sttp: the Scala HTTP client that you always wanted!",
     "url": "https://www.youtube.com/watch?v=bwKCdhUy_KY",
     "coverImage": "https://i.ytimg.com/vi/bwKCdhUy_KY/maxresdefault.jpg",
     "when": "2018-05-28T08:59:36Z",
@@ -422,7 +409,7 @@
   },
   {
     "id": "2cffec83-555e-4e06-a62d-570092270ce8",
-    "title": "Kafka as a Message Queue: can you do it, and should you do it? by Adam Warski",
+    "title": "Kafka as a Message Queue: can you do it, and should you do it?",
     "url": "https://www.youtube.com/watch?v=-As92HV0O4E",
     "coverImage": "https://i.ytimg.com/vi/-As92HV0O4E/maxresdefault.jpg",
     "when": "2017-11-09T11:08:27Z",
@@ -433,7 +420,7 @@
   },
   {
     "id": "2c940185-671b-4d5f-913c-d072e70f440d",
-    "title": "Free monad or tagless final? How not to commit to a monad too early - Adam Warski",
+    "title": "Free monad or tagless final? How not to commit to a monad too early",
     "url": "https://www.youtube.com/watch?v=IhVdU4Xiz2U&list=PLjkHSzY9VuL9UI2oYMc4HKKu_Dl9TOnPL&index=54",
     "coverImage": "https://i.ytimg.com/vi/IhVdU4Xiz2U/maxresdefault.jpg",
     "when": "2017-12-18T07:30:01Z",
@@ -443,19 +430,8 @@
     ]
   },
   {
-    "id": "4792c19a-7010-491d-9ce9-0b51c2c3f101",
-    "title": "???",
-    "url": "https://skillsmatter.com/skillscasts/10851-sttp-the-scala-http-client-that-you-always-wanted",
-    "when": "2024-04-21T08:41:51.511951Z",
-    "tags": [
-      "scala",
-      "sttp",
-      "http"
-    ]
-  },
-  {
     "id": "698d8711-7551-4aac-aac6-9e2b37dde927",
-    "title": "Adam Warski - The Origins of Free - λC 2017",
+    "title": "The Origins of Free",
     "url": "https://www.youtube.com/watch?v=OfkfPOYXRoU",
     "coverImage": "https://i.ytimg.com/vi/OfkfPOYXRoU/maxresdefault.jpg",
     "when": "2017-10-14T16:06:43Z",
@@ -467,7 +443,7 @@
   },
   {
     "id": "20a2ae0a-0bb8-488a-9575-c2fe62309267",
-    "title": "Readers vs  Constructors: Dependency Injection showdown by Adam Warski",
+    "title": "Readers vs  Constructors: Dependency Injection showdown",
     "url": "https://www.youtube.com/watch?v=AkOFubm-9L8&index=17&list=PLLMLOC3WM2r5Ei2mnSHCD-ZD04AXovttL",
     "coverImage": "https://i.ytimg.com/vi/AkOFubm-9L8/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGHIgPihDMA8=&rs=AOn4CLCNyFr6TXkulq7PBbz_BcXqrEbi7A",
     "when": "2017-06-07T11:30:22Z",
@@ -479,7 +455,7 @@
   },
   {
     "id": "e1842beb-9b4d-4ef5-a1ba-e26841634ac0",
-    "title": "The Origins of Free - Adam Warski (Lambda Days 2017)",
+    "title": "The Origins of Free",
     "url": "https://www.youtube.com/watch?v=KdqvwM-U1qI&feature=youtu.be",
     "coverImage": "https://i.ytimg.com/vi/KdqvwM-U1qI/maxresdefault.jpg",
     "when": "2017-03-23T14:02:44Z",
@@ -490,7 +466,7 @@
   },
   {
     "id": "00b3aeb5-9ed9-4a7c-ad38-fae3ea44c65f",
-    "title": "BeeScala 2016: Adam Warski - Web & mobile session management using akka-http",
+    "title": "Web & mobile session management using akka-http",
     "url": "https://www.youtube.com/watch?v=4XirKUsnytY&feature=youtu.be&a",
     "coverImage": "https://i.ytimg.com/vi/4XirKUsnytY/maxresdefault.jpg",
     "when": "2016-12-06T20:28:49Z",
@@ -502,7 +478,7 @@
   },
   {
     "id": "d3557371-9bef-41d2-8c32-d9e0bb8877f5",
-    "title": "Transactional Event Sourcing Using Slick (Audit Log for Free!) by Adam Warski",
+    "title": "Transactional Event Sourcing Using Slick (Audit Log for Free!)",
     "url": "https://www.youtube.com/watch?v=zxgWuO1LEF0&list=PLLMLOC3WM2r7kLKJPHKnyJgdiBGWaKlJf&index=43",
     "coverImage": "https://i.ytimg.com/vi/zxgWuO1LEF0/maxresdefault.jpg",
     "when": "2016-07-22T13:55:13Z",
@@ -514,7 +490,7 @@
   },
   {
     "id": "69709d8f-d0a8-4fda-9fc9-1e5585d01c78",
-    "title": "Transactional Event Sourcing using Slick audit log for free - by Adam Warski",
+    "title": "Transactional Event Sourcing using Slick audit log for free",
     "url": "https://www.youtube.com/watch?v=RGqr1cXjS5o",
     "coverImage": "https://i.ytimg.com/vi/RGqr1cXjS5o/maxresdefault.jpg",
     "when": "2016-06-17T07:46:10Z",
@@ -526,7 +502,7 @@
   },
   {
     "id": "6ffacd87-7fe5-4a53-a504-e5df7a902fa9",
-    "title": "Adam Warski - Streams: reactive? functional? Or: akka- & scalaz- streams side-by-side?",
+    "title": "Streams: reactive? functional? Or: akka- & scalaz- streams side-by-side?",
     "url": "https://www.youtube.com/watch?v=pXj5Q8KsXX0&feature=em-share_video_user",
     "coverImage": "https://i.ytimg.com/vi/pXj5Q8KsXX0/maxresdefault.jpg",
     "when": "2016-02-24T11:04:02Z",
@@ -549,9 +525,9 @@
   },
   {
     "id": "cd14773d-b3b8-40ba-bccc-5aff0597fb55",
-    "title": "???",
+    "title": "Implementing the Reactive Manifesto with Akka",
     "url": "https://vimeo.com/121229692",
-    "when": "2024-04-21T15:09:41.682549Z",
+    "when": "2015-03-04T12:00:00Z",
     "tags": [
       "scala",
       "akka",
@@ -560,7 +536,7 @@
   },
   {
     "id": "3d37faee-6228-4dc8-8a40-04fd608a1347",
-    "title": "SF Scala, Adam Warski: Framework-less Scala Dependency Injection framework",
+    "title": "Framework-less Scala Dependency Injection framework",
     "url": "https://www.youtube.com/watch?v=n8a0A-m1w_c",
     "coverImage": "https://i.ytimg.com/vi/n8a0A-m1w_c/maxresdefault.jpg",
     "when": "2014-09-24T23:14:09Z",
@@ -571,9 +547,9 @@
   },
   {
     "id": "5cae14f2-642a-4bb7-898f-cb3f95ddb13c",
-    "title": "???",
+    "title": "The No-framework Scala Dependency Injection Framework",
     "url": "http://www.infoq.com/presentations/scala-di-framework",
-    "when": "2024-04-21T15:23:47.239426Z",
+    "when": "2014-05-30T12:00:00Z",
     "tags": [
       "scala",
       "dependency injection"
@@ -581,7 +557,7 @@
   },
   {
     "id": "172c13ba-fcb7-4f38-b70b-7f1dc56e3b6d",
-    "title": "WJUG #123 - Polecane dla Ciebie: rekomendacje i Mahout - Adam Warski",
+    "title": "Polecane dla Ciebie: rekomendacje i Mahout",
     "url": "https://www.youtube.com/watch?v=qS11WowjihE",
     "coverImage": "https://i.ytimg.com/vi/qS11WowjihE/maxresdefault.jpg",
     "when": "2013-11-08T19:49:54Z",
@@ -592,9 +568,9 @@
   },
   {
     "id": "0c301804-afec-443c-8c5a-ffea50cc1113",
-    "title": "???",
+    "title": "Scala macros: what are they, how do they work & who uses them",
     "url": "https://vimeo.com/album/2525252/video/74553075",
-    "when": "2024-04-21T15:26:43.304378Z",
+    "when": "2013-09-15T12:00:00Z",
     "tags": [
       "scala",
       "metaprogramming"
@@ -602,7 +578,7 @@
   },
   {
     "id": "7c67fbd0-12e8-4ffa-910a-93c4f3c34c83",
-    "title": "Unwrapping IO: is it a path that you want to follow?  by Adam WARSKI",
+    "title": "Unwrapping IO: is it a path that you want to follow?",
     "url": "https://www.youtube.com/watch?v=qR_Od7qbacs",
     "coverImage": "https://i.ytimg.com/vi/qR_Od7qbacs/maxresdefault.jpg",
     "when": "2024-03-13T23:12:50Z",
@@ -615,7 +591,7 @@
   },
   {
     "id": "316b9c38-6b1e-4056-88c5-b8aeda2b8c1a",
-    "title": "216. W kierunku blokujących strumieni - Adam Warski",
+    "title": "W kierunku blokujących strumieni",
     "url": "https://www.youtube.com/watch?v=xQjcJCRI7h4",
     "coverImage": "https://i.ytimg.com/vi/xQjcJCRI7h4/maxresdefault.jpg",
     "when": "2024-03-14T17:00:44Z",
@@ -627,7 +603,7 @@
   },
   {
     "id": "8bd89992-6138-4f12-a4fa-f35d53d7083e",
-    "title": "Adam Warski DIRECT STYLE SCALA STACK AN EXPERIMENT - Scalar Conference 2024",
+    "title": "Direct style Scala stack: an experiment",
     "url": "https://www.youtube.com/watch?v=C3j4AsFcxmM",
     "coverImage": "https://i.ytimg.com/vi/C3j4AsFcxmM/maxresdefault.jpg",
     "when": "2024-04-24T15:00:10Z",
