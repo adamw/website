@@ -14,12 +14,31 @@
 {{ $firstVideo := index $videos 0 }}
 {{ $videos := after 1 $videos }}
 
+{{ $featuredIds := slice "7c67fbd0-12e8-4ffa-910a-93c4f3c34c83" "e285c8bb-5a23-40f3-a4d9-4626f1df9a37" "f8d55a13-e3d3-4336-bb2e-1c17bc681d7e" }}
+
 <section>
   <div class="container mx-auto">
+    <!-- Featured -->
+
     <div class="py-16">
-      <h6 class="text-lg text-[#0A39AA] mb-3">Videos</h6>
       <h1 class="text-4xl md:text-5xl font-bold text-[#101828] mb-6">Featured</h1>
     </div>
+
+    <div class="tab" data-tab-group="tab-group-name">
+      <div class="">
+        <div class="content-main">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-8 mb-24">
+            {{ range $videos }}
+              {{ if in $featuredIds .id }}
+                {{ partial "video-item.html" (dict "video" .) }}
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- All -->
 
     <div class="py-16">
       <h1 class="text-4xl md:text-5xl font-bold text-[#101828] mb-6">All videos</h1>
@@ -52,7 +71,7 @@
           <div class="main-article grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
             {{ with $firstVideo }}
             <div>
-              {{ partial "youtube-lite.html" (dict "Id" "6RYn6mgq77s" "Class" "mx-auto" "Width" "100%" "Height" "350px" "Style" "" "Attr" "") }}
+              {{ partial "youtube-lite.html" (dict "Id" .youtube "Class" "mx-auto" "Width" "100%" "Height" "350px" "Style" "" "Attr" "") }}
             </div>
             <div>
               <h6 class="text-sm font-semibold text-[#072671]">{{time.Format "2 Jan 2006" .when}}</h6>
@@ -71,18 +90,7 @@
         <div class="content-main">
           <div class="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-8 mb-24">
             {{ range $videos }}
-            <div>
-              {{ partial "youtube-lite.html" (dict "Id" "6RYn6mgq77s" "Class" "mx-auto" "Width" "100%" "Height" "240px" "Style" "" "Attr" "") }}
-              <h6 class="text-sm font-semibold text-[#072671]">{{time.Format "2 Jan 2006" .when}}</h6>
-              <a class="flex justify-between items-center my-2" href="{{.url}}">
-                <h4 class="text-2xl font-semibold text-[#101828]">{{.title}}</h4>
-              </a>
-              <div class="flex flex-wrap items-center">
-              {{ range .tags }}
-                {{ partial "badge.html" (dict "Type" .) }}
-              {{ end }}
-              </div>
-            </div>
+              {{ partial "video-item.html" (dict "video" .) }}
             {{ end }}
           </div>
           <div class="flex flex-wrap justify-between bg-[#F9FAFB] rounded-2xl p-8 md:p-16 gap-4">

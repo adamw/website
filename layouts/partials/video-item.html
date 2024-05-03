@@ -1,0 +1,12 @@
+<div>
+    {{ partial "youtube-lite.html" (dict "Id" .video.youtube "Class" "mx-auto" "Width" "100%" "Height" "240px" "Style" "" "Attr" "") }}
+    <h6 class="text-sm font-semibold text-[#072671]">{{time.Format "2 Jan 2006" .video.when}}</h6>
+    <a class="flex justify-between items-center my-2" href="{{.video.url}}">
+        <h4 class="text-2xl font-semibold text-[#101828]">{{.video.title}}</h4>
+    </a>
+    <div class="flex flex-wrap items-center">
+        {{ range .video.tags }}
+          {{ partial "badge.html" (dict "Type" .) }}
+        {{ end }}
+    </div>
+</div>
