@@ -273,13 +273,13 @@
     "coverImage": "https://softwaremill.com/user/pages/blog/the-architecture-of-mastodon/mastodon.jpg?g-3298ba4c",
     "when": "2022-11-21T12:00:00Z",
     "tags": [
-      "Architecture",
-      "Distributed Systems",
+      "architecture",
+      "distributed systems",
       "scaling",
       "mastodon",
       "twitter",
       "social media",
-      "PostgreSQL",
+      "postgresql",
       "ruby on rails"
     ]
   },
@@ -290,11 +290,11 @@
     "coverImage": "https://softwaremill.com/user/pages/blog/protecting-state-using-virtual-threads/protecting-state-using-threads.jpg?g-3298ba4c",
     "when": "2022-10-27T12:00:00Z",
     "tags": [
-      "Java",
-      "Akka",
-      "Project Loom",
-      "Concurrency",
-      "Actor model",
+      "java",
+      "akka",
+      "project loom",
+      "concurrency",
+      "actor model",
       "virtual threads",
       "actors"
     ]
@@ -306,9 +306,9 @@
     "coverImage": "https://softwaremill.com/user/pages/blog/trying-out-unison-part-3-effects-through-abilities/unison-effects.jpg?g-3298ba4c",
     "when": "2022-10-19T12:00:00Z",
     "tags": [
-      "Functional Programming",
-      "FP",
-      "Unison",
+      "functional programming",
+      "fp",
+      "unison",
       "effect systems"
     ]
   },
@@ -319,9 +319,9 @@
     "coverImage": "https://softwaremill.com/user/pages/blog/trying-out-unison-part-2-organising-code/unison2.jpg?g-3298ba4c",
     "when": "2022-10-06T12:00:00Z",
     "tags": [
-      "Functional Programming",
-      "Unison",
-      "Dependencies"
+      "functional programming",
+      "unison",
+      "dependencies"
     ]
   },
   {
@@ -331,12 +331,12 @@
     "coverImage": "https://softwaremill.com/user/pages/blog/a-tapir-looms-in-the-distance/tapir-loom.png?g-3298ba4c",
     "when": "2022-09-30T12:00:00Z",
     "tags": [
-      "Scala",
-      "Project Loom",
-      "Concurrency",
-      "Multithreading",
-      "Tapir",
-      "Http",
+      "scala",
+      "project loom",
+      "concurrency",
+      "multithreading",
+      "tapir",
+      "http",
       "sttp"
     ]
   },
@@ -347,13 +347,13 @@
     "coverImage": "https://softwaremill.com/user/pages/blog/migrating-from-akka-http-to-tapir/blogpost-migrating-akka-http-to-tapir.png?g-3298ba4c",
     "when": "2022-09-21T12:00:00Z",
     "tags": [
-      "Scala",
-      "Akka",
-      "Tapir",
-      "Http",
-      "Scala 3",
-      "Open Api",
-      "Migration"
+      "scala",
+      "akka",
+      "tapir",
+      "http",
+      "scala 3",
+      "open api",
+      "migration"
     ]
   },
   {
@@ -363,10 +363,10 @@
     "coverImage": "https://softwaremill.com/user/pages/blog/trying-out-unison-part-1-code-as-hashes/blogpost-unison-part1.png?g-3298ba4c",
     "when": "2022-09-05T12:00:00Z",
     "tags": [
-      "Functional Programming",
-      "Unison",
-      "Distributed Systems",
-      "Programming Languages"
+      "functional programming",
+      "unison",
+      "distributed systems",
+      "programming languages"
     ]
   },
   {
@@ -376,12 +376,12 @@
     "coverImage": "https://softwaremill.com/user/pages/blog/implementing-raft-using-project-loom/blogpost-implementing-raft-using-project-loom.png?g-3298ba4c",
     "when": "2022-08-30T12:00:00Z",
     "tags": [
-      "Java",
-      "Scala",
-      "Project Loom",
-      "Distributed Systems",
-      "Zio",
-      "Distributed Consensus",
+      "java",
+      "scala",
+      "project loom",
+      "distributed systems",
+      "zio",
+      "distributed consensus",
       "raft"
     ]
   },
@@ -392,11 +392,11 @@
     "coverImage": "https://softwaremill.com/user/pages/blog/implementing-raft-using-a-functional-effect-system/blogpost-raft.png?g-3298ba4c",
     "when": "2022-08-18T12:00:00Z",
     "tags": [
-      "Scala",
-      "Functional Programming",
-      "Distributed Systems",
-      "Zio",
-      "Distributed Consensus",
+      "scala",
+      "functional programming",
+      "distributed systems",
+      "zio",
+      "distributed consensus",
       "raft",
       "effect systems"
     ]
@@ -408,13 +408,13 @@
     "coverImage": "https://softwaremill.com/user/pages/blog/the-future-of-effects-in-scala/blogpost-effects-scala.png?g-3298ba4c",
     "when": "2022-07-28T12:00:00Z",
     "tags": [
-      "Scala",
-      "Akka",
-      "Functional Programming",
-      "Concurrency",
-      "Asynchronous",
-      "Zio",
-      "Kotlin",
+      "scala",
+      "akka",
+      "functional programming",
+      "concurrency",
+      "asynchronous",
+      "zio",
+      "kotlin",
       "coroutines",
       "cats-effect"
     ]
@@ -426,7 +426,7 @@
     "coverImage": "https://softwaremill.com/user/pages/blog/functional-programming-for-kids/fp-for-kids.png?g-3298ba4c",
     "when": "2022-06-21T12:00:00Z",
     "tags": [
-      "Functional Programming",
+      "functional programming",
       "scratch",
       "logo",
       "shelly",
@@ -441,14 +441,14 @@
     "coverImage": "https://softwaremill.com/user/pages/blog/tapir-1-0-released/exk3pozrzjkgxus.jpeg?g-3298ba4c",
     "when": "2022-06-14T12:00:00Z",
     "tags": [
-      "Scala",
-      "API",
-      "Functional Programming",
-      "Open Source",
-      "Tapir",
-      "Swagger",
-      "Open Api",
-      "Web frameworks"
+      "scala",
+      "api",
+      "functional programming",
+      "open source",
+      "tapir",
+      "swagger",
+      "open api",
+      "web frameworks"
     ]
   },
   {
@@ -458,11 +458,11 @@
     "coverImage": "https://softwaremill.com/user/pages/blog/structuring-zio-2-applications/vh2frcxqijgedvt.jpeg?g-3298ba4c",
     "when": "2022-06-07T12:00:00Z",
     "tags": [
-      "Scala",
-      "Functional Programming",
-      "Zio",
-      "Macwire",
-      "Dependency Injection"
+      "scala",
+      "functional programming",
+      "zio",
+      "macwire",
+      "dependency injection"
     ]
   },
   {
@@ -472,11 +472,11 @@
     "coverImage": "/user/webp/user/themes/softwaremill/assets/img/post-image/0NeDEuFbGMsAOzc.webp",
     "when": "2022-04-08T12:00:00Z",
     "tags": [
-      "Scala",
-      "Cats Effect",
-      "Tapir",
-      "Bootzooka",
-      "Autowire"
+      "scala",
+      "cats effect",
+      "tapir",
+      "bootzooka",
+      "autowire"
     ]
   },
   {
@@ -486,11 +486,11 @@
     "coverImage": "https://softwaremill.com/user/pages/blog/fancy-strings-in-scala-3/blogpost-fancy-strings-Scala3.png?g-3298ba4c",
     "when": "2022-03-30T12:00:00Z",
     "tags": [
-      "Scala",
-      "Functional Programming",
-      "Type Safety",
-      "Scala 3",
-      "Functional programming"
+      "scala",
+      "functional programming",
+      "type safety",
+      "scala 3",
+      "functional programming"
     ]
   },
   {
@@ -500,9 +500,9 @@
     "coverImage": "https://softwaremill.com/user/pages/blog/three-tools-to-improve-your-scala-workflow/blogpost-tools-scala-workflow.png?g-3298ba4c",
     "when": "2022-03-21T12:00:00Z",
     "tags": [
-      "Scala",
-      "Tooling",
-      "Scala Steward",
+      "scala",
+      "tooling",
+      "scala steward",
       "mdoc",
       "scalafmt"
     ]
@@ -514,11 +514,11 @@
     "coverImage": "/user/webp/user/themes/softwaremill/assets/img/post-image/3WN6Yk0qIcHyKQU.webp",
     "when": "2021-12-16T12:00:00Z",
     "tags": [
-      "Scala",
-      "Dependency Injection",
-      "Zio",
-      "Macwire",
-      "Reader monad"
+      "scala",
+      "dependency injection",
+      "zio",
+      "macwire",
+      "reader monad"
     ]
   },
   {
@@ -528,10 +528,10 @@
     "coverImage": "/user/pages/blog/security-improvements-in-tapir-0-19/blogpost-tapir-security.png?g-3298ba4c",
     "when": "2021-11-22T12:00:00Z",
     "tags": [
-      "Scala",
-      "Functional Programming",
-      "Tapir",
-      "Security"
+      "scala",
+      "functional programming",
+      "tapir",
+      "security"
     ]
   },
   {
@@ -541,8 +541,8 @@
     "coverImage": "/user/webp/user/themes/softwaremill/assets/img/post-image/QajOl0zrcoBKWtZ.webp",
     "when": "2021-09-29T12:00:00Z",
     "tags": [
-      "Scala",
-      "Performance",
+      "scala",
+      "performance",
       "parsing",
       "jmh"
     ]
@@ -554,13 +554,13 @@
     "coverImage": "https://softwaremill.com/user/pages/blog/first-look-at-akka-serverless/akka-serverless-demo.jpeg?g-3298ba4c",
     "when": "2021-08-18T12:00:00Z",
     "tags": [
-      "Java",
-      "Cloud",
-      "Cluster",
-      "Serverless",
+      "java",
+      "cloud",
+      "cluster",
+      "serverless",
       "akka",
-      "Google Cloud Platform",
-      "Persistence",
+      "google cloud platform",
+      "persistence",
       "sharding"
     ]
   },
@@ -571,24 +571,24 @@
     "coverImage": "/user/pages/blog/mqperf/evaluating-message-queues.png?g-3298ba4c",
     "when": "2021-07-26T12:00:00Z",
     "tags": [
-      "Kafka",
-      "Performance",
-      "PostgreSQL",
+      "kafka",
+      "performance",
+      "postgresql",
       "mongodb",
-      "Redis",
-      "Pulsar",
-      "Message Queue",
-      "Messaging",
-      "Clustering",
-      "Event Streaming",
-      "NATS",
-      "SQS",
-      "EventStore",
-      "RocketMQ",
-      "Split-brain",
-      "RabbitMQ",
-      "ActiveMQ",
-      "RedPanda",
+      "redis",
+      "pulsar",
+      "message queue",
+      "messaging",
+      "clustering",
+      "event streaming",
+      "nats",
+      "sqs",
+      "eventstore",
+      "rocketmq",
+      "split-brain",
+      "rabbitmq",
+      "activemq",
+      "redpanda",
       "mqperf"
     ]
   },
@@ -603,7 +603,7 @@
       "sql",
       "rdbms",
       "event sourcing",
-      "PostgreSQL"
+      "postgresql"
     ]
   },
   {
@@ -613,10 +613,10 @@
     "coverImage": "https://softwaremill.com/user/pages/blog/scala-3-macros-tips-and-tricks/macro.jpg?g-3298ba4c",
     "when": "2021-05-24T12:00:00Z",
     "tags": [
-      "Scala",
-      "Functional Programming",
-      "Macros",
-      "Scala 3"
+      "scala",
+      "functional programming",
+      "macros",
+      "scala 3"
     ]
   },
   {
@@ -626,11 +626,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*WSbOXQz5AyRPCFVjZNHVqw.jpeg",
     "when": "2021-04-08T12:00:00Z",
     "tags": [
-      "Scala",
-      "Functional Programming",
-      "Dependency Injection",
-      "Programming",
-      "Database"
+      "scala",
+      "functional programming",
+      "dependency injection",
+      "programming",
+      "database"
     ]
   },
   {
@@ -640,11 +640,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*Mu_-EYHqCP8VQdB3JgCZ1Q.png",
     "when": "2021-03-22T12:00:00Z",
     "tags": [
-      "Programming",
-      "Learn To Code",
-      "Turtle Graphics",
-      "JavaScript",
-      "Scala"
+      "programming",
+      "learn to code",
+      "turtle graphics",
+      "javascript",
+      "scala"
     ]
   },
   {
@@ -654,11 +654,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*VqcRGS7xRtxttAkagny_GQ.png",
     "when": "2021-03-08T12:00:00Z",
     "tags": [
-      "Serverless",
-      "Scala",
-      "AWS",
-      "Yaml",
-      "Lambda"
+      "serverless",
+      "scala",
+      "aws",
+      "yaml",
+      "lambda"
     ]
   },
   {
@@ -668,11 +668,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*f5JaNRTsE4YvlQZSi8pLjQ.png",
     "when": "2021-02-11T12:00:00Z",
     "tags": [
-      "Validation",
-      "Programming",
-      "Java",
-      "Scala",
-      "Best Practices"
+      "validation",
+      "programming",
+      "java",
+      "scala",
+      "best practices"
     ]
   },
   {
@@ -682,10 +682,10 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*D0IzZmi288dy4VM6lUleTw.png",
     "when": "2021-01-13T12:00:00Z",
     "tags": [
-      "Scala",
-      "Sttp",
-      "Http Client",
-      "Functional Programming"
+      "scala",
+      "sttp",
+      "http client",
+      "functional programming"
     ]
   },
   {
@@ -695,11 +695,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*_hKsM2P-h3hdGz7o2lM4Ng.jpeg",
     "when": "2020-11-18T12:00:00Z",
     "tags": [
-      "Functional Programming",
-      "Scala",
-      "Websocket",
-      "Tapir",
-      "Http4s"
+      "functional programming",
+      "scala",
+      "websocket",
+      "tapir",
+      "http4s"
     ]
   },
   {
@@ -709,11 +709,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*ZPHGMO147CDud8tHU4kNUg.png",
     "when": "2020-10-26T12:00:00Z",
     "tags": [
-      "Websocket",
-      "Asyncapi",
-      "Open Api",
-      "Functional Programming",
-      "Akka"
+      "websocket",
+      "asyncapi",
+      "open api",
+      "functional programming",
+      "akka"
     ]
   },
   {
@@ -723,11 +723,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*b1vEl6J6TkeXOYwfc-5A6A.jpeg",
     "when": "2020-10-06T12:00:00Z",
     "tags": [
-      "Java",
-      "Scala",
-      "JVM",
-      "Functional Programming",
-      "Programming Languages"
+      "java",
+      "scala",
+      "jvm",
+      "functional programming",
+      "programming languages"
     ]
   },
   {
@@ -737,11 +737,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*-ArJr9fsub2cMX-gmPShrA.jpeg",
     "when": "2020-09-23T12:00:00Z",
     "tags": [
-      "Auth0",
-      "Security",
-      "Microservices",
-      "Oauth2",
-      "System Architecture"
+      "auth0",
+      "security",
+      "microservices",
+      "oauth2",
+      "system architecture"
     ]
   },
   {
@@ -751,10 +751,10 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*LyWTO7Ak3eZ4FAJPgN8uWg.jpeg",
     "when": "2020-09-01T12:00:00Z",
     "tags": [
-      "Scala",
-      "Http",
-      "Http Client",
-      "Websocket"
+      "scala",
+      "http",
+      "http client",
+      "websocket"
     ]
   },
   {
@@ -764,11 +764,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*ZFGe8Tmy6ZyxcHYKBHabaw.jpeg",
     "when": "2020-08-17T12:00:00Z",
     "tags": [
-      "Functional Programming",
-      "Kotlin",
-      "Java",
-      "Scala",
-      "Python"
+      "functional programming",
+      "kotlin",
+      "java",
+      "scala",
+      "python"
     ]
   },
   {
@@ -778,10 +778,10 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*4yWs-69drWkwL8mwTAJLWQ.png",
     "when": "2020-06-08T12:00:00Z",
     "tags": [
-      "Scala",
-      "Zio",
-      "Dependency Injection",
-      "Functional Programming"
+      "scala",
+      "zio",
+      "dependency injection",
+      "functional programming"
     ]
   },
   {
@@ -791,11 +791,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1176/1*4XaTrwne1yMQmdblNjbUmA.png",
     "when": "2020-06-01T12:00:00Z",
     "tags": [
-      "Scala",
-      "Scalar",
-      "Functional Programming",
-      "Conferences",
-      "Programming"
+      "scala",
+      "scalar",
+      "functional programming",
+      "conferences",
+      "programming"
     ]
   },
   {
@@ -805,11 +805,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*yhjaykmZKh0FZNuF0ZoWHg.png",
     "when": "2020-05-28T12:00:00Z",
     "tags": [
-      "Scala",
-      "Tapir",
-      "Akka",
-      "Http",
-      "Functional Programming"
+      "scala",
+      "tapir",
+      "akka",
+      "http",
+      "functional programming"
     ]
   },
   {
@@ -819,11 +819,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*kjkI1pw8xYorhg1ifsPv3A.png",
     "when": "2020-05-04T12:00:00Z",
     "tags": [
-      "Scala",
-      "Dotty",
-      "Metaprogramming",
-      "Macro",
-      "Programming"
+      "scala",
+      "dotty",
+      "metaprogramming",
+      "macro",
+      "programming"
     ]
   },
   {
@@ -833,11 +833,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*qNWeeXPeSqv2_u0W5q0fAQ.png",
     "when": "2020-04-23T12:00:00Z",
     "tags": [
-      "Event Sourcing",
-      "Performance",
-      "Audit",
-      "Ddd",
-      "Kafka"
+      "event sourcing",
+      "performance",
+      "audit",
+      "ddd",
+      "kafka"
     ]
   },
   {
@@ -847,11 +847,11 @@
     "coverImage": "https://softwaremill.com/user/pages/blog/remote-software-development-project/remote software project miroservices.png?g-3298ba4c",
     "when": "2020-04-15T12:00:00Z",
     "tags": [
-      "Remote Working",
-      "Software Development",
-      "Business",
+      "remote working",
+      "software development",
+      "business",
       "remote",
-      "Teamwork"
+      "teamwork"
     ]
   },
   {
@@ -861,11 +861,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*MZ7zWntofjJXXvUN-0l-KA.png",
     "when": "2020-04-03T12:00:00Z",
     "tags": [
-      "Scala",
-      "Http",
-      "Functional Programming",
-      "Akka",
-      "Codec"
+      "scala",
+      "http",
+      "functional programming",
+      "akka",
+      "codec"
     ]
   },
   {
@@ -875,11 +875,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*x-0cu1JuWAwotHiMnHhWzQ.jpeg",
     "when": "2020-03-19T12:00:00Z",
     "tags": [
-      "Serverless",
-      "AWS",
-      "Kubernetes",
-      "Modularity",
-      "Abstraction"
+      "serverless",
+      "aws",
+      "kubernetes",
+      "modularity",
+      "abstraction"
     ]
   },
   {
@@ -889,10 +889,10 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*FhZ9Ur1h_oZ8ULRvayBpEg.png",
     "when": "2020-02-04T12:00:00Z",
     "tags": [
-      "Scala",
-      "Python",
-      "Concurrency",
-      "Zio"
+      "scala",
+      "python",
+      "concurrency",
+      "zio"
     ]
   },
   {
@@ -902,11 +902,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*afcokzcgJm8EIf8SKIKbjg.png",
     "when": "2020-01-28T12:00:00Z",
     "tags": [
-      "Java",
-      "Kotlin",
-      "Scala",
-      "Concurrency",
-      "JVM"
+      "java",
+      "kotlin",
+      "scala",
+      "concurrency",
+      "jvm"
     ]
   },
   {
@@ -916,10 +916,10 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*EkyBZB0YjQCYK8b4M4wtPg.jpeg",
     "when": "2020-01-21T12:00:00Z",
     "tags": [
-      "Scala",
-      "Doobie",
-      "Relational Databases",
-      "Testing"
+      "scala",
+      "doobie",
+      "relational databases",
+      "testing"
     ]
   },
   {
@@ -929,10 +929,10 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*nQN4Fxl3ZA_TN7BU4iT1IQ.png",
     "when": "2020-01-06T12:00:00Z",
     "tags": [
-      "Scala",
-      "Zio",
-      "Dependency Injection",
-      "Functional Programming"
+      "scala",
+      "zio",
+      "dependency injection",
+      "functional programming"
     ]
   },
   {
@@ -942,10 +942,10 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*Dnw7awG9_-VEVu19cNmpJA.jpeg",
     "when": "2019-11-22T12:00:00Z",
     "tags": [
-      "Scala",
-      "Http",
-      "Tapir",
-      "Sttp"
+      "scala",
+      "http",
+      "tapir",
+      "sttp"
     ]
   },
   {
@@ -955,11 +955,11 @@
     "coverImage": "https://miro.medium.com/v2/da:true/resize:fit:1200/1*0WHbdY--LxJWHvoFmZdlkQ.gif",
     "when": "2019-11-14T12:00:00Z",
     "tags": [
-      "Scala",
-      "Notebook",
-      "Spark",
-      "Http Request",
-      "Sttp"
+      "scala",
+      "notebook",
+      "spark",
+      "http request",
+      "sttp"
     ]
   },
   {
@@ -969,11 +969,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*Dai8QgdAwrznSgvI5UDveg.jpeg",
     "when": "2019-10-18T12:00:00Z",
     "tags": [
-      "Scala",
-      "Websocket",
-      "Async Http Client",
-      "Akka",
-      "Okhttp"
+      "scala",
+      "websocket",
+      "async http client",
+      "akka",
+      "okhttp"
     ]
   },
   {
@@ -983,11 +983,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*ZS0vPPk-ftu_6C9xWd_beQ.png",
     "when": "2019-10-01T12:00:00Z",
     "tags": [
-      "API",
-      "Sttp",
-      "Scala",
-      "Http",
-      "Open Source"
+      "api",
+      "sttp",
+      "scala",
+      "http",
+      "open source"
     ]
   },
   {
@@ -997,11 +997,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*BAhwYRFjkESgvaB2AlvsZA.png",
     "when": "2019-09-23T12:00:00Z",
     "tags": [
-      "Scala",
-      "Java",
-      "Spring",
-      "Transactions",
-      "Relational Databases"
+      "scala",
+      "java",
+      "spring",
+      "transactions",
+      "relational databases"
     ]
   },
   {
@@ -1011,11 +1011,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*-JmZxZT1sILOgyqPQVk5Pg.png",
     "when": "2019-08-21T12:00:00Z",
     "tags": [
-      "Scala",
-      "Functional Programming",
-      "Template",
-      "React",
-      "Open Source"
+      "scala",
+      "functional programming",
+      "template",
+      "react",
+      "open source"
     ]
   },
   {
@@ -1025,11 +1025,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*86C5eg6PFIh3DKXFDfECjA.png",
     "when": "2019-07-10T12:00:00Z",
     "tags": [
-      "Ethereum",
-      "Durable Medium",
-      "Blockchain",
-      "Smart Contract",
-      "Tenders"
+      "ethereum",
+      "durable medium",
+      "blockchain",
+      "smart contract",
+      "tenders"
     ]
   },
   {
@@ -1039,10 +1039,10 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*cZWLRX2r5-QXzl8IoKPFvA.jpeg",
     "when": "2019-07-01T12:00:00Z",
     "tags": [
-      "Scala",
-      "Functional Programming",
-      "Http",
-      "Zio"
+      "scala",
+      "functional programming",
+      "http",
+      "zio"
     ]
   },
   {
@@ -1052,10 +1052,10 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*UocrbJYmzA-V6CkouqfQuw.jpeg",
     "when": "2019-06-24T12:00:00Z",
     "tags": [
-      "Blockchain",
-      "Libra Blockchain",
-      "Ethereum Blockchain",
-      "Facebook"
+      "blockchain",
+      "libra blockchain",
+      "ethereum blockchain",
+      "facebook"
     ]
   },
   {
@@ -1065,11 +1065,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*S7l5CTq5ww7CG1XH5I0a0w.jpeg",
     "when": "2019-06-17T12:00:00Z",
     "tags": [
-      "Scala",
-      "Zio",
-      "Scalaz",
-      "Functional Programming",
-      "Cats"
+      "scala",
+      "zio",
+      "scalaz",
+      "functional programming",
+      "cats"
     ]
   },
   {
@@ -1079,10 +1079,10 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1016/1*RFVCz3ltX_O6oFnzfc65Ow.png",
     "when": "2019-06-13T12:00:00Z",
     "tags": [
-      "Functional Programming",
-      "Scala",
-      "Http",
-      "Curl"
+      "functional programming",
+      "scala",
+      "http",
+      "curl"
     ]
   },
   {
@@ -1092,11 +1092,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*9CnqScCEkVJlvOXXXzvwhg.jpeg",
     "when": "2019-05-30T12:00:00Z",
     "tags": [
-      "Docker",
-      "Java",
-      "Graalvm",
-      "Scala",
-      "Sbt"
+      "docker",
+      "java",
+      "graalvm",
+      "scala",
+      "sbt"
     ]
   },
   {
@@ -1106,11 +1106,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*M3qaHE1VzKkBXNhdndbyhQ.png",
     "when": "2019-05-13T12:00:00Z",
     "tags": [
-      "Programming",
-      "Java",
-      "Graalvm",
-      "Scala",
-      "JVM"
+      "programming",
+      "java",
+      "graalvm",
+      "scala",
+      "jvm"
     ]
   },
   {
@@ -1120,11 +1120,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*l7hpNfeNroHXwiJ_N6A_8g.png",
     "when": "2019-05-09T12:00:00Z",
     "tags": [
-      "Java",
-      "Scala",
-      "Programming",
-      "Http",
-      "Functional Programming"
+      "java",
+      "scala",
+      "programming",
+      "http",
+      "functional programming"
     ]
   },
   {
@@ -1134,10 +1134,10 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*s7qP_ofkhud--GmJ5ggcjQ.jpeg",
     "when": "2019-04-10T12:00:00Z",
     "tags": [
-      "Scala",
-      "Conference",
-      "Akka",
-      "Functional Programming"
+      "scala",
+      "conference",
+      "akka",
+      "functional programming"
     ]
   },
   {
@@ -1147,11 +1147,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*rlC5OMHZosED6-YJ3x46OA.png",
     "when": "2019-03-05T12:00:00Z",
     "tags": [
-      "Scala",
-      "Functional Programming",
-      "Zio",
-      "Dependency Injection",
-      "Programming"
+      "scala",
+      "functional programming",
+      "zio",
+      "dependency injection",
+      "programming"
     ]
   },
   {
@@ -1161,11 +1161,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*HQheXYXmueJWc0gZI4MaVQ.jpeg",
     "when": "2019-02-25T12:00:00Z",
     "tags": [
-      "Scala",
-      "Swagger",
-      "Akka",
-      "Functional Programming",
-      "Open Api"
+      "scala",
+      "swagger",
+      "akka",
+      "functional programming",
+      "open api"
     ]
   },
   {
@@ -1175,11 +1175,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*Bkn0azYUh3uI96O_JYgmBA.png",
     "when": "2018-11-26T12:00:00Z",
     "tags": [
-      "Programming",
-      "Scala",
-      "Functional Programming",
-      "Monix",
-      "Distributed Systems"
+      "programming",
+      "scala",
+      "functional programming",
+      "monix",
+      "distributed systems"
     ]
   },
   {
@@ -1189,10 +1189,10 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*wP4vI8k0jiCRDrCswjOKJA.png",
     "when": "2018-09-18T12:00:00Z",
     "tags": [
-      "Dependency Injection",
-      "Java",
-      "Spring",
-      "Design Patterns"
+      "dependency injection",
+      "java",
+      "spring",
+      "design patterns"
     ]
   },
   {
@@ -1202,11 +1202,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*ygv4NHtC9Jao-aZPSCMPYg.png",
     "when": "2018-07-19T12:00:00Z",
     "tags": [
-      "Scala",
-      "Kotlin",
-      "Java",
-      "Programming",
-      "Programming Languages"
+      "scala",
+      "kotlin",
+      "java",
+      "programming",
+      "programming languages"
     ]
   },
   {
@@ -1216,11 +1216,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*AVlddrqI6KPGPh-JoBz-1g.png",
     "when": "2018-07-11T12:00:00Z",
     "tags": [
-      "Functional Programming",
-      "Scala",
-      "Akka",
-      "Programming",
-      "Concurrency"
+      "functional programming",
+      "scala",
+      "akka",
+      "programming",
+      "concurrency"
     ]
   },
   {
@@ -1230,11 +1230,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*tJDDOOwUafY9WaVWbNThZw.png",
     "when": "2018-06-19T12:00:00Z",
     "tags": [
-      "Scala",
-      "Akka",
-      "Scalaz",
-      "Monix",
-      "Functional Programming"
+      "scala",
+      "akka",
+      "scalaz",
+      "monix",
+      "functional programming"
     ]
   },
   {
@@ -1244,11 +1244,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*JlXdWI_z18lwrwdgWTOi0Q.jpeg",
     "when": "2018-06-12T12:00:00Z",
     "tags": [
-      "Scala",
-      "Scalaz",
-      "Monix",
-      "Akka",
-      "Functional Programming"
+      "scala",
+      "scalaz",
+      "monix",
+      "akka",
+      "functional programming"
     ]
   },
   {
@@ -1258,8 +1258,8 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:768/1*tT1jBDLaeQhf7qFakb1FDw.jpeg",
     "when": "2018-05-23T12:00:00Z",
     "tags": [
-      "Scala",
-      "Conference"
+      "scala",
+      "conference"
     ]
   },
   {
@@ -1269,11 +1269,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*_Bi5vv6sxelS7qEar-GUdQ.jpeg",
     "when": "2018-04-11T12:00:00Z",
     "tags": [
-      "Java",
-      "Kotlin",
-      "Scala",
-      "Asynchronous",
-      "Programming"
+      "java",
+      "kotlin",
+      "scala",
+      "asynchronous",
+      "programming"
     ]
   },
   {
@@ -1283,11 +1283,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*N0s_mXtMRj9rL_gdsv45zw.jpeg",
     "when": "2018-03-05T12:00:00Z",
     "tags": [
-      "Big Data",
-      "Kafka",
-      "Event Sourcing",
-      "Akka",
-      "Kafka Streams"
+      "big data",
+      "kafka",
+      "event sourcing",
+      "akka",
+      "kafka streams"
     ]
   },
   {
@@ -1297,11 +1297,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*xPX0KhPP_WSkMyGA82H79w.jpeg",
     "when": "2018-02-16T12:00:00Z",
     "tags": [
-      "Scala",
-      "Akka",
-      "Akka Http",
-      "Prometheus",
-      "Metrics"
+      "scala",
+      "akka",
+      "akka http",
+      "prometheus",
+      "metrics"
     ]
   },
   {
@@ -1311,10 +1311,10 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:500/1*Tl8SayEPtnhen7CBGZ2Q2w.jpeg",
     "when": "2018-02-14T12:00:00Z",
     "tags": [
-      "Java",
-      "Scala",
-      "Spring",
-      "Kotlin"
+      "java",
+      "scala",
+      "spring",
+      "kotlin"
     ]
   },
   {
@@ -1324,9 +1324,9 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*Z3-0OB7Wig2MajYaVaIaMg.jpeg",
     "when": "2018-02-08T12:00:00Z",
     "tags": [
-      "Scala",
-      "Newsletter",
-      "Functional Programming"
+      "scala",
+      "newsletter",
+      "functional programming"
     ]
   },
   {
@@ -1336,10 +1336,10 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:745/1*7csvYYyr28ib3VOR_KcxPA.jpeg",
     "when": "2017-11-07T12:00:00Z",
     "tags": [
-      "Scala",
-      "Software Development",
-      "Simplicity",
-      "Open Source"
+      "scala",
+      "software development",
+      "simplicity",
+      "open source"
     ]
   },
   {
@@ -1349,10 +1349,10 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*zM0TN_z0PE8PZF7xU8d3XA.jpeg",
     "when": "2017-10-19T12:00:00Z",
     "tags": [
-      "Scala",
-      "Reactive Programming",
-      "Akka",
-      "Okhttp"
+      "scala",
+      "reactive programming",
+      "akka",
+      "okhttp"
     ]
   },
   {
@@ -1362,11 +1362,11 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*FThJePMMbOKtB2ZmVdV14g.jpeg",
     "when": "2017-10-13T12:00:00Z",
     "tags": [
-      "Java",
-      "Annotations",
-      "Spring",
-      "Software Development",
-      "Programming"
+      "java",
+      "annotations",
+      "spring",
+      "software development",
+      "programming"
     ]
   },
   {
