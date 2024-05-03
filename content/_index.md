@@ -2,7 +2,6 @@
 title: Home
 description: Hello, I’m Adam, Software Developer
 profile_image: images/profile.jpg
-profile_description: Software Developer & co-founder of agancy. Early staff at Spotify.
 job:
   title: Chief R&D Officer
   description: Board member, SoftwareMill
@@ -26,7 +25,6 @@ main_interest:
       description: I've worked on many projects over the years, but this is the one I'm most proud of. Many of them are open source.
 latest_articles:
   title: Latest articles
-  description: All of my long-form thoughts on programming, career and more.
   articles:
     - title: "Migrating to Linear 101"
       description: Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get started.
@@ -51,7 +49,6 @@ latest_articles:
       link: articles/2024-01-18-Building-your-API-stack
 latest_videos:
   title: Latest videos
-  description: All of my long-form thoughts on programming, career and more.
   videos:
     - title: How to get started
       description: Jump right in — get an overview of the basics and get started on building.
