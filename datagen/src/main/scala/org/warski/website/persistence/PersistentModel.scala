@@ -1,7 +1,7 @@
 package org.warski.website.persistence
 
-import com.github.plokhotnyuk.jsoniter_scala.core.{readFromStream, writeToStream, JsonValueCodec, WriterConfig}
-import org.warski.website.model.{ActivityMetaData, Talk, Video}
+import com.github.plokhotnyuk.jsoniter_scala.core.{JsonValueCodec, WriterConfig, readFromStream, writeToStream}
+import org.warski.website.model.{ActivityMetaData, BlogPost, Talk, Video}
 
 import scala.util.Using
 
@@ -26,5 +26,6 @@ case class PersistentModel[T <: ActivityMetaData](dataFile: String, codec: JsonV
 object PersistentModel:
   val videos: PersistentModel[Video] = PersistentModel[Video]("videos.json", summon)
   val talks: PersistentModel[Talk] = PersistentModel[Talk]("talks.json", summon)
+  val blogs: PersistentModel[BlogPost] = PersistentModel[BlogPost]("blogs.json", summon)
 
 private val jsoniterWriteConfig = WriterConfig.withIndentionStep(2)

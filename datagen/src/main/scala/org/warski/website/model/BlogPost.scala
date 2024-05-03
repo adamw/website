@@ -1,12 +1,12 @@
 package org.warski.website.model
 
+import com.github.plokhotnyuk.jsoniter_scala.core.JsonValueCodec
+import com.github.plokhotnyuk.jsoniter_scala.macros.JsonCodecMaker
+
 import java.time.Instant
 import java.util.UUID
 
-enum BlogPost:
-  case Local(id: UUID, title: String, url: Uri, coverImage: Option[Uri], when: Instant, tags: List[String], content: String)
-      extends BlogPost
-      with ActivityMetaData
-  case Remote(id: UUID, title: String, url: Uri, coverImage: Option[Uri], when: Instant, tags: List[String])
-      extends BlogPost
-      with ActivityMetaData
+case class BlogPost(id: UUID, title: String, url: Uri, coverImage: Option[Uri], when: Instant, tags: List[String]) extends ActivityMetaData
+
+object BlogPost:
+  given JsonValueCodec[Vector[BlogPost]] = JsonCodecMaker.make
