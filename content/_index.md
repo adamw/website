@@ -47,30 +47,6 @@ latest_articles:
       tags: ["Software Development", "Tools"]
       date: "2024-01-18T05:24:28-11:00"
       link: articles/2024-01-18-Building-your-API-stack
-latest_videos:
-  title: Latest videos
-  videos:
-    - title: How to get started
-      description: Jump right in — get an overview of the basics and get started on building.
-      image: "6RYn6mgq77s"
-      publication: "Phoenix Baker"
-      tags: ["Design", "Research"]
-      date: "2024-01-19T23:44:58-08:00"
-      link: videos/2024-01-19-How-to-get-started
-    - title: Advanced features
-      description: Once you’re ready, learn more about advanced analytics, features and shortcuts.
-      image: images/article-2.png
-      publication: "Candice Wu"
-      tags: ["UI/UX", "Responsive"]
-      date: "2024-01-15T20:12:56-00:00"
-      link: videos/2024-01-15-Advanced-features
-    - title: Learn Javascript in 1 Hour
-      description: Learn JavaScript basics, this beginner-friendly tutorial you need to start coding.
-      image: images/article-3.png
-      publication: "Lana Steiner"
-      tags: ["Software Development", "Presentation"]
-      date: "2024-01-18T05:24:28-11:00"
-      link: videos/2024-01-18-Learn-Javascript-in-1-Hour
 contact:
   title: Get in touch
   description: I’m would love to hear from you.
