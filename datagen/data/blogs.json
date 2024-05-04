@@ -499,7 +499,6 @@
     "id": "1bff2018-9f50-44e7-985b-012beab4487d",
     "title": "Bootzooka 2022: cats-effect 3, autowire & tapir",
     "url": "https://softwaremill.com/bootzooka-2022-cats-effect-3-autowire-and-tapir/",
-    "coverImage": "/user/webp/user/themes/softwaremill/assets/img/post-image/0NeDEuFbGMsAOzc.webp",
     "when": "2022-04-08T12:00:00Z",
     "tags": [
       "scala",
@@ -544,7 +543,7 @@
     "id": "76c4ef28-9a4f-4483-9b3c-575b240411f9",
     "title": "ZIO environment: episode 3",
     "url": "https://softwaremill.com/zio-environment-episode-3/",
-    "coverImage": "/user/webp/user/themes/softwaremill/assets/img/post-image/3WN6Yk0qIcHyKQU.webp",
+    "coverImage": "https://softwaremill.com/user/webp/user/themes/softwaremill/assets/img/post-image/3WN6Yk0qIcHyKQU.webp",
     "when": "2021-12-16T12:00:00Z",
     "tags": [
       "scala",
@@ -559,7 +558,7 @@
     "id": "b2b159fe-5cd5-4bfa-a332-7a0091015953",
     "title": "Security improvements in tapir 0.19",
     "url": "https://softwaremill.com/security-improvements-in-tapir-0-19/",
-    "coverImage": "/user/pages/blog/security-improvements-in-tapir-0-19/blogpost-tapir-security.png?g-3298ba4c",
+    "coverImage": "https://softwaremill.com/user/pages/blog/security-improvements-in-tapir-0-19/blogpost-tapir-security.png?g-3298ba4c",
     "when": "2021-11-22T12:00:00Z",
     "tags": [
       "scala",
@@ -573,7 +572,7 @@
     "id": "22d32bfa-0966-47cc-9bdd-6d109c42784f",
     "title": "Fast number parsing in Scala",
     "url": "https://softwaremill.com/fast-number-parsing-in-scala/",
-    "coverImage": "/user/webp/user/themes/softwaremill/assets/img/post-image/QajOl0zrcoBKWtZ.webp",
+    "coverImage": "https://softwaremill.com/user/webp/user/themes/softwaremill/assets/img/post-image/QajOl0zrcoBKWtZ.webp",
     "when": "2021-09-29T12:00:00Z",
     "tags": [
       "scala",
@@ -605,7 +604,7 @@
     "id": "385cbcef-02ce-403b-a1a7-8ef12c179034",
     "title": "Evaluating persistent, replicated message queues (2020 edition)",
     "url": "https://softwaremill.com/mqperf/",
-    "coverImage": "/user/pages/blog/mqperf/evaluating-message-queues.png?g-3298ba4c",
+    "coverImage": "https://softwaremill.com/user/pages/blog/mqperf/evaluating-message-queues.png?g-3298ba4c",
     "when": "2021-07-26T12:00:00Z",
     "tags": [
       "kafka",
@@ -939,7 +938,7 @@
       "modularity",
       "abstraction"
     ],
-    "description": "Good abstractions are good, bad abstractions are bad, but … what does it all have to do with serverless? More than you would initially…"
+    "description": "Good abstractions are good, bad abstractions are bad, but… what does it all have to do with serverless? More than you would initially…"
   },
   {
     "id": "691919b1-6aea-451e-a1a3-4030eef4e3c6",
@@ -1484,7 +1483,7 @@
     "id": "35eb9db1-e38b-4c1f-9f70-4e1d8d6406e1",
     "title": "What does Kafka's exactly-once processing really mean?",
     "url": "https://softwaremill.com/what-kafka-exactly-once-really-means/",
-    "coverImage": "https://softwaremill.com/",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2017/07/kafka-exactly-once.png",
     "when": "2017-07-27T12:00:00Z",
     "tags": [
       "kafka",
@@ -1514,7 +1513,7 @@
     "id": "ab495a4a-69a4-4b31-80ba-f84a1a2fa720",
     "title": "Evaluating persistent, replicated message queues (2017 edition)",
     "url": "https://softwaremill.com/mqperf-2017/",
-    "coverImage": "/user/themes/softwaremill/assets/_old-website/uploads/2017/07/mqperf/queue01.png",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2017/07/mqperf/queue01.png",
     "when": "2017-07-18T12:00:00Z",
     "tags": [
       "kafka",
@@ -1535,7 +1534,7 @@
     "id": "5e51ff32-2a8e-4e28-b8b7-37c1cb9ff4a9",
     "title": "Amazon's SQS performance and latency",
     "url": "https://softwaremill.com/amazon-sqs-performance-latency/",
-    "coverImage": "https://softwaremill.com/",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2017/07/sqs-perf/mqperf-2017-sqs.png",
     "when": "2017-07-06T12:00:00Z",
     "tags": [
       "aws",
@@ -1551,7 +1550,7 @@
     "id": "fb10a3bb-b18d-45ad-9f79-d2d7e4139dd3",
     "title": "Kafka with selective acknowledgments (kmq) performance & latency benchmark | SofwtareMill",
     "url": "https://softwaremill.com/kafka-with-selective-acknowledgments-performance/",
-    "coverImage": "https://softwaremill.com/",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2017/06/kmq/kmq-6nodes-25threads.png",
     "when": "2017-06-22T12:00:00Z",
     "tags": [
       "kafka",
@@ -1597,7 +1596,6 @@
     "id": "a2b2d877-7f97-4444-bb1d-3c85ec99c164",
     "title": "Comparing Scala relational database access libraries",
     "url": "https://softwaremill.com/comparing-scala-relational-database-access-libraries/",
-    "coverImage": "https://softwaremill.com/",
     "when": "2017-04-18T12:00:00Z",
     "tags": [
       "scala",
@@ -1671,7 +1669,6 @@
     "id": "9df7522c-671e-4211-900d-1919aebee0c8",
     "title": "Most popular keybind for push-to-talk",
     "url": "https://softwaremill.com/most-popular-push-to-talk-keyboard-shortcut/",
-    "coverImage": "https://softwaremill.com/",
     "when": "2016-12-08T12:00:00Z",
     "tags": [
       "marketing",
@@ -1684,7 +1681,7 @@
     "id": "882b0ba1-a93b-4ce5-8444-f81cc6eb5ccb",
     "title": "Open source big data landscape - paper presented at ITS World Congress 2016",
     "url": "https://softwaremill.com/open-source-big-data-landscape-its-world-congress/",
-    "coverImage": "/user/themes/softwaremill/assets/_old-website/uploads/2016/12/its2016paper_cover.png",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2016/12/its2016paper_cover.png",
     "when": "2016-12-01T12:00:00Z",
     "tags": [
       "big data",
@@ -1701,7 +1698,6 @@
     "id": "f76537b2-7ab7-423e-96cb-3c77797f2850",
     "title": "Beautiful folds in Scala",
     "url": "https://softwaremill.com/beautiful-folds-in-scala/",
-    "coverImage": "https://softwaremill.com/",
     "when": "2016-11-14T12:00:00Z",
     "tags": [
       "scala",
@@ -1716,7 +1712,7 @@
     "id": "fb9cd3ac-a0c9-4977-8515-8920cad5218d",
     "title": "Windowing data in Big Data Streams - Spark, Flink, Kafka, Akka",
     "url": "https://softwaremill.com/windowing-in-big-data-streams-spark-flink-kafka-akka/",
-    "coverImage": "/user/themes/softwaremill/assets/_old-website/uploads/2016/10/types-of-windows.png",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2016/10/types-of-windows.png",
     "when": "2016-10-26T12:00:00Z",
     "tags": [
       "akka",
@@ -1746,7 +1742,7 @@
     "id": "2415b074-0203-41a9-9986-4d84ccd2033b",
     "title": "Windowing data in Akka Streams",
     "url": "https://softwaremill.com/windowing-data-in-akka-streams/",
-    "coverImage": "/user/themes/softwaremill/assets/_old-website/uploads/2016/06/akkawindowing.png",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2016/06/akkawindowing.png",
     "when": "2016-08-08T12:00:00Z",
     "tags": [
       "scala",
@@ -1772,22 +1768,6 @@
       "bigdata"
     ],
     "description": "The streaming space is quickly becoming crowded, so how is Kafka Streams different & where does it fit in the stream processing developers toolbox?"
-  },
-  {
-    "id": "5023991d-4cc3-4c0c-bbea-e65790bd649b",
-    "title": "Transactional event sourcing using Slick (audit log for free!)",
-    "url": "https://softwaremill.com/transactional-event-sourcing-slick/",
-    "coverImage": "https://softwaremill.com/",
-    "when": "2016-05-20T12:00:00Z",
-    "tags": [
-      "scala",
-      "presentations",
-      "transactions",
-      "event sourcing",
-      "slick",
-      "rdbms"
-    ],
-    "description": "This talk has been (or will be) presented at:. . Scala Days New York 2016. Scala Days Berlin 2016. Melbourne Scala User Group. . Event sourcing is a great alternative to traditional “CRUD”type architectures. The central concept is a persistent stream of events, which drives all changes to the read model and running"
   },
   {
     "id": "0feab8b5-4374-4e9d-b8f8-67c90409d2ba",
@@ -1818,7 +1798,6 @@
     "id": "9ad05146-5cbe-446b-baef-55deadde2ff9",
     "title": "Approaches to data auditing and introducing Slick-Eventsourcing",
     "url": "https://softwaremill.com/data-auditing-slick-eventsourcing/",
-    "coverImage": "https://softwaremill.com/",
     "when": "2015-12-01T12:00:00Z",
     "tags": [
       "scala",
@@ -1846,7 +1825,7 @@
     "id": "ab117f90-3398-4794-9006-00d9d3645fe2",
     "title": "Free monads - what? and why?",
     "url": "https://softwaremill.com/free-monads/",
-    "coverImage": "/user/themes/softwaremill/assets/_old-website/uploads/2015/10/freemonad-1.png",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2015/10/freemonad-1.png",
     "when": "2015-10-06T12:00:00Z",
     "tags": [
       "scala",
@@ -1915,7 +1894,6 @@
     "id": "c85f24f4-8c28-405e-b777-85a91fd62bf9",
     "title": "Evaluating persistent, replicated message queues (2015 edition)",
     "url": "https://softwaremill.com/mqperf-2015/",
-    "coverImage": "/images/mqperf/mqperf_logos.jpg",
     "when": "2015-05-04T12:00:00Z",
     "tags": [
       "kafka",
@@ -1970,7 +1948,7 @@
     "id": "8a224250-e045-4e44-abeb-e857ea113e7c",
     "title": "Scaling Ruby to Scala? Yap.TV Case Study",
     "url": "https://softwaremill.com/scaling-ruby-scala-yap-reactive-platform/",
-    "coverImage": "/user/themes/softwaremill/assets/_old-website/uploads/2014/06/casestudyyap.png",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2014/06/casestudyyap.png",
     "when": "2014-06-05T12:00:00Z",
     "tags": [
       "marketing",
@@ -2012,24 +1990,24 @@
     "id": "2fd46dcd-206f-44c1-bd4d-53f5cb03e01c",
     "title": "First SoftwareMill hackaton - iBeacons",
     "url": "https://softwaremill.com/first-softwaremill-hackaton-ibeacons/",
-    "coverImage": "/user/themes/softwaremill/assets/_old-website/uploads/2014/02/hackaton.jpg",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2014/02/hackaton.jpg",
     "when": "2014-02-14T12:00:00Z",
     "tags": [
       "ibeacon",
       "hackaton"
     ],
-    "description": "Last week, during our monthly faceto-face meeting, we held the first Softwaremill hackaton. The main theme were iBeacons. As many of us already did some experiments with Bluetooth LE (the technolgy behind beacons), we had a couple of Estimote beacons, Gimbal beacons, RaspberryPis with BLE dongles and iPhones/MacBooks;"
+    "description": "Last week, during our monthly face to-face meeting, we held the first Softwaremill hackaton. The main theme were iBeacons. As many of us already did some experiments with Bluetooth LE (the technolgy behind beacons), we had a couple of Estimote beacons, Gimbal beacons, RaspberryPis with BLE dongles and iPhones/MacBooks;"
   },
   {
     "id": "da5ed2e2-5e1f-4858-b956-df11a023df6e",
     "title": "SoftwareMill Partners with Typesafe to deliver Scala and Akka consulting",
     "url": "https://softwaremill.com/softwaremill-partners-with-typesafe/",
-    "coverImage": "/user/themes/softwaremill/assets/_old-website/uploads/2013/12/typesafe.png",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2013/12/typesafe.png",
     "when": "2013-12-04T12:00:00Z",
     "tags": [
       "marketing"
     ],
-    "description": "We are happy to announce that SoftwareMill signed a consulting partnership agreement with Typesafe, Inc..   . . Typesafe is dedicated to helping developers build Reactive applications on the JVM. With the Typesafe Reactive Platform, including Play Framework, Akka, and Scala, developers can deliver highly resp"
+    "description": "We are happy to announce that SoftwareMill signed a consulting partnership agreement with Typesafe, Inc. Typesafe is dedicated to helping developers build Reactive applications on the JVM. With the Typesafe Reactive Platform, including Play Framework, Akka, and Scala, developers can deliver highly resp"
   },
   {
     "id": "54bf97c2-2637-4aa0-90d7-056b22928ee4",
@@ -2051,7 +2029,7 @@
       "projects",
       "jbison"
     ],
-    "description": "We have recently released a new version of JBison (https://jbison.com), our softwareas-a-service web&application monitoring website.The highlight of this release are the so-called “JSON monitors”. What can you monitor with them? Basically – anything. JSON monitors allow to monitor an arbitrary metric of you"
+    "description": "We have recently released a new version of JBison (https://jbison.com), our software as-a-service web&application monitoring website.The highlight of this release are the so-called “JSON monitors”. What can you monitor with them? Basically – anything. JSON monitors allow to monitor an arbitrary metric of you"
   },
   {
     "id": "995ef512-946d-4427-a8fd-c2e13cad5bdc",
