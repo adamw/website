@@ -1,7 +1,7 @@
 [
   {
     "id": "eada7148-4623-4650-8708-3ae3e8d4ab1b",
-    "title": "Safe direct-style Scala: Ox 0.1.0 released | SoftwareMill",
+    "title": "Safe direct-style Scala: Ox 0.1.0 released",
     "url": "https://softwaremill.com/safe-direct-style-scala-ox-0-1-0-released/",
     "coverImage": "https://softwaremill.com/user/pages/blog/148.safe-direct-style-scala-ox-0-1-0-released/hbkmgbdazlmjnhp.jpg?g-3298ba4c",
     "when": "2024-04-24T12:00:00Z",
@@ -16,7 +16,7 @@
   },
   {
     "id": "36306d83-6165-4a6f-b521-1e8bc4566c39",
-    "title": "Handling errors in direct-style Scala | SoftwareMill",
+    "title": "Handling errors in direct-style Scala",
     "url": "https://softwaremill.com/handling-errors-in-direct-style-scala/",
     "coverImage": "https://softwaremill.com/user/pages/blog/131.handling-errors-in-direct-style-scala/fp6vujc95wigvso.jpg?g-3298ba4c",
     "when": "2024-03-12T12:00:00Z",
@@ -31,7 +31,7 @@
   },
   {
     "id": "1cb2a763-a92e-4712-a00f-b57e56e6ac01",
-    "title": "Jox 0.1: virtual-thread friendly channels for Java | SoftwareMill",
+    "title": "Jox 0.1: virtual-thread friendly channels for Java",
     "url": "https://softwaremill.com/jox-0-1-virtual-thread-friendly-channels-for-java/",
     "coverImage": "https://softwaremill.com/user/pages/blog/121.jox-0-1-virtual-thread-friendly-channels-for-java/0gl78u6uv5l2in4.jpg?g-3298ba4c",
     "when": "2024-02-23T12:00:00Z",
@@ -64,7 +64,7 @@
   },
   {
     "id": "cc4939c1-6d46-4924-ad87-cc2f2088c70d",
-    "title": "Adam Warski - My Scala Story | SoftwareMill",
+    "title": "My Scala Story",
     "url": "https://softwaremill.com/adam-warski-my-scala-story/",
     "coverImage": "https://softwaremill.com/user/pages/blog/111.adam-warski-my-scala-story/bir46tozqfukgkm.jpg?g-3298ba4c",
     "when": "2024-02-02T12:00:00Z",
@@ -109,7 +109,7 @@
   },
   {
     "id": "ceee6e05-d26d-4206-b365-93188c731329",
-    "title": "Limits of Loom's performance | SoftwareMill",
+    "title": "Limits of Loom's performance",
     "url": "https://softwaremill.com/limits-of-looms-performance/",
     "coverImage": "https://softwaremill.com/user/pages/blog/92.limits-of-looms-performance/0acj5pvwtbdyfjm.jpg?g-3298ba4c",
     "when": "2023-10-25T12:00:00Z",
@@ -146,7 +146,7 @@
   },
   {
     "id": "a75d25ce-c7cc-4922-9ed1-cf081ae1867b",
-    "title": "Principles of developing applications in Scala | SoftwareMill",
+    "title": "Principles of developing applications in Scala",
     "url": "https://softwaremill.com/principles-of-developing-applications-in-scala/",
     "coverImage": "https://softwaremill.com/user/pages/blog/77.principles-of-developing-applications-in-scala/o6mixcpn8sktr1u.jpg?g-3298ba4c",
     "when": "2023-08-16T12:00:00Z",
@@ -204,7 +204,7 @@
   },
   {
     "id": "faa0016d-bbb7-4f28-9771-38403b410e4e",
-    "title": "Go-like channels using project Loom and Scala | SoftwareMill",
+    "title": "Go-like channels using project Loom and Scala",
     "url": "https://softwaremill.com/go-like-channels-using-project-loom-and-scala/",
     "coverImage": "https://softwaremill.com/user/pages/blog/44.go-like-channels-using-project-loom-and-scala/6ptq3wvyfwpi5j8.jpg?g-3298ba4c",
     "when": "2023-04-03T12:00:00Z",
@@ -222,7 +222,7 @@
   },
   {
     "id": "b75d1dd3-e19e-4ab0-8069-4b3f34920a75",
-    "title": "Cancelling HTTP requests on the JVM | SoftwareMill",
+    "title": "Cancelling HTTP requests on the JVM",
     "url": "https://softwaremill.com/cancelling-http-requests-on-the-jvm/",
     "coverImage": "https://softwaremill.com/user/pages/blog/36.cancelling-http-requests-on-the-jvm/kgyisij31xltc8q.jpg?g-3298ba4c",
     "when": "2023-03-06T12:00:00Z",
@@ -236,7 +236,7 @@
   },
   {
     "id": "4edf2d41-44ea-412d-b597-5a122d63e48e",
-    "title": "Prototype Loom-based concurrency API for Scala | SoftwareMill",
+    "title": "Prototype Loom-based concurrency API for Scala",
     "url": "https://softwaremill.com/prototype-loom-based-concurrency-api-for-scala/",
     "coverImage": "https://softwaremill.com/user/pages/blog/27.prototype-loom-based-concurrency-api-for-scala/gqcnd5kixfllejo.jpg?g-3298ba4c",
     "when": "2023-02-03T12:00:00Z",
@@ -268,7 +268,7 @@
   },
   {
     "id": "6c3a0173-cf4d-421c-97b0-4da2abb40a06",
-    "title": "The architecture of Mastodon | SoftwareMill",
+    "title": "The architecture of Mastodon",
     "url": "https://softwaremill.com/the-architecture-of-mastodon/",
     "coverImage": "https://softwaremill.com/user/pages/blog/the-architecture-of-mastodon/mastodon.jpg?g-3298ba4c",
     "when": "2022-11-21T12:00:00Z",
@@ -285,7 +285,7 @@
   },
   {
     "id": "d6b4d2a5-dd09-4a73-aa27-9daf374cf95e",
-    "title": "Protecting state using virtual threads | SoftwareMill",
+    "title": "Protecting state using virtual threads",
     "url": "https://softwaremill.com/protecting-state-using-virtual-threads/",
     "coverImage": "https://softwaremill.com/user/pages/blog/protecting-state-using-virtual-threads/protecting-state-using-threads.jpg?g-3298ba4c",
     "when": "2022-10-27T12:00:00Z",
@@ -301,7 +301,7 @@
   },
   {
     "id": "0a74b329-4ee2-452f-88ac-ca6d89e5c4f0",
-    "title": "Trying out Unison, part 3: effects through abilities | SoftwareMill",
+    "title": "Trying out Unison, part 3: effects through abilities",
     "url": "https://softwaremill.com/trying-out-unison-part-3-effects-through-abilities/",
     "coverImage": "https://softwaremill.com/user/pages/blog/trying-out-unison-part-3-effects-through-abilities/unison-effects.jpg?g-3298ba4c",
     "when": "2022-10-19T12:00:00Z",
@@ -314,7 +314,7 @@
   },
   {
     "id": "f7c55fd2-7fe0-4724-98b2-82bb2ef5ac2a",
-    "title": "Trying out Unison, part 2: organising code | SoftwareMill",
+    "title": "Trying out Unison, part 2: organising code",
     "url": "https://softwaremill.com/trying-out-unison-part-2-organising-code/",
     "coverImage": "https://softwaremill.com/user/pages/blog/trying-out-unison-part-2-organising-code/unison2.jpg?g-3298ba4c",
     "when": "2022-10-06T12:00:00Z",
@@ -326,7 +326,7 @@
   },
   {
     "id": "7a58d5de-552d-492b-99bf-562ea6c7009f",
-    "title": "A tapir looms in the distance | SoftwareMill",
+    "title": "A tapir looms in the distance",
     "url": "https://softwaremill.com/a-tapir-looms-in-the-distance/",
     "coverImage": "https://softwaremill.com/user/pages/blog/a-tapir-looms-in-the-distance/tapir-loom.png?g-3298ba4c",
     "when": "2022-09-30T12:00:00Z",
@@ -594,7 +594,7 @@
   },
   {
     "id": "a286d9a3-091f-46b1-b859-810f776dc799",
-    "title": "Implementing event sourcing using a relational database | SoftwareMill",
+    "title": "Implementing event sourcing using a relational database",
     "url": "https://softwaremill.com/implementing-event-sourcing-using-a-relational-database/",
     "coverImage": "https://softwaremill.com/user/pages/blog/implementing-event-sourcing-using-a-relational-database/elephant-2380009_1920.jpg?g-3298ba4c",
     "when": "2021-06-10T12:00:00Z",
@@ -608,7 +608,7 @@
   },
   {
     "id": "03aa0c72-e72b-42e2-bb2e-650f8b4c1d2c",
-    "title": "Scala 3 macros tips & tricks | SoftwareMill Blog",
+    "title": "Scala 3 macros tips & tricks Blog",
     "url": "https://softwaremill.com/scala-3-macros-tips-and-tricks/",
     "coverImage": "https://softwaremill.com/user/pages/blog/scala-3-macros-tips-and-tricks/macro.jpg?g-3298ba4c",
     "when": "2021-05-24T12:00:00Z",
@@ -842,7 +842,7 @@
   },
   {
     "id": "9335f133-fbaa-4eab-9754-7aa1f27b153d",
-    "title": "How to run a successful remote software development project | SoftwareMill Blog",
+    "title": "How to run a successful remote software development project Blog",
     "url": "https://softwaremill.com/remote-software-development-project/",
     "coverImage": "https://softwaremill.com/user/pages/blog/remote-software-development-project/remote software project miroservices.png?g-3298ba4c",
     "when": "2020-04-15T12:00:00Z",
@@ -1386,7 +1386,7 @@
   },
   {
     "id": "35eb9db1-e38b-4c1f-9f70-4e1d8d6406e1",
-    "title": "What does Kafka's exactly-once processing really mean? | SoftwareMill",
+    "title": "What does Kafka's exactly-once processing really mean?",
     "url": "https://softwaremill.com/what-kafka-exactly-once-really-means/",
     "coverImage": "https://softwaremill.com/",
     "when": "2017-07-27T12:00:00Z",
@@ -1589,7 +1589,7 @@
   },
   {
     "id": "f76537b2-7ab7-423e-96cb-3c77797f2850",
-    "title": "Beautiful folds in Scala | SoftwareMill",
+    "title": "Beautiful folds in Scala",
     "url": "https://softwaremill.com/beautiful-folds-in-scala/",
     "coverImage": "https://softwaremill.com/",
     "when": "2016-11-14T12:00:00Z",

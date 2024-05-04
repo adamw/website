@@ -1,11 +1,28 @@
 {{ define "main" }}
+
+{{ $articles := getJSON "datagen/data/blogs.json" }}
+{{ $articles := sort $articles "when" "desc" }}
+
+{{ $featuredIds := slice "80d7176e-332c-4d3a-85df-d63d9d9a8d6a" "a286d9a3-091f-46b1-b859-810f776dc799" "1cb2a763-a92e-4712-a00f-b57e56e6ac01" }}
+
 <section>
   <div class="container mx-auto py-16">
     <h6 class="text-lg font-semibold text-[#0A39AA] mb-3">{{ .Title }}</h6>
-    <h1 class="text-4xl md:text-5xl font-bold text-[#101828] mb-6">
-      {{ .Params.subtitle }}
-    </h1>
-    <p class="text-xl text-[#475467]">{{ .Params.description }}</p>
+    <h1 class="text-4xl md:text-5xl font-bold text-[#101828] mb-6">Featured</h1>
+  </div>
+
+  <div class="bg-[#F9FAFB] py-24">
+    <div class="container grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 mx-auto">
+      {{ range $articles }}
+        {{ if in $featuredIds .id }}
+          {{ partial "article-item.html" (dict "article" .) }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+
+  <div class="container mx-auto py-16">
+    <h1 class="text-4xl md:text-5xl font-bold text-[#101828] mb-6">All articles</h1>
   </div>
 
   <div class="tab" data-tab-group="tab-group-name">
@@ -59,20 +76,6 @@
             {{ .Render "post" }}
           {{ end }}
         </div>
-        {{ if .Params.featured_articles.featured }}
-        <div class="bg-[#F9FAFB] py-24">
-          <div class="container mb-16 mx-auto">
-            <h1 class="text-3xl font-semibold text-[#101828] mb-5">{{.Params.featured_articles.title}}</h1>
-            <p class="text-xl text-[#475467]">{{.Params.featured_articles.description}}</p>
-          </div>
-          <div class="container grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 mx-auto">
-            {{ range where .Pages "Params.Featured" true }}
-              {{ .Render "post" }}
-            {{ end }}
-          </div>
-        </div>
-        {{ else }}
-        {{ end }}
       </div>
     </div>
   </div>

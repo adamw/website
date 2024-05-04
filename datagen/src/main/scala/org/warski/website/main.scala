@@ -180,7 +180,28 @@ def readBlog(url: String): BlogPost =
 
   tags = tags.map(_.toLowerCase)
 
-  BlogPost(UUID.randomUUID(), title, Uri(url), coverImage, when, tags)
+  val description = (doc >?> attr("content")("meta[property=og:description]"))
+    .orElse(doc >?> attr("content")("meta[name=description]"))
+    .map(_.trim)
+  println(s"Description: $description")
+
+  BlogPost(UUID.randomUUID(), title, Uri(url), coverImage, when, tags, description)
+
+@main def fixBlogs(): Unit =
+  var blogs = PersistentModel.blogs.read()
+  blogs = blogs.map(b => fixBlog(b))
+  PersistentModel.blogs.write(blogs)
+
+def fixBlog(b: BlogPost): BlogPost =
+  val browser = JsoupBrowser()
+  val doc = browser.get(b.url.toString)
+
+  val description = (doc >?> attr("content")("meta[property=og:description]"))
+    .orElse(doc >?> attr("content")("meta[name=description]"))
+    .map(_.trim)
+  println(s"Description for ${b.url}: $description")
+
+  b.copy(description = description)
 
 private def noneIfEmpty(s: String): Option[String] = if s.isEmpty then None else Some(s)
 private def readTags(): List[String] = StdIn.readLine().split(",").map(_.trim.toLowerCase).toList.filterNot(_.isEmpty)
