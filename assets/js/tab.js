@@ -5,6 +5,9 @@
   const tabGroups = document.querySelectorAll("[data-tab-group]");
   const tablist = document.querySelectorAll("[data-tab-nav] [data-tab]");
 
+  const mainArticle = document.querySelector('.content-top .main-article');
+  const contentMain = document.querySelector('.tab .content-main');
+
   function setActiveTab(tabGroup, tabName) {
     const tabsNav = tabGroup.querySelector("[data-tab-nav]");
     const tabsContent = tabGroup.querySelector("[data-tab-content]");
@@ -18,10 +21,27 @@
 
     const selectedTabNavItem = tabsNav.querySelector(`[data-tab="${tabName}"]`);
     selectedTabNavItem.classList.add("active");
-    const selectedTabPane = tabsContent.querySelector(
-      `[data-tab-panel="${tabName}"]`
-    );
+    const selectedTabPane = tabsContent.querySelector(`[data-tab-panel="${tabName}"]`);
     selectedTabPane.classList.add("active");
+
+    const selectedTag = selectedTabPane.getAttribute('data-tab-tag');
+
+    // reset: everything is visible at first
+    mainArticle.classList.remove('hidden');
+    contentMain.querySelectorAll("[data-tags]").forEach((pane) => {
+      pane.classList.remove('hidden');
+    });
+
+    // then, make visible only those with the tag
+    if (selectedTag !== 'all') {
+      mainArticle.classList.add('hidden');
+
+      contentMain.querySelectorAll("[data-tags]").forEach((pane) => {
+        if (!pane.getAttribute('data-tags').split(",").some(e => e.trim() === selectedTag)) {
+          pane.classList.add('hidden');
+        }
+      });
+    }
   }
 
   tabGroups.forEach((tabGroup) => {
@@ -37,21 +57,6 @@
         setActiveTab(tabGroup, tabName);
       });
     });
-
-    // if (window.innerWidth < 768) {
-    //   var parent = document.createElement('select');
-    //   parent.name = "tab-nav";
-    //   parent.className = "tab-nav";
-    //   // var child = document.createElement('');
-    //   tabsNavItem.forEach((tabNavItem) => {
-    //     var options = document.createElement('option');
-    //     options.className = "tab-nav-item";
-    //     options.value = tabNavItem.dataset.tab;
-    //     options.innerText = tabNavItem.innerText;
-    //     parent.appendChild(options);
-    //   })
-    //   tabsNav.replaceWith(parent);
-    // }
   });
 
   function tabsHandler(event) {

@@ -51,7 +51,7 @@
       </ul>
       <div class="tab-content hidden" data-tab-content>
         {{ range $index, $element := $uniqueTags }}
-        <div class="tab-content-panel" data-tab-panel="{{$index}}">
+        <div class="tab-content-panel" data-tab-panel="{{$index}}" data-tab-tag="{{$element}}">
           {{ $element }}
         </div>
         {{ end }}

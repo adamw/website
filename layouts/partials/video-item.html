@@ -1,4 +1,4 @@
-<div>
+<div data-tags="{{ delimit .video.tags ", " }}">
     {{ if ne .video.youtube nil }}
       {{ partial "youtube-lite.html" (dict "Id" .video.youtube "Class" "mx-auto" "Width" "100%" "Height" "240px" "Style" "" "Attr" "") }}
     {{ else }}
