@@ -5,7 +5,7 @@
     <h4 class="text-2xl font-semibold text-[#101828]">{{ .article.title }}</h4>
     <i class="text-2xl text-[#101828] fa-solid fa-arrow-right"></i>
   </a>
-  <p class="text-base text-[#475467] mb-6">{{ .Params.Description }}</p>
+  <p class="text-base text-[#475467] mb-6">{{ .article.description }}</p>
   <div class="flex flex-wrap items-center">
     {{ range .article.tags }}
       {{ partial "badge.html" (dict "Type" .) }}
