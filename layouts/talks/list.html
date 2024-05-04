@@ -1,4 +1,11 @@
 {{ define "main" }}
+
+{{ $talks := getJSON "datagen/data/talks.json" }}
+{{ $talks := sort $talks "when" "desc" }}
+{{ $talksCount := len $talks }}
+
+{{ $videos := getJSON "datagen/data/videos.json" }}
+
 <section>
   <div class="container mx-auto pt-16 pb-24">
     <div class="lg:w-[768px] text-center mb-24 mx-auto px-0 sm:px-12 lg:px-0">
@@ -8,14 +15,24 @@
     </div>
     <div class="mb-24">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 mx-0 lg:mx-24">
-        {{ range .Pages }}
+        {{ range $index, $element := $talks }}
         <div class="border border-1 border-[#A6A8AC] rounded-2xl p-6">
-          <h6 class="text-xl font-semibold text-[#101828] mb-2"># {{.Params.Number}}</h6>
-          <p class="text-sm font-semibold text-[#072671] mb-2">{{.Params.Position}} • {{.Date.Format "2 Jan 2006"}}</p>
-          <h4 class="text-lg font-semibold text-[#101828] mb-2">{{.Params.Title}}</h4>
+          <h6 class="text-xl font-semibold text-[#101828] mb-2"># {{ sub $talksCount $index }}: {{ $element.conference }}</h6>
+          <p class="text-sm font-semibold text-[#072671] mb-2">{{$element.where}} • {{time.Format "Jan 2006" $element.when}}</p>
+          <h4 class="text-lg font-semibold text-[#101828] mb-2">{{$element.title}}</h4>
           <div class="flex items-center">
-          {{ range .Params.Files }}
-            <a class="text-2xl text-[#072671] mr-2" href="{{.link}}"><i class="{{.icon}}"></i></a>
+          {{ if isset $element "video" }}
+            {{ $video := index (where $videos "id" $element.video) 0 }}
+            <a class="text-2xl text-[#072671] mr-2" href="{{ $video.url }}"><i class="fa-regular fa-circle-play"></i></a>
+          {{ end }}
+          {{ if isset $element "slides" }}
+            <a class="text-2xl text-[#072671] mr-2" href="{{ $element.slides }}"><i class="fa-regular fa-file-powerpoint"></i></a>
+          {{ end }}
+          {{ if isset $element "audio" }}
+            <a class="text-2xl text-[#072671] mr-2" href="{{ $element.audio }}"><i class="fa-regular fa-file-audio"></i></a>
+          {{ end }}
+          {{ if isset $element "paper" }}
+            <a class="text-2xl text-[#072671] mr-2" href="{{ $element.paper }}"><i class="fa-regular fa-file"></i></a>
           {{ end }}
           </div>
         </div>
