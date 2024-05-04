@@ -34,13 +34,14 @@
 
     // then, make visible only those with the tag
     if (selectedTag !== 'all') {
-      mainArticle.classList.add('hidden');
-
-      contentMain.querySelectorAll("[data-tags]").forEach((pane) => {
-        if (!pane.getAttribute('data-tags').split(",").some(e => e.trim() === selectedTag)) {
-          pane.classList.add('hidden');
+      function hideIfNotTagged(element) {
+        if (!element.getAttribute('data-tags').split(",").some(e => e.trim() === selectedTag)) {
+          element.classList.add('hidden');
         }
-      });
+      }
+
+      hideIfNotTagged(mainArticle);
+      contentMain.querySelectorAll("[data-tags]").forEach((pane) => hideIfNotTagged(pane));
     }
   }
 

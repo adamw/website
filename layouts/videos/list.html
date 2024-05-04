@@ -67,7 +67,7 @@
 
       <div class="">
         <div class="content-top mt-16 mb-12">
-          <div class="main-article grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
+          <div class="main-article grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8" data-tags="{{ delimit $firstVideo.tags ", " }}">
             {{ with $firstVideo }}
             <div>
               {{ partial "youtube-lite.html" (dict "Id" .youtube "Class" "mx-auto" "Width" "100%" "Height" "350px" "Style" "" "Attr" "") }}

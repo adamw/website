@@ -1,6 +1,6 @@
 ---
 title: Home
-description: Hello, I’m Adam, Software Developer
+description: Sharing elegant solutions to everyday problems.
 profile_image: images/profile.jpg
 job:
   title: Chief R&D Officer
@@ -67,4 +67,4 @@ images:
     height: 40
 
 ---
-More than 8 years of experience building high quality products and web applications with PHP.
+XYZ.

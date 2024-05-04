@@ -4,12 +4,15 @@
 {{ $articles := sort $articles "when" "desc" }}
 
 {{ $uniqueTags := slice }}
-{{ range $videos }}
+{{ range $articles }}
   {{ $articleTags := .tags }}
   {{ $uniqueTags = union $uniqueTags $articleTags }}
 {{ end }}
 {{ $uniqueTags := sort $uniqueTags }}
 {{ $uniqueTags := union (slice "all") $uniqueTags }}
+
+{{ $firstArticle := index $articles 0 }}
+{{ $articles := after 1 $articles }}
 
 {{ $featuredIds := slice "80d7176e-332c-4d3a-85df-d63d9d9a8d6a" "a286d9a3-091f-46b1-b859-810f776dc799" "1cb2a763-a92e-4712-a00f-b57e56e6ac01" }}
 
@@ -43,14 +46,14 @@
         {{ end }}
       </ul>
       <div class="tab-content hidden" data-tab-content>
-        {{ range $index, $element := .Params.categories }}
-        <div class="tab-content-panel" data-tab-panel="{{$index}}">
+        {{ range $index, $element := $uniqueTags }}
+        <div class="tab-content-panel" data-tab-panel="{{$index}}" data-tab-tag="{{$element}}">
           {{ $element }}
         </div>
         {{ end }}
       </div>
       <select class="block md:hidden tab-nav w-full rounded-md border-0 px-3 py-2 text-[#344054] shadow-sm ring-1 ring-inset ring-[#D0D5DD] placeholder:text-[#667085] focus:ring-2 focus:ring-inset focus:ring-[#475467] focus-visible:outline-none" data-tab-nav>
-        {{ range $index, $element := .Params.categories }}
+        {{ range $index, $element := $uniqueTags }}
         <option class="tab-nav-item text-base font-semibold" data-tab="{{add 0 $index}}" tabindex="0">
           {{ $element }}
         </option>
@@ -59,12 +62,16 @@
     </div>
     <div class="">
       <div class="content-top mt-16 mb-12">
-        <div class="container main-article grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-8 mx-auto">
-          {{ with .Params.main_article }}
-          <div><img class="" src="{{.image}}" width="100%" height="100%"></div>
+        <div class="container main-article grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-8 mx-auto" data-tags="{{ delimit $firstArticle.tags ", " }}">
+          {{ with $firstArticle }}
           <div>
-            <h6 class="text-sm font-semibold text-[#072671]">{{.publication}} • {{.date | time.Format ":date_medium"}}</h6>
-            <a class="flex justify-between items-center my-2" href="{{.link}}">
+            <a href="{{.url}}" target="_blank">
+              <img class="" src="{{.coverImage}}" width="100%" height="100%">
+            </a>
+          </div>
+          <div>
+            <h6 class="text-sm font-semibold text-[#072671]">{{ time.Format "2 Jan 2006" .when }}</h6>
+            <a class="flex justify-between items-center my-2" href="{{.url}}" target="_blank">
               <h4 class="text-2xl font-semibold text-[#101828]">{{.title}}</h4>
               <i class="text-2xl text-[#101828] fa-solid fa-arrow-right"></i>
             </a>
