@@ -9,7 +9,7 @@
                 <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#ADBDE3]"></span>
                 <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-[#0A39AA]"></span>
               </span>
-              Crafting app to perfection <i class="text-lg text-[#667085] fa-solid fa-arrow-right ml-2"></i>
+              Good morning! <i class="text-lg text-[#667085] fa-solid fa-arrow-right ml-2"></i>
             </div>
             <h1 class="text-4xl lg:text-6xl leading-tight font-semibold my-6">{{.Params.Description}}</h1>
             <div class="text-xl text-[#475467]">{{ .Content }}</div>
@@ -91,35 +91,25 @@
       </div>
 
       <div class="latest-articles mb-24">
-        {{ with .Params.latest_articles }}
+        {{ $articles := getJSON "datagen/data/blogs.json" }}
+        {{ $articles := sort $articles "when" "desc" }}
+        {{ $articles := first 3 $articles }}
+
         <div class="w-auto lg:w-[768px] mb-16 mx-auto">
-          <h1 class="text-4xl lg:text-5xl font-bold text-center mb-6">{{.title}}</h1>
+          <h1 class="text-4xl lg:text-5xl font-bold text-center mb-6">Latest articles</h1>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
-          {{/*  {{ $articles := where site.RegularPages "Type" "articles" }}
-          {{ range (where $articles "Params.Featured" true) }}
-            {{ .Render "post" }}
-          {{ end }}  */}}
-          {{/*  {{ range .articles }}  */}}
-          {{ $articles := where site.RegularPages "Type" "articles" }}
-          {{ range (where $articles "Params.Featured" true) }}
-          <div>
-            <img class="mb-5" src="{{.Params.image}}" width="100%" height="100%">
-            <h6 class="text-sm font-semibold text-[#072671]">{{.Params.Publication}} • {{.Date.Format "2 Jan 2006"}}</h6>
-            <a class="flex justify-between items-center my-2" href="articles/{{.Params.Link}}">
-              <h4 class="text-2xl font-semibold text-[#101828]">{{.Params.Title}}</h4>
-              <i class="text-2xl text-[#101828] fa-solid fa-arrow-right"></i>
-            </a>
-            <p class="text-base text-[#475467] mb-6">{{.Params.Description}}</p>
-            <div class="flex flex-wrap items-center">
-            {{ range .Params.Tags }}
-              {{ partial "badge.html" (dict "Type" .) }}
+
+        <div class="bg-[#F9FAFB] rounded-2xl p-8">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
+            {{ range $articles }}
+              {{ partial "article-item.html" (dict "article" .) }}
             {{ end }}
-            </div>
           </div>
-          {{ end }}
+          <a class="text-base font-semibold text-[#072671]" href="/articles">
+            All articles
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
         </div>
-        {{ end}}
       </div>
 
       <div class="latest-videos mb-24">
