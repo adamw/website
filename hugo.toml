@@ -14,11 +14,7 @@ name = "Adam Warski"
 [[params.plugins.js]]
   link = "js/tab.js"
 [[params.plugins.js]]
-  link = "js/modal.js"
-[[params.plugins.js]]
   link = "plugins/youtube-lite.js"
-[[params.plugins.js]]
-  link = "plugins/lazy-loader.js"
 
 # Menus
 [menus]
