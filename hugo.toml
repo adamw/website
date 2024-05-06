@@ -27,10 +27,6 @@ name = "Adam Warski"
     pageRef = '/about'
     weight = 20
 [[menus.main]]
-    name = 'Blog'
-    pageRef = '/blogs'
-    weight = 30
-[[menus.main]]
     name = 'Projects'
     pageRef = '/projects'
     weight = 40
@@ -54,10 +50,6 @@ name = "Adam Warski"
     name = 'About'
     pageRef = '/about'
     weight = 20
-[[menus.footer]]
-    name = 'Blog'
-    pageRef = '/blogs'
-    weight = 30
 [[menus.footer]]
     name = 'Projects'
     pageRef = '/projects'

@@ -10,7 +10,7 @@ footer {
   background: #101828;
 }
 
-.contents {
+.blog-contents {
   h5 {
     font-size: 30px;
     font-weight: 600;
@@ -23,6 +23,9 @@ footer {
     color: #475467;
     margin-bottom: 48px;
   }
+  a {
+    color: #0A39AA;
+  }
   img {
     width: 100%;
   }
@@ -34,7 +37,7 @@ footer {
     font-weight: 600;
     font-style: italic;
     margin-bottom: 48px;
-    P {
+    p {
       margin: 0;
       &::before {
         content: "\f10d";
@@ -59,10 +62,8 @@ footer {
     pre {
       width:  fit-content;
     }
-    // media screen and (max-width: 768px) {
-    // }
   }
-  ol {
+  ol, ul {
     font-size: 18px;
     line-height: 28px;
     color: #475467;
