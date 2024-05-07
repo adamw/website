@@ -8,6 +8,8 @@ import org.joda.time.{DateTimeZone, LocalTime}
 import org.warski.website.model.{BlogPost, Talk, Uri, Video}
 import org.warski.website.persistence.{CommitDataFiles, PersistentModel}
 
+import java.io.File
+import java.nio.file.{Files, Paths}
 import java.time.format.DateTimeFormatter
 import java.time.{Instant, LocalDate, YearMonth, ZoneOffset}
 import java.util.UUID
@@ -221,3 +223,91 @@ private def ytIdFromUrl(url: String): Option[String] =
   url match
     case urlPattern(value) => Some(value)
     case _                 => None
+
+// from warski.org
+
+def readBlog2(url: String): BlogPost =
+  println(s"Blog url: $url")
+
+  val browser = JsoupBrowser()
+  val doc = browser.get(url)
+
+  val title = (doc >?> attr("content")("meta[property=og:title]"))
+    .orElse(doc >?> attr("content")("meta[name=title]"))
+    .getOrElse(doc >> text("title"))
+    .trim
+  println(s"Title: $title")
+
+  val coverImage = (doc >?> attr("content")("meta[property=og:image]"))
+    .flatMap(v => if v.contains("https://s0.wp.com/i/blank.jpg") then None else Some(v))
+    .orElse(doc >?> attr("src")("img"))
+    .map(_.trim)
+    .map(Uri(_))
+  println(s"Cover image: $coverImage")
+
+  val when =
+    val b = doc >> extractor("meta[property=article:published_time]", attr("content"), asDateTime("yyyy-MM-dd'T'HH:mm:ssZ"))
+    Instant.ofEpochMilli(b.toInstant.getMillis)
+  println(s"When: $when")
+
+  // tags
+  def lookInFile(f: File): Option[List[String]] =
+    var ls = Source.fromFile(f).getLines().toList
+    if ls.exists(l => l.contains(title)) then
+      ls = ls.dropWhile(l => !l.startsWith("categories:")).drop(1)
+      ls = ls.takeWhile(l => l.trim.nonEmpty && !l.startsWith("---"))
+      Some(ls.map(_.trim.drop(2)))
+    else None
+
+  def lookInFiles(fs: List[File]): Option[List[String]] =
+    fs match
+      case Nil => None
+      case f :: fs =>
+        lookInFile(f) match
+          case Some(tags) => Some(tags)
+          case None       => lookInFiles(fs)
+
+  val d = new File("/Users/adamw/projects/website/content/blog")
+  val tags = lookInFiles(d.listFiles().toList) match
+    case Some(tags) =>
+      println(s"Tags: $tags")
+      tags
+    case None =>
+      println("Tags:")
+      readTags()
+
+  val description = (doc >?> attr("content")("meta[property=og:description]"))
+    .orElse(doc >?> attr("content")("meta[name=description]"))
+    .map(_.trim)
+  println(s"Description: $description")
+
+  BlogPost(UUID.randomUUID(), title, Uri(url), coverImage, when, tags, description)
+
+@main def addBlogs2(): Unit =
+  for (url <- Source.fromFile("/Users/adamw/projects/website/blogs2.txt").getLines()) {
+    val allBlogs = PersistentModel.blogs.read()
+    if allBlogs.exists(_.url.toString == url) then println(s"Blog $url already exists")
+    else
+      val bp = readBlog2(url)
+      PersistentModel.blogs.add(bp)
+      println()
+  }
+
+@main def fixBlogs2(): Unit =
+  val d = new File("/Users/adamw/projects/website/content/blog")
+  for f <- d.listFiles() do
+    val ls = Source.fromFile(f).getLines().toList
+    var breakCount = 0
+    var inCategories = false
+    val ls2 = for l <- ls yield
+      println(l)
+      if l.startsWith("---") then breakCount += 1
+      if l.startsWith("categories:") then inCategories = true
+      if breakCount >= 2 then Some(l)
+      else if inCategories then if l == "  - Uncategorized" then None else Some(l.toLowerCase)
+      else Some(l)
+    val ls3 = ls2.collect { case Some(l) => l }
+    Files.writeString(
+      Paths.get(f.getAbsolutePath()),
+      ls3.mkString("\n") + "\n"
+    )
