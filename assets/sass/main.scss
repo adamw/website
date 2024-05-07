@@ -13,7 +13,6 @@ footer {
 .blog-contents {
   h1, h2, h3, h4, h5 {
     font-weight: 600;
-    color: #101828;
     margin-bottom: 20px;
   }
   h1 {
@@ -34,7 +33,6 @@ footer {
   p {
     font-size: 18px;
     line-height: 28px;
-    color: #475467;
     margin-bottom: 32px;
   }
   a {
@@ -74,6 +72,7 @@ footer {
     margin-bottom: 32px;
     overflow-x: auto;
     pre {
+      font-size: 12px;
       overflow-x: auto;
       padding: 10px;
     }
@@ -81,10 +80,14 @@ footer {
   ol, ul {
     font-size: 18px;
     line-height: 28px;
-    color: #475467;
     margin-bottom: 32px;
-    list-style: decimal;
     padding: 0 16px;
+  }
+  ol {
+    list-style: decimal;
+  }
+  ul {
+    list-style: circle;
   }
 }
 
