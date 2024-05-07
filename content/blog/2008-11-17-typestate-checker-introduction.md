@@ -278,13 +278,13 @@ public void setURL(String newURL) @Configuration { ... }
 However, to keep the code compatible with Java 5/6, we may place the annotations in comments. They will still be recognized by the JSR308 checker framework (why this is important &#8211; read on :) ).
 
 Finally, what about state changes? Here, we also use the method receiver annotations. We may add an element to our state annotations, which will specify the state of the object after the method invocation. For example:
-
-<pre lang="java" line="1">(...)
+```java
+(...)
 public void open() @Configuration(after=Open.class)
 @Closed(after=Open.class) { ... }
 public void close() @Open(after=Closed.class) { ... }
 (...)
-</pre>
+```
 
 We have specified that:
 
@@ -298,8 +298,8 @@ The **typestate checker** is built on top of the [checkers framework][1], which 
 To use the typestate checker, [go here for downloads and installation instructions][2]. The only additional requirement is that you must annotate your state annotations with `@State`. The checker will verify, using flow analysis, if you invoke methods on objects in the correct state, pass parameters in the correct state etc. This version of the checker should be treated more like a proof-of-concept, than as a final version. It is in a very early development stage, so your comments and experiences are very welcome! :)
 
 To complete the `RemoteResourceReader` example, here is a full version of the class, ready to be used with the [typestate checker][2]:
-
-<pre lang="java" line="1">public class RemoteResourceReader {
+```java
+public class RemoteResourceReader {
 /** Connection to the resource is being configured */
 @State public static @interface Configuration {
 Class<?> after default Object.class }
@@ -327,11 +327,11 @@ public String read() /*@Open*/ { ... }
 
 public void close() /*@Open(after=Closed.class)*/ { ... }
 }
-</pre>
+```
 
 Finally, here is some example code which demonstrates what errors are caught by the [typestate checker][2]:
-
-<pre lang="java" line="1">void readMore(@Open RemoteResourceReader rrr) { ... }
+```java
+void readMore(@Open RemoteResourceReader rrr) { ... }
 
 void test() {
 // initially in the 'configuration' state
@@ -361,7 +361,7 @@ rrr.close();
 // error: parameter not in the correct state
 readMore(rrr);
 }
-</pre>
+```
 
 If you&#8217;d like to make experiments with the typestate checker on your own, go ahead and [download it][2]. The setup is really easy. And remember, that your feedback is very valuable and important!
 

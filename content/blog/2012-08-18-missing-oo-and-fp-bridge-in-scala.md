@@ -190,61 +190,61 @@ tags:
 ### FP side
 
 It&#8217;s easy to convert a method to a function in Scala. For example, if you have a method:
-
-<pre lang="scala" line="1">def say(to: Person, what: String): String = { ... } 
-</pre>
+```scala
+def say(to: Person, what: String): String = { ... } 
+```
 
 we can get the corresponding function using the underscore notation:
-
-<pre lang="scala" line="1">val sayFun: (Person, String) => String = say _
-</pre>
+```scala
+val sayFun: (Person, String) => String = say _
+```
 
 Moreover, Scala supports multiple parameter lists, which is sometimes also referred to as [currying][3], and which makes partial application easier:
-
-<pre lang="scala" line="1">// Method with multiple parameter lists
+```scala
+// Method with multiple parameter lists
 def connect(person1: Person)(person2: person): Connection = { ... }
 
 // Function, created by partially applying the previous method
 val createConnectionWithAdam: Person => Connection = 
       connect(new Person("Adam")) _
-</pre>
+```
 
 ### OO side
 
 One thing every class has is a constructor. But what is a constructor, really? You give values for the constructor&#8217;s arguments, and get a new instance of the class in return. So it&#8217;s really just a function!
-
-<pre lang="scala" line="1">class Person(name: String, age: Int) { ... }
+```scala
+class Person(name: String, age: Int) { ... }
 
 // The "signature" of new is (String, Int) => Person
 val somebody = new Person("John", 34)
-</pre>
+```
 
 ### Link?
 
 However, that&#8217;s where the combination of OO and FP fails in Scala: you can&#8217;t use the two features of methods (convert to function, currying) mentioned above with constructors. Both of these **won&#8217;t work**:
-
-<pre lang="scala" line="1">val makePerson: (String, Int) => Person = new Person _
+```scala
+val makePerson: (String, Int) => Person = new Person _
 
 class Person2(name: String)(age: Int) { ... }
 val makeNewJack: Int => Person = new Person2("Jack") _
-</pre>
+```
 
 You can get around this using companion objects and `apply` (or any other factory method, apply just has a nicer notation afterwards):
-
-<pre lang="scala" line="1">object Person2 {
+```scala
+object Person2 {
    def apply(name: String)(age: Int) = new Person2(name, age)
 }
 
 val makeNewJack: Int => Person = Person2("Jack") _
-</pre>
+```
 
 But that requires repeating the signature of the constructor in the companion object, and nobody likes code duplication, right? ;)
 
 ### Use-case
 
 Where can this be useful? For example in the classic factory example. Imagine you have a class which depends on some services, but also on some data available at runtime. Of course we use IoC so instances of the other services are provided to our class:
-
-<pre lang="scala" line="1">// This service depends on a concrete Person instance
+```scala
+// This service depends on a concrete Person instance
 class Service3(service1: Service1, service2: Service2)(person: Person) { 
    ... 
 }
@@ -257,7 +257,7 @@ class Service3(service1: Service1, service2: Service2)(person: Person) {
 // instances
 class Service4(makeService3: Person => Service3) {
   // Usage:
-  for (person &lt;- persons) makeService3(person).doSomething()
+  for (person <- persons) makeService3(person).doSomething()
 }
 
 class Main {
@@ -273,16 +273,16 @@ class Main {
    // Today we'd have to write: val makeService3 = 
    //     (person: Person) => new Service3(service1, service2, person)
 }
-</pre>
+```
 
 That&#8217;s also connected to my post on [DI and OO][4], and how current DI frameworks make it hard to define services which depend on data and services that we&#8217;d like to have multiple copies of.
 
 ### Side note
 
 When viewing constructors as methods/functions (which they are, really ;) ), I suppose the Ruby-like notation:
-
-<pre lang="scala" line="1">Person.new("John", 34)
-</pre>
+```scala
+Person.new("John", 34)
+```
 
 would be better and adding support for _ and multiple parameter lists would be obvious.
 
@@ -291,13 +291,13 @@ would be better and adding support for _ and multiple parameter lists would be o
 ### Bottom line for TL;DR fans
 
 Why not treat class constructors as every other method/function? Make this legal:
-
-<pre lang="scala" line="1">class Person(name: String, age: Int)
+```scala
+class Person(name: String, age: Int)
 val makePerson = new Person _ // type: (String, Int) => Person 
 
 class Person2(name: String)(age: Int)
 val makeNewJack = new Person2("Jack") _ // type: Int => Person
-</pre>
+```
 
 Adam
 

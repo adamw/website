@@ -122,11 +122,11 @@ tags:
 Rich domain models are certainly a nice, object-oriented idea, but I always had one problem with them: what if they become bloated with completely unrelated methods? For objects that are frequently used in a system, we may want to add various methods, which depend on the actual class of the object. Also, what if we&#8217;d like to use some other (e.g. CDI) beans as part of the method logic? Normally in DI frameworks there&#8217;s no injection into model classes. Or we want to add a frontend-specific method, but we receive the instances from a backend service?
 
 **Object Services** try to address the issues above. Suppose we have a simple class hierarchy of animals:
-
-<pre lang="java" line="1">abstract class Animal
+```java
+abstract class Animal
 class Elephant extends Animal
 class Ant extends Animal
-</pre>
+```
 
 and we want to implement a `paint` method, which paints a picture of the given animal on a canvas. Quite obviously, painting an elephant is different from painting an ant. There are several solutions:
 
@@ -137,50 +137,50 @@ and we want to implement a `paint` method, which paints a picture of the given a
 I think the best solution would be to have type-safe &#8220;polymorphic extension methods&#8221;, so that in your code you could just add some methods to each class in a hierarchy, but unfortunately this isn&#8217;t supported by any Java (see also [multiple dispatch][1]).
 
 Another possibility is to use what I call &#8220;Object Services&#8221;. If we want to add some methods to a class hierarchy, we create a parallel hierarchy of &#8220;services&#8221; (which are normal classes):
-
-<pre lang="java" line="1">interface PaintService&lt;T extends Animal> extends OS&lt;T> { 
+```java
+interface PaintService<T extends Animal> extends OS<T> { 
    void paint(Canvas c); 
 }
 
-// Implements OS&lt;Elephant>
-class ElephantPaintService implements PaintService&lt;Elephant> { 
+// Implements OS<Elephant>
+class ElephantPaintService implements PaintService<Elephant> { 
    // Here we can store the object, for which the service was invoked
    void setServiced(Elephant e) { ... }
    void paint(Canvas c) { ... }
 }
 
-// Implements OS&lt;Ant>
-class AntPaintService implements PaintService&lt;Ant> { 
+// Implements OS<Ant>
+class AntPaintService implements PaintService<Ant> { 
    // Injection works normally
    @Inject AnthillService anthill;
 
    void setServiced(Ant a) { ... }
    void paint(Canvas c) { ... } 
 }
-</pre>
+```
 
 `OS` is an interface marking some beans as object services; the class, to which the service corresponds is given as a type parameter.
 
 The `ObjectServiceExtension` will detect all beans that implement the `OS` interface, and register an `OSP` (Object Service Provider) bean which can be later injected to obtain a correct object service given an `Animal`:
-
-<pre lang="java" line="1">@Inject
-OSP&lt;Animal, PaintService&lt;Animal>> paintService;
+```java
+@Inject
+OSP<Animal, PaintService<Animal>> paintService;
 
 void paint(Animal a, Canvas c) {
    paintService.f(a).paint(c);
 }
-</pre>
+```
 
 Each invocation of the `f` method will lookup the correct bean, based on the run-time type of the object passed, create a new instance of the found bean and set the object, for which the method was called. All beans created are CDI-managed, so injection etc works normally.
-
-<pre lang="java" line="1">void test(Canvas c) {
+```java
+void test(Canvas c) {
    // Will invoke paint(c) in AntPaintService
    paint(new Ant(), c);
 
    // Will invoke paint(c) in ElephantPaintService
    paint(new Elephant(), c);
 }
-</pre>
+```
 
 The source code is available on GitHub in the [cdiext project][2]. To use it, just bundle the jar with your application.
 

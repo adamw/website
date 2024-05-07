@@ -96,8 +96,8 @@ To implement DI all you really need is to remove the `new`s from your code, and 
 [MacWire][1] takes a different approach. Basing on declarations specifying which classes should be instantiated, it generates the code needed to create a new class instance, with the correct parameters taken from the enclosing type. This is done at compile-time using a [Scala Macro][2]. The code is then type-checked by the Scala compiler, so the whole process is type-safe, and if a dependency is missing, you&#8217;ll know that immediately (unlike with traditional DI containers).
 
 For example, given:
-
-<pre lang="scala" line="1">class DatabaseAccess()
+```scala
+class DatabaseAccess()
 class SecurityFilter()
 class UserFinder(databaseAccess: DatabaseAccess, securityFilter: SecurityFilter)
 class UserStatusReader(userFinder: UserFinder)
@@ -110,17 +110,17 @@ trait UserModule {
     lazy val theUserFinder       = wire[UserFinder]
     lazy val theUserStatusReader = wire[UserStatusReader]
 }
-</pre>
+```
 
 The generated code will be:
-
-<pre lang="scala" line="1">trait UserModule {
+```scala
+trait UserModule {
     lazy val theDatabaseAccess   = new DatabaseAccess()
     lazy val theSecurityFilter   = new SecurityFilter()
     lazy val theUserFinder       = new UserFinder(theDatabaseAccess, theSecurityFilter)
     lazy val theUserStatusReader = new UserStatusReader(theUserFinder)
 }
-</pre>
+```
 
 The classes that should be wired should be contained in a Scala `trait`, `class` or `object` (the container forms a &#8220;module&#8221;). MacWire looks up values from the enclosing type (trait/class/object), and from any super-traits/classes. Hence it is possible to combine several modules using inheritance.
 
@@ -129,19 +129,19 @@ Currently two scopes are supported; the dependency can be a singleton (declared 
 Note that this approach is very flexible; all that we are dealing with here is regular Scala code, so if a class needs to be created in some special way, there&#8217;s nothing stopping us from simply writing it down as code. Also, `wire[T]` can be nested inside a method&#8217;s body, and it will be expanded to new instance creation as well.
 
 For integration testing a module, if for some classes we&#8217;d like to use a mock, a simple override suffices, e.g.:
-
-<pre lang="scala" line="1">trait UserModuleForTests extends UserModule {
+```scala
+trait UserModuleForTests extends UserModule {
     override lazy val theDatabaseAccess = mockDatabaseAccess
     override lazy val theSecurityFilter = mockSecurityFilter
 }
-</pre>
+```
 
 The project is a follow up of my [earlier blog post][3]. There is also a similar project for Java, which uses annotation processors: [Dagger][4].
 
 MacWire is available in [Maven Central][5]. To use, simply add this line to your SBT build:
-
-<pre lang="scala" line="1">libraryDependencies += "com.softwaremill.macwire" %% "core" % "0.1"
-</pre>
+```scala
+libraryDependencies += "com.softwaremill.macwire" %% "core" % "0.1"
+```
 
 The [code is on GitHub][1], licensed under the Apache2 license, so feel free to use, fork & explore. Take a look at the README which contains some more information.
 

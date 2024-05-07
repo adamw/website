@@ -146,8 +146,8 @@ When exporting a subpackage, only the classes exported by the subpackage will be
 There are also two new convenience package annotations, `@ExportAllClasses` and `@ExportAllSubpackages`, which have pretty self-explaining names.
 
 How does this work? An example will illustrate it best, using some imaginary syntax:
-
-<pre lang="java" line="1">package foo.bar.p1.sub_p1 {
+```java
+package foo.bar.p1.sub_p1 {
    @Export
    class Sub1 { ... }
 }
@@ -186,7 +186,7 @@ package foo.bar {
       new p1.sub_p2.Sub2() 
    }
 }
-</pre>
+```
 
 How can this be useful? Veripacks goes beyond what can be achieved with normal Java access modifiers (especially public and package-private), by extending the meaning of packages to a hierarchical structure. It also aims to replace, in some cases, the need for separate build modules.
 

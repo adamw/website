@@ -96,8 +96,8 @@ The [StaticAccess][1] detector is a [FindBugs][2] plugin, which lets you verify 
 You can specify that a method shouldn&#8217;t rely on global state using the <tt>@StaticIndependent</tt> annotation. Such methods will be checked by the detector included in the plugin, if they don&#8217;t read or write static variables, or call non-static-independent methods.[water trampoline australia for sale][3]
 
 For example, running FindBugs with the StaticAccess plugin on the following code:
-
-<pre lang="java" line="1">import pl.net.mamut.staticaccess.StaticIndependent;
+```java
+import pl.net.mamut.staticaccess.StaticIndependent;
 
 public class StaticIndependentExample {
     public static Integer globalInt = 10;
@@ -122,7 +122,7 @@ public class StaticIndependentExample {
         int local = globalInt; 
     }
 }
-</pre>
+```
 
 will report errors on lines 12 and 14, but won&#8217;t report errors on line 17 (accessing a constant which can&#8217;t change) or line 23 (the method isn&#8217;t annotated with <tt>@StaticIndependent</tt>).
 

@@ -366,57 +366,57 @@ tags:
 JSF2 improves a lot both how navigation can be done (you can now return a view id from an action method, no need to describe every navigation case in faces-config.xml) and how URLs are handled (finally, GET support). JSF2 introduces **view parameters** (for those who know Seam: standardized page parameters). Each page can define a metadata section, where the view parameters are described, bound to bean values, converted and validated.
 
 As an example, a blog-entry-viewing page would define the id of the entry to be displayed as follows:
-
-<pre lang="xml" line="1">&lt;f:metadata>
-   &lt;f:viewParam name="entry_id" value="#{blog.entry}" required="true">
-      &lt;f:converter converterId="blog-entry-converter" />
-   &lt;/f:viewParam>
-&lt;/f:metadata>
-</pre>
+```xml
+<f:metadata>
+   <f:viewParam name="entry_id" value="#{blog.entry}" required="true">
+      <f:converter converterId="blog-entry-converter" />
+   </f:viewParam>
+</f:metadata>
+```
 
 Unfortunately I had some trouble with one thing: how to redirect to a page, including the view parameters, after a POST? This post->redirect->get pattern is very common. E.g. when you post a new comment for a blog entry and press submit, the data is persisted and you want to be redirected back to `view.jsf?entry_id=819` (using the default JSF command-button behavior, you would land on a plain, non-bookmarkable `view.jsf`).
 
 Dan Allen [wrote a series][1] of very good introductory articles to JSF2 on DZone. There, he writes that what I described above should be possible to achieve by adding a `<redirect include-view-params="true"/>` tag to the appropriate `<navigation-case>` in `faces-config.xml`. Unfortunately, the xsd doesn&#8217;t allow such an attribute and it doesn&#8217;t work &#8211; I suppose that this construct didn&#8217;t make it into the final version of the spec (although somebody may correct me if I&#8217;m wrong).
 
 Another solution, this time working, can be found on Ed Burns&#8217;s [blog][2]. The trick is to return a string containing the view id and some additional parameters from the action method or use them as the command button/link action, e.g.:
-
-<pre lang="java" line="1">public String action() {
+```java
+public String action() {
      // business logic ...
      return "view.xhtml?faces-redirect=true&includeViewParams=true"
 }
-</pre>
+```
 
 However this way you&#8217;ll have to repeat the combination of the &#8220;magical parameters&#8221; a lot in your code. And it&#8217;s pretty easy to do a spelling mistake in one of the strings you return. Furthermore, it&#8217;s not possible to easily include one view parameter, without repeating the value mapping.
 
 The way I solved this is by introducing a `Nav` component (I&#8217;m using [Weld][3]), which holds information about pages. It contains a nested `Page` class, which has a &#8220;fluent&#8221; interface for building a link. Navigation then looks as follows:
-
-<pre lang="java" line="1">@Inject
+```java
+@Inject
 private Nav nav;
 
 public String action() {
      // business logic ...
      return nav.getViewEntry().redirect().includeViewParams().s();
 }
-</pre>
+```
 
 Or, if you want to include only one parameter:
-
-<pre lang="java" line="1">public String action() {
+```java
+public String action() {
      // business logic ...
      return nav.getViewEntry().redirect().includeViewParam("name").s();
 }
-</pre>
+```
 
 In xhtml pages, you can also use the `nav` component to generate links:
-
-<pre lang="xml" line="1">&lt;h:link outcome="#{nav.manageIndex.s}">Manage&lt;/h:link>
-</pre>
+```xml
+<h:link outcome="#{nav.manageIndex.s}">Manage</h:link>
+```
 
 Notice that you completely **abstract away** from the actual names of the xhtml views (pages) &#8211; they are stored **centrally** only in the `nav` component! This makes any refactorings really easy.
 
 Speaking of the `nav` component, here&#8217;s the code:
-
-<pre lang="java" line="1">/**
+```java
+/**
  * @author Adam Warski (adam at warski dot org)
  */
 @Named
@@ -424,14 +424,14 @@ Speaking of the `nav` component, here&#8217;s the code:
 public class Nav {
     public static class Page {
         private final String viewId;
-        private final Map&lt;String, String> params;
+        private final Map<String, String> params;
 
         private Page(String viewId) {
             this.viewId = viewId;
-            this.params = new LinkedHashMap&lt;String, String>();
+            this.params = new LinkedHashMap<String, String>();
         }
 
-        private Page(String viewId, Map&lt;String, String> params) {
+        private Page(String viewId, Map<String, String> params) {
             this.viewId = viewId;
             this.params = params;
         }
@@ -477,7 +477,7 @@ public class Nav {
         }
 
         public Page includeParam(String name, String value) {
-            Map&lt;String, String> newParams = new LinkedHashMap&lt;String, String>(params);
+            Map<String, String> newParams = new LinkedHashMap<String, String>(params);
             newParams.put(name, value);
             return new Page(viewId, newParams);
         }
@@ -487,7 +487,7 @@ public class Nav {
             sb.append(viewId);
 
             String paramSeparator = "?";
-            for (Map.Entry&lt;String, String> nameValue : params.entrySet()) {
+            for (Map.Entry<String, String> nameValue : params.entrySet()) {
                 sb.append(paramSeparator).append(nameValue.getKey())
                       .append("=").append(nameValue.getValue());
                 paramSeparator = "&";
@@ -511,7 +511,7 @@ public class Nav {
 
     // other getters ...
 }
-</pre>
+```
 
 Looking forward, the `Page` class may also include e.g. security management, however that would require some more JSF bindings.
 

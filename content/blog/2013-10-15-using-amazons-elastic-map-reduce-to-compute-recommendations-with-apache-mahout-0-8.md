@@ -101,9 +101,9 @@ Apache Mahout is a &#8220;scalable machine learning library&#8221; which, among 
 The distributed recommender is based on Apache Hadoop; it&#8217;s a job which takes as input a list of user preferences, computes an item co-occurence matrix, and outputs top-K recommendations for each user. For an introductory blog on how this works and how to run it locally, see for example [this blog post][2].
 
 We can of course run this job on a custom Hadoop cluster, but it&#8217;s much faster (and less painful) to just use a pre-configured one, like EMR. However, there&#8217;s a slight problem. The latest Hadoop version that is available on EMR is 1.0.3, and it contains jars for Apache Lucene 2.9.4. However, the recommender job depends on Lucene 4.3.0, which results in the following beautiful stack trace:
-
-<pre lang="bash" line="1">2013-10-04 11:05:03,921 FATAL org.apache.hadoop.mapred.Child (main): Error running child : java.lang.NoSuchMethodError: org.apache.lucene.util.PriorityQueue.&lt;init>(I)V
-  at org.apache.mahout.math.hadoop.similarity.cooccurrence.TopElementsQueue.&lt;init>(TopElementsQueue.java:33)
+```bash
+2013-10-04 11:05:03,921 FATAL org.apache.hadoop.mapred.Child (main): Error running child : java.lang.NoSuchMethodError: org.apache.lucene.util.PriorityQueue.<init>(I)V
+  at org.apache.mahout.math.hadoop.similarity.cooccurrence.TopElementsQueue.<init>(TopElementsQueue.java:33)
     at org.apache.mahout.math.hadoop.similarity.cooccurrence.RowSimilarityJob$UnsymmetrifyMapper.map(RowSimilarityJob.java:405)
     at org.apache.mahout.math.hadoop.similarity.cooccurrence.RowSimilarityJob$UnsymmetrifyMapper.map(RowSimilarityJob.java:389)
     at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:144)
@@ -114,14 +114,14 @@ We can of course run this job on a custom Hadoop cluster, but it&#8217;s much fa
     at javax.security.auth.Subject.doAs(Subject.java:415)
     at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1132)
     at org.apache.hadoop.mapred.Child.main(Child.java:249)
-</pre>
+```
 
 How to solve this? Well, we &#8220;just&#8221; need to update Lucene in the EMR Hadoop installation. We can use a **bootstrap action** for that. Here are the exact steps:
 
   1. Download lucene-4.3.0.tgz (e.g. from [here][3]) and upload it into a S3 bucket; make the file public.</p> 
   2. Upload this script to the bucket as well; call it e.g. `update-lucene.sh`:
-
-<pre lang="bash" line="1">#!/bin/bash
+```bash
+#!/bin/bash
 cd /home/hadoop
 wget https://s3.amazonaws.com/bucket_name/bucket_path/lucene-4.3.0.tgz
 tar -xzf lucene-4.3.0.tgz
@@ -130,7 +130,7 @@ rm lucene-*.jar
 cd ..
 cd lucene-4.3.0
 find . | grep lucene- | grep jar$ | xargs -I {} cp {} ../lib
-</pre>
+```
 
 This script will be run on the Hadoop nodes and will update the Lucene version. Make sure to change the script and enter the correct bucket name and bucket path, so that it points to the public Lucene archive.
 
@@ -142,13 +142,13 @@ This script will be run on the Hadoop nodes and will update the Lucene version. 
 <a href="http://www.warski.org/blog/2013/10/using-amazons-elastic-map-reduce-to-compute-recommendations-with-apache-mahout-0-8/2013-10-15_1230/" rel="attachment wp-att-1144"><img loading="lazy" decoding="async" src="http://www.warski.org/blog/wp-content/uploads/2013/10/2013-10-15_1230-300x196.png" alt="2013-10-15_1230" width="300" height="196" class="aligncenter size-medium wp-image-1144" srcset="https://www.warski.org/blog/wp-content/uploads/2013/10/2013-10-15_1230-300x196.png 300w, https://www.warski.org/blog/wp-content/uploads/2013/10/2013-10-15_1230-1024x672.png 1024w, https://www.warski.org/blog/wp-content/uploads/2013/10/2013-10-15_1230-210x137.png 210w, https://www.warski.org/blog/wp-content/uploads/2013/10/2013-10-15_1230.png 1724w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
   1. The &#8220;JAR location&#8221; must point to the place where we&#8217;ve uploaded the Mahout jar, e.g. `s3n://bucket_name/bucket_path/mahout-0.8-job.jar` (make sure to change this to point to the real bucket!). As for the jar arguments, we&#8217;ll be running the `RecommenderJob` and using the log-likelihood similarity:
-
-<pre lang="bash" line="1">org.apache.mahout.cf.taste.hadoop.item.RecommenderJob 
+```bash
+org.apache.mahout.cf.taste.hadoop.item.RecommenderJob 
 --booleanData 
 --similarityClassname SIMILARITY_LOGLIKELIHOOD 
 --output s3n://bucket_name/output 
 --input s3n://bucket_name/input.dat
-</pre>
+```
 
 That&#8217;s also the place to specify where the input data on S3 is, and where output should be written.
 

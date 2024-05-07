@@ -217,90 +217,90 @@ I&#8217;ve written a prototype [JSR308 Checkers][1] Maven2 plugin. You can use t
 The JSR308 compiler, and in effect also the checkers, are run in a separate, forked, JVM process. Additionally, this process only does the processing, without actual compilation. So all of your files will be compiled by the same <tt>javac</tt> as before. The plugin only runs the additional verification of the source code, and will not affect the produced bytecode. Java6 is required to run the forked JVM.
 
 You can easily try using the standard checkers, for checking nullness, interning and mutability errors, as well as the [typestate][2] checker; I&#8217;ve uploaded the necessary jars to my repository, so to use any of them, you&#8217;ll need first to add repositories to your <tt>pom.xml</tt>:
-
-<pre lang="xml" line="1">&lt;repositories>
-    &lt;repository>
-        &lt;id>mamut-releases&lt;/id>
-        &lt;url>http://repository.mamut.net.pl/content/repositories/releases&lt;/url>
-        &lt;releases>
-            &lt;enabled>true&lt;/enabled>
-        &lt;/releases>
-        &lt;snapshots>
-            &lt;enabled>false&lt;/enabled>
-        &lt;/snapshots>
-    &lt;/repository>
-&lt;/repositories>
-&lt;pluginRepositories>
-    &lt;pluginRepository>
-        &lt;id>mamut-releases&lt;/id>
-        &lt;url>http://repository.mamut.net.pl/content/repositories/releases&lt;/url>
-        &lt;releases>
-            &lt;enabled>true&lt;/enabled>
-        &lt;/releases>
-        &lt;snapshots>
-            &lt;enabled>false&lt;/enabled>
-        &lt;/snapshots>
-    &lt;/pluginRepository>        
-&lt;/pluginRepositories>
-</pre>
+```xml
+<repositories>
+    <repository>
+        <id>mamut-releases</id>
+        <url>http://repository.mamut.net.pl/content/repositories/releases</url>
+        <releases>
+            <enabled>true</enabled>
+        </releases>
+        <snapshots>
+            <enabled>false</enabled>
+        </snapshots>
+    </repository>
+</repositories>
+<pluginRepositories>
+    <pluginRepository>
+        <id>mamut-releases</id>
+        <url>http://repository.mamut.net.pl/content/repositories/releases</url>
+        <releases>
+            <enabled>true</enabled>
+        </releases>
+        <snapshots>
+            <enabled>false</enabled>
+        </snapshots>
+    </pluginRepository>        
+</pluginRepositories>
+```
 
 Then, to use the annotations used by the standard checkers, you&#8217;ll have to declare a dependency:
-
-<pre lang="xml" line="1">&lt;dependencies>
+```xml
+<dependencies>
     <!-- annotations for the standard checkers: nullness, interning, mutability -->
-    &lt;dependency>
-        &lt;groupId>mamut.net.pl&lt;/groupId>
-        &lt;artifactId>checkers-quals&lt;/artifactId>
-        &lt;version>0.8.6&lt;/version>
-    &lt;/dependency>
+    <dependency>
+        <groupId>mamut.net.pl</groupId>
+        <artifactId>checkers-quals</artifactId>
+        <version>0.8.6</version>
+    </dependency>
     
 
 <!-- and if you want to use the typestate checker: -->
-    &lt;dependency>
-        &lt;groupId>mamut.net.pl&lt;/groupId>
-        &lt;artifactId>typestate-checker&lt;/artifactId>
-        &lt;version>0.1&lt;/version>
-    &lt;/dependency>
+    <dependency>
+        <groupId>mamut.net.pl</groupId>
+        <artifactId>typestate-checker</artifactId>
+        <version>0.1</version>
+    </dependency>
     
 
 <!-- other dependencies -->
-&lt;/dependencies>
-</pre>
+</dependencies>
+```
 
 And finally, you need to attach the plugin to your build lifecycle:
-
-<pre lang="xml" line="1">&lt;build>
-    &lt;plugins>
-        &lt;plugin>
-            &lt;groupId>mamut.net.pl&lt;/groupId>
-            &lt;artifactId>checkersplugin&lt;/artifactId>
-            &lt;version>0.1&lt;/version>
-            &lt;executions>
-                &lt;execution>
+```xml
+<build>
+    <plugins>
+        <plugin>
+            <groupId>mamut.net.pl</groupId>
+            <artifactId>checkersplugin</artifactId>
+            <version>0.1</version>
+            <executions>
+                <execution>
                     <!-- run the checkers after compilation; this can also be any later phase -->
-                    &lt;phase>process-classes&lt;/phase>
-                    &lt;goals>
-                        &lt;goal>check&lt;/goal>
-                    &lt;/goals>
-                &lt;/execution>
-            &lt;/executions>
-            &lt;configuration>
+                    <phase>process-classes</phase>
+                    <goals>
+                        <goal>check</goal>
+                    </goals>
+                </execution>
+            </executions>
+            <configuration>
                 
 
 <!-- checkers you want to be run -->
-                &lt;processors>
-                    &lt;processor>checkers.nullness.NullnessChecker&lt;/processor>
-                    &lt;processor>checkers.interning.InterningChecker&lt;/processor>
-                    &lt;processor>checkers.typestate.TypestateChecker&lt;/processor>
-                &lt;/processors>
+                <processors>
+                    <processor>checkers.nullness.NullnessChecker</processor>
+                    <processor>checkers.interning.InterningChecker</processor>
+                    <processor>checkers.typestate.TypestateChecker</processor>
+                </processors>
                 
 
 <!-- other configuration - see webpage for details -->
-            &lt;/configuration>
-        &lt;/plugin>
-    &lt;/plugins>
-&lt;/build>
-</pre>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+```
 
 And that&#8217;s it! After compiling, the specified checkers (annotations processors) will be run on your source code and report any errors found.
 

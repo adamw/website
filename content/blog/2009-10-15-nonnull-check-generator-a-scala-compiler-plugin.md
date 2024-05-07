@@ -168,28 +168,28 @@ tags:
 Recently I played a bit with compiler plugins for [Scala][1].
 
 My goal is to write a plugin which would generate checks in code for methods annotated with [JSR305][2] annotations. As a first step, I wanted to handle the `@Nonnull` annotation on parameters. Supposing you have the following code:
-
-<pre lang="java" line="1">def parameterMustBeNull(@Nonnull parameter : Object) = {
+```java
+def parameterMustBeNull(@Nonnull parameter : Object) = {
  parameter.toString();
 }
-</pre>
+```
 
 the compiler plugin should transform it to:
-
-<pre lang="java" line="1">def parameterMustBeNull(@Nonnull parameter : Object) = {
+```java
+def parameterMustBeNull(@Nonnull parameter : Object) = {
  if (param == null)
   throw new IllegalArgumentException("Parameter 'parameter' should not be null.")
  parameter.toString();
 }
-</pre>
+```
 
 That way, the method contract expressed by annotations in the method header doesn&#8217;t have to be duplicated by explicit checks in the code later &#8211; they are generated automatically.
 
 To achieve that, the plugin must first find the parameters that are annotated with `@Nonnull`. Then, for each such parameter, it must generate a tree corresponding to the `if` part. Finally, these generated chunks of code must be added to the beginning of the body of the method. All of this is quite easy to do thanks to the Scala compiler API and the AST that you can inspect and manipulate. But I think it&#8217;s best just to look at [source code][3].
 
 In some more detail, as we want to transform the AST, the plugin must use the `Transform` trait. Then we have to implement the transform method, which looks if the tree passed is a method and if so, looks for the nonnull parameters:
-
-<pre lang="java" line="1">object AnnotationsCheckGenComponent extends PluginComponent with Transform {
+```java
+object AnnotationsCheckGenComponent extends PluginComponent with Transform {
  ...
  object AnnotationsCheckGenTransformer extends Transformer {
   override def transform(tree: Tree) = {
@@ -201,11 +201,11 @@ In some more detail, as we want to transform the AST, the plugin must use the `T
     case t => super.transform(t)
   }
 }
-</pre>
+```
 
 The `vparamss` list holds the list of parameters. To search for parameters which are annotated with a nonnull annotation, we can use the very handy Scala list manipulation methods:
-
-<pre lang="java" line="1">vparamss.flatten[ValDef].filter(param => {
+```java
+vparamss.flatten[ValDef].filter(param => {
  // Checking if the parameter contains a non-null annotation
  param.mods.annotations.exists(annotation => {
   // Checking if the annotation is a non-null annotation
@@ -217,11 +217,11 @@ The `vparamss` list holds the list of parameters. To search for parameters which
   }).isDefined
  })
 })
-</pre>
+```
 
 As you can see above, any nonnull annotation will be detected, not only the ones defined by JSR305. And finally, for each parameter annotated, we must generate the if block containing the check. It&#8217;s almost like writing the code directly ;).
-
-<pre lang="java" line="1">If(
+```java
+If(
  // if: param == ...
  Apply(
   Select(
@@ -234,16 +234,16 @@ As you can see above, any nonnull annotation will be detected, not only the ones
   Apply(
    Select(
     New(Ident(newTypeName("IllegalArgumentException"))),
-    newTermName("&lt;init>")),
+    newTermName("<init>")),
    List(Literal(Constant("Parameter '%s' should not be null.".format(param.name)))))),
  // else
  EmptyTree)
-</pre>
+```
 
 To use the plugin during compiling, all you need to do is have a jar (you can [download a ready one here][4]) that includes the compiled plugin class and a descriptor, and run the compilation with the `-Xplugin` parameter, for example:
-
-<pre lang="java" line="1">scalac -cp $JSR305_JAR_PATH -Xplugin:annotations-check-gen.jar Example.scala
-</pre>
+```java
+scalac -cp $JSR305_JAR_PATH -Xplugin:annotations-check-gen.jar Example.scala
+```
 
 The only problem I had was in which phase the plugin should be executed. At first I tried executing it after `namer`, and later, taking the advice I got on the forums (by the way, the forum members are really helpful), after `typer`. However, then I had to run the typer again on the generated code, and I didn&#8217;t yet figure out how to type the generated `if` in a context of the method, so that the typer has access to the information about available values (here, the value being the parameter checked is used). So for now, instead, the plugin runs after the `parser` phase (so in fact as the first plugin), and then the result handled by the rest of the phases as if the code was there from the beginning. But if somebody has an idea, on how to run the typer properly, please let me know :).
 

@@ -101,8 +101,8 @@ More importantly, tailable cursors can optionally block for some amount of time 
 ### Reading events in Java
 
 When using the Mongo [Java Driver][9], there are a few &#8220;catches&#8221;. First of all you need to initialise the cursor. To do that, we need to provide (1) the starting event id (2) an order in which we want to read the events (here: natural, that is the insertion order); and (3) two crucial cursor options, that we want the cursor to be tailable, and that we want to block if there&#8217;s no new data:
-
-<pre lang="java" line="1">DBObject query = lastReceivedEventId.isPresent()
+```java
+DBObject query = lastReceivedEventId.isPresent()
    ? BasicDBObjectBuilder.start("_id", BasicDBObjectBuilder
          .start("$gte", lookFrom(lastReceivedEventId.get())).get())
          .get()
@@ -116,7 +116,7 @@ DBCursor cursor = collection
    .sort(sortBy)
    .addOption(Bytes.QUERYOPTION_TAILABLE)
    .addOption(Bytes.QUERYOPTION_AWAITDATA);
-</pre>
+```
 
 You may wonder what is `lookFrom`. In general, we&#8217;d like to get all events inserted in the collection after the `lastReceivedEventId`. Unfortunately, that is not possible with Mongo currently. The ids of events (`ObjectId`s) have timestamps built-in, but we can&#8217;t fully rely on them, as they might be produced by clients with clock skews etc. Of course looking through all the events would work, but to speed up the process, we could use some heuristic. For example, we may start looking for events with an id greater than an id corresponding to the last event&#8217;s id timestamp minus 10 minutes. Then we need to discard all events, until the last one is reached. This assumes that clock skews are smaller than 10 minutes, and that events are persisted within 10 minutes from creation.
 

@@ -26,11 +26,11 @@ tags:
 [Tomek Szymański][1] just commited two new features to [cdi-ext][2].
 
 The first is the ability to secure JSF pages when using the Nav component to handle navigation (more on it [here][3]). If you want to make a page accessible only if a certain EL expression is true, when defining a page, you can write:
-
-<pre lang="java" line="1">private final Page adminPage = new ViewIdPageBuilder("/admin.xhtml")
+```java
+private final Page adminPage = new ViewIdPageBuilder("/admin.xhtml")
     .setRequiresLogin(true)
     .setSecurityEL("#{currentUser.isAdmin)").b();
-</pre>
+```
 
 If the condition is not met, the user will get 403 Forbidden. Also, Tomek extended handling of `setRequiresLogin(true)`, so that if a user is redirected to the login page, because he was not logged in and the page is secured, the page which the user tried to access is stored and after logging in, he is redirected back to the original page.
 

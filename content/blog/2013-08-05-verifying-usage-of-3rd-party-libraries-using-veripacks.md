@@ -87,22 +87,22 @@ However, what if we would like to verify that a 3rd party library is used only i
 If we are using Maven, that&#8217;s quite a lot of xml to write and directories to create. Could it be simpler?
 
 [Veripacks 0.4][1] aims at making this exact case simpler, using package-level annotations. When creating an instance of Veripacks, it is now possible to specify which packages should require importing. To use classes from such packages, you just need to add an `@Import` annotation to the package &#8211; and Veripacks will check that everything is used only where allowed:
-
-<pre lang="scala" line="1">// test case which runs Veripacks
+```scala
+// test case which runs Veripacks
 VeripacksBuilder
    .requireImportOf("org.hibernate")
    .build
    .verify("com.foo.project")
    .throwIfNotOk()
-</pre>
-
-<pre lang="scala" line="1">// package in which we want to use Hibernate classes
+```
+```scala
+// package in which we want to use Hibernate classes
 // package-info.java
 @Import("org.hibernate")
 package com.foo.project.db.dao;
 
 import org.veripacks.Import;
-</pre>
+```
 
 Veripacks itself uses these annotations to constraint the usage of the ASM bytecode-reading library; see the [`VeripacksSelfTest`][5] class and the annotation on the [`org.veripacks.reader`][6] package.
 
@@ -120,15 +120,15 @@ Note however, that for project-packages, you should still use the `@RequiresImpo
 The new release also contains two other features. Firstly, it is now possible to skip verification in a class using the `@NotVerified` annotation. This may be useful for bootstrap-like classes, where wiring of the class instances is done, and implementation-classes form various packages are used. 
 
 Secondly, when building Veripacks, you can provide an implementation of the `CustomAccessDefinitionsReader` trait, and specify metadata in a programmatic way. E.g. if the project has a `com.[company].[project].[module].[submodule]` package naming convention, and we would like all module-packages to always require import, instead of adding an `@RequiresImport` annotation to each such package, we can do:
-
-<pre lang="scala" line="1">VeripacksBuilder
+```scala
+VeripacksBuilder
   .withCustomAccessDefinitionReader(new CustomAccessDefinitionsReader {
     override def isRequiresImport(pkg: Pkg) = pkg.name.split(".").length == 4
   })
   .build
   .verify(List("com.[company].[project]"))
   .throwIfNotOk()
-</pre>
+```
 
 As always Veripacks is available in the [Maven central][7] repository, and the [sources on GitHub][1] under the Apache2 license. Have fun!
 

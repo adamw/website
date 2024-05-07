@@ -95,9 +95,9 @@ Moreover, you&#8217;ll need to put the Envers jar inside that directory. You can
 I&#8217;ve prepared a ready zip of the module, which can be downloaded [here][5]. Just unpack its contents to `jboss-as-7.0.0.Final/modules/org/hibernate`.
 
 Secondly, you must add an entry in your manifest file (`META-INF/MANIFEST.MF`) to make the new module available to your application: 
-
-<pre lang="xml" line="1">Dependencies: org.hibernate.envers services
-</pre>
+```xml
+Dependencies: org.hibernate.envers services
+```
 
 And you&#8217;re done. Enjoy! :)
 

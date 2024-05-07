@@ -209,8 +209,8 @@ Firstly, factories may be parts of the &#8220;modules&#8221; which contain the w
 The new feature in MacWire 0.3 is that the enclosing method&#8217;s parameters are also used for wiring. 
 
 For example:
-
-<pre lang="scala" line="1">case class User
+```scala
+case class User
 class DatabaseAccess
 class PriceCalculator(databaseAccess: DatabaseAccess, user: User)
 
@@ -218,15 +218,15 @@ trait ShoppingModule extends Macwire {
    lazy val databaseAccess = wire[DatabaseAccess]
    def priceCalculator(user: User) = wire[PriceCalculator]
 }
-</pre>
+```
 
 In this case the macro will expand the code to:
-
-<pre lang="scala" line="1">trait ShoppingModule extends Macwire {
+```scala
+trait ShoppingModule extends Macwire {
    lazy val databaseAccess = new DatabaseAccess
    def priceCalculator(user: User) = new PriceCalculator(databaseAccess, user)
 }
-</pre>
+```
 
 Note that this would also work if the module was nested in the def; hence we can create whole wired object graphs, using method parameters for wiring (&#8220;sub-modules&#8221;).
 
@@ -237,9 +237,9 @@ As in factories the parameters often represent data, there may be several parame
 This works very well in modules, but what if we need to pass the factory as a parameter to another class? For example, if we have a `SpecialOfferMailer`, which needs to create per-user `PriceCalculator`s? 
 
 We could pass in a function object, and declare the dependency as follows:
-
-<pre lang="scala" line="1">class SpecialOfferMailer(priceCalculator: User => PriceCalculator)
-</pre>
+```scala
+class SpecialOfferMailer(priceCalculator: User => PriceCalculator)
+```
 
 This can be also viewed as a partially applied `PriceCalculator` constructor.
 
@@ -250,8 +250,8 @@ This could work well in simple cases, but has three drawbacks:
   * special support from MacWire would be needed to automatically convert `def`s to function objects, or a separate function object val would have to be defined manually.
 
 We could also take the traditional route of defining a separate factory trait, e.g.:
-
-<pre lang="scala" line="1">class PriceCalculator(databaseAccess: DatabaseAccess, user: User)
+```scala
+class PriceCalculator(databaseAccess: DatabaseAccess, user: User)
 
 object PriceCalculator {
    trait Factory {
@@ -260,20 +260,20 @@ object PriceCalculator {
 }
 
 class SpecialOfferMailer(priceCalculatorFactory: PriceCalculator.Factory) { ... }
-</pre>
+```
 
 then we could also have some (not yet implemented) support for wiring such factories using MacWire, e.g.:
-
-<pre lang="scala" line="1">trait ShoppingModule {
+```scala
+trait ShoppingModule {
    lazy val priceCalculatorFactory 
           = wireFactory[PriceCalculator, PriceCalculator.Factory]
    ...
 } 
-</pre>
+```
 
 which would expand to:
-
-<pre lang="scala" line="1">trait ShoppingModule {
+```scala
+trait ShoppingModule {
    lazy val priceCalculatorFactory = new PriceCalculator.Factory {
       // the wire here uses values from the method parameters and from the 
       // outer module
@@ -281,7 +281,7 @@ which would expand to:
    }
    ...
 }
-</pre>
+```
 
 However again, this has drawbacks:
 
@@ -294,8 +294,8 @@ However again, this has drawbacks:
 ### Scala Factories
 
 There is however another way &#8211; using case classes in a bit untypical manner we can have an elegant factory implementation. For example:
-
-<pre lang="scala" line="1">class PriceCalculatorFactory(databaseAccess: DatabaseAccess) {
+```scala
+class PriceCalculatorFactory(databaseAccess: DatabaseAccess) {
    case class create(user: User) {
       // methods
    }
@@ -309,25 +309,25 @@ trait ShoppingModule extends Macwire {
    lazy val priceCalculatorFactory = wire[PriceCalculatorFactory]
    lazy val specialOfferMailer = wire[SpecialOfferMailer]
 }
-</pre>
+```
 
 Note that using this approach the service-parameters and the data-parameters are nicely separated (former being the main class parameters, latter being the nested case class parameters). Also no parameter list definition is repeated! And we don&#8217;t need any special support for auto-wiring.
 
 Because the nested class is a case class, using `create` looks like a method invocation, while in fact it is a constructor of a new object, e.g.:
-
-<pre lang="scala" line="1">class SpecialOfferMailer(...) {
+```scala
+class SpecialOfferMailer(...) {
    def mailOfferOfTheDay(user: User) {
       val priceCalculator = priceCalculatorFactory.create(user)
       products.foreach { product => 
           mailOffer(user, product, priceCalculator.price(product)) }
    }
 }
-</pre>
+```
 
 The type of the per-user price calculator object is `PriceCalculatorFactory#create`. This is a bit ugly, especially if need to pass it around, but we could add e.g. to the package object a type alias:
-
-<pre lang="scala" line="1">type PriceCalculator = PriceCalculatorFactory#create
-</pre>
+```scala
+type PriceCalculator = PriceCalculatorFactory#create
+```
 
 The sources for [MacWire][1] are available on GitHub under the Apache2 license; and the binary release is in the central repository.
 

@@ -92,47 +92,47 @@ tags:
 The &#8220;let&#8221; tag enables you to bind the value of any expression to a variable and later reuse it, without recalculating the value. The concept comes of course from functional programming. It is especially useful with Seam&#8217;s [extended EL][1].
 
 The usage is really simple:
-
-<pre lang="xml" line="1">&lt;mamut:let var="result" value="#{anyElExpression}">
+```xml
+<mamut:let var="result" value="#{anyElExpression}">
    Now you can use #{result} as a normal variable.
-&lt;/mamut>
-</pre>
+</mamut>
+```
 
 I was looking at other tag libraries but couldn&#8217;t find anything similar. Or maybe there is?
 
 The use case that motivated me to write this comes from the [JBoss.ORG feeds][2] application. There, in several places I have code similar to the following one:
-
-<pre lang="xml" line="1">&lt;ui:repeat var="group" value="#{groupsService.all}">
-   &lt;s:fragment rendered=
+```xml
+<ui:repeat var="group" value="#{groupsService.all}">
+   <s:fragment rendered=
       "#{groupsService.accFeeds(group).size() > 0}">
       (some header)
-      &lt;ui:repeat var="feed"
+      <ui:repeat var="feed"
          value="#{groupsService.accFeeds(group)}">
          (...)
-      &lt;/ui:repeat>
-   &lt;/s:fragment>
-&lt;ui:repeat>
-</pre>
+      </ui:repeat>
+   </s:fragment>
+<ui:repeat>
+```
 
 Of course calling `groupsService.acceptedFeeds(group)` twice is unnecessarily inefficient. I could move this call to a backing bean, but doing so would only cause me to write some really simple code many times. The version using the let tag calls the method only once:
-
-<pre lang="xml" line="1">&lt;ui:repeat var="group" value="#{groupsService.all}">
-   &lt;mamut:let var="acceptedFeeds"
+```xml
+<ui:repeat var="group" value="#{groupsService.all}">
+   <mamut:let var="acceptedFeeds"
       value="#{groupsService.accFeeds(group)">
-      &lt;s:fragment rendered="#{accFeeds.size() > 0}">
+      <s:fragment rendered="#{accFeeds.size() > 0}">
          (some header)
-         &lt;ui:repeat var="feed" value="#{accFeeds}">
+         <ui:repeat var="feed" value="#{accFeeds}">
             (...)
-         &lt;/ui:repeat>
-      &lt;/s:fragment>
-   &lt;/mamut:let>
-&lt;ui:repeat>
-</pre>
+         </ui:repeat>
+      </s:fragment>
+   </mamut:let>
+<ui:repeat>
+```
 
 If somebody finds this useful, I&#8217;ve put the jar [here][3]. To use it, just bundle the jar with your application. The namespace for the tag is the following:
-
-<pre lang="xml" line="1">xmlns:mamut="http://mamut.net.pl/jsf"
-</pre>
+```xml
+xmlns:mamut="http://mamut.net.pl/jsf"
+```
 
 Adam
 

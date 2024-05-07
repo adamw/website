@@ -202,8 +202,8 @@ When using MacWire (or when doing &#8220;manual&#8221; DI), we are doing as much
 MacWire 0.4 comes with two general utilities useful for doing by-class instance lookups.
 
 The first is a macro, `valsByClass(object)` which generates (at compile-time of course) a map of `val`s in the given object, keyed by their classes. So for example:
-
-<pre lang="scala" line="1">object Example1 {
+```scala
+object Example1 {
    val aString = "Hello World!"
    val userAuthenticator = new UserAuthenticator()
    // here we are using the core MacWire feature: the wire macro
@@ -211,22 +211,22 @@ The first is a macro, `valsByClass(object)` which generates (at compile-time of 
 }
 
 val theMap = valsByClass(Example1)
-</pre>
+```
 
 will translate the following code:
-
-<pre lang="scala" line="1">val theMap = Map[Class[_], AnyRef](
+```scala
+val theMap = Map[Class[_], AnyRef](
    classOf[String] -> Example1.aString,
    classOf[UserAuthenticator] -> Example1.userAuthenticator,
    classOf[UserFinder] -> Example1.userFinder
 )
-</pre>
+```
 
 The second utility, `InstanceLookup`, extends that map to allow by-subclass/by-trait lookups. For example, say we have a `Database` trait and an implementation, `MySQLDatabase`, which ends up in the vals-by-class map under the `Class[MySQLDatabase]` key.
 
 However, we would still like to get the instance when querying by `Database`. We can achieve that by wrapping the map with `InstanceLookup`:
-
-<pre lang="scala" line="1">trait Database
+```scala
+trait Database
 class MySQLDatabase extends Database
 
 object App {
@@ -236,7 +236,7 @@ object App {
 val instanceLookup = InstanceLookup(valsByClass(App))
 
 require(instanceLookup(classOf[Database]) == App.database)
-</pre>
+```
 
 ### Play integration
 
@@ -245,8 +245,8 @@ Having these utilities we may now proceed to integrating MacWire with Play.
 The main change is that controllers now won&#8217;t be `object`s, but `class`es (usually with non-empty constructor parameter lists &#8211; the dependencies). The challenge is now how to tell Play how to get controller istances?
 
 Let&#8217;s say we have the following controller and service class:
-
-<pre lang="scala" line="1">package controllers
+```scala
+package controllers
 
 import play.api.mvc._
 import services.HelloWorldProvider
@@ -262,28 +262,28 @@ package services
 class HelloWorldProvider {
    def text = "Hello World!"
 }
-</pre>
+```
 
 Here the controller (`MainController`) has one dependency, the `HelloWorldProvider` service.
 
 Now that we have the example ready, we can proceed with the integration. There are three easy steps. Firstly we need to wire the dependencies. We can use the `wire[]` macro, or just go with manual DI:
-
-<pre lang="scala" line="1">trait OurApplication {
+```scala
+trait OurApplication {
    lazy val helloWorldProvider = new HelloWorldProvider
    lazy val mainController = new MainController(helloWorldProvider)
 }
-</pre>
+```
 
 Secondly, we need to specify in the routes file that we want to provide controller instances ourselves, instead of letting Play instantiate the controllers. This is done by adding the `@` character before the controller name:
-
-<pre lang="scala" line="1">// File: conf/routes
+```scala
+// File: conf/routes
 
 GET     /                           @controllers.MainController.index()
-</pre>
+```
 
 Finally, we need to create a `Global` object in the main package. That&#8217;s the main integration point; here we use the by-class instance lookup maps:
-
-<pre lang="scala" line="1">import com.softwaremill.macwire.{InstanceLookup, Macwire}
+```scala
+import com.softwaremill.macwire.{InstanceLookup, Macwire}
 import play.api.GlobalSettings
 
 object Global extends GlobalSettings with Macwire {
@@ -292,7 +292,7 @@ object Global extends GlobalSettings with Macwire {
   override def getControllerInstance[A](controllerClass: Class[A]) = 
       instanceLookup.lookupSingleOrThrow(controllerClass)
 }
-</pre>
+```
 
 And that&#8217;s it! From now on the controller instances will be provided from our map, using the wiring we defined in the `OurApplication` trait.
 

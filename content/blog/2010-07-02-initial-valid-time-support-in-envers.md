@@ -37,11 +37,11 @@ Using the valid-time audit strategy, it will be possible to:
   * implement other types of queries, like latest changes
 
 To configure Envers to store the end-revision number, you have to specify a property in your configuration file:
-
-<pre lang="xml" line="1">&lt;property name="org.hibernate.envers.audit_strategy">
+```xml
+<property name="org.hibernate.envers.audit_strategy">
    org.hibernate.envers.strategy.ValidTimeAuditStrategy
-&lt;/property>
-</pre>
+</property>
+```
 
 Envers will then generate and additional `REVEND` column (next to the `REV` column) in every audit (`_AUD`) entity/table; however this column won&#8217;t be part of the primary key. You can change the name of the end-revision column by setting the `org.hibernate.envers.audit_strategy_valid_time_end_name` property value.
 

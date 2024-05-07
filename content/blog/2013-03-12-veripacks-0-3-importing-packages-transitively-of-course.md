@@ -87,8 +87,8 @@ If a package is annotated with `@RequiresImport`, exported classes from this pac
 As all annotations, the effects of `@Import` are transitive. That is, if a package (A) is imported in a package (B), its classes are also visible in all child packages (of B). 
 
 A simple example, combining the export and import features (which can be used separately as well):
-
-<pre lang="java" line="1">@RequiresImport
+```java
+@RequiresImport
 package foo.bar.p1 {
   @Export
   class A { ... }
@@ -108,7 +108,7 @@ package foo.bar.p3 {
     new A(); // illegal, p1 is not imported
   }
 }
-</pre>
+```
 
 Moreover, Veripacks is now available in [Maven Central][2], so using Veripacks just got easier: no need to add a repository to your build definition. See the README for details.
 

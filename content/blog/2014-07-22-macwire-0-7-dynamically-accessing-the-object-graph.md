@@ -122,8 +122,8 @@ Second use-case is dynamically creating instances of classes, which names are on
 Both of these use-cases can be realised by the `Wired` class, which can be created given an instance of a module, containing the object graph, using the `wiredInModule` macro. Any `val`s, `lazy val`s and parameter-less `def`s will be available. An instance of `Wired` can be also extended with new instances and instance factories.
 
 For example:
-
-<pre lang="scala" line="1">// 1. Defining the object graph and the module
+```scala
+// 1. Defining the object graph and the module
 class SecurityFilter
 
 trait DatabaseConnector
@@ -154,7 +154,7 @@ wired.lookup(classOf[DatabaseConnector])
 // Creates a new instance of the given class using the dependencies 
 // available in MyApp
 wired.wireClassInstanceByName("com.softwaremill.AuthenticationPlugin")
-</pre>
+```
 
 Also, if you are an existing or future user of MacWire, remember to [+1 the features][4] you’d like to see implemented.
 

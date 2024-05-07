@@ -200,8 +200,8 @@ The upcoming 2.2 release of Akka will contain an experimental implementation of 
 You can look at the ask pattern as a kind of asynchronous method invocation: you send a message (its class corresponds to the method name) with some arguments, and expect a reply (method result). More specifically, we get back a `Future`, which will eventually hold the reply (if any). Note that the reply can also be of type `Unit`, corresponding to methods returning no result. Knowing when such &#8220;methods&#8221; complete may still be useful, though.
 
 A very simple example of the basic ask pattern usage:
-
-<pre lang="scala" line="1">import akka.pattern.ask
+```scala
+import akka.pattern.ask
 
 case class LookupUser(id: Int)
 
@@ -216,24 +216,24 @@ userFuture onSuccess {
       // result has type Any 
    }
 }
-</pre>
+```
 
 The not-so-nice thing here is that the return type of `?` (see the [AskSupport implementation][4]) is `Future[Any]`, as the actor may respond with any message. However ideally, when sending `LookupUser` we would want to get a `Future[Option[User]]`, when sending `UserCount` a `Future[Int]` and so on.
 
 This is in fact quite easy to implement. First of all, we must somehow embed the expected reply type in the message. For that we can use a trait, which takes the type of the expected response as a type parameter:
-
-<pre lang="scala" line="1">trait Replyable[T]
-</pre>
+```scala
+trait Replyable[T]
+```
 
 This can be used in the messages that we are sending to the actor:
-
-<pre lang="scala" line="1">case class LookupUser(id: Int) extends Replyable[Option[User]]
+```scala
+case class LookupUser(id: Int) extends Replyable[Option[User]]
 case class UserCount() extends Replyable[Int]
-</pre>
+```
 
 Now we need a variant of `?` which returns a future with the right type parameter:
-
-<pre lang="scala" line="1">trait ReplySupport {
+```scala
+trait ReplySupport {
   implicit class ReplyActorRef(actorRef: ActorRef) {
     def ?[T](message: Replyable[T])
             (implicit timeout: Timeout, tag: ClassTag[T]): Future[T] = {
@@ -243,13 +243,13 @@ Now we need a variant of `?` which returns a future with the right type paramete
 }
 
 package object reply extends ReplySupport
-</pre>
+```
 
 You can see that we are simply re-using the existing ask implementation, and mapping the resulting future to the right type. The timeout is an implicit parameter of `ask` and `ClassTag` of `mapTo`, hence we must include them in the signature as well.
 
 Usage is quite simple, in fact it&#8217;s almost the same as before, except for the import and that the future is of the right type:
-
-<pre lang="scala" line="1">import reply._
+```scala
+import reply._
 
 val userFuture = actor ? LookupUser(10)
 
@@ -261,11 +261,11 @@ userFuture onSuccess {
       // result has type Option[User] 
    }
 }
-</pre>
+```
 
 That&#8217;s the actor-user side. What about the actor itself? How to ensure that if an actor receives a message of type `Replyable[T]`, it will actually answer with `T`? As quite commonly in Scala, the answer again is a trait, which can be mixed into an actor:
-
-<pre lang="scala" line="1">trait ReplyingActor extends Actor {
+```scala
+trait ReplyingActor extends Actor {
   def receive = {
     case m: Replyable[_] if receiveReplyable.isDefinedAt(m) => {
       try {
@@ -278,17 +278,17 @@ That&#8217;s the actor-user side. What about the actor itself? How to ensure tha
 
   def receiveReplyable[T]: PartialFunction[Replyable[T], T]
 }
-</pre>
+```
 
 And example usage:
-
-<pre lang="scala" line="1">class UserActor extends ReplyingActor {
+```scala
+class UserActor extends ReplyingActor {
    def receiveReplyable[T] = {
       case LookupUser(id) => Some(User(...))
       case UserCount() => 512
    }
 }
-</pre>
+```
 
 Now this is all nicely type-checked. If we tried to return a `String` in the `UserCount` branch, we would get a compile-time error.
 

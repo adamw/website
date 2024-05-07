@@ -228,30 +228,30 @@ Let&#8217;s first create a user-based recommender: that is a recommender, which 
   * **recommender**: which takes these pieces together to produce recommendations
 
 For unary input data (where users either like items or we don&#8217;t know), a good starting point is:
-
-<pre lang="scala" line="1">val dataModel = new FileDataModel(file)
+```scala
+val dataModel = new FileDataModel(file)
 val userSimilarity = new LogLikelihoodSimilarity(dataModel)
 val neighborhood = new NearestNUserNeighborhood(25, userSimilarity, dataModel)
 val recommender = new GenericBooleanPrefUserBasedRecommender(dataModel, neighborhood, userSimilarity)
-</pre>
+```
 
 If we have preference values (triples in the input data):
-
-<pre lang="scala" line="1">val dataModel = new FileDataModel(file)
+```scala
+val dataModel = new FileDataModel(file)
 val userSimilarity = new PearsonCorrelationSimilarity(dataModel)
 val neighborhood = new NearestNUserNeighborhood(25, userSimilarity, dataModel)
 val recommender = new GenericUserBasedRecommender(dataModel, neighborhood, userSimilarity)
-</pre>
+```
 
 Now we are ready to get some recommendations; this is as simple as:
-
-<pre lang="scala" line="1">// Gets 10 recommendations
+```scala
+// Gets 10 recommendations
 val result = recommender.recommend(userId, 10)
 
 // We get back a list of item-estimated preference value, 
 // sorted from the highest score
-result.foreach(r =&gt; println(r.getItemID() + ": " + r.getValue())) 
-</pre>
+result.foreach(r => println(r.getItemID() + ": " + r.getValue())) 
+```
 
 ### On-line
 
@@ -267,8 +267,8 @@ Luckily Mahout has a possibility of adding temporary users to a data model. The 
 The first part (periodically re-creating the recommender) may be actually quite tricky if you are limited on memory: when creating the new recommender, you need to hold two copies of the data in memory (to still be able to server requests from the old one). But as that doesn&#8217;t really have anything to do with recommendations, I won&#8217;t go into details here.
 
 As for the temporary users, we can wrap our data model with a `PlusAnonymousConcurrentUserDataModel` instance. This class allows to obtain a temporary user id; the id must be later released so that it can be re-used (there&#8217;s a limited number of such ids). After obtaining the id, we have to fill in the preferences, and then we can proceed with the recommendation as always:
-
-<pre lang="scala" line="1">val dataModel = new PlusAnonymousConcurrentUserDataModel(
+```scala
+val dataModel = new PlusAnonymousConcurrentUserDataModel(
     new FileDataModel(file),
     100)
 
@@ -290,7 +290,7 @@ def recommendForNewUser(userPreferences: List[Long]) = {
     // filling in a Mahout data structure with the user's preferences
     val tempPrefs = new BooleanUserPreferenceArray(userPreferences.size)
     tempPrefs.setUserID(0, tempUserId)
-    userPreferences.zipWithIndex.foreach { case (preference, idx) =&gt; 
+    userPreferences.zipWithIndex.foreach { case (preference, idx) => 
       tempPrefs.setItemID(idx, preference) 
     }
     dataModel.setTempPrefs(tempPrefs, tempUserId)
@@ -304,13 +304,13 @@ def recommendForNewUser(userPreferences: List[Long]) = {
 def recommendForExistingUser(userId: Long) = {
   recommender.recommend(userId, 10)
 }
-</pre>
+```
 
 ### Incorporating business logic
 
 It often happens that we want to boost the score of selected items because of some business rules. In our use-case, for example if a show has a new episode, we want to give it a higher score. That&#8217;s possible using the `IDRescorer` interface for Mahout. An instance of a rescorer is provided when invoking `Recommender.recommend`. For example:
-
-<pre lang="scala" line="1">val rescorer = new IDRescorer {
+```scala
+val rescorer = new IDRescorer {
   def rescore(id: Long, originalScore: Double) = {
     if (showIsNew(id)) {
       originalScore * 1.2 
@@ -324,7 +324,7 @@ It often happens that we want to boost the score of selected items because of so
 
 // Gets 10 recommendations
 val result = recommender.recommend(userId, 10, rescorer)
-</pre>
+```
 
 ### Summary
 

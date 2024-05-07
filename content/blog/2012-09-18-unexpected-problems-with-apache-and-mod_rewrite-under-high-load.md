@@ -56,48 +56,48 @@ In one of the projects that we are currently working on we have a fairly typical
 We also have some automated performance/stress tests. The whole system worked fine with around 250 requests/second hitting the server (http get/post calls). However, when we increased that to 700 requests/second, after some time we started getting 503 responses.
 
 As it turned out, these requests never reached the backend servers, but the Apache error logs contained entries such as:
-
-<pre lang="java" line="1">Cannot assign requested address attempt to connect to (...) failed
-</pre>
+```java
+Cannot assign requested address attempt to connect to (...) failed
+```
 
 Googling for a while revealed that this may be because the OS (Ubuntu in this case) wasn&#8217;t able to allocate new ports. Each TCP client-server connection gets assigned a new [ephemeral port][1] on the client side, which typically is from the range 32768 to 61000. After a request completes, even if both sides properly close the TCP connection, the port will be freed and re-useable only after about 4 minutes. That&#8217;s because the connection is put in the TIME_WAIT state, and will be discarded after the [associated timeout passes][2]. 
 
 As a TCP client-server connection is uniquely identified by the (client IP, client port, server IP, server port) tuple, in the default setup, the server can only handle about 30k requests in 4 minutes from a single client (the server&#8217;s address is fixed and well-known, so only the client port can change).
 
 The next step was checking if this is indeed a problem with allocating ports. To get a rough number of open connections, we simply ran during the tests:
-
-<pre lang="bash" line="1">netstat -p tcp | wc -l
-</pre>
+```bash
+netstat -p tcp | wc -l
+```
 
 We also added `grep`s on the client&#8217;s or backend&#8217;s IP, to get a count on the number of connections between client<->proxy and proxy<->backend. It turned out that while there is a constant pool of connections between the client and proxy (so HTTP keepalive was working properly &#8211; also see below), a new connection was established for each request between the proxy and the backend! 
 
 So in our case the client side of the TCP connection was the proxy, the server side &#8211; the backend, and the limit on the number of connections applied to the proxy<->backend pair, even though originally the requests could have come from various clients. Hence our whole setup was limited to 30k requests per 4 minutes per backend server.
 
 Of course the next step was to find out which side is initiating closing of the connections. For that we used:
-
-<pre lang="bash" line="1">tcpdump src [proxy ip] and dst [backend ip]
-</pre>
+```bash
+tcpdump src [proxy ip] and dst [backend ip]
+```
 
 and directed single requests at the server. The flow clearly showed that Apache was closing the connections.
 
 Why? That was a very good question. Our Apache+`mod_rewrite` configuration was really simple:
-
-<pre lang="xml" line="1">&lt;VirtualHost *:80>
+```xml
+<VirtualHost *:80>
   RewriteEngine On
   ProxyPreserveHost On
   RewriteRule ^(.*)$ http://[backend ip]:8080$1 [P,L]
-&lt;/VirtualHost>
-</pre>
+</VirtualHost>
+```
 
 For a lack of other leads I [asked on ServerFault][3], which turned out to be a very good idea. I quickly got the answer that **`mod_rewrite` does not do connection pooling**. I couldn&#8217;t find any mention about this in the docs, and I think it&#8217;s pretty important, especially for systems under high load.
 
 The solution was also very simple: use `mod_proxy` instead. Changing the above config to:
-
-<pre lang="xml" line="1">&lt;VirtualHost *:80>
+```xml
+<VirtualHost *:80>
    ProxyPreserveHost On
    ProxyPass / http://[backend ip]:8080/
-&lt;/VirtualHost>
-</pre>
+</VirtualHost>
+```
 
 caused that our tests finally passed under the ~700 requests/second load.
 

@@ -82,22 +82,22 @@ After a device is discovered, a connection can be established. It is then possib
 Beacons use only the advertisement channel. As the &#8220;beacon&#8221; name suggests, they transmit packets of data in regular intervals, and this data can be then picked up by devices like smartphones. Hence iBeacons are simply a specific usage of BLE advertisements, with some additional support on the iOS side.
 
 If you try to intercept an iBeacon advertisement packet, for example coming from an [Estimote][6] beacon, you’ll see the following data:
-
-<pre lang="bash" line="1">02 01 06 1A FF 4C 00 02 15 B9 40 7F 30 F5 F8 46 6E AF F9 25 55 6B 57 FE 6D 00 49 00 0A C5
-</pre>
+```bash
+02 01 06 1A FF 4C 00 02 15 B9 40 7F 30 F5 F8 46 6E AF F9 25 55 6B 57 FE 6D 00 49 00 0A C5
+```
 
 (to capture such data, if you have OSX, an [additional XCode download][7] contains a Bluetooth scanner and a packet logger. For Windows, see for example [here][8])
 
 The data above already has the preamble, fixed access address, advertisement PDU header and MAC address removed; it is only the advertisement data &#8211; 30 bytes, so it fits nicely in the 31 byte limit.
 
 What makes a BLE advertisement an iBeacon one? The format is fixed by Apple. To break it down ([see also SO][9]):
-
-<pre lang="bas" line="1">02 01 06 1A FF 4C 00 02 15: iBeacon prefix (fixed except for 3rd byte - flags)
+```bas
+02 01 06 1A FF 4C 00 02 15: iBeacon prefix (fixed except for 3rd byte - flags)
 B9 40 7F 30 F5 F8 46 6E AF F9 25 55 6B 57 FE 6D: proximity UUID (here: Estimote’s fixed UUID)
 00 49: major
 00 0A: minor
 C5: 2’s complement of measured TX power
-</pre>
+```
 
 <a href="http://www.warski.org/blog/2014/01/how-ibeacons-work/bluetooth-le-ibeacon-packet-3/" rel="attachment wp-att-1436"><img loading="lazy" decoding="async" src="http://www.warski.org/blog/wp-content/uploads/2014/01/bluetooth-le-ibeacon-packet2-300x144.png" alt="bluetooth le ibeacon packet" width="300" height="144" class="aligncenter size-medium wp-image-1436" srcset="https://www.warski.org/blog/wp-content/uploads/2014/01/bluetooth-le-ibeacon-packet2-300x144.png 300w, https://www.warski.org/blog/wp-content/uploads/2014/01/bluetooth-le-ibeacon-packet2-255x122.png 255w, https://www.warski.org/blog/wp-content/uploads/2014/01/bluetooth-le-ibeacon-packet2-1024x493.png 1024w, https://www.warski.org/blog/wp-content/uploads/2014/01/bluetooth-le-ibeacon-packet2-210x101.png 210w, https://www.warski.org/blog/wp-content/uploads/2014/01/bluetooth-le-ibeacon-packet2.png 1092w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 

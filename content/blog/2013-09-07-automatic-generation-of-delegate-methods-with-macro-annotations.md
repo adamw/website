@@ -96,8 +96,8 @@ One of the Macro Annotations use-cases mentioned in the manual is compile-time A
 The results of the POC are available on GitHub, in the scala-macro-aop repository: <https://github.com/adamw/scala-macro-aop>. If you have SBT, you can play with the implementation just by invoking `run` from the SBT console.
 
 How does it work? Let&#8217;s say we have an interface `Foo` with three methods (with very original names: `method1`, `method2` and `method3`), each taking some parameters. We have a default implementation:
-
-<pre lang="scala" line="1">trait Foo {
+```scala
+trait Foo {
    def method1(param1: String): Int
    def method2(p1: Int, p2: Long): Float
    def method3(): String
@@ -108,34 +108,34 @@ class FooImpl extends Foo {
    def method2(p1: Int, p2: Long) = p1 + p2
    def method3() = "Hello World!"
 }
-</pre>
+```
 
 Now we would like to create a wrapper for a `Foo` instance, which would delegate all method calls to the given instance, unless the method is defined in the wrapper.
 
 The traditional solution is to create a delegate for each method by hand, e.g.:
-
-<pre lang="scala" line="1">class FooWrapper(wrapped: Foo) extends Foo {
+```scala
+class FooWrapper(wrapped: Foo) extends Foo {
    def method1(param1: String) = wrapped.method1(param1)
    def method2(p1: Int, p2: Long) = wrapped.method2(p1, p2)
    def method3() = wrapped.method3()
 }
-</pre>
+```
 
 But that&#8217;s a lot of work. Using the `@delegate` macro, the delegate methods will now be automatically generated **at compile time**! That is, the wrapper now becomes:
-
-<pre lang="scala" line="1">class FooWrapper(@delegate wrapped: Foo) extends Foo {
+```scala
+class FooWrapper(@delegate wrapped: Foo) extends Foo {
    // method1, method2 and method3 are generated at compile time
    // and delegate to the annotated parameter
 }
-</pre>
+```
 
 What if we want to implement some methods? The macro will generate only the missing ones:
-
-<pre lang="scala" line="1">class FooWrapper(@delegate wrapped: Foo) extends Foo {
+```scala
+class FooWrapper(@delegate wrapped: Foo) extends Foo {
    def method2(p1: Int, p2: Long) = p1 - p1
    // only method1 and method3 are generated
 }
-</pre>
+```
 
 As the implementation is just a POC, it will only work in simple cases, that is for methods with a single parameter list, without type parameters and when the method is not overloaded. Plus the code of the macro is, let&#8217;s say, &#8220;not yet polished&#8221; ;).
 

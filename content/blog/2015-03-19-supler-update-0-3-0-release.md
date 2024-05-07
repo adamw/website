@@ -84,8 +84,8 @@ It’s been some time since the last release of [Supler][1]. Just as a short rem
 If you’re new to Supler, or if you’d like to get started with form development using Supler, take a look at our [docs][2] or the [live demo][3].
 
 The 0.3.0 release brings a lot of smaller and bigger improvements as well as bug fixes (a mandatory position in each release of any software ;) ). It is now possible to customise a number of field options on the frontend, starting with specifying the field order, to more specific per-field options like render hints or overriding rendering functions using javascript (it is still possible of course to override rendering using HTML templates). A short example of how field options may look like:
-
-<pre lang="javascript" line="1">new Supler.Form(container, {
+```javascript
+new Supler.Form(container, {
 field_options: {
   'secretField': {
     render_hint: 'password' 
@@ -104,17 +104,17 @@ field_options: {
     // options common for all fields rendered as radios
   }
 });
-</pre>
+```
 
 Before the only way to layout fields was one field per row. Now it is also possible to have multiple fields in one row; just combine the fields using the `||` operator:
-
-<pre lang="scala" line="1">form[Person](f => List(
+```scala
+form[Person](f => List(
   // row 1
   f.field(_.age).label("Age") || f.field(_.birthday).label("Birthday"),
   // row 2
   f.field(_.address1).label("Address 1") || f.field(_.address2).label("Address 2")
 )
-</pre>
+```
 
 The row decorations and how rows are rendered is of course fully customisable via overriding the javascript rendering functions. We are also looking into making this more flexible, with frontend-defined form layout templates.
 

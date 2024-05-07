@@ -276,11 +276,11 @@ Then comes the question how to connect this to a computer. As I have a MacBook, 
 [<img loading="lazy" decoding="async" class="aligncenter size-medium wp-image-641" title="converter" src="http://www.warski.org/blog/wp-content/uploads/2012/08/IMG_0911-300x225.jpg" alt="" width="300" height="225" srcset="https://www.warski.org/blog/wp-content/uploads/2012/08/IMG_0911-300x225.jpg 300w, https://www.warski.org/blog/wp-content/uploads/2012/08/IMG_0911-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" />][10]
 
 One important thing to keep in mind: make sure your converter has drivers for your OS. In my case I got a Prolific USB-RS232 converter (or at least something that has the PL-2303 chip), which has both [official][11] and [open-source][12] drivers for OSX. After installing and plugging in the usb you should see two new devices in _/dev_:
-
-<pre lang="bash" line="1">[~]$ ls /dev | grep usbserial
+```bash
+[~]$ ls /dev | grep usbserial
 cu.usbserial
 tty.usbserial
-</pre>
+```
 
 Now the most important part: connecting the cables. I&#8217;ve cut the serial cable in half, and took off the insulation:
 
@@ -297,12 +297,12 @@ As I wanted to detect when a circuit is closed, I needed one pin which has volta
 If you want to play a bit with various connections, [CoolTerm][17] is a very nice application which shows the state of the various pins, enables turning them on and off, writing to the device etc.
 
 Now the programming part. The natural language of choice here is C. (btw, gcc has great compilation times, but manually freeing memory feels a bit weird ;) ). First thing you need to do is open the device file:
-
-<pre lang="c" line="1">#include &lt;stdlib.h>
-#include &lt;fcntl.h>
-#include &lt;termios.h>
-#include &lt;stdbool.h>
-#include &lt;string.h>
+```c
+#include <stdlib.h>
+#include <fcntl.h>
+#include <termios.h>
+#include <stdbool.h>
+#include <string.h>
 
 int main(int argc, char** argv) {
    int tty_fd = open("/dev/tty.usbserial", O_RDWR | O_NONBLOCK);
@@ -312,11 +312,11 @@ int main(int argc, char** argv) {
    close(tty_fd);
    return EXIT_SUCCESS;
 }
-</pre>
+```
 
 The RTS is by default set to 1, but just in case, here&#8217;s the code to set it, and read CTS:
-
-<pre lang="c" line="1">bool get_cts(int fd) {
+```c
+bool get_cts(int fd) {
    int s;
    // gets the current port state - man ioctl for more info
    ioctl(fd, TIOCMGET, &s);
@@ -333,11 +333,11 @@ void set_rts(int fd, bool set) {
    }
    ioctl(fd, TIOCMSET, &status);
 }
-</pre>
+```
 
 I had to monitor somehow the state of the CTS pin to check if the pedal is pressed or not. [Turns out][18] there&#8217;s a ioctl request _TIOCMIWAIT_ in Linux with which you can do blocking waits until some signals change. Unfortunately, it&#8217;s not implemented in OS X, so I had to go with polling:
-
-<pre lang="c" line="1">void wait_cts_change(int fd) {
+```c
+void wait_cts_change(int fd) {
    bool start = get_cts(fd);
    while(true) {
       bool current = get_cts(fd);
@@ -348,18 +348,18 @@ I had to monitor somehow the state of the CTS pin to check if the pedal is press
       usleep(100000); // 0.1s
    }
 }
-</pre>
+```
 
 In the worst case it would miss 0.1s of me talking, which I think is bearable. And doesn&#8217;t use too much CPU.
 
 Finally we just need to control TeamSpeak&#8217;s PushToTalk. Luckily it comes bundled with a ClientQuery plugin which exposes a Telnet interface on _localhost:25639_. Additionally, OS X comes bundled with [libcurl][19] so using telnet is pretty easy:
-
-<pre lang="c" line="1">// To send data using libcurl, you provide userdata and a callback function
+```c
+// To send data using libcurl, you provide userdata and a callback function
 // which copies the data to libcurl's buffer.
 size_t read_callback(void *ptr, size_t size, size_t nmemb, void *userdata) {
    size_t curl_size = nmemb * size;
    size_t userdata_len = strlen(userdata);
-   size_t to_copy = (userdata_len &lt; curl_size) ? userdata_len : curl_size;
+   size_t to_copy = (userdata_len < curl_size) ? userdata_len : curl_size;
    memcpy(ptr, userdata, to_copy);
    return to_copy;
 }
@@ -388,12 +388,12 @@ while(true) {
    int current_cts=get_cts(tty_fd);
    pushtotalk(current_cts != 0);
 }
-</pre>
+```
 
 No error handling or unit tests yet, but works ;). Don't forget you need to compile with curl:
-
-<pre lang="bash" line="1">gcc -lcurl piano.c -o piano
-</pre>
+```bash
+gcc -lcurl piano.c -o piano
+```
 
 For anybody who's ever done some electronics this is probably trivial, but you've got to start somewhere. Next ... wireless? ;)
 

@@ -77,8 +77,8 @@ Hello,
 I&#8217;ve created a new [`cdiext` project at github][1], initially with two extensions:
 
 1. Stackable Security Interceptors, about which I blogged [here][2] and [here][3]. Example usage:
-
-<pre lang="java" line="1">@SecureBinding
+```java
+@SecureBinding
 @Secure("#{loggedInUser.administrator}")
 public @interface AdministratorOnly {
 }
@@ -88,11 +88,11 @@ public class SecureBean {
     @Secure("#{additionalSecurityCheck}")
     public void doSecret() { ... }
 }
-</pre>
+```
 
 2. Injectable ELEvaluator, which works both during a faces request and outside of one (e.g. during invocation of an MDB). Example usage:
-
-<pre lang="java" line="1">@Inject
+```java
+@Inject
 private ELEvaluator elEvaluator;
 
 void someMethod() {
@@ -101,7 +101,7 @@ void someMethod() {
             "#{testParam1 + 10 + testParam2}", Integer.class, params);
     // ...
 }
-</pre>
+```
 
 Thanks to [Dan Allen][4] for [helping out][5] with this one.
 

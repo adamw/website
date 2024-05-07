@@ -34,11 +34,11 @@ Some of the most important changes:
   * updating Proguard to 4.8
 
 To use the plugin, add to `project/plugins.sbt`:
-
-<pre lang="scala" line="1">resolvers += Resolver.url("sbt-plugin-snapshots", url("http://repo.scala-sbt.org/scalasbt/sbt-plugin-snapshots/"))(Resolver.ivyStylePatterns)
+```scala
+resolvers += Resolver.url("sbt-plugin-snapshots", url("http://repo.scala-sbt.org/scalasbt/sbt-plugin-snapshots/"))(Resolver.ivyStylePatterns)
 
 addSbtPlugin("org.scala-sbt" % "xsbt-proguard-plugin" % "0.1.3-SNAPSHOT")
-</pre>
+```
 
 So far I only deployed a snapshot version (0.1.3-SNAPSHOT). If there won&#8217;t be any bug reports, or when the bug reports get fixed, I&#8217;ll do a release of a normal version soon.
 

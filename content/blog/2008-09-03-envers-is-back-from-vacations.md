@@ -128,41 +128,43 @@ Other improvements include:
     
     Finally, some updates on configuration. The Envers home page doesn&#8217;t yet reflect this (as it&#8217;s still a beta release). To use the new collection listeners, be sure that your `persistence.xml` includes the following:
     
-    <pre lang="xml" line="1">&lt;property name="hibernate.ejb.event.post-insert"
+    ```xml
+<property name="hibernate.ejb.event.post-insert"
   value="org.jboss.envers.event.VersionsEventListener" />
-&lt;property name="hibernate.ejb.event.post-update" 
+<property name="hibernate.ejb.event.post-update" 
   value="org.jboss.envers.event.VersionsEventListener" />
-&lt;property name="hibernate.ejb.event.post-delete" 
+<property name="hibernate.ejb.event.post-delete" 
   value="org.jboss.envers.event.VersionsEventListener" />
-&lt;property name="hibernate.ejb.event.pre-collection-update"
+<property name="hibernate.ejb.event.pre-collection-update"
   value="org.jboss.envers.event.VersionsEventListener" />
-&lt;property name="hibernate.ejb.event.pre-collection-remove" 
+<property name="hibernate.ejb.event.pre-collection-remove" 
   value="org.jboss.envers.event.VersionsEventListener" />
-&lt;property name="hibernate.ejb.event.post-collection-recreate" 
+<property name="hibernate.ejb.event.post-collection-recreate" 
   value="org.jboss.envers.event.VersionsEventListener" />
-</pre>
+```
     
     Or if you are using Envers directly with Hibernate:
     
-    <pre lang="xml" line="1">&lt;event type="post-insert">
-&lt;listener class="org.jboss.envers.event.VersionsEventListener"/>
-&lt;/event>
-&lt;event type="post-update">
-&lt;listener class="org.jboss.envers.event.VersionsEventListener"/>
-&lt;/event>
-&lt;event type="post-delete">
-&lt;listener class="org.jboss.envers.event.VersionsEventListener"/>
-&lt;/event>
-&lt;event type="pre-collection-update">
-&lt;listener class="org.jboss.envers.event.VersionsEventListener"/>
-&lt;/event>
-&lt;event type="pre-collection-remove">
-&lt;listener class="org.jboss.envers.event.VersionsEventListener"/>
-&lt;/event>
-&lt;event type="post-collection-recreate">
-&lt;listener class="org.jboss.envers.event.VersionsEventListener"/>
-&lt;/event>
-</pre>
+    ```xml
+<event type="post-insert">
+<listener class="org.jboss.envers.event.VersionsEventListener"/>
+</event>
+<event type="post-update">
+<listener class="org.jboss.envers.event.VersionsEventListener"/>
+</event>
+<event type="post-delete">
+<listener class="org.jboss.envers.event.VersionsEventListener"/>
+</event>
+<event type="pre-collection-update">
+<listener class="org.jboss.envers.event.VersionsEventListener"/>
+</event>
+<event type="pre-collection-remove">
+<listener class="org.jboss.envers.event.VersionsEventListener"/>
+</event>
+<event type="post-collection-recreate">
+<listener class="org.jboss.envers.event.VersionsEventListener"/>
+</event>
+```
     
     If you are using Envers with JBoss AS 4.2.x, you&#8217;ll have either to bundle the hibernate jars with your application, or upgrade hibernate in the `lib` directory of the AS, as the versioned used there is 3.2.4.SP1.
     

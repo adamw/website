@@ -80,21 +80,21 @@ tags:
 I&#8217;ve uploaded a new version (0.2) of the typestate checker (for an introduction, see [this blog post][1]), which contains bug fixes and much improved exception handling. The binaries, source code and installation instructions are on the [web page][2]; the source code is also on [github][3], and the binaries in the [maven repository][4]. You can use the typestate checker with the [jsr308-maven plugin][5].
 
 A new state-annotation element: <tt>onException</tt> is supported, which specifies the state, to which an object transits, in case of an exception being thrown (from the place where the object is used: a method or constructor). For example, the specification of some of <tt>InputStream</tt>s methods could look like this:
-
-<pre lang="java" line="1">class InputStream implements Closeable {
+```java
+class InputStream implements Closeable {
    int read() /*@Open(onException=InputStreamError.class)*/ 
     throws java.io.IOException;
    close() /*@Any(after=Closed.class)*/
 }
-</pre>
+```
 
 This specification says that the <tt>read</tt> method can only be invoked when the object is in the &#8220;open&#8221; state, and in case of an error, the object transits to the &#8220;inputStreamError&#8221; state; that means that the <tt>read</tt> method cannot be invoked anymore. The <tt>close</tt> method transits the object from any state (so it can be invoked both when the stream is open, or in an error), to a closed state; again, <tt>read</tt> cannot be invoked anymore.
 
 The annotations are in comments to make the code Java5-compatible; the checkers framework will recognize them.
 
 Thanks to such specification, and the typestate checker, we can verify at compile-time that no read operations are invoked when the stream is closed. For example, the code below won&#8217;t compile (type-check), if compiled with the typestate checker, because of the invalid use of the last <tt>read</tt> method:
-
-<pre lang="java" line="1">int test(@Open InputStream stream) throws IOException {
+```java
+int test(@Open InputStream stream) throws IOException {
   int ret = 0;
   try {
     int input;
@@ -110,7 +110,7 @@ Thanks to such specification, and the typestate checker, we can verify at compil
 
   return ret;
 }
-</pre>
+```
 
 More examples can be found in the <tt>examples</tt> directory of the source distribution (and ran with the <tt>example.sh</tt> script; on github: [example 1][6], [example 2][7])
 

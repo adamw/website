@@ -369,8 +369,8 @@ Luckily, [akka-cluster][7] is there to help! Let’s see how using it we can mak
 First of all we need a working cluster. We will need two new dependencies in our [`build.sbt` file][8], `akka-cluster` and `akka-contrib`, as we will be using some contributed extensions.
 
 Secondly, we need to provide configuration for the `ActorSystem` with clustering enabled. It’s good to make it clear what’s the purpose of a config file, hence there&#8217;s the [`cluster-broker-template.conf` file][9]:
-
-<pre lang="bash" line="1">akka {
+```bash
+akka {
   actor.provider = "akka.cluster.ClusterActorRefProvider"
 
   remote.netty.tcp.port = 0 // should be overriden
@@ -389,7 +389,7 @@ Secondly, we need to provide configuration for the `ActorSystem` with clustering
 
   extensions = [ "akka.contrib.pattern.ClusterReceptionistExtension" ]
 }
-</pre>
+```
 
 Going through the settings:
 
@@ -400,8 +400,8 @@ Going through the settings:
   * finally, we are declaring that any cluster nodes started using the config file will have the `broker` role and use the cluster receptionist extension &#8211; but more on that later.
 
 Actually starting a clustered actor system is now very simple, see the [`BrokerManager` class][11]:
-
-<pre lang="scala" line="1">class BrokerManager(clusterPort: Int) {
+```scala
+class BrokerManager(clusterPort: Int) {
    // …
    val conf = ConfigFactory
       .parseString(s"akka.remote.netty.tcp.port=$clusterPort")
@@ -410,24 +410,24 @@ Actually starting a clustered actor system is now very simple, see the [`BrokerM
    val system = ActorSystem(s"broker", conf)
    // ...
 }
-</pre>
+```
 
 To specify the port we create configuration from a string with only the port part specified, and to use the other settings, we fall back to the configuration from the template file.
 
 Starting cluster nodes is just a matter of starting three [simple applications][12]:
-
-<pre lang="scala" line="1">object ClusteredBroker1 extends App {
+```scala
+object ClusteredBroker1 extends App {
   new BrokerManager(9171).run()
 }
-</pre>
+```
 
 # Cluster singleton
 
 Having the cluster ready, we now have to start the broker on one of the nodes. At any time, there should be only one broker running &#8211; otherwise the queue would get corrupted. For that the [Cluster Singleton][13] contrib extension is perfect.
 
 To use the extension we need to create an actor, which will be managed by the singleton extension and started on only one cluster node. Hence we create the `BrokerManagerActor` and we can now [start the singleton][14]:
-
-<pre lang="scala" line="1">def run() {
+```scala
+def run() {
    // …
    system.actorOf(ClusterSingletonManager.props(
       singletonProps = Props(classOf[BrokerManagerActor], clusterPort),
@@ -451,7 +451,7 @@ class BrokerManagerActor(clusterPort: Int) extends Actor {
 
   override def receive = { case _ => } 
 }
-</pre>
+```
 
 In the `ClusterSingletonManager` properties, we specify the actor to run, the message that can be used to terminate the actor, and the cluster roles on which the actor can run (our clusters’ nodes have only one role, `broker`).
 
@@ -460,8 +460,8 @@ The `BrokerManagerActor` takes a port (should be unique to each node if we want 
 # Cluster client & receptionist: cluster side
 
 We now have a single broker running in the cluster, but how can clients know what’s the address of the singleton? Well, we can just ask the `BrokerManagerActor` actor for that! This can be done by a simple message exchange:
-
-<pre lang="scala" line="1">case object GetBrokerAddresses
+```scala
+case object GetBrokerAddresses
 case class BrokerAddresses(sendServerAddress: InetSocketAddress, 
    receiveServerAddress: InetSocketAddress)
 
@@ -472,13 +472,13 @@ class BrokerManagerActor(clusterPort: Int) extends Actor {
          sendServerAddress, receiveServerAddress)
   }
 }
-</pre>
+```
 
 One problem remains, though. The clients that want to use our message queue need not be members of the cluster. Here the [Cluster Client][15] contrib extension can help.
 
 On the cluster node side, the client extension provides a receptionist, with which actors, which want to be visible outside can register. And that’s what our `BrokerManagerActor` [does on startup][16]:
-
-<pre lang="scala" line="1">class BrokerManagerActor(clusterPort: Int) extends Actor {
+```scala
+class BrokerManagerActor(clusterPort: Int) extends Actor {
    // …
    override def preStart() = {
       // ...
@@ -486,13 +486,13 @@ On the cluster node side, the client extension provides a receptionist, with whi
          .registerService(self)
    }
 }
-</pre>
+```
 
 # Cluster client & receptionist: client side
 
 As for the clients itself, they also [need some configuration][17] to communicate with the cluster:
-
-<pre lang="bash" line="1">akka {
+```bash
+akka {
   actor.provider = "akka.remote.RemoteActorRefProvider"
 
   remote.netty.tcp.port = 0
@@ -504,7 +504,7 @@ cluster.client.initial-contact-points = [
   "akka.tcp://broker@127.0.0.1:9172",
   "akka.tcp://broker@127.0.0.1:9173"
 ]
-</pre>
+```
 
 Again going through the settings:
 
@@ -512,8 +512,8 @@ Again going through the settings:
   * similarly to the seed nodes, we need to provide seed contact points, so that the client has some way of initiating communication with the cluster
 
 Actually initiating a cluster client is [quite straightforward][18], we need to create an actor system and create an actor which will communicate with the cluster:
-
-<pre lang="scala" line="1">val conf = ConfigFactory.load("cluster-client")
+```scala
+val conf = ConfigFactory.load("cluster-client")
 implicit val system = ActorSystem(name, conf)
 
 val initialContacts = conf
@@ -525,11 +525,11 @@ val initialContacts = conf
  
 val clusterClient = system.actorOf(
   ClusterClient.props(initialContacts), "cluster-client")
-</pre>
+```
 
 To start a client of our message queue (we have two types of clients: one sends messages to the queue, the other received messages from it), we need to find out what’s the address of the broker. To do that, we [ask (using Akka’s ask pattern) the broker][19] registered with the receptionist about its address:
-
-<pre lang="scala" line="1">clusterClient ? ClusterClient.Send(
+```scala
+clusterClient ? ClusterClient.Send(
    "/user/broker-manager/broker", 
    GetBrokerAddresses, 
    localAffinity = false)
@@ -538,17 +538,17 @@ To start a client of our message queue (we have two types of clients: one sends 
          logger.info(s"Connecting a $name using broker address $ba.")
          runClient(ba, system)
       }
-</pre>
+```
 
 Finally, when the client stream completes (e.g. because a broker is down), we try to [restart it][20] after 1 second. Probably some exponential back-off mechanism would be useful here.
 
 The [runnable application][21] for running the queue-message senders and receivers uses the same code as the single-node one, the difference being that the broker address is obtained from the cluster:
-
-<pre lang="scala" line="1">object ClusterReceiver extends App with ClusterClientSupport {
+```scala
+object ClusterReceiver extends App with ClusterClientSupport {
   start("receiver", (ba, system) => 
     new Receiver(ba.receiveServerAddress)(system).run())
 }
-</pre>
+```
 
 # Running
 

@@ -244,8 +244,8 @@ Looks interesting? You can find the sources [on GitHub][1]. **Give us a star** i
 But, to the important parts &#8211; how does Supler look in action? You can see a [live demo here][2]. Try to remove some values, enter incorrect values, submit the form, refresh the page. You should sometimes get client-side validation errors, sometimes server-side validation errors, and sometimes, hopefully, success. A more detailed description of how the code works is below.
 
 First, we need to define the form on the backend. Here you can see the model, three simple case classes:
-
-<pre lang="scala" line="1">case class Person(
+```scala
+case class Person(
   firstName: String, lastName: String, age: Int,
   address1: Option[String], address2: Option[String],
   gender: String, cars: List[Car], legoSets: List[LegoSet])
@@ -253,11 +253,11 @@ First, we need to define the form on the backend. Here you can see the model, th
 case class Car(make: String, year: Int)
 
 case class LegoSet(name: String, theme: String, number: Int, age: Int)
-</pre>
+```
 
 Next, we can use Supler&#8217;s DSL to define forms for editing `Car`s and `LegoSet`s:
-
-<pre lang="scala" line="1">val carForm = form[Car](f => List(
+```scala
+val carForm = form[Car](f => List(
   f.field(_.make).use(dataProvider(_ => List("Ford", "Toyota", "Mondeo", "Transit"))).label("Make"),
   f.field(_.year).validate(gt(1900)).label("Year")
 ))
@@ -268,16 +268,16 @@ val legoSetForm = form[LegoSet](f => List(
   f.field(_.number).label("Set number").validate(lt(100000)),
   f.field(_.age).label("Age").validate(ge(0), le(50))
 ))
-</pre>
+```
 
 As you can see, a form is a list of fields. Each field is defined using a type-safe closure, with an optional label, select options, and validation rules (which will be run both on the frontend and backend).
 
 We can now define a form for `Person`s, re-using the previously defined forms:
-
-<pre lang="scala" line="1">val personForm = form[Person](f => List(
+```scala
+val personForm = form[Person](f => List(
   f.field(_.firstName).label("First name"),
   f.field(_.lastName).label("Last name")
-    .validate(custom((e, v) => v.length &lt;= e.firstName.length, (e, v) => ValidationError("Last name must be longer than first name!"))),
+    .validate(custom((e, v) => v.length <= e.firstName.length, (e, v) => ValidationError("Last name must be longer than first name!"))),
   f.field(_.age).label("Age"),
   f.field(_.address1).label("Address 1"),
   f.field(_.address2).label("Address 2"),
@@ -285,15 +285,15 @@ We can now define a form for `Person`s, re-using the previously defined forms:
   f.subform(_.cars, carForm, Car(null, 0)).label("Cars").renderHint(asList()),
   f.subform(_.legoSets, legoSetForm, LegoSet(null, null, 0, 0)).label("Lego sets")
 ))
-</pre>
+```
 
 In addition to the previous definitions, here we have a custom validation rule, which will be run on the backend only &#8211; no translation to JavaScript is provided. Apart from simple fields, this form also contains two subforms &#8211; for lists of a person&#8217;s cars and Lego sets. The default rendering of a subform list is a table; an alternative is a list of forms, which is used for cars.
 
 And that&#8217;s it for the backend part. How you serve the JSON is entirely up to you. In our [demo server][3] we use [spray.io][4] for HTTP part, but it can be any web framework.
 
 Now, the frontend. We need to designate a place, where our form will be rendered. A simple `div` will suffice. We also need a submit button and some placeholder for feedback:
-
-<pre lang="html" line="1"><div>
+```html
+<div>
   <a href="#" class="btn btn-primary btn-lg" id="submit" role="button">Submit</a>
     
   
@@ -307,18 +307,18 @@ Now, the frontend. We need to designate a place, where our form will be rendered
   </div>
   
 </div>
-</pre>
+```
 
 Next, when the page loads and we obtain the JSON description of the form (e.g. via a simple ajax call), we create a `SuplerForm` instance and instruct it to create and render the form:
-
-<pre lang="javascript" line="1">var formContainer = document.getElementById('form-container');
+```javascript
+var formContainer = document.getElementById('form-container');
 var form =  = new SuplerForm(formContainer, {});
 form.render(formJson);
-</pre>
+```
 
 And finally, we need some JavaScript to call the correct methods; here I&#8217;m using JQuery to send the data to the server and handle the response:
-
-<pre lang="javascript" line="1">$('#submit').click(function() {
+```javascript
+$('#submit').click(function() {
   var hasErrors = form.validate();
 
   if (hasErrors) {
@@ -345,7 +345,7 @@ And finally, we need some JavaScript to call the correct methods; here I&#8217;m
 
   return false;
 });
-</pre>
+```
 
 Remember that `form` is an instance of the `SuplerForm` class. Upon an invocation of `validate()`, client-side validations are run, and incorrect fields are marked as such. If there are no errors, the form is submitted, and depending if server-side errors where returned or not, they are applied to the form, or a success message is shown.
 

@@ -160,8 +160,8 @@ tags:
 Suppose you have a `Product` entity and that you want to implement a method which sends the product to a customer (let&#8217;s call it `ship`). For that method to work, you need a service for calculating prices and a goods transporting service. To wire the services nicely, the natural choice nowadays is a DI framework (Seam, Guice, Spring, CDI, &#8230;).
 
 Chances are high that to implement the above scenario, you would create a `ProductService` or a `ProductManager` (or if you have more specialized services, a `ProductShipper`) which would look more or less like this:
-
-<pre lang="java" line="1">public class ProductService {
+```java
+public class ProductService {
    // Here we can use setter injection, constructor injection, etc., doesn't matter
    @Inject private PriceCalculatorService priceCalculator;
    @Inject private TransportService transport;
@@ -174,15 +174,15 @@ Chances are high that to implement the above scenario, you would create a `Produ
 
    // (...)
 }
-</pre>
+```
 
 The main problem with that solution is that the product is always passed as an argument.
 
 Check in your project: if you&#8217;re using DI, and you have an `X` entity, do you have an `XService` or `XManager` with lots of method where `X` is the first argument?
 
 Wouldn&#8217;t it be better if you could create something like this:
-
-<pre lang="java" line="1">public class ProductShipper {
+```java
+public class ProductShipper {
    private final Product product;
   
    public ProductShipper(Product product) { this.product = product; }
@@ -191,7 +191,7 @@ Wouldn&#8217;t it be better if you could create something like this:
       // ???
    }
 }
-</pre>
+```
 
 The previous way is more procedural: the service/manager is a set of procedures you can run, where the execution takes a product and a customer as arguments. Here we have a more OO approach, which has many benefits:
 
@@ -214,10 +214,10 @@ Hence we come to some **problems with DI frameworks**:
 How to solve these problems?
 
 I think a good starting point is something that I call [object services][1]. Using them, you can inject a provider, with which you can obtain a service, given an entity (or any other object). The good side is that injection into the obtained services works normally. Following our example, the code could look like this:
-
-<pre lang="java" line="1">public class UserInterface {
+```java
+public class UserInterface {
    // OSP stands for Object Service Provider
-   @Inject OSP&lt;Product, ProductShipper> shipperProvider;   
+   @Inject OSP<Product, ProductShipper> shipperProvider;   
 
    public void shipClicked() {
       shipperProvider.f(getProduct()).ship(getCustomer());
@@ -225,7 +225,7 @@ I think a good starting point is something that I call [object services][1]. Usi
 }
 
 // OS stands for Object Service
-public class ProductShipper implements OS&lt;Product> {
+public class ProductShipper implements OS<Product> {
    private Product product;
   
    public void setServiced(Product product) { this.product = product; }
@@ -240,7 +240,7 @@ public class ProductShipper implements OS&lt;Product> {
       transport.send(address, product);
    }
 }
-</pre>
+```
 
 The good thing here is that `shipperProvider.f(getProduct())` is a regular object, which has the product encapsulated. It can be freely passed around, and you can create multiple shippers for different products.
 

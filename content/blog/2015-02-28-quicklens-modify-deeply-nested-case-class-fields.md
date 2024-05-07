@@ -76,44 +76,44 @@ _TL;DR_: [Quicklens][1]: modify deeply nested fields in case classes, e.g.:
 Similar to [lenses][2], but without the actual lens creation.
 
 Lenses are very useful when you have to update a deeply nested field in a hierarchy of case classes. For example if we have:
-
-<pre lang="scala" line="1">case class Street(name: String)
+```scala
+case class Street(name: String)
 case class Address(street: Street)
 case class Person(address: Address)
 
 val person = Person(Address(Street("1 Functional Rd.")))
-</pre>
+```
 
 and we’d like to modify the `name` of the street (let’s say convert to upper case), we would have to do:
-
-<pre lang="scala" line="1">person.copy(
+```scala
+person.copy(
   address = person.address.copy(
     street = person.address.street.copy(
       name = person.address.street.name.toUpperCase
     )
   )
 )
-</pre>
+```
 
 Quite a lot of boilerplate! Plus it’s quite hard to see what we are actually trying to achieve.
 
 One solution is to use lenses and lens composition, which provide a much shorter way to achieve the above. There’s a couple of lens libraries, e.g. [Monocle][3]; using it, our example now becomes:
-
-<pre lang="scala" line="1">val _name = Lenser[Street](_.name)
+```scala
+val _name = Lenser[Street](_.name)
 val _street = Lenser[Address](_.address)
 val _address = Lenser[Person](_.person)
 
 (_address ^|-> _street ^|-> _name).modify(_.toUpperCase)(person)
-</pre>
+```
 
 Lenses can be also created using macro annotations, however that’s IDE-unfriendly. The lens objects (`_name`, `_street`, `_address`) provide a view into a specific field of a case class, and can be composed with each other (plus a couple of extra things!).
 
 What if we just want to update a field? The process of creating the lens objects can then become boilerplate as well.
 
 Using the [Quicklens][1] macro we can simplify the original task to:
-
-<pre lang="scala" line="1">modify(person)(_.address.street.name).using(_.toUpperCase)
-</pre>
+```scala
+modify(person)(_.address.street.name).using(_.toUpperCase)
+```
 
 As `modify` is a macro, this code is transformed during **compile time** into the appropriate chain of &#8220;copy&#8221; invocations (no intermediate objects or actual lenses are created); hence the bytecode is almost identical to the original, &#8220;boilerplate&#8221; solution.
 

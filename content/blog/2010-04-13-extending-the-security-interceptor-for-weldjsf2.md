@@ -370,10 +370,10 @@ tags:
 
 ---
 In my [previous][1] post, I described how to create a simple security interceptor, which checks conditions defined using EL expressions, e.g.:
-
-<pre lang="java" line="1">@Secure("#{loggedInUser.name == arg0.name}")  
-public List&lt;Message> listMessages(User owner) { ... }  
-</pre>
+```java
+@Secure("#{loggedInUser.name == arg0.name}")  
+public List<Message> listMessages(User owner) { ... }  
+```
 
 Now, it would be nice to be able to stack such annotations, so that they can be placed:  
 * on methods  
@@ -381,23 +381,23 @@ Now, it would be nice to be able to stack such annotations, so that they can be 
 * on other annotations, to create &#8220;security bindings&#8221;
 
 An example usage could be:
-
-<pre lang="java" line="1">@Secure("#{loggedInUser != null}")  
+```java
+@Secure("#{loggedInUser != null}")  
 public class Messages {
    @AdminOnly
    public void deleteAllMessages() { ... }
 
    @Secure("#{loggedInUser.maxMessageListCount == count}")
-   public List&lt;Message> listMessages(@ELVar("user") User owner, @ELVar("count") int count) { ... }
+   public List<Message> listMessages(@ELVar("user") User owner, @ELVar("count") int count) { ... }
 }  
-</pre>
+```
 
 where `@AdminOnly` is defined as:
-
-<pre lang="java" line="1">@SecureBinding
+```java
+@SecureBinding
 @Secure("#{loggedInUser.isAdministrator}")
 public @interface AdminOnly { }
-</pre>
+```
 
 This way common security constraints can be expressed as annotations or on the class. I&#8217;m also using an improvement suggested by [Dan Allen][2], to name the method arguments using `@ELVar`, instead of naming them `arg0`, `arg1`, etc. This also allows to refer to method arguments in the &#8220;security binding&#8221; annotations, whatever the position of the argument is.
 
@@ -408,24 +408,24 @@ The extension observes the `ProcessAnnotatedType` event, which is fired for each
 One last obstacle to overcome is to get the value of the generated `@InterceptSecure` annotation in the interceptor. Currently this is not possible using e.g. `BeanManager`, but should be address in CDI Maintenance Release (see [here][4]), so as a temporary solution all the generated annotations are stored in a map in the extension. All extensions are application-scoped beans, so the information can be accessed from the interceptor. One shortcoming of the solution is that one method may belong to several, differently annotated CDI beans.
 
 The code for the annotation and extension:
-
-<pre lang="java" line="1">@InterceptorBinding
+```java
+@InterceptorBinding
 public @interface InterceptSecure {
     @Nonbinding
     String[]    value();
 }
 
 public class SecurityExtension implements Extension {
-    private final Map&lt;Method, InterceptSecure> interceptSecureForMethods = new HashMap&lt;Method, InterceptSecure>();
+    private final Map<Method, InterceptSecure> interceptSecureForMethods = new HashMap<Method, InterceptSecure>();
 
     public InterceptSecure getInterceptSecure(Method m) {
         return interceptSecureForMethods.get(m);
     }
 
-    public &lt;T> void processAnnotatedType(@Observes ProcessAnnotatedType&lt;T> event) {
+    public <T> void processAnnotatedType(@Observes ProcessAnnotatedType<T> event) {
         // A flag indicating if the builder was used to modify the annotations
         boolean used = false;
-        NewAnnotatedTypeBuilder&lt;T> builder = new NewAnnotatedTypeBuilder&lt;T>(event.getAnnotatedType());
+        NewAnnotatedTypeBuilder<T> builder = new NewAnnotatedTypeBuilder<T>(event.getAnnotatedType());
 
         // We need to read the values of the @Secure annotation that are present on:
         // 1. types (classes)
@@ -433,14 +433,14 @@ public class SecurityExtension implements Extension {
         // 3. arbitrarily nested on @SecureBinding annotations
 
         // Gathering the initial secure values from the type
-        List&lt;String> initialSecureValues = new ArrayList&lt;String>();
+        List<String> initialSecureValues = new ArrayList<String>();
         for (Annotation annotation : event.getAnnotatedType().getAnnotations()) {
             collectSecureValues(annotation, initialSecureValues);
         }
 
         for (AnnotatedMethod<?> m : event.getAnnotatedType().getMethods()) {
             // Gathering the secure values from the method
-            final List&lt;String> values = new ArrayList&lt;String>(initialSecureValues);
+            final List<String> values = new ArrayList<String>(initialSecureValues);
             collectSecureValues(m, values);
 
             // If any values have been gathered, adding the annotation to the method and storing it
@@ -460,13 +460,13 @@ public class SecurityExtension implements Extension {
         }
     }
 
-    private void collectSecureValues(AnnotatedMethod m, List&lt;String> values) {
+    private void collectSecureValues(AnnotatedMethod m, List<String> values) {
         for (Annotation annotation : m.getAnnotations()) {
             collectSecureValues(annotation, values);
         }
     }
 
-    private void collectSecureValues(Annotation annotation, List&lt;String> values) {
+    private void collectSecureValues(Annotation annotation, List<String> values) {
         if (Secure.class.isAssignableFrom(annotation.annotationType())) {
             values.add(((Secure) annotation).value());
         } else {
@@ -478,7 +478,7 @@ public class SecurityExtension implements Extension {
         }
     }
 
-    private static class InterceptSecureImpl extends AnnotationLiteral&lt;InterceptSecure> implements InterceptSecure {
+    private static class InterceptSecureImpl extends AnnotationLiteral<InterceptSecure> implements InterceptSecure {
         private final String[] values;
 
         private InterceptSecureImpl(String[] values) {
@@ -491,11 +491,11 @@ public class SecurityExtension implements Extension {
         }
     }
 }
-</pre>
+```
 
 And for the interceptor:
-
-<pre lang="java" line="1">@Interceptor
+```java
+@Interceptor
 @InterceptSecure("")
 public class SecurityInterceptor {
     @Inject
@@ -518,7 +518,7 @@ public class SecurityInterceptor {
         return ctx.proceed();
     }
 }
-</pre>
+```
 
 Adam
 

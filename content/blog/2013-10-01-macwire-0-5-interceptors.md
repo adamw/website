@@ -167,8 +167,8 @@ Interceptors are very useful for implementing cross-cutting concerns. Classic us
 MacWire defines an `Interceptor` trait, which has just one method: `apply`. When applied to an object, it should return an intercepted instance.
 
 Suppose we have a couple of objects, and we want each method in these objects to be surrounded by a transaction. The objects are defined and wired inside a trait (could also be inside a class/object). That&#8217;s of course a perfect fit for an interceptor; we&#8217;ll call the interceptor `transactional`. We will also make it abstract so that we can swap implementations for testing, and keep the interceptor usage **declarative**:
-
-<pre lang="scala" line="1">trait BusinessLogicModule {
+```scala
+trait BusinessLogicModule {
   // not intercepted
   lazy val balanceChecker = new BalanceChecker()
 
@@ -179,7 +179,7 @@ Suppose we have a couple of objects, and we want each method in these objects to
   // abstract interceptor
   def transactional: Interceptor
 }
-</pre>
+```
 
 MacWire provides two interceptor implementations:
 
@@ -187,8 +187,8 @@ MacWire provides two interceptor implementations:
   * `NoOpInterceptor` &#8211; useful for testing, when applied returns the instance unchanged
 
 A proxying interceptor can be created in two ways: either by extending the `ProxyingInterceptor` trait, or by passing a function to the `ProxyingInterceptor` object. For example:
-
-<pre lang="scala" line="1">object MyApplication extends BusinessLogicModule {
+```scala
+object MyApplication extends BusinessLogicModule {
   lazy val tm = new TransactionManager()
 
   // Implementing the abstract interceptor
@@ -212,11 +212,11 @@ A proxying interceptor can be created in two ways: either by extending the `Prox
     }
   }
 }
-</pre>
+```
 
 The `ctx` instance contains information on the invocation, such as the method being called, the parameters or the target object. Another example of an interceptor, which uses this information, is a `TimingInterceptor`, defined in the trait-extension style:
-
-<pre lang="scala" line="1">object TimingInterceptor extends ProxyingInterceptor {
+```scala
+object TimingInterceptor extends ProxyingInterceptor {
   def handle(ctx: InvocationContext) = {
     val classWithMethodName = s"${ctx.target.getClass.getSimpleName}.${ctx.method.getName}"
     val start = System.currentTimeMillis()
@@ -229,7 +229,7 @@ The `ctx` instance contains information on the invocation, such as the method be
     }
   }
 }
-</pre>
+```
 
 You can see this interceptor in action in the MacWire+Scalatra example, which also uses scopes and the `wire[]` macro. [Just explore the code on GitHub][2], or run it by executing `sbt examples-scalatra/run` after cloning MacWire and going to <http://localhost:8080>.
 

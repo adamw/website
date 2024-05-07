@@ -229,16 +229,16 @@ tags:
 
 ---
 Waiting for the [Seam3][1] security module, I wrote a simple security interceptor (inspired by the [Seam2 security annotation][2]). You can use it like this:
-
-<pre lang="java" line="1">@Secure("#{loggedInUser.name == arg0.name}") 
-public List&lt;Message> listMessages(User owner) { ... }
-</pre>
+```java
+@Secure("#{loggedInUser.name == arg0.name}") 
+public List<Message> listMessages(User owner) { ... }
+```
 
 Here, `loggedInUser` is a `@Named` Weld (CDI) bean, and `arg0` is the first argument of the method. This is a slight modification to the Seam2 security annotation, where it wasn&#8217;t possible to reference arguments. If the EL expression doesn&#8217;t evaluate to `true`, an exception is thrown.
 
 The implementation is pretty straightforward, as adding an interceptor in Weld is really simple. First, we need the annotation:
-
-<pre lang="java" line="1">/**
+```java
+/**
  * @author Adam Warski (adam at warski dot org)
  */
 @Retention(RUNTIME)
@@ -254,13 +254,13 @@ public @interface Secure {
     @Nonbinding
     String  value();
 }
-</pre>
+```
 
 The key components here is the `@InterceptorBinding` meta-annotation, and specifying the value of to be `@Nonbinding`. If the value element was binding, then we would need to define an interceptor for each possible String value.
 
 Next, the interceptor itself:
-
-<pre lang="java" line="1">@Interceptor
+```java
+@Interceptor
 @Secure("")
 public class SecurityInterceptor {
     private String getArgName(int index) { return "arg" + index; }
@@ -274,9 +274,9 @@ public class SecurityInterceptor {
         String expression = secure.value();
 
         // Populating the request map so that parameters are available (arg0, ...)
-        Map&lt;String, Object> requestMap = facesCtx.getExternalContext()
+        Map<String, Object> requestMap = facesCtx.getExternalContext()
                 .getRequestMap();
-        for (int i = 0; i &lt; ctx.getParameters().length; i++) {
+        for (int i = 0; i < ctx.getParameters().length; i++) {
             Object parameter = ctx.getParameters()[i];
             requestMap.put(getArgName(i), parameter);
         }
@@ -287,7 +287,7 @@ public class SecurityInterceptor {
                 .getValue(elCtx);
 
         // Removing the parameters (arg0, arg1, ...)
-        for (int i = 0; i &lt; ctx.getParameters().length; i++) {
+        for (int i = 0; i < ctx.getParameters().length; i++) {
             requestMap.remove(getArgName(i));
         }
         
@@ -310,14 +310,14 @@ public class SecurityInterceptor {
                 " or its class " + m.getClass().getName());
     }
 }
-</pre>
+```
 
 And finally, we need an entry in `beans.xml`, enabling the interceptor:
-
-<pre lang="xml" line="1">&lt;interceptors>
-   &lt;class>util.security.SecurityInterceptor&lt;/class>
-&lt;/interceptors>
-</pre>
+```xml
+<interceptors>
+   <class>util.security.SecurityInterceptor</class>
+</interceptors>
+```
 
 One shortcoming is that it's not currently possible to place one `@Secure` annotation on the class, and another on the methods (see [this][3] thread on the forum). The idea is that then the class-level annotation expresses general security constraints, which can be later refined on the method level.
 

@@ -16,6 +16,9 @@ name = "Adam Warski"
 [[params.plugins.js]]
   link = "plugins/youtube-lite.js"
 
+[markup.goldmark.renderer]
+unsafe= true
+
 # Menus
 [menus]
 [[menus.main]]

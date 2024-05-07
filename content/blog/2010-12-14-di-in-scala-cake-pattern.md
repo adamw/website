@@ -275,20 +275,20 @@ I would like to extend the Cake Pattern to allow defining dependencies which nee
 ### The Cake Pattern: interfaces
 
 But let&#8217;s start with an example of the base pattern. Let&#8217;s say that we have a `User` class,
-
-<pre lang="scala" line="1">sealed case class User(username: String)
-</pre>
+```scala
+sealed case class User(username: String)
+```
 
 and that we want to create a `UserRepository` service. Using the Cake Pattern, first we create the &#8220;interface&#8221;:
-
-<pre lang="scala" line="1">trait UserRepositoryComponent { // For expressing dependencies
+```scala
+trait UserRepositoryComponent { // For expressing dependencies
    def userRepository: UserRepository // Way to obtain the dependency
 
    trait UserRepository { // Interface exposed to the user
       def find(username: String): User
    }
 }
-</pre>
+```
 
 We have three important things here:
 
@@ -299,8 +299,8 @@ We have three important things here:
 ### The Cake Pattern: implementations
 
 An implementation of a component looks pretty similar:
-
-<pre lang="scala" line="1">trait UserRepositoryComponentHibernateImpl
+```scala
+trait UserRepositoryComponentHibernateImpl
                 extends UserRepositoryComponent {
    def userRepository = new UserRepositoryImpl 
 
@@ -311,15 +311,15 @@ An implementation of a component looks pretty similar:
       }
    }
 }
-</pre>
+```
 
 Nothing special here. The component implementation extends the &#8220;interface&#8221; component trait. This brings into scope the `UserRepository` trait, which can be implemented.
 
 ### Using dependencies
 
 How can one component/service say that it depends on another? Scala&#8217;s [self-type annotations][6] are of much use here. For example, if a `UserAuthorization` component requires the `UserRepository`, we can write this as follows:
-
-<pre lang="scala" line="1">// Component definition, as before
+```scala
+// Component definition, as before
 trait UserAuthorizationComponent {
    def userAuthorization: UserAuthorization
 
@@ -344,30 +344,30 @@ trait UserAuthorizationComponentImpl
       }
    }
 }
-</pre>
+```
 
 The important part here is `this: UserRepositoryComponent =>`. By this code fragment we specify that the `UserAuthorizationComponentImpl` requires some implementation of the `UserRepositoryComponent`. This also brings the content of the `UserRepositoryComponent` into scope, so both the method to obtain the user repository and the `UserRepository` trait itself are visible.
 
 ### Wiring
 
 How do we wire different components together? Again quite easily. For example:
-
-<pre lang="scala" line="1">val env = new UserAuthorizationComponentImpl 
+```scala
+val env = new UserAuthorizationComponentImpl 
             with UserRepositoryComponentHibernateImpl
 
 env.userAuthorization.authorize(User("1"))
-</pre>
+```
 
 First we need to construct the environment, by combining all of the components implementations that we want to use into a single object. Next, we can call methods on the environment to obtain services.
 
 What about testing? Also easy:
-
-<pre lang="scala" line="1">val envTesting = new UserAuthorizationComponentImpl 
+```scala
+val envTesting = new UserAuthorizationComponentImpl 
             with UserRepositoryComponent {
    def userRepository = mock(classOf[UserRepository])
 }
 envTesting.userAuthorization.authorize(User("3"))
-</pre>
+```
 
 Here we have mocked the user repository, so we can test the `UserAuthorizationComponentImpl` in isolation.
 
@@ -380,8 +380,8 @@ Why are `def`s in the component definition better as the way to obtain the depen
 Finally, we arrive to the main point. What if our dependencies need some data at runtime? For example, if we wanted to create a `UserInformation` service, which wraps a `User` instance?
 
 Well, who said the the methods by which we obtain the dependencies need to be parameterless? 
-
-<pre lang="scala" line="1">// Interface
+```scala
+// Interface
 trait UserInformationComponent {
    // What is needed to create the component
    def userInformation(user: User)
@@ -411,7 +411,7 @@ trait UserInformationComponentImpl
 val env = new UserInformationComponentImpl 
                         with CountryRepositoryComponentImpl    
 env.userInformation(User("someuser@domain.pl")).userCountry
-</pre>
+```
 
 Isn&#8217;t this better than passing the `User` instance as a method parameter?
 

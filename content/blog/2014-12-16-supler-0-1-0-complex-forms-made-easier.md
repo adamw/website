@@ -133,19 +133,19 @@ What’s new since the initial announcement? Three major features:
 ## Actions
 
 First of all, forms can now contain buttons tied to server-side actions. These actions can modify the backing object, e.g.:
-
-<pre lang="scala" line="1">case class Person(name: String)
+```scala
+case class Person(name: String)
 
 val personForm = form[Person](f => List(
   f.field(_.name).label("Name"),
   f.action("duplicateName")(p => ActionResult(p.copy(name = s"${p.name} ${p.name}"))
     .label("Duplicate name")
 ))
-</pre>
+```
 
 Quite commonly, we need to modify the parent object, e.g. to remove or change the order of sub-objects (sub-forms). This is possible by parametrising the form with the action and using `parentAction`s:
-
-<pre lang="scala" line="1">case class Address(street: String)
+```scala
+case class Address(street: String)
 case class Person(name: String, addresses: List[Address]) {
   def removeAddress(a: Address) = this.copy(addresses = this.addresses diff List(a))
 }
@@ -161,7 +161,7 @@ val personForm = form[Person](f => List(
     f.parentAction((person, index, address) => ActionResult(person.removeAddress(address)))))
     .label("Addresses")
 ))
-</pre>
+```
 
 Note that the parametrisation is pure Scala: we are defining a method, which returns an immutable form description.
 
@@ -180,8 +180,8 @@ Further development will include making the mechanism configurable by specifying
 The last addition is being able to customise the HTML rendering process by providing HTML templates. By default [Bootstrap3][7]-compatible markup is generated, but that may not be of course what you want.
 
 You may customise rendering at various levels of granularity: starting from labels, through validation, individual inputs, to overall shape of a form entry. The customisations may affect an individual field, all fields of a given type, or all fields. For example:
-
-<pre lang="html" line="1"><div id="form-container">
+```html
+<div id="form-container">
   <div supler:fieldTemplate supler:fieldPath="lastName">
     <div class="formGroup">
       <i>{{suplerLabel}} <span style="font-size: xx-small">(extra information)</span></i>
@@ -193,7 +193,7 @@ You may customise rendering at various levels of granularity: starting from labe
   </div>
   
 </div>
-</pre>
+```
 
 The full details are [here][8].
 

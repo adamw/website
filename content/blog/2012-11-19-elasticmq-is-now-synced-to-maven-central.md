@@ -51,18 +51,18 @@ tags:
 Thanks to Sonatype OSS repositories, [ElasticMQ version 0.6.1][1] is now synced to central. All of the artifacts, except the standalone server (which depends on Ostrich, which isn&#8217;t available in the central repo) are synchronized. The [procedure][2] turned out to be pretty straighforward, and after a couple of days since the initial request the artifacts are there: <http://repo1.maven.org/maven2/org/elasticmq/>
 
 Hence now it is even easier to use ElasticMQ to test your SQS application. Just follow the [README][3] and add the following dependencies to your project:
-
-<pre lang="xml" line="1">&lt;dependency>
-    &lt;groupId>org.elasticmq&lt;/groupId>
-    &lt;artifactId>elasticmq-core_2.9.1&lt;/artifactId>
-    &lt;version>0.6.1&lt;/version>
-&lt;/dependency>
-&lt;dependency>
-    &lt;groupId>org.elasticmq&lt;/groupId>
-    &lt;artifactId>elasticmq-rest-sqs_2.9.1&lt;/artifactId>
-    &lt;version>0.6.1&lt;/version>
-&lt;/dependency>
-</pre>
+```xml
+<dependency>
+    <groupId>org.elasticmq</groupId>
+    <artifactId>elasticmq-core_2.9.1</artifactId>
+    <version>0.6.1</version>
+</dependency>
+<dependency>
+    <groupId>org.elasticmq</groupId>
+    <artifactId>elasticmq-rest-sqs_2.9.1</artifactId>
+    <version>0.6.1</version>
+</dependency>
+```
 
 Adam
 

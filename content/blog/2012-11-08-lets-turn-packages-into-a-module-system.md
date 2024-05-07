@@ -102,8 +102,8 @@ Second step is to define inter-module dependencies using this mechanism as well.
 Taking this further, we could specify **api** and **impl** type-packages. **Api**-type ones would by default be accessible from other packages. **Impl**-type packages, on the other hand, couldn&#8217;t be accessed without explicitly specifying them as a dependency.
 
 How could it look like in practice? A very rough sketch in Scala:
-
-<pre lang="scala" line="1">package foo.user
+```scala
+package foo.user
 
 // Even without definition, each package has an implicit package object 
 // implementing a PackageModule trait ...
@@ -115,7 +115,7 @@ package object dao {
   // FooLibs enum is defined in a top-level package or the build system
   override val moduleLibraries = List(FooLibs.JPA) 
 }
-</pre>
+```
 
 ### Refactoring
 

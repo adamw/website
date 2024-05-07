@@ -40,11 +40,11 @@ As always, the new release should be available in Maven Central soon, and links 
 ### scala-macro-debug
 
 I also updated the [example Scala macros][8] project, and deployed it to our repositories. If you don&#8217;t want to copy the code, you can now use the debug macro by adding:
-
-<pre lang="scala" line="1">resolvers += "SoftwareMill Snapshots" at "https://nexus.softwaremill.com/content/repositories/snapshots/"
+```scala
+resolvers += "SoftwareMill Snapshots" at "https://nexus.softwaremill.com/content/repositories/snapshots/"
 
 libraryDependencies += "com.softwaremill.scalamacrodebug" %% "macros" % "0.0.1-SNAPSHOT"
-</pre>
+```
 
 Adam
 

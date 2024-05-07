@@ -60,8 +60,8 @@ All of the changes are reflected in the [guide to DI in Scala][3].
 ## Tags/qualifiers
 
 If you have multiple objects of the same type which you want to use as dependencies, you need to somehow differentiate between them if you want `wire` to work (otherwise you’ll get a compile-time error). This can be now done with tags, inspired by the work of [Miles Sabin][4]:
-
-<pre lang="scala" line="1">class Berry()
+```scala
+class Berry()
 trait Black
 trait Blue
 
@@ -70,7 +70,7 @@ case class Basket(blueberry: Berry @@ Blue, blackberry: Berry @@ Black)
 lazy val blueberry = wire[Berry].taggedWith[Blue]
 lazy val blackberry = wire[Berry].taggedWith[Black]
 lazy val basket = wire[Basket]
-</pre>
+```
 
 `X @@ T` is type `X` tagged with tag `T`. The `x.taggedWith[T]` method is available on any type. Tags don’t have any runtime overhead, they are a purely compile-time construct.
 
@@ -79,11 +79,11 @@ As a bonus, your code will be more type-safe, as you won’t be able to use inco
 ## Wiring with anonymous function parameters
 
 This feature is especially useful when creating factories. Before, wiring only took into account values from the enclosing method parameters, enclosing trait/class/object and parents. Now, parameters of any enclosing anonymous functions are taken into account as well, allowing to write for example the following:
-
-<pre lang="scala" line="1">class TaxCalculator(taxBase: TaxBase, …)
+```scala
+class TaxCalculator(taxBase: TaxBase, …)
 
 lazy val taxCalculator = (taxBase: TaxBase) => wire[TaxCalculator]
-</pre>
+```
 
 ## `wireImplicit`
 

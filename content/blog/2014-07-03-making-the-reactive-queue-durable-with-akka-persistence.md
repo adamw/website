@@ -75,8 +75,8 @@ First of all, the [`QueueActor`][7] needs to extend `PersistentActor`, and defin
 But in order to recover, we first need to persist some events! This should of course be done when handling the message queue operations.
 
 For example, when sending a message, a `MessageAdded` event is persisted using `persistAsync`:
-
-<pre lang="scala" line="1">def handleQueueMsg: Receive = {
+```scala
+def handleQueueMsg: Receive = {
   case SendMessage(content) =>
     val msg = sendMessage(content)
     persistAsync(msg.toMessageAdded) { msgAdded =>
@@ -86,7 +86,7 @@ For example, when sending a message, a `MessageAdded` event is persisted using `
    
    // ...
 }
-</pre>
+```
 
 `persistAsync` is one way of persisting events using akka-persistence. The other, `persist` (which is also the default one), buffers subsequent commands (actor-messages) until the event is persisted; this is a bit slower, but also easier to reason about and remain consistent. However in case of the message queue such behaviour isn&#8217;t necessary. The only guarantee that we need is that the message send is acknowledged only after the event is persisted; and that’s why the reply is sent in the after-persist event handler. You can read more about [`persistAsync` in the docs][8].
 

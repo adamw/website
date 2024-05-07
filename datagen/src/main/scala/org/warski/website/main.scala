@@ -311,3 +311,25 @@ def readBlog2(url: String): BlogPost =
       Paths.get(f.getAbsolutePath()),
       ls3.mkString("\n") + "\n"
     )
+
+@main def fixBlogs3(): Unit =
+  import scala.util.matching.Regex
+  import java.util.regex.Matcher
+  val d = new File("/Users/adamw/projects/website/content/blog")
+  val pattern: Regex = """<pre lang="(\w+)" line="\d+">([\S\s]*?)</pre>""".r
+  for f <- d.listFiles() do
+    println(s"Processing $f")
+    var c = Source.fromFile(f).getLines().toList.mkString("\n")
+    c = pattern.replaceAllIn(
+      c,
+      m => {
+        val m1 = m.group(1)
+        val m2 = m.group(2).replaceAll("&lt;", "<").replaceAll("&gt;", ">")
+        Matcher.quoteReplacement(s"```$m1\n$m2\n```")
+      }
+    )
+    c = c.replaceAll("\n\n```", "\n```")
+    Files.writeString(
+      Paths.get(f.getAbsolutePath()),
+      c + "\n"
+    )

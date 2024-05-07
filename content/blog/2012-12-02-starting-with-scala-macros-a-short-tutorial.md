@@ -186,14 +186,14 @@ tags:
 Using some time during the weekend, I decided to finally explore one the new features in the coming Scala 2.10, [macros][1]. Macros are also written in Scala so in essence a macro is a piece of Scala code, executed at compile-time, which manipulates and modifies the AST of a Scala program.
 
 To do something useful, I wanted to implement a simple macro for debugging; I suppose I&#8217;m not alone in using println-debugging, that is debugging by inserting statements like:
-
-<pre lang="scala" line="1">println("After register; user = " + user + ", userCount = " + userCount)
-</pre>
+```scala
+println("After register; user = " + user + ", userCount = " + userCount)
+```
 
 running a test, and checking what the output is. Writing the variable name before the variable is tedious, so I wanted to write a macro which would do that for me; that is:
-
-<pre lang="scala" line="1">debug("After register", user, userCount)
-</pre>
+```scala
+debug("After register", user, userCount)
+```
 
 should have the same effect as the first snippet (it should generate code similar to the one above). 
 
@@ -212,8 +212,8 @@ A simple [SBT][4] build file could look like this: [Build.scala][5].
 &#8220;Hello World!&#8221; is always a great starting point. So my first step was to write a macro, which would expand `hello()` to `println("Hello World!")` at compile-time.
 
 In the macros subproject, we have to create a new object, which defines `hello()` and the macro:
-
-<pre lang="scala" line="1">package com.softwaremill.debug
+```scala
+package com.softwaremill.debug
 
 import language.experimental.macros
 
@@ -226,7 +226,7 @@ object DebugMacros {
     // TODO
   }
 }
-</pre>
+```
 
 There are a couple of important things here:
 
@@ -235,12 +235,12 @@ There are a couple of important things here:
   3. the macro implementation has two parameter lists: the first is the context (you can think about it as a compilation context), the second mirrors the parameter list of our method &#8211; here it&#8217;s empty. Finally, the return type must also match &#8211; however in the method we have a return type unit, in the macro we return an expression (which wraps a piece of an AST) of type unit.
 
 Now to the implementation, which is pretty short:
-
-<pre lang="scala" line="1">def hello_impl(c: Context)(): c.Expr[Unit] = {
+```scala
+def hello_impl(c: Context)(): c.Expr[Unit] = {
   import c.universe._
   reify { println("Hello World!") }
 }
-</pre>
+```
 
 Going line by line:
 
@@ -248,26 +248,26 @@ Going line by line:
   2. as we want to generate code which prints &#8220;Hello World!&#8221;, we need to create an AST for it. Instead of constructing it manually (which is possible, but doesn&#8217;t look too nice), Scala provides a `reify` method (reify is also a macro &#8211; a macro used when compiling macros :) ), which turns the given code into an `Expr[T]` (expressions wrap an AST and its type). As `println` has type unit, the reified expression has type `Expr[Unit]`, and we can just return it.
 
 Usage is pretty simple. In the testing subproject, write the following:
-
-<pre lang="scala" line="1">object DebugExample extends App {
+```scala
+object DebugExample extends App {
   import DebugMacros._
   hello()
 }
-</pre>
+```
 
 and run the code (e.g. with the `run` command in SBT shell).
 
 ### 3. Printing out a parameter
 
 Printing Hello World is nice, but it&#8217;s even nicer to print a parameter. The second macro will do just that: it will transform `printparam(anything)` into `println(anything)`. Not very useful, and pretty similar to what we&#8217;ve seen, with two crucial differences:
-
-<pre lang="scala" line="1">def printparam(param: Any): Unit = macro printparam_impl
+```scala
+def printparam(param: Any): Unit = macro printparam_impl
 
 def printparam_impl(c: Context)(param: c.Expr[Any]): c.Expr[Unit] = {
   import c.universe._
   reify { println(param.splice) }
 }
-</pre>
+```
 
 The first difference is that the method accepts a parameter `param: Any`. In the macro implementation, we have to mirror that &#8211; but same as with the return type, instead of `Any`, we accept an `Expr[Any]`, as during compile-time we operate on ASTs.
 
@@ -278,8 +278,8 @@ The second difference is the usage of `splice`. It is a special method of `Expr`
 Let&#8217;s now get to our debug method. First maybe let&#8217;s implement a single-variable debug, that is `debug(x)` should be transformed into something like `println("x = " + x)`.
 
 Here&#8217;s the macro:
-
-<pre lang="scala" line="1">def debug(param: Any): Unit = macro debug_impl
+```scala
+def debug(param: Any): Unit = macro debug_impl
 
 def debug_impl(c: Context)(param: c.Expr[Any]): c.Expr[Unit] = {
   import c.universe._
@@ -288,15 +288,15 @@ def debug_impl(c: Context)(param: c.Expr[Any]): c.Expr[Unit] = {
   val paramRepExpr = c.Expr[String](paramRepTree)
   reify { println(paramRepExpr.splice + " = " + param.splice) }
 }
-</pre>
+```
 
 The new thing is of course generating the prefix. To do that, we first turn the parameter&#8217;s tree into a `String`. The built-in method `show` does exactly that. A little note here; as we are turning an AST into a `String`, the output may look a bit different than in the original code. For vals declared inside a method, it will return simply the val name. For class fields, you&#8217;ll see something like `DebugExample.this.myField`. For expressions, e.g. `left + right`, you&#8217;ll see `left.+(right)`. Not perfect, but readable enough I think.
 
 Secondly, we need to create a tree (by hand this time) representing a constant `String`. Here you just have to know what to construct, e.g. by inspecting trees created by reification (or reading Scala compiler&#8217;s source code ;) ).
 
 Finally, we turn that simple tree into an expression of type `String`, and splice it inside the `println`. Running for example such code:
-
-<pre lang="scala" line="1">object DebugExample extends App {
+```scala
+object DebugExample extends App {
   import DebugMacros._
 
   val y = 10
@@ -309,13 +309,13 @@ Finally, we turn that simple tree into an expression of type `String`, and splic
 
   test()
 }
-</pre>
+```
 
 outputs:
-
-<pre lang="scala" line="1">p = 11
+```scala
+p = 11
 p.+(DebugExample.this.y) = 21
-</pre>
+```
 
 ### 5. Final product
 
@@ -326,14 +326,14 @@ In the macro implementation we first generate a tree (AST) for each parameter &#
 Finally, we have to turn the list of trees into an expression. To do that, we create a `Block`. A block takes a list of statements that should be executed, and an expression which is a result of the whole block. In our case the result is of course `()`.
 
 And now we can happily debug! For example, writing:
-
-<pre lang="scala" line="1">debug("After register", user, userCount)
-</pre>
+```scala
+debug("After register", user, userCount)
+```
 
 will print, when executed:
-
-<pre lang="scala" line="1">AfterRegister, user = User(x, y), userCount = 1029
-</pre>
+```scala
+AfterRegister, user = User(x, y), userCount = 1029
+```
 
 ### Summing up
 

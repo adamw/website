@@ -215,8 +215,8 @@ To create and test our reactive queue, we need three applications:
 We can run any number of `Sender`s and `Receiver`s, but of course we should run only one `Broker`.
 
 The first thing that we need to do is to connect the `Sender` with the `Broker`, and the `Receiver` with the `Broker` over a network. We can do that with the Akka reactive `StreamTCP` extension. Using a `bind` & `outgoingConnection` pair, we get a stream of connections on the binding side:
-
-<pre lang="scala" line="1">implicit val materializer = FlowMaterializer()
+```scala
+implicit val materializer = FlowMaterializer()
 
 // sender:
 val serverFlow = StreamTcp().outgoingConnection(sendServerAddress).flow
@@ -228,15 +228,15 @@ val serverFlow = StreamTcp().outgoingConnection(sendServerAddress).flow
 StreamTcp().bind(sendServerAddress).connections.foreach { conn =>
     // per-connection logic
 }
-</pre>
+```
 
 There’s a different address for sending and receiving messages.
 
 ## The sender
 
 Let’s look at the per-connection logic of the [`Sender`][11] first.
-
-<pre lang="scala" line="1">val source = 
+```scala
+val source = 
   Source(1.second, 1.second, () => { idx += 1; s"Message $idx from $senderName" })
   .map { msg =>
     logger.debug(s"Sender: sending $msg")
@@ -246,7 +246,7 @@ val sink = OnCompleteSink[ByteString] { t => logger.info("Stream completed"); ()
 
 val completeFlow = source.via(serverConnection.flow).to(sink)
 completeFlow.run()
-</pre>
+```
 
 We are creating a tick-flow source which produces a new message every second (very convenient for testing). Using the `map` stream transformer, we are creating a byte-frame with the message (more on that later). Having constructed a source, and a very simple sink (which just logs a message on stream completion), we define a complete flow: from the source, through the server&#8217;s flow, back to our sink. And we now have a reactive over-the-network stream of messages, meaning that messages will be sent only when the `Broker` can accept them. Otherwise back-pressure will be applied all the way up to the tick publisher.
 
@@ -257,8 +257,8 @@ But that&#8217;s only a description of how our (very simple) stream should look 
 ## The broker: sending messages
 
 On the other side of the network sits the [`Broker`][12]. Let’s see what happens when a message arrives.
-
-<pre lang="scala" line="1">StreamTcp().bind(sendServerAddress).connections.foreach { conn =>
+```scala
+StreamTcp().bind(sendServerAddress).connections.foreach { conn =>
   logger.info(s"Broker: send client connected (${conn.remoteAddress})")
 
   val sendToQueueSubscriber = ActorSubscriber[String](
@@ -273,15 +273,15 @@ On the other side of the network sits the [`Broker`][12]. Let’s see what happe
 
   conn.flow.to(sendSink).runWith(FutureSource(Promise().future))
 }
-</pre>
+```
 
 The `connections` returned by `bind` are a (reactive) `Source`: here we simply iterate over each connection, handling the incoming stream of bytes. We re-construct the `String` instances that were sent using our framing, and finally we direct that stream to a sink: the send-to-queue subscriber.
 
 To connect all the pieces together, we specify that the client-side flow (`conn.flow`) should be connected to our previously created sink; on the other side, we don&#8217;t send anything, so we just provide a never-completed, no-element source.
 
 The [`SendToQueueSubscriber`][13] is a per-connection bridge to the main queue actor. It uses the `ActorSubscriber` trait from Akka’s Reactive Streams implementation, to automatically manage the demand that should be signalled upstream. Using that trait we can create a reactive-stream-`Subscriber[_]`, backed by an actor &#8211; so a fully customisable sink.
-
-<pre lang="scala" line="1">class SendToQueueSubscriber(queueActor: ActorRef) extends ActorSubscriber {
+```scala
+class SendToQueueSubscriber(queueActor: ActorRef) extends ActorSubscriber {
 
   private var inFlight = 0
 
@@ -297,7 +297,7 @@ The [`SendToQueueSubscriber`][13] is a per-connection bridge to the main queue a
     case SentMessage(_) => inFlight -= 1
   }
 }
-</pre>
+```
 
 What needs to be provided to an `ActorSubscriber`, is a way of measuring how many stream items are currently processed. Here, we are counting the number of messages that have been sent to the queue, but for which we have not yet received an id (so they are being processed by the queue).
 

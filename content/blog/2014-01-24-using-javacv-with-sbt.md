@@ -50,21 +50,21 @@ However OpenCV is written in C/C++, so obviously to use it from Scala a JVM inte
 The process of actually doing face detection from Java using JavaCV is fairly well documented (see for example [here][3]), but what I had some trouble with, is getting [SBT][4] to get the JavaCV jars from the Maven central repository.
 
 There are two steps. First, you need to add the dependency to your build settings:
-
-<pre lang="scala" line="1">val javacv = 
+```scala
+val javacv = 
   "com.googlecode.javacv" % 
   "javacv" % 
   "0.7" classifier "linux-x86_64" classifier "macosx-x86_64" classifier ""
 
 libraryDependencies += javacv
-</pre>
+```
 
 The unusual thing here are the classifiers. To get the basic jars you need an empty classifier, but you also need some platform-dependent bindings to the native libraries. Here I&#8217;m including bindings for OSX (my dev platform) and Linux (my deployment platform). There are also bindings for Windows, e.g. `windows-x86`.
 
 But that won&#8217;t get you all the jars yet. The second SBT setting you must modify is:
-
-<pre lang="scala" line="1">classpathTypes += "maven-plugin"
-</pre>
+```scala
+classpathTypes += "maven-plugin"
+```
 
 That is because some of the dependent jars (`javacpp`) are packaged with the `maven-plugin` packaging. And as SBT isn&#8217;t Maven, they won&#8217;t be included by default.
 

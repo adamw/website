@@ -57,23 +57,23 @@ Deploying RoR applications to JBoss AS is really easy thanks to the [TorqueBox][
 Using RoR as a frontend to a CDI/Weld based application requries two more steps, so that RoR can see the business logic classes and share the same http session with CDI (so it&#8217;s possible to access `@SessionScoped` beans from RoR and CDI code). 
 
 First you need to deploy your application in the `DefaultDomain` (at least until [TORQUE-85][3] is fixed). To do this, add a `jboss-classloading.xml` file to the `META-INF` directory with this content:
-
-<pre lang="xml" line="1">&lt;classloading xmlns="urn:jboss:classloading:1.0"
+```xml
+<classloading xmlns="urn:jboss:classloading:1.0"
               domain="DefaultDomain"
               top-level-classloader="true"
               export-all="NON_EMPTY"
               import-all="true">
-&lt;/classloading>
-</pre>
+</classloading>
+```
 
 Secondly, you need to add a filter to RoR&#8217;s web application, so that Weld and RoR share the same session. Just edit `config/web.xml` in your RoR application (the magic in the RoR deployer will add it to the virtual .war deployment it creates) and add the following:
-
-<pre lang="xml" line="1">&lt;web-app>
-    &lt;listener>
-        &lt;listener-class>org.jboss.weld.servlet.WeldListener&lt;/listener-class>
-    &lt;/listener>
-&lt;/web-app>
-</pre>
+```xml
+<web-app>
+    <listener>
+        <listener-class>org.jboss.weld.servlet.WeldListener</listener-class>
+    </listener>
+</web-app>
+```
 
 Now RoR and CDI share the same session (so you can use `@SessionScoped` beans etc, probably also `@ConversationScoped`, but I haven&#8217;t tried that). You can lookup CDI beans from RoR code using e.g. the [BeanInject class from cdi-ext][4], or just by writing a very simple utility method which lookups the `BeanManager`.
 

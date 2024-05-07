@@ -74,15 +74,15 @@ While most of (web)applications communicate with the end user in English, a lot 
 **Part I. Preliminaries**
 
 On every request, you have to set the encoding of characters manually; it is best to create a filter, with the following body:
-
-<pre lang="java" line="1">public void doFilter(ServletRequest request,
+```java
+public void doFilter(ServletRequest request,
 ServletResponse response, FilterChain chain)
 throws IOException, ServletException {
 response.setCharacterEncoding("UTF-8");
 request.setCharacterEncoding("UTF-8");
 chain.doFilter(request, response);
 }
-</pre>
+```
 
 This is needed by almost all successive parts.
 
@@ -115,16 +115,16 @@ and add to the appropriate `<Connector ...>` (usually the first one) the followi
 Storing strings in a database in UTF-8 is a bit more tricky. First of all, you have to tell MySQL that your varchar/text fields will be using UTF-8.
 
 If you already have a database, or if your database was created by hibernate (using `hibernate.hbm2ddl.auto`), you will have to run this statement for each column:
-
-<pre lang="sql" line="1">ALTER TABLE `&lt;database&gt;`.`&lt;table_name&gt;` MODIFY COLUMN `&lt;column_name&gt;` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci;
-</pre>
+```sql
+ALTER TABLE `<database>`.`<table_name>` MODIFY COLUMN `<column_name>` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci;
+```
 
 ([MySQL Administator][2] can help you with that).
 
 If you are creating a database, you can set a default encoding for all text fields:
-
-<pre lang="sql" line="1">CREATE TABLE `&lt;database&gt;`.`&lt;table_name&gt;` (&lt;column_list&gt;) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-</pre>
+```sql
+CREATE TABLE `<database>`.`<table_name>` (<column_list>) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+```
 
 There are other possibilities as well, for example compiling mysql with UTF-8 support set as default. For the complete list of options, see [here][3].
 
@@ -144,8 +144,8 @@ value="UTF-8" />`
 **Part VI. Java Mail**
 
 Finally comes the easiest part: sending e-mails with the subject and body in UTF-8. The only things you have to do here is use `MimeMessage`, and give additional parameters when setting the subject and text of your message:
-
-<pre lang="java" line="1">(...)
+```java
+(...)
 MimeMessage msg = new MimeMessage(session);
 msg.setFrom(InternetAddress.parse(from, false)[0]);
 msg.setSentDate(new Date());
@@ -153,7 +153,7 @@ msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(to, false));
 msg.setSubject(subject, "UTF-8");
 msg.setText(body, "UTF-8");
 transport.sendMessage(msg, msg.getAllRecipients());
-</pre>
+```
 
 Do you know any other areas of Java which you have to configure to have full support for UTF8?
 

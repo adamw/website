@@ -127,52 +127,52 @@ Way too magical for such a simple thing.
 But isn&#8217;t what we really want just a way to have all the `new`s with correct parameters generated for us? If you&#8217;re using Scala, and want code generation, the obvious answer are [macros][4]!
 
 To finally show some code, given: 
-
-<pre lang="scala" line="1">class A
+```scala
+class A
 class B
 class C(a: A, b: B)
 class D(b: B, c: C)
-</pre>
+```
 
 it would be nice to have:
-
-<pre lang="scala" line="1">val a    = wire[A]
+```scala
+val a    = wire[A]
 val theB = wire[B] // "theB", not "b", just to show that we can use any name
 val theC = wire[C]
 val d    = wire[D]
-</pre>
+```
 
 transformed to:
-
-<pre lang="scala" line="1">val a    = new A()
+```scala
+val a    = new A()
 val theB = new B()
 val theC = new C(a, theB)
 val d    = new D(theB, c)
-</pre>
+```
 
 Turns out it&#8217;s possible, and even not very complicated.
 
 A proof-of-concept is available on [GitHub][5]. It&#8217;s very primitive and currently supports only one specific way of defining classes/wirings, but works :). If a dependency is missing, there&#8217;s a compile error. To check it out, simply clone the repo, run `sbt` and then invoke the task: `run-main com.softwaremill.di.DiExampleRunner` ([implementation][6]). During compilation, you should see some info messages regarding the generated code, e.g.:
-
-<pre lang="bash" line="1">[info] /Users/adamw/(...)/DiExample.scala:13: Generated code: new C(a, theB)
+```bash
+[info] /Users/adamw/(...)/DiExample.scala:13: Generated code: new C(a, theB)
 [info]   val c = wire[C]
 [info]               ^
-</pre>
+```
 
 and then a proof that indeed the code was generated correctly: when the code is executed, the instances are printed to stdout so that you can see the arguments.
 
 The macro here is of course the `wire` method ([implementation][7]). What it does is it first checks what are the parameters of the constructor of the class, and then for each parameter, tries to find a `val` defined in the enclosing class of the desired type (`findWiredOfType` method; see also [this StackOverflow question][8] why the search is limited to the enclosing class). Finally, it assembles a tree corresponding to invoking the constructor with the right arguments:
-
-<pre lang="scala" line="1">Apply(
+```scala
+Apply(
    Select(New(Ident([class's type])), nme.CONSTRUCTOR), 
    List(Ident([arg1]), Ident([arg2]), ...))
-</pre>
+```
 
 This concept can be extended in many ways. Firstly, by adding support for sub-typing (now only exact type matches will work). Then, there&#8217;s the ability to define the wirings not only in a class, but also in methods; or extending the search to mixed-in traits, so that you could split the `wire` definitions among multiple traits (&#8220;modules&#8221;?). Notice that we could also have full flexibility in how we access the wired valued; it could be a `val`, `lazy val` or a `def`. There&#8217;s also support for scoping, factories, singletons, configurations values, &#8230;; for example:
 
 (_Dependency Injection of the future!_)
-
-<pre lang="scala" line="1">// "scopes"
+```scala
+// "scopes"
 val a = wire[X]
 lazy val b = wire[Y]
 def c = wire[Z] 
@@ -187,7 +187,7 @@ def e(p1: T, p2: U, ...) = wire[X]
 // by-name binding for configuration parameters; whenever a class has a
 // "maxConnections" constructor argument, this value is used.
 val maxConnections = conf(10)
-</pre>
+```
 
 A recent project by Guice&#8217;s creator, Bob Lee, goes in the same direction. [Dagger][9] (mainly targeted at Android as far as I know) uses an annotation processor to generate the wiring code; at runtime, it&#8217;s just plain constructor invocations, no reflection. Similarly here, with the difference that we use Scala&#8217;s macros. 
 

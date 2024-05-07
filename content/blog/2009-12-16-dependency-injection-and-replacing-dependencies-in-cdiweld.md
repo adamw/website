@@ -544,8 +544,8 @@ That&#8217;s why I wanted to see if that would be possible to achieve using the 
 In CDI, [injected beans][3] can either be &#8220;stand-alone&#8221;, or come from a producer (factory) method (annotated with `@Producer`). As `EntityManager`s are typically created by producer methods, in the example below I assume this scenario. It is possible to slightly change the code so that it works for normal beans, however I didn&#8217;t manage to create a nice universal solution (which wouldn&#8217;t simply do an &#8220;if&#8221; to check if the bean is created by a producer method).
 
 To test, we define a simple bean which will have a dependency injected via constructor injection:
-
-<pre lang="java" line="1">@ApplicationScoped
+```java
+@ApplicationScoped
 public class FirstBean implements Serializable {
     private ISecondBean second;
     public FirstBean() { }
@@ -557,11 +557,11 @@ public class FirstBean implements Serializable {
         System.out.println("Type of second: " + second.getMessage(c));
     }
 }
-</pre>
+```
 
 The interface `ISecondBean` has two implementations:
-
-<pre lang="java" line="1">public interface ISecondBean extends Serializable {
+```java
+public interface ISecondBean extends Serializable {
     String getMessage(int c);
 }
 
@@ -574,22 +574,22 @@ public class SecondBeanA implements ISecondBean {
 public class SecondBeanB implements ISecondBean {
     public String getMessage(int c) { return "variant B; " + c; }
 }
-</pre>
+```
 
 The `@Alternative` annotation makes the bean disabled by default, so that Weld doesn&#8217;t try to inject an instance of it when there&#8217;s a matching injection point. That&#8217;s because we want to produce implementations of `ISecondBean` using a producer method:
-
-<pre lang="java" line="1">@ApplicationScoped
+```java
+@ApplicationScoped
 public class SecondBeanProducer {
     @Produces
     public ISecondBean getSecondBean() {
         return new SecondBeanA();  // by default we use the A variant
     }
 }
-</pre>
+```
 
 A very nice feature of Weld/CDI, especially for evaluation purposes, is that it&#8217;s possible to use it very easily in Java SE. To test our beans, all we need to do is run the `org.jboss.weld.environment.se.StartMain`, putting a jar with our classes in the classpath. One important thing is that the jar **must** contain a `beans.xml` file (it can be empty, but it must exist). We can observe the container startup-event to do some work:
-
-<pre lang="java" line="1">@ApplicationScoped
+```java
+@ApplicationScoped
 public class Main {
     @Inject
     private FirstBean first;
@@ -601,15 +601,15 @@ public class Main {
         first.start(3);
     }
 }
-</pre>
+```
 
 The result will be:
-
-<pre lang="java" line="1">Welcome to Main!
+```java
+Welcome to Main!
 Type of second: variant A; 1
 Type of second: variant A; 2
 Type of second: variant A; 3
-</pre>
+```
 
 Now we finally come to the point of implementing the replaceable dependencies. As you may have guessed, `ISecondBean` corresponds to `EntityManager`, and that&#8217;s the dependency that we will try to replace.
 
@@ -620,8 +620,8 @@ To do that, we first have to define an interceptor. That&#8217;s quite easy and 
   3. enable the interceptor in beans.xml
 
 Here&#8217;s the code (full interceptor code below):
-
-<pre lang="java" line="1">@InterceptorBinding
+```java
+@InterceptorBinding
 @Target({ ElementType.TYPE, ElementType.METHOD })
 @Retention(RetentionPolicy.RUNTIME)
 public @interface ReplaceableResult {
@@ -635,29 +635,29 @@ public class ReplaceableResultInterceptor {
         ...
     }
 }
-</pre>
-
-<pre lang="xml" line="1">&lt;beans>
-    &lt;interceptors>
-        &lt;class>test.ReplaceableResultInterceptor&lt;/class>
-    &lt;/interceptors>
-&lt;/beans>
-</pre>
+```
+```xml
+<beans>
+    <interceptors>
+        <class>test.ReplaceableResultInterceptor</class>
+    </interceptors>
+</beans>
+```
 
 Adding an interceptor for a method is easy: if we want to be able to temporarily replace implementations of `ISecondBean`, all we need to do is annotate the producer method with the new annotation. `SecondBeanProducer` now takes the form:
-
-<pre lang="java" line="1">@ApplicationScoped
+```java
+@ApplicationScoped
 public class SecondBeanProducer {
     @Produces @ReplaceableResult
     public ISecondBean getSecondBean() {
         return new SecondBeanA();  // by default we use the A variant
     }
 }
-</pre>
+```
 
 We can now test the temporary replacement by modifying the `Main` bean that we used before:
-
-<pre lang="java" line="1">@ApplicationScoped
+```java
+@ApplicationScoped
 public class Main {
     @Inject
     private FirstBean first;
@@ -671,7 +671,7 @@ public class Main {
         ReplaceableResultInterceptor.withReplacement(
                 ISecondBean.class,
                 new SecondBeanB(), // we are using the B variant
-                new Callable&lt;Void>() {
+                new Callable<Void>() {
                     @Override
                     public Void call() throws Exception {
                         first.start(2);
@@ -682,31 +682,31 @@ public class Main {
         first.start(3);
     }
 }
-</pre>
+```
 
 The result will now be:
-
-<pre lang="java" line="1">Welcome to Main!
+```java
+Welcome to Main!
 Type of second: variant A; 1
 Type of second: variant B; 2
 Type of second: variant A; 3
-</pre>
+```
 
 So the dependency in `FirstBean` was swapped! Which was our goal: for the duration of the bean method invocation, whenever a `ISecondBean` dependency is injected, the temporary implementation will be used.  
 Full code of the interceptor:
-
-<pre lang="java" line="1">@Interceptor
+```java
+@Interceptor
 @ReplaceableResult
 public class ReplaceableResultInterceptor {
-    private static ThreadLocal&lt;Map&lt;Class<?>, Object>> replacements 
-        = new ThreadLocal&lt;Map&lt;Class
+    private static ThreadLocal<Map<Class<?>, Object>> replacements 
+        = new ThreadLocal<Map<Class
 
 <?>, Object>>() {
         @Override
-        protected Map&lt;Class
+        protected Map<Class
 
 <?>, Object> initialValue() {
-            return new HashMap&lt;Class
+            return new HashMap<Class
 
 <?>, Object>();
         }
@@ -735,10 +735,10 @@ public class ReplaceableResultInterceptor {
         return result;
     }
 
-    public static &lt;V> V withReplacement(Class
+    public static <V> V withReplacement(Class
 
 <?> replacing, Object replacement, 
-        Callable&lt;V> toCall) throws Exception {
+        Callable<V> toCall) throws Exception {
         boolean hasOld = false;
         Object old = null;
         try {
@@ -780,7 +780,7 @@ public class ReplaceableResultInterceptor {
         }
     }
 }
-</pre>
+```
 
 Overall, CDI/Weld works very well and I&#8217;m very satisfied with it. One thing I&#8217;m missing is being to able to do programmatic configuration ([Guice][5]-style), but it&#8217;s already in the [list of ideas][6] for future portable extensions. I think that programmatic configuration and the ability to run Weld in JavaSE will create a great mix for _&#8220;semi-integration&#8221; testing_.
 

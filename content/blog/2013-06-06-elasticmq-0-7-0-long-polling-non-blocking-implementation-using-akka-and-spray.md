@@ -147,9 +147,9 @@ The major client-side improvements are:
 With long polling, when receiving a message, you can specify an additional `MessageWaitTime` attribute. If there are no messages in the queue, instead of completing the request with an empty response, ElasticMQ will wait up to `MessageWaitTime` seconds until messages arrive. This helps both to reduce the bandwidth used (no need for very frequent requests), improve overall system performance (messages are received immediately after being sent) and to reduce SQS costs.
 
 The stand-alone server is now a single jar. To run a local, in-memory SQS implementation (e.g. for testing an application which uses SQS), all you need to do is [download the jar file][5] and run: 
-
-<pre lang="bash" line="1">java -jar elasticmq-server-0.7.0.jar
-</pre>
+```bash
+java -jar elasticmq-server-0.7.0.jar
+```
 
 This will start a server on `http://localhost:9324`. Of course the interface and port are configurable, see the [README][1] for details. As before, you can also run an embedded server from any JVM-based language.
 
@@ -164,31 +164,31 @@ As already mentioned, ElasticMQ is now implemented using Akka and Spray, and doe
 The core system is actor-based. There&#8217;s one main actor ([QueueManagerActor][6]), which knows what queues are currently created in the system, and gives the possibility to create and delete queues.
 
 For communication with the actors, the [typed ask pattern][7] is used. For example, to lookup a queue (a queue is also an actor), a message is defined:
-
-<pre lang="scala" line="1">case class LookupQueue(queueName: String) extends Replyable[Option[ActorRef]]
-</pre>
+```scala
+case class LookupQueue(queueName: String) extends Replyable[Option[ActorRef]]
+```
 
 Usage looks like this:
-
-<pre lang="scala" line="1">import org.elasticmq.actor.reply._
+```scala
+import org.elasticmq.actor.reply._
 val lookupFuture: Future[Option[ActorRef]] = queueManagerActor ? LookupQueue("q2")
-</pre>
+```
 
 As already mentioned, each queue is an actor, and encapsulates the queue state. We can use simple mutable data structures, without any need for thread synchronisation, as the actor model takes care of that for us. There&#8217;s a number of messages which can be sent to a queue-actor, e.g.:
-
-<pre lang="scala" line="1">case class SendMessage(message: NewMessageData)   extends Replyable[MessageData]
+```scala
+case class SendMessage(message: NewMessageData)   extends Replyable[MessageData]
 case class ReceiveMessages(visibilityTimeout: VisibilityTimeout, count: Int, 
            waitForMessages: Option[Duration])     extends Replyable[List[MessageData]]
 case class GetQueueStatistics(deliveryTime: Long) extends Replyable[QueueStatistics]
-</pre>
+```
 
 ##### Rest layer
 
 The SQS query/REST layer is implemented using [Spray][8], a lightweight REST/HTTP toolkit based on Akka.
 
 Apart from a non-blocking, actor-based IO implementation, Spray also offers a powerful routing library, `spray-routing`. It contains a number of built-in directives, for matching on the request method (get/post etc.), extracting query of form parameters or matching on the request path. But it also lets you define your own directives, using simple directive composition. A typical ElasticMQ route looks like this:
-
-<pre lang="scala" line="1">val listQueuesDirective = 
+```scala
+val listQueuesDirective = 
   action("ListQueues") {
     rootPath {
       anyParam("QueueNamePrefix"?) { prefixOption =>
@@ -196,29 +196,29 @@ Apart from a non-blocking, actor-based IO implementation, Spray also offers a po
       }
     }
   }
-</pre>
+```
 
 Where `action` matches on the action name specified in the `"Action"` URL of body parameter and accepts/rejects the request, `rootPath` matches on an empty path and so on. Spray has a [good tutorial][9], so I encourage you to take a look there, if you are interested.
 
 How to use the queue actors from the routes to complete HTTP requests?
 
 The nice thing about Spray is that all it does is passing a `RequestContext` instance to your routes, expecting nothing in return. It is up to the route to discard the request completely or complete it with a value. The request may also be completed in another thread &#8211; or, for example, when some future is completed. Which is exactly what ElasticMQ does. Here `map`, `flatMap` and `for-comprehensions` (which are a nicer syntax for `map`/`flatMap`) are very handy, e.g. (simplified):
-
-<pre lang="scala" line="1">// Looking up the queue and deleting it are going to be called in sequence,
+```scala
+// Looking up the queue and deleting it are going to be called in sequence,
 // but asynchronously, as ? returns a Future
 for {
-   queueActor &lt;- queueManagerActor ? LookupQueue(queueName)
-   _ &lt;- queueActor ? DeleteMessage(DeliveryReceipt(receipt))
+   queueActor <- queueManagerActor ? LookupQueue(queueName)
+   _ <- queueActor ? DeleteMessage(DeliveryReceipt(receipt))
 } {
    requestContext.complete(200, "message deleted")
 }
-</pre>
+```
 
 Sometimes, when the flow is more complex, ElasticMQ uses [Akka Dataflow][10], which requires the continuations plugin to be enabled. There's also a similar project which uses macros, [Scala Async][11], but it's in early development.
 
 Using Akka Dataflow, you can write code which uses `Future`s as if it was normal sequential code. The CPS plugin will transform it to use callbacks where needed. An example, taken from [CreateQueueDirectives][12]:
-
-<pre lang="scala" line="1">flow {
+```scala
+flow {
   val queueActorOption = (queueManagerActor ? LookupQueue(newQueueData.name)).apply()
   queueActorOption match {
     case None => {
@@ -233,7 +233,7 @@ Using Akka Dataflow, you can write code which uses `Future`s as if it was normal
     }
   }
 }
-</pre>
+```
 
 The important parts here are the `flow` block, which delimits the scope of the transformation, and the `apply()` calls on `Future`s which extract the content of the future. This looks like completely normal, sequential code, but when executed, since the first `Future` usage will be run asynchronously.
 

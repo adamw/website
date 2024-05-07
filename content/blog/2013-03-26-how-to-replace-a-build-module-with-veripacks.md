@@ -106,42 +106,42 @@ Compare the two trees below. In both cases the goal is to have an application wi
 [<img loading="lazy" decoding="async" src="http://www.warski.org/blog/wp-content/uploads/2013/03/2013-03-20_1910-300x297.png" alt="2013-03-20_1910" width="300" height="297" class="aligncenter size-medium wp-image-941" srcset="https://www.warski.org/blog/wp-content/uploads/2013/03/2013-03-20_1910-300x297.png 300w, https://www.warski.org/blog/wp-content/uploads/2013/03/2013-03-20_1910-150x150.png 150w, https://www.warski.org/blog/wp-content/uploads/2013/03/2013-03-20_1910-1024x1016.png 1024w, https://www.warski.org/blog/wp-content/uploads/2013/03/2013-03-20_1910-210x208.png 210w, https://www.warski.org/blog/wp-content/uploads/2013/03/2013-03-20_1910.png 1326w" sizes="(max-width: 300px) 100vw, 300px" />][1]
 
 On the left, there&#8217;s a traditional solution using Maven build modules. Each build module has a pretty elaborate `pom.xml`, e.g.:
-
-<pre lang="xml" line="1"><?xml version="1.0" encoding="UTF-8"?>
-&lt;project xmlns="http://maven.apache.org/POM/4.0.0"
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    &lt;parent>
-        &lt;artifactId>parent&lt;/artifactId>
-        &lt;groupId>org.veripacks.battle&lt;/groupId>
-        &lt;version>1.0.0-SNAPSHOT&lt;/version>
-    &lt;/parent>
-    &lt;modelVersion>4.0.0&lt;/modelVersion>
-    &lt;name>Veripacks vs Build Modules: Frontend&lt;/name>
+    <parent>
+        <artifactId>parent</artifactId>
+        <groupId>org.veripacks.battle</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <name>Veripacks vs Build Modules: Frontend</name>
 
-    &lt;artifactId>frontend&lt;/artifactId>
+    <artifactId>frontend</artifactId>
 
-    &lt;dependencies>
-        &lt;dependency>
-            &lt;groupId>org.veripacks.battle&lt;/groupId>
-            &lt;artifactId>domain&lt;/artifactId>
-            &lt;version>1.0.0-SNAPSHOT&lt;/version>
-        &lt;/dependency>
-    &lt;/dependencies>
-&lt;/project>
-</pre>
+    <dependencies>
+        <dependency>
+            <groupId>org.veripacks.battle</groupId>
+            <artifactId>domain</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+</project>
+```
 
 On the right, on the other hand, we have a much simpler structure with only one build module. Each application module now corresponds to one top-level project package (see also [this blog][2] on package naming conventions). 
 
 Notice the `package-info.java` files. There, using [Veripacks][3], we can specify which packages are visible where. First of all, we specify that the code from top-level packages (`frontend`, `reporting` and `domain`) should be only accessible if explicitly imported, using `@RequiresImport`. Secondly, we specify that we want to access the `domain` package in `frontend` and `reporting` using `@Import`; e.g.:
-
-<pre lang="java" line="1">@RequiresImport
+```java
+@RequiresImport
 @Import("org.veripacks.battle.domain")
 package org.veripacks.battle.frontend;
 
 import org.veripacks.Import;
 import org.veripacks.RequiresImport;
-</pre>
+```
 
 Now, isn&#8217;t the Veripacks approach simpler? :) There is still build-time checking, which is possible by running a simple test (see the README for details). Plus, you can also use other Veripacks features, like `@Export` annotations, which is a generalized version of package-private scope, taking into account package hierarchies. There are also other benefits, like trivial sharing of test code (which is kind of hard with Maven), or much easier refactoring (introducing a new application module is a matter of adding a top-level package).
 

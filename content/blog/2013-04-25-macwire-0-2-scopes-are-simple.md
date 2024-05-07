@@ -117,13 +117,13 @@ Version 0.2 has just landed!
 First, some bad news. Due to limitations of the current macros implementation in Scala (for more details see [this discussion][2]) in order to avoid occasional compilation errors it is necessary to add type ascriptions to the dependencies. This is a way of helping the type-checker that is invoked by the macro to figure out the types of the values which can be wired.
 
 In practice it is good to always write the type ascription. For example:
-
-<pre lang="scala" line="1">trait MyModule {
+```scala
+trait MyModule {
    ...
    lazy val theUserFinder: UserFinder = wire[UserFinder]
    ...
 }
-</pre>
+```
 
 This is a major inconvenience, but hopefully will get resolved some day. See the &#8220;Limitations&#8221; section in the [README][1] for more details.
 
@@ -144,13 +144,13 @@ In fact implementing a scoped bean is quite simple. We need two things. Firstly,
 Secondly, we need a way to read a value from the scope, and store a value in the scope, if there&#8217;s no value yet. The two methods in the `Scope` trait correspond directly to the two cases outlined above.
 
 Using a scope is quite straightforward; the scope of a dependency is declared in the wiring code, in the module. For example:
-
-<pre lang="scala" line="1">trait WebModule {
+```scala
+trait WebModule {
    lazy val loggedInUser: LoggedInUser = session(wire[LoggedInUser])
 
    def session: Scope
 }
-</pre>
+```
 
 Note that the scope here is abstract (only the name suggests that it is a session scope). This has a couple of advantages. For testing, we can substitute a `NoOpScope`. Also, we can move the framework-integration code to the integration layer, or even provide a couple of implementations depending on the framework/container used.
 
@@ -160,8 +160,8 @@ MacWire comes with a `Scope` implementation targeted at synchronous web framewor
   * _session scope_, the storage (a `Map`) should be stored in the `HttpSession` (`associate(Map)` method)
 
 This association can be done, for example, in a servlet filter:
-
-<pre lang="scala" line="1">class ScopeFilter(sessionScope: ThreadLocalScope) extends Filter {
+```scala
+class ScopeFilter(sessionScope: ThreadLocalScope) extends Filter {
   def init(filterConfig: FilterConfig) {}
 
   def doFilter(request: ServletRequest, response: ServletResponse, chain: FilterChain) {
@@ -181,7 +181,7 @@ This association can be done, for example, in a servlet filter:
 
   def destroy() {}
 }
-</pre>
+```
 
 Note also that it is trivial to use a scoped value e.g. in an asynchronous process, where no web request is available: simply associate the scope with any storage, can be a temporary map. In traditional web frameworks this usually requires some amount of hacking.
 

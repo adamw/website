@@ -229,17 +229,17 @@ tags:
 I would like to describe a pure-Scala approach to modularity that we are successfully using in a couple of our Scala projects.
 
 But let’s start with how we do Dependency Injection (see also my [other][1] [blogs][2]). Each class can have dependencies in the form of constructor parameters, e.g.:
-
-<pre lang="scala" line="1">class WheatField
+```scala
+class WheatField
 class Mill(wheatField: wheatField)
 class CowPasture
 class DiaryFarm(cowPasture: CowPasture)
 class Bakery(mill: Mill, dairyFarm: DairyFarm) 
-</pre>
+```
 
 At the &#8220;end of the world&#8221;, there is a main class which runs the application and where the whole object graph is created:
-
-<pre lang="scala" line="1">object BakeMeCake extends App {
+```scala
+object BakeMeCake extends App {
      // creating the object graph
      lazy val wheatField = new WheatField()
      lazy val mill = new Mill(wheatField)     
@@ -251,7 +251,7 @@ At the &#8220;end of the world&#8221;, there is a main class which runs the appl
      val cake = bakery.bakeCake()
      me.eat(cake)
 }
-</pre>
+```
 
 The wiring can be done manually, or e.g. using [MacWire][3].
 
@@ -262,8 +262,8 @@ Note that we can do scoping using Scala constructs: a `lazy val` corresponds to 
 What if the object graph, and at the same time the main class, becomes large? The answer is simple: we have to break it into pieces, which will be the &#8220;modules&#8221;. Each module is a Scala `trait`, and contains some part of the object graph.
 
 For example:
-
-<pre lang="scala" line="1">trait CropModule {
+```scala
+trait CropModule {
      lazy val wheatField = new WheatField()
      lazy val mill = new Mill(wheatField)     
 } 
@@ -272,17 +272,17 @@ trait LivestockModule {
      lazy val cowPasture = new CowPasture()
      lazy val diaryFarm = new DiaryFarm(cowPasture)
 }
-</pre>
+```
 
 The main object then becomes a composition of traits. This is exactly what also happens in the Cake Pattern. However here we are using only one element of it, hence the &#8220;Thin Cake&#8221; Pattern name.
-
-<pre lang="scala" line="1">object BakeMeCake extends CropModule with LivestockModule {
+```scala
+object BakeMeCake extends CropModule with LivestockModule {
      lazy val bakery = new Bakery(mill, dairyFarm)
 
      val cake = bakery.bakeCake()
      me.eat(cake) 
 }
-</pre>
+```
 
 If you have ever used [Google Guice][4], you may see a similarity: trait-modules directly correspond to Guice modules. However, here we gain the additional type-safety and compile-time checking that dependency requirements for all classes are met.
 
@@ -297,8 +297,8 @@ The first is abstract members. If there’s an instance of a class that is neede
 The second way is composition via inheritance. If we e.g. want to create a bigger module out of three smaller modules, we can simply extend the other module-traits, and due to the way inheritance works we can use all of the objects defined there. 
 
 Putting the two methods together we get for example: 
-
-<pre lang="scala" line="1">// composition via inheritance: bakery depends on crop and livestock modules
+```scala
+// composition via inheritance: bakery depends on crop and livestock modules
 trait BakeryModule extends CropModule with LivestockModule {
      lazy val bakery = new Bakery(mill, dairyFarm)
 }   
@@ -315,15 +315,15 @@ trait CafeModule {
 object CafeApp extends CafeModule with BakeryModule {
      cafe.orderCoffeeAndCroissant()
 }
-</pre>
+```
 
 ## Multiple implementations
 
 Taking this idea a bit further, in some situations we might have trait-module-interfaces and several trait-module-implementions. The interface would contain only abstract members, and the implementations would wire the appropriate classes. If other modules depend only on the trait-module-interface, when we do the final composition we can use any implementation.
 
 This isn’t perfect, however. The implementation must be known statically, when writing the code &#8211; we cannot dynamically decide which implementations we want to use. If we want to dynamically choose an implementation for only one trait-interface, that’s not a problem &#8211; we can use a simple “if”. But every additional combination causes an exponential increase in the cases we have to cover. For example:
-
-<pre lang="scala" line="1">trait MillModule {
+```scala
+trait MillModule {
      def mill: Mill
 }
 
@@ -342,7 +342,7 @@ val modules = if (config.cornPreferred) {
 } else {
      new BakeryModule with WheatMillModule
 }
-</pre>
+```
 
 ## Can it be any better?
 

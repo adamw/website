@@ -191,8 +191,8 @@ Veripacks currently defines two annotations:
 ##### Example
 
 Using a bit of an imaginary syntax to make things compact:
-
-<pre lang="java" line="1">package foo.bar.p1 {
+```java
+package foo.bar.p1 {
    @Export
    class A { ... }
 
@@ -215,53 +215,53 @@ package foo.bar.p2 {
       new C() 
    }
 }
-</pre>
+```
 
 ##### How to use it?
 
 Veripacks can be used with any language running on the JVM; while written in Scala, it will work without problems in Java-only projects.
 
 No build plugins or such are needed; just create a new test, with the following body:
-
-<pre lang="java" line="1">public void runVeripacksTest() {
+```java
+public void runVeripacksTest() {
       new Verifier()
         .verify("foo.bar")
         .throwIfNotOk
     }
-</pre>
+```
 
 This will throw an exception if there are some specification violations. You can also inspect the result of the `verify` call, which contains more detailed information (also included in the exception message).
 
 The project files are deployed to SoftwareMill&#8217;s public Nexus repository:
-
-<pre lang="xml" line="1"><!-- Only the annotations -->
-    &lt;dependency>
-        &lt;groupId>org.veripacks&lt;/groupId>
-        &lt;artifactId>veripacks-annotations_2.10&lt;/artifactId>
-        &lt;version>0.1&lt;/version>
-    &lt;/dependency>
+```xml
+<!-- Only the annotations -->
+    <dependency>
+        <groupId>org.veripacks</groupId>
+        <artifactId>veripacks-annotations_2.10</artifactId>
+        <version>0.1</version>
+    </dependency>
     
     
 
 <!-- The verifier, has a dependency on the annotations -->
-    &lt;dependency>
-        &lt;groupId>org.veripacks&lt;/groupId>
-        &lt;artifactId>veripacks-verifier_2.10&lt;/artifactId>
-        &lt;version>0.1&lt;/version>
-        &lt;scope>test&lt;/scope>
-    &lt;/dependency>
+    <dependency>
+        <groupId>org.veripacks</groupId>
+        <artifactId>veripacks-verifier_2.10</artifactId>
+        <version>0.1</version>
+        <scope>test</scope>
+    </dependency>
 
-    &lt;repository>
-        &lt;id>SotwareMillPublicReleases&lt;/id>
-        &lt;name>SotwareMill Public Releases&lt;/name>
-        &lt;url>http://nexus.softwaremill.com/content/repositories/releases/&lt;/url>
-    &lt;/repository>
-    &lt;repository>
-        &lt;id>SotwareMillPublicSnapshots&lt;/id>
-        &lt;name>SotwareMill Public Snapshots&lt;/name>
-        &lt;url>http://nexus.softwaremill.com/content/repositories/snapshots/&lt;/url>
-    &lt;/repository>
-</pre>
+    <repository>
+        <id>SotwareMillPublicReleases</id>
+        <name>SotwareMill Public Releases</name>
+        <url>http://nexus.softwaremill.com/content/repositories/releases/</url>
+    </repository>
+    <repository>
+        <id>SotwareMillPublicSnapshots</id>
+        <name>SotwareMill Public Snapshots</name>
+        <url>http://nexus.softwaremill.com/content/repositories/snapshots/</url>
+    </repository>
+```
 
 ##### What&#8217;s next?
 

@@ -56,13 +56,13 @@ tags:
 
 ---
 How often do you see code like this, especially when using dependency injection, single-responsibility principle, and other &#8220;good practices&#8221;?
-
-<pre lang="scala" line="1">class FriendsTimelineReader(userFinder: UserFinder,
+```scala
+class FriendsTimelineReader(userFinder: UserFinder,
    userStatusReader: UserStatusReader,
    statusSecurityFilter: StatusSecurityFilter) {
    ...
 }
-</pre>
+```
 
 Note that the parameter names are **exact copies** of the class name. That&#8217;s certainly not [DRY][1]!
 
@@ -77,29 +77,29 @@ Even when there are a couple of instances of a class, often the parameter name c
 Maybe the next step then in type safety is limiting the complete freedom when naming parameters? Or even, getting rid of the parameter names at all in some cases.
 
 For example. In the snippet from the beginning, we just want to get &#8220;an instance&#8221; of a `UserFinder`. Most probably there will ever be only one instance of this class in the system, and certainly one will be used at a time by other classes. So why not let the class express that it wants an instance of a class, without having to name it? Let&#8217;s use the [indefinite article][3] &#8220;a&#8221; as a keyword (we don&#8217;t really care which instance is passed):
-
-<pre lang="scala" line="1">class FriendsTimelineReader(a UserFinder,
+```scala
+class FriendsTimelineReader(a UserFinder,
   a UserStatusReader,
   a StatusSecurityFilter)
-</pre>
+```
 
 Now, how would you use such a variable inside a class? Let&#8217;s use the definite article &#8220;the&#8221; &#8211; the instance that was given to the class, for example:
-
-<pre lang="scala" line="1">val user10 = (the UserFinder).findById(10)
-</pre>
+```scala
+val user10 = (the UserFinder).findById(10)
+```
 
 Maybe this looks a bit like science-fiction, but wouldn&#8217;t it be convenient? Or maybe this problem is already solved by some mechanisms in other languages?
 
 Adam
 
 _EDIT 27/01/2013_: Extending the above to handle qualifiers:
-
-<pre lang="scala" line="1">class Friends(a 'first Person, a 'second Person) {
+```scala
+class Friends(a 'first Person, a 'second Person) {
    ...
    (the 'first Person).getName()
    ...
 }
-</pre>
+```
 
  [1]: http://en.wikipedia.org/wiki/Don't_repeat_yourself
  [2]: http://docs.scala-lang.org/sips/pending/value-classes.html

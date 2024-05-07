@@ -303,8 +303,8 @@ The three components described above should have the following signatures:
 `ES` is an extension of the free monad over `A`, which in addition to the normal constructors (`FlatMap`, `Pure` and `Suspend` &#8211; used for actions), contains an additional `Emit` constructor (its meaning shouldn’t be a surprise). Very similarly to the free monad, we can define a method to interpret `ES` using any monad, given an interpretation for actions and events (`foldMap` function).
 
 Here’s the basic structure of `ES`:
-
-<pre lang="scala" line="1">sealed trait ES[E, A[_], R] {
+```scala
+sealed trait ES[E, A[_], R] {
     def flatMap[R2](f: R => ES[E, A, R2]): ES[E, A, R2] = FlatMap(this, f)
     def map[R2](f: R => R2): ES[E, A, R2] = FlatMap(this, f andThen (x => Pure(x)))
     ...
@@ -330,38 +330,38 @@ object ES {
     def emit[E, A[_]](e: E): ES[E, A, Unit] = Emit(e)
     def suspend[E, A[_], R](a: A[R]): ES[E, A, R] = Suspend(a)
   }
-</pre>
+```
 
 # Event-sourcing `ES` specifics
 
 In addition to normal monad operations, we need two operations on the `ES` data type. Firstly, we need a way to provide the model update & event listener functions, which should be applied to the description of the program. As a result, we want to get a program where all of the events are handled, and which contains appropriate actions (for each event, first the actions described by the model update, and then the actions described by the event listener).
 
 Hence `ES` contains a function:
-
-<pre lang="scala" line="1">sealed trait ES[E, A[_], R] {
+```scala
+sealed trait ES[E, A[_], R] {
    def handleEvents(
       modelUpdate: PartialFunction[E, ES[Nothing, A, Unit]],
       eventListener: PartialFunction[E, ES[E, A, Unit]]): ES[Handled[E], A, R]
 }
-</pre>
+```
 
 Note that in the return type, events are wrapped in an `case class Handled[E](e: E)` wrapper. That’s to make sure that we can’t simply call `handleEvents` twice and re-interpret the events. And we need to retain the events in the description of the program to be able to store them when we do the final interpretation.
 
 Which brings us to the interpretation function. Given a description of a program with the events handled as described by our model update/event listener functions, we want to interpret it in any monad, hence we get the function:
-
-<pre lang="scala" line="1">implicit class ESHandled[E, A[_], R](es: ES[Handled[E], A, R]) {
+```scala
+implicit class ESHandled[E, A[_], R](es: ES[Handled[E], A, R]) {
    def run[M[_]](ai: A ~> M, storeEvent: E => M[Unit])(
       implicit M: Monad[M]): M[R] = ???
 }
-</pre>
+```
 
 To do the interpretation, we need both an interpretation of the actions (the `A ~> M` natural transformation) and a way to store the events. Given a program `ES[E, A, R]` and a monad `M`, we get back the result: `M[R]` with all events handled, stored and actions interpreted.
 
 # Example usage
 
 How would a simple usage example look like? We will describe a program where users can register using a unique email, and for each new user an api key is created. Here’s the data, actions and events that we will use:
-
-<pre lang="scala" line="1">case class User(id: Long, email: String, password: String)
+```scala
+case class User(id: Long, email: String, password: String)
 case class ApiKey(userId: Long, key: String)
 
 sealed trait Action[R]
@@ -374,11 +374,11 @@ case class SendEmail(to: String, body: String) extends Action[Unit]
 sealed trait Event
 case class UserRegistered(u: User) extends Event
 case class ApiKeyCreated(ak: ApiKey) extends Event
-</pre>
+```
 
 The entry point will be a command to register users:
-
-<pre lang="scala" line="1">def registerUserCommand(
+```scala
+def registerUserCommand(
    email: String, password: String): ES[Event, Action, Either[String, Unit]] = {
 
    action(FindUserByEmail(email)).flatMap {
@@ -390,30 +390,30 @@ The entry point will be a command to register users:
          pure(Left("User with the given email already exists"))
    }
 }
-</pre>
+```
 
 Note that we are using concrete types (`Event`, `Action`) as the type parameters for `ES`. The result of the command can be either an error message (represented by the left side of the either), or success (`Right(())`). In the command we perform actions (looking user up by email) and emit events (user registered) if validation succeeds.
 
 We also need the model update/event listener functions to intepret the events:
-
-<pre lang="scala" line="1">val modelUpdate: PartialFunction[Event, ES[Nothing, Action, Unit]] = {
+```scala
+val modelUpdate: PartialFunction[Event, ES[Nothing, Action, Unit]] = {
    case UserRegistered(u) => action(WriteUser(u))
    case ApiKeyCreated(ak) => action(WriteApiKey(ak))
 }
 
 val eventListeners: PartialFunction[Event, ES[Event, Action, Unit]] = {
    case UserRegistered(u) => for {
-      _ &lt;- emit(ApiKeyCreated(ApiKey(u.id, UUID.randomUUID().toString)))
-      _ &lt;- action(SendEmail(u.email, "Welcome!"))
+      _ <- emit(ApiKeyCreated(ApiKey(u.id, UUID.randomUUID().toString)))
+      _ <- action(SendEmail(u.email, "Welcome!"))
    } yield ()
 }
-</pre>
+```
 
 There are no event listeners for `ApiKeyCreated`, and for `UserRegistered` we emit another event and perform an action.
 
 Given user input, we can handle the result of the command and interpret it in the `Id` monad:
-
-<pre lang="scala" line="1">val handledCommand = registerUserCommand("adam@example.org", "1234")
+```scala
+val handledCommand = registerUserCommand("adam@example.org", "1234")
    .handleEvents(modelUpdate, eventListeners)
 
 val result: Either[String, Unit] = handledCommand.run[Id](new (Action ~> Id) {
@@ -425,7 +425,7 @@ val result: Either[String, Unit] = handledCommand.run[Id](new (Action ~> Id) {
       case SendEmail(to, body) => println(s"Send email to $to, body: $body")
    }
 }, e => println("Store event: " + e))
-</pre>
+```
 
 `Id` is great for testing, in real-life you would interpret the actions using e.g. `Future` or `Task` and write the results to a database. When executed, you would see a trail of actions being performed by the program.
 

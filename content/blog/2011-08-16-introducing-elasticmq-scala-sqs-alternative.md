@@ -79,10 +79,10 @@ val server = SQSRestServerFactory.start(node.nativeClient, 8888,
 
 Now simply point your SQS client to `http://localhost:8888` and you should be able to create/delete queues, change the visibility timeout, send and receive messages.  
 When you are done using ElasticMQ, you can shutdown the node and the server:
-
-<pre lang="java" line="1">server.stop()
+```java
+server.stop()
 node.shutdown()
-</pre>
+```
 
 All of the source code is available on [GitHub][1]. See the readme for instructions on how to add ElasticMQ as a dependency to your Maven or SBT project.
 
