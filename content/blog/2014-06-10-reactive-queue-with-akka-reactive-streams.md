@@ -171,14 +171,9 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - Akka
+  - akka
   - concurrency
-  - Distributed
-  - ElasticMQ
-  - Library
-  - reactive
-  - Scala
-  - Uncategorized
+  - scala
 
 ---
 **Update 15/09/2014: introduced API changes from [akka-streams 0.7][1].  

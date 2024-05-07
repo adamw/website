@@ -9,10 +9,10 @@ simplecatch-sidebarlayout:
 dsq_thread_id:
   - 2126560285
 categories:
-  - Envers
-  - Java
-  - jazoon
-  - JBoss
+  - envers
+  - java
+  - conferences
+  - hibernate
 
 ---
 If you&#8217;ll be attending [Jazoon][1] next week, be sure not to miss the [Envers][2] presentation! It will take place on Wednesday (24th July), at 4pm ([here][3] are the presentation details). I&#8217;ll be attending the whole Jazoon conference, so if you&#8217;d like to talk about Envers (or anything else :) ), just catch me there. [outdoor human foosball table][4]

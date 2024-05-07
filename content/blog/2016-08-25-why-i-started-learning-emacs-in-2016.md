@@ -9,9 +9,7 @@ simplecatch-sidebarlayout:
 dsq_thread_id:
   - 5093911261
 categories:
-  - different
-  - emacs
-  - Uncategorized
+  - something different
 
 ---
 ### Why learn another editor in the first place?

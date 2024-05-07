@@ -90,14 +90,10 @@ wp-syntax-cache-content:
     --input s3n://bucket_name/input.dat</p></div>
     ";}
 categories:
-  - apache
-  - AWS
-  - Distributed
-  - hadoop
-  - Java
-  - mahout
-  - recommender
-  - Uncategorized
+  - cloud
+  - aws
+  - distributed
+  - machine learning
 
 ---
 Apache Mahout is a &#8220;scalable machine learning library&#8221; which, among others, contains implementations of various single-node and distributed recommendation algorithms. In my last blog post [I described how to implement an on-line recommender system][1] processing data on a single node. What if the data is too large to fit into memory (>100M preference data points)? Then we have no choice, but to take a look at Mahout&#8217;s distributed recommenders implementation!

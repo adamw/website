@@ -151,12 +151,10 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - CDI
-  - Dependency Injection
-  - Java
-  - JBoss
-  - Uncategorized
-  - Weld
+  - jee
+  - dependency injection
+  - clean code
+  - java
 
 ---
 Suppose you have a `Product` entity and that you want to implement a method which sends the product to a customer (let&#8217;s call it `ship`). For that method to work, you need a service for calculating prices and a goods transporting service. To wire the services nicely, the natural choice nowadays is a DI framework (Seam, Guice, Spring, CDI, &#8230;).

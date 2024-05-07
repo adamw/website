@@ -58,11 +58,8 @@ wp-syntax-cache-content:
       iter.next(); // error: iter is in a wrong state</p></div>
     ";}
 categories:
-  - Java
-  - JBoss
-  - jsr308
-  - Typestate
-  - Uncategorized
+  - java
+  - static analysis
 
 ---
 In the new 0.2.2 release of the [typestate checker][1] (an extension to the [JSR308 checkers framework][2]), you can now specify a state, to which an object transits, if a method returns true or false using the <tt>afterTrue</tt> and <tt>afterFalse</tt> elements in state annotations.

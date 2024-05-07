@@ -7,11 +7,9 @@ url: /blog/2011/09/how-to-handle-inheritance-and-audited/
 dsq_thread_id:
   - 1051860488
 categories:
-  - Envers
-  - Hibernate
-  - Java
-  - JBoss
-  - Uncategorized
+  - envers
+  - hibernate
+  - java
 
 ---
 Some [Envers][1] uses had problems because of the limited flexibility in specifying which fields from superclasses (especially those annotated with `@MappedSuperclass`) should be audited or not. We improved a bit in the latest release, by being able to explicitly enumerate the superclasses to audit.

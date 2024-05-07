@@ -220,18 +220,10 @@ epcl_post:
 views_counter:
   - 2
 categories:
-  - Cake Pattern
-  - Dependency Injection
-  - Framework
-  - Languages
-  - Library
-  - MacWire
-  - Modularity
-  - Object oriented
-  - Packages
-  - Scala
-  - Uncategorized
-  - veripacks
+  - dependency injection
+  - macwire
+  - modularity
+  - scala
 
 ---
 I would like to describe a pure-Scala approach to modularity that we are successfully using in a couple of our Scala projects.

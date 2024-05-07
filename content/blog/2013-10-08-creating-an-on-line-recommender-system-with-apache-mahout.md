@@ -204,13 +204,8 @@ wp-syntax-cache-content:
     val result = recommender.recommend(userId, 10, rescorer)</p></div>
     ";}
 categories:
-  - Java
-  - Library
-  - mahout
-  - recommender
-  - Scala
-  - Uncategorized
-  - yap
+  - machine learning
+  - softwaremill
 
 ---
 Recently [we&#8217;ve][1] been implementing a recommender system for [Yap.TV][2]: you can see it in action after installing the app and going to the &#8220;Just for you&#8221; tab. We&#8217;re using [Apache Mahout][3] as the base for doing recommendations. Mahout is a &#8220;scalable machine learning library&#8221; and contains both local and distributed implementations of user- and item- based recommenders using collaborative filtering algorithms.

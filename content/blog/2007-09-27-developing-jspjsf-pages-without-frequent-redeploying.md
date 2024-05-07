@@ -8,7 +8,7 @@ dsq_thread_id:
   - 1051933987
 tags:
   - java
-  - jboss
+  - jsf
 
 ---
 Imagine you are developing a web application, which displays some JSP files. It is pretty annoying to have to re-deploy the application whenever you make any change to a JSP to see the result in the browser (there are other ways to get rid of that annoying problem, of course; here I&#8217;m describing only one way of many). It would be really handy if the JSP files were read from outside the .war &#8211; most preferably, from the directory in which you develop your web application.

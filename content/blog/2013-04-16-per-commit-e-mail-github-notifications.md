@@ -9,11 +9,8 @@ simplecatch-sidebarlayout:
 dsq_thread_id:
   - 1215243679
 categories:
-  - Code review
-  - CodeBrag
-  - GitHub
-  - SoftwareMill
-  - Uncategorized
+  - code review
+  - softwaremill
 
 ---
 One thing that I miss in GitHub is the ability to get e-mail notifications on each push/commit. There is an option to set an e-mail notification address in the repository settings, but you can only specify a single, global address, and only the administrator can do it.

@@ -37,12 +37,8 @@ epcl_post:
 views_counter:
   - 1
 categories:
-  - Java
-  - javacv
-  - Library
-  - opencv
-  - SBT
-  - Scala
+  - machine learning
+  - scala
 
 ---
 Recently I&#8217;ve been doing some simple face detection in a Scala-based project. The &#8220;industry standard&#8221; for such kind of tasks is [OpenCV][1]; face detection is one of its basic use-cases.

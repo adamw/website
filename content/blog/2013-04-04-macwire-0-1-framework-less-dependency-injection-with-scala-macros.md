@@ -84,16 +84,9 @@ wp-syntax-cache-content:
     </pre></td><td class="code"><pre class="scala" style="font-family:monospace;">libraryDependencies +<span style="color: #000080;">=</span> <span style="color: #6666FF;">&quot;com.softwaremill.macwire&quot;</span> <span style="color: #000080;">%%</span> <span style="color: #6666FF;">&quot;core&quot;</span> <span style="color: #000080;">%</span> <span style="color: #6666FF;">&quot;0.1&quot;</span></pre></td></tr></table><p class="theCode" style="display:none;">libraryDependencies += &quot;com.softwaremill.macwire&quot; %% &quot;core&quot; % &quot;0.1&quot;</p></div>
     ";}
 categories:
-  - CDI
-  - Dependency Injection
-  - Java
-  - Library
-  - Macros
-  - MacWire
-  - Modularity
-  - Object oriented
-  - Scala
-  - Uncategorized
+  - dependency injection
+  - macwire
+  - scala
 
 ---
 Using _Dependency Injection_ is almost a standard when developing software. However, in many cases it may seem that using the pattern implicates using a DI container/framework. But is a framework really needed? 

@@ -7,9 +7,8 @@ url: /blog/2007/10/developing-with-seam-and-without-frequent-redeploying/
 dsq_thread_id:
   - 1051933700
 categories:
-  - Java
-  - JBoss
-  - Uncategorized
+  - java
+  - jboss
 
 ---
 [Seam][1] in combination with [JBoss Tools][2] already has the features I [wrote][3] about some time ago (see [here][4]), unless, for example, you aren&#8217;t using Eclipse or you want to develop with Seam 2, which isn&#8217;t supported by JBoss Tools yet.

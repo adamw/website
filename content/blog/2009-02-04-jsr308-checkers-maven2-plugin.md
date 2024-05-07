@@ -208,10 +208,8 @@ wp-syntax-cache-content:
     &lt;/build&gt;</p></div>
     ";}
 categories:
-  - Java
-  - jsr308
-  - Typestate
-  - Uncategorized
+  - java
+  - static analysis
 
 ---
 I&#8217;ve written a prototype [JSR308 Checkers][1] Maven2 plugin. You can use the plugin to run any checker on the sources of your module(s).

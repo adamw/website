@@ -7,9 +7,9 @@ url: /blog/2009/06/envers-121ga-released/
 dsq_thread_id:
   - 1051934977
 categories:
-  - Envers
-  - Java
-  - JBoss
+  - envers
+  - java
+  - hibernate
 
 ---
 Yesterday I uploaded a new release of [Envers][1], 1.2.1.GA. It is mainly a bugfix release, but there is also one new feature. You can now access the current revision entity directly using `AuditReader`, without the need to use a revisions listener. For details, see the description of the `AuditReader.getCurrentRevision()` method in the [javadocs][2].

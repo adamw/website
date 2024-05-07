@@ -7,10 +7,9 @@ url: /blog/2009/03/envers-120ga-released/
 dsq_thread_id:
   - 1051934967
 categories:
-  - Envers
-  - Java
-  - JBoss
-  - Uncategorized
+  - envers
+  - java
+  - hibernate
 
 ---
 Today [Envers 1.2.0.GA][1] has been released! It is a Hibernate 3.3 compatible version of the newest Envers codebase, which will be included as a module in Hibernate 3.5. You can download it [here][2], and find documentation [here][3].

@@ -265,11 +265,10 @@ epcl_post:
 views_counter:
   - 1
 categories:
-  - Event streaming
-  - Functional programming
-  - Languages
-  - Scala
-  - Uncategorized
+  - event sourcing
+  - functional programming
+  - scala
+  - architecture
 
 ---
 I recently wrote about [Event Sourcing][1] and [Free Monads][2]. The natural next step is combining the two! How would a free monad adjusted for event sourcing look like?

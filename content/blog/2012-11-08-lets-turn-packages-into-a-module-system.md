@@ -46,13 +46,10 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - Java
-  - Maven
-  - Modularity
-  - Packages
-  - SBT
-  - Scala
-  - Uncategorized
+  - java
+  - architecture
+  - scala
+  - clean code
 
 ---
 Many projects are divided into modules/subprojects using the build system ([Maven][1], [Gradle][2], [SBT][3] &#8230;); and writing modular code is generally a Good Thing. Dividing the code into build modules is mainly used for:

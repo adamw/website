@@ -261,11 +261,9 @@ wp-syntax-cache-content:
     env.userInformation(User(&quot;someuser@domain.pl&quot;)).userCountry</p></div>
     ";}
 categories:
-  - Cake Pattern
-  - Dependency Injection
-  - Java
-  - Scala
-  - Uncategorized
+  - dependency injection
+  - java
+  - scala
 
 ---
 Continuing the mini-series on Dependency Injection (see my previous blogs: [problems with DI][1], [assisted inject for CDI][2] and [improving assisted inject][3]), I took a look at how DI is handled in Scala.

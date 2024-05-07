@@ -9,12 +9,9 @@ simplecatch-sidebarlayout:
 dsq_thread_id:
   - 1786230717
 categories:
-  - Conference
-  - Java
-  - JavaZone
-  - Macros
-  - Scala
-  - Uncategorized
+  - conferences
+  - metaprogramming
+  - scala
 
 ---
 This year I had the chance to attend JavaZone 2013. So far I mainly knew JavaZone from their conference trailers (e.g. [Javapocalypse][1] or [Java 4-ever][2]). But now as my talk got accepted to the conference, I could see for myself how the real thing looks like.

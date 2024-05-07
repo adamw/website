@@ -9,15 +9,8 @@ simplecatch-sidebarlayout:
 dsq_thread_id:
   - 2635499622
 categories:
-  - Blogroll
-  - Bluetooth
-  - C
-  - different
-  - electronics
-  - iBeacon
-  - positioning
-  - Uncategorized
-  - zeromq
+  - hardware
+  - messaging
 
 ---
 Indoor positioning is a very popular topic recently, mostly due to the [iBeacon technology][1] promoted by Apple, and adopted by other vendors. Most of the [research on indoor location][2] involves a set of fixed beacons on well-known positions, and a moving beacon signal receiver. What if the beacon was moving, and the receivers were fixed?

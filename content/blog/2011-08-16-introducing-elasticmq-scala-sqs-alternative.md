@@ -60,16 +60,12 @@ wp-syntax-cache-content:
     val server = RestServer.start(handler1 :: handler2 :: … :: Nil, 8888)</p></div>
     ";}
 categories:
-  - AWS
-  - Cloud
-  - Distributed
-  - DSL
-  - ElasticMQ
-  - Java
-  - Netty
-  - Scala
-  - SQS
-  - Uncategorized
+  - aws
+  - cloud
+  - messaging
+  - java
+  - scala
+  - elasticmq
 
 ---
 Wanting to explore Scala and some new Scala/Java libraries I started writing [ElasticMQ][1]. It is a simple message queueing system, following closely [Amazon SQS][2] semantics and exposing a REST SQS-like interface. Currently only the basic operations are implemented. ElasticMQ can be useful as an SQS replacement, e.g. for for testing SQS applications.

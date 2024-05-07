@@ -115,10 +115,8 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - CDI
-  - Java
-  - JBoss
-  - Weld
+  - jee
+  - java
 
 ---
 Rich domain models are certainly a nice, object-oriented idea, but I always had one problem with them: what if they become bloated with completely unrelated methods? For objects that are frequently used in a system, we may want to add various methods, which depend on the actual class of the object. Also, what if we&#8217;d like to use some other (e.g. CDI) beans as part of the method logic? Normally in DI frameworks there&#8217;s no injection into model classes. Or we want to add a frontend-specific method, but we receive the instances from a backend service?

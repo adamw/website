@@ -7,9 +7,8 @@ url: /blog/2007/12/instant-facelets-changes-in-xhtml-and-no-redeploying/
 dsq_thread_id:
   - 1051116499
 categories:
-  - Java
-  - JBoss
-  - Uncategorized
+  - java
+  - jboss
 
 ---
 If you are developing anything with Facelets/Seam/&#8230; frameworks, you probably know the pain of having to redeploy after each .xhtml file change to see the changes, even if they are only cosmetic. I wrote about possible solutions for that problem earlier, but they didn&#8217;t quite work for facelets (more specifically, templates didn&#8217;t get refreshed and any included pages).

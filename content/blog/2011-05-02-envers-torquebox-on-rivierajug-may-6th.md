@@ -7,16 +7,12 @@ url: /blog/2011/05/envers-torquebox-on-rivierajug-may-6th/
 dsq_thread_id:
   - 1058428028
 categories:
-  - Arquillian
-  - CDI
-  - Envers
-  - Hibernate
-  - Java
-  - JBoss
-  - Ruby
-  - TorqueBox
-  - Uncategorized
-  - Weld
+  - testing
+  - jee
+  - envers
+  - hibernate
+  - java
+  - ruby
 
 ---
 This Friday (6th of May) I will have the pleasure to present two talks: one on [Envers][1] and one on [Torquebox][2], thanks to an invitation from the [RivieraJUG][3].

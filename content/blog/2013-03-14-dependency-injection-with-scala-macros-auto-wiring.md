@@ -111,12 +111,9 @@ wp-syntax-cache-content:
     val maxConnections = conf(10)</p></div>
     ";}
 categories:
-  - Dependency Injection
-  - Java
-  - Macros
-  - Scala
-  - Uncategorized
-  - Weld
+  - dependency injection
+  - metaprogramming
+  - macwire
 
 ---
 You can look at dependency injection as a fancy name for passing parameters to a function (or constructor arguments to a constructor). However usually, DI containers do much more than that. Among other things, one very nice feature is **auto-wiring**: instantiating the right objects with the right arguments. Most popular frameworks ([Spring][1], [Guice][2], [CDI/Weld][3]) accomplish this task at runtime using reflection.

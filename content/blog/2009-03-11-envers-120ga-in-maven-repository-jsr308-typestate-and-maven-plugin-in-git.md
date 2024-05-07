@@ -7,11 +7,10 @@ url: /blog/2009/03/envers-120ga-in-maven-repository-jsr308-typestate-and-maven-p
 dsq_thread_id:
   - 1094113071
 categories:
-  - Envers
-  - Java
-  - JBoss
-  - jsr308
-  - Typestate
+  - envers
+  - java
+  - hibernate
+  - static analysis
 
 ---
 The [recently released Envers 1.2.0.GA][1] finally made it to the JBoss Maven repository; you can find it here:  

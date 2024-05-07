@@ -19,12 +19,9 @@ wp-syntax-cache-content:
     libraryDependencies += &quot;com.softwaremill.scalamacrodebug&quot; %% &quot;macros&quot; % &quot;0.0.1-SNAPSHOT&quot;</p></div>
     ";}
 categories:
-  - ElasticMQ
-  - Library
-  - Macros
-  - Scala
-  - SQS
-  - Uncategorized
+  - elasticmq
+  - metaprogramming
+  - scala
 
 ---
 As [Scala 2.10 was released][1] some time ago, it is high time to update the projects using 2.9: [ElasticMQ][2] and [scala-macro-debug][3]. [Veripacks][4] was already released using 2.10.

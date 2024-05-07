@@ -9,14 +9,8 @@ simplecatch-sidebarlayout:
 dsq_thread_id:
   - 1051936123
 categories:
-  - CDI
-  - Java
-  - JBoss
-  - Languages
-  - Modularity
-  - OSGi
-  - Scala
-  - Uncategorized
+  - architecture
+  - modularity
 
 ---
 I think everybody will agree that writing modular applications and modularity in general is a _good thing_.

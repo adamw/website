@@ -7,9 +7,9 @@ url: /blog/2008/09/envers-110beta2-released-with-collections-support/
 dsq_thread_id:
   - 1051934634
 categories:
-  - Envers
-  - Java
-  - JBoss
+  - envers
+  - java
+  - hibernate
 
 ---
 Today [Envers 1.1.0.beta2][1] has been released. This release focuses on supporting persistent collections. In earlier versions, it was only possible to version collections belonging to one-to-many bidirectional relations. Right now Envers supports (almost: [see here which and why][2]) all persistent collections [supported][3] by Hibernate:

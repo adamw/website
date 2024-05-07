@@ -179,10 +179,8 @@ wp-syntax-cache-content:
 dsq_needs_sync:
   - 1
 categories:
-  - Java
-  - Macros
-  - Scala
-  - Uncategorized
+  - metaprogramming
+  - scala
 
 ---
 Using some time during the weekend, I decided to finally explore one the new features in the coming Scala 2.10, [macros][1]. Macros are also written in Scala so in essence a macro is a piece of Scala code, executed at compile-time, which manipulates and modifies the AST of a Scala program.

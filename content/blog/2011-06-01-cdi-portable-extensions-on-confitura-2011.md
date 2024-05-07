@@ -7,12 +7,10 @@ url: /blog/2011/06/cdi-portable-extensions-on-confitura-2011/
 dsq_thread_id:
   - 1051419554
 categories:
-  - Arquillian
-  - CDI
-  - Java
-  - JBoss
-  - Uncategorized
-  - Weld
+  - testing
+  - jee
+  - java
+  - conferences
 
 ---
 In less than two weeks (11th June) I will have the opportunity to present a talk on [CDI & Portable Extensions][1] during the [Confitura 2011][2] conference, organized by the [Warsaw JUG][3].

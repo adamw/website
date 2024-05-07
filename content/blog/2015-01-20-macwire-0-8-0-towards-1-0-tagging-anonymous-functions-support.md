@@ -48,11 +48,9 @@ wp-syntax-cache-content:
     lazy val taxCalculator = (taxBase: TaxBase) =&gt; wire[TaxCalculator]</p></div>
     ";}
 categories:
-  - Dependency Injection
-  - Library
-  - MacWire
-  - Scala
-  - Uncategorized
+  - dependency injection
+  - macwire
+  - scala
 
 ---
 A couple of days ago [MacWire 0.8.0][1] got released. It contains a couple of changes and new features. But first, I’d like to thank [Marcin Kubala][2] for his contributions.

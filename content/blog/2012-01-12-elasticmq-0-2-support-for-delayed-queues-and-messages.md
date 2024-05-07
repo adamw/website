@@ -70,13 +70,12 @@ wp-syntax-cache-content:
     node.shutdown()</p></div>
     ";}
 categories:
-  - Cloud
-  - Distributed
-  - ElasticMQ
-  - Java
-  - Scala
-  - SQS
-  - Uncategorized
+  - aws
+  - cloud
+  - messaging
+  - java
+  - scala
+  - elasticmq
 
 ---
 Time to start blogging in 2012 :)

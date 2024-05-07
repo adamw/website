@@ -7,9 +7,9 @@ url: /blog/2008/06/envers-beta-now-with-queries/
 dsq_thread_id:
   - 1070465743
 categories:
-  - Envers
-  - Java
-  - JBoss
+  - envers
+  - java
+  - hibernate
 
 ---
 So far [Envers][1] made it easy to store historical data; now, with version 1.0.0.beta1 (download [here][2]), you can also query it, in two &#8220;dimensions&#8221;: for entities at a given revision and for revisions, at which an entity changed. The implementation mostly follows [Hibernate Criteria][3], with some features removed, and some added.

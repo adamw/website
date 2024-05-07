@@ -69,12 +69,9 @@ wp-syntax-cache-content:
     </pre></td><td class="code"><pre class="scala" style="font-family:monospace;">copy<span style="color: #F78811;">&#40;</span>person<span style="color: #F78811;">&#41;</span>.<span style="color: #000000;">modifying</span><span style="color: #F78811;">&#40;</span><span style="color: #000080;">_</span>.<span style="color: #000000;">address</span>.<span style="color: #000000;">street</span>.<span style="color: #000000;">name</span><span style="color: #F78811;">&#41;</span>.<span style="color: #000000;">using</span><span style="color: #F78811;">&#40;</span><span style="color: #000080;">_</span>.<span style="color: #000000;">toUpperCase</span><span style="color: #F78811;">&#41;</span></pre></td></tr></table><p class="theCode" style="display:none;">copy(person).modifying(_.address.street.name).using(_.toUpperCase)</p></div>
     ";}
 categories:
-  - Blogroll
-  - Functional programming
-  - Library
-  - Macros
-  - Scala
-  - Uncategorized
+  - functional programming
+  - metaprogramming
+  - scala
 
 ---
 [Quicklens][1] is a small library which allows to modify deeply nested fields in case classes e.g.: `modify(person)(_.address.street.name).using(_.toUpperCase)`, without the need to create dedicated lens objects.

@@ -364,11 +364,9 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - CDI
-  - Java
-  - JBoss
+  - jee
+  - java
   - jsf
-  - Weld
 
 ---
 In my [previous][1] post, I described how to create a simple security interceptor, which checks conditions defined using EL expressions, e.g.:

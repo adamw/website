@@ -7,15 +7,10 @@ url: /blog/2011/09/blending-ruby-on-rails-and-cdi-on-openblend-2011/
 dsq_thread_id:
   - 1054625668
 categories:
-  - CDI
-  - Java
-  - JBoss
-  - Languages
-  - OpenBlend
-  - Ruby
-  - TorqueBox
-  - Uncategorized
-  - Weld
+  - conferences
+  - ruby
+  - jsf
+  - java
 
 ---
 I will have the pleasure to speak on [OpenBlend 2011][1], in exactly a week: 15th September 2011, which will take place in [Ljubljana, Slovenia][2].

@@ -7,10 +7,9 @@ url: /blog/2010/09/new-envers-contributor/
 dsq_thread_id:
   - 1066205394
 categories:
-  - Envers
-  - Java
-  - JBoss
-  - Uncategorized
+  - envers
+  - java
+  - hibernate
 
 ---
 I&#8217;d like to welcome Erik-Berndt Scheper as our new [Envers][1] contributor. His first commit was yesterday (rev 20717 and 20718), resolving the [HHH-5560][2] issue.

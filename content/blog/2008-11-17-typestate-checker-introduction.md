@@ -229,10 +229,9 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - Java
+  - java
   - jsr308
-  - Typestate
-  - Uncategorized
+  - static analysis
 
 ---
 When dealing with mutable objects in Java, we quite often see that &#8220;states&#8221; of the class considered emerge. The (abstract) &#8220;state&#8221; depends of course on the content of the fields of the object. When methods are invoked, which mutate the fields, the state of the object may change. Also, it may be illegal to call some methods in one state, but legal in another.

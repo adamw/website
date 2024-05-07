@@ -7,10 +7,9 @@ url: /blog/2010/08/envers-1-2-3-hibernate-3-3-backport-release/
 dsq_thread_id:
   - 1051040560
 categories:
-  - Envers
-  - Java
-  - JBoss
-  - Uncategorized
+  - envers
+  - java
+  - hibernate
 
 ---
 Hernan Chanfreau backported some of the recent Envers changes and fixes from the 3.5 branch. The detailed list of the backported issues can be found in [this forum post][1]. 

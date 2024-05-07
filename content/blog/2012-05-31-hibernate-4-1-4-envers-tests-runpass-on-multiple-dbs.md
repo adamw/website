@@ -7,11 +7,9 @@ url: /blog/2012/05/hibernate-4-1-4-envers-tests-runpass-on-multiple-dbs/
 dsq_thread_id:
   - 1054041242
 categories:
-  - Envers
-  - Hibernate
-  - Java
-  - JBoss
-  - Uncategorized
+  - envers
+  - hibernate
+  - java
 
 ---
 _[Envers][1] is an entity auditing framework, making it possible to store and query for historical data._

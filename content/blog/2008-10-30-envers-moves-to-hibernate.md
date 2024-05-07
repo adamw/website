@@ -7,10 +7,9 @@ url: /blog/2008/10/envers-moves-to-hibernate/
 dsq_thread_id:
   - 1051934692
 categories:
-  - Envers
-  - Java
-  - JBoss
-  - Uncategorized
+  - envers
+  - java
+  - hibernate
 
 ---
 I&#8217;m happy to announce that [Envers][1] is now a module of Hibernate! This means that:

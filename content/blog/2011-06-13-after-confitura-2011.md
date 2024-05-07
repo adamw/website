@@ -7,16 +7,13 @@ url: /blog/2011/06/after-confitura-2011/
 dsq_thread_id:
   - 1057971689
 categories:
-  - Arquillian
-  - AWS
-  - CDI
-  - Cloud
-  - Dependency Injection
-  - Java
-  - JBoss
-  - Portable extensions
-  - Uncategorized
-  - Weld
+  - testing
+  - conferences
+  - aws
+  - jee
+  - cloud
+  - dependency injection
+  - java
 
 ---
 [Confitura 2011][1] went past very quickly, it was a great conference and a great occasion to meet with the polish Java community on the [SPOINA][2] after-party.

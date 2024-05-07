@@ -61,10 +61,9 @@ wp-syntax-cache-content:
     </pre></td><td class="code"><pre class="xml" style="font-family:monospace;">Dependencies: org.hibernate.envers services</pre></td></tr></table><p class="theCode" style="display:none;">Dependencies: org.hibernate.envers services</p></div>
     ";}
 categories:
-  - Envers
-  - Java
-  - JBoss
-  - Uncategorized
+  - envers
+  - java
+  - hibernate
 
 ---
 Recently I tried deploying a web application which uses [Envers][1] into [AS7][2], but unfortunately I encountered some problems (see the [forum][3] discussion). Luckily thanks to the helpful JBoss guys I&#8217;ve got it working now. Moreover, thanks to the work done by Strong Liu, you should see full Envers integration (included OOTB as a module) in AS7.1!

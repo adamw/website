@@ -7,15 +7,13 @@ url: /blog/2012/05/elasticmq-0-5-journalling-stand-alone-server/
 dsq_thread_id:
   - 1057216025
 categories:
-  - Distributed
-  - ElasticMQ
-  - Java
-  - JGroups
-  - Netty
-  - Replication
-  - Scala
-  - SQS
-  - Uncategorized
+  - distributed
+  - elasticmq
+  - java
+  - cloud
+  - aws
+  - scala
+  - messaging
 
 ---
 [ElasticMQ][1] is a message queue server, with Scala, Java, and an Amazon SQS-compatible interface. It also supports guaranteed messaging via replicating the messages across a cluster of servers.

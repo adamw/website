@@ -9,15 +9,12 @@ simplecatch-sidebarlayout:
 dsq_thread_id:
   - 3540407983
 categories:
-  - Dependency Injection
+  - dependency injection
+  - clean code
   - different
-  - Functional programming
-  - Languages
-  - MacWire
-  - Modularity
-  - Object oriented
-  - Scala
-  - Uncategorized
+  - functional programming
+  - macwire
+  - scala
 
 ---
 It’s 2015. Most of the new popular languages are more or less functional. The old ones, like Java, gain functional programming elements. In Scala, people are increasingly leaning towards the pure side, using more FP and less OO. So &#8211; Dependency Injection? Really?

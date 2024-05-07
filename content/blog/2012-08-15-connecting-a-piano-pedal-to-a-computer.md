@@ -252,14 +252,9 @@ wp-syntax-cache-content:
     </pre></td><td class="code"><pre class="bash" style="font-family:monospace;"><span style="color: #c20cb9; font-weight: bold;">gcc</span> <span style="color: #660033;">-lcurl</span> piano.c <span style="color: #660033;">-o</span> piano</pre></td></tr></table><p class="theCode" style="display:none;">gcc -lcurl piano.c -o piano</p></div>
     ";}
 categories:
-  - C
-  - different
-  - electronics
-  - rs232
-  - SoftwareMill
-  - summer
-  - teamspeak
-  - Uncategorized
+  - softwaremill
+  - something different
+  - hardware
 
 ---
 It&#8217;s good to do something different once in a while. In my case, &#8220;different&#8221; still means things involving a computer &#8211; but far from the Java&Scala programming that I do daily.

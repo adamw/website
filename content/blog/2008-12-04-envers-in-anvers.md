@@ -7,10 +7,10 @@ url: /blog/2008/12/envers-in-anvers/
 dsq_thread_id:
   - 1051934851
 categories:
-  - Devoxx
-  - Envers
-  - Java
-  - JBoss
+  - conference
+  - envers
+  - java
+  - hibernate
 
 ---
 December came, so it&#8217;s time for [Devoxx][1]! (formerly JavaPolis) 

@@ -7,9 +7,9 @@ url: /blog/2008/04/envers-preview-2-versioning-relations/
 dsq_thread_id:
   - 1094263273
 categories:
-  - Envers
-  - Java
-  - JBoss
+  - envers
+  - java
+  - hibernate
 
 ---
 You can now [download][1] a second preview version of the [Envers][2] library!

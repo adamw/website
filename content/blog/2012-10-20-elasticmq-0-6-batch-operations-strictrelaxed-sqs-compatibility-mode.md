@@ -7,7 +7,10 @@ url: /blog/2012/10/elasticmq-0-6-batch-operations-strictrelaxed-sqs-compatibilit
 dsq_thread_id:
   - 1052550816
 categories:
-  - Uncategorized
+  - cloud
+  - aws
+  - elasticmq
+  - messaging
 
 ---
 Summer is definitely over, so it&#8217;s about time to release a new version of [ElasticMQ][1] (0.6).

@@ -7,10 +7,9 @@ url: /blog/2010/09/envers-at-jboss-one-day-talk-2010/
 dsq_thread_id:
   - 1203880310
 categories:
-  - Envers
-  - Java
-  - JBoss
-  - Uncategorized
+  - envers
+  - java
+  - hibernate
 
 ---
 I will be presenting Envers (data auditing in Hibernate) at [JBoss One Day Talk 2010][1] in Munich, on the 1st of October. There&#8217;s still time to register, and if you already did, don&#8217;t miss the Envers talk :)

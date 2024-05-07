@@ -42,15 +42,10 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - Akka
-  - Event streaming
-  - Java
-  - Mongo
-  - reactive
-  - Replication
-  - Scala
-  - SQS
-  - Uncategorized
+  - akka
+  - event sourcing
+  - scala
+  - distributed
 
 ---
 Some time ago I wrote how to implement a [reactive message queue with Akka Streams][1]. The queue supports streaming send and receive operations with back-pressure, but has one downside: all messages are stored in-memory, and hence in case of a restart are lost.

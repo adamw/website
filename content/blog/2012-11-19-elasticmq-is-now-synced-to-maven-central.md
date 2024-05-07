@@ -40,16 +40,12 @@ wp-syntax-cache-content:
     &lt;/dependency&gt;</p></div>
     ";}
 categories:
-  - AWS
-  - Cloud
-  - ElasticMQ
-  - Java
-  - Library
-  - Maven
-  - SBT
-  - Scala
-  - SQS
-  - Uncategorized
+  - aws
+  - cloud
+  - elasticmq
+  - java
+  - messaging
+  - scala
 
 ---
 Thanks to Sonatype OSS repositories, [ElasticMQ version 0.6.1][1] is now synced to central. All of the artifacts, except the standalone server (which depends on Ostrich, which isn&#8217;t available in the central repo) are synchronized. The [procedure][2] turned out to be pretty straighforward, and after a couple of days since the initial request the artifacts are there: <http://repo1.maven.org/maven2/org/elasticmq/>

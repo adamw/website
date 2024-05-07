@@ -189,10 +189,8 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - Akka
-  - Java
-  - Scala
-  - Uncategorized
+  - akka
+  - scala
 
 ---
 [Akka][1] is a great tool for writing distributed applications. One thing that always surprised me though is that while being based on Scala, which is a very type-safe language, the elementary construct in Akka &#8211; an actor &#8211; is not really type safe. You can send any message to any actor, and get back any object in reply.

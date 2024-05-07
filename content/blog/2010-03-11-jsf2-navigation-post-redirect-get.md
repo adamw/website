@@ -358,12 +358,9 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - CDI
-  - Java
-  - JBoss
+  - jee
+  - java
   - jsf
-  - Uncategorized
-  - Weld
 
 ---
 JSF2 improves a lot both how navigation can be done (you can now return a view id from an action method, no need to describe every navigation case in faces-config.xml) and how URLs are handled (finally, GET support). JSF2 introduces **view parameters** (for those who know Seam: standardized page parameters). Each page can define a metadata section, where the view parameters are described, bound to bean values, converted and validated.

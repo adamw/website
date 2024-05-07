@@ -108,12 +108,8 @@ wp-syntax-cache-content:
     &lt;/div&gt;</p></div>
     ";}
 categories:
-  - Javascript
-  - Languages
-  - Library
-  - Scala
-  - Supler
-  - Uncategorized
+  - scala
+  - web
 
 ---
 [Supler][1] aims to make complex web forms development easier, without tying you to a web framework. Supler provides a server-side DSL for defining forms, generating a JSON form representation, applying values received from the client, validating and running actions. It also provides a front-end renderer for the forms, client-side validation, serialization to json and background refresh support.

@@ -7,10 +7,9 @@ url: /blog/2011/04/envers-and-hibernate-4-0-0-alpha2-automatic-listener-registra
 dsq_thread_id:
   - 1051040621
 categories:
-  - Envers
-  - Java
-  - JBoss
-  - Uncategorized
+  - envers
+  - java
+  - hibernate
 
 ---
 Development of [Hibernate4][1] is well under way, with the Alpha2 version [released recently][2]. It contains one major improvement which is quite significant for Envers, namely Integrators (see [HHH-5562][3] & [HHH-6081][4]).

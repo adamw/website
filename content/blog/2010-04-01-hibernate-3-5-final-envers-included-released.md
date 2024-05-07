@@ -7,10 +7,9 @@ url: /blog/2010/04/hibernate-3-5-final-envers-included-released/
 dsq_thread_id:
   - 1092666969
 categories:
-  - Envers
-  - Java
-  - JBoss
-  - Uncategorized
+  - envers
+  - java
+  - hibernate
 
 ---
 Hibernate 3.5 was just [released][1]; congratulations to Steve and the whole team!

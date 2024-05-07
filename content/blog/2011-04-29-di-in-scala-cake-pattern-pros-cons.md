@@ -94,11 +94,10 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - Cake Pattern
-  - Dependency Injection
-  - Java
-  - Scala
-  - Uncategorized
+  - dependency injection
+  - java
+  - scala
+  - modularity
 
 ---
 I&#8217;ve been looking at alternatives for java-style DI and DI containers which would use pure Scala; a promising candidate is the Cake Pattern (see my [earlier blog post][1] for information on how the Cake Pattern works). FP enthusiast also claim that they don&#8217;t need any DI frameworks, as higher-order functions are enough. 

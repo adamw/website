@@ -54,13 +54,9 @@ wp-syntax-cache-content:
        .addOption(Bytes.QUERYOPTION_AWAITDATA);</p></div>
     ";}
 categories:
-  - Distributed
-  - Event streaming
-  - Java
-  - Mongo
-  - Replication
-  - SoftwareMill
-  - Uncategorized
+  - distributed
+  - event streaming
+  - mongodb
 
 ---
 [MongoDB][1] is a really great &#8220;NoSQL&#8221; database, with a very wide range of applications. In one project that we are developing at [SoftwareMill][2], we used it as a replicated event storage, from which we stream the events to other components.

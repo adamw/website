@@ -96,15 +96,8 @@ wp-syntax-cache-content:
     import org.veripacks.RequiresImport;</p></div>
     ";}
 categories:
-  - Java
-  - Library
-  - Maven
-  - Methodology
-  - Modularity
-  - Scala
-  - specification
-  - Uncategorized
-  - verification
+  - java
+  - modularity
   - veripacks
 
 ---

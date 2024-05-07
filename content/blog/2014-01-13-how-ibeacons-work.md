@@ -30,11 +30,8 @@ wp-syntax-cache-content:
     C5: 2’s complement of measured TX power</p></div>
     ";}
 categories:
-  - Blogroll
-  - Bluetooth
-  - different
-  - iBeacon
-  - Uncategorized
+  - something different
+  - hardware
 
 ---
 iBeacons are certainly a trending topic recently. They allow indoor positioning, letting your phone know that you are in range of a beacon. This can have many applications: from helping you to find your car in a parking garage, through coupons and location-aware special offers in retail, to a whole lot of apps that we can’t imagine right now.

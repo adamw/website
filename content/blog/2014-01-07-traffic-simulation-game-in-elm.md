@@ -9,11 +9,8 @@ simplecatch-sidebarlayout:
 dsq_thread_id:
   - 2097486612
 categories:
-  - different
-  - Elm
-  - Functional programming
-  - Languages
-  - Uncategorized
+  - functional programming
+  - something different
 
 ---
 A couple of weeks ago I read about [Elm][1], a new functional language, which compiles to JavaScript and HTML. Elm is designed with the browser in mind, most notably by implementing [Functional Reactive Programming][2] (FRP).

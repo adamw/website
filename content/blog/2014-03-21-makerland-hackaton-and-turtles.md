@@ -9,11 +9,9 @@ simplecatch-sidebarlayout:
 dsq_thread_id:
   - 2477146077
 categories:
-  - different
-  - electronics
-  - iBeacon
-  - makerland
-  - Uncategorized
+  - something different
+  - hardware
+  - conferences
 
 ---
 The first [Makerland][1] is over &#8211; if you read only the first sentence of this blog, the conference was great, watch out for the second edition (hopefully there will be one)! 

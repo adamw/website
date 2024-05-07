@@ -21,11 +21,7 @@ wp-syntax-cache-content:
     addSbtPlugin(&quot;org.scala-sbt&quot; % &quot;xsbt-proguard-plugin&quot; % &quot;0.1.3-SNAPSHOT&quot;)</p></div>
     ";}
 categories:
-  - plugin
-  - Proguard
-  - SBT
-  - Scala
-  - Uncategorized
+  - scala
 
 ---
 I recently took over the maintenance of [xsbt-proguard-plugin][1] from [siasia][2]. The plugin lets you create single &#8220;fat&#8221; jars from your project, using the [Proguard][3] library.

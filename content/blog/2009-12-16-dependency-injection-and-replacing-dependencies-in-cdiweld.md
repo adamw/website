@@ -532,11 +532,9 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - CDI
-  - Dependency Injection
-  - Java
-  - JBoss
-  - Weld
+  - jee
+  - dependency injection
+  - java
 
 ---
 From time to time, in a system I develop, which uses EJB3 beans as the basic &#8220;component model&#8221;, I have a need to do some operations using a new entity manager (but still in the same transaction). The problem here is that if I invoke a method on another bean, which has an entity manager injected (using `@PersistenceContext EntityManager em`), the entity manager will be the original one. There is no way to temporarily replace it or any other dependency, just for the time of one invocation.

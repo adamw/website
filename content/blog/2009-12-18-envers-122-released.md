@@ -7,10 +7,9 @@ url: /blog/2009/12/envers-122-released/
 dsq_thread_id:
   - 1051935032
 categories:
-  - Envers
-  - Java
-  - JBoss
-  - Uncategorized
+  - envers
+  - java
+  - hibernate
 
 ---
 After quite a long break, I&#8217;m happy to announce a new release of [Envers][1] (available on the [downloads][2] page, or [via Maven][3]). This is mainly a bugfix release, but there are also new features:

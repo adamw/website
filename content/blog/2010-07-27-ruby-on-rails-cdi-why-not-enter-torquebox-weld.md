@@ -43,15 +43,11 @@ wp-syntax-cache-content:
     &lt;/web-app&gt;</p></div>
     ";}
 categories:
-  - CDI
-  - Dependency Injection
-  - Java
-  - JBoss
+  - jee
+  - dependency injection
+  - java
   - jsf
-  - Ruby
-  - TorqueBox
-  - Uncategorized
-  - Weld
+  - ruby
 
 ---
 I guess many people are often &#8220;unsatisfied&#8221; with how JSF works and how much time it sometimes takes to do a simple thing. That&#8217;s why [we][1] are trying out a new combination: RoR for the frontend and CDI for the backend. How?

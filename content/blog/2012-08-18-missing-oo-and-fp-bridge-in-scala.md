@@ -180,11 +180,9 @@ wp-syntax-cache-content:
     val makeNewJack = new Person2(&quot;Jack&quot;) _ // type: Int =&gt; Person</p></div>
     ";}
 categories:
-  - Functional programming
-  - Languages
-  - Object oriented
-  - Scala
-  - Uncategorized
+  - functional programming
+  - scala
+  - clean code
 
 ---
 [Scala][1] blends functional and object-oriented programming in many nice ways. You can use both FP an OO-like constructs whichever fits the current problem better. But there&#8217;s always room for improvement! Here&#8217;s one thing I think is missing ([short version][2] at the bottom).

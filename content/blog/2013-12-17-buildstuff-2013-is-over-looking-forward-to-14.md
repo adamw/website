@@ -9,16 +9,11 @@ simplecatch-sidebarlayout:
 dsq_thread_id:
   - 2056905032
 categories:
-  - BuildStuff
-  - Conference
-  - Dependency Injection
-  - Framework
-  - Java
-  - Languages
-  - Macros
-  - MacWire
-  - Scala
-  - Uncategorized
+  - conferences
+  - dependency injection
+  - metaprogramming
+  - macwire
+  - scala
 
 ---
 I just came back from the [BuildStuff][1] conference in Vilnius, Lithuania (actually this was almost a week ago, but I was writing that back at the airport ;) ). Although it’s not so well known, and it’s only the second edition, I must say that it was a really great conference.

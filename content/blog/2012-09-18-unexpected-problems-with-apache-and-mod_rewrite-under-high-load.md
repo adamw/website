@@ -46,11 +46,9 @@ wp-syntax-cache-content:
     &lt;/VirtualHost&gt;</p></div>
     ";}
 categories:
-  - apache
-  - Distributed
-  - Java
+  - distributed
+  - java
   - testing
-  - Uncategorized
 
 ---
 In one of the projects that we are currently working on we have a fairly typical setup with one server (Apache with `mod_rewrite`) proxying traffic to backend servers.

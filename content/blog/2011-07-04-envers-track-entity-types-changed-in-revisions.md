@@ -7,10 +7,9 @@ url: /blog/2011/07/envers-track-entity-types-changed-in-revisions/
 dsq_thread_id:
   - 1055556994
 categories:
-  - Envers
-  - Java
-  - JBoss
-  - Uncategorized
+  - envers
+  - java
+  - hibernate
 
 ---
 Łukasz Antoniak, who is a regular contributor to [Envers][1] (thanks!), recently finished working on [HHH-5580][2], a feature which enables you to quickly retrieve the entity types that have been modified in a revision, by optionally storing them in a dedicated table.

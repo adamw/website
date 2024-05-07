@@ -19,10 +19,9 @@ wp-syntax-cache-content:
     &lt;/property&gt;</p></div>
     ";}
 categories:
-  - Envers
-  - Java
-  - JBoss
-  - Uncategorized
+  - envers
+  - java
+  - hibernate
 
 ---
 I just commited initial support for valid-time auditing in Envers, a feature that a lot of users has been (directly or indirectly) asking for. It&#8217;s joint work, as Stephanie Pau contributed a patch with a large portion of those changes &#8211; thanks!

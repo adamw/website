@@ -66,10 +66,9 @@ wp-syntax-cache-content:
     </pre></td><td class="code"><pre class="scala" style="font-family:monospace;">modify<span style="color: #F78811;">&#40;</span>person<span style="color: #F78811;">&#41;</span><span style="color: #F78811;">&#40;</span><span style="color: #000080;">_</span>.<span style="color: #000000;">address</span>.<span style="color: #000000;">street</span>.<span style="color: #000000;">name</span><span style="color: #F78811;">&#41;</span>.<span style="color: #000000;">using</span><span style="color: #F78811;">&#40;</span><span style="color: #000080;">_</span>.<span style="color: #000000;">toUpperCase</span><span style="color: #F78811;">&#41;</span></pre></td></tr></table><p class="theCode" style="display:none;">modify(person)(_.address.street.name).using(_.toUpperCase)</p></div>
     ";}
 categories:
-  - Functional programming
-  - Library
-  - Scala
-  - Uncategorized
+  - functional programming
+  - metaprogramming
+  - scala
 
 ---
 _TL;DR_: [Quicklens][1]: modify deeply nested fields in case classes, e.g.:  

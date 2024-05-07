@@ -7,11 +7,8 @@ url: /blog/2011/07/trying-to-understand-cap/
 dsq_thread_id:
   - 1051935622
 categories:
-  - Cloud
-  - Distributed
-  - Java
-  - NoSQL
-  - Uncategorized
+  - databases
+  - architecture
 
 ---
 The [CAP theorem][1], stated by [Brewer][2] and proved by [Gilbert and Lynch][3] specifies a property of distributed systems. It states that such a system cannot guarantee at the same time Consistency, Availability and Partition tolerance. It is also often said as a catchy phrase:

@@ -69,15 +69,8 @@ wp-syntax-cache-content:
       .throwIfNotOk()</p></div>
     ";}
 categories:
-  - Java
-  - Languages
-  - Library
-  - Modularity
-  - Packages
-  - Scala
-  - specification
-  - Uncategorized
-  - verification
+  - java
+  - modularity
   - veripacks
 
 ---

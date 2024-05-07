@@ -84,11 +84,9 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
+  - metaprogramming
   - annotations
-  - Languages
-  - Macros
-  - Scala
-  - Uncategorized
+  - scala
 
 ---
 [Macro Annotations][1] are a new type of macros, which are one of the candidates for inclusion (see also comment by Eugene below) in the upcoming Scala 2.11 release. However, thanks to the recently released [Macro Paradise Scala 2.10 compiler plugin][2], with an extra option in the compiler/SBT settings, you can use them today, while still using a stable Scala version at runtime.

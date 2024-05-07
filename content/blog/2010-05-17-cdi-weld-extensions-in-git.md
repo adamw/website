@@ -67,12 +67,9 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - CDI
-  - Dependency Injection
-  - Java
-  - JBoss
-  - Uncategorized
-  - Weld
+  - jee
+  - dependency injection
+  - java
 
 ---
 Hello,

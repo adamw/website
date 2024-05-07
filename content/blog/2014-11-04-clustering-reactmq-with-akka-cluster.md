@@ -345,15 +345,10 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - Akka
-  - Blogroll
-  - Clustering
-  - concurrency
-  - Distributed
-  - Event streaming
-  - Library
-  - Scala
-  - Uncategorized
+  - akka
+  - distributed
+  - scala
+  - messaging
 
 ---
 In the last two posts on [reactmq][1], I described how to write a [reactive][2], [persistent][3] message queue. The queue has the following characteristics:

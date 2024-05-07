@@ -11,14 +11,10 @@ simplecatch-sidebarlayout:
 dsq_thread_id:
   - 2664731643
 categories:
-  - Akka
-  - AWS
-  - Cloud
+  - http
+  - cloud
   - docker
-  - Java
-  - Scala
-  - Spray
-  - Uncategorized
+  - scala
 
 ---
 [Docker][1] is a pretty new, but very exciting project; with Docker you can create lightweight, self-sufficient containers with any application inside, and later run the containers on a variety of hosts. The same container can be run locally, as well as on production on a large scale. Moreover, running the containers is fast, and has little overhead, in terms of memory, CPU and disk space.

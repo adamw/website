@@ -13,11 +13,7 @@ epcl_post:
 views_counter:
   - 1
 categories:
-  - Cloud
-  - Java
-  - Scala
-  - SoftwareMill
-  - Uncategorized
+  - softwaremill
 
 ---
 Most Java/Scala/Groovy project depend on a number of libraries, these libraries depend on other libraries, and so on for many levels deep. When creating the final project bundle we end up with a large number of external dependencies, which are often very hard to manage.

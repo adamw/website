@@ -129,14 +129,10 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - Akka
-  - ElasticMQ
-  - Java
-  - Library
-  - Scala
-  - Spray
-  - SQS
-  - Uncategorized
+  - cloud
+  - aws 
+  - elasticmq
+  - messaging
 
 ---
 [ElasticMQ 0.7.0][1], a message queueing system with an actor-based Scala and [Amazon SQS][2]-compatible interfaces, was just released. 

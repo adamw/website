@@ -7,15 +7,12 @@ url: /blog/2012/06/implementing-message-replication-in-elasticmq-with-jgroups/
 dsq_thread_id:
   - 1051712119
 categories:
-  - AWS
-  - Cloud
-  - ElasticMQ
-  - Java
-  - JBoss
-  - JGroups
-  - Replication
-  - SQS
-  - Uncategorized
+  - aws
+  - cloud
+  - elasticmq
+  - java
+  - jgroups
+  - distributes
 
 ---
 _[ElasticMQ][1] is a messaging server, with a Scala, Java, and an Amazon SQS-compatible interface. It supports guaranteed messaging by replicating the messages across a cluster of servers, and message persistence with journalling._

@@ -9,12 +9,9 @@ simplecatch-sidebarlayout:
 dsq_thread_id:
   - 2681596581
 categories:
-  - Coursera
-  - Functional programming
-  - optimization
-  - Scala
-  - Solver
-  - Uncategorized
+  - something different
+  - functional programming
+  - scala
 
 ---
 Recently I took part in the [Discrete Optimization][1] class at Coursera. I must say that it was the best [MOOC][2] I have attended so far, because of two factors.

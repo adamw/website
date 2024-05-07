@@ -9,14 +9,9 @@ simplecatch-sidebarlayout:
 dsq_thread_id:
   - 2758162245
 categories:
-  - AWS
-  - Chef
-  - Cloud
-  - Clustering
-  - Distributed
-  - docker
-  - Uncategorized
-  - Vagrant
+  - aws
+  - cloud
+  - distributed
 
 ---
 [Docker][1] is great for running isolated containers on a single node. However, most software systems run on multiple nodes, so in addition to Docker, we need some way of specifying which containers should run on which nodes.

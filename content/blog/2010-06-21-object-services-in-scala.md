@@ -166,10 +166,8 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - Java
-  - JBoss
-  - Scala
-  - Weld
+  - java
+  - scala
 
 ---
 Using Scala&#8217;s implicits it&#8217;s possible to implement [Object Services][1] in a much more &#8220;user-friendly&#8221; way. Just to remind, the goal is to extend a class hierarchy with a method, polymorphically. E.g. we have:

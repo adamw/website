@@ -7,10 +7,9 @@ url: /blog/2008/04/introducing-envers-easy-entity-versioning/
 dsq_thread_id:
   - 1051934057
 categories:
-  - Envers
-  - Java
-  - JBoss
-  - Uncategorized
+  - hibernate
+  - envers
+  - java
 
 ---
 Hello,

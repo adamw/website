@@ -207,13 +207,9 @@ wp-syntax-cache-content:
     });</p></div>
     ";}
 categories:
-  - Blogroll
-  - Framework
-  - Library
-  - Macros
-  - Scala
-  - Supler
-  - Uncategorized
+  - metaprogramming
+  - scala
+  - web
 
 ---
 Let&#8217;s face it. Creating websites with complex forms is a pain. Writing the HTML in the frontend, the supporting javascript, defining mappings in the backed, server-side validation, and &#8211; let&#8217;s not forget, it&#8217;s 2014 &#8211; corresponding client-side validation, cause a lot of duplication of code and effort, and result in frustration.

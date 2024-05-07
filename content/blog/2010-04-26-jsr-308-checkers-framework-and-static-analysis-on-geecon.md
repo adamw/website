@@ -7,11 +7,9 @@ url: /blog/2010/04/jsr-308-checkers-framework-and-static-analysis-on-geecon/
 dsq_thread_id:
   - 1051935223
 categories:
-  - geecon
-  - Java
-  - jsr308
-  - Typestate
-  - Uncategorized
+  - conferences
+  - java
+  - static analysis
 
 ---
 I&#8217;ll be [speaking][1] about the [JSR-308 specification][2] (annotations on java types), which will be part of Java 7, on the GeeCON conference, which will take place from the 13th till the 14th of May 2010 in [Poznan][3], Poland.

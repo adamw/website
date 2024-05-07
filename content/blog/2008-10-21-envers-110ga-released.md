@@ -7,9 +7,9 @@ url: /blog/2008/10/envers-110ga-released/
 dsq_thread_id:
   - 1051934686
 categories:
-  - Envers
-  - Java
-  - JBoss
+  - envers
+  - java
+  - hibernate
 
 ---
 Today [Envers][1] 1.1.0.GA has been released. For the impatient: go straight to the [downloads][2]! :) This release contains only minor modifications from the last beta version. You can see the release notes for this version [here][3], and combined release notes for all 1.1.0 versions [here][4].

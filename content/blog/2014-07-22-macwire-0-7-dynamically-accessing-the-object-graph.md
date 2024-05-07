@@ -105,12 +105,10 @@ wp-syntax-cache-content:
     wired.wireClassInstanceByName(&quot;com.softwaremill.AuthenticationPlugin&quot;)</p></div>
     ";}
 categories:
-  - Dependency Injection
-  - Library
-  - MacWire
-  - Modularity
-  - Scala
-  - Uncategorized
+  - dependency injection
+  - macwire
+  - modularity
+  - scala
 
 ---
 _[MacWire][1] is a Lightweight and Nonintrusive Scala Dependency Injection library._

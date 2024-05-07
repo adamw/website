@@ -48,12 +48,12 @@ wp-syntax-cache-content:
       })</p></div>
     ";}
 categories:
-  - AWS
-  - ElasticMQ
-  - Java
-  - Scala
-  - SQS
-  - Uncategorized
+  - aws
+  - cloud
+  - elasticmq
+  - java
+  - scala
+  - messaging
 
 ---
 [ElasticMQ][1] 0.3 just got released! ElasticMQ is a simple message queue system, which exposes both a native and an Amazon SQS-compatible interface. There are two major changes in this release.

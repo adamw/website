@@ -156,19 +156,10 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - annotations
-  - aop
-  - CDI
-  - Dependency Injection
-  - Framework
-  - Java
-  - Library
-  - Macros
-  - MacWire
-  - Modularity
-  - Scala
-  - Uncategorized
-  - Weld
+  - dependency injection
+  - macwire
+  - modularity
+  - scala
 
 ---
 Interceptors are very useful for implementing cross-cutting concerns. Classic use-cases include security, logging or transaction support. Since version 0.5, [MacWire][1] contains an implementation of interceptors which can be applied to arbitrary object instances in a Scala-friendly way, and which plays nicely with the traits-as-modules approach. No compile-time or load-time bytecode manipulation is required; only javassist is used at run-time to generate a proxy. 

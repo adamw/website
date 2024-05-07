@@ -9,12 +9,8 @@ simplecatch-sidebarlayout:
 dsq_thread_id:
   - 2371987250
 categories:
-  - Cloud
-  - Clustering
-  - Distributed
-  - hadoop
-  - mahout
-  - Uncategorized
+  - machine learning
+  - distributed
 
 ---
 There’s a lot of hype about “big data” and a general trend to try to apply Hadoop to almost every problem. However, sometimes it turns out that you can get much better results by writing an old-fashioned, but optimised, single-node version of your algorithm.

@@ -75,11 +75,8 @@ wp-syntax-cache-content:
     )</p></div>
     ";}
 categories:
-  - Blogroll
-  - Framework
-  - Library
-  - Supler
-  - Uncategorized
+  - scala
+  - web
 
 ---
 It’s been some time since the last release of [Supler][1]. Just as a short reminder: Supler is a Rapid Form Development library, allowing you to use your favorite Javascript frontend, and Scala backend frameworks. It keeps the form definition centralized, taking care of client/server-side validation, form rendering, applying new values and serializing/deserializing. [Star Supler on GitHub][1] if you think that might be interesting!

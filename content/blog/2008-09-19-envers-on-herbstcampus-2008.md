@@ -7,9 +7,9 @@ url: /blog/2008/09/envers-on-herbstcampus-2008/
 dsq_thread_id:
   - 1383041031
 categories:
-  - Envers
-  - Java
-  - JBoss
+  - envers
+  - java
+  - hibernate
 
 ---
 Yesterday I came back from [Herbstcampus 2008][1] in Nürnberg. I gave there a talk on [Envers][2]. Thanks to all who attended! I&#8217;d also like to thank the organisers, everything went smoothly and I felt really welcome there :).

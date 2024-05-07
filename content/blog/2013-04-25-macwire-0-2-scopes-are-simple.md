@@ -102,21 +102,10 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - CDI
-  - Dependency Injection
-  - DSL
-  - Framework
-  - Java
-  - Languages
-  - Library
-  - Macros
-  - MacWire
-  - Modularity
-  - Object oriented
-  - Scala
-  - testing
-  - Uncategorized
-  - Weld
+  - dependency injection
+  - metaprogramming
+  - macwire
+  - scala
 
 ---
 _[MacWire][1] generates new instance creation code of given classes, using values in the enclosing type for constructor parameters, with the help of Scala Macros. DI container replacement._

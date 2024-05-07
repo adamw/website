@@ -31,13 +31,10 @@ wp-syntax-cache-content:
     end</p></div>
     ";}
 categories:
-  - CDI
-  - Dependency Injection
-  - Java
-  - JBoss
-  - TorqueBox
-  - Uncategorized
-  - Weld
+  - jee
+  - dependency injection
+  - java
+  - ruby
 
 ---
 For almost a year we&#8217;ve been successfully using [Torquebox][1] together with CDI/Weld as a base for two of our services: [JBison][2] and [Circular][3]. As we&#8217;ll be doing [some presentations][4] together with [Tomek Szymański][5] we&#8217;ve created a small application showing our setup and the CDI<->RoR integration.

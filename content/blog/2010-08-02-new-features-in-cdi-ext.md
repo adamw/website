@@ -19,12 +19,8 @@ wp-syntax-cache-content:
         .setSecurityEL(&quot;#{currentUser.isAdmin)&quot;).b();</p></div>
     ";}
 categories:
-  - CDI
-  - Java
-  - JBoss
+  - jee
   - jsf
-  - Uncategorized
-  - Weld
 
 ---
 [Tomek Szymański][1] just commited two new features to [cdi-ext][2].

@@ -7,9 +7,9 @@ url: /blog/2008/07/envers-100ga-released/
 dsq_thread_id:
   - 1051934516
 categories:
-  - Envers
-  - Java
-  - JBoss
+  - envers
+  - java
+  - hibernate
 
 ---
 Today the first general availability version of [Envers][1] has been released ([downloads][2], [release notes][3]).

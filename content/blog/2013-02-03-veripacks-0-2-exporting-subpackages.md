@@ -131,14 +131,10 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - Java
-  - Languages
-  - Library
-  - Scala
-  - specification
-  - Uncategorized
-  - verification
+  - java
+  - testing
   - veripacks
+  - modularity
 
 ---
 [Veripacks 0.1][1] allowed to specify which classes should be exported from a package hierarchy, by using a simple `@Export` annotation, and later verify that the specification is met. [Version 0.2][2] extends this by allowing to export subpackages as well, using the `@ExportSubpackages` package annotation.

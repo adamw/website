@@ -87,10 +87,8 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - FindBugs
-  - Java
-  - StaticAccess
-  - Uncategorized
+  - java
+  - static analysis
 
 ---
 The [StaticAccess][1] detector is a [FindBugs][2] plugin, which lets you verify that methods do not rely on static (global) state, that is, that they don&#8217;t read or write static variables which aren&#8217;t constant. This can be useful for example when writing concurrent programs (which should use as little global state as possible) or &#8220;pure&#8221; functions (I&#8217;ll write about that in another post).

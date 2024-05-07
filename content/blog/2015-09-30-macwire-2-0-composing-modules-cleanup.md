@@ -9,15 +9,10 @@ simplecatch-sidebarlayout:
 dsq_thread_id:
   - 4179378336
 categories:
-  - aop
-  - Dependency Injection
-  - Framework
-  - Languages
-  - Library
-  - Macros
-  - MacWire
-  - Scala
-  - Uncategorized
+  - dependency injection
+  - metaprogramming
+  - macwire
+  - scala
 
 ---
 Recently we released [MacWire 2.0][1], with a number of new features and general code cleanup. The majority of the work was done by [Bruno Bieth][2] &#8211; thanks!

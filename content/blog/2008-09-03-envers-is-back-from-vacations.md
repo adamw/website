@@ -104,9 +104,9 @@ epcl_post:
 views_counter:
   - 1
 categories:
-  - Envers
-  - Java
-  - JBoss
+  - envers
+  - java
+  - hibernate
 
 ---
 Hello,

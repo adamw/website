@@ -154,12 +154,9 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - CDI
-  - Dependency Injection
-  - Java
-  - JBoss
-  - Uncategorized
-  - Weld
+  - jee
+  - dependency injection
+  - java
 
 ---
 In my two previous posts I wrote about some [problems with DI][1] and [a solution][2] to part of those problems: assisted inject (as known in [Guice][3])/autofactories (my implementation for CDI). Some problems remained however; for example in the bean constructor, the dependencies (or the environment) are mixed with the data obtained from the factory. That is also why the `@FactoryParameter` annotation is required.

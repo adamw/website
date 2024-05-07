@@ -46,16 +46,12 @@ wp-syntax-cache-content:
     node.shutdown()</p></div>
     ";}
 categories:
-  - AWS
-  - Cloud
-  - Distributed
-  - ElasticMQ
-  - Java
-  - JBoss
-  - Netty
-  - Scala
-  - SQS
-  - Uncategorized
+  - aws
+  - cloud
+  - messaging
+  - java
+  - scala
+  - elasticmq
 
 ---
 [ElasticMQ][1] is a simple messaging system, exposing an [SQS][2]-compatible REST interface. It can run using an in-memory H2 database (ideal for testing), or backed by a normal database (e.g. MySQL).

@@ -169,15 +169,9 @@ wp-syntax-cache-content:
         &lt;/repository&gt;</p></div>
     ";}
 categories:
-  - Java
-  - Library
-  - Methodology
-  - Modularity
-  - Scala
-  - specification
+  - java
+  - modularity
   - testing
-  - Uncategorized
-  - verification
   - veripacks
 
 ---

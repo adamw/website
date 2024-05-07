@@ -65,9 +65,8 @@ epcl_post:
 views_counter:
   - 1
 categories:
-  - Java
-  - JBoss
-  - Uncategorized
+  - java
+  - jboss
 
 ---
 While most of (web)applications communicate with the end user in English, a lot of them use native languages, which often have some special characters (not to look too far for an example, we have the Polish alphabet, with ą, ę, ś, etc). A widely accepted standard for coding such characters is [UTF-8][1]. However, it is not quite trivial to use the UTF-8 encoding in a Tomcat+MySQL+Hibernate+JavaMail combination, and have full UTF-8 support, in the database, web forms, jsp-s and e-mails.

@@ -223,12 +223,9 @@ wp-syntax-cache-content:
     &lt;/interceptors&gt;</p></div>
     ";}
 categories:
-  - CDI
-  - Java
-  - JBoss
+  - jee
+  - java
   - jsf
-  - Uncategorized
-  - Weld
 
 ---
 Waiting for the [Seam3][1] security module, I wrote a simple security interceptor (inspired by the [Seam2 security annotation][2]). You can use it like this:

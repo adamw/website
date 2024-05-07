@@ -9,13 +9,8 @@ simplecatch-sidebarlayout:
 dsq_thread_id:
   - 3469482728
 categories:
-  - Blogroll
-  - Framework
-  - Javascript
-  - Library
-  - Scala
-  - Supler
-  - Uncategorized
+  - scala
+  - web
 
 ---
 [Supler][1] is a library which makes writing complex forms easier. It has a server-side (Scala) and a client-side (JavaScript) component. In December we announced the [0.1.0 release][2], so it’s about time for an update!

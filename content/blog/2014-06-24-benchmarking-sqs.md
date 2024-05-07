@@ -9,17 +9,12 @@ simplecatch-sidebarlayout:
 dsq_thread_id:
   - 2791242746
 categories:
-  - AWS
-  - Benchmark
-  - Chef
-  - Cloud
-  - Clustering
-  - Distributed
-  - Java
-  - Scala
-  - SQS
+  - aws
+  - cloud
+  - messaging
+  - distributed
   - testing
-  - Uncategorized
+  - performance
 
 ---
 SQS, [Simple Message Queue][1], is a message-queue-as-a-service offering from Amazon Web Services. It supports only a handful of messaging operations, far from the complexity of e.g. [AMQP][2], but thanks to the easy to understand interfaces, and the as-a-service nature, it is very useful in a number of situations.

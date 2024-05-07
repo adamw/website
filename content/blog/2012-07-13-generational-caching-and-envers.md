@@ -7,13 +7,9 @@ url: /blog/2012/07/generational-caching-and-envers/
 dsq_thread_id:
   - 1051809435
 categories:
-  - Caching
-  - Envers
-  - Hibernate
-  - Infinispan
-  - Java
-  - JBoss
-  - Uncategorized
+  - envers
+  - hibernate
+  - java
 
 ---
 [Konrad][1] recently shared on our [company&#8217;s][2] technical room an interesting article [on how caching is done][3] is a big polish social network, nk.pl. One of the central concepts in the algorithm is **generational caching** (see [here][4] or [here][5]). The basic idea is that for cache keys you use some entity-specific string + version number. The version number increases whenever data changes, thus invalidating any old cache entries, and preventing stale data reads. This makes the assumption that the cache has some garbage collection, e.g. it may simply be a LRU cache.

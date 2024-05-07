@@ -7,17 +7,13 @@ url: /blog/2012/03/elasticmq-0-4-message-replication/
 dsq_thread_id:
   - 1075016042
 categories:
-  - Clustering
-  - Distributed
-  - ElasticMQ
-  - Java
-  - JBoss
-  - JGroups
-  - Library
-  - Replication
-  - Scala
-  - SQS
-  - Uncategorized
+  - aws
+  - cloud
+  - distributed
+  - elasticmq
+  - java
+  - messaging
+  - scala
 
 ---
 [ElasticMQ][1] is a message queue system, with Java, Scala and an Amazon SQS-compatible REST interface.

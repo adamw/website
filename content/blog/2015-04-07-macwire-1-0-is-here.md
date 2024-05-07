@@ -9,15 +9,11 @@ simplecatch-sidebarlayout:
 dsq_thread_id:
   - 3661802634
 categories:
-  - Akka
-  - Blogroll
-  - Dependency Injection
-  - Library
-  - Macros
-  - MacWire
-  - Play
-  - Scala
-  - Uncategorized
+  - akka
+  - dependency injection
+  - metaprogramming
+  - macwire
+  - scala
 
 ---
 A couple of days ago [MacWire 1.0][1] was released! If you don&#8217;t yet know what MacWire is: a light-weight and non-intrusive Scala Dependency Injection library. In fact, it&#8217;s more of an approach to DI (see [the step-by-step guide][2]), than a library. Another good thing &#8211; it&#8217;s definitely not a framework &#8211; instead, pure Scala code!

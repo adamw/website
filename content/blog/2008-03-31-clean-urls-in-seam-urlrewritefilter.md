@@ -7,9 +7,8 @@ url: /blog/2008/03/clean-urls-in-seam-urlrewritefilter/
 dsq_thread_id:
   - 1050981825
 categories:
-  - Java
-  - JBoss
-  - Uncategorized
+  - java
+  - jboss
 
 ---
 Starting with Seam 2.0.1 (annoucement [here][1], download [here][2]) you can fully use [UrlRewriteFilter][3] to make URLs in your Seam app nice and clean.

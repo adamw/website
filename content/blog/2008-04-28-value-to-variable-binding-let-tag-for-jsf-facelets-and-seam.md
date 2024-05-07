@@ -85,8 +85,8 @@ wp-syntax-cache-content:
     </pre></td><td class="code"><pre class="xml" style="font-family:monospace;">xmlns:mamut=&quot;http://mamut.net.pl/jsf&quot;</pre></td></tr></table><p class="theCode" style="display:none;">xmlns:mamut=&quot;http://mamut.net.pl/jsf&quot;</p></div>
     ";}
 categories:
-  - Java
-  - JBoss
+  - java
+  - jsf
 
 ---
 The &#8220;let&#8221; tag enables you to bind the value of any expression to a variable and later reuse it, without recalculating the value. The concept comes of course from functional programming. It is especially useful with Seam&#8217;s [extended EL][1].

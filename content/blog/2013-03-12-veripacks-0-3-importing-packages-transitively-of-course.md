@@ -72,13 +72,9 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - Java
-  - Library
-  - Maven
-  - Scala
-  - specification
-  - Uncategorized
-  - verification
+  - java
+  - testing
+  - modularity
   - veripacks
 
 ---

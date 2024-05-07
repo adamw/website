@@ -7,13 +7,8 @@ url: /blog/2012/04/frameworks-vs-libraries-as-inheritance-vs-composition/
 dsq_thread_id:
   - 1051936566
 categories:
-  - Framework
-  - Java
-  - Languages
-  - Library
-  - Methodology
-  - Modularity
-  - Uncategorized
+  - architecture
+  - clean code
 
 ---
 For quite some time inheritance was the dominant model of structuring programs in OO languages like Java. Very often it was used as a mechanism for reusing code &#8211; &#8220;common&#8221; functions where placed in an abstract class, so that subclasses can use them.

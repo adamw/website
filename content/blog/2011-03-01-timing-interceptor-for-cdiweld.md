@@ -43,11 +43,8 @@ wp-syntax-cache-content:
      }</p></div>
     ";}
 categories:
-  - CDI
-  - Java
-  - JBoss
-  - Uncategorized
-  - Weld
+  - jee
+  - java
 
 ---
 Lately we did some performance tuning, and in order to find out which methods are the hotspots I wrote a simple timing interceptor (it uses some code from a [Seam forum post][1] by Tobias Hill). Apart from timing the execution time of single methods, it gathers all results from a request and prints out a short sorted summary at the end containing the number of invocations, average time and so on.

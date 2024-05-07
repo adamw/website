@@ -9,9 +9,8 @@ simplecatch-sidebarlayout:
 dsq_thread_id:
   - 1051934657
 categories:
-  - Java
-  - JBoss
-  - Uncategorized
+  - java
+  - jboss
 
 ---
 The idea described here is originally by [Tomek Szymański][1]. I just enhanced it a little.

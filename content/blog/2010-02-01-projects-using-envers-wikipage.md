@@ -7,9 +7,8 @@ url: /blog/2010/02/projects-using-envers-wikipage/
 dsq_thread_id:
   - 1094952073
 categories:
-  - Envers
-  - Java
-  - Uncategorized
+  - envers
+  - java
 
 ---
 I just created a new [&#8220;Projects Using Envers&#8221; wikipage][1]; so if you are using Envers in your project, make sure to add it to the list! :) If you are not yet using [Envers][2], don&#8217;t forget to check it out when you have to implement data auditing/versioning next time.

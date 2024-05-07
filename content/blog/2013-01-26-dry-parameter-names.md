@@ -52,12 +52,7 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - Java
-  - Languages
-  - Methodology
-  - Object oriented
-  - Scala
-  - Uncategorized
+  - clean code
 
 ---
 How often do you see code like this, especially when using dependency injection, single-responsibility principle, and other &#8220;good practices&#8221;?

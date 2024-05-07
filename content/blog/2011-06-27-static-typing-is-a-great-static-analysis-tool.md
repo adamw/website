@@ -7,12 +7,11 @@ url: /blog/2011/06/static-typing-is-a-great-static-analysis-tool/
 dsq_thread_id:
   - 1051935727
 categories:
-  - Java
-  - JBoss
-  - Languages
-  - Ruby
-  - Scala
-  - Uncategorized
+  - java
+  - static analysis
+  - ruby
+  - scala
+  - clean code
 
 ---
 Statically-typed languages are great because, well, they have static typing. However very often developing using a dynamically-typed language is much more convenient. Take writing a webapp in Ruby On Rails &#8211; change some code, hit reload and you can see the new code in action. JavaScript &#8211; same thing. On the other hand change a bean in a JSF app: first redeploy (*), wait, and only then go and see the changes. Or even, run a very simple [Scala][1] unit test in IntelliJ &#8211; I don&#8217;t know why, but the compilation always takes a long time, even if the change is very minor. The total run time of the unit test far exceeds the milliseconds in which a unit test should run.

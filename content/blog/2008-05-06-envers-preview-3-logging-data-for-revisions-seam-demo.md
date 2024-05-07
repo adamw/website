@@ -9,10 +9,9 @@ simplecatch-sidebarlayout:
 dsq_thread_id:
   - 1051934455
 categories:
-  - Envers
-  - Java
-  - JBoss
-  - Uncategorized
+  - envers
+  - java
+  - hibernate
 
 ---
 With the preview 3 release of [Envers][1], you can easily associate additional data with revisions. This could be, for example, the name of the user making the change. You simply need to annotate an entity with `@RevisionEntity`: an instance of this entity will be persisted with each new revision. To provide a way to fill the entity with custom data, you need to implement an interface, and pass it as a parameter to the annotation.[buy inflatable aviva water sports][2]

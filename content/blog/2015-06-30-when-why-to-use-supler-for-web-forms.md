@@ -9,13 +9,8 @@ simplecatch-sidebarlayout:
 dsq_thread_id:
   - 3892287717
 categories:
-  - Java
-  - Languages
-  - Library
-  - Scala
-  - SoftwareMill
-  - Supler
-  - Uncategorized
+  - web
+  - scala
 
 ---
 If you haven’t yet heard about [Supler][1], it’s a Rapid Form Development library, working with your favorite Javascript frontend and Scala backend frameworks. It keeps the form definition centralized, taking care of client/server-side validation, form rendering, applying new values and serializing/deserializing. Star [Supler on GitHub][1] if you think that might be interesting!

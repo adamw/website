@@ -9,17 +9,10 @@ simplecatch-sidebarlayout:
 dsq_thread_id:
   - 1433413451
 categories:
-  - Akka
-  - Clustering
+  - akka
   - concurrency
-  - Distributed
-  - Framework
-  - Java
-  - Replication
-  - Scala
-  - Uncategorized
-tags:
-  - Storm
+  - distributed
+  - architecture
 
 ---
 I was recently working a bit with [Twitter&#8217;s Storm][1], and it got me wondering, how does it compare to another high-performance, concurrent-data-processing framework, [Akka][2].

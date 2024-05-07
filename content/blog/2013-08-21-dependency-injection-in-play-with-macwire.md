@@ -177,14 +177,9 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - Dependency Injection
-  - Framework
-  - Library
-  - Macros
-  - MacWire
-  - Play
-  - Scala
-  - Uncategorized
+  - dependency injection
+  - macwire
+  - scala
 
 ---
 The most recent release of [MacWire (0.4)][1] (a Scala macro to generate wiring code for class instantiation, DI container replacement) comes with new utilities which make it easier to integrate with frameworks which require **by-class instance lookup**. An example of such a framework is [Play!][2], which is quite quickly gaining popularity in the web-development world.

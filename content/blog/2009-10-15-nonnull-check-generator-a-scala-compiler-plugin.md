@@ -160,10 +160,9 @@ wp-syntax-cache-content:
     </pre></td><td class="code"><pre class="java" style="font-family:monospace;">scalac <span style="color: #339933;">-</span>cp $JSR305_JAR_PATH <span style="color: #339933;">-</span>Xplugin<span style="color: #339933;">:</span>annotations<span style="color: #339933;">-</span>check<span style="color: #339933;">-</span>gen.<span style="color: #006633;">jar</span> Example.<span style="color: #006633;">scala</span></pre></td></tr></table><p class="theCode" style="display:none;">scalac -cp $JSR305_JAR_PATH -Xplugin:annotations-check-gen.jar Example.scala</p></div>
     ";}
 categories:
-  - FindBugs
-  - Java
-  - jsr305
-  - Scala
+  - static analysis
+  - java
+  - scala
 
 ---
 Recently I played a bit with compiler plugins for [Scala][1].

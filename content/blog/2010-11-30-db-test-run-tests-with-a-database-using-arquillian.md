@@ -100,13 +100,10 @@ wp-syntax-cache-content:
         // methods</p></div>
     ";}
 categories:
-  - Arquillian
-  - CDI
-  - Hibernate
-  - Java
-  - JBoss
-  - Uncategorized
-  - Weld
+  - testing
+  - jee
+  - hibernate
+  - java
 
 ---
 DB test is a set of helper classes which let you run tests that use a database. By default each test has a separate, in-memory H2 database, providing fast startup time and isolation. A fairly large test runs on my machine in 3 seconds, so you can include such tests in your testsuite without a big overhead. Such tests are perfect for:

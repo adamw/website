@@ -183,11 +183,9 @@ wp-syntax-cache-content:
     </pre></td><td class="code"><pre class="scala" style="font-family:monospace;"><span style="color: #0000ff; font-weight: bold;">type</span> PriceCalculator <span style="color: #000080;">=</span> PriceCalculatorFactory<span style="color: #000080;">#</span>create</pre></td></tr></table><p class="theCode" style="display:none;">type PriceCalculator = PriceCalculatorFactory#create</p></div>
     ";}
 categories:
-  - Library
-  - Macros
-  - MacWire
-  - Scala
-  - Uncategorized
+  - dependency injection
+  - macwire
+  - scala
 
 ---
 Factories are useful when we need to create multiple instances of a class at run-time, usually providing some parameters, but still without using `new` explicitly; we want to make some complex object creation abstract. The created object may depend both on runtime-provided data (the parameters), and some other &#8220;services&#8221;.

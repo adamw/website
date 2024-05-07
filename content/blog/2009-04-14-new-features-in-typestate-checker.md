@@ -73,10 +73,8 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - Java
-  - JBoss
-  - jsr308
-  - Typestate
+  - java
+  - static analysis
 
 ---
 I&#8217;ve uploaded a new version (0.2) of the typestate checker (for an introduction, see [this blog post][1]), which contains bug fixes and much improved exception handling. The binaries, source code and installation instructions are on the [web page][2]; the source code is also on [github][3], and the binaries in the [maven repository][4]. You can use the typestate checker with the [jsr308-maven plugin][5].

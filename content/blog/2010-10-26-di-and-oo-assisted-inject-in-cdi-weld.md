@@ -112,12 +112,9 @@ wp-syntax-cache-content:
     }</p></div>
     ";}
 categories:
-  - CDI
-  - Dependency Injection
-  - Java
-  - JBoss
-  - Uncategorized
-  - Weld
+  - jee
+  - dependency injection
+  - java
 
 ---
 My [last][1] post sparked quite a lot of interest &#8211; thanks for all the comments both on the blog and on [dzone][2]! Some of them rightly pointed out that the original post contains a mistake [(*)][3] (but luckily it didn&#8217;t impact the main point). Many other suggested using the factory pattern as a solution for the problem described. However, as I wrote in the post, this requires one to implement a factory, which is impractical and leads to quite a lot of boilerplate code. 

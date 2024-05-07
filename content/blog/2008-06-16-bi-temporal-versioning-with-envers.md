@@ -7,10 +7,9 @@ url: /blog/2008/06/bi-temporal-versioning-with-envers/
 dsq_thread_id:
   - 1051285577
 categories:
-  - Envers
-  - Java
-  - JBoss
-  - Uncategorized
+  - envers
+  - java
+  - hibernate
 
 ---
 With the recent addition of [queries][1] to [Envers][2], it is now possible to easily retrieve data in a bi-temporal way. If you are not familiar with bi-temporal versioning, a good introduction by Martin Fowler can be found [here][3].

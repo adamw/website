@@ -9,19 +9,12 @@ simplecatch-sidebarlayout:
 dsq_thread_id:
   - 2809356882
 categories:
-  - AWS
-  - Benchmark
-  - Cloud
-  - Clustering
-  - concurrency
-  - Distributed
-  - hornetq
-  - Mongo
-  - NoSQL
-  - rabbitmq
-  - Replication
-  - Scala
-  - Uncategorized
+  - aws
+  - cloud
+  - distributed
+  - messaging
+  - performance
+  - testing
 
 ---
 > **An updated and extended version of this post [is available on SoftwareMill&#8217;s website][1]. Below you can find the original content containing benchmarks from 2014.**

@@ -7,12 +7,9 @@ url: /blog/2011/09/envers-bundled-with-jboss-as-7-0-2/
 dsq_thread_id:
   - 1051936242
 categories:
-  - Envers
-  - Forge
-  - Hibernate
-  - Java
-  - JBoss
-  - Uncategorized
+  - envers
+  - hibernate
+  - java
 
 ---
 Using [Envers][1] is now even easier! Since [version 7.0.2][2], Envers comes bundled with JBoss Application Server.

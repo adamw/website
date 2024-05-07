@@ -9,10 +9,8 @@ simplecatch-sidebarlayout:
 dsq_thread_id:
   - 2701885824
 categories:
-  - Code review
-  - CodeBrag
-  - SoftwareMill
-  - Uncategorized
+  - code review
+  - softwaremill
 
 ---
 [We][1] have recently released version 2.0 of [Codebrag][2], our code-review tool.
