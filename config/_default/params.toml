@@ -7,24 +7,24 @@ stars = 5
 [[social]]
 title = "twitter"
 icon = "fa-brands fa-x-twitter" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://twitter.com/adamwarski"
 
 [[social]]
 title = "linkedin"
 icon = "fa-brands fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
-
-[[social]]
-title = "facebook"
-icon = "fa-brands fa-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://www.linkedin.com/in/adamwarski/"
 
 [[social]]
 title = "github"
 icon = "fa-brands fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://github.com/adamw"
 
 [[social]]
-title = "dribbble"
-icon = "fa-brands fa-dribbble" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+title = "mastodon"
+icon = "fa-brands fa-mastodon" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://softwaremill.social/@adamwarski"
+
+[[social]]
+title = "bluesky"
+icon = "fa-brands fa-bluesky" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://bsky.app/profile/warski.org"

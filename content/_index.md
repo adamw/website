@@ -28,19 +28,5 @@ contact:
   description: I’m would love to hear from you.
   image: images/contact.png
 
-images:
-  - src: "images/avatar-1.png"
-    width: 40
-    height: 40
-  - src: "images/avatar-2.png"
-    width: 40
-    height: 40
-  - src: "images/avatar-3.png"
-    width: 40
-    height: 40
-  - src: "images/avatar-4.png"
-    width: 40
-    height: 40
-
 ---
 XYZ.
