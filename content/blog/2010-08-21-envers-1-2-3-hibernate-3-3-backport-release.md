@@ -1,7 +1,7 @@
 ---
 title: Envers 1.2.3-hibernate-3.3 – backport release
 author: Adam Warski
-type: post
+type: blog
 date: 2010-08-21T15:23:52+00:00
 url: /blog/2010/08/envers-1-2-3-hibernate-3-3-backport-release/
 dsq_thread_id:

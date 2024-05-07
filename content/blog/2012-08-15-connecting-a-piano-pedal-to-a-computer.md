@@ -1,7 +1,7 @@
 ---
 title: Connecting a piano pedal to a computer
 author: Adam Warski
-type: post
+type: blog
 date: 2012-08-15T13:58:40+00:00
 url: /blog/2012/08/connecting-a-piano-pedal-to-a-computer/
 simplecatch-sidebarlayout:

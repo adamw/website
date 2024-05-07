@@ -1,7 +1,7 @@
 ---
 title: Benchmarking SQS
 author: Adam Warski
-type: post
+type: blog
 date: 2014-06-24T12:05:33+00:00
 url: /blog/2014/06/benchmarking-sqs/
 simplecatch-sidebarlayout:

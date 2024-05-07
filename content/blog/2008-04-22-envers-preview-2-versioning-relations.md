@@ -1,7 +1,7 @@
 ---
 title: 'Envers preview 2: versioning relations'
 author: Adam Warski
-type: post
+type: blog
 date: 2008-04-22T09:39:41+00:00
 url: /blog/2008/04/envers-preview-2-versioning-relations/
 dsq_thread_id:

@@ -1,7 +1,7 @@
 ---
 title: 'MacWire 0.8.0: towards 1.0, tagging, anonymous functions support'
 author: Adam Warski
-type: post
+type: blog
 date: 2015-01-20T15:14:52+00:00
 url: /blog/2015/01/macwire-0-8-0-towards-1-0-tagging-anonymous-functions-support/
 simplecatch-sidebarlayout:

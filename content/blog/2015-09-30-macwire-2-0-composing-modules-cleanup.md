@@ -1,7 +1,7 @@
 ---
 title: 'MacWire 2.0: composing modules & cleanup'
 author: Adam Warski
-type: post
+type: blog
 date: 2015-09-30T07:49:01+00:00
 url: /blog/2015/09/macwire-2-0-composing-modules-cleanup/
 simplecatch-sidebarlayout:

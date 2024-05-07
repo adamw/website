@@ -1,7 +1,7 @@
 ---
 title: In today’s post-OO world, is dependency injection still relevant?
 author: Adam Warski
-type: post
+type: blog
 date: 2015-02-23T11:54:13+00:00
 url: /blog/2015/02/in-todays-post-oo-world-is-dependency-injection-still-relevant/
 simplecatch-sidebarlayout:

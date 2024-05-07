@@ -1,7 +1,7 @@
 ---
 title: ElasticMQ is now synced to Maven central
 author: Adam Warski
-type: post
+type: blog
 date: 2012-11-19T11:41:53+00:00
 url: /blog/2012/11/elasticmq-is-now-synced-to-maven-central/
 dsq_thread_id:

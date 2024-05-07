@@ -1,7 +1,7 @@
 ---
 title: 'DB test: run tests with a database using Arquillian'
 author: Adam Warski
-type: post
+type: blog
 date: 2010-11-30T13:38:56+00:00
 url: /blog/2010/11/db-test-run-tests-with-a-database-using-arquillian/
 dsq_thread_id:

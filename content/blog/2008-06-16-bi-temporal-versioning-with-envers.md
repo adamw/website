@@ -1,7 +1,7 @@
 ---
 title: Bi-temporal versioning with Envers
 author: Adam Warski
-type: post
+type: blog
 date: 2008-06-16T16:22:43+00:00
 url: /blog/2008/06/bi-temporal-versioning-with-envers/
 dsq_thread_id:

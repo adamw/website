@@ -1,7 +1,7 @@
 ---
 title: 'Clean URLs in Seam: URLRewriteFilter'
 author: Adam Warski
-type: post
+type: blog
 date: 2008-03-31T12:10:34+00:00
 url: /blog/2008/03/clean-urls-in-seam-urlrewritefilter/
 dsq_thread_id:

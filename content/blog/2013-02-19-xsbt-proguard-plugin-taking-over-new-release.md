@@ -1,7 +1,7 @@
 ---
 title: xsbt-proguard-plugin – taking over, new release
 author: Adam Warski
-type: post
+type: blog
 date: 2013-02-19T14:20:56+00:00
 url: /blog/2013/02/xsbt-proguard-plugin-taking-over-new-release/
 simplecatch-sidebarlayout:

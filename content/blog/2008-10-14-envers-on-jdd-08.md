@@ -1,7 +1,7 @@
 ---
 title: Envers on JDD 08
 author: Adam Warski
-type: post
+type: blog
 date: 2008-10-14T07:51:39+00:00
 url: /blog/2008/10/envers-on-jdd-08/
 dsq_thread_id:

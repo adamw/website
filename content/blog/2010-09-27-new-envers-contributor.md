@@ -1,7 +1,7 @@
 ---
 title: New Envers contributor
 author: Adam Warski
-type: post
+type: blog
 date: 2010-09-27T05:55:34+00:00
 url: /blog/2010/09/new-envers-contributor/
 dsq_thread_id:

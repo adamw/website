@@ -1,7 +1,7 @@
 ---
 title: JSR-308, checkers framework and static analysis on GeeCON
 author: Adam Warski
-type: post
+type: blog
 date: 2010-04-26T17:58:50+00:00
 url: /blog/2010/04/jsr-308-checkers-framework-and-static-analysis-on-geecon/
 dsq_thread_id:

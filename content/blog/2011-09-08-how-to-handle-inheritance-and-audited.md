@@ -1,7 +1,7 @@
 ---
 title: How to handle inheritance and @Audited?
 author: Adam Warski
-type: post
+type: blog
 date: 2011-09-08T12:13:05+00:00
 url: /blog/2011/09/how-to-handle-inheritance-and-audited/
 dsq_thread_id:

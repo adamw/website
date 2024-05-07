@@ -1,7 +1,7 @@
 ---
 title: Cluster-wide Java/Scala application deployments with Docker, Chef and Amazon OpsWorks
 author: Adam Warski
-type: post
+type: blog
 date: 2014-06-12T11:50:45+00:00
 url: /blog/2014/06/cluster-wide-javascala-application-deployments-with-docker-chef-and-amazon-opsworks/
 simplecatch-sidebarlayout:

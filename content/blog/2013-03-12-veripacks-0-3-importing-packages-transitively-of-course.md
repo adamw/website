@@ -1,7 +1,7 @@
 ---
 title: 'Veripacks 0.3: importing packages (transitively, of course)'
 author: Adam Warski
-type: post
+type: blog
 date: 2013-03-12T19:33:36+00:00
 url: /blog/2013/03/veripacks-0-3-importing-packages-transitively-of-course/
 simplecatch-sidebarlayout:

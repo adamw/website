@@ -1,7 +1,7 @@
 ---
 title: 'MacWire 0.2: Scopes are simple!'
 author: Adam Warski
-type: post
+type: blog
 date: 2013-04-25T18:14:51+00:00
 url: /blog/2013/04/macwire-0-2-scopes-are-simple/
 simplecatch-sidebarlayout:

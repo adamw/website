@@ -1,7 +1,7 @@
 ---
 title: Typestate checker – introduction
 author: Adam Warski
-type: post
+type: blog
 date: 2008-11-17T18:17:29+00:00
 url: /blog/2008/11/typestate-checker-introduction/
 dsq_thread_id:

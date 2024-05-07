@@ -1,7 +1,7 @@
 ---
 title: 'Supler update: 0.3.0 release'
 author: Adam Warski
-type: post
+type: blog
 date: 2015-03-19T12:21:50+00:00
 url: /blog/2015/03/supler-update-0-3-0-release/
 simplecatch-sidebarlayout:

@@ -1,7 +1,7 @@
 ---
 title: Dependency Injection in Play! with MacWire
 author: Adam Warski
-type: post
+type: blog
 date: 2013-08-21T17:05:37+00:00
 url: /blog/2013/08/dependency-injection-in-play-with-macwire/
 simplecatch-sidebarlayout:

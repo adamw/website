@@ -1,7 +1,7 @@
 ---
 title: 'Instant Facelets: changes in .xhtml and no redeploying'
 author: Adam Warski
-type: post
+type: blog
 date: 2007-12-07T12:02:56+00:00
 url: /blog/2007/12/instant-facelets-changes-in-xhtml-and-no-redeploying/
 dsq_thread_id:

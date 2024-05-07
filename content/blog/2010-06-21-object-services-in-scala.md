@@ -1,7 +1,7 @@
 ---
 title: Object Services in Scala
 author: Adam Warski
-type: post
+type: blog
 date: 2010-06-21T16:39:46+00:00
 url: /blog/2010/06/object-services-in-scala/
 dsq_thread_id:

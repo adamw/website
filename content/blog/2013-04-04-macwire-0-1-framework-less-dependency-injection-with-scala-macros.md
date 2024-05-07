@@ -1,7 +1,7 @@
 ---
 title: 'MacWire 0.1: Framework-less Dependency Injection with Scala Macros'
 author: Adam Warski
-type: post
+type: blog
 date: 2013-04-04T11:07:53+00:00
 url: /blog/2013/04/macwire-0-1-framework-less-dependency-injection-with-scala-macros/
 simplecatch-sidebarlayout:

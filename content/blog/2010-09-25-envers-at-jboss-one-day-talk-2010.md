@@ -1,7 +1,7 @@
 ---
 title: Envers at JBoss One Day Talk 2010
 author: Adam Warski
-type: post
+type: blog
 date: 2010-09-25T08:44:44+00:00
 url: /blog/2010/09/envers-at-jboss-one-day-talk-2010/
 dsq_thread_id:

@@ -1,7 +1,7 @@
 ---
 title: 'Envers & TorqueBox on RivieraJUG – May 6th'
 author: Adam Warski
-type: post
+type: blog
 date: 2011-05-02T06:13:49+00:00
 url: /blog/2011/05/envers-torquebox-on-rivierajug-may-6th/
 dsq_thread_id:

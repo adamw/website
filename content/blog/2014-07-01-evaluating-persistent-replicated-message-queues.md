@@ -1,7 +1,7 @@
 ---
 title: Evaluating persistent, replicated message queues (updated w/ Kafka)
 author: Adam Warski
-type: post
+type: blog
 date: 2014-07-01T12:08:01+00:00
 url: /blog/2014/07/evaluating-persistent-replicated-message-queues/
 simplecatch-sidebarlayout:

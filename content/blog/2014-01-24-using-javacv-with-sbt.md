@@ -1,7 +1,7 @@
 ---
 title: Using JavaCV with Scala and SBT
 author: Adam Warski
-type: post
+type: blog
 date: 2014-01-24T15:40:40+00:00
 url: /blog/2014/01/using-javacv-with-sbt/
 simplecatch-sidebarlayout:

@@ -1,7 +1,7 @@
 ---
 title: UTF-8 in JBoss/Tomcat + MySQL + Hibernate + JavaMail
 author: Adam Warski
-type: post
+type: blog
 date: 2007-10-03T13:07:50+00:00
 url: /blog/2007/10/utf-8-in-jbosstomcat-mysql-hibernate-javamail/
 dsq_thread_id:

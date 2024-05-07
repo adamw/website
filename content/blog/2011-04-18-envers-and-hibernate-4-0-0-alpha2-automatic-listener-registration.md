@@ -1,7 +1,7 @@
 ---
 title: Envers and Hibernate 4.0.0.Alpha2 – automatic listener registration
 author: Adam Warski
-type: post
+type: blog
 date: 2011-04-18T06:46:23+00:00
 url: /blog/2011/04/envers-and-hibernate-4-0-0-alpha2-automatic-listener-registration/
 dsq_thread_id:

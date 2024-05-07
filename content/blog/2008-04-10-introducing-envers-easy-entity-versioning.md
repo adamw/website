@@ -1,7 +1,7 @@
 ---
 title: 'Introducing Envers: Easy Entity Versioning'
 author: Adam Warski
-type: post
+type: blog
 date: 2008-04-10T13:06:30+00:00
 url: /blog/2008/04/introducing-envers-easy-entity-versioning/
 dsq_thread_id:

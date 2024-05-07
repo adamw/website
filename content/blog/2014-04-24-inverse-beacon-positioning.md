@@ -1,7 +1,7 @@
 ---
 title: Inverse beacon positioning
 author: Adam Warski
-type: post
+type: blog
 date: 2014-04-24T12:15:39+00:00
 url: /blog/2014/04/inverse-beacon-positioning/
 simplecatch-sidebarlayout:

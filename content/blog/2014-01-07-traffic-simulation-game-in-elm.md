@@ -1,7 +1,7 @@
 ---
 title: Traffic simulation game in Elm
 author: Adam Warski
-type: post
+type: blog
 date: 2014-01-07T12:08:10+00:00
 url: /blog/2014/01/traffic-simulation-game-in-elm/
 simplecatch-sidebarlayout:

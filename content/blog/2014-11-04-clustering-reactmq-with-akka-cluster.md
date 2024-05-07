@@ -1,7 +1,7 @@
 ---
 title: Clustering reactmq with akka-cluster
 author: Adam Warski
-type: post
+type: blog
 date: 2014-11-04T13:05:42+00:00
 url: /blog/2014/11/clustering-reactmq-with-akka-cluster/
 simplecatch-sidebarlayout:

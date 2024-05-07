@@ -1,7 +1,7 @@
 ---
 title: 'ElasticMQ 0.3: new API, new in-memory storage'
 author: Adam Warski
-type: post
+type: blog
 date: 2012-02-06T20:52:35+00:00
 url: /blog/2012/02/elasticmq-0-3-new-api-new-in-memory-storage/
 simplecatch-sidebarlayout:

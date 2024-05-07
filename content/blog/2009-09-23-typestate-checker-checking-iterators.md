@@ -1,7 +1,7 @@
 ---
 title: Typestate checker – checking iterators
 author: Adam Warski
-type: post
+type: blog
 date: 2009-09-23T17:02:54+00:00
 url: /blog/2009/09/typestate-checker-checking-iterators/
 dsq_thread_id:

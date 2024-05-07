@@ -1,7 +1,7 @@
 ---
 title: Typed ask for Akka
 author: Adam Warski
-type: post
+type: blog
 date: 2013-05-21T09:42:25+00:00
 url: /blog/2013/05/typed-ask-for-akka/
 simplecatch-sidebarlayout:

@@ -1,7 +1,7 @@
 ---
 title: Verifying usage of 3rd party libraries using Veripacks
 author: Adam Warski
-type: post
+type: blog
 date: 2013-08-05T18:16:38+00:00
 url: /blog/2013/08/verifying-usage-of-3rd-party-libraries-using-veripacks/
 simplecatch-sidebarlayout:

@@ -1,7 +1,7 @@
 ---
 title: Developing with Seam and without frequent redeploying
 author: Adam Warski
-type: post
+type: blog
 date: 2007-10-12T07:45:35+00:00
 url: /blog/2007/10/developing-with-seam-and-without-frequent-redeploying/
 dsq_thread_id:

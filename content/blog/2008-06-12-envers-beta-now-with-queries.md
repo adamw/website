@@ -1,7 +1,7 @@
 ---
 title: Envers beta – now with queries!
 author: Adam Warski
-type: post
+type: blog
 date: 2008-06-12T11:03:37+00:00
 url: /blog/2008/06/envers-beta-now-with-queries/
 dsq_thread_id:

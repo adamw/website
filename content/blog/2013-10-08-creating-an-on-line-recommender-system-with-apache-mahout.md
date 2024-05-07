@@ -1,7 +1,7 @@
 ---
 title: Creating an on-line recommender system with Apache Mahout
 author: Adam Warski
-type: post
+type: blog
 date: 2013-10-08T14:54:51+00:00
 url: /blog/2013/10/creating-an-on-line-recommender-system-with-apache-mahout/
 simplecatch-sidebarlayout:

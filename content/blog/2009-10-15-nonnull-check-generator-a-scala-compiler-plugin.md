@@ -1,7 +1,7 @@
 ---
 title: 'Nonnull-check generator: a scala compiler plugin'
 author: Adam Warski
-type: post
+type: blog
 date: 2009-10-15T15:04:45+00:00
 url: /blog/2009/10/nonnull-check-generator-a-scala-compiler-plugin/
 dsq_thread_id:

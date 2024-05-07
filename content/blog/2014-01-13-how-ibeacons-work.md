@@ -1,7 +1,7 @@
 ---
 title: How do iBeacons work?
 author: Adam Warski
-type: post
+type: blog
 date: 2014-01-13T20:34:29+00:00
 url: /blog/2014/01/how-ibeacons-work/
 simplecatch-sidebarlayout:

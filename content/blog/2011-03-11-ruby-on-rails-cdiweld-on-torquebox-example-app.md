@@ -1,7 +1,7 @@
 ---
 title: Ruby on Rails + CDI/Weld on Torquebox example app
 author: Adam Warski
-type: post
+type: blog
 date: 2011-03-11T12:04:30+00:00
 url: /blog/2011/03/ruby-on-rails-cdiweld-on-torquebox-example-app/
 dsq_thread_id:

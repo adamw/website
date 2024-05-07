@@ -1,7 +1,7 @@
 ---
 title: 'DI in Scala: Cake Pattern pros & cons'
 author: Adam Warski
-type: post
+type: blog
 date: 2011-04-29T06:14:08+00:00
 url: /blog/2011/04/di-in-scala-cake-pattern-pros-cons/
 dsq_thread_id:

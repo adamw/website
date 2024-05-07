@@ -1,7 +1,7 @@
 ---
 title: Projects Using Envers wikipage
 author: Adam Warski
-type: post
+type: blog
 date: 2010-02-01T20:07:24+00:00
 url: /blog/2010/02/projects-using-envers-wikipage/
 dsq_thread_id:

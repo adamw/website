@@ -1,7 +1,7 @@
 ---
 title: 'Introducing Supler: a Functional Reactive Form Library'
 author: Adam Warski
-type: post
+type: blog
 date: 2014-09-17T18:58:28+00:00
 url: /blog/2014/09/introducing-supler-a-functional-reactive-form-library/
 simplecatch-sidebarlayout:

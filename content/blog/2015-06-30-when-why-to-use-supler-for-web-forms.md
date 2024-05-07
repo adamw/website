@@ -1,7 +1,7 @@
 ---
 title: 'When & why to use Supler for web forms?'
 author: Adam Warski
-type: post
+type: blog
 date: 2015-06-30T14:07:03+00:00
 url: /blog/2015/06/when-why-to-use-supler-for-web-forms/
 simplecatch-sidebarlayout:

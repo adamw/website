@@ -1,7 +1,7 @@
 ---
 title: 'Dependency injection with Scala macros: auto-wiring'
 author: Adam Warski
-type: post
+type: blog
 date: 2013-03-14T21:33:04+00:00
 url: /blog/2013/03/dependency-injection-with-scala-macros-auto-wiring/
 simplecatch-sidebarlayout:

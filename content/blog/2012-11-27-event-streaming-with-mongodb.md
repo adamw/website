@@ -1,7 +1,7 @@
 ---
 title: Event streaming with MongoDB
 author: Adam Warski
-type: post
+type: blog
 date: 2012-11-27T13:41:24+00:00
 url: /blog/2012/11/event-streaming-with-mongodb/
 simplecatch-sidebarlayout:

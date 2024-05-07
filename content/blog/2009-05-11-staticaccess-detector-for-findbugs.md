@@ -1,7 +1,7 @@
 ---
 title: StaticAccess detector for FindBugs
 author: Adam Warski
-type: post
+type: blog
 date: 2009-05-11T17:30:19+00:00
 url: /blog/2009/05/staticaccess-detector-for-findbugs/
 simplecatch-sidebarlayout:

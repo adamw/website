@@ -1,7 +1,7 @@
 ---
 title: JSR308 Checkers Maven2 plugin
 author: Adam Warski
-type: post
+type: blog
 date: 2009-02-04T18:11:54+00:00
 url: /blog/2009/02/jsr308-checkers-maven2-plugin/
 dsq_thread_id:

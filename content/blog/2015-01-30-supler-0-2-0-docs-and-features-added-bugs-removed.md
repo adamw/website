@@ -1,7 +1,7 @@
 ---
 title: 'Supler 0.2.0: docs and features added, bugs removed'
 author: Adam Warski
-type: post
+type: blog
 date: 2015-01-30T12:55:44+00:00
 url: /blog/2015/01/supler-0-2-0-docs-and-features-added-bugs-removed/
 simplecatch-sidebarlayout:

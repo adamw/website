@@ -1,7 +1,7 @@
 ---
 title: How to replace a build module with Veripacks
 author: Adam Warski
-type: post
+type: blog
 date: 2013-03-26T21:05:34+00:00
 url: /blog/2013/03/how-to-replace-a-build-module-with-veripacks/
 simplecatch-sidebarlayout:

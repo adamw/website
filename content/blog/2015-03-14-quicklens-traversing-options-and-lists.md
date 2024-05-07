@@ -1,7 +1,7 @@
 ---
 title: 'Quicklens: traversing options and lists'
 author: Adam Warski
-type: post
+type: blog
 date: 2015-03-14T16:52:37+00:00
 url: /blog/2015/03/quicklens-traversing-options-and-lists/
 simplecatch-sidebarlayout:

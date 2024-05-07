@@ -1,7 +1,7 @@
 ---
 title: Event sourcing + free monads = free sourcing?
 author: Adam Warski
-type: post
+type: blog
 date: 2015-10-28T16:48:54+00:00
 url: /blog/2015/10/event-sourcing-free-monads-free-sourcing/
 simplecatch-sidebarlayout:

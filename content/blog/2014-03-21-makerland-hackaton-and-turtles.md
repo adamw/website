@@ -1,7 +1,7 @@
 ---
 title: Makerland, hackaton and turtles
 author: Adam Warski
-type: post
+type: blog
 date: 2014-03-21T14:35:49+00:00
 url: /blog/2014/03/makerland-hackaton-and-turtles/
 simplecatch-sidebarlayout:

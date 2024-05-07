@@ -1,7 +1,7 @@
 ---
 title: Using Scala traits as modules, or the “Thin Cake” Pattern
 author: Adam Warski
-type: post
+type: blog
 date: 2014-02-25T13:07:28+00:00
 url: /blog/2014/02/using-scala-traits-as-modules-or-the-thin-cake-pattern/
 simplecatch-sidebarlayout:

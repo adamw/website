@@ -1,7 +1,7 @@
 ---
 title: 'Veripacks 0.2: exporting subpackages'
 author: Adam Warski
-type: post
+type: blog
 date: 2013-02-03T13:35:31+00:00
 url: /blog/2013/02/veripacks-0-2-exporting-subpackages/
 slider_fx:

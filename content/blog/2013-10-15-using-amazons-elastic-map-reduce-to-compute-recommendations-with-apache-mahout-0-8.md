@@ -1,7 +1,7 @@
 ---
 title: Using Amazon’s Elastic Map Reduce to compute recommendations with Apache Mahout 0.8
 author: Adam Warski
-type: post
+type: blog
 date: 2013-10-15T11:35:18+00:00
 url: /blog/2013/10/using-amazons-elastic-map-reduce-to-compute-recommendations-with-apache-mahout-0-8/
 simplecatch-sidebarlayout:

@@ -1,7 +1,7 @@
 ---
 title: Envers 1.1.0.GA released
 author: Adam Warski
-type: post
+type: blog
 date: 2008-10-21T18:29:18+00:00
 url: /blog/2008/10/envers-110ga-released/
 dsq_thread_id:

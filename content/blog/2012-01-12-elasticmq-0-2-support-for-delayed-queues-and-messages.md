@@ -1,7 +1,7 @@
 ---
 title: ElasticMQ 0.2 – support for delayed queues and messages
 author: Adam Warski
-type: post
+type: blog
 date: 2012-01-12T16:52:54+00:00
 url: /blog/2012/01/elasticmq-0-2-support-for-delayed-queues-and-messages/
 dsq_thread_id:

@@ -1,7 +1,7 @@
 ---
 title: 'Implementing factories in Scala & MacWire 0.3'
 author: Adam Warski
-type: post
+type: blog
 date: 2013-06-18T10:47:38+00:00
 url: /blog/2013/06/implementing-factories-in-scala-macwire-0-3/
 simplecatch-sidebarlayout:

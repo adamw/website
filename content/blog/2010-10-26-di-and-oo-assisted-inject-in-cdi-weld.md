@@ -1,7 +1,7 @@
 ---
 title: 'DI and OO: Assisted Inject in CDI / Weld'
 author: Adam Warski
-type: post
+type: blog
 date: 2010-10-26T15:22:36+00:00
 url: /blog/2010/10/di-and-oo-assisted-inject-in-cdi-weld/
 dsq_thread_id:

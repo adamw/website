@@ -1,7 +1,7 @@
 ---
 title: 'MacWire 0.7: dynamically accessing the object graph'
 author: Adam Warski
-type: post
+type: blog
 date: 2014-07-22T11:24:42+00:00
 url: /blog/2014/07/macwire-0-7-dynamically-accessing-the-object-graph/
 simplecatch-sidebarlayout:

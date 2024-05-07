@@ -1,7 +1,7 @@
 ---
 title: 'Envers preview 3: logging data for revisions, Seam demo'
 author: Adam Warski
-type: post
+type: blog
 date: 2008-05-06T12:57:24+00:00
 url: /blog/2008/05/envers-preview-3-logging-data-for-revisions-seam-demo/
 simplecatch-sidebarlayout:

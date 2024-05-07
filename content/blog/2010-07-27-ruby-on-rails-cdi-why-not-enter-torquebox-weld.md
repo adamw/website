@@ -1,7 +1,7 @@
 ---
 title: Ruby on Rails + CDI? Why not! Enter TorqueBox + Weld
 author: Adam Warski
-type: post
+type: blog
 date: 2010-07-27T12:07:33+00:00
 url: /blog/2010/07/ruby-on-rails-cdi-why-not-enter-torquebox-weld/
 dsq_thread_id:

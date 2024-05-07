@@ -1,7 +1,7 @@
 ---
 title: New features in cdi-ext
 author: Adam Warski
-type: post
+type: blog
 date: 2010-08-02T18:28:15+00:00
 url: /blog/2010/08/new-features-in-cdi-ext/
 dsq_thread_id:

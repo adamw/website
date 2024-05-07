@@ -1,7 +1,7 @@
 ---
 title: Spray server in a Docker container
 author: Adam Warski
-type: post
+type: blog
 date: 2014-05-06T11:47:38+00:00
 url: /blog/2014/05/spray-server-docker-container/
 admin:

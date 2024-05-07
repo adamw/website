@@ -1,7 +1,7 @@
 ---
 title: MacWire 1.0 is here!
 author: Adam Warski
-type: post
+type: blog
 date: 2015-04-07T13:20:30+00:00
 url: /blog/2015/04/macwire-1-0-is-here/
 simplecatch-sidebarlayout:

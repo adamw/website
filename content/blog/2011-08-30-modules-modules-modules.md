@@ -1,7 +1,7 @@
 ---
 title: Modules, modules, modules …
 author: Adam Warski
-type: post
+type: blog
 date: 2011-08-30T18:34:39+00:00
 url: /blog/2011/08/modules-modules-modules/
 simplecatch-sidebarlayout:

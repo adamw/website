@@ -1,7 +1,7 @@
 ---
 title: Envers 1.2.0.GA in Maven repository; JSR308 typestate and maven plugin in GIT
 author: Adam Warski
-type: post
+type: blog
 date: 2009-03-11T16:21:27+00:00
 url: /blog/2009/03/envers-120ga-in-maven-repository-jsr308-typestate-and-maven-plugin-in-git/
 dsq_thread_id:

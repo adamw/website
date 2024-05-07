@@ -1,7 +1,7 @@
 ---
 title: CDI Portable Extensions on Confitura 2011
 author: Adam Warski
-type: post
+type: blog
 date: 2011-06-01T18:08:39+00:00
 url: /blog/2011/06/cdi-portable-extensions-on-confitura-2011/
 dsq_thread_id:

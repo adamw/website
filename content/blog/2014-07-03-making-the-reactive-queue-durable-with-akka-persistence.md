@@ -1,7 +1,7 @@
 ---
 title: Making the Reactive Queue durable with Akka Persistence
 author: Adam Warski
-type: post
+type: blog
 date: 2014-07-03T12:17:32+00:00
 url: /blog/2014/07/making-the-reactive-queue-durable-with-akka-persistence/
 simplecatch-sidebarlayout:

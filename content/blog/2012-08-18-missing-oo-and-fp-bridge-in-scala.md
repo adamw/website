@@ -1,7 +1,7 @@
 ---
 title: Missing OO and FP bridge in Scala
 author: Adam Warski
-type: post
+type: blog
 date: 2012-08-18T11:09:38+00:00
 url: /blog/2012/08/missing-oo-and-fp-bridge-in-scala/
 simplecatch-sidebarlayout:

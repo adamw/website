@@ -1,7 +1,7 @@
 ---
 title: Dry parameter names
 author: Adam Warski
-type: post
+type: blog
 date: 2013-01-26T18:56:34+00:00
 url: /blog/2013/01/dry-parameter-names/
 dsq_thread_id:

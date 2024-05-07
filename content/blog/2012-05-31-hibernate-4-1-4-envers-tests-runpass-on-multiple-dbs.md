@@ -1,7 +1,7 @@
 ---
 title: 'Hibernate 4.1.4: Envers tests run&pass on multiple DBs'
 author: Adam Warski
-type: post
+type: blog
 date: 2012-05-31T08:59:15+00:00
 url: /blog/2012/05/hibernate-4-1-4-envers-tests-runpass-on-multiple-dbs/
 dsq_thread_id:

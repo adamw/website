@@ -1,7 +1,7 @@
 ---
 title: 'MacWire 0.5: Interceptors'
 author: Adam Warski
-type: post
+type: blog
 date: 2013-10-01T13:14:19+00:00
 url: /blog/2013/10/macwire-0-5-interceptors/
 simplecatch-sidebarlayout:

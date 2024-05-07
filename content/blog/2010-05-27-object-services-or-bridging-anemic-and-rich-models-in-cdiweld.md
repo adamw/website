@@ -1,7 +1,7 @@
 ---
 title: Object Services, or bridging anemic and rich models, in CDI/Weld
 author: Adam Warski
-type: post
+type: blog
 date: 2010-05-27T09:43:31+00:00
 url: /blog/2010/05/object-services-or-bridging-anemic-and-rich-models-in-cdiweld/
 dsq_thread_id:

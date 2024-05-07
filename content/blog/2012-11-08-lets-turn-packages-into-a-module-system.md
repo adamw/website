@@ -1,7 +1,7 @@
 ---
 title: Let’s turn packages into a module system!
 author: Adam Warski
-type: post
+type: blog
 date: 2012-11-08T19:22:30+00:00
 url: /blog/2012/11/lets-turn-packages-into-a-module-system/
 dsq_thread_id:

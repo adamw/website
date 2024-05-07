@@ -1,7 +1,7 @@
 ---
 title: Envers is back from vacations
 author: Adam Warski
-type: post
+type: blog
 date: 2008-09-03T09:58:52+00:00
 url: /blog/2008/09/envers-is-back-from-vacations/
 dsq_thread_id:

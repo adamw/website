@@ -1,7 +1,7 @@
 ---
 title: 'Add a “dependencies” badge & tree to your project using UpdateImpact'
 author: Adam Warski
-type: post
+type: blog
 date: 2016-02-24T16:22:28+00:00
 url: /blog/2016/02/add-a-dependencies-badge-tree-to-your-project-using-updateimpact/
 simplecatch-sidebarlayout:

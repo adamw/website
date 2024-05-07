@@ -1,7 +1,7 @@
 ---
 title: 'Starting with Scala Macros: a short tutorial'
 author: Adam Warski
-type: post
+type: blog
 date: 2012-12-02T19:22:56+00:00
 url: /blog/2012/12/starting-with-scala-macros-a-short-tutorial/
 simplecatch-sidebarlayout:

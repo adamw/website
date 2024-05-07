@@ -1,7 +1,7 @@
 ---
 title: 'Quicklens: modify deeply nested case class fields'
 author: Adam Warski
-type: post
+type: blog
 date: 2015-02-28T19:51:46+00:00
 url: /blog/2015/02/quicklens-modify-deeply-nested-case-class-fields/
 simplecatch-sidebarlayout:

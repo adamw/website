@@ -1,7 +1,7 @@
 ---
 title: BuildStuff 2013 is over – looking forward to ’14!
 author: Adam Warski
-type: post
+type: blog
 date: 2013-12-17T19:37:27+00:00
 url: /blog/2013/12/buildstuff-2013-is-over-looking-forward-to-14/
 simplecatch-sidebarlayout:

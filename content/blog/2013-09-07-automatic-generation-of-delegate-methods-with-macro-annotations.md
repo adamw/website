@@ -1,7 +1,7 @@
 ---
 title: Automatic generation of delegate methods with Macro Annotations
 author: Adam Warski
-type: post
+type: blog
 date: 2013-09-07T12:03:37+00:00
 url: /blog/2013/09/automatic-generation-of-delegate-methods-with-macro-annotations/
 simplecatch-sidebarlayout:

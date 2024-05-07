@@ -1,7 +1,7 @@
 ---
 title: Using Envers with AS7
 author: Adam Warski
-type: post
+type: blog
 date: 2011-08-04T05:42:00+00:00
 url: /blog/2011/08/using-envers-with-as7/
 dsq_thread_id:

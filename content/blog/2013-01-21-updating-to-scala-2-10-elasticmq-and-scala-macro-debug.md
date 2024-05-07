@@ -1,7 +1,7 @@
 ---
 title: 'Updating to Scala 2.10: ElasticMQ and scala-macro-debug'
 author: Adam Warski
-type: post
+type: blog
 date: 2013-01-21T18:37:17+00:00
 url: /blog/2013/01/updating-to-scala-2-10-elasticmq-and-scala-macro-debug/
 dsq_thread_id:

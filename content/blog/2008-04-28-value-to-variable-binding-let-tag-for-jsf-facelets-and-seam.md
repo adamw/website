@@ -1,7 +1,7 @@
 ---
 title: Value-to-variable binding “let” tag for JSF, Facelets and Seam
 author: Adam Warski
-type: post
+type: blog
 date: 2008-04-28T10:54:56+00:00
 url: /blog/2008/04/value-to-variable-binding-let-tag-for-jsf-facelets-and-seam/
 dsq_thread_id:

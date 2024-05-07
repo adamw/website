@@ -1,7 +1,7 @@
 ---
 title: 'CDI & Weld Extensions in Git'
 author: Adam Warski
-type: post
+type: blog
 date: 2010-05-17T19:37:46+00:00
 url: /blog/2010/05/cdi-weld-extensions-in-git/
 dsq_thread_id:

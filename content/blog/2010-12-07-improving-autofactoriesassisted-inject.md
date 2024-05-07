@@ -1,7 +1,7 @@
 ---
 title: Improving autofactories/assisted inject
 author: Adam Warski
-type: post
+type: blog
 date: 2010-12-07T14:22:07+00:00
 url: /blog/2010/12/improving-autofactoriesassisted-inject/
 dsq_thread_id:

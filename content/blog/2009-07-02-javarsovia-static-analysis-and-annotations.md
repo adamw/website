@@ -1,7 +1,7 @@
 ---
 title: Javarsovia, static analysis and annotations
 author: Adam Warski
-type: post
+type: blog
 date: 2009-07-02T19:15:32+00:00
 url: /blog/2009/07/javarsovia-static-analysis-and-annotations/
 dsq_thread_id:

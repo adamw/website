@@ -1,7 +1,7 @@
 ---
 title: Why I started learning Emacs in 2016
 author: Adam Warski
-type: post
+type: blog
 date: 2016-08-25T12:22:44+00:00
 url: /blog/2016/08/why-i-started-learning-emacs-in-2016/
 simplecatch-sidebarlayout:

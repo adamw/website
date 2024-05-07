@@ -1,7 +1,7 @@
 ---
 title: Java Zone 2013 trip report
 author: Adam Warski
-type: post
+type: blog
 date: 2013-09-22T11:26:46+00:00
 url: /blog/2013/09/java-zone-2013-trip-report/
 simplecatch-sidebarlayout:

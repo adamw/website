@@ -1,7 +1,7 @@
 ---
 title: Adding structure to Seam events
 author: Adam Warski
-type: post
+type: blog
 date: 2008-10-23T13:19:07+00:00
 url: /blog/2008/10/adding-structure-to-seam-events/
 simplecatch-sidebarlayout:

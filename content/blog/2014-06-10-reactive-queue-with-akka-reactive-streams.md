@@ -1,7 +1,7 @@
 ---
 title: Reactive Queue with Akka Reactive Streams
 author: Adam Warski
-type: post
+type: blog
 date: 2014-06-10T12:32:54+00:00
 url: /blog/2014/06/reactive-queue-with-akka-reactive-streams/
 simplecatch-sidebarlayout:

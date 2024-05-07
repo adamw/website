@@ -1,7 +1,7 @@
 ---
 title: Functional Discrete Optimization @ Coursera with Scala
 author: Adam Warski
-type: post
+type: blog
 date: 2014-05-13T10:43:21+00:00
 url: /blog/2014/05/functional-discrete-optimization-coursera-with-scala/
 simplecatch-sidebarlayout:

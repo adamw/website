@@ -1,7 +1,7 @@
 ---
 title: Initial valid-time support in Envers
 author: Adam Warski
-type: post
+type: blog
 date: 2010-07-02T12:12:42+00:00
 url: /blog/2010/07/initial-valid-time-support-in-envers/
 dsq_thread_id:

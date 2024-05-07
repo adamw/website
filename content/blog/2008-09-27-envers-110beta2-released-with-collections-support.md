@@ -1,7 +1,7 @@
 ---
 title: Envers 1.1.0.beta2 released with collections support
 author: Adam Warski
-type: post
+type: blog
 date: 2008-09-27T08:44:29+00:00
 url: /blog/2008/09/envers-110beta2-released-with-collections-support/
 dsq_thread_id:

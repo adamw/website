@@ -1,7 +1,7 @@
 ---
 title: 'ElasticMQ 0.7.0: long polling, non-blocking implementation using Akka and Spray'
 author: Adam Warski
-type: post
+type: blog
 date: 2013-06-06T09:02:03+00:00
 url: /blog/2013/06/elasticmq-0-7-0-long-polling-non-blocking-implementation-using-akka-and-spray/
 simplecatch-sidebarlayout:

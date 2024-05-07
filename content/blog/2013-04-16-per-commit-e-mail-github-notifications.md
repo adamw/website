@@ -1,7 +1,7 @@
 ---
 title: Per-commit e-mail GitHub notifications
 author: Adam Warski
-type: post
+type: blog
 date: 2013-04-16T14:34:59+00:00
 url: /blog/2013/04/per-commit-e-mail-github-notifications/
 simplecatch-sidebarlayout:

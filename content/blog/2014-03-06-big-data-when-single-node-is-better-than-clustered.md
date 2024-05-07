@@ -1,7 +1,7 @@
 ---
 title: 'Big data: when single node is better than clustered'
 author: Adam Warski
-type: post
+type: blog
 date: 2014-03-06T13:22:44+00:00
 url: /blog/2014/03/big-data-when-single-node-is-better-than-clustered/
 simplecatch-sidebarlayout:

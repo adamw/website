@@ -1,7 +1,7 @@
 ---
 title: 'ElasticMQ 0.4: message replication'
 author: Adam Warski
-type: post
+type: blog
 date: 2012-03-28T05:52:47+00:00
 url: /blog/2012/03/elasticmq-0-4-message-replication/
 dsq_thread_id:

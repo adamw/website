@@ -1,7 +1,7 @@
 ---
 title: Static typing is a great static analysis tool
 author: Adam Warski
-type: post
+type: blog
 date: 2011-06-27T15:48:25+00:00
 url: /blog/2011/06/static-typing-is-a-great-static-analysis-tool/
 dsq_thread_id:
