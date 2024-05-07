@@ -260,7 +260,7 @@ wp-syntax-cache-content:
                             with CountryRepositoryComponentImpl    
     env.userInformation(User(&quot;someuser@domain.pl&quot;)).userCountry</p></div>
     ";}
-categories:
+tags:
   - dependency injection
   - java
   - scala

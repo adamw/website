@@ -6,7 +6,7 @@ date: 2012-05-31T08:59:15+00:00
 url: /blog/2012/05/hibernate-4-1-4-envers-tests-runpass-on-multiple-dbs/
 dsq_thread_id:
   - 1054041242
-categories:
+tags:
   - envers
   - hibernate
   - java

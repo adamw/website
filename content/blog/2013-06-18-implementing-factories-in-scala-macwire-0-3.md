@@ -182,7 +182,7 @@ wp-syntax-cache-content:
     <div class="wp_syntax" style="position:relative;"><table><tr><td class="line_numbers"><pre>1
     </pre></td><td class="code"><pre class="scala" style="font-family:monospace;"><span style="color: #0000ff; font-weight: bold;">type</span> PriceCalculator <span style="color: #000080;">=</span> PriceCalculatorFactory<span style="color: #000080;">#</span>create</pre></td></tr></table><p class="theCode" style="display:none;">type PriceCalculator = PriceCalculatorFactory#create</p></div>
     ";}
-categories:
+tags:
   - dependency injection
   - macwire
   - scala

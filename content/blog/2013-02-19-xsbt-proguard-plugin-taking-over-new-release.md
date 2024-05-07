@@ -20,7 +20,7 @@ wp-syntax-cache-content:
     
     addSbtPlugin(&quot;org.scala-sbt&quot; % &quot;xsbt-proguard-plugin&quot; % &quot;0.1.3-SNAPSHOT&quot;)</p></div>
     ";}
-categories:
+tags:
   - scala
 
 ---

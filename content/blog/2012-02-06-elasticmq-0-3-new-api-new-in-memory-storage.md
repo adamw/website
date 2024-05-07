@@ -47,7 +47,7 @@ wp-syntax-cache-content:
         message.delete()
       })</p></div>
     ";}
-categories:
+tags:
   - aws
   - cloud
   - elasticmq

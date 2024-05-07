@@ -6,7 +6,7 @@ date: 2011-09-08T08:56:57+00:00
 url: /blog/2011/09/blending-ruby-on-rails-and-cdi-on-openblend-2011/
 dsq_thread_id:
   - 1054625668
-categories:
+tags:
   - conferences
   - ruby
   - jsf

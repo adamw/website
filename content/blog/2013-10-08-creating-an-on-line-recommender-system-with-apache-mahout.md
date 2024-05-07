@@ -203,7 +203,7 @@ wp-syntax-cache-content:
     // Gets 10 recommendations
     val result = recommender.recommend(userId, 10, rescorer)</p></div>
     ";}
-categories:
+tags:
   - machine learning
   - softwaremill
 

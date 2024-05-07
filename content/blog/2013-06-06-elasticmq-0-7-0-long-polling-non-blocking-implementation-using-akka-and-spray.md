@@ -128,7 +128,7 @@ wp-syntax-cache-content:
       }
     }</p></div>
     ";}
-categories:
+tags:
   - cloud
   - aws 
   - elasticmq

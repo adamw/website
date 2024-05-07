@@ -69,7 +69,7 @@ wp-syntax-cache-content:
     server.stop()
     node.shutdown()</p></div>
     ";}
-categories:
+tags:
   - aws
   - cloud
   - messaging

@@ -8,7 +8,7 @@ simplecatch-sidebarlayout:
   - default
 dsq_thread_id:
   - 3661802634
-categories:
+tags:
   - akka
   - dependency injection
   - metaprogramming

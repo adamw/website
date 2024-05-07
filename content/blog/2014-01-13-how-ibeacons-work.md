@@ -29,7 +29,7 @@ wp-syntax-cache-content:
     00 0A: minor
     C5: 2’s complement of measured TX power</p></div>
     ";}
-categories:
+tags:
   - something different
   - hardware
 

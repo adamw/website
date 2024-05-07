@@ -8,7 +8,7 @@ simplecatch-sidebarlayout:
   - default
 dsq_thread_id:
   - 4179378336
-categories:
+tags:
   - dependency injection
   - metaprogramming
   - macwire

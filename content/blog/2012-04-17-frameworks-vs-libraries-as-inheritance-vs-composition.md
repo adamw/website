@@ -6,7 +6,7 @@ date: 2012-04-17T06:04:21+00:00
 url: /blog/2012/04/frameworks-vs-libraries-as-inheritance-vs-composition/
 dsq_thread_id:
   - 1051936566
-categories:
+tags:
   - architecture
   - clean code
 

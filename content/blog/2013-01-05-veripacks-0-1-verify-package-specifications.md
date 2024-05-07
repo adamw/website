@@ -168,7 +168,7 @@ wp-syntax-cache-content:
             &lt;url&gt;http://nexus.softwaremill.com/content/repositories/snapshots/&lt;/url&gt;
         &lt;/repository&gt;</p></div>
     ";}
-categories:
+tags:
   - java
   - modularity
   - testing

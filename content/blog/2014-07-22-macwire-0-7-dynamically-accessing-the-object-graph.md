@@ -104,7 +104,7 @@ wp-syntax-cache-content:
     // available in MyApp
     wired.wireClassInstanceByName(&quot;com.softwaremill.AuthenticationPlugin&quot;)</p></div>
     ";}
-categories:
+tags:
   - dependency injection
   - macwire
   - modularity

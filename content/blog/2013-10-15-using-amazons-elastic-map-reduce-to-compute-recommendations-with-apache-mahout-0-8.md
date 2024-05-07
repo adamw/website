@@ -89,7 +89,7 @@ wp-syntax-cache-content:
     --output s3n://bucket_name/output 
     --input s3n://bucket_name/input.dat</p></div>
     ";}
-categories:
+tags:
   - cloud
   - aws
   - distributed

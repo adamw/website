@@ -8,7 +8,7 @@ simplecatch-sidebarlayout:
   - default
 dsq_thread_id:
   - 3540407983
-categories:
+tags:
   - dependency injection
   - clean code
   - different

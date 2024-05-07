@@ -344,7 +344,7 @@ wp-syntax-cache-content:
         new Receiver(ba.receiveServerAddress)(system).run())
     }</p></div>
     ";}
-categories:
+tags:
   - akka
   - distributed
   - scala

@@ -83,7 +83,7 @@ wp-syntax-cache-content:
     <div class="wp_syntax" style="position:relative;"><table><tr><td class="line_numbers"><pre>1
     </pre></td><td class="code"><pre class="scala" style="font-family:monospace;">libraryDependencies +<span style="color: #000080;">=</span> <span style="color: #6666FF;">&quot;com.softwaremill.macwire&quot;</span> <span style="color: #000080;">%%</span> <span style="color: #6666FF;">&quot;core&quot;</span> <span style="color: #000080;">%</span> <span style="color: #6666FF;">&quot;0.1&quot;</span></pre></td></tr></table><p class="theCode" style="display:none;">libraryDependencies += &quot;com.softwaremill.macwire&quot; %% &quot;core&quot; % &quot;0.1&quot;</p></div>
     ";}
-categories:
+tags:
   - dependency injection
   - macwire
   - scala

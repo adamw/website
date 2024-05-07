@@ -6,7 +6,7 @@ date: 2008-09-19T16:04:02+00:00
 url: /blog/2008/09/envers-on-herbstcampus-2008/
 dsq_thread_id:
   - 1383041031
-categories:
+tags:
   - envers
   - java
   - hibernate

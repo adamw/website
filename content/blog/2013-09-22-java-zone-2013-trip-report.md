@@ -8,7 +8,7 @@ simplecatch-sidebarlayout:
   - default
 dsq_thread_id:
   - 1786230717
-categories:
+tags:
   - conferences
   - metaprogramming
   - scala

@@ -155,7 +155,7 @@ wp-syntax-cache-content:
       }
     }</p></div>
     ";}
-categories:
+tags:
   - dependency injection
   - macwire
   - modularity

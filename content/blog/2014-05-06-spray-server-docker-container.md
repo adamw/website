@@ -10,7 +10,7 @@ simplecatch-sidebarlayout:
   - default
 dsq_thread_id:
   - 2664731643
-categories:
+tags:
   - http
   - cloud
   - docker

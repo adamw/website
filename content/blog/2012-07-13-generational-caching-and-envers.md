@@ -6,7 +6,7 @@ date: 2012-07-13T11:47:12+00:00
 url: /blog/2012/07/generational-caching-and-envers/
 dsq_thread_id:
   - 1051809435
-categories:
+tags:
   - envers
   - hibernate
   - java

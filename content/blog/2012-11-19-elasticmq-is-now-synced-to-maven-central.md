@@ -39,7 +39,7 @@ wp-syntax-cache-content:
         &lt;version&gt;0.6.1&lt;/version&gt;
     &lt;/dependency&gt;</p></div>
     ";}
-categories:
+tags:
   - aws
   - cloud
   - elasticmq

@@ -8,7 +8,7 @@ simplecatch-sidebarlayout:
   - default
 dsq_thread_id:
   - 2791242746
-categories:
+tags:
   - aws
   - cloud
   - messaging

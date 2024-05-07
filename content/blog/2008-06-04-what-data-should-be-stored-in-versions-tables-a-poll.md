@@ -6,7 +6,7 @@ date: 2008-06-04T08:10:28+00:00
 url: /blog/2008/06/what-data-should-be-stored-in-versions-tables-a-poll/
 dsq_thread_id:
   - 1296285125
-categories:
+tags:
   - envers
   - java
   - hibernate

@@ -8,7 +8,7 @@ simplecatch-sidebarlayout:
   - default
 dsq_thread_id:
   - 5093911261
-categories:
+tags:
   - something different
 
 ---

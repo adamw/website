@@ -57,7 +57,7 @@ wp-syntax-cache-content:
       }
       iter.next(); // error: iter is in a wrong state</p></div>
     ";}
-categories:
+tags:
   - java
   - static analysis
 

@@ -6,7 +6,7 @@ date: 2011-06-27T15:48:25+00:00
 url: /blog/2011/06/static-typing-is-a-great-static-analysis-tool/
 dsq_thread_id:
   - 1051935727
-categories:
+tags:
   - java
   - static analysis
   - ruby

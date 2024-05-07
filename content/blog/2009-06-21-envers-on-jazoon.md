@@ -8,7 +8,7 @@ simplecatch-sidebarlayout:
   - default
 dsq_thread_id:
   - 2126560285
-categories:
+tags:
   - envers
   - java
   - conferences

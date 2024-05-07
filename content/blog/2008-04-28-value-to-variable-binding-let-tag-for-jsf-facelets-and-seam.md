@@ -84,7 +84,7 @@ wp-syntax-cache-content:
     <div class="wp_syntax" style="position:relative;"><table><tr><td class="line_numbers"><pre>1
     </pre></td><td class="code"><pre class="xml" style="font-family:monospace;">xmlns:mamut=&quot;http://mamut.net.pl/jsf&quot;</pre></td></tr></table><p class="theCode" style="display:none;">xmlns:mamut=&quot;http://mamut.net.pl/jsf&quot;</p></div>
     ";}
-categories:
+tags:
   - java
   - jsf
 

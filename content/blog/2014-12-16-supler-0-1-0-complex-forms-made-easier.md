@@ -107,7 +107,7 @@ wp-syntax-cache-content:
       &lt;/div&gt;
     &lt;/div&gt;</p></div>
     ";}
-categories:
+tags:
   - scala
   - web
 

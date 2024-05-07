@@ -228,7 +228,7 @@ wp-syntax-cache-content:
     readMore(rrr);
     }</p></div>
     ";}
-categories:
+tags:
   - java
   - jsr308
   - static analysis

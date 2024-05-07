@@ -95,7 +95,7 @@ wp-syntax-cache-content:
     import org.veripacks.Import;
     import org.veripacks.RequiresImport;</p></div>
     ";}
-categories:
+tags:
   - java
   - modularity
   - veripacks

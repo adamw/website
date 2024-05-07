@@ -93,7 +93,7 @@ wp-syntax-cache-content:
        val encryptionMethod = EncryptionMethods.MD5
     }</p></div>
     ";}
-categories:
+tags:
   - dependency injection
   - java
   - scala

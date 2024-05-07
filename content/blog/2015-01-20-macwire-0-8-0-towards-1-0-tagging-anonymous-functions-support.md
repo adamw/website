@@ -47,7 +47,7 @@ wp-syntax-cache-content:
     
     lazy val taxCalculator = (taxBase: TaxBase) =&gt; wire[TaxCalculator]</p></div>
     ";}
-categories:
+tags:
   - dependency injection
   - macwire
   - scala

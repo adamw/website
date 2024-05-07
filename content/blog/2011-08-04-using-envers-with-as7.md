@@ -60,7 +60,7 @@ wp-syntax-cache-content:
     <div class="wp_syntax" style="position:relative;"><table><tr><td class="line_numbers"><pre>1
     </pre></td><td class="code"><pre class="xml" style="font-family:monospace;">Dependencies: org.hibernate.envers services</pre></td></tr></table><p class="theCode" style="display:none;">Dependencies: org.hibernate.envers services</p></div>
     ";}
-categories:
+tags:
   - envers
   - java
   - hibernate

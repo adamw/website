@@ -6,7 +6,7 @@ date: 2011-09-08T12:13:05+00:00
 url: /blog/2011/09/how-to-handle-inheritance-and-audited/
 dsq_thread_id:
   - 1051860488
-categories:
+tags:
   - envers
   - hibernate
   - java

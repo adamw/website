@@ -59,7 +59,7 @@ wp-syntax-cache-content:
     
     val server = RestServer.start(handler1 :: handler2 :: … :: Nil, 8888)</p></div>
     ";}
-categories:
+tags:
   - aws
   - cloud
   - messaging

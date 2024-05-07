@@ -8,7 +8,7 @@ simplecatch-sidebarlayout:
   - default
 dsq_thread_id:
   - 1433413451
-categories:
+tags:
   - akka
   - concurrency
   - distributed

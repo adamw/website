@@ -42,7 +42,7 @@ wp-syntax-cache-content:
         &lt;/listener&gt;
     &lt;/web-app&gt;</p></div>
     ";}
-categories:
+tags:
   - jee
   - dependency injection
   - java

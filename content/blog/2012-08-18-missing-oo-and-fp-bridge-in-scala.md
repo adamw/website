@@ -179,7 +179,7 @@ wp-syntax-cache-content:
     class Person2(name: String)(age: Int)
     val makeNewJack = new Person2(&quot;Jack&quot;) _ // type: Int =&gt; Person</p></div>
     ";}
-categories:
+tags:
   - functional programming
   - scala
   - clean code

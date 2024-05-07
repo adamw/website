@@ -6,7 +6,7 @@ date: 2011-04-18T06:46:23+00:00
 url: /blog/2011/04/envers-and-hibernate-4-0-0-alpha2-automatic-listener-registration/
 dsq_thread_id:
   - 1051040621
-categories:
+tags:
   - envers
   - java
   - hibernate

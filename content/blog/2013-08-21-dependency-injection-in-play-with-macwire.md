@@ -176,7 +176,7 @@ wp-syntax-cache-content:
           instanceLookup.lookupSingleOrThrow(controllerClass)
     }</p></div>
     ";}
-categories:
+tags:
   - dependency injection
   - macwire
   - scala

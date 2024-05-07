@@ -6,7 +6,7 @@ date: 2009-03-11T16:21:27+00:00
 url: /blog/2009/03/envers-120ga-in-maven-repository-jsr308-typestate-and-maven-plugin-in-git/
 dsq_thread_id:
   - 1094113071
-categories:
+tags:
   - envers
   - java
   - hibernate

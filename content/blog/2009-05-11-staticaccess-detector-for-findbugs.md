@@ -86,7 +86,7 @@ wp-syntax-cache-content:
         }
     }</p></div>
     ";}
-categories:
+tags:
   - java
   - static analysis
 

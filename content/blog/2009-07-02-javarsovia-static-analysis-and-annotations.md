@@ -6,7 +6,7 @@ date: 2009-07-02T19:15:32+00:00
 url: /blog/2009/07/javarsovia-static-analysis-and-annotations/
 dsq_thread_id:
   - 1058201905
-categories:
+tags:
   - java
   - static analysis
 

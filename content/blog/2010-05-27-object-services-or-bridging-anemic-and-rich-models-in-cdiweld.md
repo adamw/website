@@ -114,7 +114,7 @@ wp-syntax-cache-content:
        paint(new Elephant(), c);
     }</p></div>
     ";}
-categories:
+tags:
   - jee
   - java
 

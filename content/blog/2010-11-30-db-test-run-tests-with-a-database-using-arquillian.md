@@ -99,7 +99,7 @@ wp-syntax-cache-content:
     
         // methods</p></div>
     ";}
-categories:
+tags:
   - testing
   - jee
   - hibernate

@@ -206,7 +206,7 @@ wp-syntax-cache-content:
       return false;
     });</p></div>
     ";}
-categories:
+tags:
   - metaprogramming
   - scala
   - web

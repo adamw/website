@@ -264,7 +264,7 @@ epcl_post:
   - 'a:1:{s:13:"views_counter";i:1;}'
 views_counter:
   - 1
-categories:
+tags:
   - event sourcing
   - functional programming
   - scala

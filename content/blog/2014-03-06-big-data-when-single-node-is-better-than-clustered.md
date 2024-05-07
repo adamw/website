@@ -8,7 +8,7 @@ simplecatch-sidebarlayout:
   - default
 dsq_thread_id:
   - 2371987250
-categories:
+tags:
   - machine learning
   - distributed
 

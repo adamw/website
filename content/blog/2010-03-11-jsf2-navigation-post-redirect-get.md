@@ -357,7 +357,7 @@ wp-syntax-cache-content:
         // other getters ...
     }</p></div>
     ";}
-categories:
+tags:
   - jee
   - java
   - jsf

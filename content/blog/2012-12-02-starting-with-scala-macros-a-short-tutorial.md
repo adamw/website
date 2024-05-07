@@ -178,7 +178,7 @@ wp-syntax-cache-content:
     ";}
 dsq_needs_sync:
   - 1
-categories:
+tags:
   - metaprogramming
   - scala
 

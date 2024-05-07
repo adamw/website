@@ -18,7 +18,7 @@ wp-syntax-cache-content:
         .setRequiresLogin(true)
         .setSecurityEL(&quot;#{currentUser.isAdmin)&quot;).b();</p></div>
     ";}
-categories:
+tags:
   - jee
   - jsf
 

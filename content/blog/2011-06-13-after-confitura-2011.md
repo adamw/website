@@ -6,7 +6,7 @@ date: 2011-06-13T14:31:13+00:00
 url: /blog/2011/06/after-confitura-2011/
 dsq_thread_id:
   - 1057971689
-categories:
+tags:
   - testing
   - conferences
   - aws

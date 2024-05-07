@@ -251,7 +251,7 @@ wp-syntax-cache-content:
     <div class="wp_syntax" style="position:relative;"><table><tr><td class="line_numbers"><pre>1
     </pre></td><td class="code"><pre class="bash" style="font-family:monospace;"><span style="color: #c20cb9; font-weight: bold;">gcc</span> <span style="color: #660033;">-lcurl</span> piano.c <span style="color: #660033;">-o</span> piano</pre></td></tr></table><p class="theCode" style="display:none;">gcc -lcurl piano.c -o piano</p></div>
     ";}
-categories:
+tags:
   - softwaremill
   - something different
   - hardware

@@ -8,7 +8,7 @@ simplecatch-sidebarlayout:
   - default
 dsq_thread_id:
   - 2097486612
-categories:
+tags:
   - functional programming
   - something different
 

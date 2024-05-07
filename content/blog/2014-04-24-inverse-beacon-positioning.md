@@ -8,7 +8,7 @@ simplecatch-sidebarlayout:
   - default
 dsq_thread_id:
   - 2635499622
-categories:
+tags:
   - hardware
   - messaging
 

@@ -6,7 +6,7 @@ date: 2008-10-14T07:51:39+00:00
 url: /blog/2008/10/envers-on-jdd-08/
 dsq_thread_id:
   - 1051934670
-categories:
+tags:
   - envers
   - java
   - hibernate

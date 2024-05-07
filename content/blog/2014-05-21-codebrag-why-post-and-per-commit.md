@@ -8,7 +8,7 @@ simplecatch-sidebarlayout:
   - default
 dsq_thread_id:
   - 2701885824
-categories:
+tags:
   - code review
   - softwaremill
 

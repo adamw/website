@@ -219,7 +219,7 @@ epcl_post:
   - 'a:1:{s:13:"views_counter";i:2;}'
 views_counter:
   - 2
-categories:
+tags:
   - dependency injection
   - macwire
   - modularity

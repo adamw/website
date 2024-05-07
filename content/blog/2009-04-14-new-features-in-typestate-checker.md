@@ -72,7 +72,7 @@ wp-syntax-cache-content:
       return ret;
     }</p></div>
     ";}
-categories:
+tags:
   - java
   - static analysis
 

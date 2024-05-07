@@ -83,7 +83,7 @@ wp-syntax-cache-content:
        // only method1 and method3 are generated
     }</p></div>
     ";}
-categories:
+tags:
   - metaprogramming
   - annotations
   - scala

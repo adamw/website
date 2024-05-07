@@ -101,7 +101,7 @@ wp-syntax-cache-content:
       def destroy() {}
     }</p></div>
     ";}
-categories:
+tags:
   - dependency injection
   - metaprogramming
   - macwire

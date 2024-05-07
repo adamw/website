@@ -6,7 +6,7 @@ date: 2011-07-04T10:02:57+00:00
 url: /blog/2011/07/envers-track-entity-types-changed-in-revisions/
 dsq_thread_id:
   - 1055556994
-categories:
+tags:
   - envers
   - java
   - hibernate

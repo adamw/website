@@ -8,7 +8,7 @@ simplecatch-sidebarlayout:
   - default
 dsq_thread_id:
   - 3469482728
-categories:
+tags:
   - scala
   - web
 

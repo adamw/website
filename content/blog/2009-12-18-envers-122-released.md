@@ -6,7 +6,7 @@ date: 2009-12-18T12:17:59+00:00
 url: /blog/2009/12/envers-122-released/
 dsq_thread_id:
   - 1051935032
-categories:
+tags:
   - envers
   - java
   - hibernate

@@ -68,7 +68,7 @@ wp-syntax-cache-content:
       .verify(List(&quot;com.[company].[project]&quot;))
       .throwIfNotOk()</p></div>
     ";}
-categories:
+tags:
   - java
   - modularity
   - veripacks

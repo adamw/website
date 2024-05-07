@@ -30,7 +30,7 @@ wp-syntax-cache-content:
       end
     end</p></div>
     ";}
-categories:
+tags:
   - jee
   - dependency injection
   - java

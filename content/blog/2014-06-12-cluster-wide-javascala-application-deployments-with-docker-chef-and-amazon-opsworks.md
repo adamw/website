@@ -8,7 +8,7 @@ simplecatch-sidebarlayout:
   - default
 dsq_thread_id:
   - 2758162245
-categories:
+tags:
   - aws
   - cloud
   - distributed

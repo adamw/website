@@ -45,7 +45,7 @@ wp-syntax-cache-content:
        ProxyPass / http://[backend ip]:8080/
     &lt;/VirtualHost&gt;</p></div>
     ";}
-categories:
+tags:
   - distributed
   - java
   - testing

@@ -8,7 +8,7 @@ simplecatch-sidebarlayout:
   - default
 dsq_thread_id:
   - 2056905032
-categories:
+tags:
   - conferences
   - dependency injection
   - metaprogramming

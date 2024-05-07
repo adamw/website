@@ -53,7 +53,7 @@ wp-syntax-cache-content:
        .addOption(Bytes.QUERYOPTION_TAILABLE)
        .addOption(Bytes.QUERYOPTION_AWAITDATA);</p></div>
     ";}
-categories:
+tags:
   - distributed
   - event streaming
   - mongodb

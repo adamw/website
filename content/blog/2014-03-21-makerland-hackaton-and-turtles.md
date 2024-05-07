@@ -8,7 +8,7 @@ simplecatch-sidebarlayout:
   - default
 dsq_thread_id:
   - 2477146077
-categories:
+tags:
   - something different
   - hardware
   - conferences

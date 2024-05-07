@@ -207,7 +207,7 @@ wp-syntax-cache-content:
         &lt;/plugins&gt;
     &lt;/build&gt;</p></div>
     ";}
-categories:
+tags:
   - java
   - static analysis
 

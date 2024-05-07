@@ -8,7 +8,7 @@ simplecatch-sidebarlayout:
   - default
 dsq_thread_id:
   - 1051934657
-categories:
+tags:
   - java
   - jboss
 

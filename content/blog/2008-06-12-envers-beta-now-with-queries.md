@@ -6,7 +6,7 @@ date: 2008-06-12T11:03:37+00:00
 url: /blog/2008/06/envers-beta-now-with-queries/
 dsq_thread_id:
   - 1070465743
-categories:
+tags:
   - envers
   - java
   - hibernate

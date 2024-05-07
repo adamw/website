@@ -110,7 +110,7 @@ wp-syntax-cache-content:
     // &quot;maxConnections&quot; constructor argument, this value is used.
     val maxConnections = conf(10)</p></div>
     ";}
-categories:
+tags:
   - dependency injection
   - metaprogramming
   - macwire

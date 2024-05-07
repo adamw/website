@@ -41,7 +41,7 @@ wp-syntax-cache-content:
        // ...
     }</p></div>
     ";}
-categories:
+tags:
   - akka
   - event sourcing
   - scala

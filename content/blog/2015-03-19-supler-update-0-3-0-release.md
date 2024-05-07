@@ -74,7 +74,7 @@ wp-syntax-cache-content:
       f.field(_.address1).label(&quot;Address 1&quot;) || f.field(_.address2).label(&quot;Address 2&quot;)
     )</p></div>
     ";}
-categories:
+tags:
   - scala
   - web
 

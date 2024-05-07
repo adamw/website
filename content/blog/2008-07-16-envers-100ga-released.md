@@ -6,7 +6,7 @@ date: 2008-07-16T10:51:30+00:00
 url: /blog/2008/07/envers-100ga-released/
 dsq_thread_id:
   - 1051934516
-categories:
+tags:
   - envers
   - java
   - hibernate

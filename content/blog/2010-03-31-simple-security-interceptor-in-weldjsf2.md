@@ -222,7 +222,7 @@ wp-syntax-cache-content:
        &lt;class&gt;util.security.SecurityInterceptor&lt;/class&gt;
     &lt;/interceptors&gt;</p></div>
     ";}
-categories:
+tags:
   - jee
   - java
   - jsf

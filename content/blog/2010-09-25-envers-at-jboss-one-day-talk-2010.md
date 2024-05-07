@@ -6,7 +6,7 @@ date: 2010-09-25T08:44:44+00:00
 url: /blog/2010/09/envers-at-jboss-one-day-talk-2010/
 dsq_thread_id:
   - 1203880310
-categories:
+tags:
   - envers
   - java
   - hibernate

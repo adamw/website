@@ -6,7 +6,7 @@ date: 2008-12-04T18:29:22+00:00
 url: /blog/2008/12/envers-in-anvers/
 dsq_thread_id:
   - 1051934851
-categories:
+tags:
   - conference
   - envers
   - java

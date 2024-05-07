@@ -18,7 +18,7 @@ wp-syntax-cache-content:
        org.hibernate.envers.strategy.ValidTimeAuditStrategy
     &lt;/property&gt;</p></div>
     ";}
-categories:
+tags:
   - envers
   - java
   - hibernate

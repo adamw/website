@@ -45,7 +45,7 @@ wp-syntax-cache-content:
       override val moduleLibraries = List(FooLibs.JPA) 
     }</p></div>
     ";}
-categories:
+tags:
   - java
   - architecture
   - scala

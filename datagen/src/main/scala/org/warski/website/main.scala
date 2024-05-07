@@ -254,7 +254,7 @@ def readBlog2(url: String): BlogPost =
   def lookInFile(f: File): Option[List[String]] =
     var ls = Source.fromFile(f).getLines().toList
     if ls.exists(l => l.contains(title)) then
-      ls = ls.dropWhile(l => !l.startsWith("categories:")).drop(1)
+      ls = ls.dropWhile(l => !l.startsWith("tags:")).drop(1)
       ls = ls.takeWhile(l => l.trim.nonEmpty && !l.startsWith("---"))
       Some(ls.map(_.trim.drop(2)))
     else None
@@ -302,7 +302,7 @@ def readBlog2(url: String): BlogPost =
     val ls2 = for l <- ls yield
       println(l)
       if l.startsWith("---") then breakCount += 1
-      if l.startsWith("categories:") then inCategories = true
+      if l.startsWith("tags:") then inCategories = true
       if breakCount >= 2 then Some(l)
       else if inCategories then if l == "  - Uncategorized" then None else Some(l.toLowerCase)
       else Some(l)

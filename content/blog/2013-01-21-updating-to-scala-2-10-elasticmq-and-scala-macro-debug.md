@@ -18,7 +18,7 @@ wp-syntax-cache-content:
     
     libraryDependencies += &quot;com.softwaremill.scalamacrodebug&quot; %% &quot;macros&quot; % &quot;0.0.1-SNAPSHOT&quot;</p></div>
     ";}
-categories:
+tags:
   - elasticmq
   - metaprogramming
   - scala
