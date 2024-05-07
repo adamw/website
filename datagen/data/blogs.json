@@ -2075,5 +2075,1789 @@
       "projects"
     ],
     "description": "SoftwareMill got references for the development of the project Attikis – home monitoring service integrated with home alarm systems, based on VoIP technology. Let the letter speak for itself: ."
+  },
+  {
+    "id": "b69aa2fc-ba00-4bb5-9ed1-1a003877183f",
+    "title": "Why I started learning Emacs in 2016",
+    "url": "https://www.warski.org/blog/2016/08/why-i-started-learning-emacs-in-2016/",
+    "when": "2016-08-25T12:22:44Z",
+    "tags": [
+      "something different"
+    ],
+    "description": "Why learn another editor in the first place? The main role of a good editor is to not get into your way while working, and maybe even help a bit from time to time. If you are a programmer, chances …"
+  },
+  {
+    "id": "de5da763-b768-404d-8097-f9aa1cbb0151",
+    "title": "Add a “dependencies” badge & tree to your project using UpdateImpact",
+    "url": "https://www.warski.org/blog/2016/02/add-a-dependencies-badge-tree-to-your-project-using-updateimpact/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2016/02/badge-300x153.png",
+    "when": "2016-02-24T16:22:28Z",
+    "tags": [
+      "softwaremill"
+    ],
+    "description": "Most Java/Scala/Groovy project depend on a number of libraries, these libraries depend on other libraries, and so on for many levels deep. When creating the final project bundle we end up with a la…"
+  },
+  {
+    "id": "0ddaddb3-2303-4954-acf3-90fad17bd5c9",
+    "title": "Event sourcing + free monads = free sourcing?",
+    "url": "https://www.warski.org/blog/2015/10/event-sourcing-free-monads-free-sourcing/",
+    "when": "2015-10-28T16:48:54Z",
+    "tags": [
+      "event sourcing",
+      "functional programming",
+      "scala",
+      "architecture"
+    ],
+    "description": "I recently wrote about Event Sourcing and Free Monads. The natural next step is combining the two! How would a free monad adjusted for event sourcing look like? Please bear in mind that the below i…"
+  },
+  {
+    "id": "89a2f820-870b-4793-9c5b-82c653beea72",
+    "title": "MacWire 2.0: composing modules & cleanup",
+    "url": "https://www.warski.org/blog/2015/09/macwire-2-0-composing-modules-cleanup/",
+    "when": "2015-09-30T07:49:01Z",
+    "tags": [
+      "dependency injection",
+      "metaprogramming",
+      "macwire",
+      "scala"
+    ],
+    "description": "Recently we released MacWire 2.0, with a number of new features and general code cleanup. The majority of the work was done by Bruno Bieth – thanks! If you don’t know what MacWire is: a light…"
+  },
+  {
+    "id": "b69833a4-a09a-4390-b7af-570f8a8b5498",
+    "title": "When & why to use Supler for web forms?",
+    "url": "https://www.warski.org/blog/2015/06/when-why-to-use-supler-for-web-forms/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2015/06/2015-06-30_1603-300x106.png",
+    "when": "2015-06-30T14:07:03Z",
+    "tags": [
+      "web",
+      "scala"
+    ],
+    "description": "If you haven’t yet heard about Supler, it’s a Rapid Form Development library, working with your favorite Javascript frontend and Scala backend frameworks. It keeps the form definition centralized, …"
+  },
+  {
+    "id": "fc655e7a-2343-4be6-8ade-f11d3db5e64c",
+    "title": "MacWire 1.0 is here!",
+    "url": "https://www.warski.org/blog/2015/04/macwire-1-0-is-here/",
+    "when": "2015-04-07T13:20:30Z",
+    "tags": [
+      "akka",
+      "dependency injection",
+      "metaprogramming",
+      "macwire",
+      "scala"
+    ],
+    "description": "A couple of days ago MacWire 1.0 was released! If you don’t yet know what MacWire is: a light-weight and non-intrusive Scala Dependency Injection library. In fact, it’s more of an appro…"
+  },
+  {
+    "id": "773562b8-664f-4060-83ca-586c4a88b5c3",
+    "title": "Supler update: 0.3.0 release",
+    "url": "https://www.warski.org/blog/2015/03/supler-update-0-3-0-release/",
+    "when": "2015-03-19T12:21:50Z",
+    "tags": [
+      "scala",
+      "web"
+    ],
+    "description": "It’s been some time since the last release of Supler. Just as a short reminder: Supler is a Rapid Form Development library, allowing you to use your favorite Javascript frontend, and Scala backend …"
+  },
+  {
+    "id": "1c4417ae-fccb-476a-8028-cd23e88875d1",
+    "title": "Quicklens: traversing options and lists",
+    "url": "https://www.warski.org/blog/2015/03/quicklens-traversing-options-and-lists/",
+    "when": "2015-03-14T16:52:37Z",
+    "tags": [
+      "functional programming",
+      "metaprogramming",
+      "scala"
+    ],
+    "description": "Quicklens is a small library which allows to modify deeply nested fields in case classes e.g.: modify(person)(_.address.street.name).using(_.toUpperCase), without the need to create dedicated lens …"
+  },
+  {
+    "id": "a819bab2-f297-4021-b73b-6debf9a97886",
+    "title": "Quicklens: modify deeply nested case class fields",
+    "url": "https://www.warski.org/blog/2015/02/quicklens-modify-deeply-nested-case-class-fields/",
+    "when": "2015-02-28T19:51:46Z",
+    "tags": [
+      "functional programming",
+      "metaprogramming",
+      "scala"
+    ],
+    "description": "TL;DR: Quicklens: modify deeply nested fields in case classes, e.g.: modify(person)(_.address.street.name).using(_.toUpperCase). Similar to lenses, but without the actual lens creation. Lenses are …"
+  },
+  {
+    "id": "683f7cab-e344-4a22-81fc-4da89098a50a",
+    "title": "In today’s post-OO world, is dependency injection still relevant?",
+    "url": "https://www.warski.org/blog/2015/02/in-todays-post-oo-world-is-dependency-injection-still-relevant/",
+    "when": "2015-02-23T11:54:13Z",
+    "tags": [
+      "dependency injection",
+      "clean code",
+      "different",
+      "functional programming",
+      "macwire",
+      "scala"
+    ],
+    "description": "It’s 2015. Most of the new popular languages are more or less functional. The old ones, like Java, gain functional programming elements. In Scala, people are increasingly leaning towards the pure s…"
+  },
+  {
+    "id": "158ff387-a200-4a4f-9702-fbf7938e25dd",
+    "title": "Supler 0.2.0: docs and features added, bugs removed",
+    "url": "https://www.warski.org/blog/2015/01/supler-0-2-0-docs-and-features-added-bugs-removed/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2015/01/Screen-Shot-2015-01-30-at-13.24.39-300x100.png",
+    "when": "2015-01-30T12:55:44Z",
+    "tags": [
+      "scala",
+      "web"
+    ],
+    "description": "Supler is a library which makes writing complex forms easier. It has a server-side (Scala) and a client-side (JavaScript) component. In December we announced the 0.1.0 release, so it’s about time f…"
+  },
+  {
+    "id": "828e003a-2fce-4d45-9461-c664a3c6534f",
+    "title": "MacWire 0.8.0: towards 1.0, tagging, anonymous functions support",
+    "url": "https://www.warski.org/blog/2015/01/macwire-0-8-0-towards-1-0-tagging-anonymous-functions-support/",
+    "when": "2015-01-20T15:14:52Z",
+    "tags": [
+      "dependency injection",
+      "macwire",
+      "scala"
+    ],
+    "description": "A couple of days ago MacWire 0.8.0 got released. It contains a couple of changes and new features. But first, I’d like to thank Marcin Kubala for his contributions. All of the changes are reflected…"
+  },
+  {
+    "id": "61c233eb-3899-49df-8d9d-0968f64ca7a7",
+    "title": "Clustering reactmq with akka-cluster",
+    "url": "https://www.warski.org/blog/2014/11/clustering-reactmq-with-akka-cluster/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2014/11/reactmq-cluster1-1024x1024.png",
+    "when": "2014-11-04T13:05:42Z",
+    "tags": [
+      "akka",
+      "distributed",
+      "scala",
+      "messaging"
+    ],
+    "description": "In the last two posts on reactmq, I described how to write a reactive, persistent message queue. The queue has the following characteristics: there is a single broker storing the messages, with pot…"
+  },
+  {
+    "id": "4c017a34-49b7-46dd-a733-0cbd792ae2ea",
+    "title": "Supler 0.1.0: complex forms made easier",
+    "url": "https://www.warski.org/blog/2014/12/supler-0-1-0-complex-forms-made-easier/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2014/12/supler-diagram-1024x952.png",
+    "when": "2014-12-16T13:05:35Z",
+    "tags": [
+      "scala",
+      "web"
+    ],
+    "description": "Supler aims to make complex web forms development easier, without tying you to a web framework. Supler provides a server-side DSL for defining forms, generating a JSON form representation, applying…"
+  },
+  {
+    "id": "c98a1dc1-7d95-4d56-8348-39e3cee46bef",
+    "title": "MacWire 0.7: dynamically accessing the object graph",
+    "url": "https://www.warski.org/blog/2014/07/macwire-0-7-dynamically-accessing-the-object-graph/",
+    "when": "2014-07-22T11:24:42Z",
+    "tags": [
+      "dependency injection",
+      "macwire",
+      "modularity",
+      "scala"
+    ],
+    "description": "MacWire is a Lightweight and Nonintrusive Scala Dependency Injection library. While it would be great to be able to define in a type-safe way the whole object graph for an application upfront, ther…"
+  },
+  {
+    "id": "365d3e80-a186-40b3-b1d6-9f09f0064351",
+    "title": "Introducing Supler: a Functional Reactive Form Library",
+    "url": "https://www.warski.org/blog/2014/09/introducing-supler-a-functional-reactive-form-library/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2014/09/Screen-Shot-2014-09-17-at-11.51.00-300x210.png",
+    "when": "2014-09-17T18:58:28Z",
+    "tags": [
+      "metaprogramming",
+      "scala",
+      "web"
+    ],
+    "description": "Let’s face it. Creating websites with complex forms is a pain. Writing the HTML in the frontend, the supporting javascript, defining mappings in the backed, server-side validation, and &#8211…"
+  },
+  {
+    "id": "0773ab1b-32e0-4100-9ac7-4e7e007f3216",
+    "title": "Evaluating persistent, replicated message queues (updated w/ Kafka)",
+    "url": "https://www.warski.org/blog/2014/07/evaluating-persistent-replicated-message-queues/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2014/07/mqperf_logos-300x181.jpg",
+    "when": "2014-07-01T12:08:01Z",
+    "tags": [
+      "aws",
+      "cloud",
+      "distributed",
+      "messaging",
+      "performance",
+      "testing"
+    ],
+    "description": "An updated and extended version of this post is available on SoftwareMill’s website. Below you can find the original content containing benchmarks from 2014. Update 17/07/2014: added Kafka be…"
+  },
+  {
+    "id": "449c41e5-f830-494e-9b6c-b6832067996d",
+    "title": "Making the Reactive Queue durable with Akka Persistence",
+    "url": "https://www.warski.org/blog/2014/07/making-the-reactive-queue-durable-with-akka-persistence/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2014/06/reactmq-actors1-248x300.png",
+    "when": "2014-07-03T12:17:32Z",
+    "tags": [
+      "akka",
+      "event sourcing",
+      "scala",
+      "distributed"
+    ],
+    "description": "Some time ago I wrote how to implement a reactive message queue with Akka Streams. The queue supports streaming send and receive operations with back-pressure, but has one downside: all messages ar…"
+  },
+  {
+    "id": "f2ba06c1-ee4f-4305-9c57-eac7f0a8fc0b",
+    "title": "Benchmarking SQS",
+    "url": "https://www.warski.org/blog/2014/06/benchmarking-sqs/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2014/06/sqsperf-logo-300x251.png",
+    "when": "2014-06-24T12:05:33Z",
+    "tags": [
+      "aws",
+      "cloud",
+      "messaging",
+      "distributed",
+      "testing",
+      "performance"
+    ],
+    "description": "SQS, Simple Message Queue, is a message-queue-as-a-service offering from Amazon Web Services. It supports only a handful of messaging operations, far from the complexity of e.g. AMQP, but thanks to…"
+  },
+  {
+    "id": "4a561a75-7285-40ec-a1c5-1ece36ef7c04",
+    "title": "Cluster-wide Java/Scala application deployments with Docker, Chef and Amazon OpsWorks",
+    "url": "https://www.warski.org/blog/2014/06/cluster-wide-javascala-application-deployments-with-docker-chef-and-amazon-opsworks/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2014/06/MQPerf-deployment-blog-logos-1-300x216.png",
+    "when": "2014-06-12T11:50:45Z",
+    "tags": [
+      "aws",
+      "cloud",
+      "distributed"
+    ],
+    "description": "Docker is great for running isolated containers on a single node. However, most software systems run on multiple nodes, so in addition to Docker, we need some way of specifying which containers sho…"
+  },
+  {
+    "id": "136d6ae4-ed79-40b2-8892-1a9caaa547d0",
+    "title": "Reactive Queue with Akka Reactive Streams",
+    "url": "https://www.warski.org/blog/2014/06/reactive-queue-with-akka-reactive-streams/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2014/06/iStock_000040449260Large-300x198.jpg",
+    "when": "2014-06-10T12:32:54Z",
+    "tags": [
+      "akka",
+      "concurrency",
+      "scala"
+    ],
+    "description": "Update 15/09/2014: introduced API changes from akka-streams 0.7.Update 30/10/2014: introduced API changes from akka-streams 0.9.Update 15/12/2014: introduced API changes from akka-streams 1.0-M1. R…"
+  },
+  {
+    "id": "88081b4d-6978-45e4-8768-6b339d63d612",
+    "title": "Codebrag: why post- and per- commit?",
+    "url": "https://www.warski.org/blog/2014/05/codebrag-why-post-and-per-commit/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2013/10/tumblr_inline_ms8jgiLXp01qz4rgp.jpg",
+    "when": "2014-05-21T10:56:59Z",
+    "tags": [
+      "code review",
+      "softwaremill"
+    ],
+    "description": "We have recently released version 2.0 of Codebrag, our code-review tool. Why a new code-review tool in the first place? We are certainly not the first in the market. When working on projects, we pr…"
+  },
+  {
+    "id": "2a74009d-c3e9-4c58-afac-d783f759a136",
+    "title": "Functional Discrete Optimization @ Coursera with Scala",
+    "url": "https://www.warski.org/blog/2014/05/functional-discrete-optimization-coursera-with-scala/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2014/05/DiscreetOptimisation_logo.png",
+    "when": "2014-05-13T10:43:21Z",
+    "tags": [
+      "something different",
+      "functional programming",
+      "scala"
+    ],
+    "description": "Recently I took part in the Discrete Optimization class at Coursera. I must say that it was the best MOOC I have attended so far, because of two factors. First of all, there was a lot of coding, an…"
+  },
+  {
+    "id": "c74fed83-9769-4780-bbb6-06f049036e36",
+    "title": "Spray server in a Docker container",
+    "url": "https://www.warski.org/blog/2014/05/spray-server-docker-container/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2014/05/Docker-+-spray1-300x117.jpg",
+    "when": "2014-05-06T11:47:38Z",
+    "tags": [
+      "http",
+      "cloud",
+      "docker",
+      "scala"
+    ],
+    "description": "Docker is a pretty new, but very exciting project; with Docker you can create lightweight, self-sufficient containers with any application inside, and later run the containers on a variety of hosts…"
+  },
+  {
+    "id": "0a1bf9a1-4687-496b-a83c-98c532879373",
+    "title": "Inverse beacon positioning",
+    "url": "https://www.warski.org/blog/2014/04/inverse-beacon-positioning/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2014/04/photo-300x225.jpg",
+    "when": "2014-04-24T12:15:39Z",
+    "tags": [
+      "hardware",
+      "messaging"
+    ],
+    "description": "Indoor positioning is a very popular topic recently, mostly due to the iBeacon technology promoted by Apple, and adopted by other vendors. Most of the research on indoor location involves a set of …"
+  },
+  {
+    "id": "af0da784-aefc-4806-9fd5-990e4e221395",
+    "title": "Makerland, hackaton and turtles",
+    "url": "https://www.warski.org/blog/2014/03/makerland-hackaton-and-turtles/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2014/03/IMG_3505-300x225.jpg",
+    "when": "2014-03-21T14:35:49Z",
+    "tags": [
+      "something different",
+      "hardware",
+      "conferences"
+    ],
+    "description": "The first Makerland is over – if you read only the first sentence of this blog, the conference was great, watch out for the second edition (hopefully there will be one)! What is Makerland? A …"
+  },
+  {
+    "id": "bc142e70-1601-4d4e-870b-8b2b7dca695e",
+    "title": "Big data: when single node is better than clustered",
+    "url": "https://www.warski.org/blog/2014/03/big-data-when-single-node-is-better-than-clustered/",
+    "when": "2014-03-06T13:22:44Z",
+    "tags": [
+      "machine learning",
+      "distributed"
+    ],
+    "description": "There’s a lot of hype about “big data” and a general trend to try to apply Hadoop to almost every problem. However, sometimes it turns out that you can get much better results by writing an old-fas…"
+  },
+  {
+    "id": "0f4a997a-f192-4946-a1a1-51f374ec249f",
+    "title": "Using Scala traits as modules, or the “Thin Cake” Pattern",
+    "url": "https://www.warski.org/blog/2014/02/using-scala-traits-as-modules-or-the-thin-cake-pattern/",
+    "when": "2014-02-25T13:07:28Z",
+    "tags": [
+      "dependency injection",
+      "macwire",
+      "modularity",
+      "scala"
+    ],
+    "description": "I would like to describe a pure-Scala approach to modularity that we are successfully using in a couple of our Scala projects. But let’s start with how we do Dependency Injection (see also my other…"
+  },
+  {
+    "id": "c2364092-d3c6-47dd-b51e-34a909c40ee6",
+    "title": "Using JavaCV with Scala and SBT",
+    "url": "https://www.warski.org/blog/2014/01/using-javacv-with-sbt/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2014/01/2014-01-24_1556-298x300.png",
+    "when": "2014-01-24T15:40:40Z",
+    "tags": [
+      "machine learning",
+      "scala"
+    ],
+    "description": "Recently I’ve been doing some simple face detection in a Scala-based project. The “industry standard” for such kind of tasks is OpenCV; face detection is one of its basic use-case…"
+  },
+  {
+    "id": "b9d58fe7-42ed-4bbc-89ac-297ac40ba428",
+    "title": "How do iBeacons work?",
+    "url": "https://www.warski.org/blog/2014/01/how-ibeacons-work/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2014/01/iStock_000019319211Large-300x187.jpg",
+    "when": "2014-01-13T20:34:29Z",
+    "tags": [
+      "something different",
+      "hardware"
+    ],
+    "description": "iBeacons are certainly a trending topic recently. They allow indoor positioning, letting your phone know that you are in range of a beacon. This can have many applications: from helping you to find…"
+  },
+  {
+    "id": "011dac8a-db74-4972-a2dd-54c33e118eb2",
+    "title": "BuildStuff 2013 is over – looking forward to ’14!",
+    "url": "https://www.warski.org/blog/2013/12/buildstuff-2013-is-over-looking-forward-to-14/",
+    "when": "2013-12-17T19:37:27Z",
+    "tags": [
+      "conferences",
+      "dependency injection",
+      "metaprogramming",
+      "macwire",
+      "scala"
+    ],
+    "description": "I just came back from the BuildStuff conference in Vilnius, Lithuania (actually this was almost a week ago, but I was writing that back at the airport ;) ). Although it’s not so well known, and it’…"
+  },
+  {
+    "id": "02b15d20-cb4d-4d48-8c30-6a47d5725504",
+    "title": "Traffic simulation game in Elm",
+    "url": "https://www.warski.org/blog/2014/01/traffic-simulation-game-in-elm/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2014/01/2014-01-05_1207-300x149.png",
+    "when": "2014-01-07T12:08:10Z",
+    "tags": [
+      "functional programming",
+      "something different"
+    ],
+    "description": "A couple of weeks ago I read about Elm, a new functional language, which compiles to JavaScript and HTML. Elm is designed with the browser in mind, most notably by implementing Functional Reactive …"
+  },
+  {
+    "id": "70f6b7bc-0a4f-4060-b9ae-7051a024787d",
+    "title": "Using Amazon’s Elastic Map Reduce to compute recommendations with Apache Mahout 0.8",
+    "url": "https://www.warski.org/blog/2013/10/using-amazons-elastic-map-reduce-to-compute-recommendations-with-apache-mahout-0-8/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2013/10/2013-10-15_1230-300x196.png",
+    "when": "2013-10-15T11:35:18Z",
+    "tags": [
+      "cloud",
+      "aws",
+      "distributed",
+      "machine learning"
+    ],
+    "description": "Apache Mahout is a “scalable machine learning library” which, among others, contains implementations of various single-node and distributed recommendation algorithms. In my last blog po…"
+  },
+  {
+    "id": "56b943c5-eb5d-4725-bd66-7f1b6deabfd7",
+    "title": "Creating an on-line recommender system with Apache Mahout",
+    "url": "https://www.warski.org/blog/2013/10/creating-an-on-line-recommender-system-with-apache-mahout/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2013/10/screen568x568-169x300.jpeg",
+    "when": "2013-10-08T14:54:51Z",
+    "tags": [
+      "machine learning",
+      "softwaremill"
+    ],
+    "description": "Recently we’ve been implementing a recommender system for Yap.TV: you can see it in action after installing the app and going to the “Just for you” tab. We’re using Apache M…"
+  },
+  {
+    "id": "9eddebda-87d6-49a7-b3ff-1c893283ab64",
+    "title": "Java Zone 2013 trip report",
+    "url": "https://www.warski.org/blog/2013/09/java-zone-2013-trip-report/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2013/09/IMG_2859-150x150.jpg",
+    "when": "2013-09-22T11:26:46Z",
+    "tags": [
+      "conferences",
+      "metaprogramming",
+      "scala"
+    ],
+    "description": "This year I had the chance to attend JavaZone 2013. So far I mainly knew JavaZone from their conference trailers (e.g. Javapocalypse or Java 4-ever). But now as my talk got accepted to the conferen…"
+  },
+  {
+    "id": "17ea3090-1ab5-4337-9f11-db7716314323",
+    "title": "MacWire 0.5: Interceptors",
+    "url": "https://www.warski.org/blog/2013/10/macwire-0-5-interceptors/",
+    "when": "2013-10-01T13:14:19Z",
+    "tags": [
+      "dependency injection",
+      "macwire",
+      "modularity",
+      "scala"
+    ],
+    "description": "Interceptors are very useful for implementing cross-cutting concerns. Classic use-cases include security, logging or transaction support. Since version 0.5, MacWire contains an implementation of in…"
+  },
+  {
+    "id": "99cc8a40-a329-4462-bfcd-edf0ecf51707",
+    "title": "Automatic generation of delegate methods with Macro Annotations",
+    "url": "https://www.warski.org/blog/2013/09/automatic-generation-of-delegate-methods-with-macro-annotations/",
+    "when": "2013-09-07T12:03:37Z",
+    "tags": [
+      "metaprogramming",
+      "annotations",
+      "scala"
+    ],
+    "description": "Macro Annotations are a new type of macros, which are one of the candidates for inclusion (see also comment by Eugene below) in the upcoming Scala 2.11 release. However, thanks to the recently rele…"
+  },
+  {
+    "id": "c52845ac-a1f9-46a4-ad41-aac8c55bca4b",
+    "title": "Dependency Injection in Play! with MacWire",
+    "url": "https://www.warski.org/blog/2013/08/dependency-injection-in-play-with-macwire/",
+    "when": "2013-08-21T17:05:37Z",
+    "tags": [
+      "dependency injection",
+      "macwire",
+      "scala"
+    ],
+    "description": "The most recent release of MacWire (0.4) (a Scala macro to generate wiring code for class instantiation, DI container replacement) comes with new utilities which make it easier to integrate with fr…"
+  },
+  {
+    "id": "f5d855fa-47b9-455e-922b-f84c99bf6d9a",
+    "title": "Verifying usage of 3rd party libraries using Veripacks",
+    "url": "https://www.warski.org/blog/2013/08/verifying-usage-of-3rd-party-libraries-using-veripacks/",
+    "when": "2013-08-05T18:16:38Z",
+    "tags": [
+      "java",
+      "modularity",
+      "veripacks"
+    ],
+    "description": "Veripacks already allows to specify and verify which classes should be visible outside of a package (in a package-transitive way) as well as require importing and import packages within a project. …"
+  },
+  {
+    "id": "54a7ba66-226a-4210-ab4c-7f747c643654",
+    "title": "Akka vs Storm",
+    "url": "https://www.warski.org/blog/2013/06/akka-vs-storm/",
+    "when": "2013-06-25T10:57:46Z",
+    "tags": [
+      "akka",
+      "concurrency",
+      "distributed",
+      "architecture"
+    ],
+    "description": "I was recently working a bit with Twitter’s Storm, and it got me wondering, how does it compare to another high-performance, concurrent-data-processing framework, Akka. What’s Akka and …"
+  },
+  {
+    "id": "cd1ea7fc-65bf-4d46-9197-448f354da17e",
+    "title": "ElasticMQ 0.7.0: long polling, non-blocking implementation using Akka and Spray",
+    "url": "https://www.warski.org/blog/2013/06/elasticmq-0-7-0-long-polling-non-blocking-implementation-using-akka-and-spray/",
+    "when": "2013-06-06T09:02:03Z",
+    "tags": [
+      "cloud",
+      "aws",
+      "elasticmq",
+      "messaging"
+    ],
+    "description": "ElasticMQ 0.7.0, a message queueing system with an actor-based Scala and Amazon SQS-compatible interfaces, was just released. It is a major rewrite, using Akka actors at the core and Spray for the …"
+  },
+  {
+    "id": "4bb99ccc-c9d7-4220-a75c-0405c82e2105",
+    "title": "Implementing factories in Scala & MacWire 0.3",
+    "url": "https://www.warski.org/blog/2013/06/implementing-factories-in-scala-macwire-0-3/",
+    "when": "2013-06-18T10:47:38Z",
+    "tags": [
+      "dependency injection",
+      "macwire",
+      "scala"
+    ],
+    "description": "Factories are useful when we need to create multiple instances of a class at run-time, usually providing some parameters, but still without using new explicitly; we want to make some complex object…"
+  },
+  {
+    "id": "7bcd814a-21b8-41a0-9b24-b472a4209679",
+    "title": "MacWire 0.2: Scopes are simple!",
+    "url": "https://www.warski.org/blog/2013/04/macwire-0-2-scopes-are-simple/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2013/04/2013-04-25_1649-300x105.png",
+    "when": "2013-04-25T18:14:51Z",
+    "tags": [
+      "dependency injection",
+      "metaprogramming",
+      "macwire",
+      "scala"
+    ],
+    "description": "MacWire generates new instance creation code of given classes, using values in the enclosing type for constructor parameters, with the help of Scala Macros. DI container replacement. Version 0.2 ha…"
+  },
+  {
+    "id": "8a258d15-8f01-4f4d-81a8-9179bb710582",
+    "title": "Typed ask for Akka",
+    "url": "https://www.warski.org/blog/2013/05/typed-ask-for-akka/",
+    "when": "2013-05-21T09:42:25Z",
+    "tags": [
+      "cloud",
+      "aws",
+      "elasticmq",
+      "messaging"
+    ],
+    "description": "Akka is a great tool for writing distributed applications. One thing that always surprised me though is that while being based on Scala, which is a very type-safe language, the elementary construct…"
+  },
+  {
+    "id": "102ac678-1ad4-4851-952f-d1bad70e4897",
+    "title": "Per-commit e-mail GitHub notifications",
+    "url": "https://www.warski.org/blog/2013/04/per-commit-e-mail-github-notifications/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2013/03/2013-03-19_1616-300x109.png",
+    "when": "2013-04-16T14:34:59Z",
+    "tags": [
+      "code review",
+      "softwaremill"
+    ],
+    "description": "One thing that I miss in GitHub is the ability to get e-mail notifications on each push/commit. There is an option to set an e-mail notification address in the repository settings, but you can only…"
+  },
+  {
+    "id": "0e356b6c-d47b-466d-a550-f61e02af605e",
+    "title": "MacWire 0.1: Framework-less Dependency Injection with Scala Macros",
+    "url": "https://www.warski.org/blog/2013/04/macwire-0-1-framework-less-dependency-injection-with-scala-macros/",
+    "when": "2013-04-04T11:07:53Z",
+    "tags": [
+      "dependency injection",
+      "macwire",
+      "scala"
+    ],
+    "description": "Using Dependency Injection is almost a standard when developing software. However, in many cases it may seem that using the pattern implicates using a DI container/framework. But is a framework rea…"
+  },
+  {
+    "id": "22c24aa3-ffb4-4007-ad50-bf88ba4e7e2f",
+    "title": "How to replace a build module with Veripacks",
+    "url": "https://www.warski.org/blog/2013/03/how-to-replace-a-build-module-with-veripacks/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2013/03/2013-03-20_1910-300x297.png",
+    "when": "2013-03-26T21:05:34Z",
+    "tags": [
+      "java",
+      "modularity",
+      "veripacks"
+    ],
+    "description": "Compare the two trees below. In both cases the goal is to have an application with two independent modules (frontend and reporting), and one shared/common module (domain). The code in frontend shou…"
+  },
+  {
+    "id": "3f450b2f-1fbd-4e6d-bbde-0b0e943d8571",
+    "title": "Dependency injection with Scala macros: auto-wiring",
+    "url": "https://www.warski.org/blog/2013/03/dependency-injection-with-scala-macros-auto-wiring/",
+    "when": "2013-03-14T21:33:04Z",
+    "tags": [
+      "dependency injection",
+      "macwire",
+      "scala"
+    ],
+    "description": "You can look at dependency injection as a fancy name for passing parameters to a function (or constructor arguments to a constructor). However usually, DI containers do much more than that. Among o…"
+  },
+  {
+    "id": "015488b9-61c0-4f28-bca1-6917aa0aa384",
+    "title": "Veripacks 0.3: importing packages (transitively, of course)",
+    "url": "https://www.warski.org/blog/2013/03/veripacks-0-3-importing-packages-transitively-of-course/",
+    "when": "2013-03-12T19:33:36Z",
+    "tags": [
+      "java",
+      "testing",
+      "modularity",
+      "veripacks"
+    ],
+    "description": "Previous versions of Veripacks focused on defining what classes are visible outside of a package hierarchy (exporting). This release focuses on defining what classes can be used inside a package hi…"
+  },
+  {
+    "id": "a7bbccd7-0953-47bf-86f1-c3221c09e273",
+    "title": "xsbt-proguard-plugin – taking over, new release",
+    "url": "https://www.warski.org/blog/2013/02/xsbt-proguard-plugin-taking-over-new-release/",
+    "when": "2013-02-19T14:20:56Z",
+    "tags": [
+      "scala"
+    ],
+    "description": "I recently took over the maintenance of xsbt-proguard-plugin from siasia. The plugin lets you create single “fat” jars from your project, using the Proguard library. Some of the most im…"
+  },
+  {
+    "id": "151b53c9-00e0-4f8b-9542-ff820a857086",
+    "title": "Dry parameter names",
+    "url": "https://www.warski.org/blog/2013/01/dry-parameter-names/",
+    "when": "2013-01-26T18:56:34Z",
+    "tags": [
+      "clean code"
+    ],
+    "description": "How often do you see code like this, especially when using dependency injection, single-responsibility principle, and other “good practices”? class FriendsTimelineReader(userFinder: Use…"
+  },
+  {
+    "id": "c25c099c-370e-4570-bba0-04e32303924c",
+    "title": "Veripacks 0.2: exporting subpackages",
+    "url": "https://www.warski.org/blog/2013/02/veripacks-0-2-exporting-subpackages/",
+    "when": "2013-02-03T13:35:31Z",
+    "tags": [
+      "java",
+      "testing",
+      "veripacks",
+      "modularity"
+    ],
+    "description": "Veripacks 0.1 allowed to specify which classes should be exported from a package hierarchy, by using a simple @Export annotation, and later verify that the specification is met. Version 0.2 extends…"
+  },
+  {
+    "id": "f32f8c95-a614-4473-bd79-63b71ba66e1c",
+    "title": "Veripacks 0.1 – Verify Package Specifications",
+    "url": "https://www.warski.org/blog/2013/01/veripacks-0-1-verify-package-specifications/",
+    "when": "2013-01-05T18:31:57Z",
+    "tags": [
+      "java",
+      "modularity",
+      "testing",
+      "veripacks"
+    ],
+    "description": "Using some free time during my Christmas & New Year break, I worked on a new project, which implements some of the ideas from my earlier blog “Let’s turn packages into a module sys…"
+  },
+  {
+    "id": "1ca9f048-f567-4dfa-ba20-e6544a6d4819",
+    "title": "Updating to Scala 2.10: ElasticMQ and scala-macro-debug",
+    "url": "https://www.warski.org/blog/2013/01/updating-to-scala-2-10-elasticmq-and-scala-macro-debug/",
+    "when": "2013-01-21T18:37:17Z",
+    "tags": [
+      "elasticmq",
+      "metaprogramming",
+      "scala"
+    ],
+    "description": "As Scala 2.10 was released some time ago, it is high time to update the projects using 2.9: ElasticMQ and scala-macro-debug. Veripacks was already released using 2.10. ElasticMQ Version 0.6.3 of El…"
+  },
+  {
+    "id": "65081ed4-6b02-4ab1-84ba-5f9ebe991450",
+    "title": "Event streaming with MongoDB",
+    "url": "https://www.warski.org/blog/2012/11/event-streaming-with-mongodb/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2012/11/mongo-streaming-300x241.png",
+    "when": "2012-11-27T13:41:24Z",
+    "tags": [
+      "distributed",
+      "event streaming",
+      "mongodb"
+    ],
+    "description": "MongoDB is a really great “NoSQL” database, with a very wide range of applications. In one project that we are developing at SoftwareMill, we used it as a replicated event storage, from…"
+  },
+  {
+    "id": "0003c4da-4032-412a-bb6c-85f13ca2bd7a",
+    "title": "Starting with Scala Macros: a short tutorial",
+    "url": "https://www.warski.org/blog/2012/12/starting-with-scala-macros-a-short-tutorial/",
+    "when": "2012-12-02T19:22:56Z",
+    "tags": [
+      "metaprogramming",
+      "scala"
+    ],
+    "description": "Using some time during the weekend, I decided to finally explore one the new features in the coming Scala 2.10, macros. Macros are also written in Scala so in essence a macro is a piece of Scala co…"
+  },
+  {
+    "id": "73508cc1-518d-4609-a866-9463688f1f64",
+    "title": "ElasticMQ is now synced to Maven central",
+    "url": "https://www.warski.org/blog/2012/11/elasticmq-is-now-synced-to-maven-central/",
+    "when": "2012-11-19T11:41:53Z",
+    "tags": [
+      "aws",
+      "cloud",
+      "elasticmq",
+      "java",
+      "messaging",
+      "scala"
+    ],
+    "description": "Thanks to Sonatype OSS repositories, ElasticMQ version 0.6.1 is now synced to central. All of the artifacts, except the standalone server (which depends on Ostrich, which isn’t available in t…"
+  },
+  {
+    "id": "1fef2a81-1587-41eb-8f10-e14ae18ba4aa",
+    "title": "Let’s turn packages into a module system!",
+    "url": "https://www.warski.org/blog/2012/11/lets-turn-packages-into-a-module-system/",
+    "when": "2012-11-08T19:22:30Z",
+    "tags": [
+      "java",
+      "architecture",
+      "scala",
+      "clean code"
+    ],
+    "description": "Many projects are divided into modules/subprojects using the build system (Maven, Gradle, SBT …); and writing modular code is generally a Good Thing. Dividing the code into build modules is m…"
+  },
+  {
+    "id": "4a49c8e6-1c51-48d2-b2a9-21bd9b1ab98a",
+    "title": "ElasticMQ 0.6: batch operations, strict/relaxed SQS-compatibility mode",
+    "url": "https://www.warski.org/blog/2012/10/elasticmq-0-6-batch-operations-strictrelaxed-sqs-compatibility-mode/",
+    "when": "2012-10-20T11:49:53Z",
+    "tags": [
+      "cloud",
+      "aws",
+      "elasticmq",
+      "messaging"
+    ],
+    "description": "Summer is definitely over, so it’s about time to release a new version of ElasticMQ (0.6). There are two major changes. The first adds support for batch operations in the SQS interface, which…"
+  },
+  {
+    "id": "cb298da7-24c3-4581-878c-f7fcaf82f0e7",
+    "title": "Unexpected problems with Apache and mod_rewrite under high load",
+    "url": "https://www.warski.org/blog/2012/09/unexpected-problems-with-apache-and-mod_rewrite-under-high-load/",
+    "when": "2012-09-18T09:44:33Z",
+    "tags": [
+      "distributed",
+      "java",
+      "testing"
+    ],
+    "description": "In one of the projects that we are currently working on we have a fairly typical setup with one server (Apache with mod_rewrite) proxying traffic to backend servers. We also have some automated per…"
+  },
+  {
+    "id": "3ef4653c-b1a9-4f56-9def-addfe9afdd42",
+    "title": "Missing OO and FP bridge in Scala",
+    "url": "https://www.warski.org/blog/2012/08/missing-oo-and-fp-bridge-in-scala/",
+    "when": "2012-08-18T11:09:38Z",
+    "tags": [
+      "functional programming",
+      "scala",
+      "clean code"
+    ],
+    "description": "Scala blends functional and object-oriented programming in many nice ways. You can use both FP an OO-like constructs whichever fits the current problem better. But there’s always room for imp…"
+  },
+  {
+    "id": "f434c48d-207b-4abf-93bc-6a89fb980a49",
+    "title": "Connecting a piano pedal to a computer",
+    "url": "https://www.warski.org/blog/2012/08/connecting-a-piano-pedal-to-a-computer/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2012/08/IMG_0905-300x225.jpg",
+    "when": "2012-08-15T13:58:40Z",
+    "tags": [
+      "softwaremill",
+      "something different",
+      "hardware"
+    ],
+    "description": "It’s good to do something different once in a while. In my case, “different” still means things involving a computer – but far from the Java&Scala programming that I do …"
+  },
+  {
+    "id": "2bd52d8e-f2c9-466d-9739-77714b4b2a35",
+    "title": "Generational caching and Envers",
+    "url": "https://www.warski.org/blog/2012/07/generational-caching-and-envers/",
+    "when": "2012-07-13T11:47:12Z",
+    "tags": [
+      "envers",
+      "hibernate",
+      "java"
+    ],
+    "description": "Konrad recently shared on our company’s technical room an interesting article on how caching is done is a big polish social network, nk.pl. One of the central concepts in the algorithm is gen…"
+  },
+  {
+    "id": "9891fe02-82ce-40e6-b0e4-8e69b47db518",
+    "title": "Implementing message replication in ElasticMQ with JGroups",
+    "url": "https://www.warski.org/blog/2012/06/implementing-message-replication-in-elasticmq-with-jgroups/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2012/06/replication_basics.png",
+    "when": "2012-06-12T19:10:34Z",
+    "tags": [
+      "aws",
+      "cloud",
+      "elasticmq",
+      "java",
+      "jgroups",
+      "distributes"
+    ],
+    "description": "ElasticMQ is a messaging server, with a Scala, Java, and an Amazon SQS-compatible interface. It supports guaranteed messaging by replicating the messages across a cluster of servers, and message pe…"
+  },
+  {
+    "id": "6932e89e-0f03-4f5e-ba29-bdaed32cacf4",
+    "title": "Hibernate 4.1.4: Envers tests run&pass on multiple DBs",
+    "url": "https://www.warski.org/blog/2012/05/hibernate-4-1-4-envers-tests-runpass-on-multiple-dbs/",
+    "when": "2012-05-31T08:59:15Z",
+    "tags": [
+      "envers",
+      "hibernate",
+      "java"
+    ],
+    "description": "Envers is an entity auditing framework, making it possible to store and query for historical data. The Hibernate 4.1.4 release may seem to be a minor one, but it’s pretty important for Envers…"
+  },
+  {
+    "id": "17e54815-d9ec-4b9f-8d54-fe9917d24ce7",
+    "title": "ElasticMQ 0.5: journalling, stand-alone server",
+    "url": "https://www.warski.org/blog/2012/05/elasticmq-0-5-journalling-stand-alone-server/",
+    "when": "2012-05-29T05:29:12Z",
+    "tags": [
+      "distributed",
+      "elasticmq",
+      "java",
+      "cloud",
+      "aws",
+      "scala",
+      "messaging"
+    ],
+    "description": "ElasticMQ is a message queue server, with Scala, Java, and an Amazon SQS-compatible interface. It also supports guaranteed messaging via replicating the messages across a cluster of servers. The ne…"
+  },
+  {
+    "id": "b8dfab1c-ce12-4462-8451-b6cdfb3fa815",
+    "title": "Frameworks vs Libraries as Inheritance vs Composition?",
+    "url": "https://www.warski.org/blog/2012/04/frameworks-vs-libraries-as-inheritance-vs-composition/",
+    "when": "2012-04-17T06:04:21Z",
+    "tags": [
+      "architecture",
+      "clean code"
+    ],
+    "description": "For quite some time inheritance was the dominant model of structuring programs in OO languages like Java. Very often it was used as a mechanism for reusing code – “common” functio…"
+  },
+  {
+    "id": "6d1f53e9-61df-4d2e-9019-0cf01c37f459",
+    "title": "ElasticMQ 0.4: message replication",
+    "url": "https://www.warski.org/blog/2012/03/elasticmq-0-4-message-replication/",
+    "when": "2012-03-28T05:52:47Z",
+    "tags": [
+      "aws",
+      "cloud",
+      "distributed",
+      "elasticmq",
+      "java",
+      "messaging",
+      "scala"
+    ],
+    "description": "ElasticMQ is a message queue system, with Java, Scala and an Amazon SQS-compatible REST interface. The 0.4 release brings a new major feature: data replication. You can now setup a cluster of Elast…"
+  },
+  {
+    "id": "25b52531-0e01-4cdd-ab57-5ee343a73f02",
+    "title": "ElasticMQ 0.3: new API, new in-memory storage",
+    "url": "https://www.warski.org/blog/2012/02/elasticmq-0-3-new-api-new-in-memory-storage/",
+    "when": "2012-02-06T20:52:35Z",
+    "tags": [
+      "aws",
+      "cloud",
+      "elasticmq",
+      "java",
+      "scala",
+      "messaging"
+    ],
+    "description": "ElasticMQ 0.3 just got released! ElasticMQ is a simple message queue system, which exposes both a native and an Amazon SQS-compatible interface. There are two major changes in this release. Firstly…"
+  },
+  {
+    "id": "33f5b692-10bb-472e-a2c1-d596e092f36c",
+    "title": "ElasticMQ 0.2 – support for delayed queues and messages",
+    "url": "https://www.warski.org/blog/2012/01/elasticmq-0-2-support-for-delayed-queues-and-messages/",
+    "when": "2012-01-12T16:52:54Z",
+    "tags": [
+      "aws",
+      "cloud",
+      "messaging",
+      "java",
+      "scala",
+      "elasticmq"
+    ],
+    "description": "Time to start blogging in 2012 :) I just released version 0.2 of ElasticMQ – a simple message queue system, which implements the Amazon SQS interface. Ideal if you want to test a service whic…"
+  },
+  {
+    "id": "b55d9873-b003-4baa-bea1-0ddac6671253",
+    "title": "ElasticMQ 0.1 released!",
+    "url": "https://www.warski.org/blog/2011/10/elasticmq-0-1-released/",
+    "when": "2011-10-12T10:04:08Z",
+    "tags": [
+      "aws",
+      "cloud",
+      "messaging",
+      "java",
+      "scala",
+      "elasticmq"
+    ],
+    "description": "ElasticMQ is a simple messaging system, exposing an SQS-compatible REST interface. It can run using an in-memory H2 database (ideal for testing), or backed by a normal database (e.g. MySQL). Using …"
+  },
+  {
+    "id": "fdaeb9dc-7dd5-45f8-9d8a-3b039fc6f406",
+    "title": "Envers bundled with JBoss AS 7.0.2!",
+    "url": "https://www.warski.org/blog/2011/09/envers-bundled-with-jboss-as-7-0-2/",
+    "coverImage": "https://www.warski.org/blog/wp-content/uploads/2011/09/envers_as7_demo_screenshot.png",
+    "when": "2011-09-28T20:05:03Z",
+    "tags": [
+      "envers",
+      "hibernate",
+      "java"
+    ],
+    "description": "Using Envers is now even easier! Since version 7.0.2, Envers comes bundled with JBoss Application Server. To showcase how easy the integration is, I created a small JSF/CDI application, which uses …"
+  },
+  {
+    "id": "edc111ea-c55a-4bc6-b144-ff0893a6abea",
+    "title": "How to handle inheritance and @Audited?",
+    "url": "https://www.warski.org/blog/2011/09/how-to-handle-inheritance-and-audited/",
+    "when": "2011-09-08T12:13:05Z",
+    "tags": [
+      "envers",
+      "hibernate",
+      "java"
+    ],
+    "description": "Some Envers uses had problems because of the limited flexibility in specifying which fields from superclasses (especially those annotated with @MappedSuperclass) should be audited or not. We improv…"
+  },
+  {
+    "id": "098d94e1-3cc7-4afe-9cce-ce4134363db2",
+    "title": "Blending Ruby (on Rails) and CDI on OpenBlend 2011",
+    "url": "https://www.warski.org/blog/2011/09/blending-ruby-on-rails-and-cdi-on-openblend-2011/",
+    "when": "2011-09-08T08:56:57Z",
+    "tags": [
+      "conferences",
+      "ruby",
+      "jsf",
+      "java"
+    ],
+    "description": "I will have the pleasure to speak on OpenBlend 2011, in exactly a week: 15th September 2011, which will take place in Ljubljana, Slovenia. Apart from many other interesting presentations, I will be…"
+  },
+  {
+    "id": "2f4dfde1-63fc-440d-bc3a-a7342511f604",
+    "title": "Modules, modules, modules …",
+    "url": "https://www.warski.org/blog/2011/08/modules-modules-modules/",
+    "when": "2011-08-30T18:34:39Z",
+    "tags": [
+      "java",
+      "architecture",
+      "scala",
+      "clean code"
+    ],
+    "description": "I think everybody will agree that writing modular applications and modularity in general is a good thing. But how does support for modularity look like, both from the Java and Scala languages and v…"
+  },
+  {
+    "id": "1521cb3c-1895-48b8-b69a-ddd695f270bb",
+    "title": "Introducing ElasticMQ: Scala SQS alternative",
+    "url": "https://www.warski.org/blog/2011/08/introducing-elasticmq-scala-sqs-alternative/",
+    "when": "2011-08-16T05:22:48Z",
+    "tags": [
+      "aws",
+      "cloud",
+      "messaging",
+      "java",
+      "scala",
+      "elasticmq"
+    ],
+    "description": "Wanting to explore Scala and some new Scala/Java libraries I started writing ElasticMQ. It is a simple message queueing system, following closely Amazon SQS semantics and exposing a REST SQS-like i…"
+  },
+  {
+    "id": "71ecb098-e193-41d2-a2b4-16b8914cb4e5",
+    "title": "Using Envers with AS7",
+    "url": "https://www.warski.org/blog/2011/08/using-envers-with-as7/",
+    "when": "2011-08-04T05:42:00Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "Recently I tried deploying a web application which uses Envers into AS7, but unfortunately I encountered some problems (see the forum discussion). Luckily thanks to the helpful JBoss guys I’v…"
+  },
+  {
+    "id": "6342f1e9-ad3b-4845-a1fc-440b1a223ffd",
+    "title": "Trying to understand CAP",
+    "url": "https://www.warski.org/blog/2011/07/trying-to-understand-cap/",
+    "when": "2011-07-19T11:38:28Z",
+    "tags": [
+      "databases",
+      "architecture"
+    ],
+    "description": "The CAP theorem, stated by Brewer and proved by Gilbert and Lynch specifies a property of distributed systems. It states that such a system cannot guarantee at the same time Consistency, Availabili…"
+  },
+  {
+    "id": "c08cc563-a8de-484a-b338-3ef10ecc9b47",
+    "title": "Envers: track entity types changed in revisions",
+    "url": "https://www.warski.org/blog/2011/07/envers-track-entity-types-changed-in-revisions/",
+    "when": "2011-07-04T10:02:57Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "Łukasz Antoniak, who is a regular contributor to Envers (thanks!), recently finished working on HHH-5580, a feature which enables you to quickly retrieve the entity types that have been modified in…"
+  },
+  {
+    "id": "c71d2f16-859b-4c6a-8753-a1d685d0282c",
+    "title": "Static typing is a great static analysis tool",
+    "url": "https://www.warski.org/blog/2011/06/static-typing-is-a-great-static-analysis-tool/",
+    "when": "2011-06-27T15:48:25Z",
+    "tags": [
+      "java",
+      "static analysis",
+      "ruby",
+      "scala",
+      "clean code"
+    ],
+    "description": "Statically-typed languages are great because, well, they have static typing. However very often developing using a dynamically-typed language is much more convenient. Take writing a webapp in Ruby …"
+  },
+  {
+    "id": "2bdabd08-b91f-4cc9-83fd-b4b62fff7135",
+    "title": "CDI Portable Extensions on Confitura 2011",
+    "url": "https://www.warski.org/blog/2011/06/cdi-portable-extensions-on-confitura-2011/",
+    "when": "2011-06-01T18:08:39Z",
+    "tags": [
+      "testing",
+      "jee",
+      "java",
+      "conferences"
+    ],
+    "description": "In less than two weeks (11th June) I will have the opportunity to present a talk on CDI & Portable Extensions during the Confitura 2011 conference, organized by the Warsaw JUG. The talk will c…"
+  },
+  {
+    "id": "5628a191-0370-4e98-a8d4-2af53c2acbd9",
+    "title": "After Confitura 2011",
+    "url": "https://www.warski.org/blog/2011/06/after-confitura-2011/",
+    "when": "2011-06-13T14:31:13Z",
+    "tags": [
+      "testing",
+      "conferences",
+      "aws",
+      "jee",
+      "cloud",
+      "dependency injection",
+      "java"
+    ],
+    "description": "Confitura 2011 went past very quickly, it was a great conference and a great occasion to meet with the polish Java community on the SPOINA after-party. During the conference I had the opportunity t…"
+  },
+  {
+    "id": "ade4351b-7a08-4cc0-8e57-903fc9e846c2",
+    "title": "Envers & TorqueBox on RivieraJUG – May 6th",
+    "url": "https://www.warski.org/blog/2011/05/envers-torquebox-on-rivierajug-may-6th/",
+    "when": "2011-05-02T06:13:49Z",
+    "tags": [
+      "testing",
+      "jee",
+      "envers",
+      "hibernate",
+      "java",
+      "ruby"
+    ],
+    "description": "This Friday (6th of May) I will have the pleasure to present two talks: one on Envers and one on Torquebox, thanks to an invitation from the RivieraJUG. Envers is a data auditing/versioning module …"
+  },
+  {
+    "id": "8e3266db-9ee2-45fb-927a-5f5d902e00a7",
+    "title": "DI in Scala: Cake Pattern pros & cons",
+    "url": "https://www.warski.org/blog/2011/04/di-in-scala-cake-pattern-pros-cons/",
+    "when": "2011-04-29T06:14:08Z",
+    "tags": [
+      "dependency injection",
+      "java",
+      "scala",
+      "modularity"
+    ],
+    "description": "I’ve been looking at alternatives for java-style DI and DI containers which would use pure Scala; a promising candidate is the Cake Pattern (see my earlier blog post for information on how th…"
+  },
+  {
+    "id": "646576af-693c-4772-a86d-63d966607c58",
+    "title": "Envers and Hibernate 4.0.0.Alpha2 – automatic listener registration",
+    "url": "https://www.warski.org/blog/2011/04/envers-and-hibernate-4-0-0-alpha2-automatic-listener-registration/",
+    "when": "2011-04-18T06:46:23Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "Development of Hibernate4 is well under way, with the Alpha2 version released recently. It contains one major improvement which is quite significant for Envers, namely Integrators (see HHH-5562 &#0…"
+  },
+  {
+    "id": "35df8529-6c96-4c2f-a9d4-5a652e2c0d8c",
+    "title": "Ruby on Rails + CDI/Weld on Torquebox example app",
+    "url": "https://www.warski.org/blog/2011/03/ruby-on-rails-cdiweld-on-torquebox-example-app/",
+    "when": "2011-03-11T12:04:30Z",
+    "tags": [
+      "jee",
+      "dependency injection",
+      "java",
+      "ruby"
+    ],
+    "description": "For almost a year we’ve been successfully using Torquebox together with CDI/Weld as a base for two of our services: JBison and Circular. As we’ll be doing some presentations together wi…"
+  },
+  {
+    "id": "e0ab893b-8957-4d42-9422-36e89a3896de",
+    "title": "Timing interceptor for CDI/Weld",
+    "url": "https://www.warski.org/blog/2011/03/timing-interceptor-for-cdiweld/",
+    "when": "2011-03-01T15:31:42Z",
+    "tags": [
+      "jee",
+      "java"
+    ],
+    "description": "Lately we did some performance tuning, and in order to find out which methods are the hotspots I wrote a simple timing interceptor (it uses some code from a Seam forum post by Tobias Hill). Apart f…"
+  },
+  {
+    "id": "c1a37408-cc82-4d7f-94fc-5b74a8be7c37",
+    "title": "Dependency Injection in Scala: Extending the Cake Pattern",
+    "url": "https://www.warski.org/blog/2010/12/di-in-scala-cake-pattern/",
+    "when": "2010-12-14T09:38:42Z",
+    "tags": [
+      "dependency injection",
+      "java",
+      "scala"
+    ],
+    "description": "Continuing the mini-series on Dependency Injection (see my previous blogs: problems with DI, assisted inject for CDI and improving assisted inject), I took a look at how DI is handled in Scala. The…"
+  },
+  {
+    "id": "caacfeea-a90d-4904-b664-7a70d341fd89",
+    "title": "Improving autofactories/assisted inject",
+    "url": "https://www.warski.org/blog/2010/12/improving-autofactoriesassisted-inject/",
+    "when": "2010-12-07T14:22:07Z",
+    "tags": [
+      "jee",
+      "dependency injection",
+      "java"
+    ],
+    "description": "In my two previous posts I wrote about some problems with DI and a solution to part of those problems: assisted inject (as known in Guice)/autofactories (my implementation for CDI). Some problems r…"
+  },
+  {
+    "id": "24323776-c2ae-4dfa-911d-f122d07f3f2c",
+    "title": "DB test: run tests with a database using Arquillian",
+    "url": "https://www.warski.org/blog/2010/11/db-test-run-tests-with-a-database-using-arquillian/",
+    "when": "2010-11-30T13:38:56Z",
+    "tags": [
+      "testing",
+      "jee",
+      "hibernate",
+      "java"
+    ],
+    "description": "DB test is a set of helper classes which let you run tests that use a database. By default each test has a separate, in-memory H2 database, providing fast startup time and isolation. A fairly large…"
+  },
+  {
+    "id": "0bae2299-cb98-45d3-9863-8ef205a4569d",
+    "title": "DI and OO: Assisted Inject in CDI / Weld",
+    "url": "https://www.warski.org/blog/2010/10/di-and-oo-assisted-inject-in-cdi-weld/",
+    "when": "2010-10-26T15:22:36Z",
+    "tags": [
+      "jee",
+      "dependency injection",
+      "java"
+    ],
+    "description": "My last post sparked quite a lot of interest – thanks for all the comments both on the blog and on dzone! Some of them rightly pointed out that the original post contains a mistake (*) (but l…"
+  },
+  {
+    "id": "3cdc8113-bcfd-4d55-9e3e-e5224177a14b",
+    "title": "Dependency injection discourages object-oriented programming?",
+    "url": "https://www.warski.org/blog/2010/10/dependency-injection-discourages-object-oriented-programming/",
+    "when": "2010-10-13T16:05:41Z",
+    "tags": [
+      "jee",
+      "dependency injection",
+      "clean code",
+      "java"
+    ],
+    "description": "Suppose you have a Product entity and that you want to implement a method which sends the product to a customer (let’s call it ship). For that method to work, you need a service for calculati…"
+  },
+  {
+    "id": "01089e71-c79b-41dc-b642-4b6acb4deb5f",
+    "title": "New Envers contributor",
+    "url": "https://www.warski.org/blog/2010/09/new-envers-contributor/",
+    "when": "2010-09-27T05:55:34Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "I’d like to welcome Erik-Berndt Scheper as our new Envers contributor. His first commit was yesterday (rev 20717 and 20718), resolving the HHH-5560 issue. Erik was submitting for some time ve…"
+  },
+  {
+    "id": "f9a93644-3b56-411a-8cee-0dbcaf55524b",
+    "title": "Envers at JBoss One Day Talk 2010",
+    "url": "https://www.warski.org/blog/2010/09/envers-at-jboss-one-day-talk-2010/",
+    "when": "2010-09-25T08:44:44Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "I will be presenting Envers (data auditing in Hibernate) at JBoss One Day Talk 2010 in Munich, on the 1st of October. There’s still time to register, and if you already did, don’t miss …"
+  },
+  {
+    "id": "c0865179-bbd7-4c09-b70d-f8a0f15d89dd",
+    "title": "Envers query performance improvements with end-revision column",
+    "url": "https://www.warski.org/blog/2010/09/261/",
+    "when": "2010-09-24T07:47:50Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "Thanks to the patch provided by Matthew B. Jones, and improved by Erik-Berndt Scheper, the new Envers ValidTimeAuditStrategy (which will be renamed to ValidityAuditStrategy in upcoming releases) no…"
+  },
+  {
+    "id": "799a90cf-96d0-44f6-9138-0a4823875ee1",
+    "title": "Envers 1.2.3-hibernate-3.3 – backport release",
+    "url": "https://www.warski.org/blog/2010/08/envers-1-2-3-hibernate-3-3-backport-release/",
+    "when": "2010-08-21T15:23:52Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "Hernan Chanfreau backported some of the recent Envers changes and fixes from the 3.5 branch. The detailed list of the backported issues can be found in this forum post. I applied the patch and rele…"
+  },
+  {
+    "id": "03cb4bf7-45ed-4e78-add9-66aa746d67a6",
+    "title": "Ruby on Rails + CDI? Why not! Enter TorqueBox + Weld",
+    "url": "https://www.warski.org/blog/2010/07/ruby-on-rails-cdi-why-not-enter-torquebox-weld/",
+    "when": "2010-07-27T12:07:33Z",
+    "tags": [
+      "jee",
+      "dependency injection",
+      "java",
+      "jsf",
+      "ruby"
+    ],
+    "description": "I guess many people are often “unsatisfied” with how JSF works and how much time it sometimes takes to do a simple thing. That’s why we are trying out a new combination: RoR for t…"
+  },
+  {
+    "id": "545d7288-f582-4488-bd2c-6055792736d4",
+    "title": "New features in cdi-ext",
+    "url": "https://www.warski.org/blog/2010/08/new-features-in-cdi-ext/",
+    "when": "2010-08-02T18:28:15Z",
+    "tags": [
+      "jee",
+      "jsf"
+    ],
+    "description": "Tomek Szymański just commited two new features to cdi-ext. The first is the ability to secure JSF pages when using the Nav component to handle navigation (more on it here). If you want to make a pa…"
+  },
+  {
+    "id": "d4e54d69-f7cc-429d-a2fb-544d87d2558b",
+    "title": "Initial valid-time support in Envers",
+    "url": "https://www.warski.org/blog/2010/07/initial-valid-time-support-in-envers/",
+    "when": "2010-07-02T12:12:42Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "I just commited initial support for valid-time auditing in Envers, a feature that a lot of users has been (directly or indirectly) asking for. It’s joint work, as Stephanie Pau contributed a …"
+  },
+  {
+    "id": "bc9047d5-6ebd-4edc-ab4b-876f5b852805",
+    "title": "NEnvers",
+    "url": "https://www.warski.org/blog/2010/07/nenvers/",
+    "when": "2010-07-01T17:51:01Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "If you are a .NET and NHibernate user, soon you’ll be able to use Envers in your project! Simon Duduica has been working on an Envers to .NET port. This is still work in progress, but you can…"
+  },
+  {
+    "id": "a800dcd0-2816-4238-9330-7922484a3e66",
+    "title": "Object Services in Scala",
+    "url": "https://www.warski.org/blog/2010/06/object-services-in-scala/",
+    "when": "2010-06-21T16:39:46Z",
+    "tags": [
+      "java",
+      "scala"
+    ],
+    "description": "Using Scala’s implicits it’s possible to implement Object Services in a much more “user-friendly” way. Just to remind, the goal is to extend a class hierarchy with a method,…"
+  },
+  {
+    "id": "2b3aabdc-52a2-4765-822e-bf5cde47318c",
+    "title": "Object Services, or bridging anemic and rich models, in CDI/Weld",
+    "url": "https://www.warski.org/blog/2010/05/object-services-or-bridging-anemic-and-rich-models-in-cdiweld/",
+    "when": "2010-05-27T09:43:31Z",
+    "tags": [
+      "jee",
+      "java"
+    ],
+    "description": "Rich domain models are certainly a nice, object-oriented idea, but I always had one problem with them: what if they become bloated with completely unrelated methods? For objects that are frequently…"
+  },
+  {
+    "id": "9ad09be6-1c4c-4699-a182-7aeabdc5e086",
+    "title": "CDI & Weld Extensions in Git",
+    "url": "https://www.warski.org/blog/2010/05/cdi-weld-extensions-in-git/",
+    "when": "2010-05-17T19:37:46Z",
+    "tags": [
+      "jee",
+      "dependency injection",
+      "java"
+    ],
+    "description": "Hello, I’ve created a new cdiext project at github, initially with two extensions: 1. Stackable Security Interceptors, about which I blogged here and here. Example usage: @SecureBinding @Secu…"
+  },
+  {
+    "id": "ed0bd80d-2ea4-4ea2-a63b-d40ea46c11ed",
+    "title": "JSR-308, checkers framework and static analysis on GeeCON",
+    "url": "https://www.warski.org/blog/2010/04/jsr-308-checkers-framework-and-static-analysis-on-geecon/",
+    "when": "2010-04-26T17:58:50Z",
+    "tags": [
+      "conferences",
+      "java",
+      "static analysis"
+    ],
+    "description": "I’ll be speaking about the JSR-308 specification (annotations on java types), which will be part of Java 7, on the GeeCON conference, which will take place from the 13th till the 14th of May …"
+  },
+  {
+    "id": "699ec3ba-42f7-463a-8d58-b6c9bd18f7a3",
+    "title": "Extending the security interceptor for Weld/JSF2",
+    "url": "https://www.warski.org/blog/2010/04/extending-the-security-interceptor-for-weldjsf2/",
+    "when": "2010-04-13T09:22:52Z",
+    "tags": [
+      "jee",
+      "java",
+      "jsf"
+    ],
+    "description": "In my previous post, I described how to create a simple security interceptor, which checks conditions defined using EL expressions, e.g.: @Secure(“#{loggedInUser.name == arg0.name}”) pu…"
+  },
+  {
+    "id": "a1cca837-d82e-40a5-a493-8c795fc69318",
+    "title": "Hibernate 3.5-Final, Envers included, released!",
+    "url": "https://www.warski.org/blog/2010/04/hibernate-3-5-final-envers-included-released/",
+    "when": "2010-04-01T06:33:05Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "Hibernate 3.5 was just released; congratulations to Steve and the whole team! It’s the first final Hibernate release that includes Envers. You can find it both in the bundle downloadable from…"
+  },
+  {
+    "id": "5335334e-fe44-4399-a493-1852d97a400a",
+    "title": "JSF2 navigation: post->redirect->get",
+    "url": "https://www.warski.org/blog/2010/03/jsf2-navigation-post-redirect-get/",
+    "when": "2010-03-11T20:25:07Z",
+    "tags": [
+      "jee",
+      "java",
+      "jsf"
+    ],
+    "description": "JSF2 improves a lot both how navigation can be done (you can now return a view id from an action method, no need to describe every navigation case in faces-config.xml) and how URLs are handled (fin…"
+  },
+  {
+    "id": "e7866093-25b6-4278-9612-b774529929c6",
+    "title": "Simple security interceptor in Weld/JSF2",
+    "url": "https://www.warski.org/blog/2010/03/simple-security-interceptor-in-weldjsf2/",
+    "when": "2010-03-31T13:52:30Z",
+    "tags": [
+      "jee",
+      "java",
+      "jsf"
+    ],
+    "description": "Waiting for the Seam3 security module, I wrote a simple security interceptor (inspired by the Seam2 security annotation). You can use it like this: @Secure(“#{loggedInUser.name == arg0.name}&…"
+  },
+  {
+    "id": "1d91d76a-98db-4145-803d-d8ad133b2e6c",
+    "title": "Projects Using Envers wikipage",
+    "url": "https://www.warski.org/blog/2010/02/projects-using-envers-wikipage/",
+    "when": "2010-02-01T20:07:24Z",
+    "tags": [
+      "envers",
+      "java"
+    ],
+    "description": "I just created a new “Projects Using Envers” wikipage; so if you are using Envers in your project, make sure to add it to the list! :) If you are not yet using Envers, don’t forge…"
+  },
+  {
+    "id": "56d308b4-c512-4315-8b37-525728eb08ea",
+    "title": "Envers 1.2.2 released!",
+    "url": "https://www.warski.org/blog/2009/12/envers-122-released/",
+    "when": "2009-12-18T12:17:59Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "After quite a long break, I’m happy to announce a new release of Envers (available on the downloads page, or via Maven). This is mainly a bugfix release, but there are also new features: poss…"
+  },
+  {
+    "id": "a3a43838-937f-4ae8-8a8e-7bb2d852ce47",
+    "title": "Dependency Injection and replacing dependencies in CDI/Weld",
+    "url": "https://www.warski.org/blog/2009/12/dependency-injection-and-replacing-dependencies-in-cdiweld/",
+    "when": "2009-12-16T21:37:27Z",
+    "tags": [
+      "jee",
+      "dependency injection",
+      "java"
+    ],
+    "description": "From time to time, in a system I develop, which uses EJB3 beans as the basic “component model”, I have a need to do some operations using a new entity manager (but still in the same tra…"
+  },
+  {
+    "id": "c48dce7a-abe7-4721-ba8d-b23cc9073989",
+    "title": "Nonnull-check generator: a scala compiler plugin",
+    "url": "https://www.warski.org/blog/2009/10/nonnull-check-generator-a-scala-compiler-plugin/",
+    "when": "2009-10-15T15:04:45Z",
+    "tags": [
+      "static analysis",
+      "java",
+      "scala"
+    ],
+    "description": "Recently I played a bit with compiler plugins for Scala. My goal is to write a plugin which would generate checks in code for methods annotated with JSR305 annotations. As a first step, I wanted to…"
+  },
+  {
+    "id": "c1e694be-0beb-4ac9-b9b7-8d1e24e61999",
+    "title": "Typestate checker – checking iterators",
+    "url": "https://www.warski.org/blog/2009/09/typestate-checker-checking-iterators/",
+    "when": "2009-09-23T17:02:54Z",
+    "tags": [
+      "java",
+      "static analysis"
+    ],
+    "description": "In the new 0.2.2 release of the typestate checker (an extension to the JSR308 checkers framework), you can now specify a state, to which an object transits, if a method returns true or false using …"
+  },
+  {
+    "id": "58842df6-129e-468e-92c7-bbce6d4ef924",
+    "title": "Javarsovia, static analysis and annotations",
+    "url": "https://www.warski.org/blog/2009/07/javarsovia-static-analysis-and-annotations/",
+    "when": "2009-07-02T19:15:32Z",
+    "tags": [
+      "java",
+      "static analysis"
+    ],
+    "description": "If you’ll be in Warsaw this weekend, and if you speak polish, be sure not to miss Javarsovia, a one-day conference organized by the Warsaw JUG. I am giving a talk there about how you can use …"
+  },
+  {
+    "id": "460a67c2-19a0-48b3-864e-938ac6bd81cb",
+    "title": "Envers on Jazoon",
+    "url": "https://www.warski.org/blog/2009/06/envers-on-jazoon/",
+    "when": "2009-06-21T09:15:57Z",
+    "tags": [
+      "envers",
+      "java",
+      "conferences",
+      "hibernate"
+    ],
+    "description": "If you’ll be attending Jazoon next week, be sure not to miss the Envers presentation! It will take place on Wednesday (24th July), at 4pm (here are the presentation details). I’ll be at…"
+  },
+  {
+    "id": "4794422b-e40a-49ac-8dd2-96e162d5e0de",
+    "title": "Envers 1.2.1.GA released",
+    "url": "https://www.warski.org/blog/2009/06/envers-121ga-released/",
+    "when": "2009-06-06T08:44:18Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "Yesterday I uploaded a new release of Envers, 1.2.1.GA. It is mainly a bugfix release, but there is also one new feature. You can now access the current revision entity directly using AuditReader, …"
+  },
+  {
+    "id": "23f0ba97-8d60-4cb2-9f78-88de66314f35",
+    "title": "StaticAccess detector for FindBugs",
+    "url": "https://www.warski.org/blog/2009/05/staticaccess-detector-for-findbugs/",
+    "when": "2009-05-11T17:30:19Z",
+    "tags": [
+      "java",
+      "static analysis"
+    ],
+    "description": "The StaticAccess detector is a FindBugs plugin, which lets you verify that methods do not rely on static (global) state, that is, that they don’t read or write static variables which aren&#82…"
+  },
+  {
+    "id": "06dad7e7-b9b9-4688-86f1-e8121762d8f1",
+    "title": "New features in Typestate Checker",
+    "url": "https://www.warski.org/blog/2009/04/new-features-in-typestate-checker/",
+    "when": "2009-04-14T18:51:35Z",
+    "tags": [
+      "java",
+      "static analysis"
+    ],
+    "description": "I’ve uploaded a new version (0.2) of the typestate checker (for an introduction, see this blog post), which contains bug fixes and much improved exception handling. The binaries, source code …"
+  },
+  {
+    "id": "cc6a5b40-7966-4ff1-90f5-f67df11ae109",
+    "title": "Envers 1.2.0.GA in Maven repository; JSR308 typestate and maven plugin in GIT",
+    "url": "https://www.warski.org/blog/2009/03/envers-120ga-in-maven-repository-jsr308-typestate-and-maven-plugin-in-git/",
+    "when": "2009-03-11T16:21:27Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate",
+      "static analysis"
+    ],
+    "description": "The recently released Envers 1.2.0.GA finally made it to the JBoss Maven repository; you can find it here: Also, following Bob’s example, I’ve put the JSR 308 typestate checker and Mave…"
+  },
+  {
+    "id": "e81c3626-6863-4296-ba18-668cfb404f31",
+    "title": "Envers 1.2.0.GA released!",
+    "url": "https://www.warski.org/blog/2009/03/envers-120ga-released/",
+    "when": "2009-03-05T17:09:08Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "Today Envers 1.2.0.GA has been released! It is a Hibernate 3.3 compatible version of the newest Envers codebase, which will be included as a module in Hibernate 3.5. You can download it here, and f…"
+  },
+  {
+    "id": "d9491c57-87cf-478a-8f8b-feda7f87b4e5",
+    "title": "JSR308 Checkers Maven2 plugin",
+    "url": "https://www.warski.org/blog/2009/02/jsr308-checkers-maven2-plugin/",
+    "when": "2009-02-04T18:11:54Z",
+    "tags": [
+      "java",
+      "static analysis"
+    ],
+    "description": "I’ve written a prototype JSR308 Checkers Maven2 plugin. You can use the plugin to run any checker on the sources of your module(s). The JSR308 compiler, and in effect also the checkers, are r…"
+  },
+  {
+    "id": "d30a6862-5e7d-4bb5-81ea-69f2cc3b8c71",
+    "title": "Envers in Anvers!",
+    "url": "https://www.warski.org/blog/2008/12/envers-in-anvers/",
+    "when": "2008-12-04T18:29:22Z",
+    "tags": [
+      "conference",
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "December came, so it’s time for Devoxx! (formerly JavaPolis) If you are planning to visit Antwerp this year, make sure to come and see the Envers presentation (first conference day, 3pm)! I w…"
+  },
+  {
+    "id": "21608bcc-292f-41a8-ab54-01970be1f606",
+    "title": "Typestate checker – introduction",
+    "url": "https://www.warski.org/blog/2008/11/typestate-checker-introduction/",
+    "when": "2008-11-17T18:17:29Z",
+    "tags": [
+      "java",
+      "jsr308",
+      "static analysis"
+    ],
+    "description": "When dealing with mutable objects in Java, we quite often see that “states” of the class considered emerge. The (abstract) “state” depends of course on the content of the fi…"
+  },
+  {
+    "id": "f1df62a7-1b9d-4192-8211-2527a077a628",
+    "title": "Envers moves to Hibernate!",
+    "url": "https://www.warski.org/blog/2008/10/envers-moves-to-hibernate/",
+    "when": "2008-10-30T11:08:13Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "I’m happy to announce that Envers is now a module of Hibernate! This means that: the code is now in the hibernate-core repository (envers module). There will be no more commits to the old rep…"
+  },
+  {
+    "id": "71c135f6-15c5-428c-8c15-9c69dc98c91b",
+    "title": "Adding structure to Seam events",
+    "url": "https://www.warski.org/blog/2008/10/adding-structure-to-seam-events/",
+    "when": "2008-10-23T13:19:07Z",
+    "tags": [
+      "java",
+      "jboss"
+    ],
+    "description": "The idea described here is originally by Tomek Szymański. I just enhanced it a little. Seam events are a very convenient tool to divide your business logic into smaller pieces, and add some new beh…"
+  },
+  {
+    "id": "de429d96-cac4-40df-a0e6-9ad6bfb0dcae",
+    "title": "Envers 1.1.0.GA released",
+    "url": "https://www.warski.org/blog/2008/10/envers-110ga-released/",
+    "when": "2008-10-21T18:29:18Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "Today Envers 1.1.0.GA has been released. For the impatient: go straight to the downloads! :) This release contains only minor modifications from the last beta version. You can see the release notes…"
+  },
+  {
+    "id": "fe40a04a-8a28-4ffb-8e85-bb36943dbfaf",
+    "title": "Envers on JDD 08",
+    "url": "https://www.warski.org/blog/2008/10/envers-on-jdd-08/",
+    "when": "2008-10-14T07:51:39Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "If you’ll be visting Java Developers’ Day 2008 in Cracow, Poland on Thursday, be sure to stop by and see my presentation of Envers. It will be an introductory talk, in Polish; I’l…"
+  },
+  {
+    "id": "f15a035e-b227-4fe3-a445-e7b9214df28e",
+    "title": "Envers 1.1.0.beta2 released with collections support",
+    "url": "https://www.warski.org/blog/2008/09/envers-110beta2-released-with-collections-support/",
+    "when": "2008-09-27T08:44:29Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "Today Envers 1.1.0.beta2 has been released. This release focuses on supporting persistent collections. In earlier versions, it was only possible to version collections belonging to one-to-many bidi…"
+  },
+  {
+    "id": "d8853c4f-971d-49a9-a82a-5c5a9d6dfbc2",
+    "title": "Envers on Herbstcampus 2008",
+    "url": "https://www.warski.org/blog/2008/09/envers-on-herbstcampus-2008/",
+    "when": "2008-09-19T16:04:02Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "Yesterday I came back from Herbstcampus 2008 in Nürnberg. I gave there a talk on Envers. Thanks to all who attended! I’d also like to thank the organisers, everything went smoothly and I felt…"
+  },
+  {
+    "id": "e40fe668-7cae-4b92-8572-050eb0ab57c9",
+    "title": "Envers is back from vacations",
+    "url": "https://www.warski.org/blog/2008/09/envers-is-back-from-vacations/",
+    "when": "2008-09-03T09:58:52Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "Hello, after a vacation break, Envers is back with a 1.1.0.beta1 release. You can find the release notes here. There’s quite a lot of changes and improvements in this release. Firstly, Envers…"
+  },
+  {
+    "id": "8cc80fdb-46fd-49d4-bd81-6d1bee75d1ae",
+    "title": "Envers 1.0.0.GA released!",
+    "url": "https://www.warski.org/blog/2008/07/envers-100ga-released/",
+    "when": "2008-07-16T10:51:30Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "Today the first general availability version of Envers has been released (downloads, release notes). This is a stable version containig all the features found in the preview and beta versions. It d…"
+  },
+  {
+    "id": "1fbd978c-b6ed-4a68-adb7-75b9325a6be6",
+    "title": "Bi-temporal versioning with Envers",
+    "url": "https://www.warski.org/blog/2008/06/bi-temporal-versioning-with-envers/",
+    "coverImage": "https://www.jboss.org/files/envers/seam_demo.png",
+    "when": "2008-06-16T16:22:43Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "With the recent addition of queries to Envers, it is now possible to easily retrieve data in a bi-temporal way. If you are not familiar with bi-temporal versioning, a good introduction by Martin Fo…"
+  },
+  {
+    "id": "444b29ab-0932-4c73-8d90-e2eb6fe572dd",
+    "title": "Envers beta – now with queries!",
+    "url": "https://www.warski.org/blog/2008/06/envers-beta-now-with-queries/",
+    "when": "2008-06-12T11:03:37Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "So far Envers made it easy to store historical data; now, with version 1.0.0.beta1 (download here), you can also query it, in two “dimensions”: for entities at a given revision and for …"
+  },
+  {
+    "id": "c1f5b634-186b-4724-b006-36cb6122523f",
+    "title": "What data should be stored in versions tables? – a poll",
+    "url": "https://www.warski.org/blog/2008/06/what-data-should-be-stored-in-versions-tables-a-poll/",
+    "when": "2008-06-04T08:10:28Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "Hello, I’ve posted a poll on what data should be stored in versions tables in Envers, see here and cast your vote: The results will determine the future implementation, so votes really count.…"
+  },
+  {
+    "id": "151cdc68-1e36-45ee-94dc-a095a04cdede",
+    "title": "Envers preview 3: logging data for revisions, Seam demo",
+    "url": "https://www.warski.org/blog/2008/05/envers-preview-3-logging-data-for-revisions-seam-demo/",
+    "when": "2008-05-06T12:57:24Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "With the preview 3 release of Envers, you can easily associate additional data with revisions. This could be, for example, the name of the user making the change. You simply need to annotate an ent…"
+  },
+  {
+    "id": "eeec03bb-0998-4d30-9ae1-b85f711f85e1",
+    "title": "Value-to-variable binding “let” tag for JSF, Facelets and Seam",
+    "url": "https://www.warski.org/blog/2008/04/value-to-variable-binding-let-tag-for-jsf-facelets-and-seam/",
+    "when": "2008-04-28T10:54:56Z",
+    "tags": [
+      "java",
+      "jsf"
+    ],
+    "description": "The “let” tag enables you to bind the value of any expression to a variable and later reuse it, without recalculating the value. The concept comes of course from functional programming.…"
+  },
+  {
+    "id": "32b9eb66-fc6b-4df0-bfda-d2aa1b7b3786",
+    "title": "Envers preview 2: versioning relations",
+    "url": "https://www.warski.org/blog/2008/04/envers-preview-2-versioning-relations/",
+    "when": "2008-04-22T09:39:41Z",
+    "tags": [
+      "envers",
+      "java",
+      "hibernate"
+    ],
+    "description": "You can now download a second preview version of the Envers library! As a quick reminder, the library enables you to easily version your JPA entities, by simply annotating their properties with @Ve…"
+  },
+  {
+    "id": "ec0dc0cd-5f06-467a-8078-52bef32d409d",
+    "title": "Introducing Envers: Easy Entity Versioning",
+    "url": "https://www.warski.org/blog/2008/04/introducing-envers-easy-entity-versioning/",
+    "when": "2008-04-10T13:06:30Z",
+    "tags": [
+      "hibernate",
+      "envers",
+      "java"
+    ],
+    "description": "Hello, Envers is a project which enables you to version your entities, simply by annotating them with @Versioned! It is still very young, and far from a mature project, but some basic functionaliti…"
+  },
+  {
+    "id": "7daf72b8-0edc-4e68-80ea-5e161df5bf15",
+    "title": "Clean URLs in Seam: URLRewriteFilter",
+    "url": "https://www.warski.org/blog/2008/03/clean-urls-in-seam-urlrewritefilter/",
+    "when": "2008-03-31T12:10:34Z",
+    "tags": [
+      "java",
+      "jboss"
+    ],
+    "description": "Starting with Seam 2.0.1 (annoucement here, download here) you can fully use UrlRewriteFilter to make URLs in your Seam app nice and clean. When using this filter, you need to define inbound-rules,…"
+  },
+  {
+    "id": "79b51779-766c-4b1f-8650-487958a286e2",
+    "title": "Instant Facelets: changes in .xhtml and no redeploying",
+    "url": "https://www.warski.org/blog/2007/12/instant-facelets-changes-in-xhtml-and-no-redeploying/",
+    "when": "2007-12-07T12:02:56Z",
+    "tags": [
+      "java",
+      "jboss"
+    ],
+    "description": "If you are developing anything with Facelets/Seam/… frameworks, you probably know the pain of having to redeploy after each .xhtml file change to see the changes, even if they are only cosmet…"
+  },
+  {
+    "id": "d640785b-02d4-435f-9e00-e7537ea52df7",
+    "title": "Developing with Seam and without frequent redeploying",
+    "url": "https://www.warski.org/blog/2007/10/developing-with-seam-and-without-frequent-redeploying/",
+    "when": "2007-10-12T07:45:35Z",
+    "tags": [
+      "java",
+      "jboss"
+    ],
+    "description": "Seam in combination with JBoss Tools already has the features I wrote about some time ago (see here), unless, for example, you aren’t using Eclipse or you want to develop with Seam 2, which i…"
+  },
+  {
+    "id": "ddefaf4a-b597-46ea-9863-79de5f780307",
+    "title": "UTF-8 in JBoss/Tomcat + MySQL + Hibernate + JavaMail",
+    "url": "https://www.warski.org/blog/2007/10/utf-8-in-jbosstomcat-mysql-hibernate-javamail/",
+    "when": "2007-10-03T13:07:50Z",
+    "tags": [
+      "java",
+      "jboss"
+    ],
+    "description": "While most of (web)applications communicate with the end user in English, a lot of them use native languages, which often have some special characters (not to look too far for an example, we have t…"
+  },
+  {
+    "id": "a54d9b83-ac65-4521-aa66-795ffe971494",
+    "title": "Developing JSP/JSF pages without frequent redeploying",
+    "url": "https://www.warski.org/blog/2007/09/developing-jspjsf-pages-without-frequent-redeploying/",
+    "when": "2007-09-27T20:14:56Z",
+    "tags": [
+      "java",
+      "jsf"
+    ],
+    "description": "Imagine you are developing a web application, which displays some JSP files. It is pretty annoying to have to re-deploy the application whenever you make any change to a JSP to see the result in th…"
   }
 ]
