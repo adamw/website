@@ -24,8 +24,6 @@ main_interest:
       link: "/projects"
       description: I've worked on many projects over the years, but this is the one I'm most proud of. Many of them are open source.
 contact:
-  title: Get in touch
-  description: I’m would love to hear from you.
   image: images/contact.png
 
 ---
