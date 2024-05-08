@@ -1,7 +1,7 @@
 ---
 title: About
 subtitle: Hello, I’m Adam, Software Developer
-profile_image: "profile.jpg"
+profile_image: "images/profile.jpg"
 job:
   title: Creative Designer & Senior Developer
   description: Globalbank

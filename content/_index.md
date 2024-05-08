@@ -1,6 +1,6 @@
 ---
 title: Home
-description: Sharing elegant solutions to everyday problems.
+description: Sharing elegant solutions to everyday problems
 profile_image: images/cover.jpg
 job:
   title: Chief R&D Officer
