@@ -7,7 +7,7 @@ url: /blog/2008/12/envers-in-anvers/
 dsq_thread_id:
   - 1051934851
 tags:
-  - conference
+  - conferences
   - envers
   - java
   - hibernate

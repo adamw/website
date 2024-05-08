@@ -230,7 +230,6 @@ wp-syntax-cache-content:
     ";}
 tags:
   - java
-  - jsr308
   - static analysis
 
 ---

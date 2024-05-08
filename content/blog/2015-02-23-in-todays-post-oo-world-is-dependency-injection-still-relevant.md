@@ -11,7 +11,6 @@ dsq_thread_id:
 tags:
   - dependency injection
   - clean code
-  - different
   - functional programming
   - macwire
   - scala

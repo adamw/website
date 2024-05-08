@@ -11,8 +11,7 @@ tags:
   - cloud
   - elasticmq
   - java
-  - jgroups
-  - distributes
+  - distributed
 
 ---
 _[ElasticMQ][1] is a messaging server, with a Scala, Java, and an Amazon SQS-compatible interface. It supports guaranteed messaging by replicating the messages across a cluster of servers, and message persistence with journalling._

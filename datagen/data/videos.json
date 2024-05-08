@@ -7,7 +7,7 @@
     "when": "2023-12-07T07:42:12Z",
     "tags": [
       "scala",
-      "loom",
+      "virtual threads",
       "concurrency",
       "effects",
       "java",
@@ -135,7 +135,6 @@
     "when": "2021-07-16T08:07:54Z",
     "tags": [
       "scala",
-      "macros",
       "metaprogramming"
     ],
     "youtube": "gimw7xlRGWU"
@@ -185,8 +184,7 @@
     "when": "2021-04-01T12:51:44Z",
     "tags": [
       "scala",
-      "functional programming",
-      "scala3"
+      "functional programming"
     ],
     "youtube": "mhUjQgOsFyk"
   },
@@ -211,8 +209,6 @@
     "when": "2021-01-07T11:33:08Z",
     "tags": [
       "scala",
-      "scala3",
-      "macros",
       "metaprogramming"
     ],
     "youtube": "leIB5tvDY64"
@@ -226,9 +222,8 @@
     "tags": [
       "loom",
       "virtual threads",
-      "java21",
       "concurrency",
-      "jvm",
+      "java",
       "scala",
       "functional programming"
     ],
@@ -254,8 +249,7 @@
     "coverImage": "https://i.ytimg.com/vi/vqHQSWn-HgE/hqdefault.jpg",
     "when": "2020-10-15T09:42:25Z",
     "tags": [
-      "scala",
-      "scala3"
+      "scala"
     ],
     "youtube": "vqHQSWn-HgE"
   },
@@ -267,7 +261,7 @@
     "when": "2020-08-12T12:59:56Z",
     "tags": [
       "loom",
-      "java21",
+      "java",
       "virtual threads",
       "concurrency",
       "scala",
@@ -626,7 +620,6 @@
     "tags": [
       "scala",
       "functional programming",
-      "scala3",
       "concurrency"
     ],
     "youtube": "qR_Od7qbacs"
@@ -639,7 +632,6 @@
     "when": "2024-03-14T17:00:44Z",
     "tags": [
       "java",
-      "java21",
       "streaming"
     ],
     "youtube": "xQjcJCRI7h4"
@@ -652,7 +644,6 @@
     "when": "2024-04-24T15:00:10Z",
     "tags": [
       "scala",
-      "scala3",
       "concurrency"
     ],
     "youtube": "C3j4AsFcxmM"

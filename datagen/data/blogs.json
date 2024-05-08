@@ -10,7 +10,6 @@
       "virtual threads",
       "functional programming",
       "scala",
-      "resiliency",
       "concurrency"
     ],
     "description": "After several months of experimentation and multiple iterations on structured concurrency scopes and error handling, the Ox project's 0.1.0 release is now live! Read on to learn about the new features."
@@ -22,12 +21,10 @@
     "coverImage": "https://softwaremill.com/user/pages/blog/131.handling-errors-in-direct-style-scala/fp6vujc95wigvso.jpg?g-3298ba4c",
     "when": "2024-03-12T12:00:00Z",
     "tags": [
-      "error handling",
       "ox",
       "virtual threads",
       "structured concurrency",
-      "concurrency",
-      "exceptions"
+      "concurrency"
     ],
     "description": "Explore different ways in which we might represent errors and then examine, how such representations are supported in ox."
   },
@@ -43,7 +40,7 @@
       "ox",
       "virtual threads",
       "java",
-      "project loom",
+      "virtual threads",
       "kotlin",
       "jox",
       "performance",
@@ -58,11 +55,7 @@
     "coverImage": "https://softwaremill.com/user/pages/blog/114.self-documenting-code-is-a-myth/afjwevpfo5smrhg.jpg?g-3298ba4c",
     "when": "2024-02-07T12:00:00Z",
     "tags": [
-      "git",
-      "github",
-      "clean code",
-      "documentation",
-      "pull request"
+      "clean code"
     ],
     "description": "Does selfdocumenting code remove the need to comment your code? Well, not really - and here's why."
   },
@@ -74,11 +67,8 @@
     "when": "2024-02-02T12:00:00Z",
     "tags": [
       "scala",
-      "myscalastory",
-      "20yearsofscala",
-      "scalaversary",
-      "functionalprogramming",
-      "adam warski"
+      "personal",
+      "softwaremill"
     ],
     "description": "Hear from our community members as they share their personal and inspiring Scala journeys. Adam Warski is a Scala & Distributed Systems Expert, CTO and cofounder of SoftwareMill, OSS Developer."
   },
@@ -109,7 +99,7 @@
     "tags": [
       "jox",
       "java",
-      "java channels",
+      "channels",
       "kotlin"
     ],
     "description": "The jox library implements an efficient Channel data structure in Java, which is designed to be used with virtual threads. Currently, a preview 0.0.2 version, with the above basic functionality implemented. However, that's just the start—look at the closing remarks for our plans!"
@@ -123,12 +113,11 @@
     "tags": [
       "java",
       "performance",
-      "project loom",
+      "virtual threads",
       "go",
       "channels",
       "virtual threads",
-      "kotlin",
-      "uncoverjava"
+      "kotlin"
     ],
     "description": "Investigating the limits of Loom's performance, motivated by the channels implementation in Ox, and comparing with Kotlin's coroutines."
   },
@@ -142,14 +131,12 @@
       "java",
       "scala",
       "kafka",
-      "project loom",
-      "cocurrency",
+      "virtual threads",
+      "concurrency",
       "go",
       "channels",
       "ox",
-      "streaming",
-      "structured concurrency",
-      "supervision"
+      "structured concurrency"
     ],
     "description": "Have you heard of OX? It's a library for the JVM that facilitates structured concurrency. It combines Java 21's virtual threads with features from the Scala programming language and Gostyle channels. While it's still experimental, check out some of OX's new features."
   },
@@ -163,8 +150,7 @@
       "java",
       "scala",
       "functional programming",
-      "concurrency",
-      "immutability"
+      "concurrency"
     ],
     "description": "Here are some principles to consider when developing code with functional programming and Scala."
   },
@@ -176,7 +162,7 @@
     "when": "2023-07-21T12:00:00Z",
     "tags": [
       "scala",
-      "project loom",
+      "virtual threads",
       "concurrency",
       "go",
       "channels"
@@ -191,10 +177,7 @@
     "when": "2023-07-10T12:00:00Z",
     "tags": [
       "java",
-      "project loom",
       "concurrency",
-      "jvm",
-      "multithreading",
       "virtual threads"
     ],
     "description": "Project Loom introduces the concept of Virtual Threads to Java's runtime and will be available as a stable feature in JDK 21.To achieve the performance goals, any blocking operations need to be handled by Loom's runtime in a special way."
@@ -210,7 +193,6 @@
       "scala",
       "functional programming",
       "concurrency",
-      "asynchronous",
       "ox"
     ],
     "description": "Futures and promises have made their way into most of the mainstream languages. Are the concepts and mechanics behind futures/promises always the same, or are there some differences?"
@@ -223,14 +205,10 @@
     "when": "2023-04-03T12:00:00Z",
     "tags": [
       "scala",
-      "project loom",
-      "csp",
+      "virtual threads",
       "concurrency",
-      "jvm",
-      "go",
       "channels",
-      "ox",
-      "streaming"
+      "ox"
     ],
     "description": "Prototype implementation of a hybrid channel design: golike (procedural), and functional (with high-level combinators)"
   },
@@ -243,9 +221,7 @@
     "tags": [
       "java",
       "scala",
-      "http",
-      "asynchronous",
-      "jvm"
+      "http"
     ],
     "description": "The article discusses the issues with abandoned HTTP calls and offers an overview of how JVM HTTP clients enable cancelling ongoing requests, which can help conserve resources."
   },
@@ -258,8 +234,7 @@
     "tags": [
       "java",
       "scala",
-      "api",
-      "project loom",
+      "virtual threads",
       "concurrency"
     ],
     "description": "Prototype of what a Loombased concurrency API for Scala might look like"
@@ -272,14 +247,9 @@
     "when": "2023-01-05T12:00:00Z",
     "tags": [
       "cloud",
-      "functionalprogramming",
       "functional programming",
-      "fp",
       "unison",
-      "distributed systems",
-      "clustering",
-      "spark",
-      "edge computing"
+      "distributed"
     ],
     "description": "The last part of Trying out Unison series. Find the way to make distributed programming way more approachable than currently and really fun to program"
   },
@@ -291,13 +261,8 @@
     "when": "2022-11-21T12:00:00Z",
     "tags": [
       "architecture",
-      "distributed systems",
-      "scaling",
-      "mastodon",
-      "twitter",
-      "social media",
-      "postgresql",
-      "ruby on rails"
+      "distributed",
+      "rdbms"
     ],
     "description": "Let's take a look at one of Twitter alternatives: Mastodon. Will it scale?"
   },
@@ -310,11 +275,8 @@
     "tags": [
       "java",
       "akka",
-      "project loom",
       "concurrency",
-      "actor model",
-      "virtual threads",
-      "actors"
+      "virtual threads"
     ],
     "description": "Will actors remain relevant for concurrency in postLoom Java? In this implementation, we'll leverage a virtual thread, consuming messages from a queue, to create a JVM-scheduled actor."
   },
@@ -326,9 +288,8 @@
     "when": "2022-10-19T12:00:00Z",
     "tags": [
       "functional programming",
-      "fp",
       "unison",
-      "effect systems"
+      "effects"
     ],
     "description": "Effect systems aim to add some structure to the way sideeffects are represented in code. This includes any I/O operations, interactions with the system clock, generating random numbers, or spawning new computational threads."
   },
@@ -340,8 +301,7 @@
     "when": "2022-10-06T12:00:00Z",
     "tags": [
       "functional programming",
-      "unison",
-      "dependencies"
+      "unison"
     ],
     "description": "Dependency hell, package managers, publishing, supply chain attacks—these are just a few of the problems that might be solved by Unison."
   },
@@ -353,9 +313,8 @@
     "when": "2022-09-30T12:00:00Z",
     "tags": [
       "scala",
-      "project loom",
+      "virtual threads",
       "concurrency",
-      "multithreading",
       "tapir",
       "http",
       "sttp"
@@ -373,9 +332,7 @@
       "akka",
       "tapir",
       "http",
-      "scala 3",
-      "open api",
-      "migration"
+      "open api"
     ],
     "description": "With the AKKA stack turning to a license model, the community is exploring alternative toolsets. Tapir, our open source project, is a viable alternative to Akka HTTP."
   },
@@ -388,8 +345,7 @@
     "tags": [
       "functional programming",
       "unison",
-      "distributed systems",
-      "programming languages"
+      "distributed"
     ],
     "description": "Unison is functional, statically typed, and introduces some really interesting ideas that make it different from mainstream languages."
   },
@@ -402,11 +358,9 @@
     "tags": [
       "java",
       "scala",
-      "project loom",
-      "distributed systems",
-      "zio",
-      "distributed consensus",
-      "raft"
+      "virtual threads",
+      "distributed",
+      "zio"
     ],
     "description": "A closer look at the implementation of Raft using a different approach to concurrency: Project Loom."
   },
@@ -419,11 +373,9 @@
     "tags": [
       "scala",
       "functional programming",
-      "distributed systems",
+      "distributed",
       "zio",
-      "distributed consensus",
-      "raft",
-      "effect systems"
+      "effects"
     ],
     "description": "Functional effect systems are said to excel at concurrent programming. Is that the case? We're looking at that in a use case of implementing the Raft consensus algorithm."
   },
@@ -438,11 +390,9 @@
       "akka",
       "functional programming",
       "concurrency",
-      "asynchronous",
       "zio",
       "kotlin",
-      "coroutines",
-      "cats-effect"
+      "cats effect"
     ],
     "description": "A subjective view on the preSIP considering suspended functions and continuations in Scala 3 and the future of effects in the language."
   },
@@ -454,11 +404,8 @@
     "when": "2022-06-21T12:00:00Z",
     "tags": [
       "functional programming",
-      "scratch",
-      "logo",
-      "shelly",
-      "kids",
-      "education"
+      "something different",
+      "shelly"
     ],
     "description": "Given that functional programming requires adopting a certain mindset and often offers a unique perspective on the problem to be solved, can we introduce elements of FP to kids?"
   },
@@ -470,13 +417,9 @@
     "when": "2022-06-14T12:00:00Z",
     "tags": [
       "scala",
-      "api",
       "functional programming",
-      "open source",
       "tapir",
-      "swagger",
-      "open api",
-      "web frameworks"
+      "open api"
     ],
     "description": "After almost 4 years of development and multiple 0.x releases, the declarative, typesafe web endpoints library has reached a stable 1.0 version."
   },
@@ -504,8 +447,7 @@
       "scala",
       "cats effect",
       "tapir",
-      "bootzooka",
-      "autowire"
+      "bootzooka"
     ],
     "description": "A comprehensive guide to what's changed in Bootzooka, covering updates with cats-effect 3, autowire, and tapir."
   },
@@ -517,9 +459,6 @@
     "when": "2022-03-30T12:00:00Z",
     "tags": [
       "scala",
-      "functional programming",
-      "type safety",
-      "scala 3",
       "functional programming"
     ],
     "description": "We're putting some of the new Scala 3 features to work and checking how Scala’s compiler can help us with handling strings with special properties."
@@ -531,11 +470,7 @@
     "coverImage": "https://softwaremill.com/user/pages/blog/three-tools-to-improve-your-scala-workflow/blogpost-tools-scala-workflow.png?g-3298ba4c",
     "when": "2022-03-21T12:00:00Z",
     "tags": [
-      "scala",
-      "tooling",
-      "scala steward",
-      "mdoc",
-      "scalafmt"
+      "scala"
     ],
     "description": "A subjective overview of the most useful tooling to improve your Scala workflow, including Scala Steward, mdoc, and scalafmt."
   },
@@ -549,8 +484,7 @@
       "scala",
       "dependency injection",
       "zio",
-      "macwire",
-      "reader monad"
+      "functional programming"
     ],
     "description": "With ZIO 2.0.0-RC1 release, we're looking at its headline feature: improved and simplified approach to managing dependencies. Let's dive into the new ZIO environment."
   },
@@ -576,9 +510,7 @@
     "when": "2021-09-29T12:00:00Z",
     "tags": [
       "scala",
-      "performance",
-      "parsing",
-      "jmh"
+      "performance"
     ],
     "description": "Avoid exceptions in number parsing, they slow you down — see how Scala 2.13's .toIntOption method can make the process faster."
   },
@@ -591,12 +523,8 @@
     "tags": [
       "java",
       "cloud",
-      "cluster",
       "serverless",
-      "akka",
-      "google cloud platform",
-      "persistence",
-      "sharding"
+      "akka"
     ],
     "description": "A comprehensive guide to Akka Serverless, its state models, actions, effects, views, and more, along with a user registration case study."
   },
@@ -609,22 +537,11 @@
     "tags": [
       "kafka",
       "performance",
-      "postgresql",
-      "mongodb",
-      "redis",
-      "pulsar",
-      "message queue",
+      "rdbms",
+      "nosql",
       "messaging",
-      "clustering",
-      "event streaming",
-      "nats",
-      "sqs",
-      "eventstore",
-      "rocketmq",
-      "split-brain",
-      "rabbitmq",
-      "activemq",
-      "redpanda",
+      "aws",
+      "cloud",
       "mqperf"
     ],
     "description": "How do SQS, RabbitMQ, ActiveMQ Artemis, EventStore, Kafka, Pulsar, RedPanda, RocketMQ, PostgreSQL, NATS Streaming, Redis Streams and MongoDB compare when it comes to queueing?"
@@ -637,10 +554,8 @@
     "when": "2021-06-10T12:00:00Z",
     "tags": [
       "akka",
-      "sql",
       "rdbms",
-      "event sourcing",
-      "postgresql"
+      "event sourcing"
     ],
     "description": "Curious about the Event Sourcing in Java topic? Check this stepby-step practical guide to implementing an event sourcing database."
   },
@@ -653,8 +568,7 @@
     "tags": [
       "scala",
       "functional programming",
-      "macros",
-      "scala 3"
+      "metaprogramming"
     ],
     "description": "Some of the things we've learned when implementing a number of macros using Scala 3. A handy guide to start metaprogramming with Scala."
   },
@@ -667,9 +581,7 @@
     "tags": [
       "scala",
       "functional programming",
-      "dependency injection",
-      "programming",
-      "database"
+      "dependency injection"
     ],
     "description": "Context functions are one of the new contextual abstractions coming in Scala 3. What are they and what are the use-cases?"
   },
@@ -680,10 +592,9 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*Mu_-EYHqCP8VQdB3JgCZ1Q.png",
     "when": "2021-03-22T12:00:00Z",
     "tags": [
-      "programming",
-      "learn to code",
-      "turtle graphics",
-      "javascript",
+      "something different",
+      "shelly",
+      "typescript",
       "scala"
     ],
     "description": "Shelly — a programming language for drawing — is one of our side-projects, which we work on in-between other engagements."
@@ -697,9 +608,7 @@
     "tags": [
       "serverless",
       "scala",
-      "aws",
-      "yaml",
-      "lambda"
+      "aws"
     ],
     "description": "The serverless model has a lot of appeal: simple to deploy, simple to scale, no hardware to manage and no upfront financial commitments…"
   },
@@ -710,11 +619,7 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*f5JaNRTsE4YvlQZSi8pLjQ.png",
     "when": "2021-02-11T12:00:00Z",
     "tags": [
-      "validation",
-      "programming",
-      "java",
-      "scala",
-      "best practices"
+      "clean code"
     ],
     "description": "We can’t trust the data that reaches our servers. We have to make sure that it’s properly formatted, within range, that it references…"
   },
@@ -727,7 +632,6 @@
     "tags": [
       "scala",
       "sttp",
-      "http client",
       "functional programming"
     ],
     "description": "What’s new in the latest stable release of the Scala HTTP client that you always wanted?"
@@ -741,9 +645,7 @@
     "tags": [
       "functional programming",
       "scala",
-      "websocket",
-      "tapir",
-      "http4s"
+      "tapir"
     ],
     "description": "Let’s apply functional programming to a practical problem. Can you guess what it’s going to be?"
   },
@@ -754,8 +656,6 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*ZPHGMO147CDud8tHU4kNUg.png",
     "when": "2020-10-26T12:00:00Z",
     "tags": [
-      "websocket",
-      "asyncapi",
       "open api",
       "functional programming",
       "akka"
@@ -771,9 +671,8 @@
     "tags": [
       "java",
       "scala",
-      "jvm",
       "functional programming",
-      "programming languages"
+      "clean code"
     ],
     "description": "The latest Java release brings us a fresh portion of new features. How do they compare to what’s available in Scala?"
   },
@@ -784,11 +683,8 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*-ArJr9fsub2cMX-gmPShrA.jpeg",
     "when": "2020-09-23T12:00:00Z",
     "tags": [
-      "auth0",
       "security",
-      "microservices",
-      "oauth2",
-      "system architecture"
+      "cloud"
     ],
     "description": "Or when to use external Microservices."
   },
@@ -800,9 +696,7 @@
     "when": "2020-09-01T12:00:00Z",
     "tags": [
       "scala",
-      "http",
-      "http client",
-      "websocket"
+      "http"
     ],
     "description": "For the past three months we’ve been working on an update to sttp client, which is now available as version 3.0.0-RC1."
   },
@@ -843,10 +737,8 @@
     "when": "2020-06-01T12:00:00Z",
     "tags": [
       "scala",
-      "scalar",
-      "functional programming",
       "conferences",
-      "programming"
+      "functional programming"
     ],
     "description": "Wait … whiteboard voting in 2020? How? When? Why?"
   },
@@ -873,10 +765,7 @@
     "when": "2020-05-04T12:00:00Z",
     "tags": [
       "scala",
-      "dotty",
-      "metaprogramming",
-      "macro",
-      "programming"
+      "metaprogramming"
     ],
     "description": "Writing a simple “debug” macro step-by-step using Scala 3 / Dotty metaprogramming."
   },
@@ -889,8 +778,6 @@
     "tags": [
       "event sourcing",
       "performance",
-      "audit",
-      "ddd",
       "kafka"
     ],
     "description": "When to consider using event sourcing? What are the scenarios, where this pattern works best?"
@@ -902,11 +789,7 @@
     "coverImage": "https://softwaremill.com/user/pages/blog/remote-software-development-project/remote software project miroservices.png?g-3298ba4c",
     "when": "2020-04-15T12:00:00Z",
     "tags": [
-      "remote working",
-      "software development",
-      "business",
-      "remote",
-      "teamwork"
+      "softwaremill"
     ],
     "description": "An effective remote team knows how to deliver a software project in a distributed model, what traps to avoid & what best practices to employ."
   },
@@ -920,8 +803,7 @@
       "scala",
       "http",
       "functional programming",
-      "akka",
-      "codec"
+      "akka"
     ],
     "description": "Encoding and decoding values is one of the core concepts in a library like Tapir — and it just got better!"
   },
@@ -934,9 +816,8 @@
     "tags": [
       "serverless",
       "aws",
-      "kubernetes",
-      "modularity",
-      "abstraction"
+      "cloud",
+      "modularity"
     ],
     "description": "Good abstractions are good, bad abstractions are bad, but… what does it all have to do with serverless? More than you would initially…"
   },
@@ -964,8 +845,7 @@
       "java",
       "kotlin",
       "scala",
-      "concurrency",
-      "jvm"
+      "concurrency"
     ],
     "description": "Project Loom has three main goals: introducing continuations, fibers, and tail-call elimination."
   },
@@ -977,8 +857,7 @@
     "when": "2020-01-21T12:00:00Z",
     "tags": [
       "scala",
-      "doobie",
-      "relational databases",
+      "rdbms",
       "testing"
     ],
     "description": "Testing Doobie, one of the most popular Scala libraries to work with relational databases."
@@ -1019,9 +898,7 @@
     "when": "2019-11-14T12:00:00Z",
     "tags": [
       "scala",
-      "notebook",
-      "spark",
-      "http request",
+      "http",
       "sttp"
     ],
     "description": "Exploring some data using sttp client in a polynote notebook"
@@ -1034,10 +911,8 @@
     "when": "2019-10-18T12:00:00Z",
     "tags": [
       "scala",
-      "websocket",
-      "async http client",
-      "akka",
-      "okhttp"
+      "http",
+      "akka"
     ],
     "description": "One feature missing from sttp for a long time was support for websockets. With the development of sttp 2, it’s about time to change that!"
   },
@@ -1048,11 +923,9 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*ZS0vPPk-ftu_6C9xWd_beQ.png",
     "when": "2019-10-01T12:00:00Z",
     "tags": [
-      "api",
       "sttp",
       "scala",
-      "http",
-      "open source"
+      "http"
     ],
     "description": "sttp: the Scala HTTP client you always wanted! And now it’s getting even better :)"
   },
@@ -1065,9 +938,7 @@
     "tags": [
       "scala",
       "java",
-      "spring",
-      "transactions",
-      "relational databases"
+      "rdbms"
     ],
     "description": "How transaction demarcation is solved in Scala using immutable values, and how this relates to Java’s @Transactional"
   },
@@ -1079,10 +950,7 @@
     "when": "2019-08-21T12:00:00Z",
     "tags": [
       "scala",
-      "functional programming",
-      "template",
-      "react",
-      "open source"
+      "functional programming"
     ],
     "description": "Bootzooka is a template project for a Scala-based microservice, or a Scala+React web application."
   },
@@ -1093,11 +961,7 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*86C5eg6PFIh3DKXFDfECjA.png",
     "when": "2019-07-10T12:00:00Z",
     "tags": [
-      "ethereum",
-      "durable medium",
-      "blockchain",
-      "smart contract",
-      "tenders"
+      "blockchain"
     ],
     "description": "An example of a very simple contract which aids the tendering process."
   },
@@ -1122,10 +986,7 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*UocrbJYmzA-V6CkouqfQuw.jpeg",
     "when": "2019-06-24T12:00:00Z",
     "tags": [
-      "blockchain",
-      "libra blockchain",
-      "ethereum blockchain",
-      "facebook"
+      "blockchain"
     ],
     "description": "Is Facebook’s new cryptocurrency Libra, really a blockchain?"
   },
@@ -1138,9 +999,8 @@
     "tags": [
       "scala",
       "zio",
-      "scalaz",
       "functional programming",
-      "cats"
+      "cats effect"
     ],
     "description": "The IO from cats-effect and ZIO from zio might seem quite similar — but as is often the case, the devil is in the details!"
   },
@@ -1153,8 +1013,7 @@
     "tags": [
       "functional programming",
       "scala",
-      "http",
-      "curl"
+      "http"
     ],
     "description": "A brand-new addition to sttp is the ability to convert the description of an HTTP request to a curl command."
   },
@@ -1165,11 +1024,9 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*9CnqScCEkVJlvOXXXzvwhg.jpeg",
     "when": "2019-05-30T12:00:00Z",
     "tags": [
-      "docker",
       "java",
-      "graalvm",
       "scala",
-      "sbt"
+      "graalvm"
     ],
     "description": "How to reduce the size of the docker images and decrease the time it takes the application to run."
   },
@@ -1180,11 +1037,8 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*M3qaHE1VzKkBXNhdndbyhQ.png",
     "when": "2019-05-13T12:00:00Z",
     "tags": [
-      "programming",
-      "java",
       "graalvm",
-      "scala",
-      "jvm"
+      "java"
     ],
     "description": "Enjoy faster Java execution with just released 19.0 version of GraalVM."
   },
@@ -1197,7 +1051,6 @@
     "tags": [
       "java",
       "scala",
-      "programming",
       "http",
       "functional programming"
     ],
@@ -1211,7 +1064,7 @@
     "when": "2019-04-10T12:00:00Z",
     "tags": [
       "scala",
-      "conference",
+      "conferences",
       "akka",
       "functional programming"
     ],
@@ -1227,8 +1080,7 @@
       "scala",
       "functional programming",
       "zio",
-      "dependency injection",
-      "programming"
+      "dependency injection"
     ],
     "description": "If you follow the Scala community, you’ve probably heard about John de Goes’s talk “Death of Final Tagless”. If you haven’t, no worries —…"
   },
@@ -1240,7 +1092,6 @@
     "when": "2019-02-25T12:00:00Z",
     "tags": [
       "scala",
-      "swagger",
       "akka",
       "functional programming",
       "open api"
@@ -1254,11 +1105,9 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*Bkn0azYUh3uI96O_JYgmBA.png",
     "when": "2018-11-26T12:00:00Z",
     "tags": [
-      "programming",
       "scala",
       "functional programming",
-      "monix",
-      "distributed systems"
+      "distributed"
     ],
     "description": "Support for correlation IDs is one more area where separating program description from evaluation can be beneficial."
   },
@@ -1271,8 +1120,7 @@
     "tags": [
       "dependency injection",
       "java",
-      "spring",
-      "design patterns"
+      "clean code"
     ],
     "description": "Is Dependency Injection something to use in your application? Or maybe using DI makes you a bad programmer? Let’s try to clear things up!"
   },
@@ -1286,8 +1134,7 @@
       "scala",
       "kotlin",
       "java",
-      "programming",
-      "programming languages"
+      "clean code"
     ],
     "description": "Following Martin Odersky’s keynote at ScalaDays, which laid out plans for Scala 3, and John de Goes’s keynote during Scalapeño on the…"
   },
@@ -1301,7 +1148,6 @@
       "functional programming",
       "scala",
       "akka",
-      "programming",
       "concurrency"
     ],
     "description": "In the previous parts we’ve seen:"
@@ -1315,8 +1161,6 @@
     "tags": [
       "scala",
       "akka",
-      "scalaz",
-      "monix",
       "functional programming"
     ],
     "description": "In part 1, we’ve explored how to implement a process which manages some non-trivial state using Akka, Akka Typed, Monix and ZIO. However…"
@@ -1329,8 +1173,6 @@
     "when": "2018-06-12T12:00:00Z",
     "tags": [
       "scala",
-      "scalaz",
-      "monix",
       "akka",
       "functional programming"
     ],
@@ -1344,7 +1186,7 @@
     "when": "2018-05-23T12:00:00Z",
     "tags": [
       "scala",
-      "conference"
+      "conferences"
     ],
     "description": "It’s over a month since Scalar 2018; all of the videos are available, and we’re slowly starting to think about the next one (which will…"
   },
@@ -1358,8 +1200,7 @@
       "java",
       "kotlin",
       "scala",
-      "asynchronous",
-      "programming"
+      "clean code"
     ],
     "description": "Have you ever wondered why you have to wrestle with CompletableFutures instead of “just writing code” like in the old days? Is it only for…"
   },
@@ -1370,11 +1211,9 @@
     "coverImage": "https://miro.medium.com/v2/resize:fit:1200/1*N0s_mXtMRj9rL_gdsv45zw.jpeg",
     "when": "2018-03-05T12:00:00Z",
     "tags": [
-      "big data",
       "kafka",
       "event sourcing",
-      "akka",
-      "kafka streams"
+      "akka"
     ],
     "description": "When building an event sourced system, there’s a couple of options available when it comes to persistence. First is EventStore, a mature…"
   },
@@ -1387,9 +1226,7 @@
     "tags": [
       "scala",
       "akka",
-      "akka http",
-      "prometheus",
-      "metrics"
+      "observability"
     ],
     "description": "Recently I faced a seemingly simple task of measuring how long a request takes and reporting this metric via Prometheus. After a quick…"
   },
@@ -1401,9 +1238,7 @@
     "when": "2018-02-14T12:00:00Z",
     "tags": [
       "java",
-      "scala",
-      "spring",
-      "kotlin"
+      "scala"
     ],
     "description": "Over the years, we — the Java/JVM community — have developed a fear of writing public static void main(...) by hand. We either managed to…"
   },
@@ -1415,7 +1250,7 @@
     "when": "2018-02-08T12:00:00Z",
     "tags": [
       "scala",
-      "newsletter",
+      "softwaremill",
       "functional programming"
     ],
     "description": "The first issue of Scala Times was published on the 13th of February, 2014, and was delivered to 98 subscribers. 4 years and 208 issues…"
@@ -1428,9 +1263,8 @@
     "when": "2017-11-07T12:00:00Z",
     "tags": [
       "scala",
-      "software development",
-      "simplicity",
-      "open source"
+      "clean code",
+      "functional programming"
     ],
     "description": "Let’s use simple code to solve simple problems!"
   },
@@ -1442,9 +1276,7 @@
     "when": "2017-10-19T12:00:00Z",
     "tags": [
       "scala",
-      "reactive programming",
-      "akka",
-      "okhttp"
+      "akka"
     ],
     "description": "I’m happy to announce that sttp 1.0 — the Scala HTTP client that you always wanted — is now available. The project’s quite young, but…"
   },
@@ -1457,9 +1289,7 @@
     "tags": [
       "java",
       "annotations",
-      "spring",
-      "software development",
-      "programming"
+      "clean code"
     ],
     "description": "Annotations were introduced to Java in 2004 and have since enabled a lot of progress and vastly improved the way we write software in the…"
   },
@@ -1472,10 +1302,7 @@
       "scala",
       "akka",
       "http",
-      "library",
-      "sttp",
-      "scalaz",
-      "monix"
+      "sttp"
     ],
     "description": "sttp streaming and the URI interpolator. sttp is a Scala HTTP client library with the goal of providing a simple, no-surprises, immutable API."
   },
@@ -1488,8 +1315,7 @@
     "tags": [
       "kafka",
       "messaging",
-      "distributed",
-      "exactly-once"
+      "distributed"
     ],
     "description": "There’s still confusion as to what exactlyonce processing means in Kafka. Here's how to construct a Kafka exactly once pipeline right."
   },
@@ -1502,10 +1328,7 @@
       "scala",
       "akka",
       "http",
-      "library",
-      "sttp",
-      "scalaz",
-      "monix"
+      "sttp"
     ],
     "description": "The Scala ecosystem is rich in http client libraries. However, I always found them lacking in some aspect. That's why sttp provides a simple, type-safe API for defining HTTP requests."
   },
@@ -1518,15 +1341,9 @@
     "tags": [
       "kafka",
       "messaging",
-      "sqs",
-      "benchmark",
-      "mq",
-      "activemq",
-      "rabbitmq",
-      "mongodb",
-      "kmq",
-      "artemis",
-      "evenstore"
+      "performance",
+      "nosql",
+      "kmq"
     ],
     "description": "How does SQS, RabbitMQ, ActiveMQ, Artemis, EventStore, Kafka and MongoDB compare when it comes to queueing?"
   },
@@ -1538,28 +1355,23 @@
     "when": "2017-07-06T12:00:00Z",
     "tags": [
       "aws",
-      "sqs",
-      "benchmark",
+      "cloud",
       "performance",
-      "latency",
-      "mq"
+      "messaging"
     ],
     "description": "It's been a while since we last looked at how fast Amazon SQS is. Did anything change? What kind of performance can you expect from simple AWS queue service (amazon sqs)?. How SQS works. First, a quick refresher (or introduction, if you are not yet familiar with the service) on how SQS works.Amazon SQS is a message que"
   },
   {
     "id": "fb10a3bb-b18d-45ad-9f79-d2d7e4139dd3",
-    "title": "Kafka with selective acknowledgments (kmq) performance & latency benchmark | SofwtareMill",
+    "title": "Kafka with selective acknowledgments (kmq) performance & latency benchmark",
     "url": "https://softwaremill.com/kafka-with-selective-acknowledgments-performance/",
     "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2017/06/kmq/kmq-6nodes-25threads.png",
     "when": "2017-06-22T12:00:00Z",
     "tags": [
       "kafka",
-      "benchmark",
       "performance",
-      "latency",
-      "grafana",
       "kmq",
-      "prometheus"
+      "messaging"
     ],
     "description": "Kafka acknowledgment explained. When receiving messages from Apache Kafka, you can only acknowledge the messages up to a given offset. Read!"
   },
@@ -1570,11 +1382,9 @@
     "when": "2017-06-18T12:00:00Z",
     "tags": [
       "scala",
-      "presentations",
       "dependency injection",
       "functional programming",
-      "reader monad",
-      "guice"
+      "clean code"
     ],
     "description": "How in-code dependencies are managed is one of the key decisions to make when working on a project. Let's discuss dependency injection."
   },
@@ -1585,10 +1395,7 @@
     "when": "2017-05-08T12:00:00Z",
     "tags": [
       "scala",
-      "functional",
-      "monad",
-      "free",
-      "tagless"
+      "functional programming"
     ],
     "description": "Find out how does free monads & the final-tagless encoding work and is it worth to use free over tagless in Scala & Functional Programming."
   },
@@ -1599,12 +1406,7 @@
     "when": "2017-04-18T12:00:00Z",
     "tags": [
       "scala",
-      "slick",
-      "sql",
-      "rdbms",
-      "doobie",
-      "quill",
-      "scalikejdbc"
+      "rdbms"
     ],
     "description": "Relational databases might no longer be the only and primary storage option; but for sure, they aren't going anywhere. Accessing them is still a common task in our programming life, and that translates to many libraries which aim to help us write correct, readable and maintainable RDBMsrelated code.What are the options"
   },
@@ -1615,9 +1417,7 @@
     "when": "2017-03-29T12:00:00Z",
     "tags": [
       "java",
-      "cache",
-      "guava",
-      "caffeine"
+      "concurrency"
     ],
     "description": "Beware of using the get-if absent compute-put sequence to cache values in a multi-threaded environment. Use Caffeine & the atomic get-or-create operation."
   },
@@ -1631,9 +1431,8 @@
       "scala",
       "java",
       "kafka",
-      "sqs",
-      "mq",
-      "reactive"
+      "messaging",
+      "kmq"
     ],
     "description": "Apache Kafka is a very popular publish/subscribe system. What is the best way to leverage Kafka queue? Read the article here!"
   },
@@ -1643,10 +1442,7 @@
     "url": "https://softwaremill.com/bring-some-color-to-scala-compiler/",
     "when": "2017-01-31T12:00:00Z",
     "tags": [
-      "scala",
-      "clippy",
-      "sbt",
-      "compiler"
+      "scala"
     ],
     "description": "Only last week, Chris wrote about what's new in Scala Clippy, which included highlighting diffs in type mismatch errors.This week (in version 0.5.0), we are introducing another colorrelated feature: syntax highlighting in the Scala compiler output!. Here's how it looks in practice:. Much nicer than the all-same-color d"
   },
@@ -1657,9 +1453,7 @@
     "when": "2016-12-12T12:00:00Z",
     "tags": [
       "scala",
-      "scalaz",
       "dependency injection",
-      "monad",
       "functional programming",
       "macwire"
     ],
@@ -1671,9 +1465,8 @@
     "url": "https://softwaremill.com/most-popular-push-to-talk-keyboard-shortcut/",
     "when": "2016-12-08T12:00:00Z",
     "tags": [
-      "marketing",
-      "remote",
-      "teamspeak"
+      "softwaremill",
+      "something different"
     ],
     "description": "Being a distributed company and working remotely creates new challenges when it comes to efficient communication. Part of our solution is to use a pushto-talk system, TeamSpeak in our case. You might have last used it when playing your favorite PlayStation game, but it turns out it's also very useful for remote work. F"
   },
@@ -1684,13 +1477,10 @@
     "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2016/12/its2016paper_cover.png",
     "when": "2016-12-01T12:00:00Z",
     "tags": [
-      "big data",
-      "flink",
+      "conferences",
       "kafka",
       "akka",
-      "spark",
-      "its",
-      "marketing"
+      "big data"
     ],
     "description": "The Intelligent Transport Systems (ITS) Congress 2016, which took place in Melbourne, Australia, was a great place to catch up on the current trends in the industry, as well as to present our paper on how the opensource Big Data ecosystem can be leveraged in ITS.Apart from being available in the congress proceedings, t"
   },
@@ -1701,10 +1491,7 @@
     "when": "2016-11-14T12:00:00Z",
     "tags": [
       "scala",
-      "big data",
-      "haskell",
-      "functional programming",
-      "lens"
+      "functional programming"
     ],
     "description": "Scala Fold definition. Folding is all about combining a sequence of input elements into a single output element. More inside this tutorial."
   },
@@ -1717,10 +1504,7 @@
     "tags": [
       "akka",
       "kafka",
-      "big data",
-      "spark",
-      "flink",
-      "streaming"
+      "big data"
     ],
     "description": "Processing data in a streaming fashion is more popular than batch-processing big data sets. When to choose Spark, Flink, Kafka, Akka or else?"
   },
@@ -1731,10 +1515,7 @@
     "when": "2016-08-31T12:00:00Z",
     "tags": [
       "scala",
-      "akka",
-      "reactive",
-      "actors",
-      "amazon"
+      "akka"
     ],
     "description": "Submit the RunTaskRequest, poll for task status, and finally get the results. This would work fine, however the pure-actor solution has flaws."
   },
@@ -1747,11 +1528,7 @@
     "tags": [
       "scala",
       "akka",
-      "kafka",
-      "reactive",
-      "spark",
-      "flink",
-      "bigdata"
+      "big data"
     ],
     "description": "Comparing to Spark, Flink or Kafka Streams, windowing data in Akka Streams isn’t definitely a one-liner, but it’s also not that hard to implement it."
   },
@@ -1762,10 +1539,7 @@
     "when": "2016-06-01T12:00:00Z",
     "tags": [
       "kafka",
-      "reactive",
-      "spark",
-      "flink",
-      "bigdata"
+      "big data"
     ],
     "description": "The streaming space is quickly becoming crowded, so how is Kafka Streams different & where does it fit in the stream processing developers toolbox?"
   },
@@ -1776,9 +1550,7 @@
     "when": "2016-05-17T12:00:00Z",
     "tags": [
       "scala",
-      "bootzooka",
-      "security",
-      "json"
+      "security"
     ],
     "description": "When developing web apps and REST/HTTP APIs using Scala it's convenient to automatically serialize any case class as a response to the client."
   },
@@ -1789,7 +1561,7 @@
     "coverImage": "https://pbs.twimg.com/media/CgJwYN9W4AAA97D.jpg:small",
     "when": "2016-05-05T12:00:00Z",
     "tags": [
-      "marketing",
+      "conferences",
       "scala"
     ],
     "description": "Results of the Scalar's conference contest for the best Scala Meme. Want to see how scala programmers see scala programming? It's fun!"
@@ -1801,9 +1573,8 @@
     "when": "2015-12-01T12:00:00Z",
     "tags": [
       "scala",
-      "slick",
-      "event sourcing",
-      "audit"
+      "rdbms",
+      "event sourcing"
     ],
     "description": "I’ve been working on various ways to audit data for quite some time now, probably because when working in IT (Information Technology), it’s just so painful to see all that historical data go to waste. You never know when it might be useful, but often it’s too late! Moreover, a good technical approach to auditing"
   },
@@ -1815,9 +1586,7 @@
     "tags": [
       "scala",
       "akka",
-      "security",
-      "spray",
-      "jwt"
+      "security"
     ],
     "description": "akka-http-session provides directives for secure client-side session management in web and mobile applications, using cookies or custom headers + local storage and optional Json Web Tokens format support."
   },
@@ -1829,9 +1598,7 @@
     "when": "2015-10-06T12:00:00Z",
     "tags": [
       "scala",
-      "functional",
-      "monad",
-      "category theory"
+      "functional programming"
     ],
     "description": "If you're into functional programming you'll encounter free monads. A free monad is a construction which allows to build a monad from any Functor."
   },
@@ -1843,11 +1610,8 @@
     "when": "2015-09-17T12:00:00Z",
     "tags": [
       "scala",
-      "slick",
       "event sourcing",
-      "cqrs",
-      "database",
-      "design"
+      "rdbms"
     ],
     "description": "Event sourcing is an approach in which changes to application state are persistently stored as a stream of immutable events. This is in contrast to typical CRUD applications, where only the current state is stored and mutated when commands come into the system. There's a lot of great introductory material on event sour"
   },
@@ -1858,9 +1622,7 @@
     "when": "2015-08-28T12:00:00Z",
     "tags": [
       "scala",
-      "akka",
-      "bootzooka",
-      "akkahttp"
+      "akka"
     ],
     "description": "Akka HTTP is a HTTP client & server implementation on top of Akka & Akka Stream, with a very flexible and elegant routing DSL for defining endpoints."
   },
@@ -1871,9 +1633,7 @@
     "when": "2015-07-10T12:00:00Z",
     "tags": [
       "scala",
-      "akka",
-      "web",
-      "spray"
+      "akka"
     ],
     "description": "akka-http-session provides client-side sessions using session cookies with signed content, optionally encrypted & expiring after a given period."
   },
@@ -1884,9 +1644,7 @@
     "when": "2015-05-28T12:00:00Z",
     "tags": [
       "scala",
-      "akka",
-      "scalaz",
-      "streaming"
+      "akka"
     ],
     "description": "Comparing design, features, API and performance by implementing same data streaming code examples using either akka-stream or scalaz-stream."
   },
@@ -1898,30 +1656,11 @@
     "tags": [
       "kafka",
       "messaging",
-      "sqs",
-      "mq",
-      "activemq",
-      "rabbitmq",
-      "mongodb",
-      "hornetq"
+      "nosql",
+      "rdbms",
+      "performance"
     ],
     "description": "How does SQS, RabbitMQ, ActiveMQ, Artemis, EventStore, Kafka and MongoDB compare when it comes to queueing?"
-  },
-  {
-    "id": "b41ed6c8-d8ef-4e19-b70a-f81cc154936c",
-    "title": "Implementing the Reactive Manifesto with Akka",
-    "url": "https://softwaremill.com/implementing-reactive-manifesto/",
-    "when": "2015-02-27T12:00:00Z",
-    "tags": [
-      "scala",
-      "presentations",
-      "akka",
-      "reactive",
-      "cluster",
-      "streams",
-      "persistence"
-    ],
-    "description": "Introduction to the reactive ideology. How to code a reactive application using Akka Cluster, Akka Streams and Akka Persistence."
   },
   {
     "id": "7e6ad6e0-1d53-412c-91e1-db8f6fc87342",
@@ -1951,8 +1690,8 @@
     "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2014/06/casestudyyap.png",
     "when": "2014-06-05T12:00:00Z",
     "tags": [
-      "marketing",
-      "case study"
+      "softwaremill",
+      "scala"
     ],
     "description": "SoftwareMill and Yap.TV began cooperation in September 2011. At the time, the Yap.TV server was entirely Rubybased. While this worked in the beginning, as the user base grew, high load on the servers, especially during prime time TV, caused significant issues with server performance and scalability.Not only was this de"
   },
@@ -1962,7 +1701,8 @@
     "url": "https://softwaremill.com/bootzooka-update-fat-jar/",
     "when": "2014-03-04T12:00:00Z",
     "tags": [
-      "bootzooka"
+      "bootzooka",
+      "scala"
     ],
     "description": "Bootzooka is our template web project, featuring Scala and Scalatra for the backend, an AngularJS singlepage-app for the frontend, and a joint SBT+Grunt build process.You can now create a single, runnable jar thanks to the SBT assembly plugin. The fat-jar includes all of Bootzooka's code, as well as the Javascript, sty"
   },
@@ -1972,7 +1712,8 @@
     "url": "https://softwaremill.com/bootzooka-update-pbkdf2/",
     "when": "2014-02-27T12:00:00Z",
     "tags": [
-      "bootzooka"
+      "bootzooka",
+      "scala"
     ],
     "description": "Bootzooka is our template web project, featuring Scala and Scalatra for the backend, an AngularJS singlepage-app for the frontend, and a joint SBT+Grunt build process.Even a template project evolves all the time. Recently I've been speaking at Jfokus, and one of the most interesting presentations I attended was on secu"
   },
@@ -1982,7 +1723,7 @@
     "url": "https://softwaremill.com/conways-law-and-softwaremill/",
     "when": "2014-02-20T12:00:00Z",
     "tags": [
-      "marketing"
+      "softwaremill"
     ],
     "description": "Some time ago I was reading a summary of the BuildStuff 2013 conference by Pieter Hintjens. It’s an interesting read as a whole, but here I’d like to draw your attention to the fragment about Conway’s Law.Conway’s Law says that the systems we create as a company reflect the communication patterns of the company"
   },
@@ -1993,8 +1734,8 @@
     "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2014/02/hackaton.jpg",
     "when": "2014-02-14T12:00:00Z",
     "tags": [
-      "ibeacon",
-      "hackaton"
+      "something different",
+      "hardware"
     ],
     "description": "Last week, during our monthly face to-face meeting, we held the first Softwaremill hackaton. The main theme were iBeacons. As many of us already did some experiments with Bluetooth LE (the technolgy behind beacons), we had a couple of Estimote beacons, Gimbal beacons, RaspberryPis with BLE dongles and iPhones/MacBooks;"
   },
@@ -2005,7 +1746,7 @@
     "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2013/12/typesafe.png",
     "when": "2013-12-04T12:00:00Z",
     "tags": [
-      "marketing"
+      "softwaremill"
     ],
     "description": "We are happy to announce that SoftwareMill signed a consulting partnership agreement with Typesafe, Inc. Typesafe is dedicated to helping developers build Reactive applications on the JVM. With the Typesafe Reactive Platform, including Play Framework, Akka, and Scala, developers can deliver highly resp"
   },
@@ -2015,7 +1756,8 @@
     "url": "https://softwaremill.com/softwaremill-goes-to-devoxx-2013/",
     "when": "2013-11-05T12:00:00Z",
     "tags": [
-      "marketing"
+      "conferences",
+      "softwaremill"
     ],
     "description": "It is almost a tradition that a large representation from our company attends. Devoxx, the biggest Java conference in Europe.This year we are going with a strong team of 7 people. (Maciek,. Jarek,. Jacek,. Paweł,. Tomek,. Adam and. Łukasz),. joined by some friends from the Warsaw JUG and others. (So expect an even la"
   },
@@ -2026,8 +1768,7 @@
     "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2013/03/2013-02-28_2020.png",
     "when": "2013-03-05T12:00:00Z",
     "tags": [
-      "projects",
-      "jbison"
+      "softwaremill"
     ],
     "description": "We have recently released a new version of JBison (https://jbison.com), our software as-a-service web&application monitoring website.The highlight of this release are the so-called “JSON monitors”. What can you monitor with them? Basically – anything. JSON monitors allow to monitor an arbitrary metric of you"
   },
@@ -2038,7 +1779,8 @@
     "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2013/03/new-layout.gif",
     "when": "2013-03-03T12:00:00Z",
     "tags": [
-      "projects"
+      "bootzooka",
+      "scala"
     ],
     "description": "Overview. Here we are again! Bootstrap is evolving and a new contributor, Krzysztof Ciesielski, joined our ranks! This iteration was a technical one but very interesting at the same time. Highlights of the changes:. . better Angular files layout. testing Angular directives (= testing DOM manipulation!). migrating fro"
   },
@@ -2048,7 +1790,7 @@
     "url": "https://softwaremill.com/softwaremill-a-confitura-2011-partner/",
     "when": "2011-05-18T12:00:00Z",
     "tags": [
-      "marketing",
+      "softwaremill",
       "conferences"
     ],
     "description": "Just like last year, SoftwareMill is a partner of the current edition of Confitura (formerly Javarsovia). Confitura is the largest community conference dedicated to Java in Poland, and had almost 1000 participants last year.Go register now, the programme is looking very interesting! We particularly recommend our e"
@@ -2059,8 +1801,7 @@
     "url": "https://softwaremill.com/mobicents-in-production-attikis/",
     "when": "2011-04-11T12:00:00Z",
     "tags": [
-      "marketing",
-      "projects"
+      "softwaremill"
     ],
     "description": "One of the main parts of the Attikis system is a VoIP module that services incoming alarms and outgoing voice mail. The module was built 100% based on an opensource project, Mobicents. We used two components of Mobicents: Mobicents SIP Servlets and Mobicents Media Server.When Attikis gets an incoming connection"
   },
@@ -2071,8 +1812,7 @@
     "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2013/06/attikis_references.jpg",
     "when": "2011-03-17T12:00:00Z",
     "tags": [
-      "marketing",
-      "projects"
+      "softwaremill"
     ],
     "description": "SoftwareMill got references for the development of the project Attikis – home monitoring service integrated with home alarm systems, based on VoIP technology. Let the letter speak for itself: ."
   },
