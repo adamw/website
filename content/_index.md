@@ -3,21 +3,18 @@ title: Home
 description: Sharing elegant solutions to everyday problems
 profile_image: images/cover.jpg
 main_interest:
-  title: Main interest
-  description: All my thoughts about programming, career and much more. Collected in chronological order in the form of articles, video tutorials and talks.
+  title: Main interests
+  description: What my projects, articles & videos are usually about. But not only!
   category:
-    - title: Articles
-      icon: "fa-regular fa-file-lines"
-      link: "/articles"
-      description: I like sharing my ideas in articles, which I hope can provide inspiration or information to those who need it or readers.
-    - title: Videos
-      icon: "fa-brands fa-youtube"
-      link: "/videos"
-      description: One of my favorite ways to share my ideas is on video, where there is more communication bandwidth than in writing.
-    - title: Projects
-      icon: "fa-solid fa-list-check"
-      link: "/projects"
-      description: I've worked on many projects over the years, but this is the one I'm most proud of. Many of them are open source.
+    - title: Functional programming
+      icon: "fa-solid fa-mountain-sun"
+      description: "I started my FP adventure using Scheme and OCaml, but I'm now a happy user of Scala: an elegant, safe and practical language combining functional and object-oriented programming."
+    - title: Event sourcing
+      icon: "fa-solid fa-person-hiking"
+      description: Event sourcing gives us not only performance, but also makes sure important data doesn't disappear, and offers and interesting way of structuring code. It's usable both in the large, and in the small, which isn't so well known!
+    - title: Developer experience
+      icon: "fa-solid fa-cloud-sun"
+      description: How to balance safety properties guaranteed at compile-time, with code readability and maintainability? Fundamental tradeoffs are not always obvious, and most popular approaches aren't always "the best".  
 
 ---
-XYZ.
+I'm Adam Warski: programmer, OSS developer and the co-founder of SoftwareMill. Following the motto above, I enjoy both writing and speaking on various programming-related subjects, very often around the areas of distributed systems, architecture and functional programming.
