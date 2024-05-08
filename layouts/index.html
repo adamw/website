@@ -109,9 +109,8 @@
         </div>
       </div>
 
-      <div class="contact grid grid-cols-1 md:grid-cols-2 gap-16">
-        {{ with .Params.contact }}
-        <div class="contact-left flex items-center">
+      <div class="flex justify-center">
+        <div class="w-full md:w-1/2">
           <div class="w-full">
             <div class="mb-12" id="getintouch">
               <h1 class="text-4xl font-semibold text-[#101828] mb-5">Get in touch</h1>
@@ -166,10 +165,6 @@
             </div>
           </div>
         </div>
-        <div class="contact-right hidden md:block">
-          <img src="{{.image}}" width="100%" height="100%">
-        </div>
-        {{ end }}
       </div>
     </div>
   </section>

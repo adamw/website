@@ -23,8 +23,6 @@ main_interest:
       icon: "fa-solid fa-list-check"
       link: "/projects"
       description: I've worked on many projects over the years, but this is the one I'm most proud of. Many of them are open source.
-contact:
-  image: images/contact.png
 
 ---
 XYZ.
