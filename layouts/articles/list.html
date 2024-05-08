@@ -1,7 +1,41 @@
 {{ define "main" }}
 
-{{ $articles := getJSON "datagen/data/blogs.json" }}
-{{ $articles := sort $articles "when" "desc" }}
+{{ $blogPages := where .Site.Pages "Section" "blog" }}
+{{ $articles := slice }}
+
+{{ range $blogPages }}
+  {{ range .Pages }}
+    {{ $whenForSort := time.Format "2006-01-30" .Params.date }}
+    {{ $desc := .Summary }}
+
+    {{ $articles = append (dict
+      "title" .Title
+      "when" .Params.date
+      "tags" .Params.tags
+      "url" .Params.url
+      "description" $desc
+      "sort" $whenForSort
+    ) $articles
+    }}
+  {{ end }}
+{{ end }}
+
+{{ range (getJSON "datagen/data/blogs.json") }}
+  {{ $whenForSort := time.Format "2006-01-30" .when }}
+  {{ $articles = append (dict
+    "id" .id
+    "title" .title
+    "when" .when
+    "tags" .tags
+    "url" .url
+    "coverImage" .coverImage
+    "description" .description
+    "sort" $whenForSort
+  ) $articles
+  }}
+{{ end }}
+
+{{ $articles := sort $articles "sort" "desc" }}
 
 {{ $uniqueTags := slice }}
 {{ range $articles }}
