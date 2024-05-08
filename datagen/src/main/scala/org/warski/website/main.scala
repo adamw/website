@@ -106,7 +106,6 @@ def addVideo(url: Uri, useTags: Option[List[String]] = None): Video =
   val url = StdIn.readLine()
   val bp = readBlog(url)
   PersistentModel.blogs.add(bp)
-  CommitDataFiles.run(s"Adding blog ${bp.title}")
 
 @main def addBlogs(): Unit =
   for (url <- Source.fromFile("/Users/adamw/projects/website/blogs.txt").getLines()) {

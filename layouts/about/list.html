@@ -11,19 +11,7 @@
         <img src="{{ .Params.profile_image }}" width="100%" height="100%">
       </div>
     </div>
-    <div class="grid grid lg:flex xl:grid grid-cols-1 md:grid-cols-2 items-center gap-16 my-24">
-      {{ with .Params.job }}
-      <div class="company-left">
-        <h1 class="text-4xl lg:text-6xl font-bold mb-2">{{ .title }}</h1>
-        <h4 class="text-3xl">{{ .description }}</h4>
-      </div>
-      <div class="company-right px-4 sm:px-0">
-        {{ with .company_image }}
-        <img src="{{.}}" width="100%" height="100%">
-        {{ end }}
-      </div>
-      {{ end }}
-    </div>
+    {{ partial "job.html" }}
     {{ partial "contact.html" }}
   </div>
 </section>

@@ -2078,17 +2078,16 @@
   },
   {
     "id": "07c16fc6-8652-4bca-825c-2adb22ccb086",
-    "title": "Kafka queues: now and in the future | SoftwareMill",
+    "title": "Kafka queues: now and in the future",
     "url": "https://softwaremill.com/kafka-queues-now-and-in-the-future/",
     "coverImage": "https://softwaremill.com/user/pages/blog/150.kafka-queues-now-and-in-the-future/dyv9tdj2fn6izzk.jpg?g-36e2b9fd",
     "when": "2024-05-08T12:00:00Z",
     "tags": [
-      "apache kafka",
+      "kafka",
       "mqperf",
-      "message queue",
       "kmq",
       "messaging"
     ],
-    "description": "Find out how some of the queueing features can be implemented in Kafka today using the KMQ pattern."
+    "description": "Compare consumer groups, share groups and the KMQ pattern."
   }
 ]

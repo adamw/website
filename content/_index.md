@@ -2,11 +2,6 @@
 title: Home
 description: Sharing elegant solutions to everyday problems
 profile_image: images/cover.jpg
-job:
-  title: Chief R&D Officer
-  description: "@ SoftwareMill"
-  company_image: "images/softwaremill.png"
-  company_link: "https://softwaremill.com"
 main_interest:
   title: Main interest
   description: All my thoughts about programming, career and much more. Collected in chronological order in the form of articles, video tutorials and talks.
