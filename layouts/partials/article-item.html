@@ -1,7 +1,12 @@
 <div data-tags="{{ delimit .article.tags ", " }}">
   <a href="{{ .article.url }}" target="_blank">
-    <img class="mb-5 aspect-video object-cover" src="{{ .article.coverImage }}" loading="lazy" />
+    {{ if ne .article.coverImage nil }}
+      <img class="mb-5 aspect-video object-cover" src="{{ .article.coverImage }}" loading="lazy" />
+    {{ else }}
+      <img src="/images/placeholder-article.jpg" alt="{{.article.title}}" class="mb-5 aspect-video object-cover" />
+    {{ end }}
   </a>
+
   <h6 class="text-sm font-semibold text-[#072671]">{{ time.Format "2 Jan 2006" .article.when }}</h6>
   <a class="flex justify-between items-center my-2" href="{{ .article.url }}" target="_blank" >
     <h4 class="text-2xl font-semibold text-[#101828]">{{ .article.title }}</h4>

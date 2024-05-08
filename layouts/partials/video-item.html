@@ -1,9 +1,9 @@
 <div data-tags="{{ delimit .video.tags ", " }}">
     {{ if ne .video.youtube nil }}
-      {{ partial "youtube-lite.html" (dict "Id" .video.youtube "Class" "mx-auto" "Width" "100%" "Height" "240px" "Style" "" "Attr" "") }}
+      {{ partial "youtube-lite.html" (dict "Id" .video.youtube) }}
     {{ else }}
-       <a href="{{.video.url}}" target="_blank" style="width: 100%; overflow: hidden; display: flex; justify-content: center; align-items: center;">
-           <img src="images/video-placeholder.jpg" alt="{{.video.title}}" style="width: auto; min-width: 100%" />
+       <a href="{{.video.url}}" target="_blank">
+           <img src="/images/placeholder-video.jpg" alt="{{.video.title}}" class="aspect-video object-cover rounded-xl" />
        </a>
     {{ end }}
 

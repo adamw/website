@@ -1,14 +1,5 @@
 {{ $videoid:= .Id }}
-{{ $class:= .Class }}
-{{ $style:= .Style }}
-{{ $width:= .Width }}
-{{ $height:= .Height }}
-{{ $attr:= .Attr }}
 
-<div
-  {{ with $class }}class="{{ . }}"{{ end }}
-  style="margin-bottom: 8px; {{ with $width }} width:{{ .| safeCSS }};
-  {{ end }}{{ with $height }} height:{{ .| safeCSS }};
-  {{ end }}{{ with $style }}{{ .| safeCSS }}{{ end }}">
-    <youtube-lite videoid="{{ $videoid }}" {{ with $attr }}{{ . | safeHTMLAttr }}{{ end }}></youtube-lite>
+<div class="aspect-video object-cover">
+    <youtube-lite videoid="{{ $videoid }}"></youtube-lite>
 </div>
