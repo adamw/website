@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2013-01-21T18:37:17+00:00
 url: /blog/2013/01/updating-to-scala-2-10-elasticmq-and-scala-macro-debug/
-dsq_thread_id:
+disqus_identifier:
   - 1050958679
 wp-syntax-cache-content:
   - |

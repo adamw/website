@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2011-09-08T08:56:57+00:00
 url: /blog/2011/09/blending-ruby-on-rails-and-cdi-on-openblend-2011/
-dsq_thread_id:
+disqus_identifier:
   - 1054625668
 tags:
   - conferences

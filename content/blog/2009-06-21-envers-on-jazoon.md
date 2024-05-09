@@ -6,7 +6,7 @@ date: 2009-06-21T09:15:57+00:00
 url: /blog/2009/06/envers-on-jazoon/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 2126560285
 tags:
   - envers

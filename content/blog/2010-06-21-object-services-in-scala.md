@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2010-06-21T16:39:46+00:00
 url: /blog/2010/06/object-services-in-scala/
-dsq_thread_id:
+disqus_identifier:
   - 1051935123
 wp-syntax-cache-content:
   - |

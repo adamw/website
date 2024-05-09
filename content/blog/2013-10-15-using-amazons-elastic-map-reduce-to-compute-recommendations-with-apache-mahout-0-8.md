@@ -6,7 +6,7 @@ date: 2013-10-15T11:35:18+00:00
 url: /blog/2013/10/using-amazons-elastic-map-reduce-to-compute-recommendations-with-apache-mahout-0-8/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 1859384858
 wp-syntax-cache-content:
   - |

@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2012-06-12T19:10:34+00:00
 url: /blog/2012/06/implementing-message-replication-in-elasticmq-with-jgroups/
-dsq_thread_id:
+disqus_identifier:
   - 1051712119
 tags:
   - aws

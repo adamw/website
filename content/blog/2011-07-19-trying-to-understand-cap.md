@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2011-07-19T11:38:28+00:00
 url: /blog/2011/07/trying-to-understand-cap/
-dsq_thread_id:
+disqus_identifier:
   - 1051935622
 tags:
   - rdbms

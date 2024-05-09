@@ -6,7 +6,7 @@ date: 2013-04-04T11:07:53+00:00
 url: /blog/2013/04/macwire-0-1-framework-less-dependency-injection-with-scala-macros/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 1186104076
 wp-syntax-cache-content:
   - |

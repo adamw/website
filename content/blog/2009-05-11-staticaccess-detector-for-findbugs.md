@@ -6,7 +6,7 @@ date: 2009-05-11T17:30:19+00:00
 url: /blog/2009/05/staticaccess-detector-for-findbugs/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 1051935010
 wp-syntax-cache-content:
   - |

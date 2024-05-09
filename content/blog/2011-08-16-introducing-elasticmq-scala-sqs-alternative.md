@@ -6,7 +6,7 @@ date: 2011-08-16T05:22:48+00:00
 url: /blog/2011/08/introducing-elasticmq-scala-sqs-alternative/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 1051239615
 wp-syntax-cache-content:
   - |

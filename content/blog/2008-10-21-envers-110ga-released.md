@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2008-10-21T18:29:18+00:00
 url: /blog/2008/10/envers-110ga-released/
-dsq_thread_id:
+disqus_identifier:
   - 1051934686
 tags:
   - envers

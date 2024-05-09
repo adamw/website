@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2010-05-17T19:37:46+00:00
 url: /blog/2010/05/cdi-weld-extensions-in-git/
-dsq_thread_id:
+disqus_identifier:
   - 1062179844
 wp-syntax-cache-content:
   - |

@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2010-04-01T06:33:05+00:00
 url: /blog/2010/04/hibernate-3-5-final-envers-included-released/
-dsq_thread_id:
+disqus_identifier:
   - 1092666969
 tags:
   - envers

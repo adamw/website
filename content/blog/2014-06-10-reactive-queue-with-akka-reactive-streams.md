@@ -6,7 +6,7 @@ date: 2014-06-10T12:32:54+00:00
 url: /blog/2014/06/reactive-queue-with-akka-reactive-streams/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 2752406333
 wp-syntax-cache-content:
   - |

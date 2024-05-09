@@ -6,7 +6,7 @@ date: 2013-02-19T14:20:56+00:00
 url: /blog/2013/02/xsbt-proguard-plugin-taking-over-new-release/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 1092661614
 wp-syntax-cache-content:
   - |

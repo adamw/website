@@ -6,7 +6,7 @@ date: 2016-08-25T12:22:44+00:00
 url: /blog/2016/08/why-i-started-learning-emacs-in-2016/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 5093911261
 tags:
   - something different

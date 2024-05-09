@@ -6,7 +6,7 @@ date: 2014-07-01T12:08:01+00:00
 url: /blog/2014/07/evaluating-persistent-replicated-message-queues/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 2809356882
 tags:
   - aws

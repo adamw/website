@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2011-03-11T12:04:30+00:00
 url: /blog/2011/03/ruby-on-rails-cdiweld-on-torquebox-example-app/
-dsq_thread_id:
+disqus_identifier:
   - 1051935756
 wp-syntax-cache-content:
   - |

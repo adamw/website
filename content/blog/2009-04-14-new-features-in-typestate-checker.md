@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2009-04-14T18:51:35+00:00
 url: /blog/2009/04/new-features-in-typestate-checker/
-dsq_thread_id:
+disqus_identifier:
   - 1095511693
 wp-syntax-cache-content:
   - |

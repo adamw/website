@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2010-07-02T12:12:42+00:00
 url: /blog/2010/07/initial-valid-time-support-in-envers/
-dsq_thread_id:
+disqus_identifier:
   - 1051934923
 wp-syntax-cache-content:
   - |

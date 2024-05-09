@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2009-07-02T19:15:32+00:00
 url: /blog/2009/07/javarsovia-static-analysis-and-annotations/
-dsq_thread_id:
+disqus_identifier:
   - 1058201905
 tags:
   - java

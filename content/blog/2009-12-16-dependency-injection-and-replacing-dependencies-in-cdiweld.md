@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2009-12-16T21:37:27+00:00
 url: /blog/2009/12/dependency-injection-and-replacing-dependencies-in-cdiweld/
-dsq_thread_id:
+disqus_identifier:
   - 1051935059
 wp-syntax-cache-content:
   - |

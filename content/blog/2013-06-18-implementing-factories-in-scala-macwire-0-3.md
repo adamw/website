@@ -6,7 +6,7 @@ date: 2013-06-18T10:47:38+00:00
 url: /blog/2013/06/implementing-factories-in-scala-macwire-0-3/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 1409436131
 wp-syntax-cache-content:
   - |

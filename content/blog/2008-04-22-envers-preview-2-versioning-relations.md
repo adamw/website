@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2008-04-22T09:39:41+00:00
 url: /blog/2008/04/envers-preview-2-versioning-relations/
-dsq_thread_id:
+disqus_identifier:
   - 1094263273
 tags:
   - envers

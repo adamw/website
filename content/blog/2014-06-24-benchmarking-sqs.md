@@ -6,7 +6,7 @@ date: 2014-06-24T12:05:33+00:00
 url: /blog/2014/06/benchmarking-sqs/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 2791242746
 tags:
   - aws

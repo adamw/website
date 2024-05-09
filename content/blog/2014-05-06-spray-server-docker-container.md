@@ -8,7 +8,7 @@ admin:
   - default
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 2664731643
 tags:
   - http

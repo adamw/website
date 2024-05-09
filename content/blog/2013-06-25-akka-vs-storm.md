@@ -6,7 +6,7 @@ date: 2013-06-25T10:57:46+00:00
 url: /blog/2013/06/akka-vs-storm/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 1433413451
 tags:
   - akka

@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2010-07-27T12:07:33+00:00
 url: /blog/2010/07/ruby-on-rails-cdi-why-not-enter-torquebox-weld/
-dsq_thread_id:
+disqus_identifier:
   - 1051935237
 wp-syntax-cache-content:
   - |

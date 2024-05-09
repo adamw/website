@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2008-06-04T08:10:28+00:00
 url: /blog/2008/06/what-data-should-be-stored-in-versions-tables-a-poll/
-dsq_thread_id:
+disqus_identifier:
   - 1296285125
 tags:
   - envers

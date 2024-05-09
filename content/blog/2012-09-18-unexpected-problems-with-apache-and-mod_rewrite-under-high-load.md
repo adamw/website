@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2012-09-18T09:44:33+00:00
 url: /blog/2012/09/unexpected-problems-with-apache-and-mod_rewrite-under-high-load/
-dsq_thread_id:
+disqus_identifier:
   - 1053516311
 wp-syntax-cache-content:
   - |

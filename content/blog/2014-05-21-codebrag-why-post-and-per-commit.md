@@ -6,7 +6,7 @@ date: 2014-05-21T10:56:59+00:00
 url: /blog/2014/05/codebrag-why-post-and-per-commit/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 2701885824
 tags:
   - code review

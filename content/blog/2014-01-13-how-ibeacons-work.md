@@ -6,8 +6,7 @@ date: 2014-01-13T20:34:29+00:00
 url: /blog/2014/01/how-ibeacons-work/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
-  - 2117828269
+disqus_identifier: 2117828269
 wp-syntax-cache-content:
   - |
     a:2:{i:1;s:721:"

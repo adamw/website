@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2011-05-02T06:13:49+00:00
 url: /blog/2011/05/envers-torquebox-on-rivierajug-may-6th/
-dsq_thread_id:
+disqus_identifier:
   - 1058428028
 tags:
   - testing

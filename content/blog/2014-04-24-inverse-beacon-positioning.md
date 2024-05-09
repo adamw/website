@@ -6,7 +6,7 @@ date: 2014-04-24T12:15:39+00:00
 url: /blog/2014/04/inverse-beacon-positioning/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 2635499622
 tags:
   - hardware

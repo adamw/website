@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2010-11-30T13:38:56+00:00
 url: /blog/2010/11/db-test-run-tests-with-a-database-using-arquillian/
-dsq_thread_id:
+disqus_identifier:
   - 1051357161
 wp-syntax-cache-content:
   - |

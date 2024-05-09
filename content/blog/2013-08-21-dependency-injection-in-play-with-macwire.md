@@ -6,7 +6,7 @@ date: 2013-08-21T17:05:37+00:00
 url: /blog/2013/08/dependency-injection-in-play-with-macwire/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 1624520417
 wp-syntax-cache-content:
   - |

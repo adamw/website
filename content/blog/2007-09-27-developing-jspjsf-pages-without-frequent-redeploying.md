@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2007-09-27T20:14:56+00:00
 url: /blog/2007/09/developing-jspjsf-pages-without-frequent-redeploying/
-dsq_thread_id:
+disqus_identifier:
   - 1051933987
 tags:
   - java

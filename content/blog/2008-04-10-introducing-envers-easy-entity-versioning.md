@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2008-04-10T13:06:30+00:00
 url: /blog/2008/04/introducing-envers-easy-entity-versioning/
-dsq_thread_id:
+disqus_identifier:
   - 1051934057
 tags:
   - hibernate

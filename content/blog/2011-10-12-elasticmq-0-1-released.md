@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2011-10-12T10:04:08+00:00
 url: /blog/2011/10/elasticmq-0-1-released/
-dsq_thread_id:
+disqus_identifier:
   - 1062114731
 wp-syntax-cache-content:
   - |

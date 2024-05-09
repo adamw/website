@@ -6,7 +6,7 @@ date: 2015-04-07T13:20:30+00:00
 url: /blog/2015/04/macwire-1-0-is-here/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 3661802634
 tags:
   - akka

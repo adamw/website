@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2009-02-04T18:11:54+00:00
 url: /blog/2009/02/jsr308-checkers-maven2-plugin/
-dsq_thread_id:
+disqus_identifier:
   - 1051934899
 wp-syntax-cache-content:
   - |

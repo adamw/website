@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2008-11-17T18:17:29+00:00
 url: /blog/2008/11/typestate-checker-introduction/
-dsq_thread_id:
+disqus_identifier:
   - 1051934841
 wp-syntax-cache-content:
   - |

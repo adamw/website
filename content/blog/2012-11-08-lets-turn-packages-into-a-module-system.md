@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2012-11-08T19:22:30+00:00
 url: /blog/2012/11/lets-turn-packages-into-a-module-system/
-dsq_thread_id:
+disqus_identifier:
   - 1051208358
 wp-syntax-cache-content:
   - |

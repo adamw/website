@@ -6,7 +6,7 @@ date: 2015-10-28T16:48:54+00:00
 url: /blog/2015/10/event-sourcing-free-monads-free-sourcing/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 4268165473
 wp-syntax-cache-content:
   - |

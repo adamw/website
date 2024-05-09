@@ -6,7 +6,7 @@ date: 2016-02-24T16:22:28+00:00
 url: /blog/2016/02/add-a-dependencies-badge-tree-to-your-project-using-updateimpact/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 4607581685
 epcl_post:
   - 'a:1:{s:13:"views_counter";i:1;}'

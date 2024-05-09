@@ -6,7 +6,7 @@ date: 2015-03-14T16:52:37+00:00
 url: /blog/2015/03/quicklens-traversing-options-and-lists/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 3595083606
 wp-syntax-cache-content:
   - |

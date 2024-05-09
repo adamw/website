@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2013-01-05T18:31:57+00:00
 url: /blog/2013/01/veripacks-0-1-verify-package-specifications/
-dsq_thread_id:
+disqus_identifier:
   - 1051357075
 wp-syntax-cache-content:
   - |

@@ -6,7 +6,7 @@ date: 2015-06-30T14:07:03+00:00
 url: /blog/2015/06/when-why-to-use-supler-for-web-forms/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 3892287717
 tags:
   - web

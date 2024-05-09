@@ -6,7 +6,7 @@ date: 2014-06-12T11:50:45+00:00
 url: /blog/2014/06/cluster-wide-javascala-application-deployments-with-docker-chef-and-amazon-opsworks/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 2758162245
 tags:
   - aws

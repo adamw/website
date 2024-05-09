@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2008-06-16T16:22:43+00:00
 url: /blog/2008/06/bi-temporal-versioning-with-envers/
-dsq_thread_id:
+disqus_identifier:
   - 1051285577
 tags:
   - envers

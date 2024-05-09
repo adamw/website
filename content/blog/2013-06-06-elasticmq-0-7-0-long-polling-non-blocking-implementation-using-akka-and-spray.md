@@ -6,7 +6,7 @@ date: 2013-06-06T09:02:03+00:00
 url: /blog/2013/06/elasticmq-0-7-0-long-polling-non-blocking-implementation-using-akka-and-spray/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 1368661260
 wp-syntax-cache-content:
   - |

@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2009-12-18T12:17:59+00:00
 url: /blog/2009/12/envers-122-released/
-dsq_thread_id:
+disqus_identifier:
   - 1051935032
 tags:
   - envers

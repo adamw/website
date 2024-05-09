@@ -6,7 +6,7 @@ date: 2011-08-30T18:34:39+00:00
 url: /blog/2011/08/modules-modules-modules/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 1051936123
 tags:
   - architecture

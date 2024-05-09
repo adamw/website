@@ -6,7 +6,7 @@ date: 2014-12-16T13:05:35+00:00
 url: /blog/2014/12/supler-0-1-0-complex-forms-made-easier/
 simplecatch-sidebarlayout:
   - default
-dsq_thread_id:
+disqus_identifier:
   - 3329627995
 wp-syntax-cache-content:
   - |

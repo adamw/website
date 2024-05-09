@@ -4,6 +4,9 @@ title = "Adam Warski: programming articles & videos"
 author = "Adam Warski"
 name = "Adam Warski"
 summarylength = 15
+[services]
+  [services.disqus]
+    shortname = 'warski'
 
 [params]
   google_fonts = [

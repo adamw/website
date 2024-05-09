@@ -4,7 +4,7 @@ author: Adam Warski
 type: blog
 date: 2011-03-01T15:31:42+00:00
 url: /blog/2011/03/timing-interceptor-for-cdiweld/
-dsq_thread_id:
+disqus_identifier:
   - 1051935522
 wp-syntax-cache-content:
   - |
