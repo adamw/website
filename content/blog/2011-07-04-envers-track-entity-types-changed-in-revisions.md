@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2011-07-04T10:02:57+00:00
 url: /blog/2011/07/envers-track-entity-types-changed-in-revisions/
-disqus_identifier:
-  - 1055556994
+disqus_identifier: 1055556994
 tags:
   - envers
   - java

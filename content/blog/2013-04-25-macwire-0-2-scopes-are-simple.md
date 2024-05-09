@@ -6,8 +6,7 @@ date: 2013-04-25T18:14:51+00:00
 url: /blog/2013/04/macwire-0-2-scopes-are-simple/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 1235516220
+disqus_identifier: 1235516220
 wp-syntax-cache-content:
   - |
     a:3:{i:1;s:827:"

@@ -6,8 +6,7 @@ date: 2013-05-21T09:42:25+00:00
 url: /blog/2013/05/typed-ask-for-akka/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 1303501382
+disqus_identifier: 1303501382
 wp-syntax-cache-content:
   - |
     a:7:{i:1;s:2029:"

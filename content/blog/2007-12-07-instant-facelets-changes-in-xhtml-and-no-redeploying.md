@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2007-12-07T12:02:56+00:00
 url: /blog/2007/12/instant-facelets-changes-in-xhtml-and-no-redeploying/
-disqus_identifier:
-  - 1051116499
+disqus_identifier: 1051116499
 tags:
   - java
   - jboss

@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2012-05-29T05:29:12+00:00
 url: /blog/2012/05/elasticmq-0-5-journalling-stand-alone-server/
-disqus_identifier:
-  - 1057216025
+disqus_identifier: 1057216025
 tags:
   - distributed
   - elasticmq

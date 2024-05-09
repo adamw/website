@@ -6,8 +6,7 @@ date: 2013-10-01T13:14:19+00:00
 url: /blog/2013/10/macwire-0-5-interceptors/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 1814387619
+disqus_identifier: 1814387619
 wp-syntax-cache-content:
   - |
     a:3:{i:1;s:2247:"

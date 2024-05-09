@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2010-10-26T15:22:36+00:00
 url: /blog/2010/10/di-and-oo-assisted-inject-in-cdi-weld/
-disqus_identifier:
-  - 1051935270
+disqus_identifier: 1051935270
 wp-syntax-cache-content:
   - |
     a:3:{i:1;s:1195:"

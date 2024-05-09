@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2008-09-27T08:44:29+00:00
 url: /blog/2008/09/envers-110beta2-released-with-collections-support/
-disqus_identifier:
-  - 1051934634
+disqus_identifier: 1051934634
 tags:
   - envers
   - java

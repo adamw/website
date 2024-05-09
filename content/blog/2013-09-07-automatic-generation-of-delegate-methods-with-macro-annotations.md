@@ -6,8 +6,7 @@ date: 2013-09-07T12:03:37+00:00
 url: /blog/2013/09/automatic-generation-of-delegate-methods-with-macro-annotations/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 1726022073
+disqus_identifier: 1726022073
 wp-syntax-cache-content:
   - |
     a:4:{i:1;s:2530:"

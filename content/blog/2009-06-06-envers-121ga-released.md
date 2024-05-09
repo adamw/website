@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2009-06-06T08:44:18+00:00
 url: /blog/2009/06/envers-121ga-released/
-disqus_identifier:
-  - 1051934977
+disqus_identifier: 1051934977
 tags:
   - envers
   - java

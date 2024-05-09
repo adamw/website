@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2011-06-01T18:08:39+00:00
 url: /blog/2011/06/cdi-portable-extensions-on-confitura-2011/
-disqus_identifier:
-  - 1051419554
+disqus_identifier: 1051419554
 tags:
   - testing
   - jee

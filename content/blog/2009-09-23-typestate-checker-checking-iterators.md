@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2009-09-23T17:02:54+00:00
 url: /blog/2009/09/typestate-checker-checking-iterators/
-disqus_identifier:
-  - 1081320797
+disqus_identifier: 1081320797
 wp-syntax-cache-content:
   - |
     a:3:{i:1;s:2154:"

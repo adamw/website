@@ -6,8 +6,7 @@ date: 2013-10-08T14:54:51+00:00
 url: /blog/2013/10/creating-an-on-line-recommender-system-with-apache-mahout/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 1836582143
+disqus_identifier: 1836582143
 wp-syntax-cache-content:
   - |
     a:5:{i:1;s:1775:"

@@ -6,8 +6,7 @@ date: 2012-08-18T11:09:38+00:00
 url: /blog/2012/08/missing-oo-and-fp-bridge-in-scala/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 1051933729
+disqus_identifier: 1051933729
 wp-syntax-cache-content:
   - |
     a:9:{i:1;s:720:"

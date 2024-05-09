@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2008-03-31T12:10:34+00:00
 url: /blog/2008/03/clean-urls-in-seam-urlrewritefilter/
-disqus_identifier:
-  - 1050981825
+disqus_identifier: 1050981825
 tags:
   - java
   - jboss

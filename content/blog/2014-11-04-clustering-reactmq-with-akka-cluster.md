@@ -6,8 +6,7 @@ date: 2014-11-04T13:05:42+00:00
 url: /blog/2014/11/clustering-reactmq-with-akka-cluster/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 3190539382
+disqus_identifier: 3190539382
 wp-syntax-cache-content:
   - |
     a:10:{i:1;s:2444:"

@@ -6,8 +6,7 @@ date: 2013-08-05T18:16:38+00:00
 url: /blog/2013/08/verifying-usage-of-3rd-party-libraries-using-veripacks/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 1573097946
+disqus_identifier: 1573097946
 wp-syntax-cache-content:
   - |
     a:3:{i:1;s:1120:"

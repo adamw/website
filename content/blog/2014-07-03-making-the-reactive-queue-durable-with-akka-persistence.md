@@ -6,8 +6,7 @@ date: 2014-07-03T12:17:32+00:00
 url: /blog/2014/07/making-the-reactive-queue-durable-with-akka-persistence/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 2814616328
+disqus_identifier: 2814616328
 wp-syntax-cache-content:
   - |
     a:1:{i:1;s:1921:"

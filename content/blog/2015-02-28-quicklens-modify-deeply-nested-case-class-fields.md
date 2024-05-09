@@ -6,8 +6,7 @@ date: 2015-02-28T19:51:46+00:00
 url: /blog/2015/02/quicklens-modify-deeply-nested-case-class-fields/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 3556536666
+disqus_identifier: 3556536666
 wp-syntax-cache-content:
   - |
     a:4:{i:1;s:1671:"

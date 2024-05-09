@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2012-11-19T11:41:53+00:00
 url: /blog/2012/11/elasticmq-is-now-synced-to-maven-central/
-disqus_identifier:
-  - 1054907258
+disqus_identifier: 1054907258
 wp-syntax-cache-content:
   - |
     a:1:{i:1;s:3428:"

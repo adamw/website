@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2008-10-30T11:08:13+00:00
 url: /blog/2008/10/envers-moves-to-hibernate/
-disqus_identifier:
-  - 1051934692
+disqus_identifier: 1051934692
 tags:
   - envers
   - java

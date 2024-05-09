@@ -6,8 +6,7 @@ date: 2015-09-30T07:49:01+00:00
 url: /blog/2015/09/macwire-2-0-composing-modules-cleanup/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 4179378336
+disqus_identifier: 4179378336
 tags:
   - dependency injection
   - metaprogramming

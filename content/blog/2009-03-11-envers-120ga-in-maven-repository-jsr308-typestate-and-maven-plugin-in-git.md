@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2009-03-11T16:21:27+00:00
 url: /blog/2009/03/envers-120ga-in-maven-repository-jsr308-typestate-and-maven-plugin-in-git/
-disqus_identifier:
-  - 1094113071
+disqus_identifier: 1094113071
 tags:
   - envers
   - java

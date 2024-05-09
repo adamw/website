@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2010-03-11T20:25:07+00:00
 url: /blog/2010/03/jsf2-navigation-post-redirect-get/
-disqus_identifier:
-  - 1051065533
+disqus_identifier: 1051065533
 wp-syntax-cache-content:
   - |
     a:6:{i:1;s:1783:"

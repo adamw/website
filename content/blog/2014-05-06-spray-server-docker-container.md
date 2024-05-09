@@ -8,8 +8,7 @@ admin:
   - default
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 2664731643
+disqus_identifier: 2664731643
 tags:
   - http
   - cloud

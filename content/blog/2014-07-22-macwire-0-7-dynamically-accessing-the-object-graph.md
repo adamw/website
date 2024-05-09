@@ -6,8 +6,7 @@ date: 2014-07-22T11:24:42+00:00
 url: /blog/2014/07/macwire-0-7-dynamically-accessing-the-object-graph/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 2863835964
+disqus_identifier: 2863835964
 wp-syntax-cache-content:
   - |
     a:1:{i:1;s:4766:"

@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2010-03-31T13:52:30+00:00
 url: /blog/2010/03/simple-security-interceptor-in-weldjsf2/
-disqus_identifier:
-  - 1051935172
+disqus_identifier: 1051935172
 wp-syntax-cache-content:
   - |
     a:4:{i:1;s:895:"

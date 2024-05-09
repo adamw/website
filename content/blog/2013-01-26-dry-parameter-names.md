@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2013-01-26T18:56:34+00:00
 url: /blog/2013/01/dry-parameter-names/
-disqus_identifier:
-  - 1050955939
+disqus_identifier: 1050955939
 wp-syntax-cache-content:
   - |
     a:4:{i:1;s:889:"

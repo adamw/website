@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2012-05-31T08:59:15+00:00
 url: /blog/2012/05/hibernate-4-1-4-envers-tests-runpass-on-multiple-dbs/
-disqus_identifier:
-  - 1054041242
+disqus_identifier: 1054041242
 tags:
   - envers
   - hibernate

@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2008-09-03T09:58:52+00:00
 url: /blog/2008/09/envers-is-back-from-vacations/
-disqus_identifier:
-  - 1051934527
+disqus_identifier: 1051934527
 wp-syntax-cache-content:
   - |
     a:2:{i:1;s:3954:"

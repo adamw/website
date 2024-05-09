@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2011-06-13T14:31:13+00:00
 url: /blog/2011/06/after-confitura-2011/
-disqus_identifier:
-  - 1057971689
+disqus_identifier: 1057971689
 tags:
   - testing
   - conferences

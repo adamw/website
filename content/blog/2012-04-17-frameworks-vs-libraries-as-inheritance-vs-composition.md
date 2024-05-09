@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2012-04-17T06:04:21+00:00
 url: /blog/2012/04/frameworks-vs-libraries-as-inheritance-vs-composition/
-disqus_identifier:
-  - 1051936566
+disqus_identifier: 1051936566
 tags:
   - architecture
   - clean code

@@ -6,8 +6,7 @@ date: 2012-02-06T20:52:35+00:00
 url: /blog/2012/02/elasticmq-0-3-new-api-new-in-memory-storage/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 1052976167
+disqus_identifier: 1052976167
 wp-syntax-cache-content:
   - |
     a:2:{i:1;s:1228:"

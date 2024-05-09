@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2011-06-27T15:48:25+00:00
 url: /blog/2011/06/static-typing-is-a-great-static-analysis-tool/
-disqus_identifier:
-  - 1051935727
+disqus_identifier: 1051935727
 tags:
   - java
   - static analysis

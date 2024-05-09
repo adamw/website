@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2012-10-20T11:49:53+00:00
 url: /blog/2012/10/elasticmq-0-6-batch-operations-strictrelaxed-sqs-compatibility-mode/
-disqus_identifier:
-  - 1052550816
+disqus_identifier: 1052550816
 tags:
   - cloud
   - aws

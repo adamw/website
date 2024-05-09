@@ -6,8 +6,7 @@ date: 2014-02-25T13:07:28+00:00
 url: /blog/2014/02/using-scala-traits-as-modules-or-the-thin-cake-pattern/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 2318309811
+disqus_identifier: 2318309811
 wp-syntax-cache-content:
   - |
     a:6:{i:1;s:1244:"

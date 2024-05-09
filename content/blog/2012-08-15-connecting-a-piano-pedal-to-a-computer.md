@@ -6,8 +6,7 @@ date: 2012-08-15T13:58:40+00:00
 url: /blog/2012/08/connecting-a-piano-pedal-to-a-computer/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 1051830853
+disqus_identifier: 1051830853
 wp-syntax-cache-content:
   - |
     a:6:{i:1;s:707:"

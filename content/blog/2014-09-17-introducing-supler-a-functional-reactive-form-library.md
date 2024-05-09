@@ -6,8 +6,7 @@ date: 2014-09-17T18:58:28+00:00
 url: /blog/2014/09/introducing-supler-a-functional-reactive-form-library/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 3027521268
+disqus_identifier: 3027521268
 wp-syntax-cache-content:
   - |
     a:6:{i:1;s:2290:"

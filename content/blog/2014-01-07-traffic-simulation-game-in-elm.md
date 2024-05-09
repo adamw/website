@@ -6,8 +6,7 @@ date: 2014-01-07T12:08:10+00:00
 url: /blog/2014/01/traffic-simulation-game-in-elm/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 2097486612
+disqus_identifier: 2097486612
 tags:
   - functional programming
   - something different

@@ -6,8 +6,7 @@ date: 2013-06-25T10:57:46+00:00
 url: /blog/2013/06/akka-vs-storm/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 1433413451
+disqus_identifier: 1433413451
 tags:
   - akka
   - concurrency

@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2007-10-12T07:45:35+00:00
 url: /blog/2007/10/developing-with-seam-and-without-frequent-redeploying/
-disqus_identifier:
-  - 1051933700
+disqus_identifier: 1051933700
 tags:
   - java
   - jboss

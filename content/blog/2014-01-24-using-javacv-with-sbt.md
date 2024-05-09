@@ -6,8 +6,7 @@ date: 2014-01-24T15:40:40+00:00
 url: /blog/2014/01/using-javacv-with-sbt/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 2168796244
+disqus_identifier: 2168796244
 wp-syntax-cache-content:
   - |
     a:2:{i:1;s:1139:"

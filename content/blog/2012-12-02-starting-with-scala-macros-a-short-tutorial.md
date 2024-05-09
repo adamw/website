@@ -6,8 +6,7 @@ date: 2012-12-02T19:22:56+00:00
 url: /blog/2012/12/starting-with-scala-macros-a-short-tutorial/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 1050954025
+disqus_identifier: 1050954025
 wp-syntax-cache-content:
   - |
     a:11:{i:1;s:588:"

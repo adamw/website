@@ -6,8 +6,7 @@ date: 2014-03-21T14:35:49+00:00
 url: /blog/2014/03/makerland-hackaton-and-turtles/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 2477146077
+disqus_identifier: 2477146077
 tags:
   - something different
   - hardware

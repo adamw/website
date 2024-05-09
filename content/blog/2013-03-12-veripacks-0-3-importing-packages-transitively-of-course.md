@@ -6,8 +6,7 @@ date: 2013-03-12T19:33:36+00:00
 url: /blog/2013/03/veripacks-0-3-importing-packages-transitively-of-course/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 1133250883
+disqus_identifier: 1133250883
 wp-syntax-cache-content:
   - |
     a:1:{i:1;s:2960:"

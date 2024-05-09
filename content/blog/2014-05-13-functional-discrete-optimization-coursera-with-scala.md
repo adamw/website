@@ -6,8 +6,7 @@ date: 2014-05-13T10:43:21+00:00
 url: /blog/2014/05/functional-discrete-optimization-coursera-with-scala/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 2681596581
+disqus_identifier: 2681596581
 tags:
   - something different
   - functional programming

@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2010-10-13T16:05:41+00:00
 url: /blog/2010/10/dependency-injection-discourages-object-oriented-programming/
-disqus_identifier:
-  - 1050961275
+disqus_identifier: 1050961275
 wp-syntax-cache-content:
   - |
     a:3:{i:1;s:2343:"

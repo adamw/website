@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2008-10-14T07:51:39+00:00
 url: /blog/2008/10/envers-on-jdd-08/
-disqus_identifier:
-  - 1051934670
+disqus_identifier: 1051934670
 tags:
   - envers
   - java

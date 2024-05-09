@@ -6,8 +6,7 @@ date: 2008-10-23T13:19:07+00:00
 url: /blog/2008/10/adding-structure-to-seam-events/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 1051934657
+disqus_identifier: 1051934657
 tags:
   - java
   - jboss

@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2010-09-27T05:55:34+00:00
 url: /blog/2010/09/new-envers-contributor/
-disqus_identifier:
-  - 1066205394
+disqus_identifier: 1066205394
 tags:
   - envers
   - java

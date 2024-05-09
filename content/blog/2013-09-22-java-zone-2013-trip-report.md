@@ -6,8 +6,7 @@ date: 2013-09-22T11:26:46+00:00
 url: /blog/2013/09/java-zone-2013-trip-report/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 1786230717
+disqus_identifier: 1786230717
 tags:
   - conferences
   - metaprogramming

@@ -8,8 +8,7 @@ slider_fx:
   - fade
 slider_autoduration:
   - 2000
-disqus_identifier:
-  - 1062688771
+disqus_identifier: 1062688771
 wp-syntax-cache-content:
   - |
     a:1:{i:1;s:5063:"

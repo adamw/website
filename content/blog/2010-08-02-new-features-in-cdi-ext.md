@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2010-08-02T18:28:15+00:00
 url: /blog/2010/08/new-features-in-cdi-ext/
-disqus_identifier:
-  - 1059349502
+disqus_identifier: 1059349502
 wp-syntax-cache-content:
   - |
     a:1:{i:1;s:1396:"

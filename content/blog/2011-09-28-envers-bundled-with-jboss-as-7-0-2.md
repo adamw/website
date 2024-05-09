@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2011-09-28T20:05:03+00:00
 url: /blog/2011/09/envers-bundled-with-jboss-as-7-0-2/
-disqus_identifier:
-  - 1051936242
+disqus_identifier: 1051936242
 tags:
   - envers
   - hibernate

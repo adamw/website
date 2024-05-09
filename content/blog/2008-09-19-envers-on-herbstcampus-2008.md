@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2008-09-19T16:04:02+00:00
 url: /blog/2008/09/envers-on-herbstcampus-2008/
-disqus_identifier:
-  - 1383041031
+disqus_identifier: 1383041031
 tags:
   - envers
   - java

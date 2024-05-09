@@ -6,8 +6,7 @@ date: 2013-03-14T21:33:04+00:00
 url: /blog/2013/03/dependency-injection-with-scala-macros-auto-wiring/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 1137657221
+disqus_identifier: 1137657221
 wp-syntax-cache-content:
   - |
     a:6:{i:1;s:903:"

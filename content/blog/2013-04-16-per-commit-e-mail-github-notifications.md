@@ -6,8 +6,7 @@ date: 2013-04-16T14:34:59+00:00
 url: /blog/2013/04/per-commit-e-mail-github-notifications/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 1215243679
+disqus_identifier: 1215243679
 tags:
   - code review
   - softwaremill

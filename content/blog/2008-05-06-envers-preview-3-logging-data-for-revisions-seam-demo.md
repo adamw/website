@@ -6,8 +6,7 @@ date: 2008-05-06T12:57:24+00:00
 url: /blog/2008/05/envers-preview-3-logging-data-for-revisions-seam-demo/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 1051934455
+disqus_identifier: 1051934455
 tags:
   - envers
   - java

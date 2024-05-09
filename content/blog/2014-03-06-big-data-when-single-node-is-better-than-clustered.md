@@ -6,8 +6,7 @@ date: 2014-03-06T13:22:44+00:00
 url: /blog/2014/03/big-data-when-single-node-is-better-than-clustered/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 2371987250
+disqus_identifier: 2371987250
 tags:
   - machine learning
   - distributed

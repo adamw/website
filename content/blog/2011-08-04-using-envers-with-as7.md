@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2011-08-04T05:42:00+00:00
 url: /blog/2011/08/using-envers-with-as7/
-disqus_identifier:
-  - 1051935638
+disqus_identifier: 1051935638
 wp-syntax-cache-content:
   - |
     a:2:{i:1;s:4841:"

@@ -6,8 +6,7 @@ date: 2010-12-14T09:38:42+00:00
 url: /blog/2010/12/di-in-scala-cake-pattern/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 1051549739
+disqus_identifier: 1051549739
 wp-syntax-cache-content:
   - |
     a:7:{i:1;s:615:"

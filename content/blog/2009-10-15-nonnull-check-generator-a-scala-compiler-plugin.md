@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2009-10-15T15:04:45+00:00
 url: /blog/2009/10/nonnull-check-generator-a-scala-compiler-plugin/
-disqus_identifier:
-  - 1051176035
+disqus_identifier: 1051176035
 wp-syntax-cache-content:
   - |
     a:6:{i:1;s:848:"

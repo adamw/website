@@ -6,8 +6,7 @@ date: 2015-03-19T12:21:50+00:00
 url: /blog/2015/03/supler-update-0-3-0-release/
 simplecatch-sidebarlayout:
   - default
-disqus_identifier:
-  - 3608686278
+disqus_identifier: 3608686278
 wp-syntax-cache-content:
   - |
     a:2:{i:1;s:3002:"

@@ -4,8 +4,7 @@ author: Adam Warski
 type: blog
 date: 2012-01-12T16:52:54+00:00
 url: /blog/2012/01/elasticmq-0-2-support-for-delayed-queues-and-messages/
-disqus_identifier:
-  - 1060340361
+disqus_identifier: 1060340361
 wp-syntax-cache-content:
   - |
     a:1:{i:1;s:4417:"
