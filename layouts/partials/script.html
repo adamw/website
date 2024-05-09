@@ -2,6 +2,10 @@
 <script src="{{ .RelPermalink }}"></script>
 {{ end }}
 
+{{ with resources.Get "js/modal.js" | js.Build "modal.js" | minify | fingerprint }}
+<script src="{{ .RelPermalink }}"></script>
+{{ end }}
+
 {{ with resources.Get "plugins/youtube-lite.js" | js.Build "youtube-lite.js" | minify | fingerprint }}
 <script src="{{ .RelPermalink }}"></script>
 {{ end }}
