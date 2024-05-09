@@ -1376,19 +1376,6 @@
     "description": "Kafka acknowledgment explained. When receiving messages from Apache Kafka, you can only acknowledge the messages up to a given offset. Read!"
   },
   {
-    "id": "aa3e6cbf-8dd6-4c40-9d5a-7f8ed0329bdd",
-    "title": "Readers vs Constructors - Dependency Injection showdown",
-    "url": "https://softwaremill.com/readers-constructors-dependency-injection-showdown/",
-    "when": "2017-06-18T12:00:00Z",
-    "tags": [
-      "scala",
-      "dependency injection",
-      "functional programming",
-      "clean code"
-    ],
-    "description": "How in-code dependencies are managed is one of the key decisions to make when working on a project. Let's discuss dependency injection."
-  },
-  {
     "id": "7a2362b0-be3c-4bc4-acbf-7ea837289e52",
     "title": "Free and tagless compared - how not to commit to a monad too early",
     "url": "https://softwaremill.com/free-tagless-compared-how-not-to-commit-to-monad-too-early/",
@@ -1606,7 +1593,6 @@
     "id": "6d412f71-e472-4753-91cf-64a10960bdc8",
     "title": "Entry-level, synchronous & transactional event sourcing",
     "url": "https://softwaremill.com/entry-level-event-sourcing/",
-    "coverImage": "https://softwaremill.com/user/pages/blog/entry-level-event-sourcing/SMLAcademy_banner4.jpg?g-3298ba4c",
     "when": "2015-09-17T12:00:00Z",
     "tags": [
       "scala",
