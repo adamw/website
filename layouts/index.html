@@ -26,9 +26,13 @@
 
         <div class="intro-right">
           <div class="intro-profile relative">
-            {{ with .Params.profile_image }}
-              <img src="{{.}}" width="100%" height="100%" class="rounded-xl">
-            {{ end }}
+            {{ $banner := .Resources.Get "images/cover.jpg" }}
+            {{ $jpeg512 := $banner.Process "resize 512x r270" }}
+            {{ $jpeg1024 := $banner.Process "resize 1024x r270" }}
+            {{ $jpeg2048 := $banner.Process "resize 2048x r270" }}
+            <img src="{{$jpeg2048.RelPermalink}}"
+                 srcset="{{$jpeg512.RelPermalink}} 512w, {{$jpeg1024.RelPermalink}} 1024w"
+                 width="100%" height="100%" class="rounded-xl" loading="lazy">
           </div>
         </div>
       </div>

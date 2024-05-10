@@ -1,7 +1,6 @@
 ---
 title: Home
 description: Sharing elegant solutions to everyday problems
-profile_image: images/cover.jpg
 main_interest:
   title: Main interests
   description: What my projects, articles & videos are usually about. But not only!
