@@ -69,6 +69,7 @@ The queue is of course also created in the eu-west region.
 
 The minimal setup consists of 1 sending node and 1 receiving node, both running a single thread. The results are, in messages/second:
 
+{{<raw_html>}}
 <table>
   <tr>
     <th>
@@ -124,11 +125,13 @@ The minimal setup consists of 1 sending node and 1 receiving node, both running 
     </td>
   </tr>
 </table>
+{{</raw_html>}}
 
 ## Scaling threads
 
 How do these results scale when we add more threads (still using one sender and one receiver node)? The tests were run with 1, 5, 25, 50 and 75 threads. The numbers are an average msg/second throughput.
 
+{{<raw_html>}}
 <table>
   <tr>
     <th>
@@ -240,6 +243,7 @@ How do these results scale when we add more threads (still using one sender and 
     </td>
   </tr>
 </table>
+{{</raw_html>}}
 
 As you can see, on the sender side, we get near-to-linear scalability as the number of thread increases, peaking at 14k msgs/second sent (on a single node!) with 50 threads. Going any further doesn’t seem to make a difference.
 
@@ -251,6 +255,7 @@ The receiving side is slower, and that is kind of expected, as receiving a singl
 
 Another (more promising) method of scaling is adding nodes, which is quite easy as we are &#8220;in the cloud&#8221;. The test results when running multiple nodes, each running a single thread are:
 
+{{<raw_html>}}
 <table>
   <tr>
     <th>
@@ -346,6 +351,7 @@ Another (more promising) method of scaling is adding nodes, which is quite easy 
     </td>
   </tr>
 </table>
+{{</raw_html>}}
 
 In this case, both on the sending&receiving side, we get near-linear scalability, reaching 2.5k messages sent&received per second with 8 nodes.
 
@@ -355,6 +361,7 @@ In this case, both on the sending&receiving side, we get near-linear scalability
 
 The natural next step is, of course, to scale up both the nodes, and the threads! Here are the results, when using 25 threads on each node:
 
+{{<raw_html>}}
 <table>
   <tr>
     <th>
@@ -450,6 +457,7 @@ The natural next step is, of course, to scale up both the nodes, and the threads
     </td>
   </tr>
 </table>
+{{</raw_html>}}
 
 Again, we get great scalability results, with the number of receive operations about half the number of send operations per second. 34k msgs/second processed is a very nice number!
 
