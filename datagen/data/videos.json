@@ -647,5 +647,19 @@
       "concurrency"
     ],
     "youtube": "C3j4AsFcxmM"
+  },
+  {
+    "id": "01a61879-a4d5-48a8-b47d-12c233ec8309",
+    "title": "JOX - Virtual-thread-friendly go-like channels for Java, Adam Warski SoftwareMill",
+    "url": "https://www.youtube.com/watch?v=Ss9b1HpPDt0",
+    "coverImage": "https://i.ytimg.com/vi/Ss9b1HpPDt0/maxresdefault.jpg",
+    "when": "2024-05-15T12:46:37Z",
+    "tags": [
+      "jox",
+      "java",
+      "virtual threads",
+      "concurrency"
+    ],
+    "youtube": "Ss9b1HpPDt0"
   }
 ]
