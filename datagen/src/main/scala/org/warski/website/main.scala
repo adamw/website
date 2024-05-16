@@ -101,6 +101,12 @@ def addVideo(url: Uri, useTags: Option[List[String]] = None): Video =
   PersistentModel.talks.update(talk.copy(video = Some(video.id)))
   CommitDataFiles.run(s"Adding video to ${talk.title}")
 
+@main def addVideo(): Unit =
+  println("Video url:")
+  val videoUrl = StdIn.readLine().trim
+  val video = addVideo(Uri(videoUrl))
+  CommitDataFiles.run(s"Adding video to ${video.title}")
+
 @main def addBlog(): Unit =
   println("Blog url:")
   val url = StdIn.readLine()
