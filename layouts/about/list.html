@@ -10,6 +10,12 @@
       <div class="blog-contents lg:w-[720px] mx-auto mb-10">
         {{.Content}}
 
+        <div class="flex justify-center mb-6">
+          {{ range site.Params.social }}
+          <a class="mr-4" href="{{.link | safeURL}}"><i class="text-xl text-[#667085] {{ .icon }}"></i></a>
+          {{ end }}
+        </div>
+
         <img src="{{ .Params.profile_image }}" width="100%" height="100%">
       </div>
     </div>
