@@ -1815,5 +1815,19 @@
       "messaging"
     ],
     "description": "Compare consumer groups, share groups and the KMQ pattern."
+  },
+  {
+    "id": "060dd48e-11cc-4627-a1c4-192107b32b4d",
+    "title": "IO effect tracking using Ox",
+    "url": "https://softwaremill.com/io-effect-tracking-using-ox/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/156.io-effect-tracking-using-ox/i8arfajqnxkmfs4.jpg?g-3a72bd62",
+    "when": "2024-05-22T12:00:00Z",
+    "tags": [
+      "scala",
+      "java",
+      "effects",
+      "ox"
+    ],
+    "description": "Ox, a library for safe direct-style concurrency and resiliency in Scala on the JVM, recently gained a new feature: the IO capability. IO is designed to be part of the signature of any method that performs I/O, either directly or indirectly."
   }
 ]
