@@ -1829,5 +1829,19 @@
       "ox"
     ],
     "description": "Ox, a library for safe direct-style concurrency and resiliency in Scala on the JVM, recently gained a new feature: the IO capability. IO is designed to be part of the signature of any method that performs I/O, either directly or indirectly."
+  },
+  {
+    "id": "ac02b534-16b0-4ebe-ad41-15c55f913dfc",
+    "title": "Lagom is approaching end of life: possible migration paths",
+    "url": "https://softwaremill.com/lagom-is-approaching-end-of-life-possible-migration-paths/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/159.lagom-is-approaching-end-of-life-possible-migration-paths/tgogbzevhfzl4ep.jpg?g-75953e61",
+    "when": "2024-05-27T12:00:00Z",
+    "tags": [
+      "scala",
+      "java",
+      "event sourcing",
+      "kafka"
+    ],
+    "description": "Lagom is reaching end-of-life on July 1st, 2024. What should be the replacement? How to architect the migration path? What kind of options do we have?"
   }
 ]
