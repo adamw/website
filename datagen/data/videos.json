@@ -661,5 +661,19 @@
       "concurrency"
     ],
     "youtube": "Ss9b1HpPDt0"
+  },
+  {
+    "id": "043258f9-452d-44fd-8a40-1c8ba0645a35",
+    "title": "JOX - Passing Control Information Through Channels, Adam Warski SoftwareMill",
+    "url": "https://www.youtube.com/watch?v=VjiCzaiRro8",
+    "coverImage": "https://i.ytimg.com/vi/VjiCzaiRro8/maxresdefault.jpg",
+    "when": "2024-05-29T11:00:07Z",
+    "tags": [
+      "jox",
+      "java",
+      "virtual threads",
+      "concurrency"
+    ],
+    "youtube": "VjiCzaiRro8"
   }
 ]
