@@ -40,7 +40,6 @@
       "ox",
       "virtual threads",
       "java",
-      "virtual threads",
       "kotlin",
       "jox",
       "performance",
@@ -1843,5 +1842,19 @@
       "kafka"
     ],
     "description": "Lagom is reaching end-of-life on July 1st, 2024. What should be the replacement? How to architect the migration path? What kind of options do we have?"
+  },
+  {
+    "id": "b914ed6d-ca23-480f-940d-5472084b0b41",
+    "title": "WebSocket chat using structured concurrency, Ox & Tapir",
+    "url": "https://softwaremill.com/websocket-chat-using-structured-concurrency-ox-and-tapir",
+    "coverImage": "https://softwaremill.com/user/pages/blog/153.websocket-chat-using-structured-concurrency-ox-and-tapir/kj9elwqfdwihhcp.jpg?g-410af871",
+    "when": "2024-06-03T12:00:00Z",
+    "tags": [
+      "scala",
+      "tapir",
+      "virtual threads",
+      "structured concurrency"
+    ],
+    "description": "A quick introduction to implementing WebSocket chat using structured concurrency, Ox & Tapir."
   }
 ]
