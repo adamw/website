@@ -329,8 +329,7 @@
     "tags": [
       "scala",
       "tapir",
-      "functional programming",
-      "api design"
+      "functional programming"
     ],
     "youtube": "I3loMuHnYqw"
   },
@@ -678,12 +677,13 @@
   },
   {
     "id": "6be0245a-bb42-450a-8b7c-5dabf5b8a704",
-    "title": "Tapir Tutorial - part 1: Hello, world! Adam Warski SoftwareMill",
+    "title": "Tapir Tutorial - part 1: Hello, world!",
     "url": "https://www.youtube.com/watch?v=WV1bZaGrdQQ",
     "coverImage": "https://i.ytimg.com/vi/WV1bZaGrdQQ/maxresdefault.jpg",
     "when": "2024-06-05T13:00:28Z",
     "tags": [
-      "tapir"
+      "tapir",
+      "scala"
     ],
     "youtube": "WV1bZaGrdQQ"
   }
