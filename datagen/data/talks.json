@@ -1886,5 +1886,16 @@
     "where": "London, UK",
     "conference": "QCon",
     "slides": "https://adamw.github.io/jox-short-pres/"
+  },
+  {
+    "id": "2e0e95e4-3924-46ca-a7d9-df999c9d18e6",
+    "title": "Direct-style Scala using Ox",
+    "url": "https://scalamatsuri.org",
+    "when": "2024-06-01T00:00:00Z",
+    "tags": [
+      "ox"
+    ],
+    "where": "Tokyo, Japan",
+    "conference": "Scala Matsuri"
   }
 ]
