@@ -17,7 +17,7 @@ import scala.io.{Source, StdIn}
 
 @main def addTalks(): Unit = while (true) addTalk()
 
-def addTalk(): Unit =
+@main def addTalk(): Unit =
   println("Conference name:")
   val conferenceName = StdIn.readLine().trim
   println("Conference url:")
@@ -59,10 +59,6 @@ def addTalk(): Unit =
   PersistentModel.talks.add(talk)
   CommitDataFiles.run(s"Adding talk $talkTitle ($conferenceName)")
 
-@main def test =
-  println(parseMMYYtoInstant("11/23"))
-  // println(addVideo(Uri("https://www.youtube.com/watch?v=Ia0J0yfxTCA")))
-
 def addVideo(url: Uri, useTags: Option[List[String]] = None): Video =
   val video = if url.toString.contains("youtube") then
     val browser = JsoupBrowser()
@@ -89,7 +85,7 @@ def addVideo(url: Uri, useTags: Option[List[String]] = None): Video =
   PersistentModel.videos.add(video)
   video
 
-@main def addVideoToTalk() =
+@main def addVideoToTalk(): Unit =
   val talks = PersistentModel.talks.read().sortBy(_.when)
   for (i <- 1 to talks.length) println(s"$i: ${talks(i - 1).title} (${talks(i - 1).conference})")
   println()

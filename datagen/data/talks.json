@@ -1893,9 +1893,15 @@
     "url": "https://scalamatsuri.org",
     "when": "2024-06-01T00:00:00Z",
     "tags": [
+      "scala",
+      "loom",
+      "concurrency",
+      "structural concurrency",
+      "effects",
       "ox"
     ],
     "where": "Tokyo, Japan",
-    "conference": "Scala Matsuri"
+    "conference": "Scala Matsuri",
+    "slides": "http://www.warski.org/blog/wp-content/uploads/2024/06/ox-scala-matsuri.pdf"
   }
 ]
