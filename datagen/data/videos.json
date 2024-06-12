@@ -686,5 +686,17 @@
       "scala"
     ],
     "youtube": "WV1bZaGrdQQ"
+  },
+  {
+    "id": "a25d5379-1147-44dd-a41b-58a5d5cc86e5",
+    "title": "Tapir Tutorial - part 2: Generating OpenAPI docs Adam Warski SoftwareMill",
+    "url": "https://www.youtube.com/watch?v=rfwEJvFZT28",
+    "coverImage": "https://i.ytimg.com/vi/rfwEJvFZT28/maxresdefault.jpg",
+    "when": "2024-06-12T12:00:55Z",
+    "tags": [
+      "tapir",
+      "scala"
+    ],
+    "youtube": "rfwEJvFZT28"
   }
 ]
