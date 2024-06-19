@@ -657,7 +657,8 @@
       "jox",
       "java",
       "virtual threads",
-      "concurrency"
+      "concurrency",
+      "tutorial"
     ],
     "youtube": "Ss9b1HpPDt0"
   },
@@ -671,7 +672,8 @@
       "jox",
       "java",
       "virtual threads",
-      "concurrency"
+      "concurrency",
+      "tutorial"
     ],
     "youtube": "VjiCzaiRro8"
   },
@@ -683,7 +685,8 @@
     "when": "2024-06-05T13:00:28Z",
     "tags": [
       "tapir",
-      "scala"
+      "scala",
+      "tutorial"
     ],
     "youtube": "WV1bZaGrdQQ"
   },
@@ -695,7 +698,8 @@
     "when": "2024-06-12T12:00:55Z",
     "tags": [
       "tapir",
-      "scala"
+      "scala",
+      "tutorial"
     ],
     "youtube": "rfwEJvFZT28"
   },
@@ -722,7 +726,9 @@
     "coverImage": "https://i.ytimg.com/vi/NG8XWS7ijHU/maxresdefault.jpg",
     "when": "2024-06-19T09:59:18Z",
     "tags": [
-      "tapir"
+      "tapir",
+      "scala",
+      "tutorial"
     ],
     "youtube": "NG8XWS7ijHU"
   }
