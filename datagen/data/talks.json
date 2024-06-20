@@ -1904,5 +1904,21 @@
     "conference": "Scala Matsuri",
     "slides": "http://www.warski.org/blog/wp-content/uploads/2024/06/ox-scala-matsuri.pdf",
     "video": "f82bda6f-a64b-4538-bb91-b73528d02bdf"
+  },
+  {
+    "id": "3ec4e958-1611-48e9-b1c6-bbec96b97cb2",
+    "title": "Go-like channels for Java using Project Loom",
+    "url": "https://devoxx.pl",
+    "when": "2024-06-01T00:00:00Z",
+    "tags": [
+      "jox",
+      "structured concurrency",
+      "ox",
+      "loom",
+      "concurrency"
+    ],
+    "where": "Cracow, Poland",
+    "conference": "Devoxx Poland",
+    "slides": "https://adamw.github.io/jox-pres/"
   }
 ]
