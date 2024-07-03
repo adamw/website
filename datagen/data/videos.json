@@ -744,5 +744,18 @@
       "tutorial"
     ],
     "youtube": "iXGJsk4_2Dg"
+  },
+  {
+    "id": "d9b03a32-7296-40eb-82e4-90c258136ff1",
+    "title": "Tapir Tutorial - part 5: Multiple inputs & outputs | Adam Warski SoftwareMill",
+    "url": "https://www.youtube.com/watch?v=rJAo9yZfr9k",
+    "coverImage": "https://i.ytimg.com/vi/rJAo9yZfr9k/maxresdefault.jpg",
+    "when": "2024-07-03T13:01:01Z",
+    "tags": [
+      "tapir",
+      "scala",
+      "tutorial"
+    ],
+    "youtube": "rJAo9yZfr9k"
   }
 ]
