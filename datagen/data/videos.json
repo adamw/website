@@ -679,8 +679,8 @@
   },
   {
     "id": "6be0245a-bb42-450a-8b7c-5dabf5b8a704",
-    "title": "Tapir Tutorial - part 1: Hello, world!",
-    "url": "https://www.youtube.com/watch?v=WV1bZaGrdQQ",
+    "title": "Tapir Tutorial - playlist",
+    "url": "https://www.youtube.com/watch?v=WV1bZaGrdQQ&list=PL8NC5lCgGs6MnRHBdBNNWwafaHaxZTf9m&index=1&t=0s",
     "coverImage": "https://i.ytimg.com/vi/WV1bZaGrdQQ/maxresdefault.jpg",
     "when": "2024-06-05T13:00:28Z",
     "tags": [
@@ -689,19 +689,6 @@
       "tutorial"
     ],
     "youtube": "WV1bZaGrdQQ"
-  },
-  {
-    "id": "a25d5379-1147-44dd-a41b-58a5d5cc86e5",
-    "title": "Tapir Tutorial - part 2: Generating OpenAPI docs",
-    "url": "https://www.youtube.com/watch?v=rfwEJvFZT28",
-    "coverImage": "https://i.ytimg.com/vi/rfwEJvFZT28/maxresdefault.jpg",
-    "when": "2024-06-12T12:00:55Z",
-    "tags": [
-      "tapir",
-      "scala",
-      "tutorial"
-    ],
-    "youtube": "rfwEJvFZT28"
   },
   {
     "id": "f82bda6f-a64b-4538-bb91-b73528d02bdf",
@@ -718,57 +705,5 @@
       "ox"
     ],
     "youtube": "0SeIGZkoDY0"
-  },
-  {
-    "id": "fb05e3f4-8304-49a6-99cf-97fbca23bb6c",
-    "title": "Tapir Tutorial - part 3: Using JSON bodies",
-    "url": "https://www.youtube.com/watch?v=NG8XWS7ijHU",
-    "coverImage": "https://i.ytimg.com/vi/NG8XWS7ijHU/maxresdefault.jpg",
-    "when": "2024-06-19T09:59:18Z",
-    "tags": [
-      "tapir",
-      "scala",
-      "tutorial"
-    ],
-    "youtube": "NG8XWS7ijHU"
-  },
-  {
-    "id": "9f1c2b1d-01aa-43a4-bf29-93b025e66ba0",
-    "title": "Tapir Tutorial - part 4: Error Handling",
-    "url": "https://www.youtube.com/watch?v=iXGJsk4_2Dg",
-    "coverImage": "https://i.ytimg.com/vi/iXGJsk4_2Dg/maxresdefault.jpg",
-    "when": "2024-06-26T13:00:43Z",
-    "tags": [
-      "tapir",
-      "scala",
-      "tutorial"
-    ],
-    "youtube": "iXGJsk4_2Dg"
-  },
-  {
-    "id": "d9b03a32-7296-40eb-82e4-90c258136ff1",
-    "title": "Tapir Tutorial - part 5: Multiple inputs & outputs",
-    "url": "https://www.youtube.com/watch?v=rJAo9yZfr9k",
-    "coverImage": "https://i.ytimg.com/vi/rJAo9yZfr9k/maxresdefault.jpg",
-    "when": "2024-07-03T13:01:01Z",
-    "tags": [
-      "tapir",
-      "scala",
-      "tutorial"
-    ],
-    "youtube": "rJAo9yZfr9k"
-  },
-  {
-    "id": "a721c773-0a75-4cf3-8208-16a8cf85f3ee",
-    "title": "Tapir Tutorial - part 6: Error Variants",
-    "url": "https://www.youtube.com/watch?v=w2ZL3WvhBZ8",
-    "coverImage": "https://i.ytimg.com/vi/w2ZL3WvhBZ8/maxresdefault.jpg",
-    "when": "2024-07-10T13:32:25Z",
-    "tags": [
-      "tapir",
-      "scala",
-      "tutorial"
-    ],
-    "youtube": "w2ZL3WvhBZ8"
   }
 ]
