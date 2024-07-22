@@ -236,7 +236,7 @@
       "virtual threads",
       "concurrency"
     ],
-    "description": "Prototype of what a Loombased concurrency API for Scala might look like"
+    "description": "Prototype of what a Loom based concurrency API for Scala might look like"
   },
   {
     "id": "668a5c9b-05e1-4ffd-af0c-e5e7fc165527",
@@ -290,7 +290,7 @@
       "unison",
       "effects"
     ],
-    "description": "Effect systems aim to add some structure to the way sideeffects are represented in code. This includes any I/O operations, interactions with the system clock, generating random numbers, or spawning new computational threads."
+    "description": "Effect systems aim to add some structure to the way side effects are represented in code. This includes any I/O operations, interactions with the system clock, generating random numbers, or spawning new computational threads."
   },
   {
     "id": "f7c55fd2-7fe0-4724-98b2-82bb2ef5ac2a",
@@ -1856,5 +1856,20 @@
       "structured concurrency"
     ],
     "description": "A quick introduction to implementing WebSocket chat using structured concurrency, Ox & Tapir."
+  },
+  {
+    "id": "613a6019-2741-46a1-a159-d8de7dba9dff",
+    "title": "Programmer-friendly structured concurrency for Java",
+    "url": "https://softwaremill.com/programmer-friendly-structured-concurrency-for-java/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/215.programmer-friendly-structured-concurrency-for-java/sstemdyw3qa7egj.jpg?g-e212ce38",
+    "when": "2024-07-19T12:00:00Z",
+    "tags": [
+      "java",
+      "concurrency",
+      "virtual threads",
+      "structured concurrency",
+      "jox"
+    ],
+    "description": "Jox integrates nicely with all the other Java features, starting with virtual threads, through trywith-resources and exceptions, and blocking I/O operations."
   }
 ]
