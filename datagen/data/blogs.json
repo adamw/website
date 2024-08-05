@@ -1871,5 +1871,20 @@
       "jox"
     ],
     "description": "Jox integrates nicely with all the other Java features, starting with virtual threads, through trywith-resources and exceptions, and blocking I/O operations."
+  },
+  {
+    "id": "61d485c4-94c8-42f2-9418-de3b9e54db79",
+    "title": "Direct-style Bootzooka: 2024 update",
+    "url": "https://softwaremill.com/direct-style-bootzooka-2024-update/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/218.direct-style-bootzooka-2024-update/ylvsq1wn92zu7co.jpg?g-58d99844",
+    "when": "2024-08-05T12:00:00Z",
+    "tags": [
+      "bootzooka",
+      "scala",
+      "tapir",
+      "rdbms",
+      "functional programming"
+    ],
+    "description": "See what's new in the update we made to Bootzooka this year."
   }
 ]
