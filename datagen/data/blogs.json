@@ -1886,5 +1886,18 @@
       "functional programming"
     ],
     "description": "See what's new in the update we made to Bootzooka this year."
+  },
+  {
+    "id": "7af0ede7-9d3b-4b33-b399-b353ee6376a9",
+    "title": "Autowire: Zero-Cost Dependency Injection",
+    "url": "https://softwaremill.com/autowire-zero-cost-dependency-injection/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/227.autowire-zero-cost-dependency-injection/tdzeslrfig3szpf.jpg?g-3e8fcda1",
+    "when": "2024-09-18T12:00:00Z",
+    "tags": [
+      "scala",
+      "dependency injection",
+      "macwire"
+    ],
+    "description": "Read more about autowire newest addition to MacWire, a zero-cost, compile-time, type-safe dependency injection library."
   }
 ]
