@@ -1899,5 +1899,19 @@
       "macwire"
     ],
     "description": "Read more about autowire newest addition to MacWire, a zero-cost, compile-time, type-safe dependency injection library."
+  },
+  {
+    "id": "03a1751b-34d4-4d40-88e3-eaf60494795b",
+    "title": "Direct-style concurrent streaming",
+    "url": "https://softwaremill.com/direct-style-concurrent-streaming/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/231.direct-style-concurrent-streaming/hbrqk8mf9squywe.jpg?g-793a8b55",
+    "when": "2024-10-07T12:00:00Z",
+    "tags": [
+      "scala",
+      "ox",
+      "concurrency",
+      "virtual threads"
+    ],
+    "description": "Let's take a closer look at how flows work and interoperate with channels."
   }
 ]
