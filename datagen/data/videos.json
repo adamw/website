@@ -708,14 +708,15 @@
   },
   {
     "id": "d2b2f6b5-aa21-42bf-baa8-f106bd74154c",
-    "title": "Direct-style concurrent streaming for Scala | Adam Warski SoftwareMill",
+    "title": "Direct-style concurrent streaming for Scala",
     "url": "https://www.youtube.com/watch?v=2sZGVRXP9PM",
     "coverImage": "https://i.ytimg.com/vi/2sZGVRXP9PM/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEggEyh_MA8=&rs=AOn4CLAPNEFt49QHEmqUkIRUf3niIxXwLg",
     "when": "2024-10-21T13:00:05Z",
     "tags": [
-      "jox",
-      "concurrent",
-      "streaming"
+      "ox",
+      "concurrency",
+      "streaming",
+      "scala"
     ],
     "youtube": "2sZGVRXP9PM"
   }
