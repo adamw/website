@@ -1920,5 +1920,20 @@
     "where": "Cracow, Poland",
     "conference": "Devoxx Poland",
     "slides": "https://adamw.github.io/jox-pres/"
+  },
+  {
+    "id": "605f1dee-ad16-4f6e-b90c-3783dfe2ab9c",
+    "title": "Towards Blocking Streams",
+    "url": "https://jdd.org.pl",
+    "when": "2024-10-01T00:00:00Z",
+    "tags": [
+      "java",
+      "jox",
+      "ox",
+      "loom",
+      "streaming"
+    ],
+    "where": "Kraków, Poland",
+    "conference": "JDD"
   }
 ]
