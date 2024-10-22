@@ -1931,9 +1931,10 @@
       "jox",
       "ox",
       "loom",
-      "streaming"
+      "streaming",
+      "scala"
     ],
-    "where": "Kraków, Poland",
+    "where": "Cracow, Poland",
     "conference": "JDD"
   }
 ]
