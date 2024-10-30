@@ -1936,5 +1936,21 @@
     ],
     "where": "Cracow, Poland",
     "conference": "JDD"
+  },
+  {
+    "id": "4b101310-53f0-45fe-971a-63b799acbef0",
+    "title": "Virtual Threads Looming",
+    "url": "https://podcasters.spotify.com/pod/show/happypathprogramming/episodes/92-Virtual-Threads-Looming-with-Adam-Warski-e2ec9d0",
+    "when": "2024-01-12T00:00:00Z",
+    "tags": [
+      "ox",
+      "loom",
+      "streaming",
+      "scala",
+      "java"
+    ],
+    "where": "Online",
+    "conference": "Happy Path Programming",
+    "audio": "https://podcasters.spotify.com/pod/show/happypathprogramming/episodes/92-Virtual-Threads-Looming-with-Adam-Warski-e2ec9d0"
   }
 ]
