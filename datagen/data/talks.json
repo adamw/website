@@ -167,7 +167,8 @@
       "scala",
       "ox",
       "functional programming",
-      "effects"
+      "effects",
+      "direct style"
     ],
     "where": "Cracow, Poland",
     "conference": "KSUG"
@@ -1854,7 +1855,8 @@
     "tags": [
       "scala",
       "scala3",
-      "concurrency"
+      "concurrency",
+      "direct style"
     ],
     "where": "Warsaw, Poland",
     "conference": "Scalar",
@@ -1952,5 +1954,20 @@
     "where": "Online",
     "conference": "Happy Path Programming",
     "audio": "https://podcasters.spotify.com/pod/show/happypathprogramming/episodes/92-Virtual-Threads-Looming-with-Adam-Warski-e2ec9d0"
+  },
+  {
+    "id": "c279654d-faca-4aaf-a151-930b86a83cb3",
+    "title": "How functional is direct-style?",
+    "url": "https://scala.io",
+    "when": "2024-11-08T00:00:00Z",
+    "tags": [
+      "scala",
+      "functional programming",
+      "direct style",
+      "ox"
+    ],
+    "where": "Paris, France",
+    "conference": "Scala.IO",
+    "slides": "http://www.warski.org/blog/wp-content/uploads/2024/11/scala-io-is-direct-style-functional.pdf",
   }
 ]
