@@ -1913,5 +1913,16 @@
       "virtual threads"
     ],
     "description": "Let's take a closer look at how flows work and interoperate with channels."
+  },
+  {
+    "id": "16deae6e-d2f6-4eec-91a2-49b788e05675",
+    "title": "What is Functional Programming?",
+    "url": "https://softwaremill.com/what-is-functional-programming/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/239.what-is-functional-programming/n8qi9intyhdlzp6.jpg?g-d51cd628",
+    "when": "2024-11-14T12:00:00Z",
+    "tags": [
+      "functional programming"
+    ],
+    "description": "What does programming with functions actually mean? Let's try to answer."
   }
 ]
