@@ -46,10 +46,11 @@
 {{ $uniqueTags := union (slice "all") $uniqueTags }}
 
 {{ $firstArticle := index $articles 0 }}
+{{ $allArticles := $articles }}
 {{ $articles := after 1 $articles }}
 
 {{ $featuredIds := slice
-    "eada7148-4623-4650-8708-3ae3e8d4ab1b"
+    "16deae6e-d2f6-4eec-91a2-49b788e05675"
     "1cb2a763-a92e-4712-a00f-b57e56e6ac01"
     "a75d25ce-c7cc-4922-9ed1-cf081ae1867b"
     "2bc11893-e7b4-40fe-909d-121675a2112f"
@@ -67,7 +68,7 @@
 
   <div class="bg-[#F9FAFB] py-24">
     <div class="container grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 mx-auto">
-      {{ range $articles }}
+      {{ range $allArticles }}
         {{ if in $featuredIds .id }}
           {{ partial "article-item.html" (dict "article" .) }}
         {{ end }}
