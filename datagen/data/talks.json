@@ -1969,5 +1969,21 @@
     "where": "Paris, France",
     "conference": "Scala.IO",
     "slides": "http://www.warski.org/blog/wp-content/uploads/2024/11/scala-io-is-direct-style-functional.pdf"
+  },
+  {
+    "id": "d8a92efc-80d5-4a1b-837e-5681e57dbb4c",
+    "title": "Fast & blocking Kafka streaming on the JVM",
+    "url": "https://www.meetup.com/krakow-kafka",
+    "when": "2024-11-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "ox",
+      "kafka",
+      "direct style",
+      "streaming",
+      "loom"
+    ],
+    "where": "Cracow, Poland",
+    "conference": "Kraków Kafka Meetup"
   }
 ]
