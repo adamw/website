@@ -1924,5 +1924,16 @@
       "functional programming"
     ],
     "description": "What does programming with functions actually mean? Let's try to answer."
+  },
+  {
+    "id": "eaf767f9-6059-446c-afae-bcf3f35555c6",
+    "title": "Bluesky's Decentralized Architecture Compared to Mastodon and Twitter/X",
+    "url": "https://softwaremill.com/blueskys-decentralized-architecture-compared-to-mastodon-and-twitter-x/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/245.blueskys-decentralized-architecture-compared-to-mastodon-and-twitter-x/fai2bonwrwp3vja.jpg?g-3abe9a4e",
+    "when": "2024-12-06T12:00:00Z",
+    "tags": [
+      "architecture"
+    ],
+    "description": "Check the factors that might make Bluesky significantly different from its competitors."
   }
 ]
