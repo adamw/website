@@ -719,5 +719,19 @@
       "scala"
     ],
     "youtube": "2sZGVRXP9PM"
+  },
+  {
+    "id": "b4e063d6-072c-4489-a394-e9ebfb3971e3",
+    "title": "How Functional is Direct Style?",
+    "url": "https://www.youtube.com/watch?v=hbnss4U5xps",
+    "coverImage": "https://i.ytimg.com/vi/hbnss4U5xps/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShRMA8=&rs=AOn4CLAA2Q95Ql1_qlOAK2xsPQvQhQUmFw",
+    "when": "2024-12-08T13:04:29Z",
+    "tags": [
+      "scala",
+      "functional programming",
+      "direct style",
+      "ox"
+    ],
+    "youtube": "hbnss4U5xps"
   }
 ]
