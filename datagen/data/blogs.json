@@ -1935,5 +1935,19 @@
       "architecture"
     ],
     "description": "Check the factors that might make Bluesky significantly different from its competitors."
+  },
+  {
+    "id": "bad390b0-848d-44de-9f00-bd22fefc3ffd",
+    "title": "Scala Space in 2025",
+    "url": "https://softwaremill.com/scala-space-in-2025/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/248.scala-space-in-2025/ntxg2q14ifgj6ya.jpg?g-3231947a",
+    "when": "2024-12-12T12:00:00Z",
+    "tags": [
+      "scala",
+      "virtuslab",
+      "open source",
+      "sttp"
+    ],
+    "description": "Take a look at our plans for opensource development in 2025."
   }
 ]
