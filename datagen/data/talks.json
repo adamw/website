@@ -2003,5 +2003,21 @@
     "where": "Berlin, Germany",
     "conference": "Scala in the City",
     "slides": "https://github.com/softwaremill/ox-flows-pres/tree/master/src/main/scala/pres"
+  },
+  {
+    "id": "6d4f6a3e-9ccc-41ae-b84a-669626dd9e7b",
+    "title": "From Reactive Streams, through Virtual Threads, to Flows",
+    "url": "https://www.meetup.com/scala-in-the-city/events/304875605/",
+    "when": "2025-02-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "ox",
+      "direct style",
+      "streaming",
+      "loom"
+    ],
+    "where": "Hamburg, Germany",
+    "conference": "Scala in the City",
+    "slides": "https://github.com/softwaremill/ox-flows-pres/tree/master/src/main/scala/pres"
   }
 ]
