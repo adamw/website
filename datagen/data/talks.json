@@ -1987,5 +1987,21 @@
     "where": "Cracow, Poland",
     "conference": "Kraków Kafka Meetup",
     "slides": "https://github.com/softwaremill/kafka-ox-pres"
+  },
+  {
+    "id": "af2b3a57-a857-4575-b1ae-847f08c416d6",
+    "title": "From Reactive Streams, through Virtual Threads, to Flows",
+    "url": "https://www.meetup.com/scala-in-the-city/events/304875624/",
+    "when": "2025-02-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "ox",
+      "direct style",
+      "streaming",
+      "loom"
+    ],
+    "where": "Berlin, Germany",
+    "conference": "Scala in the City",
+    "slides": "https://github.com/softwaremill/ox-flows-pres/tree/master/src/main/scala/pres"
   }
 ]
