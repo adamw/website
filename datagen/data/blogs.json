@@ -1949,5 +1949,20 @@
       "sttp"
     ],
     "description": "Take a look at our plans for opensource development in 2025."
+  },
+  {
+    "id": "191369ba-922c-4c92-99d3-62086576a104",
+    "title": "Propagating OpenTelemetry context when using Virtual Threads & Structured Concurrency",
+    "url": "https://softwaremill.com/propagating-opentelemetry-context-when-using-virtual-threads-and-structured-concurrency/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/271.propagating-opentelemetry-context-when-using-virtual-threads-and-structured-concurrency/gtuziksa57hybpd.jpg?g-8d21e68f",
+    "when": "2025-03-06T12:00:00Z",
+    "tags": [
+      "java",
+      "opentelemetry",
+      "observability",
+      "virtual threads",
+      "structured concurrency"
+    ],
+    "description": "Find out more about Propagating OpenTelemetry context when using Virtual Threads & Structured Concurrency."
   }
 ]
