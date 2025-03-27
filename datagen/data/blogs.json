@@ -1964,5 +1964,19 @@
       "structured concurrency"
     ],
     "description": "Find out more about Propagating OpenTelemetry context when using Virtual Threads & Structured Concurrency."
+  },
+  {
+    "id": "3602fddd-5dc9-4caa-b56f-081d84f50351",
+    "title": "From Reactive Streams To Virtual Threads",
+    "url": "https://javapro.io/2025/03/27/from-reactive-streams-to-virtual-threads/",
+    "coverImage": "https://javapro.io/wp-content/uploads/2025/02/maschine-adam-1920x1024.jpg",
+    "when": "2025-03-27T12:00:00Z",
+    "tags": [
+      "java",
+      "streaming",
+      "virtual threads",
+      "structured concurrency"
+    ],
+    "description": "Are Virtual Threads enough to challenge the status quo regarding data streaming? "
   }
 ]
