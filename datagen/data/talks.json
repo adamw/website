@@ -2019,5 +2019,21 @@
     "where": "Hamburg, Germany",
     "conference": "Scala in the City",
     "slides": "https://github.com/softwaremill/ox-flows-pres/tree/master/src/main/scala/pres"
+  },
+  {
+    "id": "cbbd8354-2be6-42b7-9ad9-29a6848d5ddd",
+    "title": "Production-ready direct-style Scala",
+    "url": "https://www.scalar-conf.com",
+    "when": "2025-03-01T00:00:00Z",
+    "tags": [
+      "ox",
+      "direct style",
+      "scala",
+      "concurrency",
+      "bootzooka"
+    ],
+    "where": "Warsaw, Poland",
+    "conference": "Scalar",
+    "slides": "https://github.com/softwaremill/direct-production-pres"
   }
 ]
