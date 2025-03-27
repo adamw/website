@@ -2030,7 +2030,8 @@
       "direct style",
       "scala",
       "concurrency",
-      "bootzooka"
+      "loom",
+      "streaming"
     ],
     "where": "Warsaw, Poland",
     "conference": "Scalar",
