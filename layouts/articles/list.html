@@ -21,7 +21,7 @@
 {{ end }}
 
 {{ range (getJSON "datagen/data/blogs.json") }}
-  {{ $whenForSort := time.Format "2006-01-30" .when }}
+  {{ $whenForSort := time.Format "2006-01-02" .when }}
   {{ $articles = append (dict
     "id" .id
     "title" .title
