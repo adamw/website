@@ -1978,5 +1978,18 @@
       "structured concurrency"
     ],
     "description": "Are Virtual Threads enough to challenge the status quo regarding data streaming? "
+  },
+  {
+    "id": "b8015c95-dfb2-49c8-bfaf-a820d5d5bad3",
+    "title": "sttp client 4: the Scala HTTP client you always wanted, released!",
+    "url": "https://softwaremill.com/sttp-client-4-scala-http-client-released/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/280.sttp-client-4-Scala-HTTP-client-released/ibqffyujguv5t4s.jpg?g-ca8bba92",
+    "when": "2025-04-08T12:00:00Z",
+    "tags": [
+      "http client",
+      "sttp",
+      "scala"
+    ],
+    "description": "sttp client is an opensource HTTP client for Scala. It integrates with every Scala stack, be it synchronous, a.k.a. direct-style, Future-based, or using functional affect systems."
   }
 ]
