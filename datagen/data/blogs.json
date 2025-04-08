@@ -1990,6 +1990,6 @@
       "sttp",
       "scala"
     ],
-    "description": "sttp client is an opensource HTTP client for Scala. It integrates with every Scala stack, be it synchronous, a.k.a. direct-style, Future-based, or using functional affect systems."
+    "description": "sttp client is an opensource HTTP client for Scala. It integrates with every Scala stack, be it synchronous, a.k.a. direct-style, Future-based, or using functional effect systems."
   }
 ]
