@@ -733,5 +733,20 @@
       "ox"
     ],
     "youtube": "hbnss4U5xps"
+  },
+  {
+    "id": "c0d9d44c-a262-4d49-8f5f-9f5531ab00a7",
+    "title": "Production-ready direct-style Scala by Adam Warski | Scalar Conference 2025",
+    "url": "https://www.youtube.com/watch?v=Vy-0LL0REnI",
+    "coverImage": "https://i.ytimg.com/vi/Vy-0LL0REnI/maxresdefault.jpg",
+    "when": "2025-04-10T10:06:11Z",
+    "tags": [
+      "scala",
+      "direct style",
+      "loom",
+      "structured concurrency",
+      "bootzooka"
+    ],
+    "youtube": "Vy-0LL0REnI"
   }
 ]
