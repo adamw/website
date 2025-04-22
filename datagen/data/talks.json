@@ -2037,5 +2037,23 @@
     "conference": "Scalar",
     "slides": "https://github.com/softwaremill/direct-production-pres",
     "video": "c0d9d44c-a262-4d49-8f5f-9f5531ab00a7"
+  },
+  {
+    "id": "b43d720b-4e60-4a11-91f4-14349b37b830",
+    "title": "From Reactive Streams to Virtual Threads",
+    "url": "https://jjug.doorkeeper.jp",
+    "when": "2025-04-01T00:00:00Z",
+    "tags": [
+      "jox",
+      "java",
+      "reactive",
+      "streaming",
+      "structured concurrency",
+      "direct style",
+      "loom"
+    ],
+    "where": "Tokyo, Japan",
+    "conference": "Japan Java User Group",
+    "slides": "https://softwaremill.github.io/jox-pres-2/"
   }
 ]
