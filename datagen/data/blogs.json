@@ -1991,5 +1991,19 @@
       "scala"
     ],
     "description": "sttp client is an opensource HTTP client for Scala. It integrates with every Scala stack, be it synchronous, a.k.a. direct-style, Future-based, or using functional effect systems."
+  },
+  {
+    "id": "7f4a7509-152a-45be-aa77-b7909b7611d9",
+    "title": "Von Reactive Streams zu Virtual Threads",
+    "url": "https://javapro.io/de/von-reactive-streams-zu-virtual-threads/",
+    "coverImage": "https://javapro.io/de/wp-content/uploads/sites/1/2025/05/Adam-Warski-From-Reactive-Streams.jpg",
+    "when": "2025-05-12T12:00:00Z",
+    "tags": [
+      "java",
+      "streaming",
+      "virtual threads",
+      "structured concurrency"
+    ],
+    "description": "Virtual Threads bieten eine schnelle und ressourcenschonende Threading-Lösung für die JVM – sowohl im Hinblick auf Speicherverbrauch als…"
   }
 ]

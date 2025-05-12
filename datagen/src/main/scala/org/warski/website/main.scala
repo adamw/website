@@ -165,13 +165,13 @@ def readBlog(url: String): BlogPost =
     // medium blog
     val anchors = doc >> elementList("a")
     tags = anchors
-      .filter(_.attr("href").contains("https://medium.com/tag/"))
+      .filter(_.attrs.getOrElse("href", "").contains("https://medium.com/tag/"))
       .map(_ >> allText("div"))
 
     if tags.isEmpty then
       // SML blog, v2
       tags = anchors
-        .filter(_.attr("href").contains("/blog/?tag="))
+        .filter(_.attrs.getOrElse("href", "").contains("/blog/?tag="))
         .map(_ >> text)
 
       if tags.isEmpty then
