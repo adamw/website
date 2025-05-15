@@ -2055,5 +2055,16 @@
     "where": "Tokyo, Japan",
     "conference": "Japan Java User Group",
     "slides": "https://softwaremill.github.io/jox-pres-2/"
+  },
+  {
+    "id": "76b92319-aab2-493c-8062-94ff03d52418",
+    "title": "What is Fuctional Programming?",
+    "url": "https://2025.geecon.org",
+    "when": "2025-05-01T00:00:00Z",
+    "tags": [
+      "functional programming"
+    ],
+    "where": "Kraków, Poland",
+    "conference": "GeeCON"
   }
 ]
