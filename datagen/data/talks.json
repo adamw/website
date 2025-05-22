@@ -2070,5 +2070,22 @@
     ],
     "where": "Cracow, Poland",
     "conference": "GeeCON"
+  },
+  {
+    "id": "983dc66b-a130-4498-aef5-c4ef4d8d3112",
+    "title": "From Reactive Streams, through Virtual Threads, to Flows",
+    "url": "https://www.meetup.com/amsterdam-scala/events/306861994/",
+    "when": "2025-05-01T00:00:00Z",
+    "tags": [
+      "reactive",
+      "streaming",
+      "structured concurrency",
+      "direct style",
+      "loom",
+      "scala",
+      "ox"
+    ],
+    "where": "Amsterdam, Netherlands",
+    "conference": "Amsterdam Scala Meetup"
   }
 ]
