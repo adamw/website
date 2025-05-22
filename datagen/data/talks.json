@@ -2086,6 +2086,7 @@
       "ox"
     ],
     "where": "Amsterdam, Netherlands",
-    "conference": "Amsterdam Scala Meetup"
+    "conference": "Amsterdam Scala Meetup",
+    "slides": "https://github.com/softwaremill/ox-flows-pres"
   }
 ]
