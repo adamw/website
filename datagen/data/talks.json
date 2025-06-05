@@ -2088,5 +2088,18 @@
     "where": "Amsterdam, Netherlands",
     "conference": "Amsterdam Scala Meetup",
     "slides": "https://github.com/softwaremill/ox-flows-pres"
+  },
+  {
+    "id": "a48d682a-cd97-4772-b680-89427a892f80",
+    "title": "Kafka queued up!",
+    "url": "https://www.meetup.com/warsaw-kafka-meetup/events/307958037/",
+    "when": "2025-06-01T00:00:00Z",
+    "tags": [
+      "kafka",
+      "message queue"
+    ],
+    "where": "Warsaw, Poland",
+    "conference": "Kafka Meetup Warsaw",
+    "slides": "https://github.com/softwaremill/kafka-queues-pres/blob/master/src/main/resources/slides/s010_kafka_queued_up.txt"
   }
 ]
