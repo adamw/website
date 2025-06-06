@@ -2005,5 +2005,19 @@
       "structured concurrency"
     ],
     "description": "Virtual Threads bieten eine schnelle und ressourcenschonende Threading-Lösung für die JVM – sowohl im Hinblick auf Speicherverbrauch als…"
+  },
+  {
+    "id": "02e6aa02-5998-4596-9801-a66512151d8b",
+    "title": "A Beginner's Guide to Using Scala Metals With its Model Context Protocol Server",
+    "url": "https://softwaremill.com/a-beginners-guide-to-using-scala-metals-with-its-model-context-protocol-server/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/296.a-beginners-guide-to-using-scala-metals-with-its-model-context-protocol-server/dnebs3fadywxjwp.jpg?g-3e19bd8b",
+    "when": "2025-06-06T12:00:00Z",
+    "tags": [
+      "mcp",
+      "scala",
+      "metals",
+      "agents"
+    ],
+    "description": "Enhance the capabilities of agent-assisted Scala development by using the Metals MCP server, providing the context that AI needs to write quality code."
   }
 ]
