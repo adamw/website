@@ -2101,5 +2101,20 @@
     "where": "Warsaw, Poland",
     "conference": "Kafka Meetup Warsaw",
     "slides": "https://github.com/softwaremill/kafka-queues-pres/blob/master/src/main/resources/slides/s010_kafka_queued_up.txt"
+  },
+  {
+    "id": "fc792811-a1db-467e-8f97-dd02ac4324f6",
+    "title": "What is Functional Programming?",
+    "url": "https://www.lambdadays.org/lambdadays2025",
+    "when": "2025-06-01T00:00:00Z",
+    "tags": [
+      "scala",
+      "java",
+      "rust",
+      "haskell",
+      "functional programming"
+    ],
+    "where": "Cracow, Poland",
+    "conference": "Lambda Days"
   }
 ]
