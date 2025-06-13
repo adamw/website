@@ -2115,6 +2115,15 @@
       "functional programming"
     ],
     "where": "Cracow, Poland",
-    "conference": "Lambda Days"
+    "conference": "Lambda Days",
+    "slides": "http://www.warski.org/blog/wp-content/uploads/2025/06/what-is-fp.pdf"
+  },
+  {
+    "id": "ce726b14-891a-42ee-8803-cfc051db0fcc",
+    "title": "Virtual Threads, 2 years later",
+    "url": "https://devoxx.pl",
+    "when": "2025-06-01T00:00:00Z",
+    "where": "Cracow, Poland",
+    "conference": "Devoxx Poland"
   }
 ]
