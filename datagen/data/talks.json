@@ -2093,7 +2093,7 @@
     "id": "a48d682a-cd97-4772-b680-89427a892f80",
     "title": "Kafka queued up!",
     "url": "https://www.meetup.com/warsaw-kafka-meetup/events/307958037/",
-    "when": "2025-06-01T00:00:00Z",
+    "when": "2025-06-05T00:00:00Z",
     "tags": [
       "kafka",
       "message queue"
@@ -2106,7 +2106,7 @@
     "id": "fc792811-a1db-467e-8f97-dd02ac4324f6",
     "title": "What is Functional Programming?",
     "url": "https://www.lambdadays.org/lambdadays2025",
-    "when": "2025-06-01T00:00:00Z",
+    "when": "2025-06-12T00:00:00Z",
     "tags": [
       "scala",
       "java",
@@ -2122,8 +2122,17 @@
     "id": "ce726b14-891a-42ee-8803-cfc051db0fcc",
     "title": "Virtual Threads, 2 years later",
     "url": "https://devoxx.pl",
-    "when": "2025-06-01T00:00:00Z",
+    "when": "2025-06-13T00:00:00Z",
     "where": "Cracow, Poland",
-    "conference": "Devoxx Poland"
+    "conference": "Devoxx Poland",
+    "tags": [
+      "jox",
+      "java",
+      "reactive",
+      "structured concurrency",
+      "direct style",
+      "loom"
+    ],
+    "slides": "http://www.warski.org/blog/wp-content/uploads/2025/06/virtual-threads-2-years-later.pdf"
   }
 ]
