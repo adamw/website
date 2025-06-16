@@ -24,8 +24,8 @@ import scala.io.{Source, StdIn}
   val conferenceUrl = noneIfEmpty(StdIn.readLine().trim)
   println("Talk title:")
   val talkTitle = StdIn.readLine().trim
-  println("mm/yy:")
-  val monthYear = parseMMYYtoInstant(StdIn.readLine().trim)
+  println("dd/mm/yy:")
+  val dayMonthYear = parseDDMMYYtoInstant(StdIn.readLine().trim)
   println("City + country:")
   val cityCountry = StdIn.readLine().trim
 
@@ -47,7 +47,7 @@ import scala.io.{Source, StdIn}
       talkTitle,
       conferenceUrl.map(Uri(_)),
       None,
-      monthYear,
+      dayMonthYear,
       tags,
       cityCountry,
       conferenceName,
@@ -212,12 +212,6 @@ private def parseDDMMYYtoInstant(dateString: String) =
   val formatter = DateTimeFormatter.ofPattern("dd/MM/yy")
   val date = LocalDate.parse(dateString, formatter).atTime(12, 0)
   val zonedDateTime = date.atZone(ZoneOffset.UTC)
-  zonedDateTime.toInstant
-private def parseMMYYtoInstant(dateString: String) =
-  val formatter = DateTimeFormatter.ofPattern("MM/yy")
-  val date = YearMonth.parse(dateString, formatter).atDay(1)
-  val dateTime = date.atStartOfDay
-  val zonedDateTime = dateTime.atZone(ZoneOffset.UTC)
   zonedDateTime.toInstant
 private def ytIdFromUrl(url: String): Option[String] =
   val urlPattern = ".*[?&]v=([^&]+).*".r
