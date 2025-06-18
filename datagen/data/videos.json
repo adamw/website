@@ -749,5 +749,20 @@
       "streaming"
     ],
     "youtube": "Vy-0LL0REnI"
+  },
+  {
+    "id": "22750523-b8fc-48b8-8ab7-940366480bdb",
+    "title": "What is Functional Programming? - Adam Warski | Lambda Days 2025",
+    "url": "https://www.youtube.com/watch?v=pnZSff01FYQ",
+    "coverImage": "https://i.ytimg.com/vi/pnZSff01FYQ/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGH8gEyhTMA8=&rs=AOn4CLDG4iokSuPYvq7dgHf-3CAhjr27aw",
+    "when": "2025-06-18T09:52:23Z",
+    "tags": [
+      "scala",
+      "java",
+      "rust",
+      "haskell",
+      "functional programming"
+    ],
+    "youtube": "pnZSff01FYQ"
   }
 ]
