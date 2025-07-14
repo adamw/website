@@ -2019,5 +2019,18 @@
       "agents"
     ],
     "description": "Enhance the capabilities of agent-assisted Scala development by using the Metals MCP server, providing the context that AI needs to write quality code."
+  },
+  {
+    "id": "eaabcf54-3f81-4a37-ab4d-5f87957a16a3",
+    "title": "Comparing Java Streams with Jox Flows",
+    "url": "https://softwaremill.com/comparing-java-streams-with-jox-flows/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/307.comparing-java-streams-with-jox-flows/nolkz1a46f87vtn.jpg?g-700b2f4f",
+    "when": "2025-07-14T12:00:00Z",
+    "tags": [
+      "java",
+      "jox",
+      "streaming"
+    ],
+    "description": "Both Java Streams and Jox Flows allow transforming data in a streaming fashion. What is the difference, then? It’s a question I often face when I give talks on Jox and virtual-thread-based streaming; hence, let’s examine these differences in more detail."
   }
 ]
