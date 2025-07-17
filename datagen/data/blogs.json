@@ -2032,5 +2032,19 @@
       "streaming"
     ],
     "description": "Both Java Streams and Jox Flows allow transforming data in a streaming fashion. What is the difference, then? It’s a question I often face when I give talks on Jox and virtual-thread-based streaming; hence, let’s examine these differences in more detail."
+  },
+  {
+    "id": "be49b67a-3da4-4777-be6a-32ab4141b567",
+    "title": "Providing library documentation to AI coding assistants",
+    "url": "https://virtuslab.com/blog/backend/providing-library-documentation/",
+    "coverImage": "https://s3.eu-central-1.amazonaws.com/images.virtuslab.com/Providing_library_documentation_to_AI_coding_assistants_square_ee4bc301d5.jpg",
+    "when": "2025-07-17T12:00:00Z",
+    "tags": [
+      "llm",
+      "ai",
+      "cursor",
+      "agent"
+    ],
+    "description": "How to prepare your documentation for coding agents?"
   }
 ]
