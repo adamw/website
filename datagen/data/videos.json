@@ -764,5 +764,21 @@
       "functional programming"
     ],
     "youtube": "pnZSff01FYQ"
+  },
+  {
+    "id": "4a2cbede-0eeb-4164-ade3-a0e55d877c2b",
+    "title": "Type-safe vide-coding a CRUD application",
+    "url": "https://www.youtube.com/watch?v=mJ2uYnGR3lI",
+    "coverImage": "https://i.ytimg.com/vi/mJ2uYnGR3lI/maxresdefault.jpg",
+    "when": "2025-07-28T13:52:49Z",
+    "tags": [
+      "scala",
+      "virtual threads",
+      "vibe coding",
+      "ai",
+      "llm",
+      "bootzooka"
+    ],
+    "youtube": "mJ2uYnGR3lI"
   }
 ]
