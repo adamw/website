@@ -2046,5 +2046,18 @@
       "agent"
     ],
     "description": "How to prepare your documentation for coding agents?"
+  },
+  {
+    "id": "7991a9d1-fb14-448b-a7a8-2df7cbb68705",
+    "title": "How LLMs Call Tools and Use the MCP Standard for Integration",
+    "url": "https://virtuslab.com/blog/ai/how-mcp-llm-tool-calls-work/",
+    "coverImage": "https://s3.eu-central-1.amazonaws.com/images.virtuslab.com/How_MCP_and_LLM_tool_calls_work_meta_3685bce126.jpg",
+    "when": "2025-08-11T12:00:00Z",
+    "tags": [
+      "llm",
+      "ai",
+      "mcp"
+    ],
+    "description": "Learn how LLMs call tools and how MCP standardizes external tool use."
   }
 ]
