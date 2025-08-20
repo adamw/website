@@ -2124,8 +2124,6 @@
     "title": "Virtual Threads, 2 years later",
     "url": "https://devoxx.pl",
     "when": "2025-06-13T00:00:00Z",
-    "where": "Cracow, Poland",
-    "conference": "Devoxx Poland",
     "tags": [
       "jox",
       "java",
@@ -2134,6 +2132,21 @@
       "direct style",
       "loom"
     ],
+    "where": "Cracow, Poland",
+    "conference": "Devoxx Poland",
     "slides": "http://www.warski.org/blog/wp-content/uploads/2025/06/virtual-threads-2-years-later.pdf"
+  },
+  {
+    "id": "d7b594a9-fbe9-4637-8fb2-dbd98dc5a512",
+    "title": "A Tour of Ox 1.0: Direct-Style Concurrency and Resiliency",
+    "url": "https://scaladays.org",
+    "when": "2025-08-20T12:00:00Z",
+    "tags": [
+      "ox",
+      "scala",
+      "concurrency"
+    ],
+    "where": "Lausanne, Switzerland",
+    "conference": "ScalaDays"
   }
 ]
