@@ -2144,8 +2144,13 @@
     "tags": [
       "ox",
       "scala",
-      "concurrency"
+      "functional programming",
+      "streaming",
+      "structured concurrency",
+      "direct style",
+      "loom"
     ],
+    "slides": "http://www.warski.org/blog/wp-content/uploads/2025/08/tour-of-ox-1.0.pdf",
     "where": "Lausanne, Switzerland",
     "conference": "ScalaDays"
   }
