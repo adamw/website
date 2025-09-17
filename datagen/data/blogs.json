@@ -2059,5 +2059,20 @@
       "mcp"
     ],
     "description": "Learn how LLMs call tools and how MCP standardizes external tool use."
+  },
+  {
+    "id": "bda2d939-c8d3-4967-a65a-330298b76f7c",
+    "title": "Local-Second, Event-Driven Webapps | SoftwareMill",
+    "url": "https://softwaremill.com/local-second-event-driven-webapps/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/319.local-second-event-driven-webapps/8rmt1xumoaecs6d.jpg?g-d02f54ef",
+    "when": "2025-09-17T12:00:00Z",
+    "tags": [
+      "rust",
+      "react",
+      "local first",
+      "event sourcing",
+      "rdbms"
+    ],
+    "description": "Explore a 'local-second' approach to web apps that combine event-driven backends with limited offline support, ensuring graceful degradation when connectivity drops."
   }
 ]
