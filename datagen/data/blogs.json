@@ -2071,7 +2071,8 @@
       "react",
       "local first",
       "event sourcing",
-      "rdbms"
+      "rdbms",
+      "architecture"
     ],
     "description": "Explore a 'local-second' approach to web apps that combine event-driven backends with limited offline support, ensuring graceful degradation when connectivity drops."
   }
