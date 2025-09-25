@@ -2075,5 +2075,19 @@
       "architecture"
     ],
     "description": "Explore a 'local-second' approach to web apps that combine event-driven backends with limited offline support, ensuring graceful degradation when connectivity drops."
+  },
+  {
+    "id": "0dbf3159-0b5f-4f1d-8674-7c7239a15e15",
+    "title": "Critique of JEP 505: Structured Concurrency (Fifth Preview)",
+    "url": "https://softwaremill.com/critique-of-jep-505-structured-concurrency-fifth-preview/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/320.critique-of-jep-505-structured-concurrency-fifth-preview/qcu6p0eavd8czxs.jpg?g-01323710",
+    "when": "2025-09-25T12:00:00Z",
+    "tags": [
+      "java",
+      "jox",
+      "virtual threads",
+      "structured concurrency"
+    ],
+    "description": "With the just released Java 25, we have the opportunity to test the fifth preview of structured concurrency APIs. Turns out, creating such an API is not that easy a task!"
   }
 ]
