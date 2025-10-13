@@ -2165,7 +2165,7 @@
       "functional programming"
     ],
     "where": "Singapore",
-    "conference": "Scala Workshop at ICFP 2025",
-    "slides": "https://2025.workshop.scala-lang.org/details/scala-2025/1/How-Functional-is-Direct-Style-"
+    "conference": "Scala Workshop / ICFP",
+    "slides": "http://www.warski.org/blog/wp-content/uploads/2025/10/direct_fp_icfp.pdf"
   }
 ]
