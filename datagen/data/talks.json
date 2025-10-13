@@ -2150,8 +2150,22 @@
       "direct style",
       "loom"
     ],
-    "slides": "http://www.warski.org/blog/wp-content/uploads/2025/08/tour-of-ox-1.0.pdf",
     "where": "Lausanne, Switzerland",
-    "conference": "ScalaDays"
+    "conference": "ScalaDays",
+    "slides": "http://www.warski.org/blog/wp-content/uploads/2025/08/tour-of-ox-1.0.pdf"
+  },
+  {
+    "id": "f9df41c0-ba48-4041-9228-94406e7972c3",
+    "title": "How Functional is Direct-Style?",
+    "url": "https://icfp25.sigplan.org",
+    "when": "2025-10-13T12:00:00Z",
+    "tags": [
+      "scala",
+      "direct style",
+      "functional programming"
+    ],
+    "where": "Singapore",
+    "conference": "Scala Workshop at ICFP 2025",
+    "slides": "https://2025.workshop.scala-lang.org/details/scala-2025/1/How-Functional-is-Direct-Style-"
   }
 ]
