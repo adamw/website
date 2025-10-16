@@ -2167,5 +2167,18 @@
     "where": "Singapore",
     "conference": "Scala Workshop / ICFP",
     "slides": "http://www.warski.org/blog/wp-content/uploads/2025/10/direct_fp_icfp.pdf"
+  },
+  {
+    "id": "9d640008-1aa9-4c52-adda-2fc9f527b85f",
+    "title": "10 things about Virtual Threads you might want to know",
+    "url": "https://www.meetup.com/singadev/",
+    "when": "2025-10-16T12:00:00Z",
+    "tags": [
+      "java",
+      "virtual threads",
+      "concurrency"
+    ],
+    "where": "Singapore",
+    "conference": "SingaDev meetup"
   }
 ]
