@@ -2174,11 +2174,15 @@
     "url": "https://www.meetup.com/singadev/",
     "when": "2025-10-16T12:00:00Z",
     "tags": [
+      "jox",
       "java",
-      "virtual threads",
-      "concurrency"
+      "reactive",
+      "structured concurrency",
+      "direct style",
+      "loom"
     ],
     "where": "Singapore",
-    "conference": "SingaDev meetup"
+    "conference": "SingaDev meetup",
+    "slides": "http://www.warski.org/blog/wp-content/uploads/2025/10/10_things_virtual_threads.pdf"
   }
 ]
