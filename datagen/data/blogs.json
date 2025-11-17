@@ -2089,5 +2089,17 @@
       "structured concurrency"
     ],
     "description": "With the just released Java 25, we have the opportunity to test the fifth preview of structured concurrency APIs. Turns out, creating such an API is not that easy a task!"
+  },
+  {
+    "id": "0ede8619-cf6c-4be9-b725-e3e67ba0c1a4",
+    "title": "Deterministic Concurrent Testing Using Fray",
+    "url": "https://softwaremill.com/deterministic-concurrent-testing-using-fray/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/329.deterministic-concurrent-testing-using-fray/kc67ht9eexubrp2.jpg?g-3ca73cbb",
+    "when": "2025-11-17T12:00:00Z",
+    "tags": [
+      "concurrency",
+      "java"
+    ],
+    "description": "Fray enables writing concurrent tests for the JVM, deterministically simulating various thread interleaving, and if needed, replaying runs that failed, using a standard Java debugger. Let's take a closer look at how Fray can be used and how it works."
   }
 ]
