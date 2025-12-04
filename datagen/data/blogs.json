@@ -2101,5 +2101,18 @@
       "java"
     ],
     "description": "Fray enables writing concurrent tests for the JVM, deterministically simulating various thread interleaving, and if needed, replaying runs that failed, using a standard Java debugger. Let's take a closer look at how Fray can be used and how it works."
+  },
+  {
+    "id": "b553c2fa-f8ac-4090-ae68-02f88031f38a",
+    "title": "Understanding Capture Checking in Scala",
+    "url": "https://softwaremill.com/understanding-capture-checking-in-scala/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/332.understanding-capture-checking-in-scala/9knzlt74hyf2omq.jpg?g-72bed2c3",
+    "when": "2025-12-04T12:00:00Z",
+    "tags": [
+      "scala",
+      "capture checking",
+      "type safety"
+    ],
+    "description": "Capture checking is an upcoming Scala feature that allows you to track which designated values (capabilities) are captured (i.e., stored as references) by arbitrary other values. This tracking happens at compile time and is currently an opt-in mechanism that can be enabled via an import."
   }
 ]
