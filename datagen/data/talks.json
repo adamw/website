@@ -2193,10 +2193,14 @@
     "url": "https://yavaconf.com",
     "when": "2025-12-05T12:00:00Z",
     "tags": [
-      "virtual threads",
+      "reactive",
+      "streaming",
+      "structured concurrency",
+      "direct style",
+      "loom",
       "scala",
-      "reactive streams",
-      "java"
+      "java",
+      "ox"
     ],
     "where": "Warsaw, Poland",
     "conference": "YavaConf",
