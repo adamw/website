@@ -2114,5 +2114,20 @@
       "type safety"
     ],
     "description": "Capture checking is an upcoming Scala feature that allows you to track which designated values (capabilities) are captured (i.e., stored as references) by arbitrary other values. This tracking happens at compile time and is currently an opt-in mechanism that can be enabled via an import."
+  },
+  {
+    "id": "286d1cc5-b39e-454d-9e5a-4cd3fbf10f04",
+    "title": "What’s Interesting About TigerBeetle?",
+    "url": "https://softwaremill.com/whats-interesting-about-tigerbeetle/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/335.whats-interesting-about-tigerbeetle/utngvpwgeaikcuj.jpg?g-b8f17818",
+    "when": "2026-01-07T12:00:00Z",
+    "tags": [
+      "database",
+      "clustering",
+      "fintech",
+      "replication",
+      "tigerbeetle"
+    ],
+    "description": "TigerBeetle is a fixed-schema, performance-oriented, replicated, highly available financial database that generates a seemingly disproportionate amount of attention. What's the fuss? What is interesting about TigerBeetle?"
   }
 ]
