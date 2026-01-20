@@ -2129,5 +2129,17 @@
       "tigerbeetle"
     ],
     "description": "TigerBeetle is a fixed-schema, performance-oriented, replicated, highly available financial database that generates a seemingly disproportionate amount of attention. What's the fuss? What is interesting about TigerBeetle?"
+  },
+  {
+    "id": "10cf9896-8570-4870-a02d-cf056c123f3f",
+    "title": "TigerBeetle vs PostgreSQL Performance",
+    "url": "https://softwaremill.com/tigerbeetle-vs-postgresql-performance-benchmark-setup-local-tests/",
+    "coverImage": "https://softwaremill.com/user/pages/blog/339.tigerbeetle-vs-postgresql-performance-benchmark-setup-local-tests/3owcfj8elqqxzma.jpg?g-5223e560",
+    "when": "2026-01-20T12:00:00Z",
+    "tags": [
+      "tigerbeetle",
+      "rdbms"
+    ],
+    "description": "In this article, we'll cover the test design and provide the results of initial, single-node, local tests."
   }
 ]
