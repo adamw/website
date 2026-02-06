@@ -9,7 +9,7 @@
 
 <meta property="og:title" content="{{ .Params.title }} | {{ .Site.Title }}" />
 <meta property="og:description" content="{{ .Site.Params.description }}" />
-<meta property="og:image" content="/images/cover.jpg" />
+<meta property="og:image" content="{{ .Params.coverImage | default "/images/cover.jpg" }}" />
 
 {{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Minify }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
