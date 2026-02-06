@@ -4,6 +4,7 @@ author: Adam Warski
 type: blog
 date: 2026-02-06T12:00:00+00:00
 url: /blog/secure-dangerous-claude-code-vs-code-setup/
+coverImage: /blog/wp-content/uploads/2026/02/secure_dangerous_header.png
 simplecatch-sidebarlayout:
   - default
 tags:
@@ -15,6 +16,10 @@ tags:
 ---
 
 My goal is to create an environment where I can let [Claude Code](https://code.claude.com/docs/en/overview) work autonomously on an issue: write tests, code, iterate on the solution, and finally create a PR. For convenience in reviewing and commenting on the code, I want this to happen in an IDE (VS Code). 
+
+<p>
+<img src="/blog/wp-content/uploads/2026/02/secure_dangerous_header.png" alt="Secure vs dangerous header" />
+</p>
 
 But I also want at least some security. For example, I don't want Claude to leak my private SSH key, read anything from the filesystem outside the project's directory, or run any git operations other than those strictly related to the repository in question.
 
