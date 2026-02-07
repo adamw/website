@@ -17,10 +17,6 @@ tags:
 
 My goal is to create an environment where I can let [Claude Code](https://code.claude.com/docs/en/overview) work autonomously on an issue: write tests, code, iterate on the solution, and finally create a PR. For convenience in reviewing and commenting on the code, I want this to happen in an IDE (VS Code). 
 
-<p>
-<img src="/blog/wp-content/uploads/2026/02/secure_dangerous_header.png" alt="Secure vs dangerous header" />
-</p>
-
 But I also want at least some security. For example, I don't want Claude to leak my private SSH key, read anything from the filesystem outside the project's directory, or run any git operations other than those strictly related to the repository in question.
 
 Hence, simply running `claude --dangerously-skip-permissions` on my host machine is out of the question. But, that's what [Dev Containers](https://containers.dev/) are for! They provide a Docker container isolated development environment, with excellent VS Code integration.
@@ -133,7 +129,7 @@ Now for some GitHub security. I don't want the container to have access to the h
 But then, I do want Claude to be able to push to the repository, create PRs, or change issues. Hence, I've created a [fine-grained](https://github.blog/security/application-security/introducing-fine-grained-personal-access-tokens-for-github/) GitHub token, which has the required permissions:
 
 <p>
-<img src="/blog/wp-content/uploads/2026/02/gh_token.png" alt="Claude login" />
+<img src="/blog/wp-content/uploads/2026/02/gh_token.png" alt="GitHub token permissions" loading="lazy" decoding="async" />
 </p>
 
 The token is stored in a `dev-container-oss.env` file in the parent directory (so that I can share the config among multiple projects). Simply having `GITHUB_TOKEN` set in the container will make `gh` work properly. You can pass the environmental variables that should be set in the container using:
@@ -201,7 +197,7 @@ When authorizing, you'll get a popup from VSCode to open a link—you'll need to
 Instead, copy the authorization link and paste it into a browser. You'll get a code—copy it back into the GUI or the terminal.
 
 <p>
-<img src="/blog/wp-content/uploads/2026/02/claude_login.png" alt="Claude login" />
+<img src="/blog/wp-content/uploads/2026/02/claude_login.png" alt="Claude login" loading="lazy" decoding="async" />
 </p>
 
 Thanks to mounting the home folder as a volume, Claude's authorization will survive container restarts & rebuilds.
@@ -219,7 +215,7 @@ claude mcp add --transport http metals http://localhost:62600/mcp
 The port will differ for each project, and can be found by switching to the `Output` tab, then to `Metals` output in the dropdown, and searching for `MCP`.
 
 <p>
-<img src="/blog/wp-content/uploads/2026/02/metals_mcp.png" alt="Claude login" />
+<img src="/blog/wp-content/uploads/2026/02/metals_mcp.png" alt="Metals MCP output" loading="lazy" decoding="async" />
 </p>
 
 ### You're ready!
