@@ -7,9 +7,25 @@
 <link rel="dns-prefetch" href="https://use.fontawesome.com">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
+{{ $description := .Summary | default .Site.Params.description }}
+{{ $image := .Params.coverImage | default "/images/cover.jpg" | absURL }}
+{{ $parsedURL := urls.Parse .Site.BaseURL }}
+{{ $domain := $parsedURL.Host }}
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:type" content="website" />
 <meta property="og:title" content="{{ .Params.title }} | {{ .Site.Title }}" />
-<meta property="og:description" content="{{ .Site.Params.description }}" />
-<meta property="og:image" content="{{ .Params.coverImage | default "/images/cover.jpg" }}" />
+<meta property="og:description" content="{{ $description }}" />
+<meta property="og:image" content="{{ $image }}" />
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:domain" content="{{ $domain }}" />
+<meta property="twitter:url" content="{{ .Permalink }}" />
+<meta name="twitter:title" content="{{ .Params.title }} | {{ .Site.Title }}" />
+<meta name="twitter:description" content="{{ $description }}" />
+<meta name="twitter:image" content="{{ $image }}" />
 
 {{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Minify }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
