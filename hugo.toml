@@ -9,12 +9,6 @@ summarylength = 15
     shortname = 'warski'
 
 [params]
-  google_fonts = [
-    ["Inter", "400"],
-  ]
-
-  heading_font = "Inter"
-
   description = "Architecture, distributed systems, functional programming, event sourcing, developer experience & more."
 
 [[params.plugins.js]]
