@@ -33,7 +33,7 @@ As I'm doing Scala development, which requires a JDK, I used the ["official" dev
 
 I could have installed Java using the dev container [features](https://containers.dev/features); however, I found that for larger dependencies, the Docker layering and caching mechanism works better (i.e., using the Java feature, I often ended up waiting for Java to be redownloaded when rebuilding the image).
 
-Here's the final file, from the [Ox](https://github.com/softwaremill/ox) project's [sources](https://github.com/softwaremill/ox/blob/master/.devcontainer/Dockerfile):
+Here's the final file, from the [Ox](https://github.com/softwaremill/ox) project's [sources](https://github.com/softwaremill/ox/blob/372b7ee1f116503ea451e9b77f3618b4ee3b91d1/.devcontainer/Dockerfile):
 
 ```docker
 FROM mcr.microsoft.com/devcontainers/java:25
@@ -54,7 +54,7 @@ RUN curl -fL "https://github.com/sbt/sbt/releases/download/v1.12.0/sbt-1.12.0.tg
 
 ### Dev container definition: basics
 
-The "heart" of the dev container configuration is the `devcontainer.json` file.  We'll cover it in pieces next, but here's the [full file](https://github.com/softwaremill/ox/blob/master/.devcontainer/devcontainer.json) for reference.
+The "heart" of the dev container configuration is the `devcontainer.json` file.  We'll cover it in pieces next, but here's the [full file](https://github.com/softwaremill/ox/blob/372b7ee1f116503ea451e9b77f3618b4ee3b91d1/.devcontainer/devcontainer.json) for reference.
 
 On top of the Docker container, I'm layering a couple of features (packages installed when the container starts): `node` (for Claude), `claude` itself, and the `gh` command-line client. 
 
@@ -147,7 +147,7 @@ as part of `devcontainer.json`. Moreover, I want any commits to have the proper 
 "postStartCommand": "bash .devcontainer/post-start.sh",
 ```
 
-Where [`.devcontainer/post-create.sh` is](https://github.com/softwaremill/ox/blob/master/.devcontainer/post-create.sh):
+Where [`.devcontainer/post-create.sh` is](https://github.com/softwaremill/ox/blob/372b7ee1f116503ea451e9b77f3618b4ee3b91d1/.devcontainer/post-create.sh):
 
 ```bash
 #!/bin/bash
