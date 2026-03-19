@@ -2141,5 +2141,20 @@
       "rdbms"
     ],
     "description": "In this article, we'll cover the test design and provide the results of initial, single-node, local tests."
+  },
+  {
+    "id": "79e2ddf8-7eb5-4aaa-80ab-9fd8a1591837",
+    "title": "Generating Direct-Style Scala 3 Applications",
+    "url": "https://virtuslab.com/blog/scala/generating-direct-style-scala-3-applications",
+    "coverImage": "https://s3.eu-central-1.amazonaws.com/images.virtuslab.com/generating_scala_3_1_4f88707241.jpg",
+    "when": "2026-03-19T12:00:00Z",
+    "tags": [
+      "scala",
+      "ox",
+      "functional programming",
+      "llm",
+      "ai"
+    ],
+    "description": "What kind of guidance (if any) does an LLM need to write a direct-style Scala 3 application? Let's find out!"
   }
 ]
