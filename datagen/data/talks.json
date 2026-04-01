@@ -2205,5 +2205,21 @@
     "where": "Warsaw, Poland",
     "conference": "YavaConf",
     "slides": "https://adamw.github.io/ox-flows-pres-2/"
+  },
+  {
+    "id": "e1c07f89-767d-4fb0-ad0d-184426ea921b",
+    "title": "10 things about Virtual Threads you might want to know",
+    "url": "https://warszawa.jug.pl",
+    "when": "2026-03-31T12:00:00Z",
+    "tags": [
+      "jox",
+      "java",
+      "reactive",
+      "structured concurrency",
+      "direct style",
+      "loom"
+    ],
+    "where": "Warsaw, Poland",
+    "conference": "Warsaw JUG"
   }
 ]
