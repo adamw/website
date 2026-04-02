@@ -1,5 +1,4 @@
 ---
-aliases: ["/blog"]
 title: Articles
 subtitle: Resources and insights
 description: The latest industry news, interviews, technologies, and resources.
