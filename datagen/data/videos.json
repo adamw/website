@@ -823,5 +823,18 @@
       "loom"
     ],
     "youtube": "Gn0q5zsGarA"
+  },
+  {
+    "id": "af1fe969-88ed-4bd0-ac3a-5cd1b0ebc0e4",
+    "title": "Sandcat AI Sandbox demo",
+    "url": "https://www.youtube.com/watch?v=83WmjdvBD6w",
+    "coverImage": "https://i.ytimg.com/vi/83WmjdvBD6w/maxresdefault.jpg",
+    "when": "2026-04-13T06:01:40Z",
+    "tags": [
+      "sandcat",
+      "ai",
+      "agents"
+    ],
+    "youtube": "83WmjdvBD6w"
   }
 ]
