@@ -2156,5 +2156,21 @@
       "ai"
     ],
     "description": "What kind of guidance (if any) does an LLM need to write a direct-style Scala 3 application? Let's find out!"
+  },
+  {
+    "id": "77a91d44-6e42-42eb-8b20-749837507cce",
+    "title": "Safe Scala: an introduction",
+    "url": "https://virtuslab.com/blog/scala/safe-scala-an-introduction",
+    "coverImage": "https://s3.eu-central-1.amazonaws.com/images.virtuslab.com/5_meta_1_d3d210eee4.jpg",
+    "when": "2026-04-14T12:00:00Z",
+    "tags": [
+      "scala",
+      "ai",
+      "agents",
+      "llm",
+      "capture checking",
+      "security"
+    ],
+    "description": "Let's take a short overview of how Safe Scala works and how it provides tools for restricting the actions an AI agent can perform."
   }
 ]
