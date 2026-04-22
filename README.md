@@ -1,4 +1,4 @@
 # Development
 
-`cd static; npm run watch`
+`cd styles; npm run watch`
 `hugo server`

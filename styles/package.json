@@ -1,11 +1,11 @@
 {
-  "name": "static",
+  "name": "styles",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
-    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -i ./input.css -o ../static/dist/output.css",
+    "watch": "npx tailwindcss -i ./input.css -o ../static/dist/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
