@@ -2172,5 +2172,16 @@
       "security"
     ],
     "description": "Let's take a short overview of how Safe Scala works and how it provides tools for restricting the actions an AI agent can perform."
+  },
+  {
+    "id": "bb2e7509-36ba-4bbd-a9e4-c84df0ebb0a6",
+    "title": "Our impressions from the Scala Survey 2026",
+    "url": "https://virtuslab.com/blog/scala/our-impressions-from-the-scala-survey-2026",
+    "coverImage": "https://s3.eu-central-1.amazonaws.com/images.virtuslab.com/1_meta_2_145e0c0b4e.jpg",
+    "when": "2026-05-13T12:00:00Z",
+    "tags": [
+      "scala"
+    ],
+    "description": "Explore key insights from the Scala Survey 2026, including Scala 3 adoption rates, popular libraries, tooling preferences, and industry trends in the ecosystem."
   }
 ]
