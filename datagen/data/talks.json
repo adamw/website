@@ -2221,5 +2221,21 @@
     ],
     "where": "Warsaw, Poland",
     "conference": "Warsaw JUG"
+  },
+  {
+    "id": "0c2465b9-cbeb-4e36-ad93-2676281aeeb9",
+    "title": "Concurrency testing on the JVM",
+    "url": "https://geecon.org",
+    "when": "2026-05-14T12:00:00Z",
+    "tags": [
+      "java",
+      "testing",
+      "concurrency",
+      "frey",
+      "lincheck"
+    ],
+    "where": "Cracow, Poland",
+    "conference": "GeeCON",
+    "slides": "https://github.com/adamw/fray-pres"
   }
 ]
