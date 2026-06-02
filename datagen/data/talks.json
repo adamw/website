@@ -2252,5 +2252,22 @@
     ],
     "where": "Vienna, Austria",
     "conference": "Java Vienna Meetup"
+  },
+  {
+    "id": "eb45f0ea-15cc-452f-a3cc-a672dae972df",
+    "title": "A Tour of Ox 1.0: Direct-Style Concurrency and Resiliency + Sandcat demo + Orca demo",
+    "url": "https://www.meetup.com/scala-vienna/",
+    "when": "2026-06-02T12:00:00Z",
+    "tags": [
+      "scala",
+      "ox",
+      "virtual threads",
+      "reactive streams",
+      "ai",
+      "orca",
+      "sandcat"
+    ],
+    "where": "Vienna, Austria",
+    "conference": "Vienna Scala Meetup"
   }
 ]
