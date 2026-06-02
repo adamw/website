@@ -2237,5 +2237,20 @@
     "where": "Cracow, Poland",
     "conference": "GeeCON",
     "slides": "https://github.com/adamw/fray-pres"
+  },
+  {
+    "id": "30188d04-660a-4ec0-abdd-c0120cbcff7d",
+    "title": "From Reactive Streams -> Virtual Threads -> Flows",
+    "url": "https://www.meetup.com/java-vienna",
+    "when": "2026-06-01T12:00:00Z",
+    "tags": [
+      "java",
+      "jox",
+      "virtual threads",
+      "reactive streams",
+      "flows"
+    ],
+    "where": "Vienna, Austria",
+    "conference": "Java Vienna Meetup"
   }
 ]
