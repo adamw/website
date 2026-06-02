@@ -2244,11 +2244,13 @@
     "url": "https://www.meetup.com/java-vienna",
     "when": "2026-06-01T12:00:00Z",
     "tags": [
-      "java",
       "jox",
-      "virtual threads",
-      "reactive streams",
-      "flows"
+      "reactive",
+      "streaming",
+      "structured concurrency",
+      "direct style",
+      "loom",
+      "java"
     ],
     "where": "Vienna, Austria",
     "conference": "Java Vienna Meetup"
@@ -2259,10 +2261,13 @@
     "url": "https://www.meetup.com/scala-vienna/",
     "when": "2026-06-02T12:00:00Z",
     "tags": [
-      "scala",
       "ox",
-      "virtual threads",
-      "reactive streams",
+      "scala",
+      "functional programming",
+      "streaming",
+      "structured concurrency",
+      "direct style",
+      "loom",
       "ai",
       "orca",
       "sandcat"
