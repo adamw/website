@@ -185,7 +185,7 @@
     "id": "2bc11893-e7b4-40fe-909d-121675a2112f",
     "title": "Two types of futures",
     "url": "https://softwaremill.com/two-types-of-futures/",
-    "coverImage": "https://softwaremill.com/user/pages/blog/66.two-types-of-futures/two types of futures.jpg?g-3298ba4c",
+    "coverImage": "https://softwaremill.com/user/pages/blog/66.two-types-of-futures/krfp3mijoo5yhgl.jpg?g-7d73a638",
     "when": "2023-06-22T12:00:00Z",
     "tags": [
       "java",
@@ -269,7 +269,7 @@
     "id": "d6b4d2a5-dd09-4a73-aa27-9daf374cf95e",
     "title": "Protecting state using virtual threads",
     "url": "https://softwaremill.com/protecting-state-using-virtual-threads/",
-    "coverImage": "https://softwaremill.com/user/pages/blog/protecting-state-using-virtual-threads/protecting-state-using-threads.jpg?g-3298ba4c",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/img/post-image/suhqyttgff6e0rb.jpg?g-7d73a638",
     "when": "2022-10-27T12:00:00Z",
     "tags": [
       "java",
@@ -283,7 +283,7 @@
     "id": "0a74b329-4ee2-452f-88ac-ca6d89e5c4f0",
     "title": "Trying out Unison, part 3: effects through abilities",
     "url": "https://softwaremill.com/trying-out-unison-part-3-effects-through-abilities/",
-    "coverImage": "https://softwaremill.com/user/pages/blog/trying-out-unison-part-3-effects-through-abilities/unison-effects.jpg?g-3298ba4c",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/img/post-image/w67ht5vfsngxlco.jpg?g-7d73a638",
     "when": "2022-10-19T12:00:00Z",
     "tags": [
       "functional programming",
@@ -296,7 +296,7 @@
     "id": "f7c55fd2-7fe0-4724-98b2-82bb2ef5ac2a",
     "title": "Trying out Unison, part 2: organising code",
     "url": "https://softwaremill.com/trying-out-unison-part-2-organising-code/",
-    "coverImage": "https://softwaremill.com/user/pages/blog/trying-out-unison-part-2-organising-code/unison2.jpg?g-3298ba4c",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/img/post-image/pmhuqvlgddr4l2m.jpg?g-7d73a638",
     "when": "2022-10-06T12:00:00Z",
     "tags": [
       "functional programming",
@@ -324,7 +324,7 @@
     "id": "088c4d2a-7c34-4094-abef-8af8b0f5636c",
     "title": "Migrating from Akka HTTP to tapir",
     "url": "https://softwaremill.com/migrating-from-akka-http-to-tapir/",
-    "coverImage": "https://softwaremill.com/user/pages/blog/migrating-from-akka-http-to-tapir/blogpost-migrating-akka-http-to-tapir.png?g-3298ba4c",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/img/post-image/wzvx79mojjk1fby.png?g-7d73a638",
     "when": "2022-09-21T12:00:00Z",
     "tags": [
       "scala",
@@ -339,7 +339,7 @@
     "id": "e04b52a7-f295-41bc-99c9-c8bfc5e5b5a0",
     "title": "Trying out Unison, part 1: code as hashes",
     "url": "https://softwaremill.com/trying-out-unison-part-1-code-as-hashes/",
-    "coverImage": "https://softwaremill.com/user/pages/blog/trying-out-unison-part-1-code-as-hashes/blogpost-unison-part1.png?g-3298ba4c",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/img/post-image/oczdcbxgkht8v0e.png?g-7d73a638",
     "when": "2022-09-05T12:00:00Z",
     "tags": [
       "functional programming",
@@ -352,7 +352,7 @@
     "id": "79105f5f-0803-477e-a2d9-fca81028c979",
     "title": "Implementing Raft using Project Loom",
     "url": "https://softwaremill.com/implementing-raft-using-project-loom/",
-    "coverImage": "https://softwaremill.com/user/pages/blog/implementing-raft-using-project-loom/blogpost-implementing-raft-using-project-loom.png?g-3298ba4c",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/img/post-image/lsceb3oxkdenqkz.png?g-7d73a638",
     "when": "2022-08-30T12:00:00Z",
     "tags": [
       "java",
@@ -367,7 +367,7 @@
     "id": "de71adaf-e598-4278-b8ba-8a149d892f8a",
     "title": "Implementing Raft using a functional effect system",
     "url": "https://softwaremill.com/implementing-raft-using-a-functional-effect-system/",
-    "coverImage": "https://softwaremill.com/user/pages/blog/implementing-raft-using-a-functional-effect-system/blogpost-raft.png?g-3298ba4c",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/img/post-image/jxewzrg2kqmc4ds.png?g-7d73a638",
     "when": "2022-08-18T12:00:00Z",
     "tags": [
       "scala",
@@ -382,7 +382,7 @@
     "id": "70f2a069-66f7-4fbc-bdf8-09ee8c10f792",
     "title": "The future of effects in Scala?",
     "url": "https://softwaremill.com/the-future-of-effects-in-scala/",
-    "coverImage": "https://softwaremill.com/user/pages/blog/the-future-of-effects-in-scala/blogpost-effects-scala.png?g-3298ba4c",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/img/post-image/w6mwvsqfka1hgxd.png?g-7d73a638",
     "when": "2022-07-28T12:00:00Z",
     "tags": [
       "scala",
@@ -399,7 +399,7 @@
     "id": "af0e8bca-cec7-4587-a9f7-eccd6b8cab38",
     "title": "Functional programming for kids?",
     "url": "https://softwaremill.com/functional-programming-for-kids/",
-    "coverImage": "https://softwaremill.com/user/pages/blog/functional-programming-for-kids/fp-for-kids.png?g-3298ba4c",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/img/post-image/crk1lecudm9teig.png?g-7d73a638",
     "when": "2022-06-21T12:00:00Z",
     "tags": [
       "functional programming",
@@ -412,7 +412,7 @@
     "id": "cb9f84f0-cf4f-49bd-bedb-a42de2efa875",
     "title": "Tapir 1.0 released",
     "url": "https://softwaremill.com/tapir-1-0-released/",
-    "coverImage": "https://softwaremill.com/user/pages/blog/tapir-1-0-released/exk3pozrzjkgxus.jpeg?g-3298ba4c",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/img/post-image/jfmkaqpihg4wd1i.jpeg?g-7d73a638",
     "when": "2022-06-14T12:00:00Z",
     "tags": [
       "scala",
@@ -426,7 +426,7 @@
     "id": "13acdd8d-08d1-4c49-85c2-a82b090862ba",
     "title": "Structuring ZIO 2 applications",
     "url": "https://softwaremill.com/structuring-zio-2-applications/",
-    "coverImage": "https://softwaremill.com/user/pages/blog/structuring-zio-2-applications/vh2frcxqijgedvt.jpeg?g-3298ba4c",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/img/post-image/86ydbulgmejvctt.jpeg?g-7d73a638",
     "when": "2022-06-07T12:00:00Z",
     "tags": [
       "scala",
@@ -454,7 +454,7 @@
     "id": "520db3aa-f072-4068-88f1-d6d9244962d5",
     "title": "Fancy strings in Scala 3",
     "url": "https://softwaremill.com/fancy-strings-in-scala-3/",
-    "coverImage": "https://softwaremill.com/user/pages/blog/fancy-strings-in-scala-3/blogpost-fancy-strings-Scala3.png?g-3298ba4c",
+    "coverImage": "https://softwaremill.com/user/webp/user/themes/softwaremill/assets/img/post-image/g87IdJ1jiUl4FNc.webp",
     "when": "2022-03-30T12:00:00Z",
     "tags": [
       "scala",
@@ -466,7 +466,7 @@
     "id": "a83664b5-47d5-42b0-b892-999de40b75c7",
     "title": "Three tools to improve your Scala workflow",
     "url": "https://softwaremill.com/three-tools-to-improve-your-scala-workflow/",
-    "coverImage": "https://softwaremill.com/user/pages/blog/three-tools-to-improve-your-scala-workflow/blogpost-tools-scala-workflow.png?g-3298ba4c",
+    "coverImage": "https://softwaremill.com/user/webp/user/themes/softwaremill/assets/img/post-image/C1WSk5eKNPEVuam.webp",
     "when": "2022-03-21T12:00:00Z",
     "tags": [
       "scala"
@@ -785,7 +785,7 @@
     "id": "9335f133-fbaa-4eab-9754-7aa1f27b153d",
     "title": "How to run a successful remote software development project Blog",
     "url": "https://softwaremill.com/remote-software-development-project/",
-    "coverImage": "https://softwaremill.com/user/pages/blog/remote-software-development-project/remote software project miroservices.png?g-3298ba4c",
+    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/img/post-image/80pzknortuazko2.png?g-7d73a638",
     "when": "2020-04-15T12:00:00Z",
     "tags": [
       "softwaremill"
@@ -1411,7 +1411,7 @@
     "id": "801c07e1-bb47-415e-ae6f-d1dcae272882",
     "title": "Using Kafka as a message queue",
     "url": "https://softwaremill.com/using-kafka-as-a-message-queue/",
-    "coverImage": "https://softwaremill.com/user/pages/blog/using-kafka-as-a-message-queue/Kafka queue.png?g-3298ba4c",
+    "coverImage": "https://softwaremill.com/user/pages/blog/using-kafka-as-a-message-queue/p8cr6luaelrubtf.png?g-7d73a638",
     "when": "2017-02-27T12:00:00Z",
     "tags": [
       "scala",
@@ -1728,7 +1728,6 @@
     "id": "da5ed2e2-5e1f-4858-b956-df11a023df6e",
     "title": "SoftwareMill Partners with Typesafe to deliver Scala and Akka consulting",
     "url": "https://softwaremill.com/softwaremill-partners-with-typesafe/",
-    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2013/12/typesafe.png",
     "when": "2013-12-04T12:00:00Z",
     "tags": [
       "softwaremill"
@@ -1750,7 +1749,6 @@
     "id": "a0bbde4e-e9a2-4202-b395-44de2a43f900",
     "title": "Monitor anything (with JBison)",
     "url": "https://softwaremill.com/monitor-anything-with-jbison/",
-    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2013/03/2013-02-28_2020.png",
     "when": "2013-03-05T12:00:00Z",
     "tags": [
       "softwaremill"
@@ -1761,7 +1759,6 @@
     "id": "995ef512-946d-4427-a8fd-c2e13cad5bdc",
     "title": "Bootstrap Iteration 10: Angular usage improvements, Rogue",
     "url": "https://softwaremill.com/bootstrap-iteration-10-angular-usage-improvements-rogue/",
-    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2013/03/new-layout.gif",
     "when": "2013-03-03T12:00:00Z",
     "tags": [
       "bootzooka",
@@ -1789,17 +1786,6 @@
       "softwaremill"
     ],
     "description": "One of the main parts of the Attikis system is a VoIP module that services incoming alarms and outgoing voice mail. The module was built 100% based on an opensource project, Mobicents. We used two components of Mobicents: Mobicents SIP Servlets and Mobicents Media Server.When Attikis gets an incoming connection"
-  },
-  {
-    "id": "5c4a8161-423b-4910-b4f1-c70623f927a6",
-    "title": "References from Attikis",
-    "url": "https://softwaremill.com/references-from-attikis/",
-    "coverImage": "https://softwaremill.com/user/themes/softwaremill/assets/_old-website/uploads/2013/06/attikis_references.jpg",
-    "when": "2011-03-17T12:00:00Z",
-    "tags": [
-      "softwaremill"
-    ],
-    "description": "SoftwareMill got references for the development of the project Attikis – home monitoring service integrated with home alarm systems, based on VoIP technology. Let the letter speak for itself: ."
   },
   {
     "id": "07c16fc6-8652-4bca-825c-2adb22ccb086",
