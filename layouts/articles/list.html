@@ -75,7 +75,11 @@
           {{ with $firstArticle }}
           <div>
             <a href="{{.url}}" target="_blank">
-              <img class="mb-5 aspect-video object-cover" src="{{ .coverImage }}" loading="lazy" />
+              {{ if ne .coverImage nil }}
+                <img class="mb-5 aspect-video object-cover" src="{{ .coverImage }}" alt="{{ .title }}" loading="lazy" />
+              {{ else }}
+                <img class="mb-5 aspect-video object-cover" src="/images/placeholder-article.jpg" alt="{{ .title }}" loading="lazy" />
+              {{ end }}
             </a>
           </div>
           <div>
