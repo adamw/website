@@ -838,5 +838,18 @@
       "security"
     ],
     "youtube": "83WmjdvBD6w"
+  },
+  {
+    "id": "7deb2761-a4f1-4c84-8567-3bad84975d0b",
+    "title": "???",
+    "url": "https://youtu.be/QMbaYF58RSw?si=VmUYK9nRViBJVOkO",
+    "when": "2026-06-03T11:00:47.479947Z",
+    "tags": [
+      "java",
+      "testing",
+      "concurrency",
+      "frey",
+      "lincheck"
+    ]
   }
 ]
