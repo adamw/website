@@ -2275,5 +2275,13 @@
     ],
     "where": "Vienna, Austria",
     "conference": "Vienna Scala Meetup"
+  },
+  {
+    "id": "9935c38b-f614-476a-bce4-5880b5ce338d",
+    "title": "Concurrency testing on the JVM",
+    "url": "https://devoxx.pl",
+    "when": "2026-06-17T12:00:00Z",
+    "where": "Cracow, Poland",
+    "conference": "Devoxx Poland"
   }
 ]
