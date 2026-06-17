@@ -2282,6 +2282,14 @@
     "url": "https://devoxx.pl",
     "when": "2026-06-17T12:00:00Z",
     "where": "Cracow, Poland",
-    "conference": "Devoxx Poland"
+    "conference": "Devoxx Poland",
+    "tags": [
+      "java",
+      "testing",
+      "concurrency",
+      "frey",
+      "lincheck"
+    ],
+    "slides": "https://github.com/adamw/fray-pres"
   }
 ]
