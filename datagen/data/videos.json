@@ -853,5 +853,20 @@
       "lincheck"
     ],
     "youtube": "QMbaYF58RSw"
+  },
+  {
+    "id": "1bf75167-3c2a-4ef5-89ee-ae14978353c6",
+    "title": "S1 D1 7",
+    "url": "https://www.youtube.com/watch?v=PWbNw4mmGoA",
+    "coverImage": "https://i.ytimg.com/vi/PWbNw4mmGoA/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgQChKMA8=&rs=AOn4CLDPwnf-ZOtG_mn1Xwj2qmS3LxWm-w",
+    "when": "2026-06-30T20:12:04Z",
+    "tags": [
+      "java",
+      "testing",
+      "concurrency",
+      "frey",
+      "lincheck"
+    ],
+    "youtube": "PWbNw4mmGoA"
   }
 ]

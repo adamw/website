@@ -2281,8 +2281,6 @@
     "title": "Concurrency testing on the JVM",
     "url": "https://devoxx.pl",
     "when": "2026-06-17T12:00:00Z",
-    "where": "Cracow, Poland",
-    "conference": "Devoxx Poland",
     "tags": [
       "java",
       "testing",
@@ -2290,6 +2288,9 @@
       "frey",
       "lincheck"
     ],
-    "slides": "https://github.com/adamw/fray-pres"
+    "where": "Cracow, Poland",
+    "conference": "Devoxx Poland",
+    "slides": "https://github.com/adamw/fray-pres",
+    "video": "1bf75167-3c2a-4ef5-89ee-ae14978353c6"
   }
 ]
