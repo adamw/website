@@ -10,7 +10,8 @@
 */ -}}
 
 {{- $dest := .Destination -}}
-{{- $alt := .PlainText -}}
+{{- /* htmlUnescape: the typographer turns punctuation into entities, which would be escaped again. */ -}}
+{{- $alt := .PlainText | htmlUnescape -}}
 {{- /* Only a standalone image can become a <figure>; inline ones stay inside their paragraph. */ -}}
 {{- $caption := cond .IsBlock .Title "" -}}
 
