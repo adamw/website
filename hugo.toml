@@ -4,6 +4,8 @@ title = "Adam Warski: programming articles & videos"
 author = "Adam Warski"
 name = "Adam Warski"
 summarylength = 15
+# generating image variants for an image-heavy post takes more than the 30s default
+timeout = "300s"
 [services]
   [services.disqus]
     shortname = 'warski'
@@ -18,6 +20,10 @@ summarylength = 15
 
 [markup.goldmark.renderer]
 unsafe= true
+
+# so that a standalone image is a block element, and the render hook can wrap it in <figure>
+[markup.goldmark.parser]
+wrapStandAloneImageWithinParagraph = false
 
 # Menus
 [menus]

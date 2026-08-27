@@ -1,10 +1,7 @@
 <div data-tags="{{ delimit .article.tags ", " }}">
   <a href="{{ .article.url }}" target="_blank">
-    {{ if ne .article.coverImage nil }}
-      <img class="mb-5 aspect-video object-cover" src="{{ .article.coverImage }}" alt="{{ .article.title }}" loading="lazy" decoding="async" />
-    {{ else }}
-      <img class="mb-5 aspect-video object-cover" src="/images/placeholder-article.jpg" alt="{{ .article.title }}" loading="lazy" decoding="async" />
-    {{ end }}
+    {{ $cover := partial "cover-image.html" (dict "path" .article.coverImage "width" 800) | default "/images/placeholder-article.jpg" }}
+    <img class="mb-5 aspect-video object-cover" src="{{ $cover }}" alt="{{ .article.title }}" loading="lazy" decoding="async" />
   </a>
 
   <h6 class="text-sm font-semibold text-[#072671]">{{ time.Format "2 Jan 2006" .article.when }}</h6>

@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 {{ $description := .Summary | default .Site.Params.description }}
-{{ $image := .Params.coverImage | default "/images/cover.jpg" | absURL }}
+{{ $image := partial "cover-image.html" (dict "path" .Params.coverImage "width" 1200) | default "/images/cover.jpg" | absURL }}
 {{ $parsedURL := urls.Parse .Site.BaseURL }}
 {{ $domain := $parsedURL.Host }}
 

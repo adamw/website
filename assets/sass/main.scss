@@ -39,6 +39,23 @@ footer {
   img {
     width: 100%;
   }
+  picture {
+    display: block;
+    margin-bottom: 32px;
+  }
+  figure {
+    margin-bottom: 32px;
+    picture {
+      margin-bottom: 0;
+    }
+    figcaption {
+      font-size: 16px;
+      line-height: 24px;
+      color: #475467;
+      text-align: center;
+      margin-top: 8px;
+    }
+  }
   blockquote {
     padding: 4px 0 4px 20px;
     border-left: 2px solid #072671;

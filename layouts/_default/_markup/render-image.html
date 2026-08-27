@@ -1,0 +1,64 @@
+{{- /*
+  Renders markdown images: ![alt](path "optional caption").
+
+  Images under assets/images (referenced without a leading slash, e.g. images/blog/post/photo.jpg)
+  are resized into a webp srcset with an original-format fallback, so browsers download a variant
+  matching their viewport. Anything else - remote URLs, files in static/, svg, gif - is passed
+  through unchanged.
+
+  A standalone image with a title is wrapped in <figure> with the title as the caption.
+*/ -}}
+
+{{- $dest := .Destination -}}
+{{- $alt := .PlainText -}}
+{{- /* Only a standalone image can become a <figure>; inline ones stay inside their paragraph. */ -}}
+{{- $caption := cond .IsBlock .Title "" -}}
+
+{{- $img := "" -}}
+{{- if not (or (hasPrefix $dest "http") (hasPrefix $dest "/")) -}}
+  {{- $img = or (.Page.Resources.GetMatch $dest) (resources.Get $dest) -}}
+{{- end -}}
+{{- $processable := and $img (not (in (slice ".svg" ".gif") (path.Ext $dest))) -}}
+
+{{- if $caption }}<figure>{{ end -}}
+
+{{- if $processable -}}
+  {{- /* Processing drops EXIF, so apply the EXIF orientation to the pixels first - otherwise photos
+         shot in portrait on a phone come out rotated. */ -}}
+  {{- $img = $img.Filter images.AutoOrient -}}
+
+  {{- /* Widths cover the 720px content column at 1x and 2x; never upscale past the original. */ -}}
+  {{- $widths := slice -}}
+  {{- range (slice 480 720 1080 1440) -}}
+    {{- if le . $img.Width }}{{ $widths = $widths | append . }}{{ end -}}
+  {{- end -}}
+  {{- if not $widths }}{{ $widths = slice $img.Width }}{{ end -}}
+
+  {{- $webp := slice -}}
+  {{- $fallback := slice -}}
+  {{- range $widths -}}
+    {{- $webp = $webp | append (printf "%s %dw" ($img.Resize (printf "%dx webp q80" .)).RelPermalink .) -}}
+    {{- $fallback = $fallback | append (printf "%s %dw" ($img.Resize (printf "%dx q85" .)).RelPermalink .) -}}
+  {{- end -}}
+
+  {{- /* The content column is 720px from the lg breakpoint up; below it, the viewport minus the
+         padding of the two nested .container divs in blog/single.html (2 x 16px per side). */ -}}
+  {{- $sizes := "(min-width: 1024px) 720px, calc(100vw - 64px)" -}}
+  {{- $largest := $img.Resize (printf "%dx q85" (index $widths (sub (len $widths) 1))) -}}
+  <picture>
+    <source type="image/webp" srcset="{{ delimit $webp ", " }}" sizes="{{ $sizes }}">
+    <img src="{{ $largest.RelPermalink }}" srcset="{{ delimit $fallback ", " }}" sizes="{{ $sizes }}"
+         width="{{ $largest.Width }}" height="{{ $largest.Height }}"
+         alt="{{ $alt }}" loading="lazy" decoding="async">
+  </picture>
+{{- else -}}
+  {{- $src := $dest -}}
+  {{- if $img -}}
+    {{- $src = $img.RelPermalink -}}
+  {{- else if not (or (hasPrefix $dest "http") (hasPrefix $dest "/")) -}}
+    {{- errorf "image %q used on page %q was not found under assets/" $dest .Page.File.Path -}}
+  {{- end -}}
+  <img src="{{ $src }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+{{- end -}}
+
+{{- if $caption }}<figcaption>{{ $caption | markdownify }}</figcaption></figure>{{ end -}}

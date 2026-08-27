@@ -1,0 +1,25 @@
+{{- /*
+  Resolves a coverImage front matter value to a URL, given (dict "path" ... "width" ...).
+
+  A path under assets/ (no leading slash, e.g. images/blog/my-post/photo.jpg) is resized to the given
+  width; absolute paths and remote URLs - including the cover images of external articles pulled from
+  datagen - are returned unchanged. Returns "" when path is empty, so callers can `default` a placeholder.
+*/ -}}
+
+{{- $path := .path -}}
+{{- $url := "" -}}
+
+{{- with $path -}}
+  {{- $url = . -}}
+  {{- if not (or (hasPrefix . "http") (hasPrefix . "/")) -}}
+    {{- $img := resources.Get . -}}
+    {{- if $img -}}
+      {{- /* AutoOrient: processing drops EXIF, so bake in the orientation of portrait phone photos. */ -}}
+      {{- $url = (($img.Filter images.AutoOrient).Resize (printf "%dx q85" ($.width | default 1200))).RelPermalink -}}
+    {{- else -}}
+      {{- errorf "coverImage %q was not found under assets/" . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return $url -}}
