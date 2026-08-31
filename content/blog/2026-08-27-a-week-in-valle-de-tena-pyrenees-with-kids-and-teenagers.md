@@ -16,7 +16,7 @@ The holiday season is almost over, so it's high time to plan the next one! Maybe
 
 We often combine going to the seaside with going to the mountains, so that there is something for everybody: a bit of water fun, beach laziness, active time in more moderate temperatures, and some adrenaline-rich attractions. Our family ranges from the rather small (4 years old), through early teens, to almost adult (16 years old), so we have to accommodate many tastes and levels of physical ability.
 
-This year was no different. Since we wanted to see [the eclipse](https://en.wikipedia.org/wiki/Solar_eclipse_of_August_12,_2026), we've chosen Spain. We spent the first week on a pleasant [camping](https://www.playamontroig.com/en) near [Miami Platja](https://maps.app.goo.gl/2VNbQ2FBfQZBQ7NS8), then traveled near Alcaniz for the eclipse itself. Whoever says it's a spectacular sight is right—if you have the chance, don't miss the [next chance](https://en.wikipedia.org/wiki/Solar_eclipse_of_August_2,_2027), 2nd of August 2027 in Spain->Egypt!
+This year was no different. Since we wanted to see [the eclipse](https://en.wikipedia.org/wiki/Solar_eclipse_of_August_12,_2026), we've chosen Spain. We spent the first week on a pleasant [camping](https://www.playamontroig.com/en) near [Miami Platja](https://maps.app.goo.gl/2VNbQ2FBfQZBQ7NS8), then traveled near Alcaniz for the eclipse itself. Whoever says it's a spectacular sight is right—if you have the opportunity, don't miss the [next chance](https://en.wikipedia.org/wiki/Solar_eclipse_of_August_2,_2027), 2nd of August 2027 in Spain->Egypt!
 
 ![Eclipse 2026](images/valle-de-tena/eclipse.jpg)
 
