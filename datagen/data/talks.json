@@ -2298,7 +2298,15 @@
     "title": "Concurrency testing on the JVM",
     "url": "https://2026.javazone.no",
     "when": "2026-09-03T12:00:00Z",
+    "tags": [
+      "java",
+      "testing",
+      "concurrency",
+      "frey",
+      "lincheck"
+    ],
     "where": "Oslo, Norway",
-    "conference": "JavaZone"
+    "conference": "JavaZone",
+    "slides": "https://github.com/adamw/fray-pres"
   }
 ]
