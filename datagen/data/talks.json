@@ -2292,5 +2292,13 @@
     "conference": "Devoxx Poland",
     "slides": "https://github.com/adamw/fray-pres",
     "video": "1bf75167-3c2a-4ef5-89ee-ae14978353c6"
+  },
+  {
+    "id": "f2698c06-faff-451d-be30-8bd5a8e3b09c",
+    "title": "Concurrency testing on the JVM",
+    "url": "https://2026.javazone.no",
+    "when": "2026-09-03T12:00:00Z",
+    "where": "Oslo, Norway",
+    "conference": "JavaZone"
   }
 ]
