@@ -2308,5 +2308,19 @@
     "where": "Oslo, Norway",
     "conference": "JavaZone",
     "slides": "https://github.com/adamw/fray-pres"
+  },
+  {
+    "id": "38d87cab-4c1d-4e2a-8e33-531201a9d7f0",
+    "title": "Where Scala meets AI + Panel: Does language choice even matter in the AI era?",
+    "url": "https://scaladays.org",
+    "when": "2026-10-13T12:00:00Z",
+    "tags": [
+      "scala",
+      "ai",
+      "capture checking"
+    ],
+    "where": "Berlin, Germany",
+    "conference": "ScalaDays",
+    "slides": "https://github.com/adamw/scala-ai-pres"
   }
 ]
