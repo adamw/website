@@ -2310,17 +2310,22 @@
     "slides": "https://github.com/adamw/fray-pres"
   },
   {
-    "id": "38d87cab-4c1d-4e2a-8e33-531201a9d7f0",
-    "title": "Panel: Does language choice even matter in the AI era?",
+    "id": "665127df-427f-4872-9100-399491a122dc",
+    "title": "Where Scala meets AI",
     "url": "https://scaladays.org",
     "when": "2026-10-13T12:00:00Z",
     "tags": [
       "scala",
-      "ai"
+      "ai",
+      "orca",
+      "sandcat",
+      "sttp ai",
+      "chimp"
     ],
     "where": "Berlin, Germany",
     "conference": "ScalaDays",
-    "video": "73b58b82-9747-4a1e-862a-231ae540b285"
+    "slides": "https://github.com/adamw/scala-ai-pres",
+    "video": "049972af-1f6f-4e08-abe2-483c30a4490a"
   },
   {
     "id": "38d87cab-4c1d-4e2a-8e33-531201a9d7f0",
