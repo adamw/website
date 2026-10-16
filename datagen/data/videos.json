@@ -868,5 +868,21 @@
       "lincheck"
     ],
     "youtube": "PWbNw4mmGoA"
+  },
+  {
+    "id": "049972af-1f6f-4e08-abe2-483c30a4490a",
+    "title": "Adam Warski – Where Scala meets AI #ScalaDays",
+    "url": "https://www.youtube.com/watch?v=4yVVH5r2h_c",
+    "coverImage": "https://i.ytimg.com/vi/4yVVH5r2h_c/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGH8gLCgnMA8=&rs=AOn4CLD2Wl6tMNrQm99GkyniFAYdLTIiAw",
+    "when": "2026-10-15T16:36:11Z",
+    "tags": [
+      "scala",
+      "ai",
+      "orca",
+      "sandcat",
+      "sttp ai",
+      "chimp"
+    ],
+    "youtube": "4yVVH5r2h_c"
   }
 ]
