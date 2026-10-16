@@ -2311,21 +2311,29 @@
   },
   {
     "id": "38d87cab-4c1d-4e2a-8e33-531201a9d7f0",
-    "title": "Where Scala meets AI + Panel: Does language choice even matter in the AI era?",
+    "title": "Panel: Does language choice even matter in the AI era?",
     "url": "https://scaladays.org",
     "when": "2026-10-13T12:00:00Z",
     "tags": [
       "scala",
-      "ai",
-      "orca",
-      "sandcat",
-      "sttp ai",
-      "chimp"
+      "ai"
     ],
     "where": "Berlin, Germany",
     "conference": "ScalaDays",
-    "slides": "https://github.com/adamw/scala-ai-pres",
-    "video": "049972af-1f6f-4e08-abe2-483c30a4490a"
+    "video": "73b58b82-9747-4a1e-862a-231ae540b285"
+  },
+  {
+    "id": "38d87cab-4c1d-4e2a-8e33-531201a9d7f0",
+    "title": "Panel: Does language choice even matter in the AI era?",
+    "url": "https://scaladays.org",
+    "when": "2026-10-13T12:00:00Z",
+    "tags": [
+      "scala",
+      "ai"
+    ],
+    "where": "Berlin, Germany",
+    "conference": "ScalaDays",
+    "video": "73b58b82-9747-4a1e-862a-231ae540b285"
   },
   {
     "id": "b762f0bb-4193-45ba-a1cf-2f7b0ae58981",
@@ -2338,7 +2346,8 @@
       "orca",
       "capture checking",
       "safe scala",
-      "sandcat"
+      "sandcat",
+      "functional pogramming"
     ],
     "where": "Stockholm, Sweden",
     "conference": "FuncProgConf",

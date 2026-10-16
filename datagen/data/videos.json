@@ -884,5 +884,17 @@
       "chimp"
     ],
     "youtube": "4yVVH5r2h_c"
+  },
+  {
+    "id": "73b58b82-9747-4a1e-862a-231ae540b285",
+    "title": "Does language choice even matter in the AI era? #ScalaDays",
+    "url": "https://www.youtube.com/watch?v=tCsp4kZz_RE",
+    "coverImage": "https://i.ytimg.com/vi/tCsp4kZz_RE/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGE4gWihlMA8=&rs=AOn4CLBLVvw08LP0zvINLwQjlzfgqLhp5w",
+    "when": "2026-10-15T16:35:19Z",
+    "tags": [
+      "scala",
+      "ai"
+    ],
+    "youtube": "tCsp4kZz_RE"
   }
 ]
