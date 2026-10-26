@@ -2357,5 +2357,56 @@
     "where": "Stockholm, Sweden",
     "conference": "FuncProgConf",
     "slides": "https://github.com/adamw/scala-ai-pres-fp"
+  },
+  {
+    "id": "6880161a-3a97-4e47-be89-cac06d473c8f",
+    "title": "Where Scala meets AI",
+    "url": "https://2026.scalasummit.com",
+    "when": "2026-10-19T12:00:00Z",
+    "tags": [
+      "scala",
+      "ai",
+      "orca",
+      "sandcat",
+      "sttp ai",
+      "chimp"
+    ],
+    "where": "San Francisco, USA",
+    "conference": "Scala Summit",
+    "slides": "https://github.com/adamw/scala-ai-pres"
+  },
+  {
+    "id": "a1530965-2f5b-4622-9cf4-79ea414d664a",
+    "title": "Where Scala meets AI",
+    "url": "https://www.meetup.com/chicagoscala/events/316782098/",
+    "when": "2026-10-22T12:00:00Z",
+    "tags": [
+      "scala",
+      "ai",
+      "orca",
+      "sandcat",
+      "sttp ai",
+      "chimp"
+    ],
+    "where": "Chicago, USA",
+    "conference": "Chicago Scala Meetup",
+    "slides": "https://github.com/adamw/scala-ai-pres"
+  },
+  {
+    "id": "0b40d75f-7666-43b9-8010-5b3c2fa6821d",
+    "title": "Where Scala meets AI",
+    "url": "https://www.meetup.com/ny-scala/events/316180105/",
+    "when": "2026-10-26T12:00:00Z",
+    "tags": [
+      "scala",
+      "ai",
+      "orca",
+      "sandcat",
+      "sttp ai",
+      "chimp"
+    ],
+    "where": "New York, USA",
+    "conference": "NY Scala Meetup",
+    "slides": "https://github.com/adamw/scala-ai-pres"
   }
 ]
