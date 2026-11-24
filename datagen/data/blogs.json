@@ -2169,5 +2169,23 @@
       "scala"
     ],
     "description": "Explore key insights from the Scala Survey 2026, including Scala 3 adoption rates, popular libraries, tooling preferences, and industry trends in the ecosystem."
+  },
+  {
+    "id": "1e32a5e1-e102-40ea-ba0a-e7b5c0b80644",
+    "title": "Scala's Type System: Eliminating Concurrency Bugs at Compile Time",
+    "url": "https://virtuslab.com/blog/scala/beyond-memory-safety-verifying-structured-concurrency-with-the-type-system",
+    "coverImage": "https://s3.eu-central-1.amazonaws.com/images.virtuslab.com/261124_Blog_Post_Cover_Beyond_Memory_Safety_BP_627ca99f86.jpg",
+    "when": "2026-11-24T12:00:00Z",
+    "tags": [
+      "scala",
+      "capture checking",
+      "structured concurrency",
+      "concurrency",
+      "verification",
+      "functional programming",
+      "type safety",
+      "effects"
+    ],
+    "description": "A step-by-step tour of how Scala's context functions, capture checking, and separation checking progressively harden the fork concurrency primitive—eliminating entire classes of runtime bugs before the program runs."
   }
 ]
