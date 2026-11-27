@@ -2408,5 +2408,19 @@
     "where": "New York, USA",
     "conference": "NY Scala Meetup",
     "slides": "https://github.com/adamw/scala-ai-pres"
+  },
+  {
+    "id": "d4048555-9dff-495b-97dd-b773d17729c8",
+    "title": "Java’s Structured Concurrency: why you and your agent should be interested",
+    "url": "https://wawtech.io",
+    "when": "2026-11-27T12:00:00Z",
+    "tags": [
+      "java",
+      "structured concurrency",
+      "virtual threads"
+    ],
+    "where": "Warsaw, Poland",
+    "conference": "WAWTech",
+    "slides": "https://softwaremill.github.io/jox-pres-2/"
   }
 ]
