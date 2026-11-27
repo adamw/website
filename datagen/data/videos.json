@@ -907,5 +907,22 @@
       "scala"
     ],
     "youtube": "t2eHDJvL668"
+  },
+  {
+    "id": "3e9f1bd4-b708-4e65-96a3-3ad937ccc459",
+    "title": "The Scala 3 Features for Agentic Development by Adam Warski",
+    "url": "https://www.youtube.com/watch?v=t2eHDJvL668",
+    "coverImage": "https://i.ytimg.com/vi/t2eHDJvL668/hqdefault.jpg",
+    "when": "2026-11-25T08:00:23Z",
+    "tags": [
+      "scala",
+      "ai",
+      "orca",
+      "capture checking",
+      "safe scala",
+      "sandcat",
+      "functional pogramming"
+    ],
+    "youtube": "t2eHDJvL668"
   }
 ]

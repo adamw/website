@@ -2356,7 +2356,8 @@
     ],
     "where": "Stockholm, Sweden",
     "conference": "FuncProgConf",
-    "slides": "https://github.com/adamw/scala-ai-pres-fp"
+    "slides": "https://github.com/adamw/scala-ai-pres-fp",
+    "video": "3e9f1bd4-b708-4e65-96a3-3ad937ccc459"
   },
   {
     "id": "6880161a-3a97-4e47-be89-cac06d473c8f",
