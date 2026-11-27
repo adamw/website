@@ -2411,13 +2411,17 @@
   },
   {
     "id": "d4048555-9dff-495b-97dd-b773d17729c8",
-    "title": "Java’s Structured Concurrency: why you and your agent should be interested",
+    "title": "Java's Structured Concurrency: why you and your agent should be interested",
     "url": "https://wawtech.io",
     "when": "2026-11-27T12:00:00Z",
     "tags": [
-      "java",
+      "jox",
+      "reactive",
+      "streaming",
       "structured concurrency",
-      "virtual threads"
+      "direct style",
+      "loom",
+      "java"
     ],
     "where": "Warsaw, Poland",
     "conference": "WAWTech",
