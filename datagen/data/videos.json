@@ -899,7 +899,7 @@
   },
   {
     "id": "3e9f1bd4-b708-4e65-96a3-3ad937ccc459",
-    "title": "The Scala 3 Features for Agentic Development by Adam Warski",
+    "title": "The Scala 3 Features for Agentic Development",
     "url": "https://www.youtube.com/watch?v=t2eHDJvL668",
     "coverImage": "https://i.ytimg.com/vi/t2eHDJvL668/hqdefault.jpg",
     "when": "2026-11-25T08:00:23Z",
@@ -916,12 +916,14 @@
   },
   {
     "id": "75e64990-7e01-4942-85ec-9a10657aa7f0",
-    "title": "Czy agenci AI zastąpią programistów? Artur Skowroński, Adam Warski, Krzysztof Grajek - VirtusLab",
+    "title": "Czy agenci AI zastąpią programistów?",
     "url": "https://www.youtube.com/watch?v=WPpCSUt8Bgc",
     "coverImage": "https://i.ytimg.com/vi/WPpCSUt8Bgc/maxresdefault.jpg",
     "when": "2026-11-24T13:19:10Z",
     "tags": [
-      "ai"
+      "ai",
+      "agents",
+      "virtuslab"
     ],
     "youtube": "WPpCSUt8Bgc"
   }
